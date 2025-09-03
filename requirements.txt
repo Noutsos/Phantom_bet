@@ -13,4 +13,4 @@ nbformat>=4.2.0
 jupyter
 imbalanced-learn
 scikit-optimize
-tqdm
+gunicorn==21.2.0

@@ -2,14 +2,14 @@ import os
 import pandas as pd
 from datetime import datetime, timedelta
 import logging
-import json
-from flask import Flask, render_template, request, jsonify, session, redirect, url_for
+from flask import Flask, render_template, request, jsonify, session, redirect, url_for, send_file
 from src.collect_pipeline import CollectPipeline
 from src.extract_pipeline import ExtractPipeline
 from src.process_pipeline import ProcessPipeline
 from src.train_pipeline import TrainPipeline
 from src.predict_pipeline import PredictPipeline
-from src.utils import LEAGUES
+from src.utils import LEAGUES 
+from jinja2 import Environment
 
 app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'  # Change this in production
@@ -22,7 +22,8 @@ PIPELINE_CONFIG = {
     'verbose': True,
     'data_types': {
         'fixtures': 'fixture_events.csv',
-        'team_stats': 'team_statistics.csv'
+        'team_stats': 'team_statistics.csv',
+        'odds': 'odds.csv'
     },
     'required_cols': {
         'fixtures': ['fixture_id', 'home_team_id', 'away_team_id', 'date'],
@@ -56,137 +57,41 @@ TRAIN_CONFIG = {
     'smote_strategy': {1: 1500}
 }
 
-
-
-# Helper functions to filter leagues
-def get_leagues_by_categories(categories):
-    """Get leagues by category names"""
-    matching_leagues = []
-    for region, countries in LEAGUES.items():
-        if region == 'Europe':  # Special case for international competitions
-            for league_id, league_info in countries.items():
-                if league_info['category'] in categories:
-                    matching_leagues.append({'id': int(league_id), 'name': league_info['name'], 'country': 'International'})
-        else:
-            for country, leagues in countries.items():
-                for league_id, league_info in leagues.items():
-                    if league_info['category'] in categories:
-                        matching_leagues.append({'id': int(league_id), 'name': league_info['name'], 'country': country})
-    return matching_leagues
-
-def get_leagues_by_countries(countries):
-    """Get leagues by country names"""
-    matching_leagues = []
-    for region, country_data in LEAGUES.items():
-        if region == 'Europe':  # Special case for international competitions
-            if 'International' in countries:
-                for league_id, league_info in country_data.items():
-                    matching_leagues.append({'id': int(league_id), 'name': league_info['name'], 'country': 'International'})
-        else:
-            for country, leagues in country_data.items():
-                if country in countries:
-                    for league_id, league_info in leagues.items():
-                        matching_leagues.append({'id': int(league_id), 'name': league_info['name'], 'country': country})
-    return matching_leagues
-
-def get_leagues_by_regions(regions):
-    """Get leagues by region names"""
-    matching_leagues = []
-    for region, country_data in LEAGUES.items():
-        if region in regions:
-            if region == 'Europe':  # Special case for international competitions
-                for league_id, league_info in country_data.items():
-                    matching_leagues.append({'id': int(league_id), 'name': league_info['name'], 'country': 'International'})
-            else:
-                for country, leagues in country_data.items():
-                    for league_id, league_info in leagues.items():
-                        matching_leagues.append({'id': int(league_id), 'name': league_info['name'], 'country': country})
-    return matching_leagues
-
-def get_leagues_by_names(league_names):
-    """Get leagues by league names"""
-    matching_leagues = []
-    for region, countries in LEAGUES.items():
-        if region == 'Europe':  # Special case for international competitions
-            for league_id, league_info in countries.items():
-                if league_info['name'] in league_names:
-                    matching_leagues.append({'id': int(league_id), 'name': league_info['name'], 'country': 'International'})
-        else:
-            for country, leagues in countries.items():
-                for league_id, league_info in leagues.items():
-                    if league_info['name'] in league_names:
-                        matching_leagues.append({'id': int(league_id), 'name': league_info['name'], 'country': country})
-    return matching_leagues
-
 @app.route('/')
 def index():
     return render_template('index.html')
 
 @app.route('/collection', methods=['GET', 'POST'])
 def collection():
+    collector = CollectPipeline("dummy_key")
+    
     if request.method == 'POST':
         # Get form data
-        league_id = request.form.get('league_id')
         season = request.form.get('season')
         
-        # Check if league_id is required
-        filter_ids = request.form.get('filter_ids')
-        filter_categories = request.form.get('filter_categories')
-        filter_countries = request.form.get('filter_countries')
-        filter_regions = request.form.get('filter_regions')
-        filter_leagues = request.form.get('filter_leagues')
+        # Get unified selection data
+        selected_regions = request.form.getlist('selected_regions')
+        selected_countries = request.form.getlist('selected_countries')
+        selected_leagues = request.form.getlist('selected_leagues')  # This was missing!
         
-        # If using filter IDs, categories, countries, regions, or league names, league_id is not required
-        if not league_id and not filter_ids and not filter_categories and not filter_countries and not filter_regions and not filter_leagues:
-            return render_template('collection.html', error="League ID is required unless using filters")
+        # Debug output
+        print(f"DEBUG - Selected regions: {selected_regions}")
+        print(f"DEBUG - Selected countries: {selected_countries}")
+        print(f"DEBUG - Selected leagues: {selected_leagues}")
         
-        # Get league IDs based on filters
-        league_ids = []
+        # Convert to appropriate types
+        filter_ids = [int(league_id) for league_id in selected_leagues if league_id and league_id.strip()] 
+        filter_ids = filter_ids if filter_ids else None
         
-        # If specific league ID is provided
-        if league_id:
-            league_ids.append(int(league_id))
-        
-        # If filter by IDs is provided
-        if filter_ids:
-            try:
-                ids = [int(id_str.strip()) for id_str in filter_ids.split(',')]
-                league_ids.extend(ids)
-            except ValueError:
-                return render_template('collection.html', error="Invalid format for Filter IDs. Please use comma-separated numbers.")
-        
-        # If filter by categories is provided
-        if filter_categories:
-            categories = [cat.strip() for cat in filter_categories.split(',')]
-            for league in get_leagues_by_categories(categories):
-                league_ids.append(league['id'])
-        
-        # If filter by countries is provided
-        if filter_countries:
-            countries = [country.strip() for country in filter_countries.split(',')]
-            for league in get_leagues_by_countries(countries):
-                league_ids.append(league['id'])
-        
-        # If filter by regions is provided
-        if filter_regions:
-            regions = [region.strip() for region in filter_regions.split(',')]
-            for league in get_leagues_by_regions(regions):
-                league_ids.append(league['id'])
-        
-        # If filter by league names is provided
-        if filter_leagues:
-            league_names = [name.strip() for name in filter_leagues.split(',')]
-            for league in get_leagues_by_names(league_names):
-                league_ids.append(league['id'])
-        
-        # Remove duplicates
-        league_ids = list(set(league_ids))
-        
-        if not league_ids:
-            return render_template('collection.html', error="No leagues found matching the specified filters")
+        # If no selection made
+        if not selected_regions and not selected_countries and not selected_leagues:
+            leagues_by_region = collector.get_all_leagues()
+            return render_template('collection.html', 
+                                 error="Please select at least one region, country, or league",
+                                 leagues_by_region=leagues_by_region)
         
         session['collection_config'] = {
-            'league_ids': league_ids,
+            'league_id': None,
             'season': int(season) if season else None,
             'data_types': request.form.getlist('data_types'),
             'keep_progress': 'keep_progress' in request.form,
@@ -195,40 +100,38 @@ def collection():
             'start_date': request.form.get('start_date'),
             'end_date': request.form.get('end_date'),
             'collection_phase': int(request.form.get('collection_phase', 1)),
-            'filter_ids': filter_ids,
-            'filter_tiers': request.form.get('filter_tiers'),
-            'filter_cups': request.form.get('filter_cups'),
-            'filter_categories': filter_categories,
-            'filter_countries': filter_countries,
-            'filter_regions': filter_regions,
-            'filter_leagues': filter_leagues
+            'selected_regions': selected_regions,
+            'selected_countries': selected_countries,
+            'selected_leagues': selected_leagues,
+            'filter_ids': filter_ids
         }
         
-        # Run collection for all league IDs
+        print(f"DEBUG - Final session config: {session['collection_config']}")
+        
+        # Run collection
         try:
-            results = []
-            for league_id in league_ids:
-                result = run_collection(
-                    league_id=league_id,
-                    season=session['collection_config']['season'],
-                    data_types=session['collection_config']['data_types'],
-                    keep_progress=session['collection_config']['keep_progress'],
-                    batch_size=session['collection_config']['batch_size'],
-                    progress_file=session['collection_config']['progress_file'],
-                    start_date=session['collection_config']['start_date'],
-                    end_date=session['collection_config']['end_date'],
-                    collection_phase=session['collection_config']['collection_phase']
-                )
-                results.append(result)
-            
-            # Store results in session for display
-            session['collection_results'] = results
-            return redirect(url_for('results', phase='collection', success=True, league_count=len(league_ids)))
+            run_collection(**session['collection_config'])
+            return redirect(url_for('results', phase='collection', success=True))
         except Exception as e:
             return redirect(url_for('results', phase='collection', success=False, error=str(e)))
     
-    return render_template('collection.html')
+    # GET request - show available options
+    leagues_by_region = collector.get_all_leagues()
     
+    return render_template('collection.html', 
+                         leagues_by_region=leagues_by_region)
+
+@app.template_filter('sum_lengths')
+def sum_lengths_filter(dict_values):
+    """Custom filter to sum lengths of lists in dictionary values"""
+    try:
+        return sum(len(items) for items in dict_values)
+    except:
+        return 0
+
+# Register the filter
+app.jinja_env.filters['sum_lengths'] = sum_lengths_filter
+
 @app.route('/extraction', methods=['GET', 'POST'])
 def extraction():
     if request.method == 'POST':
@@ -256,7 +159,8 @@ def processing():
             
             session['processing_config'] = processing_config
             
-            run_processing()
+            # Pass the force_processing parameter to run_processing
+            run_processing(force_processing=processing_config['force_processing'])
             return redirect(url_for('results', phase='processing', success=True))
         except Exception as e:
             return redirect(url_for('results', phase='processing', success=False, error=str(e)))
@@ -299,60 +203,217 @@ def training():
 def prediction():
     if request.method == 'POST':
         try:
+            # Run prediction
             run_prediction()
-            return redirect(url_for('results', phase='prediction', success=True))
+            return redirect(url_for('view_predictions'))
         except Exception as e:
             return redirect(url_for('results', phase='prediction', success=False, error=str(e)))
     
     return render_template('prediction.html')
+
+
+
+@app.route('/view_predictions', methods=['GET', 'POST'])
+def view_predictions():
+    # Get filter parameters from request
+    league_filter = request.args.get('league', '')
+    date_filter = request.args.get('date', '')
+    outcome_filter = request.args.get('outcome', '')
+    min_odds_filter = request.args.get('min_odds', '')
+    max_odds_filter = request.args.get('max_odds', '')
+    
+    # Check if we have existing predictions to display
+    predictions_file = 'data/predictions/predictions.csv'
+    if os.path.exists(predictions_file):
+        try:
+            # Get file modification time
+            file_time = datetime.fromtimestamp(os.path.getmtime(predictions_file))
+            
+            predictions_df = pd.read_csv(predictions_file)
+            
+            # Apply filters
+            if league_filter:
+                predictions_df = predictions_df[predictions_df['league_name'].str.contains(league_filter, case=False, na=False)]
+            
+            if date_filter:
+                # Convert both dates to datetime for comparison
+                predictions_df['date_only'] = pd.to_datetime(predictions_df['date']).dt.date
+                filter_date = pd.to_datetime(date_filter).date()
+                predictions_df = predictions_df[predictions_df['date_only'] == filter_date]
+            
+            if outcome_filter:
+                predictions_df = predictions_df[predictions_df['predicted_outcome'].str.contains(outcome_filter, case=False, na=False)]
+            
+            # Apply odds filters if provided
+            odds_columns = ['odds_home_win', 'odds_draw', 'odds_away_win']
+            for col in odds_columns:
+                if col in predictions_df.columns:
+                    if min_odds_filter:
+                        try:
+                            min_odds = float(min_odds_filter)
+                            predictions_df = predictions_df[predictions_df[col] >= min_odds]
+                        except ValueError:
+                            pass
+                    if max_odds_filter:
+                        try:
+                            max_odds = float(max_odds_filter)
+                            predictions_df = predictions_df[predictions_df[col] <= max_odds]
+                        except ValueError:
+                            pass
+            
+            # Format the date column for better readability
+            if 'date' in predictions_df.columns:
+                predictions_df['formatted_date'] = pd.to_datetime(predictions_df['date']).dt.strftime('%Y-%m-%d %H:%M')
+            
+            # Format probability columns to percentages
+            prob_columns = ['away_win_prob', 'draw_prob', 'home_win_prob', 'confidence']
+            for col in prob_columns:
+                if col in predictions_df.columns:
+                    predictions_df[col] = predictions_df[col].apply(lambda x: f'{float(x):.1%}')
+            
+            # Format odds columns to 2 decimal places
+            odds_columns = ['odds_home_win', 'odds_draw', 'odds_away_win']
+            for col in odds_columns:
+                if col in predictions_df.columns:
+                    predictions_df[col] = predictions_df[col].apply(lambda x: f'{float(x):.2f}' if pd.notna(x) else 'N/A')
+            
+            # Add CSS classes for different outcomes
+            predictions_df['outcome_class'] = predictions_df['predicted_outcome'].map({
+                'home_win': 'outcome-home-win',
+                'draw': 'outcome-draw',
+                'away_win': 'outcome-away-win'
+            })
+            
+            # Determine which columns to display (only include existing columns)
+            display_columns = ['formatted_date', 'league_name', 'home_team', 'away_team', 
+                             'away_win_prob', 'draw_prob', 'home_win_prob', 
+                             'confidence', 'predicted_outcome']
+            
+            # Add odds columns if they exist
+            for col in ['odds_home_win', 'odds_draw', 'odds_away_win']:
+                if col in predictions_df.columns:
+                    display_columns.append(col)
+            
+            # Convert to HTML with custom formatting
+            predictions_html = predictions_df.to_html(
+                classes='table table-striped prediction-table', 
+                index=False,
+                escape=False,
+                columns=display_columns
+            )
+            
+            match_count = len(predictions_df)
+            
+            # Get unique values for filter dropdowns
+            unique_leagues = []
+            unique_dates = []
+            unique_outcomes = []
+            
+            if os.path.exists(predictions_file):
+                all_predictions = pd.read_csv(predictions_file)
+                if 'league_name' in all_predictions.columns:
+                    unique_leagues = sorted(all_predictions['league_name'].unique().tolist())
+                if 'date' in all_predictions.columns:
+                    # Extract unique dates
+                    all_predictions['date_only'] = pd.to_datetime(all_predictions['date']).dt.date
+                    unique_dates = sorted(all_predictions['date_only'].unique().tolist())
+                    unique_dates = [date.strftime('%Y-%m-%d') for date in unique_dates]
+                if 'predicted_outcome' in all_predictions.columns:
+                    unique_outcomes = sorted(all_predictions['predicted_outcome'].unique().tolist())
+            
+            return render_template('view_predictions.html', 
+                                 predictions_table=predictions_html,
+                                 match_count=match_count,
+                                 generated_time=file_time.strftime('%Y-%m-%d %H:%M'),
+                                 league_filter=league_filter,
+                                 date_filter=date_filter,
+                                 outcome_filter=outcome_filter,
+                                 min_odds_filter=min_odds_filter,
+                                 max_odds_filter=max_odds_filter,
+                                 unique_leagues=unique_leagues,
+                                 unique_dates=unique_dates,
+                                 unique_outcomes=unique_outcomes)
+        except Exception as e:
+            print(f"Error loading predictions: {e}")
+            return render_template('view_predictions.html', error=str(e))
+    
+    return render_template('view_predictions.html', no_predictions=True)
+
+
+
+
+@app.route('/download_predictions')
+def download_predictions():
+    predictions_file = 'data/predictions/predictions.csv'
+    if os.path.exists(predictions_file):
+        return send_file(
+            predictions_file,
+            as_attachment=True,
+            download_name=f'predictions_{datetime.now().strftime("%Y%m%d_%H%M%S")}.csv',
+            mimetype='text/csv'
+        )
+    return redirect(url_for('view_predictions'))
 
 @app.route('/results')
 def results():
     phase = request.args.get('phase', '')
     success = request.args.get('success', 'false').lower() == 'true'
     error = request.args.get('error', '')
-    league_count = request.args.get('league_count', 0)
     
-    # Get collection results if available
-    collection_results = session.get('collection_results', [])
-    
-    return render_template('results.html', phase=phase, success=success, error=error, 
-                          league_count=league_count, collection_results=collection_results)
+    return render_template('results.html', phase=phase, success=success, error=error)
 
-# Collection function that works with your pipeline
-def run_collection(league_id, season, data_types, keep_progress, batch_size, 
-               progress_file, start_date, end_date, collection_phase, **kwargs):
-    """Run collection phase pipeline for a league"""
+# Your existing functions (slightly modified to work with the web app)
+def run_collection(season, data_types, keep_progress, batch_size, progress_file, collection_phase,
+                  selected_regions=None, selected_countries=None, selected_leagues=None, **kwargs):
+    """Run collection with unified selection parameters"""
     
     API_KEY = "25c02ce9f07df0edc1e69866fbe7d156"
     collector = CollectPipeline(API_KEY)
     
-    # Get league info for country and league name
-    country_name, league_info = collector.get_league_info(league_id)
-    league_name = league_info['name']
+    # Convert selected leagues to filter_ids
+    filter_ids = [int(league_id) for league_id in selected_leagues] if selected_leagues else None
     
-    # Process the single league
-    result = collector._process_single_league(
-        league_id=league_id,
-        season=season,
-        data_types=data_types,
+    # If regions or countries are selected, we need to get all leagues from those groups
+    if selected_regions or selected_countries:
+        all_leagues = collector.get_all_leagues()
+        league_ids = []
+        
+        # Add leagues from selected regions
+        if selected_regions:
+            for region in selected_regions:
+                if region in all_leagues:
+                    for country_leagues in all_leagues[region].values():
+                        league_ids.extend([league['id'] for league in country_leagues])
+        
+        # Add leagues from selected countries
+        if selected_countries:
+            for country in selected_countries:
+                for region_data in all_leagues.values():
+                    if country in region_data:
+                        league_ids.extend([league['id'] for league in region_data[country]])
+        
+        # Combine with individually selected leagues
+        if filter_ids:
+            league_ids.extend(filter_ids)
+        
+        filter_ids = list(set(league_ids))  # Remove duplicates
+    
+    # Collect data
+    collector.collect_league_data_filter(
+        season=season, 
+        data_types=data_types, 
         keep_progress=keep_progress,
         batch_size=batch_size,
         progress_file=progress_file,
-        start_date=start_date,
-        end_date=end_date,
         collection_phase=collection_phase,
-        country_name=country_name,
-        league_name=league_name
+        filter_ids=filter_ids
     )
-    
-    return result
 
 def run_extraction():
     extractor = ExtractPipeline()
     extractor.process_all_leagues_seasons()
 
-def run_processing():
+def run_processing(force_processing=True):
     # Create processing-specific config using your PIPELINE_CONFIG
     PROCESS_CONFIG = {
         'raw_dir': 'data/extracted',
@@ -361,7 +422,8 @@ def run_processing():
         'verbose': PIPELINE_CONFIG['verbose'],
         'data_types': {
             'fixtures': 'fixture_events.csv',
-            'team_stats': 'team_statistics.csv'
+            'team_stats': 'team_statistics.csv',
+            'odds': 'odds.csv'
         },
         'required_cols': {
             'fixtures': ['fixture_id', 'home_team_id', 'away_team_id', 'date'],
@@ -381,7 +443,7 @@ def run_processing():
     processor = ProcessPipeline(config=PROCESS_CONFIG)
     
     # This is what actually runs the pipeline
-    processor.run_pipeline(force_processing=True)
+    processor.run_pipeline(force_processing=force_processing)
 
 def run_training():
     # Load processed data
@@ -423,5 +485,17 @@ def run_prediction():
     predictor.load_trained_model(model_path=model_path)
     predictor.predict_upcoming_fixtures()
 
+@app.template_filter('groupby')
+def groupby_filter(seq, attribute):
+    """Jinja2 filter to group by attribute"""
+    groups = {}
+    for item in seq:
+        key = getattr(item, attribute, None)
+        if key not in groups:
+            groups[key] = []
+        groups[key].append(item)
+    return groups.items()
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)

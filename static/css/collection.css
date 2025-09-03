@@ -1,0 +1,110 @@
+.unified-selection-tree {
+    max-height: 600px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    padding: 1rem;
+}
+
+.region-node, .country-node, .league-node {
+    margin: 0.25rem 0;
+}
+
+.node-header {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.node-header:hover {
+    background-color: #e9ecef;
+}
+
+.node-label {
+    flex: 1;
+    margin: 0 0.5rem;
+    font-weight: 500;
+}
+
+.node-children {
+    margin-left: 2rem;
+    padding-left: 0.5rem;
+    border-left: 2px solid #dee2e6;
+}
+
+.toggle-btn {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 0.8rem;
+}
+
+.region-node .node-header {
+    background-color: #e3f2fd;
+}
+
+.country-node .node-header {
+    background-color: #f8f9fa;
+}
+
+.league-node .node-header {
+    background-color: #ffffff;
+}
+
+.category-badge {
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+}
+
+.form-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+/* General form styles */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="date"],
+.form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Search highlight styles */
+.search-highlight {
+    background-color: #fff3cd !important;
+    border: 2px solid #ffc107 !important;
+}
+
+.search-highlight .node-header-large {
+    background-color: #fff3cd !important;
+    border-color: #ffc107 !important;
+}
+
+.node-header-large.bg-warning {
+    background-color: #ffc107 !important;
+}

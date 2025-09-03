@@ -175,7 +175,7 @@ class CollectPipeline:
                         regions[region_name][country_name].append(league_data)
                     else:
                         # Determine if this is a region or country
-                        if key in ['Top 5', 'Western Europe', 'Eastern Europe', 'Scandinavia', 'Americas', 'Asia']:
+                        if key in ['Top 5', 'Western Europe', 'Eastern Europe', 'Baltic & Nordic', 'Balkans & Smaller Europe', 'East Asia', 'Middle East', 'Southeast Asia', 'South Asia', 'Central Asia', 'North America']:
                             # This is a region
                             extract_leagues(value, key, None)
                         else:

@@ -13,10 +13,20 @@
         </div>
         
         <div class="form-group">
+            <label for="start_date">Start Date:</label>
+            <input type="date" id="start_date" name="start_date">
+        </div>
+        
+        <div class="form-group">
+            <label for="end_date">End Date:</label>
+            <input type="date" id="end_date" name="end_date">
+        </div>
+        
+        <div class="form-group">
             <label for="collection_phase">Collection Phase:</label>
             <select id="collection_phase" name="collection_phase">
-                <option value="1">Phase 1 (Historical)</option>
-                <option value="2">Phase 2 (Current)</option>
+                <option value="1">Phase 1 (Completed Games)</option>
+                <option value="2">Phase 2 (Not Started games)</option>
             </select>
         </div>
         
@@ -131,217 +141,6 @@
     </form>
 </div>
 
-<style>
-.unified-selection-tree {
-    max-height: 600px;
-    overflow-y: auto;
-    border: 1px solid #dee2e6;
-    border-radius: 0.375rem;
-    padding: 1rem;
-}
-
-.region-node, .country-node, .league-node {
-    margin: 0.25rem 0;
-}
-
-.node-header {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem;
-    background-color: #f8f9fa;
-    border-radius: 0.25rem;
-    cursor: pointer;
-}
-
-.node-header:hover {
-    background-color: #e9ecef;
-}
-
-.node-label {
-    flex: 1;
-    margin: 0 0.5rem;
-    font-weight: 500;
-}
-
-.node-children {
-    margin-left: 2rem;
-    padding-left: 0.5rem;
-    border-left: 2px solid #dee2e6;
-}
-
-.toggle-btn {
-    padding: 0;
-    width: 20px;
-    height: 20px;
-    font-size: 0.8rem;
-}
-
-.region-node .node-header {
-    background-color: #e3f2fd;
-}
-
-.country-node .node-header {
-    background-color: #f8f9fa;
-}
-
-.league-node .node-header {
-    background-color: #ffffff;
-}
-
-.category-badge {
-    font-size: 0.7rem;
-    margin-left: 0.5rem;
-}
-
-.checkbox-group {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 0.5rem;
-}
-
-.form-section {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    border: 1px solid #dee2e6;
-    border-radius: 0.5rem;
-    background-color: #fff;
-}
-</style>
-
-<script>
-// Toggle node expansion
-function toggleNode(btn) {
-    const children = btn.closest('.node-header').nextElementSibling;
-    if (children.style.display === 'none') {
-        children.style.display = 'block';
-        btn.textContent = '▼';
-    } else {
-        children.style.display = 'none';
-        btn.textContent = '▶';
-    }
-}
-
-// Toggle entire region
-function toggleRegion(region, checked) {
-    const checkboxes = document.querySelectorAll(`
-        .region-node[data-region="${region}"] .country-checkbox,
-        .region-node[data-region="${region}"] .league-checkbox
-    `);
-    checkboxes.forEach(cb => cb.checked = checked);
-    updateRegionState(region);
-}
-
-// Toggle entire country
-function toggleCountry(region, country, checked) {
-    const checkboxes = document.querySelectorAll(`
-        .country-node[data-region="${region}"][data-country="${country}"] .league-checkbox
-    `);
-    checkboxes.forEach(cb => cb.checked = checked);
-    updateCountryState(region, country);
-    updateRegionState(region);
-}
-
-// Update parent states when leagues are selected
-function updateParentStates(region, country) {
-    updateCountryState(region, country);
-    updateRegionState(region);
-}
-
-function updateCountryState(region, country) {
-    const countryCheckbox = document.querySelector(`
-        .country-node[data-region="${region}"][data-country="${country}"] .country-checkbox
-    `);
-    const leagueCheckboxes = document.querySelectorAll(`
-        .country-node[data-region="${region}"][data-country="${country}"] .league-checkbox
-    `);
-    
-    const allChecked = Array.from(leagueCheckboxes).every(cb => cb.checked);
-    const someChecked = Array.from(leagueCheckboxes).some(cb => cb.checked);
-    
-    countryCheckbox.checked = allChecked;
-    countryCheckbox.indeterminate = someChecked && !allChecked;
-}
-
-function updateRegionState(region) {
-    const regionCheckbox = document.querySelector(`
-        .region-node[data-region="${region}"] .region-checkbox
-    `);
-    const countryCheckboxes = document.querySelectorAll(`
-        .region-node[data-region="${region}"] .country-checkbox
-    `);
-    
-    const allCountriesChecked = Array.from(countryCheckboxes).every(cb => cb.checked && !cb.indeterminate);
-    const someChecked = Array.from(countryCheckboxes).some(cb => cb.checked || cb.indeterminate);
-    
-    regionCheckbox.checked = allCountriesChecked;
-    regionCheckbox.indeterminate = someChecked && !allCountriesChecked;
-}
-
-// Quick selection functions
-function selectAll() {
-    document.querySelectorAll('.region-checkbox, .country-checkbox, .league-checkbox').forEach(cb => {
-        cb.checked = true;
-    });
-    document.querySelectorAll('.region-node').forEach(node => {
-        const region = node.getAttribute('data-region');
-        updateRegionState(region);
-    });
-}
-
-function deselectAll() {
-    document.querySelectorAll('.region-checkbox, .country-checkbox, .league-checkbox').forEach(cb => {
-        cb.checked = false;
-        cb.indeterminate = false;
-    });
-}
-
-function selectByCategory(category) {
-    document.querySelectorAll('.league-checkbox').forEach(cb => {
-        const leagueCategory = cb.closest('.league-node').getAttribute('data-category');
-        cb.checked = (leagueCategory === category);
-    });
-    // Update all parent states
-    document.querySelectorAll('.region-node').forEach(node => {
-        const region = node.getAttribute('data-region');
-        const countries = node.querySelectorAll('.country-node');
-        countries.forEach(countryNode => {
-            const country = countryNode.getAttribute('data-country');
-            updateCountryState(region, country);
-        });
-        updateRegionState(region);
-    });
-}
-
-// Search functionality
-document.getElementById('unifiedSearch').addEventListener('input', function(e) {
-    const searchTerm = e.target.value.toLowerCase();
-    
-    document.querySelectorAll('.region-node, .country-node, .league-node').forEach(node => {
-        const text = node.textContent.toLowerCase();
-        if (text.includes(searchTerm)) {
-            node.style.display = 'block';
-            // Expand parent nodes
-            let parent = node.parentElement;
-            while (parent && parent.classList.contains('node-children')) {
-                parent.style.display = 'block';
-                const header = parent.previousElementSibling;
-                if (header && header.classList.contains('node-header')) {
-                    const toggleBtn = header.querySelector('.toggle-btn');
-                    if (toggleBtn) toggleBtn.textContent = '▼';
-                }
-                parent = parent.parentElement;
-            }
-        } else {
-            node.style.display = 'none';
-        }
-    });
-});
-
-// Initialize - collapse all nodes by default
-document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('.node-children').forEach(children => {
-        children.style.display = 'none';
-    });
-});
-</script>
+<script src="{{ url_for('static', filename='js/collection.js') }}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/collection.css') }}">
 {% endblock %}
