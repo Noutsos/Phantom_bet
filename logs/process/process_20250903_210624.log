@@ -1,0 +1,149 @@
+2025-09-03 21:06:24,129 - src.process_pipeline - INFO - Logging initialized. Log file: logs/process\process_20250903_210624.log
+2025-09-03 21:06:25,086 - src.process_pipeline - INFO - Loaded H2H data with 11835 team pairs
+2025-09-03 21:06:25,088 - src.process_pipeline - INFO - Loaded standings data for 1964 teams
+2025-09-03 21:06:25,089 - src.process_pipeline - INFO - Force processing: resetting standings data
+2025-09-03 21:06:25,089 - src.process_pipeline - INFO - Already processed fixtures: 0
+2025-09-03 21:06:25,095 - src.process_pipeline - INFO - Processing Europe - Champions League - 2020
+2025-09-03 21:06:25,096 - src.process_pipeline - INFO - Processing Europe/Champions League/2020
+2025-09-03 21:06:25,096 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2020: 'odds'
+2025-09-03 21:06:25,098 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,098 - src.process_pipeline - INFO - Processing Europe - Champions League - 2021
+2025-09-03 21:06:25,098 - src.process_pipeline - INFO - Processing Europe/Champions League/2021
+2025-09-03 21:06:25,098 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2021: 'odds'
+2025-09-03 21:06:25,098 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,098 - src.process_pipeline - INFO - Processing Europe - Champions League - 2022
+2025-09-03 21:06:25,099 - src.process_pipeline - INFO - Processing Europe/Champions League/2022
+2025-09-03 21:06:25,099 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2022: 'odds'
+2025-09-03 21:06:25,099 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,099 - src.process_pipeline - INFO - Processing Europe - Champions League - 2023
+2025-09-03 21:06:25,099 - src.process_pipeline - INFO - Processing Europe/Champions League/2023
+2025-09-03 21:06:25,099 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2023: 'odds'
+2025-09-03 21:06:25,100 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,100 - src.process_pipeline - INFO - Processing Europe - Champions League - 2024
+2025-09-03 21:06:25,100 - src.process_pipeline - INFO - Processing Europe/Champions League/2024
+2025-09-03 21:06:25,100 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2024: 'odds'
+2025-09-03 21:06:25,100 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,100 - src.process_pipeline - INFO - Processing Europe - Champions League - 2025
+2025-09-03 21:06:25,101 - src.process_pipeline - INFO - Processing Europe/Champions League/2025
+2025-09-03 21:06:25,101 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2025: 'odds'
+2025-09-03 21:06:25,101 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,101 - src.process_pipeline - INFO - Processing Europe - Conference League - 2021
+2025-09-03 21:06:25,101 - src.process_pipeline - INFO - Processing Europe/Conference League/2021
+2025-09-03 21:06:25,101 - src.process_pipeline - ERROR - Error processing Europe/Conference League/2021: 'odds'
+2025-09-03 21:06:25,102 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,102 - src.process_pipeline - INFO - Processing Europe - Conference League - 2022
+2025-09-03 21:06:25,102 - src.process_pipeline - INFO - Processing Europe/Conference League/2022
+2025-09-03 21:06:25,102 - src.process_pipeline - ERROR - Error processing Europe/Conference League/2022: 'odds'
+2025-09-03 21:06:25,102 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,102 - src.process_pipeline - INFO - Processing Europe - Conference League - 2023
+2025-09-03 21:06:25,102 - src.process_pipeline - INFO - Processing Europe/Conference League/2023
+2025-09-03 21:06:25,103 - src.process_pipeline - ERROR - Error processing Europe/Conference League/2023: 'odds'
+2025-09-03 21:06:25,103 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,103 - src.process_pipeline - INFO - Processing Europe - Conference League - 2024
+2025-09-03 21:06:25,103 - src.process_pipeline - INFO - Processing Europe/Conference League/2024
+2025-09-03 21:06:25,103 - src.process_pipeline - ERROR - Error processing Europe/Conference League/2024: 'odds'
+2025-09-03 21:06:25,103 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,103 - src.process_pipeline - INFO - Processing Europe - Conference League - 2025
+2025-09-03 21:06:25,104 - src.process_pipeline - INFO - Processing Europe/Conference League/2025
+2025-09-03 21:06:25,104 - src.process_pipeline - ERROR - Error processing Europe/Conference League/2025: 'odds'
+2025-09-03 21:06:25,104 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,104 - src.process_pipeline - INFO - Processing Europe - Europa League - 2020
+2025-09-03 21:06:25,104 - src.process_pipeline - INFO - Processing Europe/Europa League/2020
+2025-09-03 21:06:25,104 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2020: 'odds'
+2025-09-03 21:06:25,105 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,105 - src.process_pipeline - INFO - Processing Europe - Europa League - 2021
+2025-09-03 21:06:25,105 - src.process_pipeline - INFO - Processing Europe/Europa League/2021
+2025-09-03 21:06:25,105 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2021: 'odds'
+2025-09-03 21:06:25,105 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,105 - src.process_pipeline - INFO - Processing Europe - Europa League - 2022
+2025-09-03 21:06:25,106 - src.process_pipeline - INFO - Processing Europe/Europa League/2022
+2025-09-03 21:06:25,106 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2022: 'odds'
+2025-09-03 21:06:25,106 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,106 - src.process_pipeline - INFO - Processing Europe - Europa League - 2023
+2025-09-03 21:06:25,106 - src.process_pipeline - INFO - Processing Europe/Europa League/2023
+2025-09-03 21:06:25,106 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2023: 'odds'
+2025-09-03 21:06:25,106 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,107 - src.process_pipeline - INFO - Processing Europe - Europa League - 2024
+2025-09-03 21:06:25,107 - src.process_pipeline - INFO - Processing Europe/Europa League/2024
+2025-09-03 21:06:25,107 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2024: 'odds'
+2025-09-03 21:06:25,107 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,107 - src.process_pipeline - INFO - Processing Europe - Europa League - 2025
+2025-09-03 21:06:25,107 - src.process_pipeline - INFO - Processing Europe/Europa League/2025
+2025-09-03 21:06:25,107 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2025: 'odds'
+2025-09-03 21:06:25,108 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,108 - src.process_pipeline - INFO - Processing Italy - Coppa Italia - 2020
+2025-09-03 21:06:25,108 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2020
+2025-09-03 21:06:25,108 - src.process_pipeline - ERROR - Error processing Italy/Coppa Italia/2020: 'odds'
+2025-09-03 21:06:25,108 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,108 - src.process_pipeline - INFO - Processing Italy - Coppa Italia - 2021
+2025-09-03 21:06:25,109 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2021
+2025-09-03 21:06:25,109 - src.process_pipeline - ERROR - Error processing Italy/Coppa Italia/2021: 'odds'
+2025-09-03 21:06:25,109 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,109 - src.process_pipeline - INFO - Processing Italy - Coppa Italia - 2022
+2025-09-03 21:06:25,109 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2022
+2025-09-03 21:06:25,109 - src.process_pipeline - ERROR - Error processing Italy/Coppa Italia/2022: 'odds'
+2025-09-03 21:06:25,110 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,110 - src.process_pipeline - INFO - Processing Italy - Coppa Italia - 2023
+2025-09-03 21:06:25,110 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2023
+2025-09-03 21:06:25,110 - src.process_pipeline - ERROR - Error processing Italy/Coppa Italia/2023: 'odds'
+2025-09-03 21:06:25,110 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,110 - src.process_pipeline - INFO - Processing Italy - Coppa Italia - 2024
+2025-09-03 21:06:25,111 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2024
+2025-09-03 21:06:25,111 - src.process_pipeline - ERROR - Error processing Italy/Coppa Italia/2024: 'odds'
+2025-09-03 21:06:25,111 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,111 - src.process_pipeline - INFO - Processing Italy - Coppa Italia - 2025
+2025-09-03 21:06:25,111 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2025
+2025-09-03 21:06:25,111 - src.process_pipeline - ERROR - Error processing Italy/Coppa Italia/2025: 'odds'
+2025-09-03 21:06:25,111 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,111 - src.process_pipeline - INFO - Processing Italy - Serie A - 2020
+2025-09-03 21:06:25,112 - src.process_pipeline - INFO - Processing Italy/Serie A/2020
+2025-09-03 21:06:25,112 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2020: 'odds'
+2025-09-03 21:06:25,112 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,112 - src.process_pipeline - INFO - Processing Italy - Serie A - 2021
+2025-09-03 21:06:25,112 - src.process_pipeline - INFO - Processing Italy/Serie A/2021
+2025-09-03 21:06:25,112 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2021: 'odds'
+2025-09-03 21:06:25,113 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,113 - src.process_pipeline - INFO - Processing Italy - Serie A - 2022
+2025-09-03 21:06:25,113 - src.process_pipeline - INFO - Processing Italy/Serie A/2022
+2025-09-03 21:06:25,113 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2022: 'odds'
+2025-09-03 21:06:25,113 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,113 - src.process_pipeline - INFO - Processing Italy - Serie A - 2023
+2025-09-03 21:06:25,114 - src.process_pipeline - INFO - Processing Italy/Serie A/2023
+2025-09-03 21:06:25,114 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2023: 'odds'
+2025-09-03 21:06:25,114 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,114 - src.process_pipeline - INFO - Processing Italy - Serie A - 2024
+2025-09-03 21:06:25,114 - src.process_pipeline - INFO - Processing Italy/Serie A/2024
+2025-09-03 21:06:25,114 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2024: 'odds'
+2025-09-03 21:06:25,114 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,114 - src.process_pipeline - INFO - Processing Italy - Serie A - 2025
+2025-09-03 21:06:25,115 - src.process_pipeline - INFO - Processing Italy/Serie A/2025
+2025-09-03 21:06:25,115 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2025: 'odds'
+2025-09-03 21:06:25,115 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,115 - src.process_pipeline - INFO - Processing Italy - Serie B - 2020
+2025-09-03 21:06:25,115 - src.process_pipeline - INFO - Processing Italy/Serie B/2020
+2025-09-03 21:06:25,115 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2020: 'odds'
+2025-09-03 21:06:25,115 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,116 - src.process_pipeline - INFO - Processing Italy - Serie B - 2021
+2025-09-03 21:06:25,116 - src.process_pipeline - INFO - Processing Italy/Serie B/2021
+2025-09-03 21:06:25,116 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2021: 'odds'
+2025-09-03 21:06:25,116 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,116 - src.process_pipeline - INFO - Processing Italy - Serie B - 2022
+2025-09-03 21:06:25,116 - src.process_pipeline - INFO - Processing Italy/Serie B/2022
+2025-09-03 21:06:25,116 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2022: 'odds'
+2025-09-03 21:06:25,117 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,117 - src.process_pipeline - INFO - Processing Italy - Serie B - 2023
+2025-09-03 21:06:25,117 - src.process_pipeline - INFO - Processing Italy/Serie B/2023
+2025-09-03 21:06:25,117 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2023: 'odds'
+2025-09-03 21:06:25,117 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,117 - src.process_pipeline - INFO - Processing Italy - Serie B - 2024
+2025-09-03 21:06:25,118 - src.process_pipeline - INFO - Processing Italy/Serie B/2024
+2025-09-03 21:06:25,118 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2024: 'odds'
+2025-09-03 21:06:25,118 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,118 - src.process_pipeline - INFO - Processing Italy - Serie B - 2025
+2025-09-03 21:06:25,118 - src.process_pipeline - INFO - Processing Italy/Serie B/2025
+2025-09-03 21:06:25,118 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2025: 'odds'
+2025-09-03 21:06:25,118 - src.process_pipeline - INFO -   No new matches found
+2025-09-03 21:06:25,118 - src.process_pipeline - INFO - Total new matches to process: 0
+2025-09-03 21:06:25,118 - src.process_pipeline - INFO - Starting preprocessing and feature engineering
+2025-09-03 21:06:25,119 - src.process_pipeline - INFO - Initial data shape: (0, 0)
+2025-09-03 21:06:25,119 - src.process_pipeline - INFO - Cleaning data

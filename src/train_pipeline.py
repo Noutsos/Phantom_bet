@@ -462,7 +462,8 @@ class TrainPipeline:
             'league_name', 'league_flag', 'league_logo', 'venue_name', 'venue_city',
             'status', 'home_team_flag', 'away_team_flag', 'home_team_name', 'away_team_name',
             'home_coach_id', 'away_coach_id', 'home_player_id', 'away_player_id', 'timestamp',
-            'maintime', 'first_half', 'second_half', 'country', 'extratime', 'matchday', 'odds_home_win', 'odds_draw', 'odds_away_win'
+            'maintime', 'first_half', 'second_half', 'country', 'extratime', 'matchday', 'odds_home_win', 'odds_draw', 'odds_away_win',
+            'total_yellow_cards', 'total_red_cards', 'total_corners'
         } & set(X.columns)
         
         # Drop leakage columns safely

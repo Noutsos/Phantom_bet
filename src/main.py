@@ -18,7 +18,8 @@ PIPELINE_CONFIG = {
     'verbose': True,
     'data_types': {
         'fixtures': 'fixture_events.csv',
-        'team_stats': 'team_statistics.csv'
+        'team_stats': 'team_statistics.csv',
+        'odds': 'odds.csv',
     },
     'required_cols': {
         'fixtures': ['fixture_id', 'home_team_id', 'away_team_id', 'date'],
@@ -92,7 +93,8 @@ def run_processing():
         'verbose': PIPELINE_CONFIG['verbose'],
         'data_types': {
             'fixtures': 'fixture_events.csv',
-            'team_stats': 'team_statistics.csv'
+            'team_stats': 'team_statistics.csv',
+            'odds': 'odds.csv',
         },
         'required_cols': {
             'fixtures': ['fixture_id', 'home_team_id', 'away_team_id', 'date'],
@@ -112,7 +114,7 @@ def run_processing():
     processor = ProcessPipeline(config=PROCESS_CONFIG)
     
     # This is what actually runs the pipeline
-    processor.run_pipeline(force_processing=True)
+    processor.run_pipeline(force_processing=False)
 
 def run_training():
     # Load processed data

@@ -455,9 +455,9 @@ class ProcessPipeline:
             DataFrame with added target columns
         """
         df = df.copy()  # Avoid modifying original DataFrame
-        
+        logging.info("Creating target columns...")
         # Initialize target columns with NaN as default
-        target_columns = ['outcome', 'total_goals', 'total_corners', 'total_cards', 'total_shots']
+        target_columns = ['outcome', 'total_goals', 'total_corners', 'total_yellow_cards', 'total_red_cards']
         for col in target_columns:
             if col not in df.columns:
                 df[col] = np.nan
@@ -487,7 +487,7 @@ class ProcessPipeline:
                 )
                 
                 # Optional regression targets (if columns exist)
-                if all(col in df.columns for col in ['home_corner_kicks', 'away_corners_kicks']):
+                if all(col in df.columns for col in ['home_corner_kicks', 'away_corner_kicks']):
                     df.loc[completed_mask, 'total_corners'] = (
                         completed_df['home_corner_kicks'] + completed_df['away_corner_kicks']
                     )
@@ -496,13 +496,15 @@ class ProcessPipeline:
                     df.loc[completed_mask, 'total_yellow_cards'] = (
                         completed_df['home_yellow_cards'] + completed_df['away_yellow_cards']
                     )
+               
 
                 if all(col in df.columns for col in ['home_red_cards', 'away_red_cards']):
                     df.loc[completed_mask, 'total_red_cards'] = (
                         completed_df['home_red_cards'] + completed_df['away_red_cards']
                     )
+           
 
-        
+
         return df
    
     def _create_temporal_features(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -3193,24 +3195,24 @@ class ProcessPipeline:
         df = self._clean_data(df)
         df = self._create_temporal_features(df)
         df = self._create_target_column(df)
-        self.logger.info("Adding competition info from league names")
-        df = self._add_competition_info_from_name(df)
-        self.logger.info("Adding competition context")
-        df= self._add_competition_context(df)
-        self.logger.info("Adding competition metrics")
-        df = self._add_competition_specific_features(df)
+        #self.logger.info("Adding competition info from league names")
+        #df = self._add_competition_info_from_name(df)
+        #self.logger.info("Adding competition context")
+        #df= self._add_competition_context(df)
+        #self.logger.info("Adding competition metrics")
+        #df = self._add_competition_specific_features(df)
         
-        df = self._create_standings(df)  
-        df = self._calculate_rolling_standings(df)
-        df = self._calculate_form_strength(df)
+        #df = self._create_standings(df)  
+        #df = self._calculate_rolling_standings(df)
+        #df = self._calculate_form_strength(df)
         #self._debug_momentum_calculation(df, team_id=504, league_id=135,season=2024)
         # Debug specific teams
         debug_teams = [492, 489, 505]  # Replace with actual team IDs
 
         # Option 1: Use debug mode in main function
-        df = self._create_h2h_features(df, LEAGUES)
-        df = self._add_new_metrics(df)
-        df = self._calculate_rolling_averages(df)
+        #df = self._create_h2h_features(df, LEAGUES)
+        #df = self._add_new_metrics(df)
+        #df = self._calculate_rolling_averages(df)
         df = df.fillna(0)
         self.logger.info(f"Final shape: {df.shape}")
         return df
@@ -3319,7 +3321,7 @@ class ProcessPipeline:
                 self.logger.warning(f"Error updating standings for match: {e}")
 
 
-    def run_incremental_pipeline(self, force_processing: bool = False) -> pd.DataFrame:
+    def run_incremental_pipeline_2(self, force_processing: bool = False) -> pd.DataFrame:
         """Run pipeline with incremental processing, optionally force processing"""
         
         # Reset standings data at the start of processing if forcing
@@ -3374,6 +3376,103 @@ class ProcessPipeline:
                     combined_data = pd.concat([existing_data, new_processed_data], ignore_index=True)
                 
                 combined_data = combined_data.drop_duplicates(subset=['fixture_id'], keep='last')
+                
+                # Sort by date (now both are datetime)
+                if 'date' in combined_data.columns:
+                    combined_data = combined_data.sort_values('date')
+                
+            except Exception as e:
+                self.logger.error(f"Error combining with existing data: {e}")
+                combined_data = new_processed_data
+        else:
+            combined_data = new_processed_data
+        
+        # Save final combined processed data
+        combined_data.to_csv(self.config['final_output'], index=False)
+        self._save_h2h_data()
+        self._save_standings_data()
+        
+        self.logger.info(f"Incremental processing complete. Total records: {len(combined_data)}")
+        self.logger.info(f"New records processed: {len(new_processed_data)}")
+        
+        return combined_data
+
+    def run_incremental_pipeline(self, force_processing: bool = False) -> pd.DataFrame:
+        """Run pipeline with incremental processing, optionally force processing"""
+        
+        # Reset standings data at the start of processing if forcing
+        if force_processing:
+            self.standings_data = {}
+            self.logger.info("Force processing: resetting standings data")
+
+        # Check if we should force processing regardless of new data
+        if not force_processing:
+            has_new_data = self._check_new_data_exists()
+            self.logger.info(f"New data check: {has_new_data}")
+            if not has_new_data:
+                self.logger.info("No new data to process")
+                return pd.DataFrame()
+        
+        processed_fixtures = self._get_processed_fixtures()
+        self.logger.info(f"Already processed fixtures: {len(processed_fixtures)}")
+        
+        data_structure = self._discover_data_structure()
+        new_merged_data = pd.DataFrame()
+        new_processed_data = pd.DataFrame()
+        
+        # Process data from each season
+        for country, leagues in data_structure.items():
+            for league, seasons in leagues.items():
+                for season in seasons:
+                    self.logger.info(f"Processing {country} - {league} - {season}")
+                    merged_data = self._process_single_season(
+                        country, league, season, 
+                        processed_fixtures if not force_processing else set()
+                    )
+                    if merged_data is not None and not merged_data.empty:
+                        self.logger.info(f"  Found {len(merged_data)} new matches")
+                        new_merged_data = pd.concat([new_merged_data, merged_data], ignore_index=True)
+                    else:
+                        self.logger.info(f"  No new matches found")
+        
+        self.logger.info(f"Total new matches to process: {len(new_merged_data)}")
+        
+        if new_merged_data.empty and not force_processing:
+            self.logger.info("No new data processed after filtering")
+            return pd.DataFrame()
+        
+        # Preprocess new merged data (this will update standings_data internally)
+        new_processed_data = self._preprocess_and_feature_engineer(new_merged_data)
+        self.logger.info(f"New processed data shape: {new_processed_data.shape}")
+        
+        # Update historical data
+        self._update_h2h_data(new_merged_data)
+        self._update_standings_data(new_merged_data)
+        
+        # Combine with existing processed data
+        final_path = Path(self.config['final_output'])
+        if final_path.exists() and not force_processing:
+            try:
+                existing_data = pd.read_csv(final_path)
+                self.logger.info(f"Existing data shape: {existing_data.shape}")
+                
+                # Ensure date columns are consistent datetime types
+                if 'date' in existing_data.columns:
+                    existing_data['date'] = pd.to_datetime(existing_data['date'], errors='coerce')
+                if 'date' in new_processed_data.columns:
+                    new_processed_data['date'] = pd.to_datetime(new_processed_data['date'], errors='coerce')
+                
+                # When forcing, we might want to replace rather than append
+                if force_processing:
+                    combined_data = new_processed_data
+                else:
+                    combined_data = pd.concat([existing_data, new_processed_data], ignore_index=True)
+                
+                # Remove duplicates - this is CRITICAL
+                before_dedup = len(combined_data)
+                combined_data = combined_data.drop_duplicates(subset=['fixture_id'], keep='last')
+                after_dedup = len(combined_data)
+                self.logger.info(f"Removed {before_dedup - after_dedup} duplicate fixtures")
                 
                 # Sort by date (now both are datetime)
                 if 'date' in combined_data.columns:

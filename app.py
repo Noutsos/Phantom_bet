@@ -158,7 +158,7 @@ def processing():
             }
             
             session['processing_config'] = processing_config
-            
+            print(session['processing_config'])
             # Pass the force_processing parameter to run_processing
             run_processing(force_processing=processing_config['force_processing'])
             return redirect(url_for('results', phase='processing', success=True))
