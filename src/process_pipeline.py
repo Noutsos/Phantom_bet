@@ -384,28 +384,83 @@ class ProcessPipeline:
 
         return df
 
+    def _create_target_column_2(self, df: pd.DataFrame) -> pd.DataFrame:
+            """
+            Creates target outcome column, handling both completed and NS games.
+            
+            For completed matches (FT status with goals):
+            - home_win: home_goals > away_goals
+            - away_win: home_goals < away_goals  
+            - draw: home_goals == away_goals
+            
+            For NS games:
+            - outcome set to 'NS' (Not Started)
+            
+            Args:
+                df: DataFrame containing match data with home_goals, away_goals columns
+                
+            Returns:
+                DataFrame with added 'outcome' column
+            """
+            df = df.copy()  # Avoid modifying original DataFrame
+            
+            # Initialize outcome column with 'NS' as default
+            df['outcome'] = 'NS'
+            
+            # Only process rows where we have goal data (completed matches)
+            if all(col in df.columns for col in ['home_goals', 'away_goals']):
+                # Create mask for completed matches
+                completed_mask = df['home_goals'].notna() & df['away_goals'].notna()
+                
+                # Only process completed matches
+                if completed_mask.any():
+                    completed_df = df[completed_mask].copy()
+                    
+                    # Create boolean conditions
+                    home_wins = (completed_df['home_goals'] > completed_df['away_goals'])
+                    away_wins = (completed_df['home_goals'] < completed_df['away_goals'])
+
+                    total_goals = completed_df['home_goals'] + completed_df['away_goals']
+                    total_corners = completed_df.get('home_corners', 0) + completed_df.get('away_corners', 0)
+                    
+                    # Apply to original dataframe
+                    df.loc[completed_mask, 'outcome'] = np.select(
+                        condlist=[home_wins, away_wins],
+                        choicelist=['home_win', 'away_win'],
+                        default='draw'
+                    )
+                    df.loc[completed_mask, 'total_goals'] = total_goals
+                    df.loc[completed_mask, 'total_corners'] = total_corners
+            
+            return df 
+ 
+ 
     def _create_target_column(self, df: pd.DataFrame) -> pd.DataFrame:
         """
-        Creates target outcome column, handling both completed and NS games.
+        Creates multiple target columns for both classification and regression tasks.
         
-        For completed matches (FT status with goals):
-        - home_win: home_goals > away_goals
-        - away_win: home_goals < away_goals  
-        - draw: home_goals == away_goals
+        For completed matches:
+        - outcome: classification target (home_win, away_win, draw)
+        - total_goals: regression target
+        - total_corners: regression target  
+        - total_cards: regression target (if available)
+        - total_shots: regression target (if available)
         
-        For NS games:
-        - outcome set to 'NS' (Not Started)
+        For NS games: targets set to NaN
         
         Args:
-            df: DataFrame containing match data with home_goals, away_goals columns
+            df: DataFrame containing match data
             
         Returns:
-            DataFrame with added 'outcome' column
+            DataFrame with added target columns
         """
         df = df.copy()  # Avoid modifying original DataFrame
         
-        # Initialize outcome column with 'NS' as default
-        df['outcome'] = 'NS'
+        # Initialize target columns with NaN as default
+        target_columns = ['outcome', 'total_goals', 'total_corners', 'total_cards', 'total_shots']
+        for col in target_columns:
+            if col not in df.columns:
+                df[col] = np.nan
         
         # Only process rows where we have goal data (completed matches)
         if all(col in df.columns for col in ['home_goals', 'away_goals']):
@@ -416,16 +471,37 @@ class ProcessPipeline:
             if completed_mask.any():
                 completed_df = df[completed_mask].copy()
                 
-                # Create boolean conditions
+                # Create outcome column (classification)
                 home_wins = (completed_df['home_goals'] > completed_df['away_goals'])
                 away_wins = (completed_df['home_goals'] < completed_df['away_goals'])
                 
-                # Apply to original dataframe
                 df.loc[completed_mask, 'outcome'] = np.select(
                     condlist=[home_wins, away_wins],
                     choicelist=['home_win', 'away_win'],
                     default='draw'
                 )
+                
+                # Create regression targets
+                df.loc[completed_mask, 'total_goals'] = (
+                    completed_df['home_goals'] + completed_df['away_goals']
+                )
+                
+                # Optional regression targets (if columns exist)
+                if all(col in df.columns for col in ['home_corner_kicks', 'away_corners_kicks']):
+                    df.loc[completed_mask, 'total_corners'] = (
+                        completed_df['home_corner_kicks'] + completed_df['away_corner_kicks']
+                    )
+                
+                if all(col in df.columns for col in ['home_yellow_cards', 'away_yellow_cards']):
+                    df.loc[completed_mask, 'total_yellow_cards'] = (
+                        completed_df['home_yellow_cards'] + completed_df['away_yellow_cards']
+                    )
+
+                if all(col in df.columns for col in ['home_red_cards', 'away_red_cards']):
+                    df.loc[completed_mask, 'total_red_cards'] = (
+                        completed_df['home_red_cards'] + completed_df['away_red_cards']
+                    )
+
         
         return df
    
@@ -500,7 +576,7 @@ class ProcessPipeline:
         return df
 
         
-    def _create_standings(self, df: pd.DataFrame) -> pd.DataFrame:
+    def _create_standings_2(self, df: pd.DataFrame) -> pd.DataFrame:
         """
         Fixed standings calculation with proper ranking
         """
@@ -530,6 +606,7 @@ class ProcessPipeline:
         
         total_matches = len(df)
         self.logger.info(f"Calculating proper standings for {total_matches} matches...")
+        start_time = time.time()
         
         # Process each match in chronological order
         for idx, row in df.iterrows():
@@ -648,10 +725,13 @@ class ProcessPipeline:
                 except (ValueError, TypeError) as e:
                     self.logger.warning(f"Error updating standings for fixture {fixture_id}: {e}")
             
+
+
             # Progress logging
-            if (idx + 1) % 1000 == 0 or (idx + 1) == total_matches:
-                progress = (idx + 1) / total_matches * 100
-                self.logger.info(f"Standings progress: {progress:.1f}% ({idx + 1}/{total_matches})")
+            if (idx + 1) % max(1, len(total_matches) // 10) == 0 or (idx + 1) == len(total_matches):
+                progress = ((idx + 1) / len(total_matches)) * 100
+                elapsed = time.time() - start_time
+                self.logger.info(f"H2H Progress: {progress:.0f}% ({idx + 1}/{len(total_matches)}) - {elapsed:.1f}s")
         
         # Update global standings
         self.standings_data.update(current_standings)
@@ -659,6 +739,170 @@ class ProcessPipeline:
         
         return df
 
+    def _create_standings(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Fixed standings calculation with proper ranking
+        """
+        df = df.copy()
+        
+        # Ensure perfect chronological order
+        df['date'] = pd.to_datetime(df['date'])
+        df = df.sort_values(['league_id', 'season', 'date', 'fixture_id']).reset_index(drop=True)
+        
+        # Initialize standings columns
+        self._standings_metrics = [
+            'home_goals_for', 'away_goals_for',
+            'home_goals_against', 'away_goals_against',
+            'home_goals_diff', 'away_goals_diff'
+        ]
+        self._basic_standings_features = ['home_played', 'away_played',
+            'home_wins', 'away_wins', 'home_draws', 'away_draws', 'home_losses', 'away_losses',
+            'home_rank', 'away_rank']
+
+        combined_standings = self._standings_metrics + self._basic_standings_features
+        
+        for col in combined_standings:
+            df[col] = 0
+        
+        # Dictionary to track cumulative standings
+        current_standings = {}
+        
+        total_matches = len(df)
+        self.logger.info(f"Calculating proper standings for {total_matches} matches...")
+        start_time = time.time()
+        
+        # Progress tracking variables
+        progress_interval = 10  # percentage
+        last_reported_progress = -progress_interval
+        
+        # Process each match in chronological order
+        for idx, row in df.iterrows():
+            fixture_id = row['fixture_id']
+            home_id = row['home_team_id']
+            away_id = row['away_team_id']
+            league_id = row['league_id']
+            season = row['season']
+            
+            home_key = (home_id, league_id, season)
+            away_key = (away_id, league_id, season)
+            
+            # Initialize teams if not exists
+            if home_key not in current_standings:
+                current_standings[home_key] = {
+                    'points': 0, 'goals_for': 0, 'goals_against': 0,
+                    'wins': 0, 'draws': 0, 'losses': 0, 'matches_played': 0,
+                    'goal_diff': 0, 'team_id': home_id
+                }
+            
+            if away_key not in current_standings:
+                current_standings[away_key] = {
+                    'points': 0, 'goals_for': 0, 'goals_against': 0,
+                    'wins': 0, 'draws': 0, 'losses': 0, 'matches_played': 0,
+                    'goal_diff': 0, 'team_id': away_id
+                }
+            
+            # Store PRE-MATCH standings
+            home_pre = current_standings[home_key].copy()
+            away_pre = current_standings[away_key].copy()
+            
+            # Set PRE-MATCH standings in dataframe
+            df.at[idx, 'home_points'] = home_pre['points']
+            df.at[idx, 'home_goals_for'] = home_pre['goals_for']
+            df.at[idx, 'home_goals_against'] = home_pre['goals_against']
+            df.at[idx, 'home_played'] = home_pre['matches_played']
+            df.at[idx, 'home_wins'] = home_pre['wins']
+            df.at[idx, 'home_draws'] = home_pre['draws']
+            df.at[idx, 'home_losses'] = home_pre['losses']
+            df.at[idx, 'home_goals_diff'] = home_pre['goal_diff']
+            
+            df.at[idx, 'away_points'] = away_pre['points']
+            df.at[idx, 'away_goals_for'] = away_pre['goals_for']
+            df.at[idx, 'away_goals_against'] = away_pre['goals_against']
+            df.at[idx, 'away_played'] = away_pre['matches_played']
+            df.at[idx, 'away_wins'] = away_pre['wins']
+            df.at[idx, 'away_draws'] = away_pre['draws']
+            df.at[idx, 'away_losses'] = away_pre['losses']
+            df.at[idx, 'away_goals_diff'] = away_pre['goal_diff']
+            
+            # FIXED: Calculate rankings for current league/season
+            # Get all teams in this league/season with their current standings
+            league_teams = []
+            for key, stats in current_standings.items():
+                if key[1] == league_id and key[2] == season:
+                    team_stats = stats.copy()
+                    team_stats['team_id'] = key[0]  # Add team_id to the stats
+                    league_teams.append(team_stats)
+            
+            # Sort by points, goal difference, goals for
+            league_teams.sort(key=lambda x: (-x['points'], -x['goal_diff'], -x['goals_for']))
+            
+            # Assign ranks (handle ties properly)
+            ranks = {}
+            current_rank = 1
+            prev_stats = None
+            
+            for i, team in enumerate(league_teams):
+                current_stats = (team['points'], team['goal_diff'], team['goals_for'])
+                
+                if prev_stats is not None and current_stats == prev_stats:
+                    # Same rank for tied teams
+                    ranks[team['team_id']] = current_rank
+                else:
+                    current_rank = i + 1
+                    ranks[team['team_id']] = current_rank
+                
+                prev_stats = current_stats
+            
+            # Apply ranks to current match
+            df.at[idx, 'home_rank'] = ranks.get(home_id, 999)
+            df.at[idx, 'away_rank'] = ranks.get(away_id, 999)
+            
+            # Update POST-MATCH standings for completed matches
+            if row['status'] in ['FT', 'AET', 'PEN']:
+                try:
+                    home_goals = int(row['home_goals'])
+                    away_goals = int(row['away_goals'])
+                    
+                    # Update goals and matches played
+                    current_standings[home_key]['goals_for'] += home_goals
+                    current_standings[home_key]['goals_against'] += away_goals
+                    current_standings[home_key]['goal_diff'] = current_standings[home_key]['goals_for'] - current_standings[home_key]['goals_against']
+                    current_standings[home_key]['matches_played'] += 1
+                    
+                    current_standings[away_key]['goals_for'] += away_goals
+                    current_standings[away_key]['goals_against'] += home_goals
+                    current_standings[away_key]['goal_diff'] = current_standings[away_key]['goals_for'] - current_standings[away_key]['goals_against']
+                    current_standings[away_key]['matches_played'] += 1
+                    
+                    # Update points and results
+                    if home_goals > away_goals:
+                        current_standings[home_key]['points'] += 3
+                        current_standings[home_key]['wins'] += 1
+                        current_standings[away_key]['losses'] += 1
+                    elif home_goals == away_goals:
+                        current_standings[home_key]['points'] += 1
+                        current_standings[home_key]['draws'] += 1
+                        current_standings[away_key]['points'] += 1
+                        current_standings[away_key]['draws'] += 1
+                    else:
+                        current_standings[away_key]['points'] += 3
+                        current_standings[away_key]['wins'] += 1
+                        current_standings[home_key]['losses'] += 1
+                    
+                except (ValueError, TypeError) as e:
+                    self.logger.warning(f"Error updating standings for fixture {fixture_id}: {e}")
+            
+            # Progress logging every 10%
+            current_progress = int(((idx + 1) / total_matches) * 100)
+            if current_progress >= last_reported_progress + progress_interval or (idx + 1) == total_matches:
+                elapsed = time.time() - start_time
+                self.logger.info(f"Standings Progress: {current_progress}% ({idx + 1}/{total_matches}) - {elapsed:.1f}s")
+                last_reported_progress = current_progress
+        
+        # Update global standings
+        self.standings_data.update(current_standings)
+
+        return df
  
     def _calculate_rolling_standings(self, df: pd.DataFrame, windows: list = [5]) -> pd.DataFrame:
         """
@@ -924,7 +1168,7 @@ class ProcessPipeline:
         return valid
 
 
-    def _create_h2h_features(self, df: pd.DataFrame, LEAGUES: dict, monitor_teams: list = None) -> pd.DataFrame:
+    def _create_h2h_features_2(self, df: pd.DataFrame, LEAGUES: dict, monitor_teams: list = None) -> pd.DataFrame:
         """Enhanced H2H calculator with proper goal calculation and competition types"""
         
         # Add team monitoring
@@ -1144,7 +1388,227 @@ class ProcessPipeline:
         
         return result_df 
  
-  
+    def _create_h2h_features(self, df: pd.DataFrame, LEAGUES: dict, monitor_teams: list = None) -> pd.DataFrame:
+        """Enhanced H2H calculator with proper goal calculation and competition types"""
+        
+        # Add team monitoring
+        if monitor_teams:
+            team_matches = {}
+            for team in monitor_teams:
+                team_matches[team] = {
+                    'processed': 0,
+                    'found_h2h': 0,
+                    'no_h2h': 0
+                }
+        
+        df = df.copy().sort_values('date')
+        
+        # Initialize H2H features
+        h2h_features = [
+            'h2h_matches', 'h2h_home_wins', 'h2h_away_wins', 'h2h_draws',
+            'h2h_home_goals', 'h2h_away_goals', 'h2h_goal_diff',
+            'h2h_home_win_pct', 'h2h_away_win_pct', 'h2h_avg_goals',
+            'h2h_recent_home_wins_last5', 'h2h_recent_away_wins_last5',
+            'h2h_recent_draws_last5', 'h2h_recent_avg_goals_last5',
+            'h2h_streak', 'h2h_league_matches', 'h2h_cup_matches',
+            'h2h_cup_home_wins', 'h2h_cup_away_wins', 'h2h_same_country',
+            'h2h_win_streak', 'h2h_loss_streak', 'h2h_europe_matches'
+        ]
+        
+        for feature in h2h_features:
+            df[feature] = 0
+        
+        completed_matches = df[df['status'].isin(['FT', 'AET', 'PEN'])].copy()
+        upcoming_matches = df[df['status'] == 'NS'].copy()
+        
+        def calculate_match_stats(target_df, source_df, desc: str):
+            """Calculate H2H stats using only matches before current date"""
+            if len(target_df) == 0:
+                self.logger.info(f"{desc}: No matches to process")
+                return target_df
+            
+            target_df = target_df.reset_index(drop=True)
+            result_df = target_df.copy()
+            
+            self.logger.info(f"{desc}: Processing {len(result_df)} matches...")
+            start_time = time.time()
+            
+            # Progress tracking variables
+            progress_interval = 10  # percentage
+            last_reported_progress = -progress_interval
+            
+            # Convert source_df dates to datetime for proper comparison
+            source_df = source_df.copy()
+            if 'date' in source_df.columns:
+                source_df['date'] = pd.to_datetime(source_df['date'], errors='coerce')
+            
+            for idx in range(len(result_df)):
+                row = result_df.iloc[idx]
+                home_team, away_team, match_date, country = row[['home_team_id', 'away_team_id', 'date', 'country']]
+                
+                # Use stored H2H data instead of recalculating from source_df
+                h2h_key = frozenset({int(home_team), int(away_team)})
+                past_matches_data = self.h2h_data.get(h2h_key, [])
+                
+                # Convert to DataFrame for easier processing
+                past_matches = pd.DataFrame(past_matches_data)
+                
+                if not past_matches.empty:
+                    # Convert dates to datetime and filter matches that occurred before current match date
+                    past_matches['date'] = pd.to_datetime(past_matches['date'], errors='coerce')
+                    past_matches = past_matches[past_matches['date'] < match_date]
+                
+                # Monitor specific teams
+                if monitor_teams:
+                    for team in monitor_teams:
+                        if team in [home_team, away_team]:
+                            team_matches[team]['processed'] += 1
+                
+                # Find past matches BEFORE current match date
+                past_matches = source_df[
+                    (((source_df['home_team_id'] == home_team) & (source_df['away_team_id'] == away_team)) |
+                    ((source_df['home_team_id'] == away_team) & (source_df['away_team_id'] == home_team))) &
+                    (source_df['date'] < match_date)  # ONLY matches before current match
+                ].copy()
+                
+                # Filter for same country matches only for league and cup stats
+                same_country_matches = past_matches[past_matches['country'] == country].copy()
+                result_df.iloc[idx, result_df.columns.get_loc('h2h_same_country')] = 1 if not same_country_matches.empty else 0
+                
+                if not past_matches.empty:
+                    # Calculate overall stats
+                    total_matches = len(past_matches)
+                    
+                    # Calculate competition-specific matches
+                    cup_matches = past_matches[past_matches['is_cup_competition'] == 1].copy()
+                    europe_matches = past_matches[past_matches['is_europe_competition'] == 1].copy()
+                    league_matches = past_matches[
+                        (past_matches['is_cup_competition'] != 1) & 
+                        (past_matches['is_europe_competition'] != 1) &
+                        (past_matches['country'] == country)
+                    ].copy()
+                    
+                    # Store competition counts
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_league_matches')] = len(league_matches)
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_cup_matches')] = len(cup_matches)
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_europe_matches')] = len(europe_matches)
+                    
+                    # Wins from home team's perspective
+                    home_wins = 0
+                    away_wins = 0
+                    home_goals_scored = 0
+                    away_goals_scored = 0
+                    
+                    # Cup-specific wins
+                    cup_home_wins = 0
+                    cup_away_wins = 0
+                    
+                    for _, past_match in past_matches.iterrows():
+                        # Determine if home team was home or away in past match
+                        if past_match['home_team_id'] == home_team:
+                            # Home team was home in past match
+                            home_goals = past_match['home_goals']
+                            away_goals = past_match['away_goals']
+                            if home_goals > away_goals:
+                                home_wins += 1
+                                # Check if this is a cup match
+                                if past_match['is_cup_competition'] == 1:
+                                    cup_home_wins += 1
+                            elif away_goals > home_goals:
+                                away_wins += 1
+                        else:
+                            # Home team was away in past match
+                            home_goals = past_match['away_goals']  # Home team's goals
+                            away_goals = past_match['home_goals']  # Away team's goals
+                            if home_goals > away_goals:
+                                home_wins += 1
+                                # Check if this is a cup match
+                                if past_match['is_cup_competition'] == 1:
+                                    cup_home_wins += 1
+                            elif away_goals > home_goals:
+                                away_wins += 1
+                                # Check if this is a cup match
+                                if past_match['is_cup_competition'] == 1:
+                                    cup_away_wins += 1
+                        
+                        home_goals_scored += home_goals
+                        away_goals_scored += away_goals
+                    
+                    draws = total_matches - home_wins - away_wins
+                    goal_diff = home_goals_scored - away_goals_scored
+                    
+                    # Store all calculated values
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_matches')] = total_matches
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_home_wins')] = home_wins
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_away_wins')] = away_wins
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_draws')] = draws
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_home_goals')] = home_goals_scored
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_away_goals')] = away_goals_scored
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_goal_diff')] = goal_diff
+                    
+                    # Store cup-specific wins
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_cup_home_wins')] = cup_home_wins
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_cup_away_wins')] = cup_away_wins
+                    
+                    # Calculate percentages and averages
+                    if total_matches > 0:
+                        result_df.iloc[idx, result_df.columns.get_loc('h2h_home_win_pct')] = home_wins / total_matches
+                        result_df.iloc[idx, result_df.columns.get_loc('h2h_away_win_pct')] = away_wins / total_matches
+                        result_df.iloc[idx, result_df.columns.get_loc('h2h_avg_goals')] = (home_goals_scored + away_goals_scored) / total_matches
+                    
+                    # Calculate streak
+                    streak = self._calculate_streak(past_matches, home_team, 
+                                                debug=(monitor_teams and home_team in monitor_teams))
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_streak')] = streak
+                    
+                    # Also calculate win/loss streaks
+                    wins, losses = self._calculate_win_loss_streaks(past_matches, home_team)
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_win_streak')] = wins
+                    result_df.iloc[idx, result_df.columns.get_loc('h2h_loss_streak')] = losses
+                    
+                    # Monitor H2H found
+                    if monitor_teams:
+                        for team in monitor_teams:
+                            if team in [home_team, away_team]:
+                                team_matches[team]['found_h2h'] += 1
+                    
+                    # Debug logging for first few matches
+                    if idx < 3:
+                        self.logger.debug(f"Match {idx}: {home_team} vs {away_team}")
+                        self.logger.debug(f"  Found {total_matches} past matches")
+                        self.logger.debug(f"  League: {len(league_matches)}, Cup: {len(cup_matches)}, Europe: {len(europe_matches)}")
+                        self.logger.debug(f"  Home wins: {home_wins}, Away wins: {away_wins}, Draws: {draws}")
+                        self.logger.debug(f"  Goals: {home_goals_scored}-{away_goals_scored}")
+                
+                else:
+                    # No past matches found
+                    if monitor_teams:
+                        for team in monitor_teams:
+                            if team in [home_team, away_team]:
+                                team_matches[team]['no_h2h'] += 1
+                
+                # Progress logging every 10%
+                current_progress = int(((idx + 1) / len(result_df)) * 100)
+                if current_progress >= last_reported_progress + progress_interval or (idx + 1) == len(result_df):
+                    elapsed = time.time() - start_time
+                    self.logger.info(f"H2H {desc} Progress: {current_progress}% ({idx + 1}/{len(result_df)}) - {elapsed:.1f}s")
+                    last_reported_progress = current_progress
+            
+            return result_df
+        
+        # Process matches
+        completed_matches = calculate_match_stats(completed_matches, completed_matches, "Completed")
+        upcoming_matches = calculate_match_stats(upcoming_matches, completed_matches, "Upcoming")
+        
+        # Combine results
+        result_df = pd.concat([completed_matches, upcoming_matches]).sort_values('date')
+        
+        # Validate results
+        #self._validate_h2h_results(result_df)
+        #self._validate_h2h_batch(result_df, sample_size=20)
+        #self._validate_streak_calculation(result_df,  492, 489, "2024-03-15")  # Re-validate after batch checks
+
+        return result_df  
 
     def _create_h2h_features_3(self, df: pd.DataFrame, LEAGUES: dict, monitor_teams: list = None) -> pd.DataFrame:
         """Enhanced H2H calculator with proper goal calculation and competition types"""

@@ -1,0 +1,1006 @@
+2025-09-03 19:34:14,349 - src.process_pipeline - INFO - Logging initialized. Log file: logs/process\process_20250903_193414.log
+2025-09-03 19:34:15,405 - src.process_pipeline - INFO - Loaded H2H data with 10532 team pairs
+2025-09-03 19:34:15,424 - src.process_pipeline - INFO - Loaded standings data for 7622 teams
+2025-09-03 19:34:17,915 - src.process_pipeline - INFO - Processing England/Championship/2017
+2025-09-03 19:34:17,975 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Championship\2017\odds.csv
+2025-09-03 19:34:17,992 - src.process_pipeline - INFO - Successfully merged 557 records with team statistics
+2025-09-03 19:34:18,013 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2017\merged_2017.csv
+2025-09-03 19:34:18,013 - src.process_pipeline - INFO - Successfully merged 557 records
+2025-09-03 19:34:18,014 - src.process_pipeline - INFO - Processing England/Championship/2018
+2025-09-03 19:34:18,076 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Championship\2018\odds.csv
+2025-09-03 19:34:18,085 - src.process_pipeline - INFO - Successfully merged 557 records with team statistics
+2025-09-03 19:34:18,106 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2018\merged_2018.csv
+2025-09-03 19:34:18,106 - src.process_pipeline - INFO - Successfully merged 557 records
+2025-09-03 19:34:18,108 - src.process_pipeline - INFO - Processing England/Championship/2019
+2025-09-03 19:34:18,171 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Championship\2019\odds.csv
+2025-09-03 19:34:18,180 - src.process_pipeline - INFO - Successfully merged 444 records with team statistics
+2025-09-03 19:34:18,195 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2019\merged_2019.csv
+2025-09-03 19:34:18,195 - src.process_pipeline - INFO - Successfully merged 444 records
+2025-09-03 19:34:18,198 - src.process_pipeline - INFO - Processing England/Championship/2020
+2025-09-03 19:34:18,257 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Championship\2020\odds.csv
+2025-09-03 19:34:18,265 - src.process_pipeline - INFO - Successfully merged 557 records with team statistics
+2025-09-03 19:34:18,281 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2020\merged_2020.csv
+2025-09-03 19:34:18,281 - src.process_pipeline - INFO - Successfully merged 557 records
+2025-09-03 19:34:18,285 - src.process_pipeline - INFO - Processing England/Championship/2021
+2025-09-03 19:34:18,343 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Championship\2021\odds.csv
+2025-09-03 19:34:18,351 - src.process_pipeline - INFO - Successfully merged 557 records with team statistics
+2025-09-03 19:34:18,367 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2021\merged_2021.csv
+2025-09-03 19:34:18,367 - src.process_pipeline - INFO - Successfully merged 557 records
+2025-09-03 19:34:18,370 - src.process_pipeline - INFO - Processing England/Championship/2022
+2025-09-03 19:34:18,437 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Championship\2022\odds.csv
+2025-09-03 19:34:18,446 - src.process_pipeline - INFO - Successfully merged 546 records with team statistics
+2025-09-03 19:34:18,464 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2022\merged_2022.csv
+2025-09-03 19:34:18,464 - src.process_pipeline - INFO - Successfully merged 546 records
+2025-09-03 19:34:18,469 - src.process_pipeline - INFO - Processing England/Championship/2023
+2025-09-03 19:34:18,538 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Championship\2023\odds.csv
+2025-09-03 19:34:18,549 - src.process_pipeline - INFO - Successfully merged 557 records with team statistics
+2025-09-03 19:34:18,570 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2023\merged_2023.csv
+2025-09-03 19:34:18,570 - src.process_pipeline - INFO - Successfully merged 557 records
+2025-09-03 19:34:18,573 - src.process_pipeline - INFO - Processing England/Championship/2024
+2025-09-03 19:34:18,637 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Championship\2024\odds.csv
+2025-09-03 19:34:18,645 - src.process_pipeline - INFO - Successfully merged 557 records with team statistics
+2025-09-03 19:34:18,662 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2024\merged_2024.csv
+2025-09-03 19:34:18,662 - src.process_pipeline - INFO - Successfully merged 557 records
+2025-09-03 19:34:18,666 - src.process_pipeline - INFO - Processing England/Championship/2025
+2025-09-03 19:34:18,732 - src.process_pipeline - INFO - Odds data found for England/Championship/2025
+2025-09-03 19:34:18,767 - src.process_pipeline - INFO - Added odds data for 12 fixtures
+2025-09-03 19:34:18,767 - src.process_pipeline - INFO - Successfully merged 24 records with team statistics
+2025-09-03 19:34:18,770 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2025\merged_2025.csv
+2025-09-03 19:34:18,770 - src.process_pipeline - INFO - Successfully merged 24 records
+2025-09-03 19:34:18,773 - src.process_pipeline - INFO - Processing England/EFL Trophy/2021
+2025-09-03 19:34:18,824 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\EFL Trophy\2021\odds.csv
+2025-09-03 19:34:18,832 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-09-03 19:34:18,839 - src.process_pipeline - INFO - Saved merged data to data\processed\England\EFL Trophy\2021\merged_2021.csv
+2025-09-03 19:34:18,839 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-09-03 19:34:18,842 - src.process_pipeline - INFO - Processing England/EFL Trophy/2022
+2025-09-03 19:34:18,892 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\EFL Trophy\2022\odds.csv
+2025-09-03 19:34:18,901 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-09-03 19:34:18,906 - src.process_pipeline - INFO - Saved merged data to data\processed\England\EFL Trophy\2022\merged_2022.csv
+2025-09-03 19:34:18,906 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-09-03 19:34:18,910 - src.process_pipeline - INFO - Processing England/EFL Trophy/2023
+2025-09-03 19:34:18,964 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\EFL Trophy\2023\odds.csv
+2025-09-03 19:34:18,974 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-09-03 19:34:18,982 - src.process_pipeline - INFO - Saved merged data to data\processed\England\EFL Trophy\2023\merged_2023.csv
+2025-09-03 19:34:18,983 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-09-03 19:34:18,987 - src.process_pipeline - INFO - Processing England/EFL Trophy/2024
+2025-09-03 19:34:19,040 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\EFL Trophy\2024\odds.csv
+2025-09-03 19:34:19,048 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-09-03 19:34:19,054 - src.process_pipeline - INFO - Saved merged data to data\processed\England\EFL Trophy\2024\merged_2024.csv
+2025-09-03 19:34:19,054 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-09-03 19:34:19,057 - src.process_pipeline - INFO - Processing England/EFL Trophy/2025
+2025-09-03 19:34:19,058 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\England\EFL Trophy\2025\team_statistics.csv
+2025-09-03 19:34:19,058 - src.process_pipeline - INFO - Processing England/FA Cup/2018
+2025-09-03 19:34:19,109 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\FA Cup\2018\odds.csv
+2025-09-03 19:34:19,117 - src.process_pipeline - INFO - Successfully merged 150 records with team statistics
+2025-09-03 19:34:19,123 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2018\merged_2018.csv
+2025-09-03 19:34:19,123 - src.process_pipeline - INFO - Successfully merged 150 records
+2025-09-03 19:34:19,126 - src.process_pipeline - INFO - Processing England/FA Cup/2019
+2025-09-03 19:34:19,176 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\FA Cup\2019\odds.csv
+2025-09-03 19:34:19,185 - src.process_pipeline - INFO - Successfully merged 149 records with team statistics
+2025-09-03 19:34:19,192 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2019\merged_2019.csv
+2025-09-03 19:34:19,192 - src.process_pipeline - INFO - Successfully merged 149 records
+2025-09-03 19:34:19,195 - src.process_pipeline - INFO - Processing England/FA Cup/2020
+2025-09-03 19:34:19,249 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\FA Cup\2020\odds.csv
+2025-09-03 19:34:19,257 - src.process_pipeline - INFO - Successfully merged 124 records with team statistics
+2025-09-03 19:34:19,262 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2020\merged_2020.csv
+2025-09-03 19:34:19,263 - src.process_pipeline - INFO - Successfully merged 124 records
+2025-09-03 19:34:19,268 - src.process_pipeline - INFO - Processing England/FA Cup/2021
+2025-09-03 19:34:19,318 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\FA Cup\2021\odds.csv
+2025-09-03 19:34:19,325 - src.process_pipeline - INFO - Successfully merged 136 records with team statistics
+2025-09-03 19:34:19,331 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2021\merged_2021.csv
+2025-09-03 19:34:19,331 - src.process_pipeline - INFO - Successfully merged 136 records
+2025-09-03 19:34:19,335 - src.process_pipeline - INFO - Processing England/FA Cup/2022
+2025-09-03 19:34:19,386 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\FA Cup\2022\odds.csv
+2025-09-03 19:34:19,393 - src.process_pipeline - INFO - Successfully merged 143 records with team statistics
+2025-09-03 19:34:19,399 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2022\merged_2022.csv
+2025-09-03 19:34:19,399 - src.process_pipeline - INFO - Successfully merged 143 records
+2025-09-03 19:34:19,403 - src.process_pipeline - INFO - Processing England/FA Cup/2023
+2025-09-03 19:34:19,454 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\FA Cup\2023\odds.csv
+2025-09-03 19:34:19,462 - src.process_pipeline - INFO - Successfully merged 149 records with team statistics
+2025-09-03 19:34:19,469 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2023\merged_2023.csv
+2025-09-03 19:34:19,469 - src.process_pipeline - INFO - Successfully merged 149 records
+2025-09-03 19:34:19,473 - src.process_pipeline - INFO - Processing England/FA Cup/2024
+2025-09-03 19:34:19,529 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\FA Cup\2024\odds.csv
+2025-09-03 19:34:19,538 - src.process_pipeline - INFO - Successfully merged 123 records with team statistics
+2025-09-03 19:34:19,545 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2024\merged_2024.csv
+2025-09-03 19:34:19,545 - src.process_pipeline - INFO - Successfully merged 123 records
+2025-09-03 19:34:19,550 - src.process_pipeline - INFO - Processing England/FA Cup/2025
+2025-09-03 19:34:19,551 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\England\FA Cup\2025\team_statistics.csv
+2025-09-03 19:34:19,551 - src.process_pipeline - INFO - Processing England/FA Trophy/2023
+2025-09-03 19:34:19,551 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\England\FA Trophy\2023\team_statistics.csv
+2025-09-03 19:34:19,551 - src.process_pipeline - INFO - Processing England/FA Trophy/2024
+2025-09-03 19:34:19,552 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\England\FA Trophy\2024\fixture_events.csv
+2025-09-03 19:34:19,552 - src.process_pipeline - INFO - Processing England/FA Trophy/2025
+2025-09-03 19:34:19,552 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\England\FA Trophy\2025\team_statistics.csv
+2025-09-03 19:34:19,553 - src.process_pipeline - INFO - Processing England/League One/2025
+2025-09-03 19:34:19,553 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\England\League One\2025\team_statistics.csv
+2025-09-03 19:34:19,554 - src.process_pipeline - INFO - Processing England/League Two/2025
+2025-09-03 19:34:19,554 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\England\League Two\2025\team_statistics.csv
+2025-09-03 19:34:19,555 - src.process_pipeline - INFO - Processing England/Premier League/2018
+2025-09-03 19:34:19,615 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Premier League\2018\odds.csv
+2025-09-03 19:34:19,623 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:19,635 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2018\merged_2018.csv
+2025-09-03 19:34:19,635 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:19,639 - src.process_pipeline - INFO - Processing England/Premier League/2019
+2025-09-03 19:34:19,700 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Premier League\2019\odds.csv
+2025-09-03 19:34:19,707 - src.process_pipeline - INFO - Successfully merged 288 records with team statistics
+2025-09-03 19:34:19,717 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2019\merged_2019.csv
+2025-09-03 19:34:19,717 - src.process_pipeline - INFO - Successfully merged 288 records
+2025-09-03 19:34:19,722 - src.process_pipeline - INFO - Processing England/Premier League/2020
+2025-09-03 19:34:19,779 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Premier League\2020\odds.csv
+2025-09-03 19:34:19,788 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:19,801 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2020\merged_2020.csv
+2025-09-03 19:34:19,801 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:19,805 - src.process_pipeline - INFO - Processing England/Premier League/2021
+2025-09-03 19:34:19,863 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Premier League\2021\odds.csv
+2025-09-03 19:34:19,871 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:19,882 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2021\merged_2021.csv
+2025-09-03 19:34:19,883 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:19,887 - src.process_pipeline - INFO - Processing England/Premier League/2022
+2025-09-03 19:34:19,950 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Premier League\2022\odds.csv
+2025-09-03 19:34:19,959 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:19,971 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2022\merged_2022.csv
+2025-09-03 19:34:19,972 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:19,976 - src.process_pipeline - INFO - Processing England/Premier League/2023
+2025-09-03 19:34:20,036 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Premier League\2023\odds.csv
+2025-09-03 19:34:20,045 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:20,057 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2023\merged_2023.csv
+2025-09-03 19:34:20,057 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:20,064 - src.process_pipeline - INFO - Processing England/Premier League/2024
+2025-09-03 19:34:20,135 - src.process_pipeline - WARNING - Missing odds file: data\extracted\England\Premier League\2024\odds.csv
+2025-09-03 19:34:20,144 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:20,156 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2024\merged_2024.csv
+2025-09-03 19:34:20,156 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:20,162 - src.process_pipeline - INFO - Processing England/Premier League/2025
+2025-09-03 19:34:20,230 - src.process_pipeline - INFO - Odds data found for England/Premier League/2025
+2025-09-03 19:34:20,278 - src.process_pipeline - INFO - Added odds data for 29 fixtures
+2025-09-03 19:34:20,278 - src.process_pipeline - INFO - Successfully merged 30 records with team statistics
+2025-09-03 19:34:20,282 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2025\merged_2025.csv
+2025-09-03 19:34:20,282 - src.process_pipeline - INFO - Successfully merged 30 records
+2025-09-03 19:34:20,288 - src.process_pipeline - INFO - Processing Europe/Champions League/2018
+2025-09-03 19:34:20,343 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Champions League\2018\odds.csv
+2025-09-03 19:34:20,351 - src.process_pipeline - INFO - Successfully merged 166 records with team statistics
+2025-09-03 19:34:20,359 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2018\merged_2018.csv
+2025-09-03 19:34:20,359 - src.process_pipeline - INFO - Successfully merged 166 records
+2025-09-03 19:34:20,365 - src.process_pipeline - INFO - Processing Europe/Champions League/2019
+2025-09-03 19:34:20,417 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Champions League\2019\odds.csv
+2025-09-03 19:34:20,424 - src.process_pipeline - INFO - Successfully merged 140 records with team statistics
+2025-09-03 19:34:20,431 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2019\merged_2019.csv
+2025-09-03 19:34:20,431 - src.process_pipeline - INFO - Successfully merged 140 records
+2025-09-03 19:34:20,437 - src.process_pipeline - INFO - Processing Europe/Champions League/2020
+2025-09-03 19:34:20,506 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Champions League\2020\odds.csv
+2025-09-03 19:34:20,513 - src.process_pipeline - INFO - Successfully merged 178 records with team statistics
+2025-09-03 19:34:20,521 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2020\merged_2020.csv
+2025-09-03 19:34:20,521 - src.process_pipeline - INFO - Successfully merged 178 records
+2025-09-03 19:34:20,527 - src.process_pipeline - INFO - Processing Europe/Champions League/2021
+2025-09-03 19:34:20,583 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Champions League\2021\odds.csv
+2025-09-03 19:34:20,590 - src.process_pipeline - INFO - Successfully merged 157 records with team statistics
+2025-09-03 19:34:20,598 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2021\merged_2021.csv
+2025-09-03 19:34:20,598 - src.process_pipeline - INFO - Successfully merged 157 records
+2025-09-03 19:34:20,605 - src.process_pipeline - INFO - Processing Europe/Champions League/2022
+2025-09-03 19:34:20,672 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Champions League\2022\odds.csv
+2025-09-03 19:34:20,682 - src.process_pipeline - INFO - Successfully merged 210 records with team statistics
+2025-09-03 19:34:20,691 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2022\merged_2022.csv
+2025-09-03 19:34:20,691 - src.process_pipeline - INFO - Successfully merged 210 records
+2025-09-03 19:34:20,701 - src.process_pipeline - INFO - Processing Europe/Champions League/2023
+2025-09-03 19:34:20,752 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Champions League\2023\odds.csv
+2025-09-03 19:34:20,760 - src.process_pipeline - INFO - Successfully merged 211 records with team statistics
+2025-09-03 19:34:20,768 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2023\merged_2023.csv
+2025-09-03 19:34:20,768 - src.process_pipeline - INFO - Successfully merged 211 records
+2025-09-03 19:34:20,775 - src.process_pipeline - INFO - Processing Europe/Champions League/2024
+2025-09-03 19:34:20,826 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Champions League\2024\odds.csv
+2025-09-03 19:34:20,835 - src.process_pipeline - INFO - Successfully merged 279 records with team statistics
+2025-09-03 19:34:20,846 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2024\merged_2024.csv
+2025-09-03 19:34:20,846 - src.process_pipeline - INFO - Successfully merged 279 records
+2025-09-03 19:34:20,853 - src.process_pipeline - INFO - Processing Europe/Champions League/2025
+2025-09-03 19:34:20,915 - src.process_pipeline - INFO - Odds data found for Europe/Champions League/2025
+2025-09-03 19:34:20,939 - src.process_pipeline - INFO - Added odds data for 7 fixtures
+2025-09-03 19:34:20,939 - src.process_pipeline - INFO - Successfully merged 34 records with team statistics
+2025-09-03 19:34:20,942 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2025\merged_2025.csv
+2025-09-03 19:34:20,942 - src.process_pipeline - INFO - Successfully merged 34 records
+2025-09-03 19:34:20,948 - src.process_pipeline - INFO - Processing Europe/Conference League/2021
+2025-09-03 19:34:21,005 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Conference League\2021\odds.csv
+2025-09-03 19:34:21,014 - src.process_pipeline - INFO - Successfully merged 423 records with team statistics
+2025-09-03 19:34:21,028 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Conference League\2021\merged_2021.csv
+2025-09-03 19:34:21,028 - src.process_pipeline - INFO - Successfully merged 423 records
+2025-09-03 19:34:21,035 - src.process_pipeline - INFO - Processing Europe/Conference League/2022
+2025-09-03 19:34:21,089 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Conference League\2022\odds.csv
+2025-09-03 19:34:21,098 - src.process_pipeline - INFO - Successfully merged 414 records with team statistics
+2025-09-03 19:34:21,112 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Conference League\2022\merged_2022.csv
+2025-09-03 19:34:21,112 - src.process_pipeline - INFO - Successfully merged 414 records
+2025-09-03 19:34:21,121 - src.process_pipeline - INFO - Processing Europe/Conference League/2023
+2025-09-03 19:34:21,191 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Conference League\2023\odds.csv
+2025-09-03 19:34:21,202 - src.process_pipeline - INFO - Successfully merged 417 records with team statistics
+2025-09-03 19:34:21,218 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Conference League\2023\merged_2023.csv
+2025-09-03 19:34:21,218 - src.process_pipeline - INFO - Successfully merged 417 records
+2025-09-03 19:34:21,226 - src.process_pipeline - INFO - Processing Europe/Conference League/2024
+2025-09-03 19:34:21,227 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\Europe\Conference League\2024\team_statistics.csv
+2025-09-03 19:34:21,227 - src.process_pipeline - INFO - Processing Europe/Conference League/2025
+2025-09-03 19:34:21,291 - src.process_pipeline - INFO - Odds data found for Europe/Conference League/2025
+2025-09-03 19:34:21,349 - src.process_pipeline - INFO - Added odds data for 24 fixtures
+2025-09-03 19:34:21,350 - src.process_pipeline - INFO - Successfully merged 108 records with team statistics
+2025-09-03 19:34:21,355 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Conference League\2025\merged_2025.csv
+2025-09-03 19:34:21,355 - src.process_pipeline - INFO - Successfully merged 108 records
+2025-09-03 19:34:21,362 - src.process_pipeline - INFO - Processing Europe/Europa League/2018
+2025-09-03 19:34:21,425 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Europa League\2018\odds.csv
+2025-09-03 19:34:21,436 - src.process_pipeline - INFO - Successfully merged 364 records with team statistics
+2025-09-03 19:34:21,449 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2018\merged_2018.csv
+2025-09-03 19:34:21,449 - src.process_pipeline - INFO - Successfully merged 364 records
+2025-09-03 19:34:21,457 - src.process_pipeline - INFO - Processing Europe/Europa League/2019
+2025-09-03 19:34:21,521 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Europa League\2019\odds.csv
+2025-09-03 19:34:21,530 - src.process_pipeline - INFO - Successfully merged 337 records with team statistics
+2025-09-03 19:34:21,544 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2019\merged_2019.csv
+2025-09-03 19:34:21,544 - src.process_pipeline - INFO - Successfully merged 337 records
+2025-09-03 19:34:21,554 - src.process_pipeline - INFO - Processing Europe/Europa League/2020
+2025-09-03 19:34:21,614 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Europa League\2020\odds.csv
+2025-09-03 19:34:21,626 - src.process_pipeline - INFO - Successfully merged 362 records with team statistics
+2025-09-03 19:34:21,640 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2020\merged_2020.csv
+2025-09-03 19:34:21,640 - src.process_pipeline - INFO - Successfully merged 362 records
+2025-09-03 19:34:21,649 - src.process_pipeline - INFO - Processing Europe/Europa League/2021
+2025-09-03 19:34:21,705 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Europa League\2021\odds.csv
+2025-09-03 19:34:21,714 - src.process_pipeline - INFO - Successfully merged 177 records with team statistics
+2025-09-03 19:34:21,723 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2021\merged_2021.csv
+2025-09-03 19:34:21,723 - src.process_pipeline - INFO - Successfully merged 177 records
+2025-09-03 19:34:21,731 - src.process_pipeline - INFO - Processing Europe/Europa League/2022
+2025-09-03 19:34:21,785 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Europa League\2022\odds.csv
+2025-09-03 19:34:21,794 - src.process_pipeline - INFO - Successfully merged 175 records with team statistics
+2025-09-03 19:34:21,801 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2022\merged_2022.csv
+2025-09-03 19:34:21,802 - src.process_pipeline - INFO - Successfully merged 175 records
+2025-09-03 19:34:21,810 - src.process_pipeline - INFO - Processing Europe/Europa League/2023
+2025-09-03 19:34:21,860 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Europa League\2023\odds.csv
+2025-09-03 19:34:21,868 - src.process_pipeline - INFO - Successfully merged 175 records with team statistics
+2025-09-03 19:34:21,875 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2023\merged_2023.csv
+2025-09-03 19:34:21,875 - src.process_pipeline - INFO - Successfully merged 175 records
+2025-09-03 19:34:21,884 - src.process_pipeline - INFO - Processing Europe/Europa League/2024
+2025-09-03 19:34:21,936 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Europe\Europa League\2024\odds.csv
+2025-09-03 19:34:21,944 - src.process_pipeline - INFO - Successfully merged 269 records with team statistics
+2025-09-03 19:34:21,957 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2024\merged_2024.csv
+2025-09-03 19:34:21,957 - src.process_pipeline - INFO - Successfully merged 269 records
+2025-09-03 19:34:21,965 - src.process_pipeline - INFO - Processing Europe/Europa League/2025
+2025-09-03 19:34:22,064 - src.process_pipeline - INFO - Odds data found for Europe/Europa League/2025
+2025-09-03 19:34:22,099 - src.process_pipeline - INFO - Added odds data for 12 fixtures
+2025-09-03 19:34:22,099 - src.process_pipeline - INFO - Successfully merged 50 records with team statistics
+2025-09-03 19:34:22,103 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2025\merged_2025.csv
+2025-09-03 19:34:22,103 - src.process_pipeline - INFO - Successfully merged 50 records
+2025-09-03 19:34:22,111 - src.process_pipeline - INFO - Processing France/Coupe de France/2018
+2025-09-03 19:34:22,171 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Coupe de France\2018\odds.csv
+2025-09-03 19:34:22,178 - src.process_pipeline - INFO - Successfully merged 195 records with team statistics
+2025-09-03 19:34:22,186 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2018\merged_2018.csv
+2025-09-03 19:34:22,186 - src.process_pipeline - INFO - Successfully merged 195 records
+2025-09-03 19:34:22,194 - src.process_pipeline - INFO - Processing France/Coupe de France/2019
+2025-09-03 19:34:22,252 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Coupe de France\2019\odds.csv
+2025-09-03 19:34:22,261 - src.process_pipeline - INFO - Successfully merged 194 records with team statistics
+2025-09-03 19:34:22,270 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2019\merged_2019.csv
+2025-09-03 19:34:22,270 - src.process_pipeline - INFO - Successfully merged 194 records
+2025-09-03 19:34:22,282 - src.process_pipeline - INFO - Processing France/Coupe de France/2020
+2025-09-03 19:34:22,336 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Coupe de France\2020\odds.csv
+2025-09-03 19:34:22,344 - src.process_pipeline - INFO - Successfully merged 170 records with team statistics
+2025-09-03 19:34:22,350 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2020\merged_2020.csv
+2025-09-03 19:34:22,350 - src.process_pipeline - INFO - Successfully merged 170 records
+2025-09-03 19:34:22,358 - src.process_pipeline - INFO - Processing France/Coupe de France/2021
+2025-09-03 19:34:22,412 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Coupe de France\2021\odds.csv
+2025-09-03 19:34:22,421 - src.process_pipeline - INFO - Successfully merged 193 records with team statistics
+2025-09-03 19:34:22,430 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2021\merged_2021.csv
+2025-09-03 19:34:22,430 - src.process_pipeline - INFO - Successfully merged 193 records
+2025-09-03 19:34:22,440 - src.process_pipeline - INFO - Processing France/Coupe de France/2022
+2025-09-03 19:34:22,500 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Coupe de France\2022\odds.csv
+2025-09-03 19:34:22,508 - src.process_pipeline - INFO - Successfully merged 195 records with team statistics
+2025-09-03 19:34:22,516 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2022\merged_2022.csv
+2025-09-03 19:34:22,516 - src.process_pipeline - INFO - Successfully merged 195 records
+2025-09-03 19:34:22,525 - src.process_pipeline - INFO - Processing France/Coupe de France/2023
+2025-09-03 19:34:22,583 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Coupe de France\2023\odds.csv
+2025-09-03 19:34:22,591 - src.process_pipeline - INFO - Successfully merged 197 records with team statistics
+2025-09-03 19:34:22,600 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2023\merged_2023.csv
+2025-09-03 19:34:22,600 - src.process_pipeline - INFO - Successfully merged 197 records
+2025-09-03 19:34:22,609 - src.process_pipeline - INFO - Processing France/Coupe de France/2024
+2025-09-03 19:34:22,663 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Coupe de France\2024\odds.csv
+2025-09-03 19:34:22,674 - src.process_pipeline - INFO - Successfully merged 199 records with team statistics
+2025-09-03 19:34:22,682 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2024\merged_2024.csv
+2025-09-03 19:34:22,682 - src.process_pipeline - INFO - Successfully merged 199 records
+2025-09-03 19:34:22,689 - src.process_pipeline - INFO - Processing France/Coupe de France/2025
+2025-09-03 19:34:22,690 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\France\Coupe de France\2025\fixture_events.csv
+2025-09-03 19:34:22,690 - src.process_pipeline - INFO - Processing France/Ligue 1/2018
+2025-09-03 19:34:22,752 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 1\2018\odds.csv
+2025-09-03 19:34:22,760 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:22,773 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2018\merged_2018.csv
+2025-09-03 19:34:22,773 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:22,783 - src.process_pipeline - INFO - Processing France/Ligue 1/2019
+2025-09-03 19:34:22,843 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 1\2019\odds.csv
+2025-09-03 19:34:22,852 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:22,869 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2019\merged_2019.csv
+2025-09-03 19:34:22,869 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:22,878 - src.process_pipeline - INFO - Processing France/Ligue 1/2020
+2025-09-03 19:34:22,939 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 1\2020\odds.csv
+2025-09-03 19:34:22,947 - src.process_pipeline - INFO - Successfully merged 382 records with team statistics
+2025-09-03 19:34:22,959 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2020\merged_2020.csv
+2025-09-03 19:34:22,959 - src.process_pipeline - INFO - Successfully merged 382 records
+2025-09-03 19:34:22,969 - src.process_pipeline - INFO - Processing France/Ligue 1/2021
+2025-09-03 19:34:23,028 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 1\2021\odds.csv
+2025-09-03 19:34:23,036 - src.process_pipeline - INFO - Successfully merged 382 records with team statistics
+2025-09-03 19:34:23,048 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2021\merged_2021.csv
+2025-09-03 19:34:23,048 - src.process_pipeline - INFO - Successfully merged 382 records
+2025-09-03 19:34:23,056 - src.process_pipeline - INFO - Processing France/Ligue 1/2022
+2025-09-03 19:34:23,117 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 1\2022\odds.csv
+2025-09-03 19:34:23,125 - src.process_pipeline - INFO - Successfully merged 370 records with team statistics
+2025-09-03 19:34:23,137 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2022\merged_2022.csv
+2025-09-03 19:34:23,137 - src.process_pipeline - INFO - Successfully merged 370 records
+2025-09-03 19:34:23,148 - src.process_pipeline - INFO - Processing France/Ligue 1/2023
+2025-09-03 19:34:23,211 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 1\2023\odds.csv
+2025-09-03 19:34:23,220 - src.process_pipeline - INFO - Successfully merged 307 records with team statistics
+2025-09-03 19:34:23,229 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2023\merged_2023.csv
+2025-09-03 19:34:23,229 - src.process_pipeline - INFO - Successfully merged 307 records
+2025-09-03 19:34:23,238 - src.process_pipeline - INFO - Processing France/Ligue 1/2024
+2025-09-03 19:34:23,296 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 1\2024\odds.csv
+2025-09-03 19:34:23,305 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-09-03 19:34:23,315 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2024\merged_2024.csv
+2025-09-03 19:34:23,315 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-09-03 19:34:23,324 - src.process_pipeline - INFO - Processing France/Ligue 1/2025
+2025-09-03 19:34:23,399 - src.process_pipeline - INFO - Odds data found for France/Ligue 1/2025
+2025-09-03 19:34:23,445 - src.process_pipeline - INFO - Added odds data for 26 fixtures
+2025-09-03 19:34:23,445 - src.process_pipeline - INFO - Successfully merged 26 records with team statistics
+2025-09-03 19:34:23,449 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2025\merged_2025.csv
+2025-09-03 19:34:23,449 - src.process_pipeline - INFO - Successfully merged 26 records
+2025-09-03 19:34:23,458 - src.process_pipeline - INFO - Processing France/Ligue 2/2018
+2025-09-03 19:34:23,520 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 2\2018\odds.csv
+2025-09-03 19:34:23,533 - src.process_pipeline - INFO - Successfully merged 370 records with team statistics
+2025-09-03 19:34:23,553 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2018\merged_2018.csv
+2025-09-03 19:34:23,553 - src.process_pipeline - INFO - Successfully merged 370 records
+2025-09-03 19:34:23,571 - src.process_pipeline - INFO - Processing France/Ligue 2/2019
+2025-09-03 19:34:23,634 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 2\2019\odds.csv
+2025-09-03 19:34:23,643 - src.process_pipeline - INFO - Successfully merged 370 records with team statistics
+2025-09-03 19:34:23,658 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2019\merged_2019.csv
+2025-09-03 19:34:23,658 - src.process_pipeline - INFO - Successfully merged 370 records
+2025-09-03 19:34:23,667 - src.process_pipeline - INFO - Processing France/Ligue 2/2020
+2025-09-03 19:34:23,725 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 2\2020\odds.csv
+2025-09-03 19:34:23,734 - src.process_pipeline - INFO - Successfully merged 384 records with team statistics
+2025-09-03 19:34:23,750 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2020\merged_2020.csv
+2025-09-03 19:34:23,751 - src.process_pipeline - INFO - Successfully merged 384 records
+2025-09-03 19:34:23,760 - src.process_pipeline - INFO - Processing France/Ligue 2/2021
+2025-09-03 19:34:23,820 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 2\2021\odds.csv
+2025-09-03 19:34:23,829 - src.process_pipeline - INFO - Successfully merged 366 records with team statistics
+2025-09-03 19:34:23,845 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2021\merged_2021.csv
+2025-09-03 19:34:23,845 - src.process_pipeline - INFO - Successfully merged 366 records
+2025-09-03 19:34:23,856 - src.process_pipeline - INFO - Processing France/Ligue 2/2022
+2025-09-03 19:34:23,917 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 2\2022\odds.csv
+2025-09-03 19:34:23,926 - src.process_pipeline - INFO - Successfully merged 361 records with team statistics
+2025-09-03 19:34:23,938 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2022\merged_2022.csv
+2025-09-03 19:34:23,938 - src.process_pipeline - INFO - Successfully merged 361 records
+2025-09-03 19:34:23,949 - src.process_pipeline - INFO - Processing France/Ligue 2/2023
+2025-09-03 19:34:24,006 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 2\2023\odds.csv
+2025-09-03 19:34:24,015 - src.process_pipeline - INFO - Successfully merged 382 records with team statistics
+2025-09-03 19:34:24,029 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2023\merged_2023.csv
+2025-09-03 19:34:24,029 - src.process_pipeline - INFO - Successfully merged 382 records
+2025-09-03 19:34:24,040 - src.process_pipeline - INFO - Processing France/Ligue 2/2024
+2025-09-03 19:34:24,098 - src.process_pipeline - WARNING - Missing odds file: data\extracted\France\Ligue 2\2024\odds.csv
+2025-09-03 19:34:24,106 - src.process_pipeline - INFO - Successfully merged 310 records with team statistics
+2025-09-03 19:34:24,119 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2024\merged_2024.csv
+2025-09-03 19:34:24,119 - src.process_pipeline - INFO - Successfully merged 310 records
+2025-09-03 19:34:24,130 - src.process_pipeline - INFO - Processing France/Ligue 2/2025
+2025-09-03 19:34:24,194 - src.process_pipeline - INFO - Odds data found for France/Ligue 2/2025
+2025-09-03 19:34:24,217 - src.process_pipeline - INFO - Added odds data for 9 fixtures
+2025-09-03 19:34:24,217 - src.process_pipeline - INFO - Successfully merged 17 records with team statistics
+2025-09-03 19:34:24,219 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2025\merged_2025.csv
+2025-09-03 19:34:24,219 - src.process_pipeline - INFO - Successfully merged 17 records
+2025-09-03 19:34:24,232 - src.process_pipeline - INFO - Processing France/National/2025
+2025-09-03 19:34:24,232 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\France\National\2025\team_statistics.csv
+2025-09-03 19:34:24,232 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2017
+2025-09-03 19:34:24,233 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\Germany\2. Bundesliga\2017\fixture_events.csv
+2025-09-03 19:34:24,233 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2018
+2025-09-03 19:34:24,289 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\2. Bundesliga\2018\odds.csv
+2025-09-03 19:34:24,299 - src.process_pipeline - INFO - Successfully merged 306 records with team statistics
+2025-09-03 19:34:24,312 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2018\merged_2018.csv
+2025-09-03 19:34:24,312 - src.process_pipeline - INFO - Successfully merged 306 records
+2025-09-03 19:34:24,324 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2019
+2025-09-03 19:34:24,376 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\2. Bundesliga\2019\odds.csv
+2025-09-03 19:34:24,384 - src.process_pipeline - INFO - Successfully merged 249 records with team statistics
+2025-09-03 19:34:24,392 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2019\merged_2019.csv
+2025-09-03 19:34:24,393 - src.process_pipeline - INFO - Successfully merged 249 records
+2025-09-03 19:34:24,405 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2020
+2025-09-03 19:34:24,460 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\2. Bundesliga\2020\odds.csv
+2025-09-03 19:34:24,471 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-09-03 19:34:24,482 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2020\merged_2020.csv
+2025-09-03 19:34:24,482 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-09-03 19:34:24,495 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2021
+2025-09-03 19:34:24,553 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\2. Bundesliga\2021\odds.csv
+2025-09-03 19:34:24,562 - src.process_pipeline - INFO - Successfully merged 293 records with team statistics
+2025-09-03 19:34:24,571 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2021\merged_2021.csv
+2025-09-03 19:34:24,571 - src.process_pipeline - INFO - Successfully merged 293 records
+2025-09-03 19:34:24,583 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2022
+2025-09-03 19:34:24,637 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\2. Bundesliga\2022\odds.csv
+2025-09-03 19:34:24,647 - src.process_pipeline - INFO - Successfully merged 288 records with team statistics
+2025-09-03 19:34:24,657 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2022\merged_2022.csv
+2025-09-03 19:34:24,657 - src.process_pipeline - INFO - Successfully merged 288 records
+2025-09-03 19:34:24,673 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2023
+2025-09-03 19:34:24,730 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\2. Bundesliga\2023\odds.csv
+2025-09-03 19:34:24,738 - src.process_pipeline - INFO - Successfully merged 299 records with team statistics
+2025-09-03 19:34:24,750 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2023\merged_2023.csv
+2025-09-03 19:34:24,750 - src.process_pipeline - INFO - Successfully merged 299 records
+2025-09-03 19:34:24,761 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2024
+2025-09-03 19:34:24,817 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\2. Bundesliga\2024\odds.csv
+2025-09-03 19:34:24,828 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-09-03 19:34:24,838 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2024\merged_2024.csv
+2025-09-03 19:34:24,839 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-09-03 19:34:24,850 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2025
+2025-09-03 19:34:24,899 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\2. Bundesliga\2025\odds.csv
+2025-09-03 19:34:24,906 - src.process_pipeline - INFO - Successfully merged 18 records with team statistics
+2025-09-03 19:34:24,908 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2025\merged_2025.csv
+2025-09-03 19:34:24,908 - src.process_pipeline - INFO - Successfully merged 18 records
+2025-09-03 19:34:24,923 - src.process_pipeline - INFO - Processing Germany/3. Liga/2025
+2025-09-03 19:34:24,923 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\Germany\3. Liga\2025\fixture_events.csv
+2025-09-03 19:34:24,923 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2018
+2025-09-03 19:34:24,982 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\Bundesliga\2018\odds.csv
+2025-09-03 19:34:24,992 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-09-03 19:34:25,003 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2018\merged_2018.csv
+2025-09-03 19:34:25,003 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-09-03 19:34:25,020 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2019
+2025-09-03 19:34:25,086 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\Bundesliga\2019\odds.csv
+2025-09-03 19:34:25,094 - src.process_pipeline - INFO - Successfully merged 260 records with team statistics
+2025-09-03 19:34:25,103 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2019\merged_2019.csv
+2025-09-03 19:34:25,103 - src.process_pipeline - INFO - Successfully merged 260 records
+2025-09-03 19:34:25,115 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2020
+2025-09-03 19:34:25,173 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\Bundesliga\2020\odds.csv
+2025-09-03 19:34:25,181 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-09-03 19:34:25,193 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2020\merged_2020.csv
+2025-09-03 19:34:25,193 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-09-03 19:34:25,205 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2021
+2025-09-03 19:34:25,259 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\Bundesliga\2021\odds.csv
+2025-09-03 19:34:25,267 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-09-03 19:34:25,276 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2021\merged_2021.csv
+2025-09-03 19:34:25,277 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-09-03 19:34:25,290 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2022
+2025-09-03 19:34:25,353 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\Bundesliga\2022\odds.csv
+2025-09-03 19:34:25,362 - src.process_pipeline - INFO - Successfully merged 307 records with team statistics
+2025-09-03 19:34:25,374 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2022\merged_2022.csv
+2025-09-03 19:34:25,374 - src.process_pipeline - INFO - Successfully merged 307 records
+2025-09-03 19:34:25,390 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2023
+2025-09-03 19:34:25,444 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\Bundesliga\2023\odds.csv
+2025-09-03 19:34:25,452 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-09-03 19:34:25,462 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2023\merged_2023.csv
+2025-09-03 19:34:25,462 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-09-03 19:34:25,475 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2024
+2025-09-03 19:34:25,535 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\Bundesliga\2024\odds.csv
+2025-09-03 19:34:25,544 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-09-03 19:34:25,554 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2024\merged_2024.csv
+2025-09-03 19:34:25,555 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-09-03 19:34:25,570 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2025
+2025-09-03 19:34:25,632 - src.process_pipeline - INFO - Odds data found for Germany/Bundesliga/2025
+2025-09-03 19:34:25,663 - src.process_pipeline - INFO - Added odds data for 17 fixtures
+2025-09-03 19:34:25,663 - src.process_pipeline - INFO - Successfully merged 17 records with team statistics
+2025-09-03 19:34:25,666 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2025\merged_2025.csv
+2025-09-03 19:34:25,666 - src.process_pipeline - INFO - Successfully merged 17 records
+2025-09-03 19:34:25,679 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2018
+2025-09-03 19:34:25,732 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\DFB Pokal\2018\odds.csv
+2025-09-03 19:34:25,740 - src.process_pipeline - INFO - Successfully merged 63 records with team statistics
+2025-09-03 19:34:25,744 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2018\merged_2018.csv
+2025-09-03 19:34:25,745 - src.process_pipeline - INFO - Successfully merged 63 records
+2025-09-03 19:34:25,760 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2019
+2025-09-03 19:34:25,812 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\DFB Pokal\2019\odds.csv
+2025-09-03 19:34:25,820 - src.process_pipeline - INFO - Successfully merged 60 records with team statistics
+2025-09-03 19:34:25,823 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2019\merged_2019.csv
+2025-09-03 19:34:25,823 - src.process_pipeline - INFO - Successfully merged 60 records
+2025-09-03 19:34:25,837 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2020
+2025-09-03 19:34:25,888 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\DFB Pokal\2020\odds.csv
+2025-09-03 19:34:25,896 - src.process_pipeline - INFO - Successfully merged 63 records with team statistics
+2025-09-03 19:34:25,901 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2020\merged_2020.csv
+2025-09-03 19:34:25,901 - src.process_pipeline - INFO - Successfully merged 63 records
+2025-09-03 19:34:25,916 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2021
+2025-09-03 19:34:25,965 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\DFB Pokal\2021\odds.csv
+2025-09-03 19:34:25,972 - src.process_pipeline - INFO - Successfully merged 63 records with team statistics
+2025-09-03 19:34:25,976 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2021\merged_2021.csv
+2025-09-03 19:34:25,976 - src.process_pipeline - INFO - Successfully merged 63 records
+2025-09-03 19:34:25,993 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2022
+2025-09-03 19:34:26,044 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\DFB Pokal\2022\odds.csv
+2025-09-03 19:34:26,052 - src.process_pipeline - INFO - Successfully merged 36 records with team statistics
+2025-09-03 19:34:26,056 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2022\merged_2022.csv
+2025-09-03 19:34:26,056 - src.process_pipeline - INFO - Successfully merged 36 records
+2025-09-03 19:34:26,075 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2023
+2025-09-03 19:34:26,127 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\DFB Pokal\2023\odds.csv
+2025-09-03 19:34:26,135 - src.process_pipeline - INFO - Successfully merged 63 records with team statistics
+2025-09-03 19:34:26,140 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2023\merged_2023.csv
+2025-09-03 19:34:26,140 - src.process_pipeline - INFO - Successfully merged 63 records
+2025-09-03 19:34:26,154 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2024
+2025-09-03 19:34:26,204 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Germany\DFB Pokal\2024\odds.csv
+2025-09-03 19:34:26,213 - src.process_pipeline - INFO - Successfully merged 63 records with team statistics
+2025-09-03 19:34:26,218 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2024\merged_2024.csv
+2025-09-03 19:34:26,218 - src.process_pipeline - INFO - Successfully merged 63 records
+2025-09-03 19:34:26,233 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2025
+2025-09-03 19:34:26,233 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\Germany\DFB Pokal\2025\fixture_events.csv
+2025-09-03 19:34:26,234 - src.process_pipeline - INFO - Processing Greece/Super League/2021
+2025-09-03 19:34:26,320 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Greece\Super League\2021\odds.csv
+2025-09-03 19:34:26,328 - src.process_pipeline - INFO - Successfully merged 240 records with team statistics
+2025-09-03 19:34:26,336 - src.process_pipeline - INFO - Saved merged data to data\processed\Greece\Super League\2021\merged_2021.csv
+2025-09-03 19:34:26,336 - src.process_pipeline - INFO - Successfully merged 240 records
+2025-09-03 19:34:26,350 - src.process_pipeline - INFO - Processing Greece/Super League/2022
+2025-09-03 19:34:26,408 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Greece\Super League\2022\odds.csv
+2025-09-03 19:34:26,417 - src.process_pipeline - INFO - Successfully merged 240 records with team statistics
+2025-09-03 19:34:26,425 - src.process_pipeline - INFO - Saved merged data to data\processed\Greece\Super League\2022\merged_2022.csv
+2025-09-03 19:34:26,425 - src.process_pipeline - INFO - Successfully merged 240 records
+2025-09-03 19:34:26,440 - src.process_pipeline - INFO - Processing Greece/Super League/2023
+2025-09-03 19:34:26,497 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Greece\Super League\2023\odds.csv
+2025-09-03 19:34:26,506 - src.process_pipeline - INFO - Successfully merged 240 records with team statistics
+2025-09-03 19:34:26,516 - src.process_pipeline - INFO - Saved merged data to data\processed\Greece\Super League\2023\merged_2023.csv
+2025-09-03 19:34:26,516 - src.process_pipeline - INFO - Successfully merged 240 records
+2025-09-03 19:34:26,529 - src.process_pipeline - INFO - Processing Greece/Super League/2024
+2025-09-03 19:34:26,582 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Greece\Super League\2024\odds.csv
+2025-09-03 19:34:26,591 - src.process_pipeline - INFO - Successfully merged 236 records with team statistics
+2025-09-03 19:34:26,601 - src.process_pipeline - INFO - Saved merged data to data\processed\Greece\Super League\2024\merged_2024.csv
+2025-09-03 19:34:26,602 - src.process_pipeline - INFO - Successfully merged 236 records
+2025-09-03 19:34:26,616 - src.process_pipeline - INFO - Processing Greece/Super League/2025
+2025-09-03 19:34:26,617 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\Greece\Super League\2025\team_statistics.csv
+2025-09-03 19:34:26,617 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2018
+2025-09-03 19:34:26,672 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Coppa Italia\2018\odds.csv
+2025-09-03 19:34:26,679 - src.process_pipeline - INFO - Successfully merged 61 records with team statistics
+2025-09-03 19:34:26,683 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Coppa Italia\2018\merged_2018.csv
+2025-09-03 19:34:26,683 - src.process_pipeline - INFO - Successfully merged 61 records
+2025-09-03 19:34:26,697 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2019
+2025-09-03 19:34:26,697 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\Italy\Coppa Italia\2019\fixture_events.csv
+2025-09-03 19:34:26,698 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2020
+2025-09-03 19:34:26,749 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Coppa Italia\2020\odds.csv
+2025-09-03 19:34:26,756 - src.process_pipeline - INFO - Successfully merged 79 records with team statistics
+2025-09-03 19:34:26,760 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Coppa Italia\2020\merged_2020.csv
+2025-09-03 19:34:26,761 - src.process_pipeline - INFO - Successfully merged 79 records
+2025-09-03 19:34:26,775 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2021
+2025-09-03 19:34:26,833 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Coppa Italia\2021\odds.csv
+2025-09-03 19:34:26,841 - src.process_pipeline - INFO - Successfully merged 45 records with team statistics
+2025-09-03 19:34:26,844 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Coppa Italia\2021\merged_2021.csv
+2025-09-03 19:34:26,845 - src.process_pipeline - INFO - Successfully merged 45 records
+2025-09-03 19:34:26,861 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2022
+2025-09-03 19:34:26,912 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Coppa Italia\2022\odds.csv
+2025-09-03 19:34:26,920 - src.process_pipeline - INFO - Successfully merged 41 records with team statistics
+2025-09-03 19:34:26,923 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Coppa Italia\2022\merged_2022.csv
+2025-09-03 19:34:26,924 - src.process_pipeline - INFO - Successfully merged 41 records
+2025-09-03 19:34:26,938 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2023
+2025-09-03 19:34:26,990 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Coppa Italia\2023\odds.csv
+2025-09-03 19:34:26,998 - src.process_pipeline - INFO - Successfully merged 45 records with team statistics
+2025-09-03 19:34:27,001 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Coppa Italia\2023\merged_2023.csv
+2025-09-03 19:34:27,002 - src.process_pipeline - INFO - Successfully merged 45 records
+2025-09-03 19:34:27,016 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2024
+2025-09-03 19:34:27,067 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Coppa Italia\2024\odds.csv
+2025-09-03 19:34:27,076 - src.process_pipeline - INFO - Successfully merged 45 records with team statistics
+2025-09-03 19:34:27,080 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Coppa Italia\2024\merged_2024.csv
+2025-09-03 19:34:27,080 - src.process_pipeline - INFO - Successfully merged 45 records
+2025-09-03 19:34:27,095 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2025
+2025-09-03 19:34:27,096 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\Italy\Coppa Italia\2025\fixture_events.csv
+2025-09-03 19:34:27,096 - src.process_pipeline - INFO - Processing Italy/Serie A/2016
+2025-09-03 19:34:27,160 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie A\2016\odds.csv
+2025-09-03 19:34:27,169 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:27,182 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2016\merged_2016.csv
+2025-09-03 19:34:27,182 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:27,195 - src.process_pipeline - INFO - Processing Italy/Serie A/2017
+2025-09-03 19:34:27,255 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie A\2017\odds.csv
+2025-09-03 19:34:27,262 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:27,276 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2017\merged_2017.csv
+2025-09-03 19:34:27,276 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:27,289 - src.process_pipeline - INFO - Processing Italy/Serie A/2018
+2025-09-03 19:34:27,346 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie A\2018\odds.csv
+2025-09-03 19:34:27,354 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:27,367 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2018\merged_2018.csv
+2025-09-03 19:34:27,368 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:27,383 - src.process_pipeline - INFO - Processing Italy/Serie A/2019
+2025-09-03 19:34:27,443 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie A\2019\odds.csv
+2025-09-03 19:34:27,451 - src.process_pipeline - INFO - Successfully merged 256 records with team statistics
+2025-09-03 19:34:27,459 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2019\merged_2019.csv
+2025-09-03 19:34:27,459 - src.process_pipeline - INFO - Successfully merged 256 records
+2025-09-03 19:34:27,475 - src.process_pipeline - INFO - Processing Italy/Serie A/2020
+2025-09-03 19:34:27,538 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie A\2020\odds.csv
+2025-09-03 19:34:27,546 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:27,557 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2020\merged_2020.csv
+2025-09-03 19:34:27,557 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:27,574 - src.process_pipeline - INFO - Processing Italy/Serie A/2021
+2025-09-03 19:34:27,653 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie A\2021\odds.csv
+2025-09-03 19:34:27,662 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:27,678 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2021\merged_2021.csv
+2025-09-03 19:34:27,678 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:27,695 - src.process_pipeline - INFO - Processing Italy/Serie A/2022
+2025-09-03 19:34:27,771 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie A\2022\odds.csv
+2025-09-03 19:34:27,779 - src.process_pipeline - INFO - Successfully merged 370 records with team statistics
+2025-09-03 19:34:27,790 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2022\merged_2022.csv
+2025-09-03 19:34:27,790 - src.process_pipeline - INFO - Successfully merged 370 records
+2025-09-03 19:34:27,806 - src.process_pipeline - INFO - Processing Italy/Serie A/2023
+2025-09-03 19:34:27,864 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie A\2023\odds.csv
+2025-09-03 19:34:27,873 - src.process_pipeline - INFO - Successfully merged 379 records with team statistics
+2025-09-03 19:34:27,885 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2023\merged_2023.csv
+2025-09-03 19:34:27,885 - src.process_pipeline - INFO - Successfully merged 379 records
+2025-09-03 19:34:27,903 - src.process_pipeline - INFO - Processing Italy/Serie A/2024
+2025-09-03 19:34:27,968 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie A\2024\odds.csv
+2025-09-03 19:34:27,977 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:27,991 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2024\merged_2024.csv
+2025-09-03 19:34:27,991 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:28,007 - src.process_pipeline - INFO - Processing Italy/Serie A/2025
+2025-09-03 19:34:28,073 - src.process_pipeline - INFO - Odds data found for Italy/Serie A/2025
+2025-09-03 19:34:28,114 - src.process_pipeline - INFO - Added odds data for 18 fixtures
+2025-09-03 19:34:28,114 - src.process_pipeline - INFO - Successfully merged 18 records with team statistics
+2025-09-03 19:34:28,117 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2025\merged_2025.csv
+2025-09-03 19:34:28,117 - src.process_pipeline - INFO - Successfully merged 18 records
+2025-09-03 19:34:28,136 - src.process_pipeline - INFO - Processing Italy/Serie B/2017
+2025-09-03 19:34:28,215 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie B\2017\odds.csv
+2025-09-03 19:34:28,226 - src.process_pipeline - INFO - Successfully merged 464 records with team statistics
+2025-09-03 19:34:28,242 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2017\merged_2017.csv
+2025-09-03 19:34:28,242 - src.process_pipeline - INFO - Successfully merged 464 records
+2025-09-03 19:34:28,259 - src.process_pipeline - INFO - Processing Italy/Serie B/2018
+2025-09-03 19:34:28,259 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\Italy\Serie B\2018\fixture_events.csv
+2025-09-03 19:34:28,259 - src.process_pipeline - INFO - Processing Italy/Serie B/2019
+2025-09-03 19:34:28,320 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie B\2019\odds.csv
+2025-09-03 19:34:28,328 - src.process_pipeline - INFO - Successfully merged 279 records with team statistics
+2025-09-03 19:34:28,338 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2019\merged_2019.csv
+2025-09-03 19:34:28,338 - src.process_pipeline - INFO - Successfully merged 279 records
+2025-09-03 19:34:28,355 - src.process_pipeline - INFO - Processing Italy/Serie B/2020
+2025-09-03 19:34:28,415 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie B\2020\odds.csv
+2025-09-03 19:34:28,423 - src.process_pipeline - INFO - Successfully merged 388 records with team statistics
+2025-09-03 19:34:28,438 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2020\merged_2020.csv
+2025-09-03 19:34:28,438 - src.process_pipeline - INFO - Successfully merged 388 records
+2025-09-03 19:34:28,454 - src.process_pipeline - INFO - Processing Italy/Serie B/2021
+2025-09-03 19:34:28,516 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie B\2021\odds.csv
+2025-09-03 19:34:28,524 - src.process_pipeline - INFO - Successfully merged 390 records with team statistics
+2025-09-03 19:34:28,536 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2021\merged_2021.csv
+2025-09-03 19:34:28,536 - src.process_pipeline - INFO - Successfully merged 390 records
+2025-09-03 19:34:28,551 - src.process_pipeline - INFO - Processing Italy/Serie B/2022
+2025-09-03 19:34:28,613 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie B\2022\odds.csv
+2025-09-03 19:34:28,622 - src.process_pipeline - INFO - Successfully merged 385 records with team statistics
+2025-09-03 19:34:28,634 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2022\merged_2022.csv
+2025-09-03 19:34:28,634 - src.process_pipeline - INFO - Successfully merged 385 records
+2025-09-03 19:34:28,651 - src.process_pipeline - INFO - Processing Italy/Serie B/2023
+2025-09-03 19:34:28,713 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie B\2023\odds.csv
+2025-09-03 19:34:28,722 - src.process_pipeline - INFO - Successfully merged 389 records with team statistics
+2025-09-03 19:34:28,734 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2023\merged_2023.csv
+2025-09-03 19:34:28,734 - src.process_pipeline - INFO - Successfully merged 389 records
+2025-09-03 19:34:28,755 - src.process_pipeline - INFO - Processing Italy/Serie B/2024
+2025-09-03 19:34:28,815 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Italy\Serie B\2024\odds.csv
+2025-09-03 19:34:28,824 - src.process_pipeline - INFO - Successfully merged 387 records with team statistics
+2025-09-03 19:34:28,838 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2024\merged_2024.csv
+2025-09-03 19:34:28,838 - src.process_pipeline - INFO - Successfully merged 387 records
+2025-09-03 19:34:28,859 - src.process_pipeline - INFO - Processing Italy/Serie B/2025
+2025-09-03 19:34:28,859 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\Italy\Serie B\2025\fixture_events.csv
+2025-09-03 19:34:28,861 - src.process_pipeline - INFO - Processing Italy/Serie C/2025
+2025-09-03 19:34:28,861 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\Italy\Serie C\2025\team_statistics.csv
+2025-09-03 19:34:28,862 - src.process_pipeline - INFO - Processing Netherlands/Eerste Divisie/2020
+2025-09-03 19:34:28,874 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Netherlands\Eerste Divisie\2020\odds.csv
+2025-09-03 19:34:28,885 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:28,902 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eerste Divisie\2020\merged_2020.csv
+2025-09-03 19:34:28,902 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:28,921 - src.process_pipeline - INFO - Processing Netherlands/Eerste Divisie/2021
+2025-09-03 19:34:28,983 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Netherlands\Eerste Divisie\2021\odds.csv
+2025-09-03 19:34:28,991 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:29,006 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eerste Divisie\2021\merged_2021.csv
+2025-09-03 19:34:29,007 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:29,023 - src.process_pipeline - INFO - Processing Netherlands/Eerste Divisie/2022
+2025-09-03 19:34:29,087 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Netherlands\Eerste Divisie\2022\odds.csv
+2025-09-03 19:34:29,095 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:29,107 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eerste Divisie\2022\merged_2022.csv
+2025-09-03 19:34:29,107 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:29,122 - src.process_pipeline - INFO - Processing Netherlands/Eerste Divisie/2023
+2025-09-03 19:34:29,182 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Netherlands\Eerste Divisie\2023\odds.csv
+2025-09-03 19:34:29,192 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:29,208 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eerste Divisie\2023\merged_2023.csv
+2025-09-03 19:34:29,208 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:29,224 - src.process_pipeline - INFO - Processing Netherlands/Eerste Divisie/2024
+2025-09-03 19:34:29,284 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Netherlands\Eerste Divisie\2024\odds.csv
+2025-09-03 19:34:29,292 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:29,304 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eerste Divisie\2024\merged_2024.csv
+2025-09-03 19:34:29,304 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:29,323 - src.process_pipeline - INFO - Processing Netherlands/Eredivisie/2017
+2025-09-03 19:34:29,362 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Netherlands\Eredivisie\2017\odds.csv
+2025-09-03 19:34:29,371 - src.process_pipeline - INFO - Successfully merged 312 records with team statistics
+2025-09-03 19:34:29,383 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eredivisie\2017\merged_2017.csv
+2025-09-03 19:34:29,383 - src.process_pipeline - INFO - Successfully merged 312 records
+2025-09-03 19:34:29,400 - src.process_pipeline - INFO - Processing Netherlands/Eredivisie/2018
+2025-09-03 19:34:29,411 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Netherlands\Eredivisie\2018\odds.csv
+2025-09-03 19:34:29,419 - src.process_pipeline - INFO - Successfully merged 312 records with team statistics
+2025-09-03 19:34:29,430 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eredivisie\2018\merged_2018.csv
+2025-09-03 19:34:29,430 - src.process_pipeline - INFO - Successfully merged 312 records
+2025-09-03 19:34:29,448 - src.process_pipeline - INFO - Processing Netherlands/Eredivisie/2019
+2025-09-03 19:34:29,503 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Netherlands\Eredivisie\2019\odds.csv
+2025-09-03 19:34:29,512 - src.process_pipeline - INFO - Successfully merged 306 records with team statistics
+2025-09-03 19:34:29,524 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eredivisie\2019\merged_2019.csv
+2025-09-03 19:34:29,524 - src.process_pipeline - INFO - Successfully merged 306 records
+2025-09-03 19:34:29,543 - src.process_pipeline - INFO - Processing Netherlands/Eredivisie/2020
+2025-09-03 19:34:29,615 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Netherlands\Eredivisie\2020\odds.csv
+2025-09-03 19:34:29,625 - src.process_pipeline - INFO - Successfully merged 315 records with team statistics
+2025-09-03 19:34:29,635 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eredivisie\2020\merged_2020.csv
+2025-09-03 19:34:29,635 - src.process_pipeline - INFO - Successfully merged 315 records
+2025-09-03 19:34:29,660 - src.process_pipeline - INFO - Processing Netherlands/Eredivisie/2021
+2025-09-03 19:34:29,736 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Netherlands\Eredivisie\2021\odds.csv
+2025-09-03 19:34:29,744 - src.process_pipeline - INFO - Successfully merged 324 records with team statistics
+2025-09-03 19:34:29,754 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eredivisie\2021\merged_2021.csv
+2025-09-03 19:34:29,755 - src.process_pipeline - INFO - Successfully merged 324 records
+2025-09-03 19:34:29,773 - src.process_pipeline - INFO - Processing Netherlands/Eredivisie/2022
+2025-09-03 19:34:29,828 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Netherlands\Eredivisie\2022\odds.csv
+2025-09-03 19:34:29,836 - src.process_pipeline - INFO - Successfully merged 316 records with team statistics
+2025-09-03 19:34:29,845 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eredivisie\2022\merged_2022.csv
+2025-09-03 19:34:29,845 - src.process_pipeline - INFO - Successfully merged 316 records
+2025-09-03 19:34:29,863 - src.process_pipeline - INFO - Processing Netherlands/Eredivisie/2023
+2025-09-03 19:34:29,935 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Netherlands\Eredivisie\2023\odds.csv
+2025-09-03 19:34:29,943 - src.process_pipeline - INFO - Successfully merged 320 records with team statistics
+2025-09-03 19:34:29,954 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eredivisie\2023\merged_2023.csv
+2025-09-03 19:34:29,954 - src.process_pipeline - INFO - Successfully merged 320 records
+2025-09-03 19:34:29,974 - src.process_pipeline - INFO - Processing Netherlands/Eredivisie/2024
+2025-09-03 19:34:30,033 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Netherlands\Eredivisie\2024\odds.csv
+2025-09-03 19:34:30,041 - src.process_pipeline - INFO - Successfully merged 321 records with team statistics
+2025-09-03 19:34:30,057 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eredivisie\2024\merged_2024.csv
+2025-09-03 19:34:30,058 - src.process_pipeline - INFO - Successfully merged 321 records
+2025-09-03 19:34:30,077 - src.process_pipeline - INFO - Processing Netherlands/Eredivisie/2025
+2025-09-03 19:34:30,150 - src.process_pipeline - INFO - Odds data found for Netherlands/Eredivisie/2025
+2025-09-03 19:34:30,172 - src.process_pipeline - INFO - Added odds data for 9 fixtures
+2025-09-03 19:34:30,172 - src.process_pipeline - INFO - Successfully merged 18 records with team statistics
+2025-09-03 19:34:30,175 - src.process_pipeline - INFO - Saved merged data to data\processed\Netherlands\Eredivisie\2025\merged_2025.csv
+2025-09-03 19:34:30,175 - src.process_pipeline - INFO - Successfully merged 18 records
+2025-09-03 19:34:30,195 - src.process_pipeline - INFO - Processing Portugal/Primeira Liga/2019
+2025-09-03 19:34:30,248 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Portugal\Primeira Liga\2019\odds.csv
+2025-09-03 19:34:30,256 - src.process_pipeline - INFO - Successfully merged 216 records with team statistics
+2025-09-03 19:34:30,263 - src.process_pipeline - INFO - Saved merged data to data\processed\Portugal\Primeira Liga\2019\merged_2019.csv
+2025-09-03 19:34:30,264 - src.process_pipeline - INFO - Successfully merged 216 records
+2025-09-03 19:34:30,284 - src.process_pipeline - INFO - Processing Portugal/Primeira Liga/2020
+2025-09-03 19:34:30,285 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\Portugal\Primeira Liga\2020\team_statistics.csv
+2025-09-03 19:34:30,285 - src.process_pipeline - INFO - Processing Portugal/Primeira Liga/2021
+2025-09-03 19:34:30,345 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Portugal\Primeira Liga\2021\odds.csv
+2025-09-03 19:34:30,353 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-09-03 19:34:30,365 - src.process_pipeline - INFO - Saved merged data to data\processed\Portugal\Primeira Liga\2021\merged_2021.csv
+2025-09-03 19:34:30,365 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-09-03 19:34:30,384 - src.process_pipeline - INFO - Processing Portugal/Primeira Liga/2022
+2025-09-03 19:34:30,445 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Portugal\Primeira Liga\2022\odds.csv
+2025-09-03 19:34:30,454 - src.process_pipeline - INFO - Successfully merged 306 records with team statistics
+2025-09-03 19:34:30,465 - src.process_pipeline - INFO - Saved merged data to data\processed\Portugal\Primeira Liga\2022\merged_2022.csv
+2025-09-03 19:34:30,465 - src.process_pipeline - INFO - Successfully merged 306 records
+2025-09-03 19:34:30,483 - src.process_pipeline - INFO - Processing Portugal/Primeira Liga/2023
+2025-09-03 19:34:30,538 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Portugal\Primeira Liga\2023\odds.csv
+2025-09-03 19:34:30,546 - src.process_pipeline - INFO - Successfully merged 307 records with team statistics
+2025-09-03 19:34:30,556 - src.process_pipeline - INFO - Saved merged data to data\processed\Portugal\Primeira Liga\2023\merged_2023.csv
+2025-09-03 19:34:30,556 - src.process_pipeline - INFO - Successfully merged 307 records
+2025-09-03 19:34:30,576 - src.process_pipeline - INFO - Processing Portugal/Primeira Liga/2024
+2025-09-03 19:34:30,635 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Portugal\Primeira Liga\2024\odds.csv
+2025-09-03 19:34:30,643 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-09-03 19:34:30,654 - src.process_pipeline - INFO - Saved merged data to data\processed\Portugal\Primeira Liga\2024\merged_2024.csv
+2025-09-03 19:34:30,654 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-09-03 19:34:30,675 - src.process_pipeline - INFO - Processing Portugal/Primeira Liga/2025
+2025-09-03 19:34:30,743 - src.process_pipeline - INFO - Odds data found for Portugal/Primeira Liga/2025
+2025-09-03 19:34:30,767 - src.process_pipeline - INFO - Added odds data for 9 fixtures
+2025-09-03 19:34:30,767 - src.process_pipeline - INFO - Successfully merged 17 records with team statistics
+2025-09-03 19:34:30,771 - src.process_pipeline - INFO - Saved merged data to data\processed\Portugal\Primeira Liga\2025\merged_2025.csv
+2025-09-03 19:34:30,771 - src.process_pipeline - INFO - Successfully merged 17 records
+2025-09-03 19:34:30,792 - src.process_pipeline - INFO - Processing Portugal/Segunda Liga/2017
+2025-09-03 19:34:30,792 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\Portugal\Segunda Liga\2017\team_statistics.csv
+2025-09-03 19:34:30,793 - src.process_pipeline - INFO - Processing Portugal/Segunda Liga/2019
+2025-09-03 19:34:30,858 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Portugal\Segunda Liga\2019\odds.csv
+2025-09-03 19:34:30,866 - src.process_pipeline - INFO - Successfully merged 306 records with team statistics
+2025-09-03 19:34:30,879 - src.process_pipeline - INFO - Saved merged data to data\processed\Portugal\Segunda Liga\2019\merged_2019.csv
+2025-09-03 19:34:30,879 - src.process_pipeline - INFO - Successfully merged 306 records
+2025-09-03 19:34:30,902 - src.process_pipeline - INFO - Processing Portugal/Segunda Liga/2020
+2025-09-03 19:34:30,960 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Portugal\Segunda Liga\2020\odds.csv
+2025-09-03 19:34:30,968 - src.process_pipeline - INFO - Successfully merged 306 records with team statistics
+2025-09-03 19:34:30,981 - src.process_pipeline - INFO - Saved merged data to data\processed\Portugal\Segunda Liga\2020\merged_2020.csv
+2025-09-03 19:34:30,981 - src.process_pipeline - INFO - Successfully merged 306 records
+2025-09-03 19:34:31,002 - src.process_pipeline - INFO - Processing Portugal/Segunda Liga/2021
+2025-09-03 19:34:31,064 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Portugal\Segunda Liga\2021\odds.csv
+2025-09-03 19:34:31,073 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-09-03 19:34:31,085 - src.process_pipeline - INFO - Saved merged data to data\processed\Portugal\Segunda Liga\2021\merged_2021.csv
+2025-09-03 19:34:31,085 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-09-03 19:34:31,103 - src.process_pipeline - INFO - Processing Portugal/Segunda Liga/2022
+2025-09-03 19:34:31,160 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Portugal\Segunda Liga\2022\odds.csv
+2025-09-03 19:34:31,170 - src.process_pipeline - INFO - Successfully merged 306 records with team statistics
+2025-09-03 19:34:31,182 - src.process_pipeline - INFO - Saved merged data to data\processed\Portugal\Segunda Liga\2022\merged_2022.csv
+2025-09-03 19:34:31,182 - src.process_pipeline - INFO - Successfully merged 306 records
+2025-09-03 19:34:31,205 - src.process_pipeline - INFO - Processing Portugal/Segunda Liga/2023
+2025-09-03 19:34:31,268 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Portugal\Segunda Liga\2023\odds.csv
+2025-09-03 19:34:31,277 - src.process_pipeline - INFO - Successfully merged 307 records with team statistics
+2025-09-03 19:34:31,288 - src.process_pipeline - INFO - Saved merged data to data\processed\Portugal\Segunda Liga\2023\merged_2023.csv
+2025-09-03 19:34:31,288 - src.process_pipeline - INFO - Successfully merged 307 records
+2025-09-03 19:34:31,307 - src.process_pipeline - INFO - Processing Portugal/Segunda Liga/2024
+2025-09-03 19:34:31,363 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Portugal\Segunda Liga\2024\odds.csv
+2025-09-03 19:34:31,372 - src.process_pipeline - INFO - Successfully merged 307 records with team statistics
+2025-09-03 19:34:31,382 - src.process_pipeline - INFO - Saved merged data to data\processed\Portugal\Segunda Liga\2024\merged_2024.csv
+2025-09-03 19:34:31,383 - src.process_pipeline - INFO - Successfully merged 307 records
+2025-09-03 19:34:31,401 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2018
+2025-09-03 19:34:31,451 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Copa del Rey\2018\odds.csv
+2025-09-03 19:34:31,459 - src.process_pipeline - INFO - Successfully merged 71 records with team statistics
+2025-09-03 19:34:31,464 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2018\merged_2018.csv
+2025-09-03 19:34:31,464 - src.process_pipeline - INFO - Successfully merged 71 records
+2025-09-03 19:34:31,490 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2019
+2025-09-03 19:34:31,546 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Copa del Rey\2019\odds.csv
+2025-09-03 19:34:31,554 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-09-03 19:34:31,560 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2019\merged_2019.csv
+2025-09-03 19:34:31,561 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-09-03 19:34:31,583 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2020
+2025-09-03 19:34:31,634 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Copa del Rey\2020\odds.csv
+2025-09-03 19:34:31,642 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-09-03 19:34:31,648 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2020\merged_2020.csv
+2025-09-03 19:34:31,649 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-09-03 19:34:31,667 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2021
+2025-09-03 19:34:31,719 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Copa del Rey\2021\odds.csv
+2025-09-03 19:34:31,728 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-09-03 19:34:31,734 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2021\merged_2021.csv
+2025-09-03 19:34:31,734 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-09-03 19:34:31,757 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2022
+2025-09-03 19:34:31,857 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Copa del Rey\2022\odds.csv
+2025-09-03 19:34:31,867 - src.process_pipeline - INFO - Successfully merged 125 records with team statistics
+2025-09-03 19:34:31,873 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2022\merged_2022.csv
+2025-09-03 19:34:31,874 - src.process_pipeline - INFO - Successfully merged 125 records
+2025-09-03 19:34:31,899 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2023
+2025-09-03 19:34:31,958 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Copa del Rey\2023\odds.csv
+2025-09-03 19:34:31,968 - src.process_pipeline - INFO - Successfully merged 126 records with team statistics
+2025-09-03 19:34:31,974 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2023\merged_2023.csv
+2025-09-03 19:34:31,974 - src.process_pipeline - INFO - Successfully merged 126 records
+2025-09-03 19:34:32,003 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2024
+2025-09-03 19:34:32,067 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Copa del Rey\2024\odds.csv
+2025-09-03 19:34:32,077 - src.process_pipeline - INFO - Successfully merged 126 records with team statistics
+2025-09-03 19:34:32,084 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2024\merged_2024.csv
+2025-09-03 19:34:32,084 - src.process_pipeline - INFO - Successfully merged 126 records
+2025-09-03 19:34:32,106 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2025
+2025-09-03 19:34:32,106 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\Spain\Copa del Rey\2025\fixture_events.csv
+2025-09-03 19:34:32,107 - src.process_pipeline - INFO - Processing Spain/La Liga/2018
+2025-09-03 19:34:32,168 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\La Liga\2018\odds.csv
+2025-09-03 19:34:32,176 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:32,191 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2018\merged_2018.csv
+2025-09-03 19:34:32,191 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:32,214 - src.process_pipeline - INFO - Processing Spain/La Liga/2019
+2025-09-03 19:34:32,288 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\La Liga\2019\odds.csv
+2025-09-03 19:34:32,297 - src.process_pipeline - INFO - Successfully merged 270 records with team statistics
+2025-09-03 19:34:32,306 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2019\merged_2019.csv
+2025-09-03 19:34:32,307 - src.process_pipeline - INFO - Successfully merged 270 records
+2025-09-03 19:34:32,333 - src.process_pipeline - INFO - Processing Spain/La Liga/2020
+2025-09-03 19:34:32,405 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\La Liga\2020\odds.csv
+2025-09-03 19:34:32,414 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:32,427 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2020\merged_2020.csv
+2025-09-03 19:34:32,427 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:32,452 - src.process_pipeline - INFO - Processing Spain/La Liga/2021
+2025-09-03 19:34:32,510 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\La Liga\2021\odds.csv
+2025-09-03 19:34:32,518 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:32,529 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2021\merged_2021.csv
+2025-09-03 19:34:32,529 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:32,551 - src.process_pipeline - INFO - Processing Spain/La Liga/2022
+2025-09-03 19:34:32,616 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\La Liga\2022\odds.csv
+2025-09-03 19:34:32,625 - src.process_pipeline - INFO - Successfully merged 370 records with team statistics
+2025-09-03 19:34:32,638 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2022\merged_2022.csv
+2025-09-03 19:34:32,638 - src.process_pipeline - INFO - Successfully merged 370 records
+2025-09-03 19:34:32,662 - src.process_pipeline - INFO - Processing Spain/La Liga/2023
+2025-09-03 19:34:32,717 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\La Liga\2023\odds.csv
+2025-09-03 19:34:32,725 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:32,737 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2023\merged_2023.csv
+2025-09-03 19:34:32,738 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:32,758 - src.process_pipeline - INFO - Processing Spain/La Liga/2024
+2025-09-03 19:34:32,811 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\La Liga\2024\odds.csv
+2025-09-03 19:34:32,820 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-09-03 19:34:32,832 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2024\merged_2024.csv
+2025-09-03 19:34:32,833 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-09-03 19:34:32,857 - src.process_pipeline - INFO - Processing Spain/La Liga/2025
+2025-09-03 19:34:32,951 - src.process_pipeline - INFO - Odds data found for Spain/La Liga/2025
+2025-09-03 19:34:33,008 - src.process_pipeline - INFO - Added odds data for 28 fixtures
+2025-09-03 19:34:33,008 - src.process_pipeline - INFO - Successfully merged 28 records with team statistics
+2025-09-03 19:34:33,012 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2025\merged_2025.csv
+2025-09-03 19:34:33,012 - src.process_pipeline - INFO - Successfully merged 28 records
+2025-09-03 19:34:33,050 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2017
+2025-09-03 19:34:33,117 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Segunda Division\2017\odds.csv
+2025-09-03 19:34:33,125 - src.process_pipeline - INFO - Successfully merged 468 records with team statistics
+2025-09-03 19:34:33,144 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2017\merged_2017.csv
+2025-09-03 19:34:33,144 - src.process_pipeline - INFO - Successfully merged 468 records
+2025-09-03 19:34:33,170 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2018
+2025-09-03 19:34:33,238 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Segunda Division\2018\odds.csv
+2025-09-03 19:34:33,248 - src.process_pipeline - INFO - Successfully merged 466 records with team statistics
+2025-09-03 19:34:33,267 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2018\merged_2018.csv
+2025-09-03 19:34:33,267 - src.process_pipeline - INFO - Successfully merged 466 records
+2025-09-03 19:34:33,293 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2019
+2025-09-03 19:34:33,355 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Segunda Division\2019\odds.csv
+2025-09-03 19:34:33,364 - src.process_pipeline - INFO - Successfully merged 398 records with team statistics
+2025-09-03 19:34:33,378 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2019\merged_2019.csv
+2025-09-03 19:34:33,378 - src.process_pipeline - INFO - Successfully merged 398 records
+2025-09-03 19:34:33,408 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2020
+2025-09-03 19:34:33,477 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Segunda Division\2020\odds.csv
+2025-09-03 19:34:33,486 - src.process_pipeline - INFO - Successfully merged 468 records with team statistics
+2025-09-03 19:34:33,502 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2020\merged_2020.csv
+2025-09-03 19:34:33,502 - src.process_pipeline - INFO - Successfully merged 468 records
+2025-09-03 19:34:33,526 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2021
+2025-09-03 19:34:33,590 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Segunda Division\2021\odds.csv
+2025-09-03 19:34:33,598 - src.process_pipeline - INFO - Successfully merged 468 records with team statistics
+2025-09-03 19:34:33,613 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2021\merged_2021.csv
+2025-09-03 19:34:33,613 - src.process_pipeline - INFO - Successfully merged 468 records
+2025-09-03 19:34:33,644 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2022
+2025-09-03 19:34:33,712 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Segunda Division\2022\odds.csv
+2025-09-03 19:34:33,722 - src.process_pipeline - INFO - Successfully merged 468 records with team statistics
+2025-09-03 19:34:33,739 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2022\merged_2022.csv
+2025-09-03 19:34:33,739 - src.process_pipeline - INFO - Successfully merged 468 records
+2025-09-03 19:34:33,767 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2023
+2025-09-03 19:34:33,828 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Segunda Division\2023\odds.csv
+2025-09-03 19:34:33,838 - src.process_pipeline - INFO - Successfully merged 468 records with team statistics
+2025-09-03 19:34:33,856 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2023\merged_2023.csv
+2025-09-03 19:34:33,856 - src.process_pipeline - INFO - Successfully merged 468 records
+2025-09-03 19:34:33,882 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2024
+2025-09-03 19:34:33,953 - src.process_pipeline - WARNING - Missing odds file: data\extracted\Spain\Segunda Division\2024\odds.csv
+2025-09-03 19:34:33,961 - src.process_pipeline - INFO - Successfully merged 468 records with team statistics
+2025-09-03 19:34:33,981 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2024\merged_2024.csv
+2025-09-03 19:34:33,981 - src.process_pipeline - INFO - Successfully merged 468 records
+2025-09-03 19:34:34,005 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2025
+2025-09-03 19:34:34,071 - src.process_pipeline - INFO - Odds data found for Spain/Segunda Division/2025
+2025-09-03 19:34:34,109 - src.process_pipeline - INFO - Added odds data for 22 fixtures
+2025-09-03 19:34:34,109 - src.process_pipeline - INFO - Successfully merged 22 records with team statistics
+2025-09-03 19:34:34,112 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2025\merged_2025.csv
+2025-09-03 19:34:34,112 - src.process_pipeline - INFO - Successfully merged 22 records
+2025-09-03 19:34:34,139 - src.process_pipeline - INFO - Starting preprocessing and feature engineering
+2025-09-03 19:34:34,139 - src.process_pipeline - INFO - Initial data shape: (46218, 74)
+2025-09-03 19:34:34,139 - src.process_pipeline - INFO - Cleaning data
+2025-09-03 19:34:38,425 - src.process_pipeline - INFO - Adding competition info from league names
+2025-09-03 19:34:38,790 - src.process_pipeline - INFO - Competition Distribution:
+2025-09-03 19:34:38,790 - src.process_pipeline - INFO -   Cup matches: 4343 (9.5%)
+2025-09-03 19:34:38,791 - src.process_pipeline - INFO -   European matches: 8994 (19.6%)
+2025-09-03 19:34:38,791 - src.process_pipeline - INFO -   League matches: 32443 (70.9%)
+2025-09-03 19:34:38,800 - src.process_pipeline - INFO - Adding competition context
+2025-09-03 19:34:41,062 - src.process_pipeline - INFO - Adding competition metrics
+2025-09-03 19:34:42,394 - src.process_pipeline - INFO - Calculating proper standings for 45780 matches...
+2025-09-03 19:34:43,169 - src.process_pipeline - INFO - Standings progress: 2.2% (1000/45780)
+2025-09-03 19:34:43,914 - src.process_pipeline - INFO - Standings progress: 4.4% (2000/45780)
+2025-09-03 19:34:44,614 - src.process_pipeline - INFO - Standings progress: 6.6% (3000/45780)
+2025-09-03 19:34:45,266 - src.process_pipeline - INFO - Standings progress: 8.7% (4000/45780)
+2025-09-03 19:34:45,913 - src.process_pipeline - INFO - Standings progress: 10.9% (5000/45780)
+2025-09-03 19:34:46,542 - src.process_pipeline - INFO - Standings progress: 13.1% (6000/45780)
+2025-09-03 19:34:47,139 - src.process_pipeline - INFO - Standings progress: 15.3% (7000/45780)
+2025-09-03 19:34:47,775 - src.process_pipeline - INFO - Standings progress: 17.5% (8000/45780)
+2025-09-03 19:34:48,382 - src.process_pipeline - INFO - Standings progress: 19.7% (9000/45780)
+2025-09-03 19:34:49,011 - src.process_pipeline - INFO - Standings progress: 21.8% (10000/45780)
+2025-09-03 19:34:49,826 - src.process_pipeline - INFO - Standings progress: 24.0% (11000/45780)
+2025-09-03 19:34:50,594 - src.process_pipeline - INFO - Standings progress: 26.2% (12000/45780)
+2025-09-03 19:34:51,328 - src.process_pipeline - INFO - Standings progress: 28.4% (13000/45780)
+2025-09-03 19:34:52,041 - src.process_pipeline - INFO - Standings progress: 30.6% (14000/45780)
+2025-09-03 19:34:52,732 - src.process_pipeline - INFO - Standings progress: 32.8% (15000/45780)
+2025-09-03 19:34:53,416 - src.process_pipeline - INFO - Standings progress: 34.9% (16000/45780)
+2025-09-03 19:34:54,211 - src.process_pipeline - INFO - Standings progress: 37.1% (17000/45780)
+2025-09-03 19:34:55,112 - src.process_pipeline - INFO - Standings progress: 39.3% (18000/45780)
+2025-09-03 19:34:55,864 - src.process_pipeline - INFO - Standings progress: 41.5% (19000/45780)
+2025-09-03 19:34:56,617 - src.process_pipeline - INFO - Standings progress: 43.7% (20000/45780)
+2025-09-03 19:34:57,395 - src.process_pipeline - INFO - Standings progress: 45.9% (21000/45780)
+2025-09-03 19:34:58,322 - src.process_pipeline - INFO - Standings progress: 48.1% (22000/45780)
+2025-09-03 19:34:59,163 - src.process_pipeline - INFO - Standings progress: 50.2% (23000/45780)
+2025-09-03 19:35:00,114 - src.process_pipeline - INFO - Standings progress: 52.4% (24000/45780)
+2025-09-03 19:35:00,922 - src.process_pipeline - INFO - Standings progress: 54.6% (25000/45780)
+2025-09-03 19:35:01,712 - src.process_pipeline - INFO - Standings progress: 56.8% (26000/45780)
+2025-09-03 19:35:02,483 - src.process_pipeline - INFO - Standings progress: 59.0% (27000/45780)
+2025-09-03 19:35:03,268 - src.process_pipeline - INFO - Standings progress: 61.2% (28000/45780)
+2025-09-03 19:35:04,109 - src.process_pipeline - INFO - Standings progress: 63.3% (29000/45780)
+2025-09-03 19:35:05,059 - src.process_pipeline - INFO - Standings progress: 65.5% (30000/45780)
+2025-09-03 19:35:05,901 - src.process_pipeline - INFO - Standings progress: 67.7% (31000/45780)
+2025-09-03 19:35:06,761 - src.process_pipeline - INFO - Standings progress: 69.9% (32000/45780)
+2025-09-03 19:35:07,647 - src.process_pipeline - INFO - Standings progress: 72.1% (33000/45780)
+2025-09-03 19:35:08,531 - src.process_pipeline - INFO - Standings progress: 74.3% (34000/45780)
+2025-09-03 19:35:09,379 - src.process_pipeline - INFO - Standings progress: 76.5% (35000/45780)
+2025-09-03 19:35:10,247 - src.process_pipeline - INFO - Standings progress: 78.6% (36000/45780)
+2025-09-03 19:35:11,159 - src.process_pipeline - INFO - Standings progress: 80.8% (37000/45780)
+2025-09-03 19:35:12,041 - src.process_pipeline - INFO - Standings progress: 83.0% (38000/45780)
+2025-09-03 19:35:12,912 - src.process_pipeline - INFO - Standings progress: 85.2% (39000/45780)
+2025-09-03 19:35:13,815 - src.process_pipeline - INFO - Standings progress: 87.4% (40000/45780)
+2025-09-03 19:35:14,647 - src.process_pipeline - INFO - Standings progress: 89.6% (41000/45780)
+2025-09-03 19:35:15,530 - src.process_pipeline - INFO - Standings progress: 91.7% (42000/45780)
+2025-09-03 19:35:16,438 - src.process_pipeline - INFO - Standings progress: 93.9% (43000/45780)
+2025-09-03 19:35:17,394 - src.process_pipeline - INFO - Standings progress: 96.1% (44000/45780)
+2025-09-03 19:35:18,399 - src.process_pipeline - INFO - Standings progress: 98.3% (45000/45780)
+2025-09-03 19:35:19,278 - src.process_pipeline - INFO - Standings progress: 100.0% (45780/45780)
+2025-09-03 19:35:21,592 - src.process_pipeline - INFO - Dropped 6 non rolled standings metrics
+2025-09-03 19:35:56,553 - src.process_pipeline - INFO - Completed: Processing 45727 matches...
+2025-09-03 19:36:45,816 - src.process_pipeline - INFO - H2H Progress: 10% (4572/45727) - 49.3s
+2025-09-03 19:37:46,406 - src.process_pipeline - INFO - H2H Progress: 20% (9144/45727) - 109.9s
+2025-09-03 19:38:47,651 - src.process_pipeline - INFO - H2H Progress: 30% (13716/45727) - 171.1s
+2025-09-03 19:39:55,234 - src.process_pipeline - INFO - H2H Progress: 40% (18288/45727) - 238.7s
+2025-09-03 19:40:56,426 - src.process_pipeline - INFO - H2H Progress: 50% (22860/45727) - 299.9s
+2025-09-03 19:42:03,036 - src.process_pipeline - INFO - H2H Progress: 60% (27432/45727) - 366.5s
+2025-09-03 19:43:19,023 - src.process_pipeline - INFO - H2H Progress: 70% (32004/45727) - 442.5s
+2025-09-03 19:44:28,418 - src.process_pipeline - INFO - H2H Progress: 80% (36576/45727) - 511.9s
+2025-09-03 19:45:39,686 - src.process_pipeline - INFO - H2H Progress: 90% (41148/45727) - 583.1s
+2025-09-03 19:47:00,392 - src.process_pipeline - INFO - H2H Progress: 100% (45720/45727) - 663.8s
+2025-09-03 19:47:00,495 - src.process_pipeline - INFO - H2H Progress: 100% (45727/45727) - 663.9s
+2025-09-03 19:47:00,526 - src.process_pipeline - INFO - Upcoming: Processing 53 matches...
+2025-09-03 19:47:00,801 - src.process_pipeline - INFO - H2H Progress: 9% (5/53) - 0.3s
+2025-09-03 19:47:00,892 - src.process_pipeline - INFO - H2H Progress: 19% (10/53) - 0.4s
+2025-09-03 19:47:00,998 - src.process_pipeline - INFO - H2H Progress: 28% (15/53) - 0.5s
+2025-09-03 19:47:01,089 - src.process_pipeline - INFO - H2H Progress: 38% (20/53) - 0.6s
+2025-09-03 19:47:01,199 - src.process_pipeline - INFO - H2H Progress: 47% (25/53) - 0.7s
+2025-09-03 19:47:01,315 - src.process_pipeline - INFO - H2H Progress: 57% (30/53) - 0.8s
+2025-09-03 19:47:01,420 - src.process_pipeline - INFO - H2H Progress: 66% (35/53) - 0.9s
+2025-09-03 19:47:01,532 - src.process_pipeline - INFO - H2H Progress: 75% (40/53) - 1.0s
+2025-09-03 19:47:01,652 - src.process_pipeline - INFO - H2H Progress: 85% (45/53) - 1.1s
+2025-09-03 19:47:01,717 - src.process_pipeline - INFO - H2H Progress: 94% (50/53) - 1.2s
+2025-09-03 19:47:01,782 - src.process_pipeline - INFO - H2H Progress: 100% (53/53) - 1.3s
+2025-09-03 19:47:06,977 - src.process_pipeline - INFO - Dropped 36 original metrics
+2025-09-03 19:47:07,092 - src.process_pipeline - INFO - Calculating rolling averages for 85 metrics with windows [5]
+2025-09-03 19:48:21,214 - src.process_pipeline - INFO - Dropped 49 non rolled metrics
+2025-09-03 19:48:21,214 - src.process_pipeline - INFO - Calculated rolling averages completed
+2025-09-03 19:48:21,330 - src.process_pipeline - INFO - Final shape: (45780, 170)
+2025-09-03 19:48:36,273 - src.process_pipeline - INFO - Saved H2H data with 11835 team pairs
+2025-09-03 19:48:36,281 - src.process_pipeline - INFO - Saved standings data for 8176 teams
+2025-09-03 19:48:36,281 - src.process_pipeline - INFO - Incremental processing complete. Total records: 45780
+2025-09-03 19:48:36,281 - src.process_pipeline - INFO - New records processed: 45780

@@ -477,6 +477,8 @@ def run_training():
         smote_strategy=training_config['smote_strategy']
     )
 
+    trainer.generate_visualizations()
+
 def run_prediction():
     predictor = PredictPipeline()
     training_config = session.get('training_config', TRAIN_CONFIG)

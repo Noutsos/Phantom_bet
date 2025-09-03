@@ -595,4 +595,9 @@ python -m src.main --phase 2
 python -m src.main --phase 1 --collection-phase 1 --filter-categories top 5 --filter-tiers second_tier --season 2018
 python app.py
 http://localhost:5000
+
+            # Progress logging
+            if (idx + 1) % 1000 == 0 or (idx + 1) == total_matches:
+                progress = (idx + 1) / total_matches * 100
+                self.logger.info(f"Standings progress: {progress:.1f}% ({idx + 1}/{total_matches})")
 """

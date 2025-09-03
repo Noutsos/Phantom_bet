@@ -1,2 +1,2 @@
 model_type,feature_selection_method,holdout_accuracy,holdout_precision_macro,holdout_recall_macro,holdout_f1_macro,train_samples,holdout_samples,holdout_ratio,handled_class_imbalance,used_sample_weights,used_smote,smote_strategy,draw_recall,draw_precision
-xgboost,rfe,0.7052462955546656,0.6735615869565033,0.6641753021823152,0.6607122747667681,22473,14982,0.4,False,False,False,,0.36493018259935556,0.5571955719557196
+xgboost,rfe,0.7050847457627119,0.6728010921956029,0.6645594439754962,0.6618128206486042,27437,18290,0.4,False,False,False,,0.37447652633899053,0.5507293354943273

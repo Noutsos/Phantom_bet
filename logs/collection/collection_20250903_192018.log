@@ -1,0 +1,124 @@
+2025-09-03 19:20:18,246 - src.collect_pipeline - INFO - Logging initialized. Log file: logs/collection\collection_20250903_192018.log
+2025-09-03 19:20:18,248 - src.collect_pipeline - INFO - Logging initialized. Log file: logs/collection\collection_20250903_192018.log
+2025-09-03 19:20:18,249 - src.collect_pipeline - INFO - Filtering leagues with: league_id=None, filter_ids=[147], filter_tiers=None, filter_cups=None, filter_categories=None
+2025-09-03 19:20:18,249 - src.collect_pipeline - INFO - Only filter_ids provided: [147]
+2025-09-03 19:20:18,249 - src.collect_pipeline - INFO - Processing Cup (Belgium) - ID: 147
+2025-09-03 19:20:18,249 - src.collect_pipeline - INFO - Getting dates for Cup (Belgium) - Season 2024
+2025-09-03 19:20:18,249 - src.collect_pipeline - INFO - Using cup competition dates for Cup: 2024-09-01 to 2025-05-31
+2025-09-03 19:20:18,249 - src.collect_pipeline - INFO - Using automatic dates for Cup: 2024-09-01 to 2025-05-31
+2025-09-03 19:20:18,250 - src.collect_pipeline - INFO - Phase 1: Collecting 2024 season 2024-09-01 to 2025-05-31
+2025-09-03 19:20:18,250 - src.collect_pipeline - INFO - Phase 1: Collecting entire season 2024-09-01 to 2025-05-31
+2025-09-03 19:20:18,252 - src.collect_pipeline - INFO - Progress saved to data/raw\data_collection_progress.json
+2025-09-03 19:20:18,252 - src.collect_pipeline - INFO - Fetching fixtures for Cup 2024...
+2025-09-03 19:20:18,252 - src.collect_pipeline - INFO - Date range: 2024-09-01 to 2025-05-31
+2025-09-03 19:20:18,252 - src.collect_pipeline - INFO - Making API request: /fixtures?league=147&season=2024&from=2024-09-01&to=2025-05-31
+2025-09-03 19:20:18,435 - src.collect_pipeline - INFO - API response: 49 results
+2025-09-03 19:20:18,436 - src.collect_pipeline - INFO - Found 49 new fixtures to collect (excluding 0 already collected)
+2025-09-03 19:20:18,449 - src.collect_pipeline - INFO - Saved 49 new fixtures to data/raw\Belgium\Cup\2024\fixture_events.json (total fixtures: 49)
+2025-09-03 19:20:18,450 - src.collect_pipeline - INFO - Progress saved to data/raw\data_collection_progress.json
+2025-09-03 19:20:18,450 - src.collect_pipeline - INFO - Found 49 fixtures to process for team_statistics
+2025-09-03 19:20:18,450 - src.collect_pipeline - INFO - Processing 49 fixtures for team_statistics
+2025-09-03 19:20:18,450 - src.collect_pipeline - INFO - Processing batch 1
+2025-09-03 19:20:18,450 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296650
+2025-09-03 19:20:18,610 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:18,611 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296643
+2025-09-03 19:20:18,749 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:18,750 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296496
+2025-09-03 19:20:18,896 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:18,897 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296498
+2025-09-03 19:20:19,027 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:19,028 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296495
+2025-09-03 19:20:19,165 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:19,166 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296645
+2025-09-03 19:20:19,320 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:19,321 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296646
+2025-09-03 19:20:19,476 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:19,477 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296494
+2025-09-03 19:20:19,623 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:19,624 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296651
+2025-09-03 19:20:19,765 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:19,766 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296497
+2025-09-03 19:20:20,022 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:20,023 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296652
+2025-09-03 19:20:20,152 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:20,153 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296653
+2025-09-03 19:20:20,309 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:20,311 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296649
+2025-09-03 19:20:20,461 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:20,463 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296648
+2025-09-03 19:20:20,597 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:20,598 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296644
+2025-09-03 19:20:20,743 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:20,745 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1296647
+2025-09-03 19:20:20,890 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:20,892 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304299
+2025-09-03 19:20:21,038 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:21,038 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304298
+2025-09-03 19:20:21,202 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:21,202 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304289
+2025-09-03 19:20:21,345 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:21,346 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304295
+2025-09-03 19:20:21,492 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:21,493 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304286
+2025-09-03 19:20:21,638 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:21,639 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304290
+2025-09-03 19:20:21,780 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:21,781 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304297
+2025-09-03 19:20:21,929 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:21,930 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304294
+2025-09-03 19:20:22,077 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:22,078 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304287
+2025-09-03 19:20:22,227 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:22,228 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304293
+2025-09-03 19:20:22,374 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:22,374 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304288
+2025-09-03 19:20:22,519 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:22,520 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304300
+2025-09-03 19:20:22,669 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:22,670 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304292
+2025-09-03 19:20:22,817 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:22,818 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304291
+2025-09-03 19:20:22,948 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:22,949 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304296
+2025-09-03 19:20:23,093 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:23,094 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1304301
+2025-09-03 19:20:23,222 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:23,223 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1314654
+2025-09-03 19:20:23,355 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:23,356 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1314653
+2025-09-03 19:20:23,494 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:23,495 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1314655
+2025-09-03 19:20:23,639 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:23,639 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1314652
+2025-09-03 19:20:23,781 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:23,782 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1314650
+2025-09-03 19:20:23,929 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:23,930 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1314656
+2025-09-03 19:20:24,088 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:24,089 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1314657
+2025-09-03 19:20:24,226 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:24,227 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1314651
+2025-09-03 19:20:24,366 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:24,367 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1320390
+2025-09-03 19:20:24,499 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:24,500 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1320391
+2025-09-03 19:20:24,650 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:24,651 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1320393
+2025-09-03 19:20:24,794 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:24,795 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1320392
+2025-09-03 19:20:24,967 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:24,967 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1333755
+2025-09-03 19:20:25,116 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:25,117 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1334532
+2025-09-03 19:20:25,249 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:25,250 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1333756
+2025-09-03 19:20:25,393 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:25,393 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1334533
+2025-09-03 19:20:25,522 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:25,523 - src.collect_pipeline - INFO - Making API request: /fixtures/statistics?fixture=1348686
+2025-09-03 19:20:25,652 - src.collect_pipeline - INFO - API response: 0 results
+2025-09-03 19:20:25,654 - src.collect_pipeline - INFO - Progress saved to data/raw\data_collection_progress.json
+2025-09-03 19:20:25,654 - src.collect_pipeline - INFO - No existing team_statistics file found
+2025-09-03 19:20:25,657 - src.collect_pipeline - INFO - team_statistics: 49 new, 0 duplicates skipped
+2025-09-03 19:20:25,657 - src.collect_pipeline - INFO - Total team_statistics records: 49
+2025-09-03 19:20:25,657 - src.collect_pipeline - INFO - Saved to data/raw\Belgium\Cup\2024\team_statistics.json

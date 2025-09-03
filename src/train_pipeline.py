@@ -1266,70 +1266,6 @@ class TrainPipeline:
             json.dump(analysis, f, indent=2)
         
         return analysis
-
-    def get_prediction_summary(self):
-        """
-        Get a summary of the predictions
-        
-        Returns:
-        --------
-        DataFrame with prediction summary or None if no predictions
-        """
-        if self.predictions is None:
-            self.logger.warning("No predictions available. Call predict_upcoming_fixtures() first.")
-            return None
-        
-        if self.task_type == 'classification':
-            summary_cols = ['home_team', 'away_team', 'home_win_prob', 
-                          'draw_prob', 'away_win_prob', 'predicted_outcome']
-        else:
-            summary_cols = ['home_team', 'away_team', 'predicted_value']
-        
-        return self.predictions[summary_cols].copy()
-    
-    def save_predictions_to_excel(self, output_path=None):
-        """
-        Save predictions to Excel format for easy sharing
-        
-        Parameters:
-        -----------
-        output_path : str, optional
-            Path to save Excel file. If None, saves to artifacts folder
-        """
-        if self.predictions is None:
-            self.logger.warning("No predictions available. Call predict_upcoming_fixtures() first.")
-            return False
-        
-        if output_path is None:
-            output_path = os.path.join(self.paths['metrics'], 'upcoming_predictions.xlsx')
-        
-        try:
-            # Create a formatted Excel file
-            with pd.ExcelWriter(output_path, engine='openpyxl') as writer:
-                # Main predictions sheet
-                self.predictions.to_excel(writer, sheet_name='All Predictions', index=False)
-                
-                # Summary sheet by league
-                if 'league_name' in self.predictions.columns:
-                    for league in self.predictions['league_name'].unique():
-                        league_df = self.predictions[self.predictions['league_name'] == league]
-                        sheet_name = league[:31]  # Excel sheet name limit
-                        league_df.to_excel(writer, sheet_name=sheet_name, index=False)
-            
-            self.logger.info(f"Predictions saved to Excel: {output_path}")
-            return True
-            
-        except Exception as e:
-            self.logger.error(f"Failed to save Excel file: {str(e)}")
-            return False
-
-    def predict(self, X):
-        """Make predictions using the trained model"""
-        if self.model is None:
-            self.logger.error("Model not trained yet. Call train() first.")
-            raise ValueError("Model not trained yet. Call train() first.")
-        
-        return self.model.predict(X)
     
     def predict_proba(self, X):
         """Make probability predictions (for classification only)"""
@@ -1406,29 +1342,7 @@ class TrainPipeline:
                 artifact_paths=self.paths
             )  
 
-    def get_feature_importance(self):
-        """Get feature importance from the trained model"""
-        if self.model is None:
-            self.logger.error("Model not trained yet. Call train() first.")
-            raise ValueError("Model not trained yet. Call train() first.")
         
-        try:
-            feature_names = get_feature_names_from_pipeline(self.model)
-            estimator = self.model.named_steps.get('classifier', 
-                         self.model.named_steps.get('regressor', self.model))
-            
-            if hasattr(estimator, 'feature_importances_'):
-                importances = estimator.feature_importances_
-                return pd.DataFrame({
-                    'feature': feature_names,
-                    'importance': importances
-                }).sort_values('importance', ascending=False)
-            else:
-                self.logger.warning("Model does not support feature importance")
-                return None
-        except Exception as e:
-            self.logger.error(f"Error getting feature importance: {str(e)}")
-            return None              
     
     # ==================== TASK TYPE DETECTION ====================
 def detect_task_type(y):
@@ -2556,12 +2470,6 @@ class HierarchicalClassifier:
         return final_proba
 
 
-    
-
-
-
-
-
 def find_optimal_draw_threshold(model, X_val, y_val):
     """Find the optimal threshold for draw prediction"""
     if hasattr(model, 'predict_proba'):
@@ -2586,3 +2494,219 @@ def find_optimal_draw_threshold(model, X_val, y_val):
 # Use this to set the optimal threshold
 #optimal_threshold, optimal_recall = find_optimal_draw_threshold(model, X_holdout, y_holdout)
 #print(f"Optimal draw threshold: {optimal_threshold:.3f}, Recall: {optimal_recall:.3f}")
+
+def predict_target(self, df, target_col, **kwargs):
+    """
+    Train a model for any target (automatically detects classification/regression)
+    Reuses your existing train() function with automatic task detection
+    
+    Parameters:
+    -----------
+    target_col : str
+        Column name for the target (outcome, total_goals, total_cards, etc.)
+    **kwargs : additional arguments to pass to train()
+    
+    Returns:
+    --------
+    model : trained model
+    X_holdout : holdout features
+    y_holdout : holdout targets
+    """
+    try:
+        # Use your existing train function - it will auto-detect task type!
+        model, X_holdout, y_holdout = self.train(
+            df=df,
+            target_col=target_col,
+            **kwargs
+        )
+        
+        self.logger.info(f"Model for '{target_col}' trained successfully! "
+                        f"Task type: {self.task_type}")
+        return model, X_holdout, y_holdout
+        
+    except Exception as e:
+        self.logger.error(f"Prediction for '{target_col}' failed: {str(e)}", exc_info=True)
+        raise
+
+def train_multiple_targets(self, df, target_columns, common_config=None, specific_configs=None):
+    """
+    Train models for multiple targets using your existing train() function
+    
+    Parameters:
+    -----------
+    target_columns : list
+        List of target column names to train models for
+    common_config : dict
+        Configuration applied to all targets
+    specific_configs : dict
+        Target-specific configurations: {'target_name': {config}}
+    
+    Returns:
+    --------
+    dict: Dictionary containing all trained models and results
+    """
+    if common_config is None:
+        common_config = {}
+    if specific_configs is None:
+        specific_configs = {}
+    
+    results = {}
+    
+    for target_col in target_columns:
+        try:
+            self.logger.info(f"Training model for target: {target_col}")
+            
+            # Merge common config with target-specific config
+            config = common_config.copy()
+            config.update(specific_configs.get(target_col, {}))
+            
+            # Use your existing train function
+            model, X_holdout, y_holdout = self.train(
+                df=df,
+                target_col=target_col,
+                **config
+            )
+            
+            # Store results
+            results[target_col] = {
+                'model': model,
+                'X_holdout': X_holdout,
+                'y_holdout': y_holdout,
+                'task_type': self.task_type,  # From your auto-detection
+                'metrics': self.final_metrics  # From your evaluation
+            }
+            
+            self.logger.info(f"Completed {target_col} - Task: {self.task_type}, "
+                           f"Holdout Score: {self._get_holdout_score()}")
+            
+        except Exception as e:
+            self.logger.error(f"Failed to train model for {target_col}: {str(e)}")
+            results[target_col] = {'error': str(e)}
+    
+    return results
+
+def _get_holdout_score(self):
+    """Helper to get the appropriate holdout score based on task type"""
+    if not hasattr(self, 'final_metrics') or self.final_metrics is None:
+        return "N/A"
+    
+    if self.task_type == 'classification':
+        return f"Accuracy: {self.final_metrics.get('holdout_accuracy', 'N/A'):.3f}"
+    else:
+        return f"RMSE: {self.final_metrics.get('holdout_rmse', 'N/A'):.3f}, " \
+               f"R²: {self.final_metrics.get('holdout_r2', 'N/A'):.3f}"
+    
+def predict_multiple(self, new_data, trained_models):
+    """
+    Make predictions for multiple targets using trained models
+    
+    Parameters:
+    -----------
+    new_data : DataFrame
+        New data to make predictions on
+    trained_models : dict
+        Dictionary from train_multiple_targets()
+    
+    Returns:
+    --------
+    dict: Predictions for all targets with appropriate output format
+    """
+    predictions = {}
+    
+    for target_name, model_info in trained_models.items():
+        if 'model' in model_info and model_info['model'] is not None:
+            try:
+                model = model_info['model']
+                task_type = model_info.get('task_type', 'unknown')
+                
+                if task_type == 'classification':
+                    # Use your classification evaluation format
+                    if hasattr(model, 'predict_proba'):
+                        pred_proba = model.predict_proba(new_data)
+                        pred_class = model.predict(new_data)
+                        predictions[target_name] = {
+                            'prediction': pred_class,
+                            'probabilities': pred_proba,
+                            'type': 'classification'
+                        }
+                    else:
+                        predictions[target_name] = {
+                            'prediction': model.predict(new_data),
+                            'probabilities': None,
+                            'type': 'classification'
+                        }
+                        
+                elif task_type == 'regression':
+                    # Use your regression evaluation format
+                    pred_value = model.predict(new_data)
+                    predictions[target_name] = {
+                        'prediction': pred_value,
+                        'type': 'regression'
+                    }
+                    
+                else:
+                    # Fallback for unknown task types
+                    predictions[target_name] = {
+                        'prediction': model.predict(new_data),
+                        'type': 'unknown'
+                    }
+                    
+            except Exception as e:
+                self.logger.error(f"Prediction failed for {target_name}: {str(e)}")
+                predictions[target_name] = {'error': str(e), 'type': 'error'}
+    
+    return predictions
+
+def generate_comprehensive_report(self, trained_models):
+    """
+    Generate a comprehensive report using your existing evaluation metrics
+    """
+    print("COMPREHENSIVE MODEL EVALUATION REPORT")
+    print("=" * 80)
+    
+    for target_name, result in trained_models.items():
+        if 'error' in result:
+            print(f"\n{target_name.upper():<20} - ERROR: {result['error']}")
+            continue
+            
+        metrics = result.get('metrics', {})
+        task_type = result.get('task_type', 'unknown')
+        
+        print(f"\n{target_name.upper():<20} - {task_type.upper()}")
+        print("-" * 40)
+        
+        if task_type == 'classification':
+            # Your classification metrics
+            print(f"Accuracy:    {metrics.get('holdout_accuracy', 'N/A'):.3f}")
+            print(f"F1 Macro:    {metrics.get('holdout_f1_macro', 'N/A'):.3f}")
+            print(f"Precision:   {metrics.get('holdout_precision_macro', 'N/A'):.3f}")
+            print(f"Recall:      {metrics.get('holdout_recall_macro', 'N/A'):.3f}")
+            
+        elif task_type == 'regression':
+            # Your regression metrics
+            print(f"RMSE:        {metrics.get('holdout_rmse', 'N/A'):.3f}")
+            print(f"R²:          {metrics.get('holdout_r2', 'N/A'):.3f}")
+            print(f"MAE:         {metrics.get('holdout_mae', 'N/A'):.3f}")
+            print(f"Samples:     {metrics.get('holdout_samples', 'N/A')}")
+            
+        print(f"Model Type:  {metrics.get('model_type', 'N/A')}")
+
+def quick_train_all(self, df, regression_targets=None):
+    """
+    Quick method to train outcome + common regression targets
+    """
+    if regression_targets is None:
+        regression_targets = ['total_goals', 'total_cards', 'total_corners', 'total_shots']
+    
+    all_targets = ['outcome'] + regression_targets
+    
+    return self.train_multiple_targets(
+        df=df,
+        target_columns=all_targets,
+        common_config={
+            'model_type': 'random_forest',
+            'feature_selection_method': 'importance',
+            'top_n_features': 25,
+            'holdout_ratio': 0.2
+        }
+    )
