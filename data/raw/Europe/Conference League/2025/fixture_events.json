@@ -1,0 +1,7562 @@
+[
+  {
+    "fixture": {
+      "id": 1421174,
+      "referee": "Claudio Filipe Ruivo Pereira, Portugal",
+      "timezone": "UTC",
+      "date": "2025-08-05T18:45:00+00:00",
+      "timestamp": 1754419500,
+      "periods": {
+        "first": 1754419500,
+        "second": 1754423100
+      },
+      "venue": {
+        "id": 2609,
+        "name": "T\u00f3rsv\u00f8llur",
+        "city": "T\u00f3rshavn, Streymoy"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 701,
+        "name": "KI Klaksvik",
+        "logo": "https://media.api-sports.io/football/teams/701.png",
+        "winner": true
+      },
+      "away": {
+        "id": 387,
+        "name": "Neman",
+        "logo": "https://media.api-sports.io/football/teams/387.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1423750,
+      "referee": "Zorbay Kucuk, T\u00fcrkiye",
+      "timezone": "UTC",
+      "date": "2025-08-07T16:00:00+00:00",
+      "timestamp": 1754582400,
+      "periods": {
+        "first": 1754582400,
+        "second": 1754586000
+      },
+      "venue": {
+        "id": 1190,
+        "name": "Lerkendal Stadion",
+        "city": "Trondheim"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 331,
+        "name": "Rosenborg",
+        "logo": "https://media.api-sports.io/football/teams/331.png",
+        "winner": null
+      },
+      "away": {
+        "id": 363,
+        "name": "Hammarby FF",
+        "logo": "https://media.api-sports.io/football/teams/363.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421160,
+      "referee": "Edgars Malcevs, Latvia",
+      "timezone": "UTC",
+      "date": "2025-08-07T16:00:00+00:00",
+      "timestamp": 1754582400,
+      "periods": {
+        "first": 1754582400,
+        "second": 1754586000
+      },
+      "venue": {
+        "id": 2615,
+        "name": "Stadionul Zimbru",
+        "city": "Chi\u015fin\u0103u"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 691,
+        "name": "Milsami Orhei",
+        "logo": "https://media.api-sports.io/football/teams/691.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5308,
+        "name": "Virtus",
+        "logo": "https://media.api-sports.io/football/teams/5308.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421172,
+      "referee": "Goga Kikacheishvili, Georgia",
+      "timezone": "UTC",
+      "date": "2025-08-07T16:00:00+00:00",
+      "timestamp": 1754582400,
+      "periods": {
+        "first": 1754582400,
+        "second": 1754586000
+      },
+      "venue": {
+        "id": 19616,
+        "name": "Alphamega Stadium",
+        "city": "Kolossi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3408,
+        "name": "Aris",
+        "logo": "https://media.api-sports.io/football/teams/3408.png",
+        "winner": null
+      },
+      "away": {
+        "id": 575,
+        "name": "AEK Athens FC",
+        "logo": "https://media.api-sports.io/football/teams/575.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421167,
+      "referee": "Jeremy Muller, Luxembourg",
+      "timezone": "UTC",
+      "date": "2025-08-07T16:00:00+00:00",
+      "timestamp": 1754582400,
+      "periods": {
+        "first": 1754582400,
+        "second": 1754586000
+      },
+      "venue": {
+        "id": 2612,
+        "name": "S. Dariaus ir S. Gir\u0117no stadionas",
+        "city": "Kaunas"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3872,
+        "name": "Kauno \u017dalgiris",
+        "logo": "https://media.api-sports.io/football/teams/3872.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1430,
+        "name": "Arda Kardzhali",
+        "logo": "https://media.api-sports.io/football/teams/1430.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421175,
+      "referee": "Ond\u0159ej Berka",
+      "timezone": "UTC",
+      "date": "2025-08-07T16:00:00+00:00",
+      "timestamp": 1754582400,
+      "periods": {
+        "first": 1754582400,
+        "second": 1754586000
+      },
+      "venue": {
+        "id": null,
+        "name": "Liv Bona Dea Arena",
+        "city": "Bak\u0131 (Baku)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 11238,
+        "name": "Araz",
+        "logo": "https://media.api-sports.io/football/teams/11238.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3402,
+        "name": "Omonia Nicosia",
+        "logo": "https://media.api-sports.io/football/teams/3402.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421169,
+      "referee": "Mohammed Al-Hakim, Sweden",
+      "timezone": "UTC",
+      "date": "2025-08-07T16:30:00+00:00",
+      "timestamp": 1754584200,
+      "periods": {
+        "first": 1754584200,
+        "second": 1754587800
+      },
+      "venue": {
+        "id": 2495,
+        "name": "M\u011bstsk\u00fd stadion - V\u00edtkovice Ar\u00e9na",
+        "city": "Ostrava"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3713,
+        "name": "Ban\u00edk Ostrava",
+        "logo": "https://media.api-sports.io/football/teams/3713.png",
+        "winner": true
+      },
+      "away": {
+        "id": 601,
+        "name": "Austria Vienna",
+        "logo": "https://media.api-sports.io/football/teams/601.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421155,
+      "referee": "Daniel Schlager",
+      "timezone": "UTC",
+      "date": "2025-08-07T17:00:00+00:00",
+      "timestamp": 1754586000,
+      "periods": {
+        "first": 1754586000,
+        "second": 1754589600
+      },
+      "venue": {
+        "id": 21411,
+        "name": "Strawberry Arena",
+        "city": "Solna"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 377,
+        "name": "AIK Stockholm",
+        "logo": "https://media.api-sports.io/football/teams/377.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2402,
+        "name": "Gyori ETO FC",
+        "logo": "https://media.api-sports.io/football/teams/2402.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421163,
+      "referee": "Miguel Nogueira, Portugal",
+      "timezone": "UTC",
+      "date": "2025-08-07T17:00:00+00:00",
+      "timestamp": 1754586000,
+      "periods": {
+        "first": 1754586000,
+        "second": 1754589600
+      },
+      "venue": {
+        "id": 21732,
+        "name": "Lyse Arena",
+        "city": "Stavanger"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 759,
+        "name": "Viking",
+        "logo": "https://media.api-sports.io/football/teams/759.png",
+        "winner": false
+      },
+      "away": {
+        "id": 564,
+        "name": "Istanbul Basaksehir",
+        "logo": "https://media.api-sports.io/football/teams/564.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421162,
+      "referee": "Jamie Robinson, Northern Ireland",
+      "timezone": "UTC",
+      "date": "2025-08-07T17:00:00+00:00",
+      "timestamp": 1754586000,
+      "periods": {
+        "first": 1754586000,
+        "second": 1754589600
+      },
+      "venue": {
+        "id": 459,
+        "name": "JYSK Park",
+        "city": "Silkeborg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2073,
+        "name": "Silkeborg",
+        "logo": "https://media.api-sports.io/football/teams/2073.png",
+        "winner": false
+      },
+      "away": {
+        "id": 336,
+        "name": "Jagiellonia",
+        "logo": "https://media.api-sports.io/football/teams/336.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421156,
+      "referee": "Lionel Tschudi, Switzerland",
+      "timezone": "UTC",
+      "date": "2025-08-07T17:00:00+00:00",
+      "timestamp": 1754586000,
+      "periods": {
+        "first": 1754586000,
+        "second": 1754589600
+      },
+      "venue": {
+        "id": null,
+        "name": "Skonto",
+        "city": "Riga"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 10124,
+        "name": "Riga",
+        "logo": "https://media.api-sports.io/football/teams/10124.png",
+        "winner": true
+      },
+      "away": {
+        "id": 657,
+        "name": "Beitar Jerusalem",
+        "logo": "https://media.api-sports.io/football/teams/657.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421158,
+      "referee": "Bastien Dechepy, France",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:00:00+00:00",
+      "timestamp": 1754589600,
+      "periods": {
+        "first": 1754589600,
+        "second": 1754593200
+      },
+      "venue": {
+        "id": 1119,
+        "name": "AFAS Stadion",
+        "city": "Alkmaar"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 201,
+        "name": "AZ Alkmaar",
+        "logo": "https://media.api-sports.io/football/teams/201.png",
+        "winner": true
+      },
+      "away": {
+        "id": 660,
+        "name": "FC Vaduz",
+        "logo": "https://media.api-sports.io/football/teams/660.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421178,
+      "referee": "Nenad Minakovi\u0107, Serbia",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:00:00+00:00",
+      "timestamp": 1754589600,
+      "periods": {
+        "first": 1754589600,
+        "second": 1754593200
+      },
+      "venue": {
+        "id": null,
+        "name": "Lotto Park",
+        "city": "Brussels"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 554,
+        "name": "Anderlecht",
+        "logo": "https://media.api-sports.io/football/teams/554.png",
+        "winner": true
+      },
+      "away": {
+        "id": 568,
+        "name": "Sheriff Tiraspol",
+        "logo": "https://media.api-sports.io/football/teams/568.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421170,
+      "referee": "Luka Bilbija, Bosnia & Herzegovina",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:00:00+00:00",
+      "timestamp": 1754589600,
+      "periods": {
+        "first": 1754589600,
+        "second": 1754593200
+      },
+      "venue": {
+        "id": 2609,
+        "name": "T\u00f3rsv\u00f8llur",
+        "city": "T\u00f3rshavn, Streymoy"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 580,
+        "name": "Vikingur Gota",
+        "logo": "https://media.api-sports.io/football/teams/580.png",
+        "winner": true
+      },
+      "away": {
+        "id": 583,
+        "name": "Linfield",
+        "logo": "https://media.api-sports.io/football/teams/583.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421168,
+      "referee": "Matthew MacDermid, Scotland",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:00:00+00:00",
+      "timestamp": 1754589600,
+      "periods": {
+        "first": 1754589600,
+        "second": 1754593200
+      },
+      "venue": {
+        "id": 19513,
+        "name": "epet ARENA",
+        "city": "Praha"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 628,
+        "name": "Sparta Praha",
+        "logo": "https://media.api-sports.io/football/teams/628.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3683,
+        "name": "Ararat-Armenia",
+        "logo": "https://media.api-sports.io/football/teams/3683.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421173,
+      "referee": "Duje Strukan, Croatia",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:00:00+00:00",
+      "timestamp": 1754589600,
+      "periods": {
+        "first": 1754589600,
+        "second": 1754593200
+      },
+      "venue": {
+        "id": null,
+        "name": "Vivacom Arena Georgi Asparuhov",
+        "city": "Sofia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 646,
+        "name": "Levski Sofia",
+        "logo": "https://media.api-sports.io/football/teams/646.png",
+        "winner": true
+      },
+      "away": {
+        "id": 13976,
+        "name": "Sabah FA",
+        "logo": "https://media.api-sports.io/football/teams/13976.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421179,
+      "referee": "John Beaton, Scotland",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:00:00+00:00",
+      "timestamp": 1754589600,
+      "periods": {
+        "first": 1754589600,
+        "second": 1754593200
+      },
+      "venue": {
+        "id": 1442,
+        "name": "Stadion Sto\u017eice",
+        "city": "Ljubljana"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 677,
+        "name": "Olimpija Ljubljana",
+        "logo": "https://media.api-sports.io/football/teams/677.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3327,
+        "name": "Egnatia Rrogozhin\u00eb",
+        "logo": "https://media.api-sports.io/football/teams/3327.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1419570,
+      "referee": "Alessandro Dudic, Switzerland",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:00:00+00:00",
+      "timestamp": 1754589600,
+      "periods": {
+        "first": 1754589600,
+        "second": 1754593200
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade Municipal de Differdange",
+        "city": "Differdange"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 684,
+        "name": "FC Differdange 03",
+        "logo": "https://media.api-sports.io/football/teams/684.png",
+        "winner": false
+      },
+      "away": {
+        "id": 2273,
+        "name": "FC Levadia Tallinn",
+        "logo": "https://media.api-sports.io/football/teams/2273.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421153,
+      "referee": "Joakim Ostling, Sweden",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:00:00+00:00",
+      "timestamp": 1754589600,
+      "periods": {
+        "first": 1754589600,
+        "second": 1754593200
+      },
+      "venue": {
+        "id": null,
+        "name": "Tsentralnyi Stadion",
+        "city": "Zhytomyr"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6496,
+        "name": "Polessya",
+        "logo": "https://media.api-sports.io/football/teams/6496.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2390,
+        "name": "Paks",
+        "logo": "https://media.api-sports.io/football/teams/2390.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421159,
+      "referee": "Lukasz Kuzma, Poland",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:15:00+00:00",
+      "timestamp": 1754590500,
+      "periods": {
+        "first": 1754590500,
+        "second": 1754594100
+      },
+      "venue": {
+        "id": 11917,
+        "name": "Stade de la Tuili\u00e8re",
+        "city": "Lausanne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1014,
+        "name": "Lausanne",
+        "logo": "https://media.api-sports.io/football/teams/1014.png",
+        "winner": true
+      },
+      "away": {
+        "id": 562,
+        "name": "FC Astana",
+        "logo": "https://media.api-sports.io/football/teams/562.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421157,
+      "referee": "Sander van der Eijk, Netherlands",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:30:00+00:00",
+      "timestamp": 1754591400,
+      "periods": {
+        "first": 1754591400,
+        "second": 1754595000
+      },
+      "venue": {
+        "id": 1544,
+        "name": "Stockhorn Arena",
+        "city": "Thun"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 606,
+        "name": "FC Lugano",
+        "logo": "https://media.api-sports.io/football/teams/606.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4360,
+        "name": "Celje",
+        "logo": "https://media.api-sports.io/football/teams/4360.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 5
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 5
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421154,
+      "referee": "Joonas Jaanovits, Estonia",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:30:00+00:00",
+      "timestamp": 1754591400,
+      "periods": {
+        "first": 1754591400,
+        "second": 1754595000
+      },
+      "venue": {
+        "id": 12282,
+        "name": "Complex Sportiv Craiova",
+        "city": "Craiova"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 632,
+        "name": "Universitatea Craiova",
+        "logo": "https://media.api-sports.io/football/teams/632.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1120,
+        "name": "Spartak Trnava",
+        "logo": "https://media.api-sports.io/football/teams/1120.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421161,
+      "referee": "Dmytro Panchyshyn, Ukraine",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:30:00+00:00",
+      "timestamp": 1754591400,
+      "periods": {
+        "first": 1754591400,
+        "second": 1754595000
+      },
+      "venue": {
+        "id": null,
+        "name": "Stadiumi Fadil Vokrri",
+        "city": "Prishtin\u00eb"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 12733,
+        "name": "Ballkani",
+        "logo": "https://media.api-sports.io/football/teams/12733.png",
+        "winner": true
+      },
+      "away": {
+        "id": 652,
+        "name": "Shamrock Rovers",
+        "logo": "https://media.api-sports.io/football/teams/652.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421164,
+      "referee": "Atilla Karaoglan, T\u00fcrkiye",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:45:00+00:00",
+      "timestamp": 1754592300,
+      "periods": {
+        "first": 1754592300,
+        "second": 1754595900
+      },
+      "venue": {
+        "id": 831,
+        "name": "V\u00edkingsv\u00f6llur",
+        "city": "Reykjav\u00edk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 278,
+        "name": "Vikingur Reykjavik",
+        "logo": "https://media.api-sports.io/football/teams/278.png",
+        "winner": true
+      },
+      "away": {
+        "id": 407,
+        "name": "Brondby",
+        "logo": "https://media.api-sports.io/football/teams/407.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421176,
+      "referee": "David Smajc, Slovenia",
+      "timezone": "UTC",
+      "date": "2025-08-07T18:45:00+00:00",
+      "timestamp": 1754592300,
+      "periods": {
+        "first": 1754592300,
+        "second": 1754595900
+      },
+      "venue": {
+        "id": 865,
+        "name": "Tallaght Stadium",
+        "city": "Dublin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3843,
+        "name": "St Patrick's Athl.",
+        "logo": "https://media.api-sports.io/football/teams/3843.png",
+        "winner": false
+      },
+      "away": {
+        "id": 549,
+        "name": "Besiktas",
+        "logo": "https://media.api-sports.io/football/teams/549.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 4
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421171,
+      "referee": "Philip Farrugia, Malta",
+      "timezone": "UTC",
+      "date": "2025-08-07T19:00:00+00:00",
+      "timestamp": 1754593200,
+      "periods": {
+        "first": 1754593200,
+        "second": 1754596800
+      },
+      "venue": {
+        "id": 1424,
+        "name": "Stadion Partizana",
+        "city": "Beograd"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 573,
+        "name": "FK Partizan",
+        "logo": "https://media.api-sports.io/football/teams/573.png",
+        "winner": false
+      },
+      "away": {
+        "id": 249,
+        "name": "Hibernian",
+        "logo": "https://media.api-sports.io/football/teams/249.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421180,
+      "referee": "Sayat Karabayev",
+      "timezone": "UTC",
+      "date": "2025-08-07T19:00:00+00:00",
+      "timestamp": 1754593200,
+      "periods": {
+        "first": 1754593200,
+        "second": 1754596800
+      },
+      "venue": {
+        "id": 413,
+        "name": "Stadion Poljud",
+        "city": "Split"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 608,
+        "name": "HNK Hajduk Split",
+        "logo": "https://media.api-sports.io/football/teams/608.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3326,
+        "name": "Dinamo Tirana",
+        "logo": "https://media.api-sports.io/football/teams/3326.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421177,
+      "referee": "Lu\u00eds Godinho, Portugal",
+      "timezone": "UTC",
+      "date": "2025-08-07T19:00:00+00:00",
+      "timestamp": 1754593200,
+      "periods": {
+        "first": 1754593200,
+        "second": 1754596800
+      },
+      "venue": {
+        "id": 145,
+        "name": "Allianz Stadion",
+        "city": "Wien"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 781,
+        "name": "Rapid Vienna",
+        "logo": "https://media.api-sports.io/football/teams/781.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1386,
+        "name": "Dundee Utd",
+        "logo": "https://media.api-sports.io/football/teams/1386.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421166,
+      "referee": "Robert Harvey, Ireland",
+      "timezone": "UTC",
+      "date": "2025-08-07T19:00:00+00:00",
+      "timestamp": 1754593200,
+      "periods": {
+        "first": 1754593200,
+        "second": 1754596800
+      },
+      "venue": {
+        "id": null,
+        "name": "Miejski Stadion Pi\u0142karski Rak\u00f3w w Cz\u0119stochowie",
+        "city": "Czestochowa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3491,
+        "name": "Rak\u00f3w Cz\u0119stochowa",
+        "logo": "https://media.api-sports.io/football/teams/3491.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4195,
+        "name": "Maccabi Haifa",
+        "logo": "https://media.api-sports.io/football/teams/4195.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421165,
+      "referee": "Adam Ladeback, Sweden",
+      "timezone": "UTC",
+      "date": "2025-08-07T19:00:00+00:00",
+      "timestamp": 1754593200,
+      "periods": {
+        "first": 1754593200,
+        "second": 1754596800
+      },
+      "venue": {
+        "id": 2933,
+        "name": "The Showgrounds",
+        "city": "Ballymena"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 5354,
+        "name": "Larne",
+        "logo": "https://media.api-sports.io/football/teams/5354.png",
+        "winner": false
+      },
+      "away": {
+        "id": 227,
+        "name": "Santa Clara",
+        "logo": "https://media.api-sports.io/football/teams/227.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421208,
+      "referee": "Milos Milanovic, Serbia",
+      "timezone": "UTC",
+      "date": "2025-08-13T16:00:00+00:00",
+      "timestamp": 1755100800,
+      "periods": {
+        "first": 1755100800,
+        "second": 1755104400
+      },
+      "venue": {
+        "id": 1584,
+        "name": "Ba\u015fak\u015fehir Fatih Terim Stadyumu",
+        "city": "\u0130stanbul"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 564,
+        "name": "Istanbul Basaksehir",
+        "logo": "https://media.api-sports.io/football/teams/564.png",
+        "winner": null
+      },
+      "away": {
+        "id": 759,
+        "name": "Viking",
+        "logo": "https://media.api-sports.io/football/teams/759.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421188,
+      "referee": "Martin Mato\u0161a",
+      "timezone": "UTC",
+      "date": "2025-08-14T14:00:00+00:00",
+      "timestamp": 1755180000,
+      "periods": {
+        "first": 1755180000,
+        "second": 1755183600
+      },
+      "venue": {
+        "id": 989,
+        "name": "Astana Arena",
+        "city": "Astana"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 562,
+        "name": "FC Astana",
+        "logo": "https://media.api-sports.io/football/teams/562.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1014,
+        "name": "Lausanne",
+        "logo": "https://media.api-sports.io/football/teams/1014.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421197,
+      "referee": "Jovan Kachevski",
+      "timezone": "UTC",
+      "date": "2025-08-14T16:00:00+00:00",
+      "timestamp": 1755187200,
+      "periods": {
+        "first": 1755187200,
+        "second": 1755190800
+      },
+      "venue": {
+        "id": 120,
+        "name": "Yerevan Football Academy",
+        "city": "Yerevan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3683,
+        "name": "Ararat-Armenia",
+        "logo": "https://media.api-sports.io/football/teams/3683.png",
+        "winner": false
+      },
+      "away": {
+        "id": 628,
+        "name": "Sparta Praha",
+        "logo": "https://media.api-sports.io/football/teams/628.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421207,
+      "referee": "Mykola Balakin",
+      "timezone": "UTC",
+      "date": "2025-08-14T16:00:00+00:00",
+      "timestamp": 1755187200,
+      "periods": {
+        "first": 1755187200,
+        "second": 1755190800
+      },
+      "venue": {
+        "id": null,
+        "name": "Bank Respublika Arena",
+        "city": "Masazyr (Masazir)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 13976,
+        "name": "Sabah FA",
+        "logo": "https://media.api-sports.io/football/teams/13976.png",
+        "winner": false
+      },
+      "away": {
+        "id": 646,
+        "name": "Levski Sofia",
+        "logo": "https://media.api-sports.io/football/teams/646.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1419571,
+      "referee": "Antoni Bandi\u0107",
+      "timezone": "UTC",
+      "date": "2025-08-14T16:30:00+00:00",
+      "timestamp": 1755189000,
+      "periods": {
+        "first": 1755189000,
+        "second": 1755192600
+      },
+      "venue": {
+        "id": 605,
+        "name": "A. Le Coq Arena",
+        "city": "Tallinn"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2273,
+        "name": "FC Levadia Tallinn",
+        "logo": "https://media.api-sports.io/football/teams/2273.png",
+        "winner": false
+      },
+      "away": {
+        "id": 684,
+        "name": "FC Differdange 03",
+        "logo": "https://media.api-sports.io/football/teams/684.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": 1,
+        "away": 2
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421204,
+      "referee": "Vassilios Fotias",
+      "timezone": "UTC",
+      "date": "2025-08-14T17:00:00+00:00",
+      "timestamp": 1755190800,
+      "periods": {
+        "first": 1755190800,
+        "second": 1755194400
+      },
+      "venue": {
+        "id": null,
+        "name": "3Arena",
+        "city": "Stockholm"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 363,
+        "name": "Hammarby FF",
+        "logo": "https://media.api-sports.io/football/teams/363.png",
+        "winner": false
+      },
+      "away": {
+        "id": 331,
+        "name": "Rosenborg",
+        "logo": "https://media.api-sports.io/football/teams/331.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421198,
+      "referee": "Halil Umut Meler",
+      "timezone": "UTC",
+      "date": "2025-08-14T17:00:00+00:00",
+      "timestamp": 1755190800,
+      "periods": {
+        "first": 1755190800,
+        "second": 1755194400
+      },
+      "venue": {
+        "id": 2615,
+        "name": "Stadionul Zimbru",
+        "city": "Chi\u015fin\u0103u"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 568,
+        "name": "Sheriff Tiraspol",
+        "logo": "https://media.api-sports.io/football/teams/568.png",
+        "winner": null
+      },
+      "away": {
+        "id": 554,
+        "name": "Anderlecht",
+        "logo": "https://media.api-sports.io/football/teams/554.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421185,
+      "referee": "Daniel Schlager",
+      "timezone": "UTC",
+      "date": "2025-08-14T17:00:00+00:00",
+      "timestamp": 1755190800,
+      "periods": {
+        "first": 1755190800,
+        "second": 1755194400
+      },
+      "venue": {
+        "id": 809,
+        "name": "Paksi FC Stadion",
+        "city": "Paks"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2390,
+        "name": "Paks",
+        "logo": "https://media.api-sports.io/football/teams/2390.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6496,
+        "name": "Polessya",
+        "logo": "https://media.api-sports.io/football/teams/6496.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421201,
+      "referee": "Lawrence Visser",
+      "timezone": "UTC",
+      "date": "2025-08-14T17:00:00+00:00",
+      "timestamp": 1755190800,
+      "periods": {
+        "first": 1755190800,
+        "second": 1755194400
+      },
+      "venue": {
+        "id": 801,
+        "name": "ETO Park",
+        "city": "Gy\u0151r"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2402,
+        "name": "Gyori ETO FC",
+        "logo": "https://media.api-sports.io/football/teams/2402.png",
+        "winner": true
+      },
+      "away": {
+        "id": 377,
+        "name": "AIK Stockholm",
+        "logo": "https://media.api-sports.io/football/teams/377.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421202,
+      "referee": "Jakob Kehlet",
+      "timezone": "UTC",
+      "date": "2025-08-14T17:00:00+00:00",
+      "timestamp": 1755190800,
+      "periods": {
+        "first": 1755190800,
+        "second": 1755194400
+      },
+      "venue": {
+        "id": null,
+        "name": "Neo GSP",
+        "city": "Nicos\u00eda (Levkos\u00eda)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3402,
+        "name": "Omonia Nicosia",
+        "logo": "https://media.api-sports.io/football/teams/3402.png",
+        "winner": true
+      },
+      "away": {
+        "id": 11238,
+        "name": "Araz",
+        "logo": "https://media.api-sports.io/football/teams/11238.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421187,
+      "referee": "Guillermo Cuadra Fern\u00e1ndez",
+      "timezone": "UTC",
+      "date": "2025-08-14T17:30:00+00:00",
+      "timestamp": 1755192600,
+      "periods": {
+        "first": 1755192600,
+        "second": 1755196200
+      },
+      "venue": {
+        "id": 443,
+        "name": "Br\u00f8ndby Stadion",
+        "city": "Br\u00f8ndby"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 407,
+        "name": "Brondby",
+        "logo": "https://media.api-sports.io/football/teams/407.png",
+        "winner": true
+      },
+      "away": {
+        "id": 278,
+        "name": "Vikingur Reykjavik",
+        "logo": "https://media.api-sports.io/football/teams/278.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421196,
+      "referee": "Pawe\u0142 Raczkowski",
+      "timezone": "UTC",
+      "date": "2025-08-14T17:30:00+00:00",
+      "timestamp": 1755192600,
+      "periods": {
+        "first": 1755192600,
+        "second": 1755196200
+      },
+      "venue": {
+        "id": 1312,
+        "name": "Stadionul Ilie Oan\u0103",
+        "city": "Ploie\u015fti"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 657,
+        "name": "Beitar Jerusalem",
+        "logo": "https://media.api-sports.io/football/teams/657.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10124,
+        "name": "Riga",
+        "logo": "https://media.api-sports.io/football/teams/10124.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421186,
+      "referee": "Snir Levi",
+      "timezone": "UTC",
+      "date": "2025-08-14T17:30:00+00:00",
+      "timestamp": 1755192600,
+      "periods": {
+        "first": 1755192600,
+        "second": 1755196200
+      },
+      "venue": {
+        "id": 1545,
+        "name": "Rheinpark Stadion",
+        "city": "Vaduz"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 660,
+        "name": "FC Vaduz",
+        "logo": "https://media.api-sports.io/football/teams/660.png",
+        "winner": false
+      },
+      "away": {
+        "id": 201,
+        "name": "AZ Alkmaar",
+        "logo": "https://media.api-sports.io/football/teams/201.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421192,
+      "referee": "Ante \u010culina",
+      "timezone": "UTC",
+      "date": "2025-08-14T17:30:00+00:00",
+      "timestamp": 1755192600,
+      "periods": {
+        "first": 1755192600,
+        "second": 1755196200
+      },
+      "venue": {
+        "id": 291,
+        "name": "Arena Arda",
+        "city": "Kardzhali"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1430,
+        "name": "Arda Kardzhali",
+        "logo": "https://media.api-sports.io/football/teams/1430.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3872,
+        "name": "Kauno \u017dalgiris",
+        "logo": "https://media.api-sports.io/football/teams/3872.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421189,
+      "referee": "Don Robertson",
+      "timezone": "UTC",
+      "date": "2025-08-14T18:00:00+00:00",
+      "timestamp": 1755194400,
+      "periods": {
+        "first": 1755194400,
+        "second": 1755198000
+      },
+      "venue": {
+        "id": 2742,
+        "name": "Szent Gell\u00e9rt F\u00f3rum",
+        "city": "Szeged"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 387,
+        "name": "Neman",
+        "logo": "https://media.api-sports.io/football/teams/387.png",
+        "winner": true
+      },
+      "away": {
+        "id": 701,
+        "name": "KI Klaksvik",
+        "logo": "https://media.api-sports.io/football/teams/701.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 5,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421184,
+      "referee": "Ant\u00f3nio Emanuel Carvalho Nobre",
+      "timezone": "UTC",
+      "date": "2025-08-14T18:00:00+00:00",
+      "timestamp": 1755194400,
+      "periods": {
+        "first": 1755194400,
+        "second": 1755198000
+      },
+      "venue": {
+        "id": 20423,
+        "name": "T\u00fcpra\u015f Stadyumu",
+        "city": "\u0130stanbul"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 549,
+        "name": "Besiktas",
+        "logo": "https://media.api-sports.io/football/teams/549.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3843,
+        "name": "St Patrick's Athl.",
+        "logo": "https://media.api-sports.io/football/teams/3843.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421203,
+      "referee": "Allard Lindhout",
+      "timezone": "UTC",
+      "date": "2025-08-14T18:00:00+00:00",
+      "timestamp": 1755194400,
+      "periods": {
+        "first": 1755194400,
+        "second": 1755198000
+      },
+      "venue": {
+        "id": null,
+        "name": "OPAP Arena",
+        "city": "Ath\u00edna (Athens)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 575,
+        "name": "AEK Athens FC",
+        "logo": "https://media.api-sports.io/football/teams/575.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3408,
+        "name": "Aris",
+        "logo": "https://media.api-sports.io/football/teams/3408.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 2,
+        "away": 0
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421182,
+      "referee": "J\u00e9r\u00f4me Brisard",
+      "timezone": "UTC",
+      "date": "2025-08-14T18:00:00+00:00",
+      "timestamp": 1755194400,
+      "periods": {
+        "first": 1755194400,
+        "second": 1755198000
+      },
+      "venue": {
+        "id": 795,
+        "name": "Nagyerdei Stadion",
+        "city": "Debrecen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4195,
+        "name": "Maccabi Haifa",
+        "logo": "https://media.api-sports.io/football/teams/4195.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3491,
+        "name": "Rak\u00f3w Cz\u0119stochowa",
+        "logo": "https://media.api-sports.io/football/teams/3491.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421181,
+      "referee": "Juan Mart\u00ednez Munuera",
+      "timezone": "UTC",
+      "date": "2025-08-14T18:00:00+00:00",
+      "timestamp": 1755194400,
+      "periods": {
+        "first": 1755194400,
+        "second": 1755198000
+      },
+      "venue": {
+        "id": 3332,
+        "name": "Stadion Z'de\u017eele",
+        "city": "Celje"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4360,
+        "name": "Celje",
+        "logo": "https://media.api-sports.io/football/teams/4360.png",
+        "winner": false
+      },
+      "away": {
+        "id": 606,
+        "name": "FC Lugano",
+        "logo": "https://media.api-sports.io/football/teams/606.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421183,
+      "referee": "Eric Wattellier",
+      "timezone": "UTC",
+      "date": "2025-08-14T18:15:00+00:00",
+      "timestamp": 1755195300,
+      "periods": {
+        "first": 1755195300,
+        "second": 1755198900
+      },
+      "venue": {
+        "id": null,
+        "name": "Chorten Arena",
+        "city": "Bia\u0142ystok"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 336,
+        "name": "Jagiellonia",
+        "logo": "https://media.api-sports.io/football/teams/336.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2073,
+        "name": "Silkeborg",
+        "logo": "https://media.api-sports.io/football/teams/2073.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421199,
+      "referee": "Stuart Attwell",
+      "timezone": "UTC",
+      "date": "2025-08-14T18:30:00+00:00",
+      "timestamp": 1755196200,
+      "periods": {
+        "first": 1755196200,
+        "second": 1755199800
+      },
+      "venue": {
+        "id": 11602,
+        "name": "CITY ARENA \u2013 \u0160tadi\u00f3n Antona Malatinsk\u00e9ho",
+        "city": "Trnava"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1120,
+        "name": "Spartak Trnava",
+        "logo": "https://media.api-sports.io/football/teams/1120.png",
+        "winner": true
+      },
+      "away": {
+        "id": 632,
+        "name": "Universitatea Craiova",
+        "logo": "https://media.api-sports.io/football/teams/632.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 2
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1423751,
+      "referee": "Marek Radina",
+      "timezone": "UTC",
+      "date": "2025-08-14T18:45:00+00:00",
+      "timestamp": 1755197100,
+      "periods": {
+        "first": 1755197100,
+        "second": 1755200700
+      },
+      "venue": {
+        "id": null,
+        "name": "Clearer Twist National Stadium at Windsor Park",
+        "city": "Belfast"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 583,
+        "name": "Linfield",
+        "logo": "https://media.api-sports.io/football/teams/583.png",
+        "winner": true
+      },
+      "away": {
+        "id": 580,
+        "name": "Vikingur Gota",
+        "logo": "https://media.api-sports.io/football/teams/580.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421195,
+      "referee": "Anastasios Sidiropoulos",
+      "timezone": "UTC",
+      "date": "2025-08-14T18:45:00+00:00",
+      "timestamp": 1755197100,
+      "periods": {
+        "first": 1755197100,
+        "second": 1755200700
+      },
+      "venue": {
+        "id": null,
+        "name": "CalForth Construction Arena at Tannadice Park",
+        "city": "Dundee"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1386,
+        "name": "Dundee Utd",
+        "logo": "https://media.api-sports.io/football/teams/1386.png",
+        "winner": false
+      },
+      "away": {
+        "id": 781,
+        "name": "Rapid Vienna",
+        "logo": "https://media.api-sports.io/football/teams/781.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 4,
+        "away": 5
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421205,
+      "referee": "Denys Shurman",
+      "timezone": "UTC",
+      "date": "2025-08-14T18:45:00+00:00",
+      "timestamp": 1755197100,
+      "periods": {
+        "first": 1755197100,
+        "second": 1755200700
+      },
+      "venue": {
+        "id": null,
+        "name": "Arena Komb\u00ebtare",
+        "city": "Tiran\u00eb (Tirana)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3326,
+        "name": "Dinamo Tirana",
+        "logo": "https://media.api-sports.io/football/teams/3326.png",
+        "winner": true
+      },
+      "away": {
+        "id": 608,
+        "name": "HNK Hajduk Split",
+        "logo": "https://media.api-sports.io/football/teams/608.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": 2,
+        "away": 1
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421191,
+      "referee": "Jakob Alexander Sundberg",
+      "timezone": "UTC",
+      "date": "2025-08-14T19:00:00+00:00",
+      "timestamp": 1755198000,
+      "periods": {
+        "first": 1755198000,
+        "second": 1755201600
+      },
+      "venue": {
+        "id": 1289,
+        "name": "Est\u00e1dio de S\u00e3o Miguel",
+        "city": "Ponta Delgada, Ilha de S\u00e3o Miguel, A\u00e7ores"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 227,
+        "name": "Santa Clara",
+        "logo": "https://media.api-sports.io/football/teams/227.png",
+        "winner": null
+      },
+      "away": {
+        "id": 5354,
+        "name": "Larne",
+        "logo": "https://media.api-sports.io/football/teams/5354.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421200,
+      "referee": "Radoslav Gidzhenov",
+      "timezone": "UTC",
+      "date": "2025-08-14T19:00:00+00:00",
+      "timestamp": 1755198000,
+      "periods": {
+        "first": 1755198000,
+        "second": 1755201600
+      },
+      "venue": {
+        "id": 1394,
+        "name": "Easter Road Stadium",
+        "city": "Edinburgh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 249,
+        "name": "Hibernian",
+        "logo": "https://media.api-sports.io/football/teams/249.png",
+        "winner": false
+      },
+      "away": {
+        "id": 573,
+        "name": "FK Partizan",
+        "logo": "https://media.api-sports.io/football/teams/573.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": 1,
+        "away": 0
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421193,
+      "referee": "Juxhin Xhaja",
+      "timezone": "UTC",
+      "date": "2025-08-14T19:00:00+00:00",
+      "timestamp": 1755198000,
+      "periods": {
+        "first": 1755198000,
+        "second": 1755201600
+      },
+      "venue": {
+        "id": 136,
+        "name": "Generali Arena",
+        "city": "Wien"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 601,
+        "name": "Austria Vienna",
+        "logo": "https://media.api-sports.io/football/teams/601.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3713,
+        "name": "Ban\u00edk Ostrava",
+        "logo": "https://media.api-sports.io/football/teams/3713.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421190,
+      "referee": "Mohammad Al Emara",
+      "timezone": "UTC",
+      "date": "2025-08-14T19:00:00+00:00",
+      "timestamp": 1755198000,
+      "periods": {
+        "first": 1755198000,
+        "second": 1755201600
+      },
+      "venue": {
+        "id": 865,
+        "name": "Tallaght Stadium",
+        "city": "Dublin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 652,
+        "name": "Shamrock Rovers",
+        "logo": "https://media.api-sports.io/football/teams/652.png",
+        "winner": true
+      },
+      "away": {
+        "id": 12733,
+        "name": "Ballkani",
+        "logo": "https://media.api-sports.io/football/teams/12733.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421206,
+      "referee": "Urs Schnyder",
+      "timezone": "UTC",
+      "date": "2025-08-14T19:00:00+00:00",
+      "timestamp": 1755198000,
+      "periods": {
+        "first": 1755198000,
+        "second": 1755201600
+      },
+      "venue": {
+        "id": 12601,
+        "name": "Arena Egnatia",
+        "city": "Rrogozhin\u00eb"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3327,
+        "name": "Egnatia Rrogozhin\u00eb",
+        "logo": "https://media.api-sports.io/football/teams/3327.png",
+        "winner": false
+      },
+      "away": {
+        "id": 677,
+        "name": "Olimpija Ljubljana",
+        "logo": "https://media.api-sports.io/football/teams/677.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": 0,
+        "away": 2
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421194,
+      "referee": "Damian Kos",
+      "timezone": "UTC",
+      "date": "2025-08-14T19:00:00+00:00",
+      "timestamp": 1755198000,
+      "periods": {
+        "first": 1755198000,
+        "second": 1755201600
+      },
+      "venue": {
+        "id": 2616,
+        "name": "Stadio Olimpico di Serravalle",
+        "city": "Serravalle"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 5308,
+        "name": "Virtus",
+        "logo": "https://media.api-sports.io/football/teams/5308.png",
+        "winner": true
+      },
+      "away": {
+        "id": 691,
+        "name": "Milsami Orhei",
+        "logo": "https://media.api-sports.io/football/teams/691.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438686,
+      "referee": "Oleksiy Derevinskyi, Ukraine",
+      "timezone": "UTC",
+      "date": "2025-08-21T16:00:00+00:00",
+      "timestamp": 1755792000,
+      "periods": {
+        "first": 1755792000,
+        "second": 1755795600
+      },
+      "venue": {
+        "id": 1190,
+        "name": "Lerkendal Stadion",
+        "city": "Trondheim"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 331,
+        "name": "Rosenborg",
+        "logo": "https://media.api-sports.io/football/teams/331.png",
+        "winner": true
+      },
+      "away": {
+        "id": 164,
+        "name": "FSV Mainz 05",
+        "logo": "https://media.api-sports.io/football/teams/164.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438687,
+      "referee": "Lukas Fahndrich, Switzerland",
+      "timezone": "UTC",
+      "date": "2025-08-21T17:00:00+00:00",
+      "timestamp": 1755795600,
+      "periods": {
+        "first": 1755795600,
+        "second": 1755799200
+      },
+      "venue": {
+        "id": 1511,
+        "name": "Bravida Arena",
+        "city": "G\u00f6teborg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 367,
+        "name": "BK Hacken",
+        "logo": "https://media.api-sports.io/football/teams/367.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2246,
+        "name": "CFR 1907 Cluj",
+        "logo": "https://media.api-sports.io/football/teams/2246.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 7,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 7,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438688,
+      "referee": "Antonio Nobre, Portugal",
+      "timezone": "UTC",
+      "date": "2025-08-21T17:00:00+00:00",
+      "timestamp": 1755795600,
+      "periods": {
+        "first": 1755795600,
+        "second": 1755799200
+      },
+      "venue": {
+        "id": 19258,
+        "name": "28 Black Arena",
+        "city": "Klagenfurt am W\u00f6rthersee"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1025,
+        "name": "Wolfsberger AC",
+        "logo": "https://media.api-sports.io/football/teams/1025.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3402,
+        "name": "Omonia Nicosia",
+        "logo": "https://media.api-sports.io/football/teams/3402.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438690,
+      "referee": "Igor Stojchevski",
+      "timezone": "UTC",
+      "date": "2025-08-21T17:00:00+00:00",
+      "timestamp": 1755795600,
+      "periods": {
+        "first": 1755795600,
+        "second": 1755799200
+      },
+      "venue": {
+        "id": 801,
+        "name": "ETO Park",
+        "city": "Gy\u0151r"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2402,
+        "name": "Gyori ETO FC",
+        "logo": "https://media.api-sports.io/football/teams/2402.png",
+        "winner": true
+      },
+      "away": {
+        "id": 781,
+        "name": "Rapid Vienna",
+        "logo": "https://media.api-sports.io/football/teams/781.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438689,
+      "referee": "Ashot Ghaltakhchyan, Armenia",
+      "timezone": "UTC",
+      "date": "2025-08-21T17:00:00+00:00",
+      "timestamp": 1755795600,
+      "periods": {
+        "first": 1755795600,
+        "second": 1755799200
+      },
+      "venue": {
+        "id": 2614,
+        "name": "Ta'Qali National Stadium",
+        "city": "Ta'Qali"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4626,
+        "name": "Hamrun Spartans",
+        "logo": "https://media.api-sports.io/football/teams/4626.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4160,
+        "name": "R\u012bgas FS",
+        "logo": "https://media.api-sports.io/football/teams/4160.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438691,
+      "referee": "Juxhin Xhaja, Albania",
+      "timezone": "UTC",
+      "date": "2025-08-21T17:45:00+00:00",
+      "timestamp": 1755798300,
+      "periods": {
+        "first": 1755798300,
+        "second": 1755801900
+      },
+      "venue": {
+        "id": 1584,
+        "name": "Ba\u015fak\u015fehir Fatih Terim Stadyumu",
+        "city": "\u0130stanbul"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 564,
+        "name": "Istanbul Basaksehir",
+        "logo": "https://media.api-sports.io/football/teams/564.png",
+        "winner": false
+      },
+      "away": {
+        "id": 632,
+        "name": "Universitatea Craiova",
+        "logo": "https://media.api-sports.io/football/teams/632.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438698,
+      "referee": "Genc Nuza, Kosovo",
+      "timezone": "UTC",
+      "date": "2025-08-21T18:00:00+00:00",
+      "timestamp": 1755799200,
+      "periods": {
+        "first": 1755799200,
+        "second": 1755802800
+      },
+      "venue": {
+        "id": 681,
+        "name": "Stade de la Meinau",
+        "city": "Strasbourg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 95,
+        "name": "Strasbourg",
+        "logo": "https://media.api-sports.io/football/teams/95.png",
+        "winner": null
+      },
+      "away": {
+        "id": 407,
+        "name": "Brondby",
+        "logo": "https://media.api-sports.io/football/teams/407.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438701,
+      "referee": "Mikkel Redder, Denmark",
+      "timezone": "UTC",
+      "date": "2025-08-21T18:00:00+00:00",
+      "timestamp": 1755799200,
+      "periods": {
+        "first": 1755799200,
+        "second": 1755802800
+      },
+      "venue": {
+        "id": 820,
+        "name": "K\u00f3pavogsv\u00f6llur",
+        "city": "K\u00f3pavogur"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 276,
+        "name": "Breidablik",
+        "logo": "https://media.api-sports.io/football/teams/276.png",
+        "winner": true
+      },
+      "away": {
+        "id": 5308,
+        "name": "Virtus",
+        "logo": "https://media.api-sports.io/football/teams/5308.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438696,
+      "referee": "Arda Kardesler, T\u00fcrkiye",
+      "timezone": "UTC",
+      "date": "2025-08-21T18:00:00+00:00",
+      "timestamp": 1755799200,
+      "periods": {
+        "first": 1755799200,
+        "second": 1755802800
+      },
+      "venue": {
+        "id": 2742,
+        "name": "Szent Gell\u00e9rt F\u00f3rum",
+        "city": "Szeged"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 387,
+        "name": "Neman",
+        "logo": "https://media.api-sports.io/football/teams/387.png",
+        "winner": false
+      },
+      "away": {
+        "id": 728,
+        "name": "Rayo Vallecano",
+        "logo": "https://media.api-sports.io/football/teams/728.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438695,
+      "referee": "Nick Walsh, Scotland",
+      "timezone": "UTC",
+      "date": "2025-08-21T18:00:00+00:00",
+      "timestamp": 1755799200,
+      "periods": {
+        "first": 1755799200,
+        "second": 1755802800
+      },
+      "venue": {
+        "id": 1258,
+        "name": "Stadion Miejski im. Henryka Reymana",
+        "city": "Krak\u00f3w"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 550,
+        "name": "Shakhtar Donetsk",
+        "logo": "https://media.api-sports.io/football/teams/550.png",
+        "winner": null
+      },
+      "away": {
+        "id": 2184,
+        "name": "Servette FC",
+        "logo": "https://media.api-sports.io/football/teams/2184.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438693,
+      "referee": "J\u00e9r\u00f4me Brisard, France",
+      "timezone": "UTC",
+      "date": "2025-08-21T18:00:00+00:00",
+      "timestamp": 1755799200,
+      "periods": {
+        "first": 1755799200,
+        "second": 1755802800
+      },
+      "venue": {
+        "id": 0,
+        "name": "Lotto Park",
+        "city": "Bruxelles (Brussel)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 554,
+        "name": "Anderlecht",
+        "logo": "https://media.api-sports.io/football/teams/554.png",
+        "winner": null
+      },
+      "away": {
+        "id": 575,
+        "name": "AEK Athens FC",
+        "logo": "https://media.api-sports.io/football/teams/575.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438697,
+      "referee": "Enea Jorgji, Albania",
+      "timezone": "UTC",
+      "date": "2025-08-21T18:00:00+00:00",
+      "timestamp": 1755799200,
+      "periods": {
+        "first": 1755799200,
+        "second": 1755802800
+      },
+      "venue": {
+        "id": 19513,
+        "name": "epet ARENA",
+        "city": "Praha"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 628,
+        "name": "Sparta Praha",
+        "logo": "https://media.api-sports.io/football/teams/628.png",
+        "winner": true
+      },
+      "away": {
+        "id": 10124,
+        "name": "Riga",
+        "logo": "https://media.api-sports.io/football/teams/10124.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438694,
+      "referee": "Tamas Bognar, Hungary",
+      "timezone": "UTC",
+      "date": "2025-08-21T18:00:00+00:00",
+      "timestamp": 1755799200,
+      "periods": {
+        "first": 1755799200,
+        "second": 1755802800
+      },
+      "venue": {
+        "id": 1912,
+        "name": "Stadion Vasil Levski",
+        "city": "Sofia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 646,
+        "name": "Levski Sofia",
+        "logo": "https://media.api-sports.io/football/teams/646.png",
+        "winner": false
+      },
+      "away": {
+        "id": 201,
+        "name": "AZ Alkmaar",
+        "logo": "https://media.api-sports.io/football/teams/201.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438699,
+      "referee": "Allard Lindhout, Netherlands",
+      "timezone": "UTC",
+      "date": "2025-08-21T18:00:00+00:00",
+      "timestamp": 1755799200,
+      "periods": {
+        "first": 1755799200,
+        "second": 1755802800
+      },
+      "venue": {
+        "id": 1442,
+        "name": "Stadion Sto\u017eice",
+        "city": "Ljubljana"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 677,
+        "name": "Olimpija Ljubljana",
+        "logo": "https://media.api-sports.io/football/teams/677.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3684,
+        "name": "FC Noah",
+        "logo": "https://media.api-sports.io/football/teams/3684.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438700,
+      "referee": "Elcin Masiyev, Azerbaijan",
+      "timezone": "UTC",
+      "date": "2025-08-21T18:00:00+00:00",
+      "timestamp": 1755799200,
+      "periods": {
+        "first": 1755799200,
+        "second": 1755802800
+      },
+      "venue": {
+        "id": 3332,
+        "name": "Stadion Z'de\u017eele",
+        "city": "Celje"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4360,
+        "name": "Celje",
+        "logo": "https://media.api-sports.io/football/teams/4360.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3713,
+        "name": "Ban\u00edk Ostrava",
+        "logo": "https://media.api-sports.io/football/teams/3713.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438692,
+      "referee": "Aliyar Aghayev, Azerbaijan",
+      "timezone": "UTC",
+      "date": "2025-08-21T18:00:00+00:00",
+      "timestamp": 1755799200,
+      "periods": {
+        "first": 1755799200,
+        "second": 1755802800
+      },
+      "venue": {
+        "id": 0,
+        "name": "Futbal Tatran Arena",
+        "city": "Pre\u0161ov"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 6496,
+        "name": "Polessya",
+        "logo": "https://media.api-sports.io/football/teams/6496.png",
+        "winner": false
+      },
+      "away": {
+        "id": 502,
+        "name": "Fiorentina",
+        "logo": "https://media.api-sports.io/football/teams/502.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438702,
+      "referee": "Mohammed Al-Hakim, Sweden",
+      "timezone": "UTC",
+      "date": "2025-08-21T18:00:00+00:00",
+      "timestamp": 1755799200,
+      "periods": {
+        "first": 1755799200,
+        "second": 1755802800
+      },
+      "venue": {
+        "id": 0,
+        "name": "Stadiumi Fadil Vokrri",
+        "city": "Prishtin\u00eb (Pristina)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 14281,
+        "name": "Drita",
+        "logo": "https://media.api-sports.io/football/teams/14281.png",
+        "winner": true
+      },
+      "away": {
+        "id": 684,
+        "name": "FC Differdange 03",
+        "logo": "https://media.api-sports.io/football/teams/684.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438704,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-08-21T18:15:00+00:00",
+      "timestamp": 1755800100,
+      "periods": {
+        "first": 1755800100,
+        "second": 1755803700
+      },
+      "venue": {
+        "id": 0,
+        "name": "Chorten Arena",
+        "city": "Bia\u0142ystok"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 336,
+        "name": "Jagiellonia",
+        "logo": "https://media.api-sports.io/football/teams/336.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3326,
+        "name": "Dinamo Tirana",
+        "logo": "https://media.api-sports.io/football/teams/3326.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438703,
+      "referee": "Sigurd Smehus Kringstad, Norway",
+      "timezone": "UTC",
+      "date": "2025-08-21T18:15:00+00:00",
+      "timestamp": 1755800100,
+      "periods": {
+        "first": 1755800100,
+        "second": 1755803700
+      },
+      "venue": {
+        "id": 11917,
+        "name": "Stade de la Tuili\u00e8re",
+        "city": "Lausanne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1014,
+        "name": "Lausanne",
+        "logo": "https://media.api-sports.io/football/teams/1014.png",
+        "winner": null
+      },
+      "away": {
+        "id": 549,
+        "name": "Besiktas",
+        "logo": "https://media.api-sports.io/football/teams/549.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438705,
+      "referee": "Vassilis Fotias, Greece",
+      "timezone": "UTC",
+      "date": "2025-08-21T18:45:00+00:00",
+      "timestamp": 1755801900,
+      "periods": {
+        "first": 1755801900,
+        "second": 1755805500
+      },
+      "venue": {
+        "id": 2639,
+        "name": "Tolka Park",
+        "city": "Dublin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3854,
+        "name": "Shelbourne",
+        "logo": "https://media.api-sports.io/football/teams/3854.png",
+        "winner": true
+      },
+      "away": {
+        "id": 583,
+        "name": "Linfield",
+        "logo": "https://media.api-sports.io/football/teams/583.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438706,
+      "referee": "Anastasios Papapetrou, Greece",
+      "timezone": "UTC",
+      "date": "2025-08-21T19:00:00+00:00",
+      "timestamp": 1755802800,
+      "periods": {
+        "first": 1755802800,
+        "second": 1755806400
+      },
+      "venue": {
+        "id": 525,
+        "name": "Selhurst Park",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 52,
+        "name": "Crystal Palace",
+        "logo": "https://media.api-sports.io/football/teams/52.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2149,
+        "name": "Fredrikstad",
+        "logo": "https://media.api-sports.io/football/teams/2149.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438708,
+      "referee": "Stefan Ebner, Austria",
+      "timezone": "UTC",
+      "date": "2025-08-21T19:00:00+00:00",
+      "timestamp": 1755802800,
+      "periods": {
+        "first": 1755802800,
+        "second": 1755806400
+      },
+      "venue": {
+        "id": 1289,
+        "name": "Est\u00e1dio de S\u00e3o Miguel",
+        "city": "Ponta Delgada, Ilha de S\u00e3o Miguel, A\u00e7ores"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 227,
+        "name": "Santa Clara",
+        "logo": "https://media.api-sports.io/football/teams/227.png",
+        "winner": false
+      },
+      "away": {
+        "id": 652,
+        "name": "Shamrock Rovers",
+        "logo": "https://media.api-sports.io/football/teams/652.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438707,
+      "referee": "Mohammad Al-Emara, Finland",
+      "timezone": "UTC",
+      "date": "2025-08-21T19:00:00+00:00",
+      "timestamp": 1755802800,
+      "periods": {
+        "first": 1755802800,
+        "second": 1755806400
+      },
+      "venue": {
+        "id": 1394,
+        "name": "Easter Road Stadium",
+        "city": "Edinburgh"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 249,
+        "name": "Hibernian",
+        "logo": "https://media.api-sports.io/football/teams/249.png",
+        "winner": false
+      },
+      "away": {
+        "id": 339,
+        "name": "Legia Warszawa",
+        "logo": "https://media.api-sports.io/football/teams/339.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438709,
+      "referee": "Michal O\u010den\u00e1\u0161, Slovakia",
+      "timezone": "UTC",
+      "date": "2025-08-21T19:00:00+00:00",
+      "timestamp": 1755802800,
+      "periods": {
+        "first": 1755802800,
+        "second": 1755806400
+      },
+      "venue": {
+        "id": 0,
+        "name": "zondacrypto Arena",
+        "city": "Cz\u0119stochowa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3491,
+        "name": "Rak\u00f3w Cz\u0119stochowa",
+        "logo": "https://media.api-sports.io/football/teams/3491.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1430,
+        "name": "Arda Kardzhali",
+        "logo": "https://media.api-sports.io/football/teams/1430.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438710,
+      "referee": "Willy Delajod, France",
+      "timezone": "UTC",
+      "date": "2025-08-27T16:45:00+00:00",
+      "timestamp": 1756313100,
+      "periods": {
+        "first": 1756313100,
+        "second": 1756316700
+      },
+      "venue": {
+        "id": 0,
+        "name": "Stadions Skonto",
+        "city": "R\u012bga (Riga)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 10124,
+        "name": "Riga",
+        "logo": "https://media.api-sports.io/football/teams/10124.png",
+        "winner": true
+      },
+      "away": {
+        "id": 628,
+        "name": "Sparta Praha",
+        "logo": "https://media.api-sports.io/football/teams/628.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438711,
+      "referee": "Kristo Tohver, Estonia",
+      "timezone": "UTC",
+      "date": "2025-08-28T16:00:00+00:00",
+      "timestamp": 1756396800,
+      "periods": {
+        "first": 1756396800,
+        "second": 1756400400
+      },
+      "venue": {
+        "id": 2792,
+        "name": "Nye Fredrikstad Stadion",
+        "city": "Fredrikstad"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2149,
+        "name": "Fredrikstad",
+        "logo": "https://media.api-sports.io/football/teams/2149.png",
+        "winner": null
+      },
+      "away": {
+        "id": 52,
+        "name": "Crystal Palace",
+        "logo": "https://media.api-sports.io/football/teams/52.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438713,
+      "referee": "Daniele Chiffi, Italy",
+      "timezone": "UTC",
+      "date": "2025-08-28T16:00:00+00:00",
+      "timestamp": 1756396800,
+      "periods": {
+        "first": 1756396800,
+        "second": 1756400400
+      },
+      "venue": {
+        "id": 0,
+        "name": "Neo GSP",
+        "city": "Nicos\u00eda (Levkos\u00eda)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3402,
+        "name": "Omonia Nicosia",
+        "logo": "https://media.api-sports.io/football/teams/3402.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1025,
+        "name": "Wolfsberger AC",
+        "logo": "https://media.api-sports.io/football/teams/1025.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 5,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438712,
+      "referee": "Andris Treimanis, Latvia",
+      "timezone": "UTC",
+      "date": "2025-08-28T16:00:00+00:00",
+      "timestamp": 1756396800,
+      "periods": {
+        "first": 1756396800,
+        "second": 1756400400
+      },
+      "venue": {
+        "id": 4654,
+        "name": "Kotaik Stadium",
+        "city": "Abovian"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3684,
+        "name": "FC Noah",
+        "logo": "https://media.api-sports.io/football/teams/3684.png",
+        "winner": true
+      },
+      "away": {
+        "id": 677,
+        "name": "Olimpija Ljubljana",
+        "logo": "https://media.api-sports.io/football/teams/677.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438714,
+      "referee": "Jakob Kehlet, Denmark",
+      "timezone": "UTC",
+      "date": "2025-08-28T17:00:00+00:00",
+      "timestamp": 1756400400,
+      "periods": {
+        "first": 1756400400,
+        "second": 1756404000
+      },
+      "venue": {
+        "id": 20423,
+        "name": "T\u00fcpra\u015f Stadyumu",
+        "city": "\u0130stanbul"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 549,
+        "name": "Besiktas",
+        "logo": "https://media.api-sports.io/football/teams/549.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1014,
+        "name": "Lausanne",
+        "logo": "https://media.api-sports.io/football/teams/1014.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438815,
+      "referee": "Manfredas Lukjan\u010dukas",
+      "timezone": "UTC",
+      "date": "2025-08-28T17:00:00+00:00",
+      "timestamp": 1756400400,
+      "periods": {
+        "first": 1756400400,
+        "second": 1756404000
+      },
+      "venue": {
+        "id": 145,
+        "name": "Allianz Stadion",
+        "city": "Wien"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 781,
+        "name": "Rapid Vienna",
+        "logo": "https://media.api-sports.io/football/teams/781.png",
+        "winner": true
+      },
+      "away": {
+        "id": 2402,
+        "name": "Gyori ETO FC",
+        "logo": "https://media.api-sports.io/football/teams/2402.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438715,
+      "referee": "Horatiu Fesnic, Romania",
+      "timezone": "UTC",
+      "date": "2025-08-28T17:00:00+00:00",
+      "timestamp": 1756400400,
+      "periods": {
+        "first": 1756400400,
+        "second": 1756404000
+      },
+      "venue": {
+        "id": 0,
+        "name": "LNK Sporta Parks",
+        "city": "R\u012bga (Riga)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4160,
+        "name": "R\u012bgas FS",
+        "logo": "https://media.api-sports.io/football/teams/4160.png",
+        "winner": null
+      },
+      "away": {
+        "id": 4626,
+        "name": "Hamrun Spartans",
+        "logo": "https://media.api-sports.io/football/teams/4626.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438816,
+      "referee": "Damian Sylwestrzak, Poland",
+      "timezone": "UTC",
+      "date": "2025-08-28T17:30:00+00:00",
+      "timestamp": 1756402200,
+      "periods": {
+        "first": 1756402200,
+        "second": 1756405800
+      },
+      "venue": {
+        "id": 1119,
+        "name": "AFAS Stadion",
+        "city": "Alkmaar"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 201,
+        "name": "AZ Alkmaar",
+        "logo": "https://media.api-sports.io/football/teams/201.png",
+        "winner": true
+      },
+      "away": {
+        "id": 646,
+        "name": "Levski Sofia",
+        "logo": "https://media.api-sports.io/football/teams/646.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438818,
+      "referee": "Daniel Schlager, Germany",
+      "timezone": "UTC",
+      "date": "2025-08-28T17:30:00+00:00",
+      "timestamp": 1756402200,
+      "periods": {
+        "first": 1756402200,
+        "second": 1756405800
+      },
+      "venue": {
+        "id": 12282,
+        "name": "Complex Sportiv Craiova",
+        "city": "Craiova"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 632,
+        "name": "Universitatea Craiova",
+        "logo": "https://media.api-sports.io/football/teams/632.png",
+        "winner": true
+      },
+      "away": {
+        "id": 564,
+        "name": "Istanbul Basaksehir",
+        "logo": "https://media.api-sports.io/football/teams/564.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438817,
+      "referee": "Sebastian Gishamer, Austria",
+      "timezone": "UTC",
+      "date": "2025-08-28T17:30:00+00:00",
+      "timestamp": 1756402200,
+      "periods": {
+        "first": 1756402200,
+        "second": 1756405800
+      },
+      "venue": {
+        "id": 1311,
+        "name": "Stadionul Dr. Constantin R\u0103dulescu",
+        "city": "Cluj-Napoca"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2246,
+        "name": "CFR 1907 Cluj",
+        "logo": "https://media.api-sports.io/football/teams/2246.png",
+        "winner": true
+      },
+      "away": {
+        "id": 367,
+        "name": "BK Hacken",
+        "logo": "https://media.api-sports.io/football/teams/367.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438822,
+      "referee": "Nenad Minakovi\u0107, Serbia",
+      "timezone": "UTC",
+      "date": "2025-08-28T18:00:00+00:00",
+      "timestamp": 1756404000,
+      "periods": {
+        "first": 1756404000,
+        "second": 1756407600
+      },
+      "venue": {
+        "id": 443,
+        "name": "Br\u00f8ndby Stadion",
+        "city": "Br\u00f8ndby"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 407,
+        "name": "Brondby",
+        "logo": "https://media.api-sports.io/football/teams/407.png",
+        "winner": false
+      },
+      "away": {
+        "id": 95,
+        "name": "Strasbourg",
+        "logo": "https://media.api-sports.io/football/teams/95.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438819,
+      "referee": "Ricardo De Burgos Bengoetxea, Spain",
+      "timezone": "UTC",
+      "date": "2025-08-28T18:00:00+00:00",
+      "timestamp": 1756404000,
+      "periods": {
+        "first": 1756404000,
+        "second": 1756407600
+      },
+      "venue": {
+        "id": 0,
+        "name": "MAPEI Stadium - Citt\u00e0 del Tricolore",
+        "city": "Reggio Emilia"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 502,
+        "name": "Fiorentina",
+        "logo": "https://media.api-sports.io/football/teams/502.png",
+        "winner": true
+      },
+      "away": {
+        "id": 6496,
+        "name": "Polessya",
+        "logo": "https://media.api-sports.io/football/teams/6496.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438820,
+      "referee": "Rohit Saggi, Norway",
+      "timezone": "UTC",
+      "date": "2025-08-28T18:00:00+00:00",
+      "timestamp": 1756404000,
+      "periods": {
+        "first": 1756404000,
+        "second": 1756407600
+      },
+      "venue": {
+        "id": 0,
+        "name": "OPAP Arena",
+        "city": "Ath\u00edna (Athens)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 575,
+        "name": "AEK Athens FC",
+        "logo": "https://media.api-sports.io/football/teams/575.png",
+        "winner": true
+      },
+      "away": {
+        "id": 554,
+        "name": "Anderlecht",
+        "logo": "https://media.api-sports.io/football/teams/554.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438825,
+      "referee": "Andrea Colombo, Italy",
+      "timezone": "UTC",
+      "date": "2025-08-28T18:00:00+00:00",
+      "timestamp": 1756404000,
+      "periods": {
+        "first": 1756404000,
+        "second": 1756407600
+      },
+      "venue": {
+        "id": 0,
+        "name": "Stade Parc des Sports",
+        "city": "D\u00e9ifferdeng (Differdange)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 684,
+        "name": "FC Differdange 03",
+        "logo": "https://media.api-sports.io/football/teams/684.png",
+        "winner": false
+      },
+      "away": {
+        "id": 14281,
+        "name": "Drita",
+        "logo": "https://media.api-sports.io/football/teams/14281.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438821,
+      "referee": "Jeremie Pignard, France",
+      "timezone": "UTC",
+      "date": "2025-08-28T18:00:00+00:00",
+      "timestamp": 1756404000,
+      "periods": {
+        "first": 1756404000,
+        "second": 1756407600
+      },
+      "venue": {
+        "id": 1488,
+        "name": "Estadio de Vallecas",
+        "city": "Madrid"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 728,
+        "name": "Rayo Vallecano",
+        "logo": "https://media.api-sports.io/football/teams/728.png",
+        "winner": true
+      },
+      "away": {
+        "id": 387,
+        "name": "Neman",
+        "logo": "https://media.api-sports.io/football/teams/387.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438823,
+      "referee": "Igor Paja\u010d, Croatia",
+      "timezone": "UTC",
+      "date": "2025-08-28T18:00:00+00:00",
+      "timestamp": 1756404000,
+      "periods": {
+        "first": 1756404000,
+        "second": 1756407600
+      },
+      "venue": {
+        "id": 291,
+        "name": "Arena Arda",
+        "city": "Kardzhali"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1430,
+        "name": "Arda Kardzhali",
+        "logo": "https://media.api-sports.io/football/teams/1430.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3491,
+        "name": "Rak\u00f3w Cz\u0119stochowa",
+        "logo": "https://media.api-sports.io/football/teams/3491.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438824,
+      "referee": "Anastasios Sidiropoulos, Greece",
+      "timezone": "UTC",
+      "date": "2025-08-28T18:00:00+00:00",
+      "timestamp": 1756404000,
+      "periods": {
+        "first": 1756404000,
+        "second": 1756407600
+      },
+      "venue": {
+        "id": 2495,
+        "name": "M\u011bstsk\u00fd stadion - V\u00edtkovice Ar\u00e9na",
+        "city": "Ostrava"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3713,
+        "name": "Ban\u00edk Ostrava",
+        "logo": "https://media.api-sports.io/football/teams/3713.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4360,
+        "name": "Celje",
+        "logo": "https://media.api-sports.io/football/teams/4360.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438827,
+      "referee": "Julian Weinberger, Austria",
+      "timezone": "UTC",
+      "date": "2025-08-28T18:45:00+00:00",
+      "timestamp": 1756406700,
+      "periods": {
+        "first": 1756406700,
+        "second": 1756410300
+      },
+      "venue": {
+        "id": 1971,
+        "name": "Windsor Park",
+        "city": "Belfast"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 583,
+        "name": "Linfield",
+        "logo": "https://media.api-sports.io/football/teams/583.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3854,
+        "name": "Shelbourne",
+        "logo": "https://media.api-sports.io/football/teams/3854.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438826,
+      "referee": "Goga Kikacheishvili",
+      "timezone": "UTC",
+      "date": "2025-08-28T18:45:00+00:00",
+      "timestamp": 1756406700,
+      "periods": {
+        "first": 1756406700,
+        "second": 1756410300
+      },
+      "venue": {
+        "id": 0,
+        "name": "Arena Komb\u00ebtare",
+        "city": "Tiran\u00eb (Tirana)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3326,
+        "name": "Dinamo Tirana",
+        "logo": "https://media.api-sports.io/football/teams/3326.png",
+        "winner": null
+      },
+      "away": {
+        "id": 336,
+        "name": "Jagiellonia",
+        "logo": "https://media.api-sports.io/football/teams/336.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438829,
+      "referee": "Sander van der Eijk, Netherlands",
+      "timezone": "UTC",
+      "date": "2025-08-28T19:00:00+00:00",
+      "timestamp": 1756407600,
+      "periods": {
+        "first": 1756407600,
+        "second": 1756411200
+      },
+      "venue": {
+        "id": 11899,
+        "name": "MEWA ARENA",
+        "city": "Mainz"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 164,
+        "name": "FSV Mainz 05",
+        "logo": "https://media.api-sports.io/football/teams/164.png",
+        "winner": true
+      },
+      "away": {
+        "id": 331,
+        "name": "Rosenborg",
+        "logo": "https://media.api-sports.io/football/teams/331.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438830,
+      "referee": "Lawrence Visser, Belgium",
+      "timezone": "UTC",
+      "date": "2025-08-28T19:00:00+00:00",
+      "timestamp": 1756407600,
+      "periods": {
+        "first": 1756407600,
+        "second": 1756411200
+      },
+      "venue": {
+        "id": 1253,
+        "name": "Stadion Miejski Legii Warszawa im. Marsza\u0142ka J\u00f3zefa Pi\u0142sudskiego",
+        "city": "Warszawa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 339,
+        "name": "Legia Warszawa",
+        "logo": "https://media.api-sports.io/football/teams/339.png",
+        "winner": null
+      },
+      "away": {
+        "id": 249,
+        "name": "Hibernian",
+        "logo": "https://media.api-sports.io/football/teams/249.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": 1,
+        "away": 0
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438831,
+      "referee": "Matej Jug, Slovenia",
+      "timezone": "UTC",
+      "date": "2025-08-28T19:00:00+00:00",
+      "timestamp": 1756407600,
+      "periods": {
+        "first": 1756407600,
+        "second": 1756411200
+      },
+      "venue": {
+        "id": 865,
+        "name": "Tallaght Stadium",
+        "city": "Dublin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 652,
+        "name": "Shamrock Rovers",
+        "logo": "https://media.api-sports.io/football/teams/652.png",
+        "winner": null
+      },
+      "away": {
+        "id": 227,
+        "name": "Santa Clara",
+        "logo": "https://media.api-sports.io/football/teams/227.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438828,
+      "referee": "Guillermo Cuadra Fernandez, Spain",
+      "timezone": "UTC",
+      "date": "2025-08-28T19:00:00+00:00",
+      "timestamp": 1756407600,
+      "periods": {
+        "first": 1756407600,
+        "second": 1756411200
+      },
+      "venue": {
+        "id": 0,
+        "name": "Stade de Gen\u00e8ve",
+        "city": "Lancy"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 2184,
+        "name": "Servette FC",
+        "logo": "https://media.api-sports.io/football/teams/2184.png",
+        "winner": false
+      },
+      "away": {
+        "id": 550,
+        "name": "Shakhtar Donetsk",
+        "logo": "https://media.api-sports.io/football/teams/550.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 1
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438832,
+      "referee": "Mykola Balakin, Ukraine",
+      "timezone": "UTC",
+      "date": "2025-08-28T19:00:00+00:00",
+      "timestamp": 1756407600,
+      "periods": {
+        "first": 1756407600,
+        "second": 1756411200
+      },
+      "venue": {
+        "id": 2616,
+        "name": "Stadio Olimpico di Serravalle",
+        "city": "Serravalle"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 848,
+      "name": "UEFA Europa Conference League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/848.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Playoff round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 5308,
+        "name": "Virtus",
+        "logo": "https://media.api-sports.io/football/teams/5308.png",
+        "winner": false
+      },
+      "away": {
+        "id": 276,
+        "name": "Breidablik",
+        "logo": "https://media.api-sports.io/football/teams/276.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>View Predictions</h2>
+    
+    {% if no_predictions %}
+    <div class="alert alert-info">
+        <h3>No Predictions Available</h3>
+        <p>No predictions have been generated yet. Please run the prediction phase first.</p>
+        <a href="{{ url_for('prediction') }}" class="btn btn-primary">Run Prediction</a>
+    </div>
+    {% elif error %}
+    <div class="alert alert-error">
+        <h3>Error Loading Predictions</h3>
+        <p>{{ error }}</p>
+        <a href="{{ url_for('prediction') }}" class="btn btn-primary">Run Prediction Again</a>
+    </div>
+    {% else %}
+    <!-- Filter Form -->
+    <div class="filter-section">
+        <h4>Filter Predictions</h4>
+        <form method="GET" class="filter-form">
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label for="league">League:</label>
+                    <select id="league" name="league">
+                        <option value="">All Leagues</option>
+                        {% for league in unique_leagues %}
+                        <option value="{{ league }}" {% if league_filter == league %}selected{% endif %}>{{ league }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="date">Date:</label>
+                    <select id="date" name="date">
+                        <option value="">All Dates</option>
+                        {% for date in unique_dates %}
+                        <option value="{{ date }}" {% if date_filter == date %}selected{% endif %}>{{ date }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="outcome">Outcome:</label>
+                    <select id="outcome" name="outcome">
+                        <option value="">All Outcomes</option>
+                        {% for outcome in unique_outcomes %}
+                        <option value="{{ outcome }}" {% if outcome_filter == outcome %}selected{% endif %}>{{ outcome | replace('_', ' ') | title }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="filter-actions">
+                    <button type="submit" class="btn btn-primary">Apply Filters</button>
+                    <a href="{{ url_for('view_predictions') }}" class="btn btn-secondary">Clear Filters</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+    <div class="predictions-results">
+        <div class="prediction-header">
+            <h3>Latest Predictions</h3>
+            <div class="prediction-info">
+                <span class="info-item">Total matches: {{ match_count }}</span>
+                <span class="info-item">Generated: {{ generated_time }}</span>
+                
+                {% if league_filter or date_filter or outcome_filter %}
+                <span class="info-item filter-tag">Filters Applied</span>
+                {% endif %}
+            </div>
+        </div>
+        
+        {% if match_count == 0 %}
+        <div class="alert alert-warning">
+            <p>No matches found with the current filters.</p>
+        </div>
+        {% else %}
+        <div class="table-responsive">
+            {{ predictions_table | safe }}
+        </div>
+        
+        <div class="prediction-actions">
+            <a href="{{ url_for('download_predictions') }}" class="btn btn-secondary">
+                <i class="download-icon"></i> Download Predictions (CSV)
+            </a>
+            <button onclick="window.print()" class="btn btn-secondary">
+                <i class="print-icon"></i> Print Predictions
+            </button>
+            <a href="{{ url_for('prediction') }}" class="btn btn-primary">
+                <i class="refresh-icon"></i> Generate New Predictions
+            </a>
+        </div>
+        {% endif %}
+        
+        <div class="prediction-legend">
+            <h4>Legend:</h4>
+            <ul>
+                <li><span class="legend-color home-win"></span> <strong>Home Win</strong>: Home team is predicted to win</li>
+                <li><span class="legend-color draw"></span> <strong>Draw</strong>: Match is predicted to end in a draw</li>
+                <li><span class="legend-color away-win"></span> <strong>Away Win</strong>: Away team is predicted to win</li>
+            </ul>
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<script>
+// Add outcome classes to table rows after page load
+document.addEventListener('DOMContentLoaded', function() {
+    const table = document.querySelector('.prediction-table');
+    if (table) {
+        const rows = table.querySelectorAll('tbody tr');
+        rows.forEach(row => {
+            const outcomeCell = row.querySelector('td:last-child');
+            if (outcomeCell) {
+                const outcome = outcomeCell.textContent.trim();
+                if (outcome === 'home_win') {
+                    row.classList.add('outcome-home-win');
+                } else if (outcome === 'draw') {
+                    row.classList.add('outcome-draw');
+                } else if (outcome === 'away_win') {
+                    row.classList.add('outcome-away-win');
+                }
+            }
+        });
+    }
+});
+</script>
+{% endblock %}

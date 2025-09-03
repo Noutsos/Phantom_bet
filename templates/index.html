@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>Welcome to the Soccer Data Pipeline</h2>
+    <p>This application allows you to run various phases of the soccer data pipeline:</p>
+    
+    <div class="phase-cards">
+        <div class="phase-card">
+            <h3>1. Data Collection</h3>
+            <p>Collect soccer data from APIs</p>
+            <a href="{{ url_for('collection') }}" class="btn">Run Collection</a>
+        </div>
+        
+        <div class="phase-card">
+            <h3>2. Data Extraction</h3>
+            <p>Extract and transform collected data</p>
+            <a href="{{ url_for('extraction') }}" class="btn">Run Extraction</a>
+        </div>
+        
+        <div class="phase-card">
+            <h3>3. Data Processing</h3>
+            <p>Process and prepare data for modeling</p>
+            <a href="{{ url_for('processing') }}" class="btn">Run Processing</a>
+        </div>
+        
+        <div class="phase-card">
+            <h3>4. Model Training</h3>
+            <p>Train machine learning models</p>
+            <a href="{{ url_for('training') }}" class="btn">Run Training</a>
+        </div>
+        
+        <div class="phase-card">
+            <h3>5. Prediction</h3>
+            <p>Make predictions using trained models</p>
+            <a href="{{ url_for('prediction') }}" class="btn">Run Prediction</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

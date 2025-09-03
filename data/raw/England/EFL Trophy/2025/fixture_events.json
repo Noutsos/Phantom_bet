@@ -1,0 +1,142 @@
+[
+  {
+    "fixture": {
+      "id": 1444536,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-09T18:00:00+00:00",
+      "timestamp": 1757440800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 594,
+        "name": "Prenton Park",
+        "city": "Birkenhead, Merseyside"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 46,
+      "name": "EFL Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/46.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Northern - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1381,
+        "name": "Tranmere",
+        "logo": "https://media.api-sports.io/football/teams/1381.png",
+        "winner": null
+      },
+      "away": {
+        "id": 19746,
+        "name": "Nottingham Forest U21",
+        "logo": "https://media.api-sports.io/football/teams/19746.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1444537,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-09T18:45:00+00:00",
+      "timestamp": 1757443500,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 557,
+        "name": "One Call Stadium",
+        "city": "Mansfield, Nottinghamshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 46,
+      "name": "EFL Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/46.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Northern - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1374,
+        "name": "Mansfield Town",
+        "logo": "https://media.api-sports.io/football/teams/1374.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1842,
+        "name": "Harrogate Town",
+        "logo": "https://media.api-sports.io/football/teams/1842.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

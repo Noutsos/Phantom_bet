@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>Data Extraction</h2>
+    <p>Extract and transform collected data from raw format to structured format</p>
+    
+    <div class="info-box">
+        <h3>What this phase does:</h3>
+        <ul>
+            <li>Processes all leagues and seasons from the collected data</li>
+            <li>Transforms raw API responses into structured CSV files</li>
+            <li>Prepares data for the processing phase</li>
+        </ul>
+    </div>
+    
+    <form method="POST" class="config-form">
+        <p>No configuration options are needed for the extraction phase.</p>
+        <p>Click the button below to run the extraction process.</p>
+        
+        <button type="submit" class="btn btn-primary">Run Extraction</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>Pipeline Results</h2>
+    
+    {% if success %}
+    <div class="alert alert-success">
+        <h3>Success!</h3>
+        <p>The {{ phase }} phase completed successfully.</p>
+    </div>
+    {% else %}
+    <div class="alert alert-error">
+        <h3>Error!</h3>
+        <p>The {{ phase }} phase failed with the following error:</p>
+        <p class="error-message">{{ error }}</p>
+    </div>
+    {% endif %}
+    
+    <a href="{{ url_for('index') }}" class="btn">Return to Home</a>
+</div>
+{% endblock %}

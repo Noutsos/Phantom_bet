@@ -1,0 +1,2438 @@
+[
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388614"
+    },
+    "errors": [],
+    "results": 10,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19262,
+          "name": "Tomas Kalas",
+          "photo": "https://media.api-sports.io/football/players/19262.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "fixture": {
+          "id": 1388614,
+          "timezone": "UTC",
+          "date": "2025-08-01T18:30:00+00:00",
+          "timestamp": 1754073000
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 25397,
+          "name": "John Anthony Brooks",
+          "photo": "https://media.api-sports.io/football/players/25397.png",
+          "type": "Missing Fixture",
+          "reason": "Calf muscle tear"
+        },
+        "team": {
+          "id": 159,
+          "name": "Hertha BSC",
+          "logo": "https://media.api-sports.io/football/teams/159.png"
+        },
+        "fixture": {
+          "id": 1388614,
+          "timezone": "UTC",
+          "date": "2025-08-01T18:30:00+00:00",
+          "timestamp": 1754073000
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 25466,
+          "name": "Kenan Karaman",
+          "photo": "https://media.api-sports.io/football/players/25466.png",
+          "type": "Missing Fixture",
+          "reason": "Meniscus injur"
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "fixture": {
+          "id": 1388614,
+          "timezone": "UTC",
+          "date": "2025-08-01T18:30:00+00:00",
+          "timestamp": 1754073000
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 25334,
+          "name": "Marius Gersbeck",
+          "photo": "https://media.api-sports.io/football/players/25334.png",
+          "type": "Missing Fixture",
+          "reason": "Shoulder injury"
+        },
+        "team": {
+          "id": 159,
+          "name": "Hertha BSC",
+          "logo": "https://media.api-sports.io/football/teams/159.png"
+        },
+        "fixture": {
+          "id": 1388614,
+          "timezone": "UTC",
+          "date": "2025-08-01T18:30:00+00:00",
+          "timestamp": 1754073000
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 26397,
+          "name": "Janik Bachmann",
+          "photo": "https://media.api-sports.io/football/players/26397.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "fixture": {
+          "id": 1388614,
+          "timezone": "UTC",
+          "date": "2025-08-01T18:30:00+00:00",
+          "timestamp": 1754073000
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 24909,
+          "name": "Kevin Sessa",
+          "photo": "https://media.api-sports.io/football/players/24909.png",
+          "type": "Missing Fixture",
+          "reason": "Muscular problems"
+        },
+        "team": {
+          "id": 159,
+          "name": "Hertha BSC",
+          "logo": "https://media.api-sports.io/football/teams/159.png"
+        },
+        "fixture": {
+          "id": 1388614,
+          "timezone": "UTC",
+          "date": "2025-08-01T18:30:00+00:00",
+          "timestamp": 1754073000
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 178353,
+          "name": "Luca Schuler",
+          "photo": "https://media.api-sports.io/football/players/178353.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 159,
+          "name": "Hertha BSC",
+          "logo": "https://media.api-sports.io/football/teams/159.png"
+        },
+        "fixture": {
+          "id": 1388614,
+          "timezone": "UTC",
+          "date": "2025-08-01T18:30:00+00:00",
+          "timestamp": 1754073000
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 382486,
+          "name": "Pascal Klemens",
+          "photo": "https://media.api-sports.io/football/players/382486.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 159,
+          "name": "Hertha BSC",
+          "logo": "https://media.api-sports.io/football/teams/159.png"
+        },
+        "fixture": {
+          "id": 1388614,
+          "timezone": "UTC",
+          "date": "2025-08-01T18:30:00+00:00",
+          "timestamp": 1754073000
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 342266,
+          "name": "Tim Goller",
+          "photo": "https://media.api-sports.io/football/players/342266.png",
+          "type": "Missing Fixture",
+          "reason": "Shoulder injury"
+        },
+        "team": {
+          "id": 159,
+          "name": "Hertha BSC",
+          "logo": "https://media.api-sports.io/football/teams/159.png"
+        },
+        "fixture": {
+          "id": 1388614,
+          "timezone": "UTC",
+          "date": "2025-08-01T18:30:00+00:00",
+          "timestamp": 1754073000
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 380507,
+          "name": "Aris Bayindir",
+          "photo": "https://media.api-sports.io/football/players/380507.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "fixture": {
+          "id": 1388614,
+          "timezone": "UTC",
+          "date": "2025-08-01T18:30:00+00:00",
+          "timestamp": 1754073000
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388617"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 25040,
+          "name": "Fabian Holland",
+          "photo": "https://media.api-sports.io/football/players/25040.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 181,
+          "name": "SV Darmstadt 98",
+          "logo": "https://media.api-sports.io/football/teams/181.png"
+        },
+        "fixture": {
+          "id": 1388617,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 25925,
+          "name": "Jean-Paul Boetius",
+          "photo": "https://media.api-sports.io/football/players/25925.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 181,
+          "name": "SV Darmstadt 98",
+          "logo": "https://media.api-sports.io/football/teams/181.png"
+        },
+        "fixture": {
+          "id": 1388617,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 25919,
+          "name": "Gerrit Holtmann",
+          "photo": "https://media.api-sports.io/football/players/25919.png",
+          "type": "Missing Fixture",
+          "reason": "Infection"
+        },
+        "team": {
+          "id": 176,
+          "name": "VfL Bochum",
+          "logo": "https://media.api-sports.io/football/teams/176.png"
+        },
+        "fixture": {
+          "id": 1388617,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 61411,
+          "name": "Erhan Masovic",
+          "photo": "https://media.api-sports.io/football/players/61411.png",
+          "type": "Missing Fixture",
+          "reason": "Collapsed lung"
+        },
+        "team": {
+          "id": 176,
+          "name": "VfL Bochum",
+          "logo": "https://media.api-sports.io/football/teams/176.png"
+        },
+        "fixture": {
+          "id": 1388617,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 392254,
+          "name": "Francis Onyeka",
+          "photo": "https://media.api-sports.io/football/players/392254.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 176,
+          "name": "VfL Bochum",
+          "logo": "https://media.api-sports.io/football/teams/176.png"
+        },
+        "fixture": {
+          "id": 1388617,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 417817,
+          "name": "Othmane El Idrissi",
+          "photo": "https://media.api-sports.io/football/players/417817.png",
+          "type": "Missing Fixture",
+          "reason": "inflammation in the knee"
+        },
+        "team": {
+          "id": 181,
+          "name": "SV Darmstadt 98",
+          "logo": "https://media.api-sports.io/football/teams/181.png"
+        },
+        "fixture": {
+          "id": 1388617,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388615"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 24826,
+          "name": "Sven Michel",
+          "photo": "https://media.api-sports.io/football/players/24826.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 185,
+          "name": "SC Paderborn 07",
+          "logo": "https://media.api-sports.io/football/teams/185.png"
+        },
+        "fixture": {
+          "id": 1388615,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 25609,
+          "name": "Patrick Erras",
+          "photo": "https://media.api-sports.io/football/players/25609.png",
+          "type": "Missing Fixture",
+          "reason": "Concussion"
+        },
+        "team": {
+          "id": 191,
+          "name": "Holstein Kiel",
+          "logo": "https://media.api-sports.io/football/teams/191.png"
+        },
+        "fixture": {
+          "id": 1388615,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 201351,
+          "name": "Andu Yobel Kelati",
+          "photo": "https://media.api-sports.io/football/players/201351.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 191,
+          "name": "Holstein Kiel",
+          "logo": "https://media.api-sports.io/football/teams/191.png"
+        },
+        "fixture": {
+          "id": 1388615,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 354091,
+          "name": "Anton Bauerle",
+          "photo": "https://media.api-sports.io/football/players/354091.png",
+          "type": "Missing Fixture",
+          "reason": "Adductor problems"
+        },
+        "team": {
+          "id": 185,
+          "name": "SC Paderborn 07",
+          "logo": "https://media.api-sports.io/football/teams/185.png"
+        },
+        "fixture": {
+          "id": 1388615,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388621"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 24852,
+          "name": "Joshua Mees",
+          "photo": "https://media.api-sports.io/football/players/24852.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 1313,
+          "name": "Preu\u00dfen M\u00fcnster",
+          "logo": "https://media.api-sports.io/football/teams/1313.png"
+        },
+        "fixture": {
+          "id": 1388621,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 347679,
+          "name": "Efe-Kaan Sihlaroglu",
+          "photo": "https://media.api-sports.io/football/players/347679.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 785,
+          "name": "Karlsruher SC",
+          "logo": "https://media.api-sports.io/football/teams/785.png"
+        },
+        "fixture": {
+          "id": 1388621,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 203331,
+          "name": "Johannes Schenk",
+          "photo": "https://media.api-sports.io/football/players/203331.png",
+          "type": "Missing Fixture",
+          "reason": "hand injury"
+        },
+        "team": {
+          "id": 1313,
+          "name": "Preu\u00dfen M\u00fcnster",
+          "logo": "https://media.api-sports.io/football/teams/1313.png"
+        },
+        "fixture": {
+          "id": 1388621,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388618"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 282060,
+          "name": "Caspar Jander",
+          "photo": "https://media.api-sports.io/football/players/282060.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Problems"
+        },
+        "team": {
+          "id": 171,
+          "name": "1. FC N\u00fcrnberg",
+          "logo": "https://media.api-sports.io/football/teams/171.png"
+        },
+        "fixture": {
+          "id": 1388618,
+          "timezone": "UTC",
+          "date": "2025-08-02T11:00:00+00:00",
+          "timestamp": 1754132400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388616"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 48537,
+          "name": "Roberts Uldrikis",
+          "photo": "https://media.api-sports.io/football/players/48537.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 188,
+          "name": "Arminia Bielefeld",
+          "logo": "https://media.api-sports.io/football/teams/188.png"
+        },
+        "fixture": {
+          "id": 1388616,
+          "timezone": "UTC",
+          "date": "2025-08-02T18:30:00+00:00",
+          "timestamp": 1754159400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388620"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 127850,
+          "name": "Frank Ronstadt",
+          "photo": "https://media.api-sports.io/football/players/127850.png",
+          "type": "Missing Fixture",
+          "reason": "Strain"
+        },
+        "team": {
+          "id": 745,
+          "name": "1. FC Kaiserslautern",
+          "logo": "https://media.api-sports.io/football/teams/745.png"
+        },
+        "fixture": {
+          "id": 1388620,
+          "timezone": "UTC",
+          "date": "2025-08-03T11:30:00+00:00",
+          "timestamp": 1754220600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 357341,
+          "name": "Fabian Heck",
+          "photo": "https://media.api-sports.io/football/players/357341.png",
+          "type": "Missing Fixture",
+          "reason": "Navicular Bone Fracture"
+        },
+        "team": {
+          "id": 745,
+          "name": "1. FC Kaiserslautern",
+          "logo": "https://media.api-sports.io/football/teams/745.png"
+        },
+        "fixture": {
+          "id": 1388620,
+          "timezone": "UTC",
+          "date": "2025-08-03T11:30:00+00:00",
+          "timestamp": 1754220600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388619"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 162723,
+          "name": "Marco John",
+          "photo": "https://media.api-sports.io/football/players/162723.png",
+          "type": "Missing Fixture",
+          "reason": "Muscular problems"
+        },
+        "team": {
+          "id": 178,
+          "name": "SpVgg Greuther F\u00fcrth",
+          "logo": "https://media.api-sports.io/football/teams/178.png"
+        },
+        "fixture": {
+          "id": 1388619,
+          "timezone": "UTC",
+          "date": "2025-08-03T11:30:00+00:00",
+          "timestamp": 1754220600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 375983,
+          "name": "Sacha Banse",
+          "photo": "https://media.api-sports.io/football/players/375983.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 178,
+          "name": "SpVgg Greuther F\u00fcrth",
+          "logo": "https://media.api-sports.io/football/teams/178.png"
+        },
+        "fixture": {
+          "id": 1388619,
+          "timezone": "UTC",
+          "date": "2025-08-03T11:30:00+00:00",
+          "timestamp": 1754220600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 432529,
+          "name": "Jakob Zickler",
+          "photo": "https://media.api-sports.io/football/players/432529.png",
+          "type": "Missing Fixture",
+          "reason": "Shoulder injury"
+        },
+        "team": {
+          "id": 183,
+          "name": "Dynamo Dresden",
+          "logo": "https://media.api-sports.io/football/teams/183.png"
+        },
+        "fixture": {
+          "id": 1388619,
+          "timezone": "UTC",
+          "date": "2025-08-03T11:30:00+00:00",
+          "timestamp": 1754220600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388622"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 25246,
+          "name": "Tobias Muller",
+          "photo": "https://media.api-sports.io/football/players/25246.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Problems"
+        },
+        "team": {
+          "id": 179,
+          "name": "1. FC Magdeburg",
+          "logo": "https://media.api-sports.io/football/teams/179.png"
+        },
+        "fixture": {
+          "id": 1388622,
+          "timezone": "UTC",
+          "date": "2025-08-03T11:30:00+00:00",
+          "timestamp": 1754220600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 314273,
+          "name": "Sidney Raebiger",
+          "photo": "https://media.api-sports.io/football/players/314273.png",
+          "type": "Missing Fixture",
+          "reason": "Torn Meniscus"
+        },
+        "team": {
+          "id": 744,
+          "name": "Eintracht Braunschweig",
+          "logo": "https://media.api-sports.io/football/teams/744.png"
+        },
+        "fixture": {
+          "id": 1388622,
+          "timezone": "UTC",
+          "date": "2025-08-03T11:30:00+00:00",
+          "timestamp": 1754220600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 22708,
+          "name": "Samuel Loric",
+          "photo": "https://media.api-sports.io/football/players/22708.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 179,
+          "name": "1. FC Magdeburg",
+          "logo": "https://media.api-sports.io/football/teams/179.png"
+        },
+        "fixture": {
+          "id": 1388622,
+          "timezone": "UTC",
+          "date": "2025-08-03T11:30:00+00:00",
+          "timestamp": 1754220600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388628"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 25925,
+          "name": "Jean-Paul Boetius",
+          "photo": "https://media.api-sports.io/football/players/25925.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 181,
+          "name": "SV Darmstadt 98",
+          "logo": "https://media.api-sports.io/football/teams/181.png"
+        },
+        "fixture": {
+          "id": 1388628,
+          "timezone": "UTC",
+          "date": "2025-08-08T16:30:00+00:00",
+          "timestamp": 1754670600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388629"
+    },
+    "errors": [],
+    "results": 8,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 26101,
+          "name": "Marc Lorenz",
+          "photo": "https://media.api-sports.io/football/players/26101.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 1313,
+          "name": "Preu\u00dfen M\u00fcnster",
+          "logo": "https://media.api-sports.io/football/teams/1313.png"
+        },
+        "fixture": {
+          "id": 1388629,
+          "timezone": "UTC",
+          "date": "2025-08-08T16:30:00+00:00",
+          "timestamp": 1754670600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 40415,
+          "name": "Mikkel Kirkeskov",
+          "photo": "https://media.api-sports.io/football/players/40415.png",
+          "type": "Missing Fixture",
+          "reason": "Calf Problems"
+        },
+        "team": {
+          "id": 1313,
+          "name": "Preu\u00dfen M\u00fcnster",
+          "logo": "https://media.api-sports.io/football/teams/1313.png"
+        },
+        "fixture": {
+          "id": 1388629,
+          "timezone": "UTC",
+          "date": "2025-08-08T16:30:00+00:00",
+          "timestamp": 1754670600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 24826,
+          "name": "Sven Michel",
+          "photo": "https://media.api-sports.io/football/players/24826.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 185,
+          "name": "SC Paderborn 07",
+          "logo": "https://media.api-sports.io/football/teams/185.png"
+        },
+        "fixture": {
+          "id": 1388629,
+          "timezone": "UTC",
+          "date": "2025-08-08T16:30:00+00:00",
+          "timestamp": 1754670600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 24964,
+          "name": "David Kinsombi",
+          "photo": "https://media.api-sports.io/football/players/24964.png",
+          "type": "Missing Fixture",
+          "reason": "Thigh muscle rupture"
+        },
+        "team": {
+          "id": 185,
+          "name": "SC Paderborn 07",
+          "logo": "https://media.api-sports.io/football/teams/185.png"
+        },
+        "fixture": {
+          "id": 1388629,
+          "timezone": "UTC",
+          "date": "2025-08-08T16:30:00+00:00",
+          "timestamp": 1754670600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 135513,
+          "name": "Oscar Vilhelmsson",
+          "photo": "https://media.api-sports.io/football/players/135513.png",
+          "type": "Missing Fixture",
+          "reason": "Thigh problems"
+        },
+        "team": {
+          "id": 1313,
+          "name": "Preu\u00dfen M\u00fcnster",
+          "logo": "https://media.api-sports.io/football/teams/1313.png"
+        },
+        "fixture": {
+          "id": 1388629,
+          "timezone": "UTC",
+          "date": "2025-08-08T16:30:00+00:00",
+          "timestamp": 1754670600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 342433,
+          "name": "Antonio Tikvic",
+          "photo": "https://media.api-sports.io/football/players/342433.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 1313,
+          "name": "Preu\u00dfen M\u00fcnster",
+          "logo": "https://media.api-sports.io/football/teams/1313.png"
+        },
+        "fixture": {
+          "id": 1388629,
+          "timezone": "UTC",
+          "date": "2025-08-08T16:30:00+00:00",
+          "timestamp": 1754670600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 280361,
+          "name": "Jakob Korte",
+          "photo": "https://media.api-sports.io/football/players/280361.png",
+          "type": "Missing Fixture",
+          "reason": "Pubic inflammation"
+        },
+        "team": {
+          "id": 1313,
+          "name": "Preu\u00dfen M\u00fcnster",
+          "logo": "https://media.api-sports.io/football/teams/1313.png"
+        },
+        "fixture": {
+          "id": 1388629,
+          "timezone": "UTC",
+          "date": "2025-08-08T16:30:00+00:00",
+          "timestamp": 1754670600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 336220,
+          "name": "Leon Tasov",
+          "photo": "https://media.api-sports.io/football/players/336220.png",
+          "type": "Missing Fixture",
+          "reason": "Thigh problems"
+        },
+        "team": {
+          "id": 1313,
+          "name": "Preu\u00dfen M\u00fcnster",
+          "logo": "https://media.api-sports.io/football/teams/1313.png"
+        },
+        "fixture": {
+          "id": 1388629,
+          "timezone": "UTC",
+          "date": "2025-08-08T16:30:00+00:00",
+          "timestamp": 1754670600
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388625"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 25108,
+          "name": "Emmanuel Iyoha",
+          "photo": "https://media.api-sports.io/football/players/25108.png",
+          "type": "Missing Fixture",
+          "reason": "Torn Muscle Fibre"
+        },
+        "team": {
+          "id": 158,
+          "name": "Fortuna D\u00fcsseldorf",
+          "logo": "https://media.api-sports.io/football/teams/158.png"
+        },
+        "fixture": {
+          "id": 1388625,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:00:00+00:00",
+          "timestamp": 1754737200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 203299,
+          "name": "Florian Schock",
+          "photo": "https://media.api-sports.io/football/players/203299.png",
+          "type": "Missing Fixture",
+          "reason": "rupture of the timpanum"
+        },
+        "team": {
+          "id": 158,
+          "name": "Fortuna D\u00fcsseldorf",
+          "logo": "https://media.api-sports.io/football/teams/158.png"
+        },
+        "fixture": {
+          "id": 1388625,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:00:00+00:00",
+          "timestamp": 1754737200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 339230,
+          "name": "Luca Raimund",
+          "photo": "https://media.api-sports.io/football/players/339230.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 158,
+          "name": "Fortuna D\u00fcsseldorf",
+          "logo": "https://media.api-sports.io/football/teams/158.png"
+        },
+        "fixture": {
+          "id": 1388625,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:00:00+00:00",
+          "timestamp": 1754737200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 427025,
+          "name": "King Samuel Manu",
+          "photo": "https://media.api-sports.io/football/players/427025.png",
+          "type": "Missing Fixture",
+          "reason": "Torn Muscle Fibre"
+        },
+        "team": {
+          "id": 158,
+          "name": "Fortuna D\u00fcsseldorf",
+          "logo": "https://media.api-sports.io/football/teams/158.png"
+        },
+        "fixture": {
+          "id": 1388625,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:00:00+00:00",
+          "timestamp": 1754737200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388630"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 22708,
+          "name": "Samuel Loric",
+          "photo": "https://media.api-sports.io/football/players/22708.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 179,
+          "name": "1. FC Magdeburg",
+          "logo": "https://media.api-sports.io/football/teams/179.png"
+        },
+        "fixture": {
+          "id": 1388630,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:00:00+00:00",
+          "timestamp": 1754737200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 432529,
+          "name": "Jakob Zickler",
+          "photo": "https://media.api-sports.io/football/players/432529.png",
+          "type": "Missing Fixture",
+          "reason": "Shoulder injury"
+        },
+        "team": {
+          "id": 183,
+          "name": "Dynamo Dresden",
+          "logo": "https://media.api-sports.io/football/teams/183.png"
+        },
+        "fixture": {
+          "id": 1388630,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:00:00+00:00",
+          "timestamp": 1754737200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388624"
+    },
+    "errors": [],
+    "results": 7,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 25214,
+          "name": "Robin Krausse",
+          "photo": "https://media.api-sports.io/football/players/25214.png",
+          "type": "Missing Fixture",
+          "reason": "Muscular problems"
+        },
+        "team": {
+          "id": 744,
+          "name": "Eintracht Braunschweig",
+          "logo": "https://media.api-sports.io/football/teams/744.png"
+        },
+        "fixture": {
+          "id": 1388624,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:00:00+00:00",
+          "timestamp": 1754737200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 162723,
+          "name": "Marco John",
+          "photo": "https://media.api-sports.io/football/players/162723.png",
+          "type": "Missing Fixture",
+          "reason": "Muscular problems"
+        },
+        "team": {
+          "id": 178,
+          "name": "SpVgg Greuther F\u00fcrth",
+          "logo": "https://media.api-sports.io/football/teams/178.png"
+        },
+        "fixture": {
+          "id": 1388624,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:00:00+00:00",
+          "timestamp": 1754737200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 314273,
+          "name": "Sidney Raebiger",
+          "photo": "https://media.api-sports.io/football/players/314273.png",
+          "type": "Missing Fixture",
+          "reason": "Torn Meniscus"
+        },
+        "team": {
+          "id": 744,
+          "name": "Eintracht Braunschweig",
+          "logo": "https://media.api-sports.io/football/teams/744.png"
+        },
+        "fixture": {
+          "id": 1388624,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:00:00+00:00",
+          "timestamp": 1754737200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 375347,
+          "name": "Timo Schlieck",
+          "photo": "https://media.api-sports.io/football/players/375347.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 178,
+          "name": "SpVgg Greuther F\u00fcrth",
+          "logo": "https://media.api-sports.io/football/teams/178.png"
+        },
+        "fixture": {
+          "id": 1388624,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:00:00+00:00",
+          "timestamp": 1754737200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 375983,
+          "name": "Sacha Banse",
+          "photo": "https://media.api-sports.io/football/players/375983.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 178,
+          "name": "SpVgg Greuther F\u00fcrth",
+          "logo": "https://media.api-sports.io/football/teams/178.png"
+        },
+        "fixture": {
+          "id": 1388624,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:00:00+00:00",
+          "timestamp": 1754737200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 322314,
+          "name": "Aaron Keller",
+          "photo": "https://media.api-sports.io/football/players/322314.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 178,
+          "name": "SpVgg Greuther F\u00fcrth",
+          "logo": "https://media.api-sports.io/football/teams/178.png"
+        },
+        "fixture": {
+          "id": 1388624,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:00:00+00:00",
+          "timestamp": 1754737200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 432553,
+          "name": "Lukas Reich",
+          "photo": "https://media.api-sports.io/football/players/432553.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 178,
+          "name": "SpVgg Greuther F\u00fcrth",
+          "logo": "https://media.api-sports.io/football/teams/178.png"
+        },
+        "fixture": {
+          "id": 1388624,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:00:00+00:00",
+          "timestamp": 1754737200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388627"
+    },
+    "errors": [],
+    "results": 7,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19262,
+          "name": "Tomas Kalas",
+          "photo": "https://media.api-sports.io/football/players/19262.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "fixture": {
+          "id": 1388627,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:30:00+00:00",
+          "timestamp": 1754764200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 25466,
+          "name": "Kenan Karaman",
+          "photo": "https://media.api-sports.io/football/players/25466.png",
+          "type": "Missing Fixture",
+          "reason": "Meniscus injur"
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "fixture": {
+          "id": 1388627,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:30:00+00:00",
+          "timestamp": 1754764200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 26397,
+          "name": "Janik Bachmann",
+          "photo": "https://media.api-sports.io/football/players/26397.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "fixture": {
+          "id": 1388627,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:30:00+00:00",
+          "timestamp": 1754764200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 127850,
+          "name": "Frank Ronstadt",
+          "photo": "https://media.api-sports.io/football/players/127850.png",
+          "type": "Missing Fixture",
+          "reason": "Strain"
+        },
+        "team": {
+          "id": 745,
+          "name": "1. FC Kaiserslautern",
+          "logo": "https://media.api-sports.io/football/teams/745.png"
+        },
+        "fixture": {
+          "id": 1388627,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:30:00+00:00",
+          "timestamp": 1754764200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 403697,
+          "name": "Zaid Amoussou-Tchibara",
+          "photo": "https://media.api-sports.io/football/players/403697.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "fixture": {
+          "id": 1388627,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:30:00+00:00",
+          "timestamp": 1754764200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 380507,
+          "name": "Aris Bayindir",
+          "photo": "https://media.api-sports.io/football/players/380507.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        },
+        "fixture": {
+          "id": 1388627,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:30:00+00:00",
+          "timestamp": 1754764200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 357341,
+          "name": "Fabian Heck",
+          "photo": "https://media.api-sports.io/football/players/357341.png",
+          "type": "Missing Fixture",
+          "reason": "Navicular Bone Fracture"
+        },
+        "team": {
+          "id": 745,
+          "name": "1. FC Kaiserslautern",
+          "logo": "https://media.api-sports.io/football/teams/745.png"
+        },
+        "fixture": {
+          "id": 1388627,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:30:00+00:00",
+          "timestamp": 1754764200
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388626"
+    },
+    "errors": [],
+    "results": 8,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 25397,
+          "name": "John Anthony Brooks",
+          "photo": "https://media.api-sports.io/football/players/25397.png",
+          "type": "Missing Fixture",
+          "reason": "Calf muscle tear"
+        },
+        "team": {
+          "id": 159,
+          "name": "Hertha BSC",
+          "logo": "https://media.api-sports.io/football/teams/159.png"
+        },
+        "fixture": {
+          "id": 1388626,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 25334,
+          "name": "Marius Gersbeck",
+          "photo": "https://media.api-sports.io/football/players/25334.png",
+          "type": "Missing Fixture",
+          "reason": "Shoulder injury"
+        },
+        "team": {
+          "id": 159,
+          "name": "Hertha BSC",
+          "logo": "https://media.api-sports.io/football/teams/159.png"
+        },
+        "fixture": {
+          "id": 1388626,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 25161,
+          "name": "Paul Seguin",
+          "photo": "https://media.api-sports.io/football/players/25161.png",
+          "type": "Missing Fixture",
+          "reason": "Calf Injury"
+        },
+        "team": {
+          "id": 159,
+          "name": "Hertha BSC",
+          "logo": "https://media.api-sports.io/football/teams/159.png"
+        },
+        "fixture": {
+          "id": 1388626,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 178353,
+          "name": "Luca Schuler",
+          "photo": "https://media.api-sports.io/football/players/178353.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 159,
+          "name": "Hertha BSC",
+          "logo": "https://media.api-sports.io/football/teams/159.png"
+        },
+        "fixture": {
+          "id": 1388626,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 347679,
+          "name": "Efe-Kaan Sihlaroglu",
+          "photo": "https://media.api-sports.io/football/players/347679.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 785,
+          "name": "Karlsruher SC",
+          "logo": "https://media.api-sports.io/football/teams/785.png"
+        },
+        "fixture": {
+          "id": 1388626,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 325689,
+          "name": "Noah Rupp",
+          "photo": "https://media.api-sports.io/football/players/325689.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 785,
+          "name": "Karlsruher SC",
+          "logo": "https://media.api-sports.io/football/teams/785.png"
+        },
+        "fixture": {
+          "id": 1388626,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 382486,
+          "name": "Pascal Klemens",
+          "photo": "https://media.api-sports.io/football/players/382486.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 159,
+          "name": "Hertha BSC",
+          "logo": "https://media.api-sports.io/football/teams/159.png"
+        },
+        "fixture": {
+          "id": 1388626,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 342266,
+          "name": "Tim Goller",
+          "photo": "https://media.api-sports.io/football/players/342266.png",
+          "type": "Missing Fixture",
+          "reason": "Shoulder injury"
+        },
+        "team": {
+          "id": 159,
+          "name": "Hertha BSC",
+          "logo": "https://media.api-sports.io/football/teams/159.png"
+        },
+        "fixture": {
+          "id": 1388626,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388623"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 61411,
+          "name": "Erhan Masovic",
+          "photo": "https://media.api-sports.io/football/players/61411.png",
+          "type": "Missing Fixture",
+          "reason": "Collapsed lung"
+        },
+        "team": {
+          "id": 176,
+          "name": "VfL Bochum",
+          "logo": "https://media.api-sports.io/football/teams/176.png"
+        },
+        "fixture": {
+          "id": 1388623,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 145059,
+          "name": "Moritz-Broni Kwarteng",
+          "photo": "https://media.api-sports.io/football/players/145059.png",
+          "type": "Missing Fixture",
+          "reason": "Outer ligament problems"
+        },
+        "team": {
+          "id": 176,
+          "name": "VfL Bochum",
+          "logo": "https://media.api-sports.io/football/teams/176.png"
+        },
+        "fixture": {
+          "id": 1388623,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 26342,
+          "name": "Luca Pfeiffer",
+          "photo": "https://media.api-sports.io/football/players/26342.png",
+          "type": "Missing Fixture",
+          "reason": "Foot surgery"
+        },
+        "team": {
+          "id": 1660,
+          "name": "SV Elversberg",
+          "logo": "https://media.api-sports.io/football/teams/1660.png"
+        },
+        "fixture": {
+          "id": 1388623,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 280368,
+          "name": "Samuel Bamba",
+          "photo": "https://media.api-sports.io/football/players/280368.png",
+          "type": "Missing Fixture",
+          "reason": "Internal ligament strain"
+        },
+        "team": {
+          "id": 176,
+          "name": "VfL Bochum",
+          "logo": "https://media.api-sports.io/football/teams/176.png"
+        },
+        "fixture": {
+          "id": 1388623,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 392254,
+          "name": "Francis Onyeka",
+          "photo": "https://media.api-sports.io/football/players/392254.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 176,
+          "name": "VfL Bochum",
+          "logo": "https://media.api-sports.io/football/teams/176.png"
+        },
+        "fixture": {
+          "id": 1388623,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1388631"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 25609,
+          "name": "Patrick Erras",
+          "photo": "https://media.api-sports.io/football/players/25609.png",
+          "type": "Missing Fixture",
+          "reason": "Concussion"
+        },
+        "team": {
+          "id": 191,
+          "name": "Holstein Kiel",
+          "logo": "https://media.api-sports.io/football/teams/191.png"
+        },
+        "fixture": {
+          "id": 1388631,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 48537,
+          "name": "Roberts Uldrikis",
+          "photo": "https://media.api-sports.io/football/players/48537.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 188,
+          "name": "Arminia Bielefeld",
+          "logo": "https://media.api-sports.io/football/teams/188.png"
+        },
+        "fixture": {
+          "id": 1388631,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 201351,
+          "name": "Andu Yobel Kelati",
+          "photo": "https://media.api-sports.io/football/players/201351.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 191,
+          "name": "Holstein Kiel",
+          "logo": "https://media.api-sports.io/football/teams/191.png"
+        },
+        "fixture": {
+          "id": 1388631,
+          "timezone": "UTC",
+          "date": "2025-08-10T11:30:00+00:00",
+          "timestamp": 1754825400
+        },
+        "league": {
+          "id": 79,
+          "season": 2025,
+          "name": "2. Bundesliga",
+          "country": "Germany",
+          "logo": "https://media.api-sports.io/football/leagues/79.png",
+          "flag": "https://media.api-sports.io/flags/de.svg"
+        }
+      }
+    ]
+  }
+]

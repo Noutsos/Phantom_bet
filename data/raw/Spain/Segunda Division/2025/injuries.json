@@ -1,0 +1,317 @@
+[
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396944"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1391254"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 8671,
+          "name": "Kevin Appin",
+          "photo": "https://media.api-sports.io/football/players/8671.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 9580,
+          "name": "Burgos",
+          "logo": "https://media.api-sports.io/football/teams/9580.png"
+        },
+        "fixture": {
+          "id": 1391254,
+          "timezone": "UTC",
+          "date": "2025-08-15T19:30:00+00:00",
+          "timestamp": 1755286200
+        },
+        "league": {
+          "id": 141,
+          "season": 2025,
+          "name": "Segunda Divisi\u00f3n",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/141.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1391256"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1391259"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1391253"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1391257"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1391255"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396943"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 47324,
+          "name": "Sandro Ramirez",
+          "photo": "https://media.api-sports.io/football/players/47324.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 534,
+          "name": "Las Palmas",
+          "logo": "https://media.api-sports.io/football/teams/534.png"
+        },
+        "fixture": {
+          "id": 1396943,
+          "timezone": "UTC",
+          "date": "2025-08-17T19:30:00+00:00",
+          "timestamp": 1755459000
+        },
+        "league": {
+          "id": 141,
+          "season": 2025,
+          "name": "Segunda Divisi\u00f3n",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/141.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 70315,
+          "name": "Kirian Rodriguez Concepcion",
+          "photo": "https://media.api-sports.io/football/players/70315.png",
+          "type": "Missing Fixture",
+          "reason": "Lymphoma"
+        },
+        "team": {
+          "id": 534,
+          "name": "Las Palmas",
+          "logo": "https://media.api-sports.io/football/teams/534.png"
+        },
+        "fixture": {
+          "id": 1396943,
+          "timezone": "UTC",
+          "date": "2025-08-17T19:30:00+00:00",
+          "timestamp": 1755459000
+        },
+        "league": {
+          "id": 141,
+          "season": 2025,
+          "name": "Segunda Divisi\u00f3n",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/141.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1391258"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 119231,
+          "name": "Ruben Pulido",
+          "photo": "https://media.api-sports.io/football/players/119231.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 537,
+          "name": "Leganes",
+          "logo": "https://media.api-sports.io/football/teams/537.png"
+        },
+        "fixture": {
+          "id": 1391258,
+          "timezone": "UTC",
+          "date": "2025-08-17T19:30:00+00:00",
+          "timestamp": 1755459000
+        },
+        "league": {
+          "id": 141,
+          "season": 2025,
+          "name": "Segunda Divisi\u00f3n",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/141.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 162030,
+          "name": "Jordi Martin",
+          "photo": "https://media.api-sports.io/football/players/162030.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 726,
+          "name": "Huesca",
+          "logo": "https://media.api-sports.io/football/teams/726.png"
+        },
+        "fixture": {
+          "id": 1391258,
+          "timezone": "UTC",
+          "date": "2025-08-17T19:30:00+00:00",
+          "timestamp": 1755459000
+        },
+        "league": {
+          "id": 141,
+          "season": 2025,
+          "name": "Segunda Divisi\u00f3n",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/141.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396942"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396941"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 46739,
+          "name": "Iddrisu Baba",
+          "photo": "https://media.api-sports.io/football/players/46739.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate Ligament Surgery"
+        },
+        "team": {
+          "id": 723,
+          "name": "Almeria",
+          "logo": "https://media.api-sports.io/football/teams/723.png"
+        },
+        "fixture": {
+          "id": 1396941,
+          "timezone": "UTC",
+          "date": "2025-08-18T19:30:00+00:00",
+          "timestamp": 1755545400
+        },
+        "league": {
+          "id": 141,
+          "season": 2025,
+          "name": "Segunda Divisi\u00f3n",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/141.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  }
+]

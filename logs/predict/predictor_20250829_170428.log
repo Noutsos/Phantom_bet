@@ -1,0 +1,9 @@
+2025-08-29 17:04:28,143 - src.predict_pipeline - INFO - Logging initialized. Log file: logs/predict\predictor_20250829_170428.log
+2025-08-29 17:04:28,144 - src.predict_pipeline - INFO - Loading trained model from artifacts/xgboost/rfe/models/xgboost_model.pkl
+2025-08-29 17:04:28,144 - src.predict_pipeline - INFO - Model file size: 1.60 MB
+2025-08-29 17:04:28,193 - src.predict_pipeline - INFO - Detected classification model (has predict_proba method)
+2025-08-29 17:04:28,213 - src.predict_pipeline - INFO - Label encoder loaded from artifacts/xgboost/rfe/models\label_encoder.pkl
+2025-08-29 17:04:28,213 - src.predict_pipeline - INFO - Trained model loaded successfully
+2025-08-29 17:04:28,213 - src.predict_pipeline - INFO - Starting prediction of upcoming fixtures...
+2025-08-29 17:04:28,464 - src.predict_pipeline - INFO - Loaded data from data\final_processed.csv
+2025-08-29 17:04:28,490 - src.predict_pipeline - WARNING - No upcoming fixtures (NS status) found in the data

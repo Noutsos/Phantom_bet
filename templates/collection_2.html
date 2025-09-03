@@ -1,0 +1,88 @@
+collection html
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>Data Collection</h2>
+    <p>Configure and run data collection from soccer APIs</p>
+    
+    <form method="POST" class="config-form">
+        <div class="form-group">
+            <label for="league_id">League ID:</label>
+            <input type="number" id="league_id" name="league_id">
+        </div>
+        
+        <div class="form-group">
+            <label for="season">Season:</label>
+            <input type="number" id="season" name="season" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="collection_phase">Collection Phase:</label>
+            <select id="collection_phase" name="collection_phase">
+                <option value="1">Phase 1 (Historical)</option>
+                <option value="2">Phase 2 (Current)</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label>Data Types:</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="data_types" value="fixture_events" checked> Fixture Events</label>
+                <label><input type="checkbox" name="data_types" value="team_statistics" checked> Team Statistics</label>
+                <label><input type="checkbox" name="data_types" value="team_standings"> Team Standings</label>
+                <label><input type="checkbox" name="data_types" value="player_statistics"> Player Statistics</label>
+                <label><input type="checkbox" name="data_types" value="injuries"> Injuries</label>
+                <label><input type="checkbox" name="data_types" value="lineups"> Lineups</label>
+                <label><input type="checkbox" name="data_types" value="odds"> Odds</label>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="start_date">Start Date:</label>
+            <input type="date" id="start_date" name="start_date">
+        </div>
+        
+        <div class="form-group">
+            <label for="end_date">End Date:</label>
+            <input type="date" id="end_date" name="end_date">
+        </div>
+        
+        <div class="form-group">
+            <label for="batch_size">Batch Size:</label>
+            <input type="number" id="batch_size" name="batch_size" value="50">
+        </div>
+        
+        <div class="form-group">
+            <label for="progress_file">Progress File:</label>
+            <input type="text" id="progress_file" name="progress_file" value="data_collection_progress.json">
+        </div>
+        
+        <div class="form-group">
+            <label><input type="checkbox" name="keep_progress"> Keep Progress</label>
+        </div>
+        
+        <div class="form-group">
+            <label for="filter_ids">Filter IDs (comma-separated):</label>
+            <input type="text" id="filter_ids" name="filter_ids">
+        </div>
+        
+        <div class="form-group">
+            <label for="filter_tiers">Filter Tiers (comma-separated):</label>
+            <input type="text" id="filter_tiers" name="filter_tiers">
+        </div>
+        
+        <div class="form-group">
+            <label for="filter_cups">Filter Cups (comma-separated):</label>
+            <input type="text" id="filter_cups" name="filter_cups">
+        </div>
+        
+        <div class="form-group">
+            <label for="filter_categories">Filter Categories (comma-separated):</label>
+            <input type="text" id="filter_categories" name="filter_categories">
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Run Collection</button>
+    </form>
+</div>
+{% endblock %}

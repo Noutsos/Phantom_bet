@@ -1,0 +1,2 @@
+model_type,feature_selection_method,holdout_accuracy,holdout_precision_macro,holdout_recall_macro,holdout_f1_macro,train_samples,holdout_samples,holdout_ratio
+xgboost,importance,0.6683462299802051,0.6249295708686199,0.6132371406584697,0.6041877151133875,22230,5557,0.2

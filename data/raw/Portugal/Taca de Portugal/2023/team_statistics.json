@@ -1,0 +1,985 @@
+[
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1100656"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132367"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132368"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132369"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132366"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132372"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 240,
+          "name": "Arouca",
+          "logo": "https://media.api-sports.io/football/teams/240.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 5
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 3
+          },
+          {
+            "type": "Total Shots",
+            "value": 10
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 2
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 5
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 5
+          },
+          {
+            "type": "Fouls",
+            "value": 14
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 0
+          },
+          {
+            "type": "Offsides",
+            "value": 0
+          },
+          {
+            "type": "Ball Possession",
+            "value": "43%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": 398
+          },
+          {
+            "type": "Passes accurate",
+            "value": 309
+          },
+          {
+            "type": "Passes %",
+            "value": "78%"
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 4
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 8
+          },
+          {
+            "type": "Total Shots",
+            "value": 14
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 2
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 8
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 6
+          },
+          {
+            "type": "Fouls",
+            "value": 15
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 4
+          },
+          {
+            "type": "Offsides",
+            "value": 2
+          },
+          {
+            "type": "Ball Possession",
+            "value": "57%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 5
+          },
+          {
+            "type": "Total passes",
+            "value": 532
+          },
+          {
+            "type": "Passes accurate",
+            "value": 453
+          },
+          {
+            "type": "Passes %",
+            "value": "85%"
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132373"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132371"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132370"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132375"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 5
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 5
+          },
+          {
+            "type": "Total Shots",
+            "value": 16
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 6
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 7
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 9
+          },
+          {
+            "type": "Fouls",
+            "value": 11
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 8
+          },
+          {
+            "type": "Offsides",
+            "value": 2
+          },
+          {
+            "type": "Ball Possession",
+            "value": "55%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 3
+          },
+          {
+            "type": "Total passes",
+            "value": 445
+          },
+          {
+            "type": "Passes accurate",
+            "value": 373
+          },
+          {
+            "type": "Passes %",
+            "value": "84%"
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 21595,
+          "name": "AVS",
+          "logo": "https://media.api-sports.io/football/teams/21595.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 4
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 3
+          },
+          {
+            "type": "Total Shots",
+            "value": 10
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 3
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 5
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 5
+          },
+          {
+            "type": "Fouls",
+            "value": 12
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 6
+          },
+          {
+            "type": "Offsides",
+            "value": 4
+          },
+          {
+            "type": "Ball Possession",
+            "value": "45%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 5
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 3
+          },
+          {
+            "type": "Total passes",
+            "value": 354
+          },
+          {
+            "type": "Passes accurate",
+            "value": 292
+          },
+          {
+            "type": "Passes %",
+            "value": "82%"
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132374"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132376"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132377"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1153030"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 4
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 3
+          },
+          {
+            "type": "Total Shots",
+            "value": 8
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 5
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 3
+          },
+          {
+            "type": "Fouls",
+            "value": 12
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 1
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "38%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 4
+          },
+          {
+            "type": "Total passes",
+            "value": 370
+          },
+          {
+            "type": "Passes accurate",
+            "value": 276
+          },
+          {
+            "type": "Passes %",
+            "value": "75%"
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 4
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 12
+          },
+          {
+            "type": "Total Shots",
+            "value": 19
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 3
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 13
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 6
+          },
+          {
+            "type": "Fouls",
+            "value": 13
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 3
+          },
+          {
+            "type": "Offsides",
+            "value": 2
+          },
+          {
+            "type": "Ball Possession",
+            "value": "62%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 3
+          },
+          {
+            "type": "Total passes",
+            "value": 595
+          },
+          {
+            "type": "Passes accurate",
+            "value": 512
+          },
+          {
+            "type": "Passes %",
+            "value": "86%"
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1151249"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 6
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 10
+          },
+          {
+            "type": "Total Shots",
+            "value": 23
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 7
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 16
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 7
+          },
+          {
+            "type": "Fouls",
+            "value": 8
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 16
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "68%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 4
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 0
+          },
+          {
+            "type": "Total passes",
+            "value": 607
+          },
+          {
+            "type": "Passes accurate",
+            "value": 510
+          },
+          {
+            "type": "Passes %",
+            "value": "84%"
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 1
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 2
+          },
+          {
+            "type": "Total Shots",
+            "value": 4
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 3
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 1
+          },
+          {
+            "type": "Fouls",
+            "value": 13
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 4
+          },
+          {
+            "type": "Offsides",
+            "value": 0
+          },
+          {
+            "type": "Ball Possession",
+            "value": "32%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 5
+          },
+          {
+            "type": "Total passes",
+            "value": 280
+          },
+          {
+            "type": "Passes accurate",
+            "value": 210
+          },
+          {
+            "type": "Passes %",
+            "value": "75%"
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1167803"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 3
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 5
+          },
+          {
+            "type": "Total Shots",
+            "value": 11
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 3
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 3
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 8
+          },
+          {
+            "type": "Fouls",
+            "value": 14
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 5
+          },
+          {
+            "type": "Offsides",
+            "value": 2
+          },
+          {
+            "type": "Ball Possession",
+            "value": "69%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 1
+          },
+          {
+            "type": "Total passes",
+            "value": 592
+          },
+          {
+            "type": "Passes accurate",
+            "value": 515
+          },
+          {
+            "type": "Passes %",
+            "value": "87%"
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 2
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 4
+          },
+          {
+            "type": "Total Shots",
+            "value": 7
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 2
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 5
+          },
+          {
+            "type": "Fouls",
+            "value": 20
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 3
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "31%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 6
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": 254
+          },
+          {
+            "type": "Passes accurate",
+            "value": 197
+          },
+          {
+            "type": "Passes %",
+            "value": "78%"
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          }
+        ]
+      }
+    ]
+  }
+]

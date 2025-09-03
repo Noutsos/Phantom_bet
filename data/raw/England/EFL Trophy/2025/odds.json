@@ -1,0 +1,30 @@
+[
+  {
+    "get": "odds",
+    "parameters": {
+      "bookmaker": "8",
+      "fixture": "1444536"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "odds",
+    "parameters": {
+      "bookmaker": "8",
+      "fixture": "1444537"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  }
+]

@@ -1,0 +1,37 @@
+2025-09-01 17:13:07,206 - src.train_pipeline - INFO - Starting training with model: xgboost, feature selection: rfe with 75 features
+2025-09-01 17:13:07,206 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-01 17:13:07,245 - src.train_pipeline - INFO - Filtered to 37455 completed matches
+2025-09-01 17:13:07,312 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-01 17:13:07,312 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-01 17:13:07,323 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-01 17:13:07,324 - src.train_pipeline - INFO - Preparing features...
+2025-09-01 17:13:07,380 - src.train_pipeline - INFO - Removed 33 potential leakage columns
+2025-09-01 17:13:07,650 - src.train_pipeline - INFO - Feature preparation complete. Final features: 132
+2025-09-01 17:13:07,650 - src.train_pipeline - INFO - Data preparation complete. Features: 132, Samples: 37455
+2025-09-01 17:13:07,658 - src.train_pipeline - INFO - Time Series Split - Training: 22473, Holdout: 14982
+2025-09-01 17:13:07,658 - src.train_pipeline - INFO - Using custom class weights: {0: 1.0, 1: 1.5, 2: 1.0}
+2025-09-01 17:13:07,668 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-01 17:13:07,755 - src.train_pipeline - INFO - Numerical features: 132, Categorical features: 0
+2025-09-01 17:13:07,756 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-01 17:13:07,756 - src.train_pipeline - INFO - Using feature selection method: rfe with top 75 features
+2025-09-01 17:13:07,756 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-01 17:13:07,757 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-01 17:13:07,757 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-01 17:13:07,757 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-01 17:13:07,778 - src.train_pipeline - INFO - Using sample weights: (3748,)
+2025-09-01 17:13:07,828 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-01 17:13:07,895 - src.train_pipeline - INFO - Using sample weights: (7493,)
+2025-09-01 17:13:07,965 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-01 17:13:07,996 - src.train_pipeline - INFO - Using sample weights: (11238,)
+2025-09-01 17:13:08,046 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-01 17:13:08,082 - src.train_pipeline - INFO - Using sample weights: (14983,)
+2025-09-01 17:13:08,131 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-01 17:13:08,171 - src.train_pipeline - INFO - Using sample weights: (18728,)
+2025-09-01 17:13:08,217 - src.train_pipeline - INFO - Training final model on full training period...
+2025-09-01 17:13:10,767 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-01 17:13:10,821 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-01 17:13:10,822 - src.train_pipeline - WARNING - SMOTE oversampling failed: The 'sampling_strategy' parameter of SMOTE must be a float in the range (0.0, 1.0], a str among {'not majority', 'not minority', 'all', 'auto', 'minority'}, an instance of 'collections.abc.Mapping' or a callable. Got '{1: 1500}' instead.
+2025-09-01 17:14:36,399 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-01 17:14:36,445 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-01 17:14:36,446 - src.train_pipeline - WARNING - SMOTE oversampling failed: The 'sampling_strategy' parameter of SMOTE must be a float in the range (0.0, 1.0], a str among {'not majority', 'not minority', 'all', 'auto', 'minority'}, an instance of 'collections.abc.Mapping' or a callable. Got '{1: 1500}' instead.
+2025-09-01 17:15:24,671 - src.train_pipeline - INFO - Training final model on full training period...

@@ -1,0 +1,2211 @@
+{
+  "get": "standings",
+  "parameters": {
+    "league": "3",
+    "season": "2019"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/3.png",
+        "flag": null,
+        "season": 2019,
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 536,
+                "name": "Sevilla",
+                "logo": "https://media.api-sports.io/football/teams/536.png"
+              },
+              "points": 15,
+              "goalsDiff": 11,
+              "group": "UEFA Europa League: Group A",
+              "form": "LWWWW",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 5,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 14,
+                  "against": 3
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 6,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 8,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 2247,
+                "name": "Apoel Nicosia",
+                "logo": "https://media.api-sports.io/football/teams/2247.png"
+              },
+              "points": 10,
+              "goalsDiff": 2,
+              "group": "UEFA Europa League: Group A",
+              "form": "WWWDL",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 10,
+                  "against": 8
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 6,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 556,
+                "name": "Qarabag",
+                "logo": "https://media.api-sports.io/football/teams/556.png"
+              },
+              "points": 5,
+              "goalsDiff": -3,
+              "group": "UEFA Europa League: Group A",
+              "form": "DLLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 8,
+                  "against": 11
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 3,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 5,
+                  "against": 5
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 578,
+                "name": "F91 Dudelange",
+                "logo": "https://media.api-sports.io/football/teams/578.png"
+              },
+              "points": 4,
+              "goalsDiff": -10,
+              "group": "UEFA Europa League: Group A",
+              "form": "DLLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 1,
+                "lose": 4,
+                "goals": {
+                  "for": 8,
+                  "against": 18
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 3,
+                  "against": 11
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 7
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 375,
+                "name": "Malmo FF",
+                "logo": "https://media.api-sports.io/football/teams/375.png"
+              },
+              "points": 11,
+              "goalsDiff": 2,
+              "group": "UEFA Europa League: Group B",
+              "form": "LWWWW",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 8,
+                  "against": 6
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 400,
+                "name": "FC Copenhagen",
+                "logo": "https://media.api-sports.io/football/teams/400.png"
+              },
+              "points": 9,
+              "goalsDiff": 1,
+              "group": "UEFA Europa League: Group B",
+              "form": "WWWDL",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 3,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 3,
+                  "against": 2
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 572,
+                "name": "Dynamo Kyiv",
+                "logo": "https://media.api-sports.io/football/teams/572.png"
+              },
+              "points": 7,
+              "goalsDiff": 0,
+              "group": "UEFA Europa League: Group B",
+              "form": "DLLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 4,
+                "lose": 1,
+                "goals": {
+                  "for": 7,
+                  "against": 7
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 3,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 5
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 606,
+                "name": "FC Lugano",
+                "logo": "https://media.api-sports.io/football/teams/606.png"
+              },
+              "points": 3,
+              "goalsDiff": -3,
+              "group": "UEFA Europa League: Group B",
+              "form": "DLLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 3,
+                "lose": 3,
+                "goals": {
+                  "for": 2,
+                  "against": 5
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 0,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 4
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 551,
+                "name": "FC Basel 1893",
+                "logo": "https://media.api-sports.io/football/teams/551.png"
+              },
+              "points": 13,
+              "goalsDiff": 8,
+              "group": "UEFA Europa League: Group C",
+              "form": "LWWWW",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 12,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 9,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 3,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 546,
+                "name": "Getafe",
+                "logo": "https://media.api-sports.io/football/teams/546.png"
+              },
+              "points": 12,
+              "goalsDiff": 4,
+              "group": "UEFA Europa League: Group C",
+              "form": "WWWDL",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 8,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 621,
+                "name": "Krasnodar",
+                "logo": "https://media.api-sports.io/football/teams/621.png"
+              },
+              "points": 9,
+              "goalsDiff": -4,
+              "group": "UEFA Europa League: Group C",
+              "form": "DLLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 7,
+                  "against": 11
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 8
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 998,
+                "name": "Trabzonspor",
+                "logo": "https://media.api-sports.io/football/teams/998.png"
+              },
+              "points": 1,
+              "goalsDiff": -8,
+              "group": "UEFA Europa League: Group C",
+              "form": "DLLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 3,
+                  "against": 11
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 1,
+                  "against": 6
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 1026,
+                "name": "Lask Linz",
+                "logo": "https://media.api-sports.io/football/teams/1026.png"
+              },
+              "points": 13,
+              "goalsDiff": 7,
+              "group": "UEFA Europa League: Group D",
+              "form": "LWWWW",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 11,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 8,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 3,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 228,
+                "name": "Sporting CP",
+                "logo": "https://media.api-sports.io/football/teams/228.png"
+              },
+              "points": 12,
+              "goalsDiff": 4,
+              "group": "UEFA Europa League: Group D",
+              "form": "WWWDL",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 11,
+                  "against": 7
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 4,
+                  "against": 6
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 197,
+                "name": "PSV Eindhoven",
+                "logo": "https://media.api-sports.io/football/teams/197.png"
+              },
+              "points": 8,
+              "goalsDiff": -3,
+              "group": "UEFA Europa League: Group D",
+              "form": "DLLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 9,
+                  "against": 12
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 5,
+                  "against": 9
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 331,
+                "name": "Rosenborg",
+                "logo": "https://media.api-sports.io/football/teams/331.png"
+              },
+              "points": 1,
+              "goalsDiff": -8,
+              "group": "UEFA Europa League: Group D",
+              "form": "DLLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 3,
+                  "against": 11
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 2,
+                  "against": 8
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 1,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 247,
+                "name": "Celtic",
+                "logo": "https://media.api-sports.io/football/teams/247.png"
+              },
+              "points": 13,
+              "goalsDiff": 4,
+              "group": "UEFA Europa League: Group E",
+              "form": "LWWWW",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 10,
+                  "against": 6
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 3,
+                  "against": 4
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 2246,
+                "name": "CFR 1907 Cluj",
+                "logo": "https://media.api-sports.io/football/teams/2246.png"
+              },
+              "points": 12,
+              "goalsDiff": 2,
+              "group": "UEFA Europa League: Group E",
+              "form": "WWWDL",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 6,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 5,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 1,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 487,
+                "name": "Lazio",
+                "logo": "https://media.api-sports.io/football/teams/487.png"
+              },
+              "points": 6,
+              "goalsDiff": -3,
+              "group": "UEFA Europa League: Group E",
+              "form": "DLLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 0,
+                "lose": 4,
+                "goals": {
+                  "for": 6,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 2,
+                  "against": 6
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 94,
+                "name": "Rennes",
+                "logo": "https://media.api-sports.io/football/teams/94.png"
+              },
+              "points": 4,
+              "goalsDiff": -3,
+              "group": "UEFA Europa League: Group E",
+              "form": "DLLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 1,
+                "lose": 4,
+                "goals": {
+                  "for": 5,
+                  "against": 8
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 3,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 2,
+                  "against": 6
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 42,
+                "name": "Arsenal",
+                "logo": "https://media.api-sports.io/football/teams/42.png"
+              },
+              "points": 11,
+              "goalsDiff": 7,
+              "group": "UEFA Europa League: Group F",
+              "form": "LWWWW",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 14,
+                  "against": 7
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 8,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 6,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 169,
+                "name": "Eintracht Frankfurt",
+                "logo": "https://media.api-sports.io/football/teams/169.png"
+              },
+              "points": 9,
+              "goalsDiff": -2,
+              "group": "UEFA Europa League: Group F",
+              "form": "WWWDL",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 8,
+                  "against": 10
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 4,
+                  "against": 7
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 733,
+                "name": "Standard Liege",
+                "logo": "https://media.api-sports.io/football/teams/733.png"
+              },
+              "points": 8,
+              "goalsDiff": -2,
+              "group": "UEFA Europa League: Group F",
+              "form": "DLLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 8,
+                  "against": 10
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 6,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 7
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 224,
+                "name": "Guimaraes",
+                "logo": "https://media.api-sports.io/football/teams/224.png"
+              },
+              "points": 5,
+              "goalsDiff": -3,
+              "group": "UEFA Europa League: Group F",
+              "form": "DLLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 7,
+                  "against": 10
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 5,
+                  "against": 7
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 212,
+                "name": "FC Porto",
+                "logo": "https://media.api-sports.io/football/teams/212.png"
+              },
+              "points": 10,
+              "goalsDiff": -1,
+              "group": "UEFA Europa League: Group G",
+              "form": "LWWWW",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 8,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 6,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 5
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 257,
+                "name": "Rangers",
+                "logo": "https://media.api-sports.io/football/teams/257.png"
+              },
+              "points": 9,
+              "goalsDiff": 2,
+              "group": "UEFA Europa League: Group G",
+              "form": "WWWDL",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 3,
+                "lose": 1,
+                "goals": {
+                  "for": 8,
+                  "against": 6
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 5
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 565,
+                "name": "BSC Young Boys",
+                "logo": "https://media.api-sports.io/football/teams/565.png"
+              },
+              "points": 8,
+              "goalsDiff": 1,
+              "group": "UEFA Europa League: Group G",
+              "form": "DLLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 8,
+                  "against": 7
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 3,
+                  "against": 4
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 209,
+                "name": "Feyenoord",
+                "logo": "https://media.api-sports.io/football/teams/209.png"
+              },
+              "points": 5,
+              "goalsDiff": -2,
+              "group": "UEFA Europa League: Group G",
+              "form": "DLLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 7,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 5,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 2,
+                  "against": 6
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 540,
+                "name": "Espanyol",
+                "logo": "https://media.api-sports.io/football/teams/540.png"
+              },
+              "points": 11,
+              "goalsDiff": 8,
+              "group": "UEFA Europa League: Group H",
+              "form": "LWWWW",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 12,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 7,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 5,
+                  "against": 2
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 566,
+                "name": "Ludogorets",
+                "logo": "https://media.api-sports.io/football/teams/566.png"
+              },
+              "points": 8,
+              "goalsDiff": 0,
+              "group": "UEFA Europa League: Group H",
+              "form": "WWWDL",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 10,
+                  "against": 10
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 6,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 7
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 651,
+                "name": "Ferencvarosi TC",
+                "logo": "https://media.api-sports.io/football/teams/651.png"
+              },
+              "points": 7,
+              "goalsDiff": -2,
+              "group": "UEFA Europa League: Group H",
+              "form": "DLLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 4,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 7
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 3,
+                  "against": 2
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 555,
+                "name": "CSKA Moscow",
+                "logo": "https://media.api-sports.io/football/teams/555.png"
+              },
+              "points": 5,
+              "goalsDiff": -6,
+              "group": "UEFA Europa League: Group H",
+              "form": "DLLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 3,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 1,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 5
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 631,
+                "name": "Gent",
+                "logo": "https://media.api-sports.io/football/teams/631.png"
+              },
+              "points": 12,
+              "goalsDiff": 4,
+              "group": "UEFA Europa League: Group I",
+              "form": "LWWWW",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 3,
+                "lose": 0,
+                "goals": {
+                  "for": 11,
+                  "against": 7
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 2
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 161,
+                "name": "VfL Wolfsburg",
+                "logo": "https://media.api-sports.io/football/teams/161.png"
+              },
+              "points": 11,
+              "goalsDiff": 2,
+              "group": "UEFA Europa League: Group I",
+              "form": "WWWDL",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 9,
+                  "against": 7
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 1063,
+                "name": "Saint Etienne",
+                "logo": "https://media.api-sports.io/football/teams/1063.png"
+              },
+              "points": 4,
+              "goalsDiff": -2,
+              "group": "UEFA Europa League: Group I",
+              "form": "DLLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 4,
+                "lose": 2,
+                "goals": {
+                  "for": 6,
+                  "against": 8
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 3,
+                "lose": 0,
+                "goals": {
+                  "for": 2,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 4,
+                  "against": 6
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 3619,
+                "name": "Oleksandria",
+                "logo": "https://media.api-sports.io/football/teams/3619.png"
+              },
+              "points": 3,
+              "goalsDiff": -4,
+              "group": "UEFA Europa League: Group I",
+              "form": "DLLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 3,
+                "lose": 3,
+                "goals": {
+                  "for": 6,
+                  "against": 10
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 3,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 6
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 564,
+                "name": "Istanbul Basaksehir",
+                "logo": "https://media.api-sports.io/football/teams/564.png"
+              },
+              "points": 10,
+              "goalsDiff": -2,
+              "group": "UEFA Europa League: Group J",
+              "form": "LWWWW",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 7,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 5
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 497,
+                "name": "AS Roma",
+                "logo": "https://media.api-sports.io/football/teams/497.png"
+              },
+              "points": 9,
+              "goalsDiff": 6,
+              "group": "UEFA Europa League: Group J",
+              "form": "WWWDL",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 3,
+                "lose": 1,
+                "goals": {
+                  "for": 12,
+                  "against": 6
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 163,
+                "name": "Borussia Monchengladbach",
+                "logo": "https://media.api-sports.io/football/teams/163.png"
+              },
+              "points": 8,
+              "goalsDiff": -3,
+              "group": "UEFA Europa League: Group J",
+              "form": "DLLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 6,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 7
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 3,
+                  "against": 2
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 1025,
+                "name": "Wolfsberger AC",
+                "logo": "https://media.api-sports.io/football/teams/1025.png"
+              },
+              "points": 5,
+              "goalsDiff": -1,
+              "group": "UEFA Europa League: Group J",
+              "form": "DLLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 7,
+                  "against": 8
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 1,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 6,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 217,
+                "name": "SC Braga",
+                "logo": "https://media.api-sports.io/football/teams/217.png"
+              },
+              "points": 14,
+              "goalsDiff": 6,
+              "group": "UEFA Europa League: Group K",
+              "form": "LWWWW",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 15,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 8,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 39,
+                "name": "Wolves",
+                "logo": "https://media.api-sports.io/football/teams/39.png"
+              },
+              "points": 13,
+              "goalsDiff": 6,
+              "group": "UEFA Europa League: Group K",
+              "form": "WWWDL",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 11,
+                  "against": 5
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 6,
+                  "against": 4
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 656,
+                "name": "Slovan Bratislava",
+                "logo": "https://media.api-sports.io/football/teams/656.png"
+              },
+              "points": 4,
+              "goalsDiff": -3,
+              "group": "UEFA Europa League: Group K",
+              "form": "DLLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 1,
+                "lose": 4,
+                "goals": {
+                  "for": 10,
+                  "against": 13
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 7,
+                  "against": 8
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 5
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 549,
+                "name": "Besiktas",
+                "logo": "https://media.api-sports.io/football/teams/549.png"
+              },
+              "points": 3,
+              "goalsDiff": -9,
+              "group": "UEFA Europa League: Group K",
+              "form": "DLLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 0,
+                "lose": 5,
+                "goals": {
+                  "for": 6,
+                  "against": 15
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 3,
+                  "against": 11
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 33,
+                "name": "Manchester United",
+                "logo": "https://media.api-sports.io/football/teams/33.png"
+              },
+              "points": 13,
+              "goalsDiff": 8,
+              "group": "UEFA Europa League: Group L",
+              "form": "LWWWW",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 10,
+                  "against": 2
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 8,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 2
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 201,
+                "name": "AZ Alkmaar",
+                "logo": "https://media.api-sports.io/football/teams/201.png"
+              },
+              "points": 9,
+              "goalsDiff": 7,
+              "group": "UEFA Europa League: Group L",
+              "form": "WWWDL",
+              "status": "same",
+              "description": "16th Finals",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 3,
+                "lose": 1,
+                "goals": {
+                  "for": 15,
+                  "against": 8
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 8,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 7,
+                  "against": 6
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 573,
+                "name": "FK Partizan",
+                "logo": "https://media.api-sports.io/football/teams/573.png"
+              },
+              "points": 8,
+              "goalsDiff": 0,
+              "group": "UEFA Europa League: Group L",
+              "form": "DLLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 10,
+                  "against": 10
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 6,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 6
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 562,
+                "name": "FC Astana",
+                "logo": "https://media.api-sports.io/football/teams/562.png"
+              },
+              "points": 3,
+              "goalsDiff": -15,
+              "group": "UEFA Europa League: Group L",
+              "form": "DLLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 0,
+                "lose": 5,
+                "goals": {
+                  "for": 4,
+                  "against": 19
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 8
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 1,
+                  "against": 11
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

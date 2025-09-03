@@ -1,0 +1,212 @@
+[
+  {
+    "fixture": {
+      "id": 1451316,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-03T18:45:00+00:00",
+      "timestamp": 1756925100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 3561,
+        "name": "The Enclosed Ground",
+        "city": "Brighton, East Sussex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying Replays",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4713,
+        "name": "Whitehawk",
+        "logo": "https://media.api-sports.io/football/teams/4713.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7720,
+        "name": "Hayes & Yeading United",
+        "logo": "https://media.api-sports.io/football/teams/7720.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1451692,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-03T18:45:00+00:00",
+      "timestamp": 1756925100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5555,
+        "name": "Hurst Cross",
+        "city": "Ashton-under-Lyne, Greater Manchester"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying Replays",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7693,
+        "name": "Ashton United",
+        "logo": "https://media.api-sports.io/football/teams/7693.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8804,
+        "name": "Hallam",
+        "logo": "https://media.api-sports.io/football/teams/8804.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1451691,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-03T18:45:00+00:00",
+      "timestamp": 1756925100,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Complete Infrastructure Stadium",
+        "city": "Exmouth, Devonshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying Replays",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8778,
+        "name": "Exmouth",
+        "logo": "https://media.api-sports.io/football/teams/8778.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8926,
+        "name": "Shaftesbury Town",
+        "logo": "https://media.api-sports.io/football/teams/8926.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

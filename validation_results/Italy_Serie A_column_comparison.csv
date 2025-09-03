@@ -1,0 +1,19 @@
+country_league,file_type,column,present_years,missing_years,status
+Italy_Serie A,player_statistics,tackles_total,"2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025",2016,Inconsistent
+Italy_Serie A,player_statistics,offsides,"2019, 2020, 2021, 2022, 2023, 2024, 2025","2016, 2017, 2018",Inconsistent
+Italy_Serie A,player_statistics,duels_won,"2016, 2017, 2018, 2020, 2021, 2022, 2023, 2024, 2025",2019,Inconsistent
+Italy_Serie A,player_statistics,duels_total,"2016, 2017, 2018, 2020, 2021, 2022, 2023, 2024, 2025",2019,Inconsistent
+Italy_Serie A,player_statistics,penalty_commited,"2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",2025,Removed
+Italy_Serie A,player_statistics,penalty_won,"2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024",2025,Removed
+Italy_Serie A,player_statistics,tackles_blocks,"2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025",2016,Inconsistent
+Italy_Serie A,team_statistics,expected_goals,"2022, 2023, 2024, 2025","2016, 2017, 2018, 2019, 2020, 2021",Inconsistent
+Italy_Serie A,team_statistics,Counter Attacks,2018,"2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, 2025",Added
+Italy_Serie A,team_statistics,goals_prevented,"2023, 2024, 2025","2016, 2017, 2018, 2019, 2020, 2021, 2022",Inconsistent
+Italy_Serie A,team_statistics,Goal Attempts,2018,"2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, 2025",Added
+Italy_Serie A,team_statistics,Medical Treatment,2018,"2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, 2025",Added
+Italy_Serie A,team_statistics,Throwins,2018,"2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, 2025",Added
+Italy_Serie A,team_statistics,Assists,2018,"2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, 2025",Added
+Italy_Serie A,team_statistics,Cross Attacks,2018,"2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, 2025",Added
+Italy_Serie A,team_statistics,Free Kicks,2018,"2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, 2025",Added
+Italy_Serie A,team_statistics,Substitutions,2018,"2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, 2025",Added
+Italy_Serie A,team_statistics,Goals,2018,"2016, 2017, 2019, 2020, 2021, 2022, 2023, 2024, 2025",Added

@@ -1,0 +1,1274 @@
+[
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389131"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 191336,
+          "name": "Sohaib Nair",
+          "photo": "https://media.api-sports.io/football/players/191336.png",
+          "type": "Missing Fixture",
+          "reason": "ankle ligament tear"
+        },
+        "team": {
+          "id": 90,
+          "name": "Guingamp",
+          "logo": "https://media.api-sports.io/football/teams/90.png"
+        },
+        "fixture": {
+          "id": 1389131,
+          "timezone": "UTC",
+          "date": "2025-08-09T12:00:00+00:00",
+          "timestamp": 1754740800
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389126"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 21443,
+          "name": "Teji Savanier",
+          "photo": "https://media.api-sports.io/football/players/21443.png",
+          "type": "Missing Fixture",
+          "reason": "Meniscus injur"
+        },
+        "team": {
+          "id": 82,
+          "name": "Montpellier",
+          "logo": "https://media.api-sports.io/football/teams/82.png"
+        },
+        "fixture": {
+          "id": 1389126,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 23964,
+          "name": "Bradley Danger",
+          "photo": "https://media.api-sports.io/football/players/23964.png",
+          "type": "Missing Fixture",
+          "reason": "Knock"
+        },
+        "team": {
+          "id": 104,
+          "name": "RED Star FC 93",
+          "logo": "https://media.api-sports.io/football/teams/104.png"
+        },
+        "fixture": {
+          "id": 1389126,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 22885,
+          "name": "Hacene Benali",
+          "photo": "https://media.api-sports.io/football/players/22885.png",
+          "type": "Missing Fixture",
+          "reason": "Facial fracture"
+        },
+        "team": {
+          "id": 104,
+          "name": "RED Star FC 93",
+          "logo": "https://media.api-sports.io/football/teams/104.png"
+        },
+        "fixture": {
+          "id": 1389126,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 349616,
+          "name": "Nicolas Pays",
+          "photo": "https://media.api-sports.io/football/players/349616.png",
+          "type": "Missing Fixture",
+          "reason": "Metatarsal fracture"
+        },
+        "team": {
+          "id": 82,
+          "name": "Montpellier",
+          "logo": "https://media.api-sports.io/football/teams/82.png"
+        },
+        "fixture": {
+          "id": 1389126,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 161748,
+          "name": "Rayane Doucoure",
+          "photo": "https://media.api-sports.io/football/players/161748.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 104,
+          "name": "RED Star FC 93",
+          "logo": "https://media.api-sports.io/football/teams/104.png"
+        },
+        "fixture": {
+          "id": 1389126,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 459711,
+          "name": "Glenn Ngosso",
+          "photo": "https://media.api-sports.io/football/players/459711.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 82,
+          "name": "Montpellier",
+          "logo": "https://media.api-sports.io/football/teams/82.png"
+        },
+        "fixture": {
+          "id": 1389126,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389125"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 138828,
+          "name": "Yasser Larouci",
+          "photo": "https://media.api-sports.io/football/players/138828.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 110,
+          "name": "Estac Troyes",
+          "logo": "https://media.api-sports.io/football/teams/110.png"
+        },
+        "fixture": {
+          "id": 1389125,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389127"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 85063,
+          "name": "William Bianda",
+          "photo": "https://media.api-sports.io/football/players/85063.png",
+          "type": "Missing Fixture",
+          "reason": "Injury to the ankle"
+        },
+        "team": {
+          "id": 433,
+          "name": "Laval",
+          "logo": "https://media.api-sports.io/football/teams/433.png"
+        },
+        "fixture": {
+          "id": 1389127,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20628,
+          "name": "Peter Ouaneh",
+          "photo": "https://media.api-sports.io/football/players/20628.png",
+          "type": "Missing Fixture",
+          "reason": "Patellar tendon tear"
+        },
+        "team": {
+          "id": 433,
+          "name": "Laval",
+          "logo": "https://media.api-sports.io/football/teams/433.png"
+        },
+        "fixture": {
+          "id": 1389127,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 337426,
+          "name": "Augustine Boakye",
+          "photo": "https://media.api-sports.io/football/players/337426.png",
+          "type": "Missing Fixture",
+          "reason": "Injury to the ankle"
+        },
+        "team": {
+          "id": 1063,
+          "name": "Saint Etienne",
+          "logo": "https://media.api-sports.io/football/teams/1063.png"
+        },
+        "fixture": {
+          "id": 1389127,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 322560,
+          "name": "Lucas Stassin",
+          "photo": "https://media.api-sports.io/football/players/322560.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 1063,
+          "name": "Saint Etienne",
+          "logo": "https://media.api-sports.io/football/teams/1063.png"
+        },
+        "fixture": {
+          "id": 1389127,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389124"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 21446,
+          "name": "Antonin Bobichon",
+          "photo": "https://media.api-sports.io/football/players/21446.png",
+          "type": "Missing Fixture",
+          "reason": "Injury to the ankle"
+        },
+        "team": {
+          "id": 1297,
+          "name": "PAU",
+          "logo": "https://media.api-sports.io/football/teams/1297.png"
+        },
+        "fixture": {
+          "id": 1389124,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 191138,
+          "name": "Axel Drouhin",
+          "photo": "https://media.api-sports.io/football/players/191138.png",
+          "type": "Missing Fixture",
+          "reason": "Injury to the ankle"
+        },
+        "team": {
+          "id": 3012,
+          "name": "Annecy",
+          "logo": "https://media.api-sports.io/football/teams/3012.png"
+        },
+        "fixture": {
+          "id": 1389124,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389130"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 127167,
+          "name": "Zakaria Fdaouch",
+          "photo": "https://media.api-sports.io/football/players/127167.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 102,
+          "name": "Nancy",
+          "logo": "https://media.api-sports.io/football/teams/102.png"
+        },
+        "fixture": {
+          "id": 1389130,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389128"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389129"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 21579,
+          "name": "Kylian Kaiboue",
+          "photo": "https://media.api-sports.io/football/players/21579.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 87,
+          "name": "Amiens",
+          "logo": "https://media.api-sports.io/football/teams/87.png"
+        },
+        "fixture": {
+          "id": 1389129,
+          "timezone": "UTC",
+          "date": "2025-08-11T18:45:00+00:00",
+          "timestamp": 1754937900
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 1300,
+          "name": "Mohammed Daramy",
+          "photo": "https://media.api-sports.io/football/players/1300.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media.api-sports.io/football/teams/93.png"
+        },
+        "fixture": {
+          "id": 1389129,
+          "timezone": "UTC",
+          "date": "2025-08-11T18:45:00+00:00",
+          "timestamp": 1754937900
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 145476,
+          "name": "Reda Khadra",
+          "photo": "https://media.api-sports.io/football/players/145476.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media.api-sports.io/football/teams/93.png"
+        },
+        "fixture": {
+          "id": 1389129,
+          "timezone": "UTC",
+          "date": "2025-08-11T18:45:00+00:00",
+          "timestamp": 1754937900
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 191245,
+          "name": "Nordine Kandil",
+          "photo": "https://media.api-sports.io/football/players/191245.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 87,
+          "name": "Amiens",
+          "logo": "https://media.api-sports.io/football/teams/87.png"
+        },
+        "fixture": {
+          "id": 1389129,
+          "timezone": "UTC",
+          "date": "2025-08-11T18:45:00+00:00",
+          "timestamp": 1754937900
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 352990,
+          "name": "Amine Salama",
+          "photo": "https://media.api-sports.io/football/players/352990.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media.api-sports.io/football/teams/93.png"
+        },
+        "fixture": {
+          "id": 1389129,
+          "timezone": "UTC",
+          "date": "2025-08-11T18:45:00+00:00",
+          "timestamp": 1754937900
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 369059,
+          "name": "Adama Bojang",
+          "photo": "https://media.api-sports.io/football/players/369059.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media.api-sports.io/football/teams/93.png"
+        },
+        "fixture": {
+          "id": 1389129,
+          "timezone": "UTC",
+          "date": "2025-08-11T18:45:00+00:00",
+          "timestamp": 1754937900
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389137"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 138828,
+          "name": "Yasser Larouci",
+          "photo": "https://media.api-sports.io/football/players/138828.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 110,
+          "name": "Estac Troyes",
+          "logo": "https://media.api-sports.io/football/teams/110.png"
+        },
+        "fixture": {
+          "id": 1389137,
+          "timezone": "UTC",
+          "date": "2025-08-15T18:00:00+00:00",
+          "timestamp": 1755280800
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389136"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 20628,
+          "name": "Peter Ouaneh",
+          "photo": "https://media.api-sports.io/football/players/20628.png",
+          "type": "Missing Fixture",
+          "reason": "Patellar tendon tear"
+        },
+        "team": {
+          "id": 433,
+          "name": "Laval",
+          "logo": "https://media.api-sports.io/football/teams/433.png"
+        },
+        "fixture": {
+          "id": 1389136,
+          "timezone": "UTC",
+          "date": "2025-08-15T18:00:00+00:00",
+          "timestamp": 1755280800
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389133"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389134"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 23964,
+          "name": "Bradley Danger",
+          "photo": "https://media.api-sports.io/football/players/23964.png",
+          "type": "Missing Fixture",
+          "reason": "Knock"
+        },
+        "team": {
+          "id": 104,
+          "name": "RED Star FC 93",
+          "logo": "https://media.api-sports.io/football/teams/104.png"
+        },
+        "fixture": {
+          "id": 1389134,
+          "timezone": "UTC",
+          "date": "2025-08-15T18:00:00+00:00",
+          "timestamp": 1755280800
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 191245,
+          "name": "Nordine Kandil",
+          "photo": "https://media.api-sports.io/football/players/191245.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 87,
+          "name": "Amiens",
+          "logo": "https://media.api-sports.io/football/teams/87.png"
+        },
+        "fixture": {
+          "id": 1389134,
+          "timezone": "UTC",
+          "date": "2025-08-15T18:00:00+00:00",
+          "timestamp": 1755280800
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 161748,
+          "name": "Rayane Doucoure",
+          "photo": "https://media.api-sports.io/football/players/161748.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 104,
+          "name": "RED Star FC 93",
+          "logo": "https://media.api-sports.io/football/teams/104.png"
+        },
+        "fixture": {
+          "id": 1389134,
+          "timezone": "UTC",
+          "date": "2025-08-15T18:00:00+00:00",
+          "timestamp": 1755280800
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389132"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 23013,
+          "name": "Gustave Akueson",
+          "photo": "https://media.api-sports.io/football/players/23013.png",
+          "type": "Missing Fixture",
+          "reason": "achilles tendon contusion"
+        },
+        "team": {
+          "id": 1305,
+          "name": "Bastia",
+          "logo": "https://media.api-sports.io/football/teams/1305.png"
+        },
+        "fixture": {
+          "id": 1389132,
+          "timezone": "UTC",
+          "date": "2025-08-15T18:00:00+00:00",
+          "timestamp": 1755280800
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 265961,
+          "name": "Juan Guevara",
+          "photo": "https://media.api-sports.io/football/players/265961.png",
+          "type": "Missing Fixture",
+          "reason": "Patellar tendinopathy syndrome"
+        },
+        "team": {
+          "id": 1305,
+          "name": "Bastia",
+          "logo": "https://media.api-sports.io/football/teams/1305.png"
+        },
+        "fixture": {
+          "id": 1389132,
+          "timezone": "UTC",
+          "date": "2025-08-15T18:00:00+00:00",
+          "timestamp": 1755280800
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389138"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 71545,
+          "name": "Joseph Okumu",
+          "photo": "https://media.api-sports.io/football/players/71545.png",
+          "type": "Missing Fixture",
+          "reason": "Torn knee ligament"
+        },
+        "team": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media.api-sports.io/football/teams/93.png"
+        },
+        "fixture": {
+          "id": 1389138,
+          "timezone": "UTC",
+          "date": "2025-08-16T12:00:00+00:00",
+          "timestamp": 1755345600
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 1300,
+          "name": "Mohammed Daramy",
+          "photo": "https://media.api-sports.io/football/players/1300.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media.api-sports.io/football/teams/93.png"
+        },
+        "fixture": {
+          "id": 1389138,
+          "timezone": "UTC",
+          "date": "2025-08-16T12:00:00+00:00",
+          "timestamp": 1755345600
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 145476,
+          "name": "Reda Khadra",
+          "photo": "https://media.api-sports.io/football/players/145476.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media.api-sports.io/football/teams/93.png"
+        },
+        "fixture": {
+          "id": 1389138,
+          "timezone": "UTC",
+          "date": "2025-08-16T12:00:00+00:00",
+          "timestamp": 1755345600
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 352990,
+          "name": "Amine Salama",
+          "photo": "https://media.api-sports.io/football/players/352990.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media.api-sports.io/football/teams/93.png"
+        },
+        "fixture": {
+          "id": 1389138,
+          "timezone": "UTC",
+          "date": "2025-08-16T12:00:00+00:00",
+          "timestamp": 1755345600
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 191336,
+          "name": "Sohaib Nair",
+          "photo": "https://media.api-sports.io/football/players/191336.png",
+          "type": "Missing Fixture",
+          "reason": "ankle ligament tear"
+        },
+        "team": {
+          "id": 90,
+          "name": "Guingamp",
+          "logo": "https://media.api-sports.io/football/teams/90.png"
+        },
+        "fixture": {
+          "id": 1389138,
+          "timezone": "UTC",
+          "date": "2025-08-16T12:00:00+00:00",
+          "timestamp": 1755345600
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396826"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 191138,
+          "name": "Axel Drouhin",
+          "photo": "https://media.api-sports.io/football/players/191138.png",
+          "type": "Missing Fixture",
+          "reason": "Injury to the ankle"
+        },
+        "team": {
+          "id": 3012,
+          "name": "Annecy",
+          "logo": "https://media.api-sports.io/football/teams/3012.png"
+        },
+        "fixture": {
+          "id": 1396826,
+          "timezone": "UTC",
+          "date": "2025-08-16T12:00:00+00:00",
+          "timestamp": 1755345600
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396827"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 322560,
+          "name": "Lucas Stassin",
+          "photo": "https://media.api-sports.io/football/players/322560.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 1063,
+          "name": "Saint Etienne",
+          "logo": "https://media.api-sports.io/football/teams/1063.png"
+        },
+        "fixture": {
+          "id": 1396827,
+          "timezone": "UTC",
+          "date": "2025-08-16T18:00:00+00:00",
+          "timestamp": 1755367200
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1389135"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 20849,
+          "name": "Mathieu Michel",
+          "photo": "https://media.api-sports.io/football/players/20849.png",
+          "type": "Missing Fixture",
+          "reason": "Fractured Rib"
+        },
+        "team": {
+          "id": 82,
+          "name": "Montpellier",
+          "logo": "https://media.api-sports.io/football/teams/82.png"
+        },
+        "fixture": {
+          "id": 1389135,
+          "timezone": "UTC",
+          "date": "2025-08-18T18:45:00+00:00",
+          "timestamp": 1755542700
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 459711,
+          "name": "Glenn Ngosso",
+          "photo": "https://media.api-sports.io/football/players/459711.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 82,
+          "name": "Montpellier",
+          "logo": "https://media.api-sports.io/football/teams/82.png"
+        },
+        "fixture": {
+          "id": 1389135,
+          "timezone": "UTC",
+          "date": "2025-08-18T18:45:00+00:00",
+          "timestamp": 1755542700
+        },
+        "league": {
+          "id": 62,
+          "season": 2025,
+          "name": "Ligue 2",
+          "country": "France",
+          "logo": "https://media.api-sports.io/football/leagues/62.png",
+          "flag": "https://media.api-sports.io/flags/fr.svg"
+        }
+      }
+    ]
+  }
+]

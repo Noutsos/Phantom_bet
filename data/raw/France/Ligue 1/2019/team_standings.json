@@ -1,0 +1,929 @@
+{
+  "get": "standings",
+  "parameters": {
+    "league": "61",
+    "season": "2019"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "flag": "https://media.api-sports.io/flags/fr.svg",
+        "season": 2019,
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 85,
+                "name": "Paris Saint Germain",
+                "logo": "https://media.api-sports.io/football/teams/85.png"
+              },
+              "points": 68,
+              "goalsDiff": 51,
+              "group": "Ligue 1",
+              "form": "WWDWW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 27,
+                "win": 22,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 75,
+                  "against": 24
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 12,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 44,
+                  "against": 11
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 10,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 31,
+                  "against": 13
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 81,
+                "name": "Marseille",
+                "logo": "https://media.api-sports.io/football/teams/81.png"
+              },
+              "points": 56,
+              "goalsDiff": 12,
+              "group": "Ligue 1",
+              "form": "DWLWW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 16,
+                "draw": 8,
+                "lose": 4,
+                "goals": {
+                  "for": 41,
+                  "against": 29
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 8,
+                "draw": 4,
+                "lose": 2,
+                "goals": {
+                  "for": 21,
+                  "against": 14
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 8,
+                "draw": 4,
+                "lose": 2,
+                "goals": {
+                  "for": 20,
+                  "against": 15
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 94,
+                "name": "Rennes",
+                "logo": "https://media.api-sports.io/football/teams/94.png"
+              },
+              "points": 50,
+              "goalsDiff": 14,
+              "group": "Ligue 1",
+              "form": "WWWLD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 15,
+                "draw": 5,
+                "lose": 8,
+                "goals": {
+                  "for": 38,
+                  "against": 24
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 9,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 25,
+                  "against": 14
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 6,
+                "draw": 3,
+                "lose": 5,
+                "goals": {
+                  "for": 13,
+                  "against": 10
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 79,
+                "name": "Lille",
+                "logo": "https://media.api-sports.io/football/teams/79.png"
+              },
+              "points": 49,
+              "goalsDiff": 8,
+              "group": "Ligue 1",
+              "form": "WWWLW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 15,
+                "draw": 4,
+                "lose": 9,
+                "goals": {
+                  "for": 35,
+                  "against": 27
+                }
+              },
+              "home": {
+                "played": 15,
+                "win": 11,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 24,
+                  "against": 9
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 4,
+                "draw": 2,
+                "lose": 7,
+                "goals": {
+                  "for": 11,
+                  "against": 18
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 5,
+              "team": {
+                "id": 93,
+                "name": "Reims",
+                "logo": "https://media.api-sports.io/football/teams/93.png"
+              },
+              "points": 41,
+              "goalsDiff": 5,
+              "group": "Ligue 1",
+              "form": "WDDWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 10,
+                "draw": 11,
+                "lose": 7,
+                "goals": {
+                  "for": 26,
+                  "against": 21
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 5,
+                "draw": 7,
+                "lose": 2,
+                "goals": {
+                  "for": 12,
+                  "against": 7
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 5,
+                "draw": 4,
+                "lose": 5,
+                "goals": {
+                  "for": 14,
+                  "against": 14
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 6,
+              "team": {
+                "id": 84,
+                "name": "Nice",
+                "logo": "https://media.api-sports.io/football/teams/84.png"
+              },
+              "points": 41,
+              "goalsDiff": 3,
+              "group": "Ligue 1",
+              "form": "WDDWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 11,
+                "draw": 8,
+                "lose": 9,
+                "goals": {
+                  "for": 41,
+                  "against": 38
+                }
+              },
+              "home": {
+                "played": 15,
+                "win": 8,
+                "draw": 4,
+                "lose": 3,
+                "goals": {
+                  "for": 28,
+                  "against": 20
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 3,
+                "draw": 4,
+                "lose": 6,
+                "goals": {
+                  "for": 13,
+                  "against": 18
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 7,
+              "team": {
+                "id": 80,
+                "name": "Lyon",
+                "logo": "https://media.api-sports.io/football/teams/80.png"
+              },
+              "points": 40,
+              "goalsDiff": 15,
+              "group": "Ligue 1",
+              "form": "LWWDL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 11,
+                "draw": 7,
+                "lose": 10,
+                "goals": {
+                  "for": 42,
+                  "against": 27
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 5,
+                "draw": 4,
+                "lose": 4,
+                "goals": {
+                  "for": 17,
+                  "against": 7
+                }
+              },
+              "away": {
+                "played": 15,
+                "win": 6,
+                "draw": 3,
+                "lose": 6,
+                "goals": {
+                  "for": 25,
+                  "against": 20
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 8,
+              "team": {
+                "id": 82,
+                "name": "Montpellier",
+                "logo": "https://media.api-sports.io/football/teams/82.png"
+              },
+              "points": 40,
+              "goalsDiff": 1,
+              "group": "Ligue 1",
+              "form": "LWLLW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 11,
+                "draw": 7,
+                "lose": 10,
+                "goals": {
+                  "for": 35,
+                  "against": 34
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 10,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 26,
+                  "against": 10
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 1,
+                "draw": 5,
+                "lose": 8,
+                "goals": {
+                  "for": 9,
+                  "against": 24
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
+              "team": {
+                "id": 91,
+                "name": "Monaco",
+                "logo": "https://media.api-sports.io/football/teams/91.png"
+              },
+              "points": 40,
+              "goalsDiff": 0,
+              "group": "Ligue 1",
+              "form": "LDDWW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 11,
+                "draw": 7,
+                "lose": 10,
+                "goals": {
+                  "for": 44,
+                  "against": 44
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 8,
+                "draw": 2,
+                "lose": 4,
+                "goals": {
+                  "for": 29,
+                  "against": 22
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 3,
+                "draw": 5,
+                "lose": 6,
+                "goals": {
+                  "for": 15,
+                  "against": 22
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 10,
+              "team": {
+                "id": 77,
+                "name": "Angers",
+                "logo": "https://media.api-sports.io/football/teams/77.png"
+              },
+              "points": 39,
+              "goalsDiff": -5,
+              "group": "Ligue 1",
+              "form": "WWWLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 11,
+                "draw": 6,
+                "lose": 11,
+                "goals": {
+                  "for": 28,
+                  "against": 33
+                }
+              },
+              "home": {
+                "played": 15,
+                "win": 8,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 20,
+                  "against": 13
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 3,
+                "draw": 3,
+                "lose": 7,
+                "goals": {
+                  "for": 8,
+                  "against": 20
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 11,
+              "team": {
+                "id": 95,
+                "name": "Strasbourg",
+                "logo": "https://media.api-sports.io/football/teams/95.png"
+              },
+              "points": 38,
+              "goalsDiff": 0,
+              "group": "Ligue 1",
+              "form": "LDDWW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 27,
+                "win": 11,
+                "draw": 5,
+                "lose": 11,
+                "goals": {
+                  "for": 32,
+                  "against": 32
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 7,
+                "draw": 3,
+                "lose": 3,
+                "goals": {
+                  "for": 22,
+                  "against": 14
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 4,
+                "draw": 2,
+                "lose": 8,
+                "goals": {
+                  "for": 10,
+                  "against": 18
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 78,
+                "name": "Bordeaux",
+                "logo": "https://media.api-sports.io/football/teams/78.png"
+              },
+              "points": 37,
+              "goalsDiff": 6,
+              "group": "Ligue 1",
+              "form": "DDLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 9,
+                "draw": 10,
+                "lose": 9,
+                "goals": {
+                  "for": 40,
+                  "against": 34
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 4,
+                "draw": 5,
+                "lose": 4,
+                "goals": {
+                  "for": 19,
+                  "against": 12
+                }
+              },
+              "away": {
+                "played": 15,
+                "win": 5,
+                "draw": 5,
+                "lose": 5,
+                "goals": {
+                  "for": 21,
+                  "against": 22
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 13,
+              "team": {
+                "id": 83,
+                "name": "Nantes",
+                "logo": "https://media.api-sports.io/football/teams/83.png"
+              },
+              "points": 37,
+              "goalsDiff": -3,
+              "group": "Ligue 1",
+              "form": "LLWDD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 11,
+                "draw": 4,
+                "lose": 13,
+                "goals": {
+                  "for": 28,
+                  "against": 31
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 6,
+                "draw": 2,
+                "lose": 6,
+                "goals": {
+                  "for": 11,
+                  "against": 11
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 5,
+                "draw": 2,
+                "lose": 7,
+                "goals": {
+                  "for": 17,
+                  "against": 20
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 14,
+              "team": {
+                "id": 106,
+                "name": "Stade Brestois 29",
+                "logo": "https://media.api-sports.io/football/teams/106.png"
+              },
+              "points": 34,
+              "goalsDiff": -3,
+              "group": "Ligue 1",
+              "form": "LLDWD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 8,
+                "draw": 10,
+                "lose": 10,
+                "goals": {
+                  "for": 34,
+                  "against": 37
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 6,
+                "draw": 6,
+                "lose": 2,
+                "goals": {
+                  "for": 21,
+                  "against": 11
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 2,
+                "draw": 4,
+                "lose": 8,
+                "goals": {
+                  "for": 13,
+                  "against": 26
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 15,
+              "team": {
+                "id": 112,
+                "name": "Metz",
+                "logo": "https://media.api-sports.io/football/teams/112.png"
+              },
+              "points": 34,
+              "goalsDiff": -8,
+              "group": "Ligue 1",
+              "form": "WWLDL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 8,
+                "draw": 10,
+                "lose": 10,
+                "goals": {
+                  "for": 27,
+                  "against": 35
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 5,
+                "draw": 4,
+                "lose": 5,
+                "goals": {
+                  "for": 18,
+                  "against": 17
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 3,
+                "draw": 6,
+                "lose": 5,
+                "goals": {
+                  "for": 9,
+                  "against": 18
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 16,
+              "team": {
+                "id": 89,
+                "name": "Dijon",
+                "logo": "https://media.api-sports.io/football/teams/89.png"
+              },
+              "points": 30,
+              "goalsDiff": -10,
+              "group": "Ligue 1",
+              "form": "WLDDD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 7,
+                "draw": 9,
+                "lose": 12,
+                "goals": {
+                  "for": 27,
+                  "against": 37
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 6,
+                "draw": 6,
+                "lose": 2,
+                "goals": {
+                  "for": 20,
+                  "against": 15
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 1,
+                "draw": 3,
+                "lose": 10,
+                "goals": {
+                  "for": 7,
+                  "against": 22
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 17,
+              "team": {
+                "id": 1063,
+                "name": "Saint Etienne",
+                "logo": "https://media.api-sports.io/football/teams/1063.png"
+              },
+              "points": 30,
+              "goalsDiff": -16,
+              "group": "Ligue 1",
+              "form": "DLDLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 8,
+                "draw": 6,
+                "lose": 14,
+                "goals": {
+                  "for": 29,
+                  "against": 45
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 4,
+                "draw": 6,
+                "lose": 4,
+                "goals": {
+                  "for": 15,
+                  "against": 18
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 4,
+                "draw": 0,
+                "lose": 10,
+                "goals": {
+                  "for": 14,
+                  "against": 27
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 18,
+              "team": {
+                "id": 92,
+                "name": "Nimes",
+                "logo": "https://media.api-sports.io/football/teams/92.png"
+              },
+              "points": 27,
+              "goalsDiff": -15,
+              "group": "Ligue 1",
+              "form": "LLLWW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 7,
+                "draw": 6,
+                "lose": 15,
+                "goals": {
+                  "for": 29,
+                  "against": 44
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 6,
+                "draw": 2,
+                "lose": 6,
+                "goals": {
+                  "for": 17,
+                  "against": 15
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 1,
+                "draw": 4,
+                "lose": 9,
+                "goals": {
+                  "for": 12,
+                  "against": 29
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 19,
+              "team": {
+                "id": 87,
+                "name": "Amiens",
+                "logo": "https://media.api-sports.io/football/teams/87.png"
+              },
+              "points": 23,
+              "goalsDiff": -19,
+              "group": "Ligue 1",
+              "form": "DLDDL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 4,
+                "draw": 11,
+                "lose": 13,
+                "goals": {
+                  "for": 31,
+                  "against": 50
+                }
+              },
+              "home": {
+                "played": 14,
+                "win": 3,
+                "draw": 5,
+                "lose": 6,
+                "goals": {
+                  "for": 17,
+                  "against": 23
+                }
+              },
+              "away": {
+                "played": 14,
+                "win": 1,
+                "draw": 6,
+                "lose": 7,
+                "goals": {
+                  "for": 14,
+                  "against": 27
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            },
+            {
+              "rank": 20,
+              "team": {
+                "id": 96,
+                "name": "Toulouse",
+                "logo": "https://media.api-sports.io/football/teams/96.png"
+              },
+              "points": 13,
+              "goalsDiff": -36,
+              "group": "Ligue 1",
+              "form": "LLLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 3,
+                "draw": 4,
+                "lose": 21,
+                "goals": {
+                  "for": 22,
+                  "against": 58
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 3,
+                "draw": 0,
+                "lose": 10,
+                "goals": {
+                  "for": 11,
+                  "against": 24
+                }
+              },
+              "away": {
+                "played": 15,
+                "win": 0,
+                "draw": 4,
+                "lose": 11,
+                "goals": {
+                  "for": 11,
+                  "against": 34
+                }
+              },
+              "update": "2020-05-18T00:00:00+00:00"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1892 @@
+[
+  {
+    "fixture": {
+      "id": 241986,
+      "referee": "Carlos Xistra",
+      "timezone": "UTC",
+      "date": "2019-09-25T16:00:00+00:00",
+      "timestamp": 1569427200,
+      "periods": {
+        "first": 1569427200,
+        "second": 1569430800
+      },
+      "venue": {
+        "id": 2811,
+        "name": "Est\u00e1dio Cidade de Barcelos",
+        "city": "Barcelos"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 762,
+        "name": "GIL Vicente",
+        "logo": "https://media.api-sports.io/football/teams/762.png",
+        "winner": false
+      },
+      "away": {
+        "id": 216,
+        "name": "Portimonense",
+        "logo": "https://media.api-sports.io/football/teams/216.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241985,
+      "referee": "Rui Costa",
+      "timezone": "UTC",
+      "date": "2019-09-25T18:00:00+00:00",
+      "timestamp": 1569434400,
+      "periods": {
+        "first": 1569434400,
+        "second": 1569438000
+      },
+      "venue": {
+        "id": null,
+        "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+        "city": "Lisboa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png",
+        "winner": null
+      },
+      "away": {
+        "id": 224,
+        "name": "Guimaraes",
+        "logo": "https://media.api-sports.io/football/teams/224.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241989,
+      "referee": "Ant\u00f3nio Nobre",
+      "timezone": "UTC",
+      "date": "2019-09-25T20:00:00+00:00",
+      "timestamp": 1569441600,
+      "periods": {
+        "first": 1569441600,
+        "second": 1569445200
+      },
+      "venue": {
+        "id": 1286,
+        "name": "Est\u00e1dio Do Drag\u00e3o",
+        "city": "Porto"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 212,
+        "name": "FC Porto",
+        "logo": "https://media.api-sports.io/football/teams/212.png",
+        "winner": true
+      },
+      "away": {
+        "id": 227,
+        "name": "Santa Clara",
+        "logo": "https://media.api-sports.io/football/teams/227.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241987,
+      "referee": "Manuel Mota",
+      "timezone": "UTC",
+      "date": "2019-09-26T19:00:00+00:00",
+      "timestamp": 1569524400,
+      "periods": {
+        "first": 1569524400,
+        "second": 1569528000
+      },
+      "venue": {
+        "id": 1293,
+        "name": "Est\u00e1dio Jos\u00e9 Alvalade",
+        "city": "Lisboa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 228,
+        "name": "Sporting CP",
+        "logo": "https://media.api-sports.io/football/teams/228.png",
+        "winner": false
+      },
+      "away": {
+        "id": 226,
+        "name": "Rio Ave",
+        "logo": "https://media.api-sports.io/football/teams/226.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241996,
+      "referee": "Andr\u00e9 Narciso",
+      "timezone": "UTC",
+      "date": "2019-10-04T19:30:00+00:00",
+      "timestamp": 1570217400,
+      "periods": {
+        "first": 1570217400,
+        "second": 1570221000
+      },
+      "venue": {
+        "id": 1273,
+        "name": "Est\u00e1dio Municipal Eng. Manuel Branco Teixeira",
+        "city": "Chaves"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 223,
+        "name": "Chaves",
+        "logo": "https://media.api-sports.io/football/teams/223.png",
+        "winner": true
+      },
+      "away": {
+        "id": 227,
+        "name": "Santa Clara",
+        "logo": "https://media.api-sports.io/football/teams/227.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 244947,
+      "referee": "Gustavo Correia",
+      "timezone": "UTC",
+      "date": "2019-10-05T15:00:00+00:00",
+      "timestamp": 1570287600,
+      "periods": {
+        "first": 1570287600,
+        "second": 1570291200
+      },
+      "venue": {
+        "id": 1292,
+        "name": "Est\u00e1dio Municipal Jos\u00e9 Santos Pinto",
+        "city": "Covilh\u00e3"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 236,
+        "name": "SC Covilha",
+        "logo": "https://media.api-sports.io/football/teams/236.png",
+        "winner": null
+      },
+      "away": {
+        "id": 219,
+        "name": "Vitoria Setubal",
+        "logo": "https://media.api-sports.io/football/teams/219.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241991,
+      "referee": "Manuel Mota",
+      "timezone": "UTC",
+      "date": "2019-10-05T17:00:00+00:00",
+      "timestamp": 1570294800,
+      "periods": {
+        "first": 1570294800,
+        "second": 1570298400
+      },
+      "venue": {
+        "id": 1283,
+        "name": "Est\u00e1dio da Capital do M\u00f3vel",
+        "city": "Pa\u00e7os de Ferreira"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 234,
+        "name": "Pacos Ferreira",
+        "logo": "https://media.api-sports.io/football/teams/234.png",
+        "winner": null
+      },
+      "away": {
+        "id": 214,
+        "name": "Maritimo",
+        "logo": "https://media.api-sports.io/football/teams/214.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241994,
+      "referee": "F\u00e1bio Ver\u00edssimo",
+      "timezone": "UTC",
+      "date": "2019-10-05T19:30:00+00:00",
+      "timestamp": 1570303800,
+      "periods": {
+        "first": 1570303800,
+        "second": 1570307400
+      },
+      "venue": {
+        "id": 1285,
+        "name": "Est\u00e1dio Municipal de Portim\u00e3o",
+        "city": "Portim\u00e3o"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 216,
+        "name": "Portimonense",
+        "logo": "https://media.api-sports.io/football/teams/216.png",
+        "winner": null
+      },
+      "away": {
+        "id": 226,
+        "name": "Rio Ave",
+        "logo": "https://media.api-sports.io/football/teams/226.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241990,
+      "referee": "Cl\u00e1udio Pereira",
+      "timezone": "UTC",
+      "date": "2019-10-07T19:15:00+00:00",
+      "timestamp": 1570475700,
+      "periods": {
+        "first": 1570475700,
+        "second": 1570479300
+      },
+      "venue": {
+        "id": 1284,
+        "name": "Est\u00e1dio Municipal 25 de Abril",
+        "city": "Penafiel"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 235,
+        "name": "Penafiel",
+        "logo": "https://media.api-sports.io/football/teams/235.png",
+        "winner": false
+      },
+      "away": {
+        "id": 217,
+        "name": "SC Braga",
+        "logo": "https://media.api-sports.io/football/teams/217.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241984,
+      "referee": "Nuno Miguel Serrano Almeida",
+      "timezone": "UTC",
+      "date": "2019-10-13T14:00:00+00:00",
+      "timestamp": 1570975200,
+      "periods": {
+        "first": 1570975200,
+        "second": 1570978800
+      },
+      "venue": {
+        "id": 1291,
+        "name": "Est\u00e1dio Municipal de Braga",
+        "city": "Braga"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 217,
+        "name": "SC Braga",
+        "logo": "https://media.api-sports.io/football/teams/217.png",
+        "winner": true
+      },
+      "away": {
+        "id": 214,
+        "name": "Maritimo",
+        "logo": "https://media.api-sports.io/football/teams/214.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241983,
+      "referee": "Iancu Vasilica",
+      "timezone": "UTC",
+      "date": "2019-10-13T15:00:00+00:00",
+      "timestamp": 1570978800,
+      "periods": {
+        "first": 1570978800,
+        "second": 1570982400
+      },
+      "venue": {
+        "id": 1284,
+        "name": "Est\u00e1dio Municipal 25 de Abril",
+        "city": "Penafiel"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 235,
+        "name": "Penafiel",
+        "logo": "https://media.api-sports.io/football/teams/235.png",
+        "winner": false
+      },
+      "away": {
+        "id": 234,
+        "name": "Pacos Ferreira",
+        "logo": "https://media.api-sports.io/football/teams/234.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241988,
+      "referee": "Cl\u00e1udio Pereira",
+      "timezone": "UTC",
+      "date": "2019-11-16T15:00:00+00:00",
+      "timestamp": 1573916400,
+      "periods": {
+        "first": 1573916400,
+        "second": 1573920000
+      },
+      "venue": {
+        "id": 1270,
+        "name": "Est\u00e1dio Municipal de Mafra",
+        "city": "Mafra"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 1",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4716,
+        "name": "Casa Pia",
+        "logo": "https://media.api-sports.io/football/teams/4716.png",
+        "winner": false
+      },
+      "away": {
+        "id": 223,
+        "name": "Chaves",
+        "logo": "https://media.api-sports.io/football/teams/223.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241993,
+      "referee": "Rui Oliveira",
+      "timezone": "UTC",
+      "date": "2019-12-03T20:15:00+00:00",
+      "timestamp": 1575404100,
+      "periods": {
+        "first": 1575404100,
+        "second": 1575407700
+      },
+      "venue": {
+        "id": 1292,
+        "name": "Est\u00e1dio Municipal Jos\u00e9 Santos Pinto",
+        "city": "Covilh\u00e3"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 236,
+        "name": "SC Covilha",
+        "logo": "https://media.api-sports.io/football/teams/236.png",
+        "winner": null
+      },
+      "away": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241992,
+      "referee": "F\u00e1bio Ver\u00edssimo",
+      "timezone": "UTC",
+      "date": "2019-12-04T18:45:00+00:00",
+      "timestamp": 1575485100,
+      "periods": {
+        "first": 1575485100,
+        "second": 1575488700
+      },
+      "venue": {
+        "id": 1296,
+        "name": "Est\u00e1dio do Bonfim",
+        "city": "Set\u00fabal"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 219,
+        "name": "Vitoria Setubal",
+        "logo": "https://media.api-sports.io/football/teams/219.png",
+        "winner": false
+      },
+      "away": {
+        "id": 224,
+        "name": "Guimaraes",
+        "logo": "https://media.api-sports.io/football/teams/224.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241995,
+      "referee": "Rui Costa",
+      "timezone": "UTC",
+      "date": "2019-12-04T20:45:00+00:00",
+      "timestamp": 1575492300,
+      "periods": {
+        "first": 1575492300,
+        "second": 1575495900
+      },
+      "venue": {
+        "id": 2811,
+        "name": "Est\u00e1dio Cidade de Barcelos",
+        "city": "Barcelos"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 762,
+        "name": "GIL Vicente",
+        "logo": "https://media.api-sports.io/football/teams/762.png",
+        "winner": false
+      },
+      "away": {
+        "id": 228,
+        "name": "Sporting CP",
+        "logo": "https://media.api-sports.io/football/teams/228.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241997,
+      "referee": "Vitor Ferreira",
+      "timezone": "UTC",
+      "date": "2019-12-05T20:15:00+00:00",
+      "timestamp": 1575576900,
+      "periods": {
+        "first": 1575576900,
+        "second": 1575580500
+      },
+      "venue": {
+        "id": 3564,
+        "name": "Est\u00e1dio Pina Manique",
+        "city": "Lisboa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 2",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4716,
+        "name": "Casa Pia",
+        "logo": "https://media.api-sports.io/football/teams/4716.png",
+        "winner": false
+      },
+      "away": {
+        "id": 212,
+        "name": "FC Porto",
+        "logo": "https://media.api-sports.io/football/teams/212.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241999,
+      "referee": "Iancu Vasilica",
+      "timezone": "UTC",
+      "date": "2019-12-21T15:00:00+00:00",
+      "timestamp": 1576940400,
+      "periods": {
+        "first": 1576940400,
+        "second": 1576944000
+      },
+      "venue": {
+        "id": 1279,
+        "name": "Est\u00e1dio dos Barreiros",
+        "city": "Ilha da Madeira"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 214,
+        "name": "Maritimo",
+        "logo": "https://media.api-sports.io/football/teams/214.png",
+        "winner": null
+      },
+      "away": {
+        "id": 235,
+        "name": "Penafiel",
+        "logo": "https://media.api-sports.io/football/teams/235.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 242003,
+      "referee": "Jo\u00e3o Pedro Pinheiro",
+      "timezone": "UTC",
+      "date": "2019-12-21T17:00:00+00:00",
+      "timestamp": 1576947600,
+      "periods": {
+        "first": 1576947600,
+        "second": 1576951200
+      },
+      "venue": {
+        "id": 1285,
+        "name": "Est\u00e1dio Municipal de Portim\u00e3o",
+        "city": "Portim\u00e3o"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 216,
+        "name": "Portimonense",
+        "logo": "https://media.api-sports.io/football/teams/216.png",
+        "winner": false
+      },
+      "away": {
+        "id": 228,
+        "name": "Sporting CP",
+        "logo": "https://media.api-sports.io/football/teams/228.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 242002,
+      "referee": "Andr\u00e9 Narciso",
+      "timezone": "UTC",
+      "date": "2019-12-21T17:00:00+00:00",
+      "timestamp": 1576947600,
+      "periods": {
+        "first": 1576947600,
+        "second": 1576951200
+      },
+      "venue": {
+        "id": 1288,
+        "name": "Est\u00e1dio do Rio Ave Futebol Clube",
+        "city": "Vila do Conde"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 226,
+        "name": "Rio Ave",
+        "logo": "https://media.api-sports.io/football/teams/226.png",
+        "winner": false
+      },
+      "away": {
+        "id": 762,
+        "name": "GIL Vicente",
+        "logo": "https://media.api-sports.io/football/teams/762.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 242001,
+      "referee": "Manuel Oliveira",
+      "timezone": "UTC",
+      "date": "2019-12-21T20:00:00+00:00",
+      "timestamp": 1576958400,
+      "periods": {
+        "first": 1576958400,
+        "second": 1576962000
+      },
+      "venue": {
+        "id": 1296,
+        "name": "Est\u00e1dio do Bonfim",
+        "city": "Set\u00fabal"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 219,
+        "name": "Vitoria Setubal",
+        "logo": "https://media.api-sports.io/football/teams/219.png",
+        "winner": null
+      },
+      "away": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 242000,
+      "referee": "Rui Costa",
+      "timezone": "UTC",
+      "date": "2019-12-21T20:00:00+00:00",
+      "timestamp": 1576958400,
+      "periods": {
+        "first": 1576958400,
+        "second": 1576962000
+      },
+      "venue": {
+        "id": 1295,
+        "name": "Est\u00e1dio Dom Afonso Henriques",
+        "city": "Guimar\u00e3es"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 224,
+        "name": "Guimaraes",
+        "logo": "https://media.api-sports.io/football/teams/224.png",
+        "winner": true
+      },
+      "away": {
+        "id": 236,
+        "name": "SC Covilha",
+        "logo": "https://media.api-sports.io/football/teams/236.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 242004,
+      "referee": "H\u00e9lder Malheiro",
+      "timezone": "UTC",
+      "date": "2019-12-22T15:00:00+00:00",
+      "timestamp": 1577026800,
+      "periods": {
+        "first": 1577026800,
+        "second": 1577030400
+      },
+      "venue": {
+        "id": 1289,
+        "name": "Est\u00e1dio de S\u00e3o Miguel",
+        "city": "Ponta Delgada, Ilha de S\u00e3o Miguel, A\u00e7ores"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 227,
+        "name": "Santa Clara",
+        "logo": "https://media.api-sports.io/football/teams/227.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4716,
+        "name": "Casa Pia",
+        "logo": "https://media.api-sports.io/football/teams/4716.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 241998,
+      "referee": "Luis Godinho",
+      "timezone": "UTC",
+      "date": "2019-12-22T17:00:00+00:00",
+      "timestamp": 1577034000,
+      "periods": {
+        "first": 1577034000,
+        "second": 1577037600
+      },
+      "venue": {
+        "id": 1283,
+        "name": "Est\u00e1dio da Capital do M\u00f3vel",
+        "city": "Pa\u00e7os de Ferreira"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 234,
+        "name": "Pacos Ferreira",
+        "logo": "https://media.api-sports.io/football/teams/234.png",
+        "winner": false
+      },
+      "away": {
+        "id": 217,
+        "name": "SC Braga",
+        "logo": "https://media.api-sports.io/football/teams/217.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 242005,
+      "referee": "Carlos Xistra",
+      "timezone": "UTC",
+      "date": "2019-12-22T19:15:00+00:00",
+      "timestamp": 1577042100,
+      "periods": {
+        "first": 1577042100,
+        "second": 1577045700
+      },
+      "venue": {
+        "id": 1273,
+        "name": "Est\u00e1dio Municipal Eng. Manuel Branco Teixeira",
+        "city": "Chaves"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Group Stage - 3",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 223,
+        "name": "Chaves",
+        "logo": "https://media.api-sports.io/football/teams/223.png",
+        "winner": false
+      },
+      "away": {
+        "id": 212,
+        "name": "FC Porto",
+        "logo": "https://media.api-sports.io/football/teams/212.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 296601,
+      "referee": "Nuno Miguel Serrano Almeida",
+      "timezone": "UTC",
+      "date": "2020-01-21T19:45:00+00:00",
+      "timestamp": 1579635900,
+      "periods": {
+        "first": 1579635900,
+        "second": 1579639500
+      },
+      "venue": {
+        "id": 1291,
+        "name": "Est\u00e1dio Municipal de Braga",
+        "city": "Braga"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 217,
+        "name": "SC Braga",
+        "logo": "https://media.api-sports.io/football/teams/217.png",
+        "winner": true
+      },
+      "away": {
+        "id": 228,
+        "name": "Sporting CP",
+        "logo": "https://media.api-sports.io/football/teams/228.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 296602,
+      "referee": "Jorge de Sousa",
+      "timezone": "UTC",
+      "date": "2020-01-22T19:45:00+00:00",
+      "timestamp": 1579722300,
+      "periods": {
+        "first": 1579722300,
+        "second": 1579725900
+      },
+      "venue": {
+        "id": 1291,
+        "name": "Est\u00e1dio Municipal de Braga",
+        "city": "Braga"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 224,
+        "name": "Guimaraes",
+        "logo": "https://media.api-sports.io/football/teams/224.png",
+        "winner": false
+      },
+      "away": {
+        "id": 212,
+        "name": "FC Porto",
+        "logo": "https://media.api-sports.io/football/teams/212.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 319339,
+      "referee": "Luis Godinho",
+      "timezone": "UTC",
+      "date": "2020-01-25T19:45:00+00:00",
+      "timestamp": 1579981500,
+      "periods": {
+        "first": 1579981500,
+        "second": 1579985100
+      },
+      "venue": {
+        "id": 1291,
+        "name": "Est\u00e1dio Municipal de Braga",
+        "city": "Braga"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2019,
+      "round": "Final",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 217,
+        "name": "SC Braga",
+        "logo": "https://media.api-sports.io/football/teams/217.png",
+        "winner": true
+      },
+      "away": {
+        "id": 212,
+        "name": "FC Porto",
+        "logo": "https://media.api-sports.io/football/teams/212.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

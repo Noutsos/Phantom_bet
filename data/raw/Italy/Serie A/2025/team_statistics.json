@@ -1,0 +1,1762 @@
+[
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1377872"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 488,
+          "name": "Sassuolo",
+          "logo": "https://media.api-sports.io/football/teams/488.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 2
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 4
+          },
+          {
+            "type": "Total Shots",
+            "value": 7
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 3
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 4
+          },
+          {
+            "type": "Fouls",
+            "value": 17
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 1
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": "38%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 1
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": 368
+          },
+          {
+            "type": "Passes accurate",
+            "value": 311
+          },
+          {
+            "type": "Passes %",
+            "value": "85%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "0.38"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 4
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 4
+          },
+          {
+            "type": "Total Shots",
+            "value": 13
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 5
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 7
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 6
+          },
+          {
+            "type": "Fouls",
+            "value": 17
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 2
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": "62%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": 606
+          },
+          {
+            "type": "Passes accurate",
+            "value": 545
+          },
+          {
+            "type": "Passes %",
+            "value": "90%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "1.19"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1377867"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 495,
+          "name": "Genoa",
+          "logo": "https://media.api-sports.io/football/teams/495.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 2
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 2
+          },
+          {
+            "type": "Total Shots",
+            "value": 5
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 2
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 3
+          },
+          {
+            "type": "Fouls",
+            "value": 16
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 3
+          },
+          {
+            "type": "Offsides",
+            "value": 0
+          },
+          {
+            "type": "Ball Possession",
+            "value": "59%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 0
+          },
+          {
+            "type": "Total passes",
+            "value": 435
+          },
+          {
+            "type": "Passes accurate",
+            "value": 327
+          },
+          {
+            "type": "Passes %",
+            "value": "75%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "0.50"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 867,
+          "name": "Lecce",
+          "logo": "https://media.api-sports.io/football/teams/867.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 0
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 3
+          },
+          {
+            "type": "Total Shots",
+            "value": 7
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 4
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 5
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 2
+          },
+          {
+            "type": "Fouls",
+            "value": 13
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 7
+          },
+          {
+            "type": "Offsides",
+            "value": 2
+          },
+          {
+            "type": "Ball Possession",
+            "value": "41%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": 294
+          },
+          {
+            "type": "Passes accurate",
+            "value": 207
+          },
+          {
+            "type": "Passes %",
+            "value": "70%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "0.37"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1377870"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 489,
+          "name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 6
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 9
+          },
+          {
+            "type": "Total Shots",
+            "value": 24
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 9
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 16
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 8
+          },
+          {
+            "type": "Fouls",
+            "value": 10
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 9
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "64%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 1
+          },
+          {
+            "type": "Total passes",
+            "value": 608
+          },
+          {
+            "type": "Passes accurate",
+            "value": 551
+          },
+          {
+            "type": "Passes %",
+            "value": "91%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "1.88"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 520,
+          "name": "Cremonese",
+          "logo": "https://media.api-sports.io/football/teams/520.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 3
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 1
+          },
+          {
+            "type": "Total Shots",
+            "value": 4
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 0
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 4
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 0
+          },
+          {
+            "type": "Fouls",
+            "value": 14
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 2
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "36%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 4
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 4
+          },
+          {
+            "type": "Total passes",
+            "value": 340
+          },
+          {
+            "type": "Passes accurate",
+            "value": 278
+          },
+          {
+            "type": "Passes %",
+            "value": "82%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "0.21"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1377871"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 497,
+          "name": "AS Roma",
+          "logo": "https://media.api-sports.io/football/teams/497.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 4
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 9
+          },
+          {
+            "type": "Total Shots",
+            "value": 14
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 8
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 6
+          },
+          {
+            "type": "Fouls",
+            "value": 15
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 2
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "51%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": 414
+          },
+          {
+            "type": "Passes accurate",
+            "value": 338
+          },
+          {
+            "type": "Passes %",
+            "value": "82%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "1.56"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 2
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 7
+          },
+          {
+            "type": "Total Shots",
+            "value": 10
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 6
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 4
+          },
+          {
+            "type": "Fouls",
+            "value": 13
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 4
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "49%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 3
+          },
+          {
+            "type": "Total passes",
+            "value": 388
+          },
+          {
+            "type": "Passes accurate",
+            "value": 301
+          },
+          {
+            "type": "Passes %",
+            "value": "78%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "0.58"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1377865"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 490,
+          "name": "Cagliari",
+          "logo": "https://media.api-sports.io/football/teams/490.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 6
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 7
+          },
+          {
+            "type": "Total Shots",
+            "value": 14
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 10
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 4
+          },
+          {
+            "type": "Fouls",
+            "value": 18
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 3
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "45%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 4
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 0
+          },
+          {
+            "type": "Total passes",
+            "value": 356
+          },
+          {
+            "type": "Passes accurate",
+            "value": 293
+          },
+          {
+            "type": "Passes %",
+            "value": "82%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "1.13"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 502,
+          "name": "Fiorentina",
+          "logo": "https://media.api-sports.io/football/teams/502.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 1
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 2
+          },
+          {
+            "type": "Total Shots",
+            "value": 4
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 2
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 2
+          },
+          {
+            "type": "Fouls",
+            "value": 14
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 2
+          },
+          {
+            "type": "Offsides",
+            "value": 4
+          },
+          {
+            "type": "Ball Possession",
+            "value": "55%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 4
+          },
+          {
+            "type": "Total passes",
+            "value": 439
+          },
+          {
+            "type": "Passes accurate",
+            "value": 365
+          },
+          {
+            "type": "Passes %",
+            "value": "83%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "0.98"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1377866"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 895,
+          "name": "Como",
+          "logo": "https://media.api-sports.io/football/teams/895.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 6
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 12
+          },
+          {
+            "type": "Total Shots",
+            "value": 19
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 12
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 7
+          },
+          {
+            "type": "Fouls",
+            "value": 15
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 6
+          },
+          {
+            "type": "Offsides",
+            "value": 0
+          },
+          {
+            "type": "Ball Possession",
+            "value": "63%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 1
+          },
+          {
+            "type": "Total passes",
+            "value": 537
+          },
+          {
+            "type": "Passes accurate",
+            "value": 484
+          },
+          {
+            "type": "Passes %",
+            "value": "90%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "1.54"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 1
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 3
+          },
+          {
+            "type": "Total Shots",
+            "value": 5
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 3
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 2
+          },
+          {
+            "type": "Fouls",
+            "value": 12
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 0
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "37%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 4
+          },
+          {
+            "type": "Total passes",
+            "value": 309
+          },
+          {
+            "type": "Passes accurate",
+            "value": 260
+          },
+          {
+            "type": "Passes %",
+            "value": "84%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "0.21"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1377869"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 8
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 12
+          },
+          {
+            "type": "Total Shots",
+            "value": 25
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 5
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 14
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 11
+          },
+          {
+            "type": "Fouls",
+            "value": 9
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 6
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": "64%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 1
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 1
+          },
+          {
+            "type": "Total passes",
+            "value": 512
+          },
+          {
+            "type": "Passes accurate",
+            "value": 457
+          },
+          {
+            "type": "Passes %",
+            "value": "89%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "2.35"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 523,
+          "name": "Parma",
+          "logo": "https://media.api-sports.io/football/teams/523.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 2
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 4
+          },
+          {
+            "type": "Total Shots",
+            "value": 8
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 2
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 4
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 4
+          },
+          {
+            "type": "Fouls",
+            "value": 13
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 6
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": "36%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 6
+          },
+          {
+            "type": "Total passes",
+            "value": 275
+          },
+          {
+            "type": "Passes accurate",
+            "value": 207
+          },
+          {
+            "type": "Passes %",
+            "value": "75%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "0.62"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1377864"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 6
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 12
+          },
+          {
+            "type": "Total Shots",
+            "value": 21
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 3
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 14
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 7
+          },
+          {
+            "type": "Fouls",
+            "value": 9
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 10
+          },
+          {
+            "type": "Offsides",
+            "value": 0
+          },
+          {
+            "type": "Ball Possession",
+            "value": "66%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": 552
+          },
+          {
+            "type": "Passes accurate",
+            "value": 477
+          },
+          {
+            "type": "Passes %",
+            "value": "86%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "1.92"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 801,
+          "name": "Pisa",
+          "logo": "https://media.api-sports.io/football/teams/801.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 2
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 6
+          },
+          {
+            "type": "Total Shots",
+            "value": 11
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 3
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 7
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 4
+          },
+          {
+            "type": "Fouls",
+            "value": 10
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 4
+          },
+          {
+            "type": "Offsides",
+            "value": 2
+          },
+          {
+            "type": "Ball Possession",
+            "value": "34%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 0
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 5
+          },
+          {
+            "type": "Total passes",
+            "value": 289
+          },
+          {
+            "type": "Passes accurate",
+            "value": 218
+          },
+          {
+            "type": "Passes %",
+            "value": "75%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "0.63"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1377873"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 494,
+          "name": "Udinese",
+          "logo": "https://media.api-sports.io/football/teams/494.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 4
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 6
+          },
+          {
+            "type": "Total Shots",
+            "value": 14
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 4
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 8
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 6
+          },
+          {
+            "type": "Fouls",
+            "value": 10
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 5
+          },
+          {
+            "type": "Offsides",
+            "value": 2
+          },
+          {
+            "type": "Ball Possession",
+            "value": "63%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": 478
+          },
+          {
+            "type": "Passes accurate",
+            "value": 416
+          },
+          {
+            "type": "Passes %",
+            "value": "87%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "0.72"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 504,
+          "name": "Verona",
+          "logo": "https://media.api-sports.io/football/teams/504.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 3
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 4
+          },
+          {
+            "type": "Total Shots",
+            "value": 9
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 2
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 2
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 7
+          },
+          {
+            "type": "Fouls",
+            "value": 14
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 1
+          },
+          {
+            "type": "Offsides",
+            "value": 2
+          },
+          {
+            "type": "Ball Possession",
+            "value": "37%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 4
+          },
+          {
+            "type": "Total passes",
+            "value": 286
+          },
+          {
+            "type": "Passes accurate",
+            "value": 210
+          },
+          {
+            "type": "Passes %",
+            "value": "73%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "0.56"
+          },
+          {
+            "type": "goals_prevented",
+            "value": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1377868"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 9
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 8
+          },
+          {
+            "type": "Total Shots",
+            "value": 20
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 3
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 14
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 6
+          },
+          {
+            "type": "Fouls",
+            "value": 14
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 6
+          },
+          {
+            "type": "Offsides",
+            "value": 4
+          },
+          {
+            "type": "Ball Possession",
+            "value": "60%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": null
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 4
+          },
+          {
+            "type": "Total passes",
+            "value": 577
+          },
+          {
+            "type": "Passes accurate",
+            "value": 530
+          },
+          {
+            "type": "Passes %",
+            "value": "92%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "1.59"
+          },
+          {
+            "type": "goals_prevented",
+            "value": -2
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 503,
+          "name": "Torino",
+          "logo": "https://media.api-sports.io/football/teams/503.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 4
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 3
+          },
+          {
+            "type": "Total Shots",
+            "value": 12
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 5
+          },
+          {
+            "type": "Shots insidebox",
+            "value": 8
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": 4
+          },
+          {
+            "type": "Fouls",
+            "value": 6
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 5
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "40%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": null
+          },
+          {
+            "type": "Red Cards",
+            "value": null
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 4
+          },
+          {
+            "type": "Total passes",
+            "value": 379
+          },
+          {
+            "type": "Passes accurate",
+            "value": 328
+          },
+          {
+            "type": "Passes %",
+            "value": "87%"
+          },
+          {
+            "type": "expected_goals",
+            "value": "0.94"
+          },
+          {
+            "type": "goals_prevented",
+            "value": -2
+          }
+        ]
+      }
+    ]
+  }
+]

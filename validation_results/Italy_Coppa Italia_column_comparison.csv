@@ -1,0 +1,5 @@
+country_league,file_type,column,present_years,missing_years,status
+Italy_Coppa Italia,team_statistics,expected_goals,"2022, 2023, 2024","2018, 2019, 2020, 2021",Inconsistent
+Italy_Coppa Italia,team_statistics,goals_prevented,2024,"2018, 2019, 2020, 2021, 2022, 2023",Added
+Italy_Coppa Italia,player_statistics,duels_won,"2020, 2021, 2022, 2023, 2024",2019,Inconsistent
+Italy_Coppa Italia,player_statistics,duels_total,"2020, 2021, 2022, 2023, 2024",2019,Inconsistent

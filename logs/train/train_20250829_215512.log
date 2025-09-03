@@ -1,0 +1,41 @@
+2025-08-29 21:55:12,294 - src.train_pipeline - INFO - Starting training with model: xgboost, feature selection: rfe with 70 features
+2025-08-29 21:55:12,294 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-08-29 21:55:12,313 - src.train_pipeline - INFO - Filtered to 22853 completed matches
+2025-08-29 21:55:12,341 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-08-29 21:55:12,341 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-08-29 21:55:12,347 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-08-29 21:55:12,347 - src.train_pipeline - INFO - Preparing features...
+2025-08-29 21:55:12,376 - src.train_pipeline - INFO - Removed 33 potential leakage columns
+2025-08-29 21:55:12,509 - src.train_pipeline - INFO - Feature preparation complete. Final features: 132
+2025-08-29 21:55:12,510 - src.train_pipeline - INFO - Data preparation complete. Features: 132, Samples: 22853
+2025-08-29 21:55:12,513 - src.train_pipeline - INFO - Time Series Split - Training: 18283, Holdout: 4570
+2025-08-29 21:55:12,513 - src.train_pipeline - INFO - Using SMOTE - class weights will be disabled for model training
+2025-08-29 21:55:12,513 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-08-29 21:55:12,559 - src.train_pipeline - INFO - Numerical features: 132, Categorical features: 0
+2025-08-29 21:55:12,559 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-08-29 21:55:12,560 - src.train_pipeline - INFO - Using feature selection method: rfe with top 70 features
+2025-08-29 21:55:12,560 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-08-29 21:55:12,560 - src.train_pipeline - INFO - Removed class_weight parameter due to SMOTE usage
+2025-08-29 21:55:12,560 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-08-29 21:55:12,560 - src.train_pipeline - INFO - Starting cross-validation...
+2025-08-29 21:55:12,561 - src.train_pipeline - INFO - Processing fold 1/5
+2025-08-29 21:55:12,575 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-08-29 21:55:12,771 - src.train_pipeline - INFO - SMOTE applied: 4167 samples (from 3048)
+2025-08-29 21:55:12,785 - src.train_pipeline - INFO - Processing fold 2/5
+2025-08-29 21:55:12,801 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-08-29 21:55:12,952 - src.train_pipeline - INFO - SMOTE applied: 8067 samples (from 6095)
+2025-08-29 21:55:12,962 - src.train_pipeline - INFO - Processing fold 3/5
+2025-08-29 21:55:12,982 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-08-29 21:55:13,250 - src.train_pipeline - INFO - SMOTE applied: 11922 samples (from 9142)
+2025-08-29 21:55:13,262 - src.train_pipeline - INFO - Processing fold 4/5
+2025-08-29 21:55:13,286 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-08-29 21:55:13,500 - src.train_pipeline - INFO - SMOTE applied: 15882 samples (from 12189)
+2025-08-29 21:55:13,512 - src.train_pipeline - INFO - Processing fold 5/5
+2025-08-29 21:55:13,539 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-08-29 21:55:13,823 - src.train_pipeline - INFO - SMOTE applied: 19926 samples (from 15236)
+2025-08-29 21:55:13,838 - src.train_pipeline - INFO - Training final model on full training period...
+2025-08-29 21:55:57,375 - src.train_pipeline - INFO - Evaluating on holdout period...
+2025-08-29 21:55:57,436 - src.train_pipeline - INFO - Holdout Accuracy: 0.7204
+2025-08-29 21:55:57,436 - src.train_pipeline - INFO - Saving model artifacts...
+2025-08-29 21:55:57,491 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-08-29 21:55:57,492 - src.train_pipeline - INFO - Training completed successfully!

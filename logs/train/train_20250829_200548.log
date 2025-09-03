@@ -1,0 +1,17 @@
+2025-08-29 20:05:48,001 - src.train_pipeline - INFO - Starting training with model: xgboost, feature selection: rfe with 70 features
+2025-08-29 20:05:48,001 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-08-29 20:05:48,018 - src.train_pipeline - INFO - Filtered to 22853 completed matches
+2025-08-29 20:05:48,043 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-08-29 20:05:48,043 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-08-29 20:05:48,047 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-08-29 20:05:48,047 - src.train_pipeline - INFO - Preparing features...
+2025-08-29 20:05:48,072 - src.train_pipeline - INFO - Removed 33 potential leakage columns
+2025-08-29 20:05:48,194 - src.train_pipeline - INFO - Feature preparation complete. Final features: 132
+2025-08-29 20:05:48,195 - src.train_pipeline - INFO - Data preparation complete. Features: 132, Samples: 22853
+2025-08-29 20:05:48,198 - src.train_pipeline - INFO - Time Series Split - Training: 18283, Holdout: 4570
+2025-08-29 20:05:48,198 - src.train_pipeline - INFO - Using custom class weights: {0: 1.0, 1: 2.5, 2: 1.0}
+2025-08-29 20:05:48,201 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-08-29 20:05:48,248 - src.train_pipeline - INFO - Numerical features: 132, Categorical features: 0
+2025-08-29 20:05:48,248 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-08-29 20:05:48,248 - src.train_pipeline - INFO - Using feature selection method: rfe with top 70 features
+2025-08-29 20:05:48,248 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost

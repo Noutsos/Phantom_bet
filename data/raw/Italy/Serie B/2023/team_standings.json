@@ -1,0 +1,930 @@
+{
+  "get": "standings",
+  "parameters": {
+    "league": "136",
+    "season": "2023"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "league": {
+        "id": 136,
+        "name": "Serie B",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/136.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2023,
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 523,
+                "name": "Parma",
+                "logo": "https://media.api-sports.io/football/teams/523.png"
+              },
+              "points": 76,
+              "goalsDiff": 31,
+              "group": "Serie B: Regular Season",
+              "form": "DDDWD",
+              "status": "same",
+              "description": "Promotion",
+              "all": {
+                "played": 38,
+                "win": 21,
+                "draw": 13,
+                "lose": 4,
+                "goals": {
+                  "for": 66,
+                  "against": 35
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 11,
+                "draw": 7,
+                "lose": 1,
+                "goals": {
+                  "for": 34,
+                  "against": 17
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 10,
+                "draw": 6,
+                "lose": 3,
+                "goals": {
+                  "for": 32,
+                  "against": 18
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 895,
+                "name": "Como",
+                "logo": "https://media.api-sports.io/football/teams/895.png"
+              },
+              "points": 73,
+              "goalsDiff": 18,
+              "group": "Serie B: Regular Season",
+              "form": "DDWDW",
+              "status": "same",
+              "description": "Promotion",
+              "all": {
+                "played": 38,
+                "win": 21,
+                "draw": 10,
+                "lose": 7,
+                "goals": {
+                  "for": 58,
+                  "against": 40
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 12,
+                "draw": 5,
+                "lose": 2,
+                "goals": {
+                  "for": 32,
+                  "against": 19
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 9,
+                "draw": 5,
+                "lose": 5,
+                "goals": {
+                  "for": 26,
+                  "against": 21
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 517,
+                "name": "Venezia",
+                "logo": "https://media.api-sports.io/football/teams/517.png"
+              },
+              "points": 70,
+              "goalsDiff": 23,
+              "group": "Serie B: Regular Season",
+              "form": "LWLWW",
+              "status": "same",
+              "description": "Promotion Play-off",
+              "all": {
+                "played": 38,
+                "win": 21,
+                "draw": 7,
+                "lose": 10,
+                "goals": {
+                  "for": 69,
+                  "against": 46
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 13,
+                "draw": 3,
+                "lose": 3,
+                "goals": {
+                  "for": 41,
+                  "against": 25
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 8,
+                "draw": 4,
+                "lose": 7,
+                "goals": {
+                  "for": 28,
+                  "against": 21
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 520,
+                "name": "Cremonese",
+                "logo": "https://media.api-sports.io/football/teams/520.png"
+              },
+              "points": 67,
+              "goalsDiff": 18,
+              "group": "Serie B: Regular Season",
+              "form": "WDWLD",
+              "status": "same",
+              "description": "Promotion Play-off",
+              "all": {
+                "played": 38,
+                "win": 19,
+                "draw": 10,
+                "lose": 9,
+                "goals": {
+                  "for": 50,
+                  "against": 32
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 9,
+                "draw": 5,
+                "lose": 5,
+                "goals": {
+                  "for": 26,
+                  "against": 15
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 10,
+                "draw": 5,
+                "lose": 4,
+                "goals": {
+                  "for": 24,
+                  "against": 17
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 5,
+              "team": {
+                "id": 1687,
+                "name": "Catanzaro",
+                "logo": "https://media.api-sports.io/football/teams/1687.png"
+              },
+              "points": 60,
+              "goalsDiff": 9,
+              "group": "Serie B: Regular Season",
+              "form": "LLWDD",
+              "status": "same",
+              "description": "Promotion Play-off",
+              "all": {
+                "played": 38,
+                "win": 17,
+                "draw": 9,
+                "lose": 12,
+                "goals": {
+                  "for": 59,
+                  "against": 50
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 9,
+                "draw": 4,
+                "lose": 6,
+                "goals": {
+                  "for": 34,
+                  "against": 28
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 8,
+                "draw": 5,
+                "lose": 6,
+                "goals": {
+                  "for": 25,
+                  "against": 22
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 6,
+              "team": {
+                "id": 522,
+                "name": "Palermo",
+                "logo": "https://media.api-sports.io/football/teams/522.png"
+              },
+              "points": 56,
+              "goalsDiff": 9,
+              "group": "Serie B: Regular Season",
+              "form": "WDLLD",
+              "status": "same",
+              "description": "Promotion Play-off",
+              "all": {
+                "played": 38,
+                "win": 15,
+                "draw": 11,
+                "lose": 12,
+                "goals": {
+                  "for": 62,
+                  "against": 53
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 8,
+                "draw": 4,
+                "lose": 7,
+                "goals": {
+                  "for": 33,
+                  "against": 27
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 7,
+                "draw": 7,
+                "lose": 5,
+                "goals": {
+                  "for": 29,
+                  "against": 26
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 7,
+              "team": {
+                "id": 498,
+                "name": "Sampdoria",
+                "logo": "https://media.api-sports.io/football/teams/498.png"
+              },
+              "points": 55,
+              "goalsDiff": 3,
+              "group": "Serie B: Regular Season",
+              "form": "WWWDD",
+              "status": "same",
+              "description": "Promotion Play-off",
+              "all": {
+                "played": 38,
+                "win": 16,
+                "draw": 9,
+                "lose": 13,
+                "goals": {
+                  "for": 53,
+                  "against": 50
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 7,
+                "draw": 4,
+                "lose": 8,
+                "goals": {
+                  "for": 25,
+                  "against": 25
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 9,
+                "draw": 5,
+                "lose": 5,
+                "goals": {
+                  "for": 28,
+                  "against": 25
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 8,
+              "team": {
+                "id": 518,
+                "name": "Brescia",
+                "logo": "https://media.api-sports.io/football/teams/518.png"
+              },
+              "points": 51,
+              "goalsDiff": 4,
+              "group": "Serie B: Regular Season",
+              "form": "LWDDD",
+              "status": "same",
+              "description": "Promotion Play-off",
+              "all": {
+                "played": 38,
+                "win": 12,
+                "draw": 15,
+                "lose": 11,
+                "goals": {
+                  "for": 44,
+                  "against": 40
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 7,
+                "draw": 8,
+                "lose": 4,
+                "goals": {
+                  "for": 24,
+                  "against": 17
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 5,
+                "draw": 7,
+                "lose": 7,
+                "goals": {
+                  "for": 20,
+                  "against": 23
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
+              "team": {
+                "id": 10137,
+                "name": "Cosenza",
+                "logo": "https://media.api-sports.io/football/teams/10137.png"
+              },
+              "points": 47,
+              "goalsDiff": 5,
+              "group": "Serie B: Regular Season",
+              "form": "DDWWW",
+              "status": "up",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 11,
+                "draw": 14,
+                "lose": 13,
+                "goals": {
+                  "for": 47,
+                  "against": 42
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 5,
+                "draw": 7,
+                "lose": 7,
+                "goals": {
+                  "for": 29,
+                  "against": 25
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 6,
+                "draw": 7,
+                "lose": 6,
+                "goals": {
+                  "for": 18,
+                  "against": 17
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 10,
+              "team": {
+                "id": 899,
+                "name": "Modena",
+                "logo": "https://media.api-sports.io/football/teams/899.png"
+              },
+              "points": 47,
+              "goalsDiff": -6,
+              "group": "Serie B: Regular Season",
+              "form": "WDLWD",
+              "status": "up",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 10,
+                "draw": 17,
+                "lose": 11,
+                "goals": {
+                  "for": 41,
+                  "against": 47
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 6,
+                "draw": 6,
+                "lose": 7,
+                "goals": {
+                  "for": 19,
+                  "against": 21
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 4,
+                "draw": 11,
+                "lose": 4,
+                "goals": {
+                  "for": 22,
+                  "against": 26
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 11,
+              "team": {
+                "id": 880,
+                "name": "Reggiana",
+                "logo": "https://media.api-sports.io/football/teams/880.png"
+              },
+              "points": 47,
+              "goalsDiff": -7,
+              "group": "Serie B: Regular Season",
+              "form": "DLWWL",
+              "status": "up",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 10,
+                "draw": 17,
+                "lose": 11,
+                "goals": {
+                  "for": 38,
+                  "against": 45
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 3,
+                "draw": 11,
+                "lose": 5,
+                "goals": {
+                  "for": 16,
+                  "against": 24
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 7,
+                "draw": 6,
+                "lose": 6,
+                "goals": {
+                  "for": 22,
+                  "against": 21
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 1578,
+                "name": "Sudtirol",
+                "logo": "https://media.api-sports.io/football/teams/1578.png"
+              },
+              "points": 47,
+              "goalsDiff": -2,
+              "group": "Serie B: Regular Season",
+              "form": "LDWLD",
+              "status": "down",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 12,
+                "draw": 11,
+                "lose": 15,
+                "goals": {
+                  "for": 46,
+                  "against": 48
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 7,
+                "draw": 5,
+                "lose": 7,
+                "goals": {
+                  "for": 23,
+                  "against": 21
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 5,
+                "draw": 6,
+                "lose": 8,
+                "goals": {
+                  "for": 23,
+                  "against": 27
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 13,
+              "team": {
+                "id": 801,
+                "name": "Pisa",
+                "logo": "https://media.api-sports.io/football/teams/801.png"
+              },
+              "points": 46,
+              "goalsDiff": -3,
+              "group": "Serie B: Regular Season",
+              "form": "LDLDD",
+              "status": "down",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 11,
+                "draw": 13,
+                "lose": 14,
+                "goals": {
+                  "for": 51,
+                  "against": 54
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 6,
+                "draw": 8,
+                "lose": 5,
+                "goals": {
+                  "for": 30,
+                  "against": 27
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 5,
+                "draw": 5,
+                "lose": 9,
+                "goals": {
+                  "for": 21,
+                  "against": 27
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 14,
+              "team": {
+                "id": 510,
+                "name": "Cittadella",
+                "logo": "https://media.api-sports.io/football/teams/510.png"
+              },
+              "points": 46,
+              "goalsDiff": -7,
+              "group": "Serie B: Regular Season",
+              "form": "LDLDD",
+              "status": "down",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 11,
+                "draw": 13,
+                "lose": 14,
+                "goals": {
+                  "for": 40,
+                  "against": 47
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 7,
+                "draw": 6,
+                "lose": 6,
+                "goals": {
+                  "for": 25,
+                  "against": 22
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 4,
+                "draw": 7,
+                "lose": 8,
+                "goals": {
+                  "for": 15,
+                  "against": 25
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 15,
+              "team": {
+                "id": 515,
+                "name": "Spezia",
+                "logo": "https://media.api-sports.io/football/teams/515.png"
+              },
+              "points": 44,
+              "goalsDiff": -13,
+              "group": "Serie B: Regular Season",
+              "form": "WDWDD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 9,
+                "draw": 17,
+                "lose": 12,
+                "goals": {
+                  "for": 36,
+                  "against": 49
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 6,
+                "draw": 8,
+                "lose": 5,
+                "goals": {
+                  "for": 18,
+                  "against": 17
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 9,
+                "lose": 7,
+                "goals": {
+                  "for": 18,
+                  "against": 32
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 16,
+              "team": {
+                "id": 516,
+                "name": "Ternana",
+                "logo": "https://media.api-sports.io/football/teams/516.png"
+              },
+              "points": 43,
+              "goalsDiff": -7,
+              "group": "Serie B: Regular Season",
+              "form": "WWLLD",
+              "status": "same",
+              "description": "Relegation Play-off",
+              "all": {
+                "played": 38,
+                "win": 11,
+                "draw": 10,
+                "lose": 17,
+                "goals": {
+                  "for": 43,
+                  "against": 50
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 5,
+                "draw": 7,
+                "lose": 7,
+                "goals": {
+                  "for": 16,
+                  "against": 16
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 6,
+                "draw": 3,
+                "lose": 10,
+                "goals": {
+                  "for": 27,
+                  "against": 34
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 17,
+              "team": {
+                "id": 508,
+                "name": "Bari",
+                "logo": "https://media.api-sports.io/football/teams/508.png"
+              },
+              "points": 41,
+              "goalsDiff": -11,
+              "group": "Serie B: Regular Season",
+              "form": "WDDLD",
+              "status": "same",
+              "description": "Relegation Play-off",
+              "all": {
+                "played": 38,
+                "win": 8,
+                "draw": 17,
+                "lose": 13,
+                "goals": {
+                  "for": 38,
+                  "against": 49
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 6,
+                "draw": 9,
+                "lose": 4,
+                "goals": {
+                  "for": 21,
+                  "against": 19
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 2,
+                "draw": 8,
+                "lose": 9,
+                "goals": {
+                  "for": 17,
+                  "against": 30
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 18,
+              "team": {
+                "id": 507,
+                "name": "Ascoli",
+                "logo": "https://media.api-sports.io/football/teams/507.png"
+              },
+              "points": 41,
+              "goalsDiff": -4,
+              "group": "Serie B: Regular Season",
+              "form": "WDLWD",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 38,
+                "win": 9,
+                "draw": 14,
+                "lose": 15,
+                "goals": {
+                  "for": 38,
+                  "against": 42
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 5,
+                "draw": 8,
+                "lose": 6,
+                "goals": {
+                  "for": 19,
+                  "against": 16
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 4,
+                "draw": 6,
+                "lose": 9,
+                "goals": {
+                  "for": 19,
+                  "against": 26
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 19,
+              "team": {
+                "id": 884,
+                "name": "Feralpisalo",
+                "logo": "https://media.api-sports.io/football/teams/884.png"
+              },
+              "points": 33,
+              "goalsDiff": -21,
+              "group": "Serie B: Regular Season",
+              "form": "LLDDL",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 38,
+                "win": 8,
+                "draw": 9,
+                "lose": 21,
+                "goals": {
+                  "for": 44,
+                  "against": 65
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 3,
+                "draw": 5,
+                "lose": 11,
+                "goals": {
+                  "for": 25,
+                  "against": 34
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 5,
+                "draw": 4,
+                "lose": 10,
+                "goals": {
+                  "for": 19,
+                  "against": 31
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            },
+            {
+              "rank": 20,
+              "team": {
+                "id": 6379,
+                "name": "Lecco",
+                "logo": "https://media.api-sports.io/football/teams/6379.png"
+              },
+              "points": 26,
+              "goalsDiff": -39,
+              "group": "Serie B: Regular Season",
+              "form": "LLLLL",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 38,
+                "win": 6,
+                "draw": 8,
+                "lose": 24,
+                "goals": {
+                  "for": 35,
+                  "against": 74
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 4,
+                "draw": 2,
+                "lose": 13,
+                "goals": {
+                  "for": 19,
+                  "against": 34
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 2,
+                "draw": 6,
+                "lose": 11,
+                "goals": {
+                  "for": 16,
+                  "against": 40
+                }
+              },
+              "update": "2024-06-05T00:00:00+00:00"
+            }
+          ]
+        ]
+      }
+    }
+  ],
+  "last_updated": "2025-08-28T16:49:59.373795"
+}

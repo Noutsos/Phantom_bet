@@ -1,0 +1,2298 @@
+[
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380867"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 536,
+          "name": "Daley Sinkgraven",
+          "photo": "https://media.api-sports.io/football/players/536.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 205,
+          "name": "Fortuna Sittard",
+          "logo": "https://media.api-sports.io/football/teams/205.png"
+        },
+        "fixture": {
+          "id": 1380867,
+          "timezone": "UTC",
+          "date": "2025-08-08T18:00:00+00:00",
+          "timestamp": 1754676000
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 41592,
+          "name": "Umaro Embalo",
+          "photo": "https://media.api-sports.io/football/players/41592.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 205,
+          "name": "Fortuna Sittard",
+          "logo": "https://media.api-sports.io/football/teams/205.png"
+        },
+        "fixture": {
+          "id": 1380867,
+          "timezone": "UTC",
+          "date": "2025-08-08T18:00:00+00:00",
+          "timestamp": 1754676000
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 378962,
+          "name": "Pim Saathof",
+          "photo": "https://media.api-sports.io/football/players/378962.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png"
+        },
+        "fixture": {
+          "id": 1380867,
+          "timezone": "UTC",
+          "date": "2025-08-08T18:00:00+00:00",
+          "timestamp": 1754676000
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380868"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 37134,
+          "name": "Bryan Linssen",
+          "photo": "https://media.api-sports.io/football/players/37134.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 413,
+          "name": "NEC Nijmegen",
+          "logo": "https://media.api-sports.io/football/teams/413.png"
+        },
+        "fixture": {
+          "id": 1380868,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:30:00+00:00",
+          "timestamp": 1754749800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 124,
+          "name": "Jasper Cillessen",
+          "photo": "https://media.api-sports.io/football/players/124.png",
+          "type": "Missing Fixture",
+          "reason": null
+        },
+        "team": {
+          "id": 413,
+          "name": "NEC Nijmegen",
+          "logo": "https://media.api-sports.io/football/teams/413.png"
+        },
+        "fixture": {
+          "id": 1380868,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:30:00+00:00",
+          "timestamp": 1754749800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 152850,
+          "name": "Dirk Proper",
+          "photo": "https://media.api-sports.io/football/players/152850.png",
+          "type": "Missing Fixture",
+          "reason": "Head injury"
+        },
+        "team": {
+          "id": 413,
+          "name": "NEC Nijmegen",
+          "logo": "https://media.api-sports.io/football/teams/413.png"
+        },
+        "fixture": {
+          "id": 1380868,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:30:00+00:00",
+          "timestamp": 1754749800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 319518,
+          "name": "Lennard Hartjes",
+          "photo": "https://media.api-sports.io/football/players/319518.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 196,
+          "name": "Excelsior",
+          "logo": "https://media.api-sports.io/football/teams/196.png"
+        },
+        "fixture": {
+          "id": 1380868,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:30:00+00:00",
+          "timestamp": 1754749800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380869"
+    },
+    "errors": [],
+    "results": 13,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 7529,
+          "name": "Gernot Trauner",
+          "photo": "https://media.api-sports.io/football/players/7529.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon problems"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380869,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:45:00+00:00",
+          "timestamp": 1754757900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 39094,
+          "name": "Fredrik Oldrup Jensen",
+          "photo": "https://media.api-sports.io/football/players/39094.png",
+          "type": "Missing Fixture",
+          "reason": "Toe Injury"
+        },
+        "team": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png"
+        },
+        "fixture": {
+          "id": 1380869,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:45:00+00:00",
+          "timestamp": 1754757900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 37147,
+          "name": "Bart Nieuwkoop",
+          "photo": "https://media.api-sports.io/football/players/37147.png",
+          "type": "Missing Fixture",
+          "reason": "Leg Injury"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380869,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:45:00+00:00",
+          "timestamp": 1754757900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 6386,
+          "name": "Julian Carranza",
+          "photo": "https://media.api-sports.io/football/players/6386.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380869,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:45:00+00:00",
+          "timestamp": 1754757900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 40911,
+          "name": "Jakub Moder",
+          "photo": "https://media.api-sports.io/football/players/40911.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380869,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:45:00+00:00",
+          "timestamp": 1754757900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 37742,
+          "name": "Gijs Smal",
+          "photo": "https://media.api-sports.io/football/players/37742.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380869,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:45:00+00:00",
+          "timestamp": 1754757900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 1717,
+          "name": "Leo Greiml",
+          "photo": "https://media.api-sports.io/football/players/1717.png",
+          "type": "Missing Fixture",
+          "reason": "Shoulder injury"
+        },
+        "team": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png"
+        },
+        "fixture": {
+          "id": 1380869,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:45:00+00:00",
+          "timestamp": 1754757900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 129788,
+          "name": "Charles Andreas Brym",
+          "photo": "https://media.api-sports.io/football/players/129788.png",
+          "type": "Missing Fixture",
+          "reason": "Arm injury"
+        },
+        "team": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png"
+        },
+        "fixture": {
+          "id": 1380869,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:45:00+00:00",
+          "timestamp": 1754757900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 138874,
+          "name": "Antef Tsoungui",
+          "photo": "https://media.api-sports.io/football/players/138874.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380869,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:45:00+00:00",
+          "timestamp": 1754757900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 297583,
+          "name": "Jeyland Mitchell",
+          "photo": "https://media.api-sports.io/football/players/297583.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380869,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:45:00+00:00",
+          "timestamp": 1754757900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 328141,
+          "name": "Thomas Beelen",
+          "photo": "https://media.api-sports.io/football/players/328141.png",
+          "type": "Missing Fixture",
+          "reason": "Broken leg"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380869,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:45:00+00:00",
+          "timestamp": 1754757900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 361888,
+          "name": "Shiloh Kiesar t Zand",
+          "photo": "https://media.api-sports.io/football/players/361888.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380869,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:45:00+00:00",
+          "timestamp": 1754757900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 275268,
+          "name": "Chris-Kevin Nadje",
+          "photo": "https://media.api-sports.io/football/players/275268.png",
+          "type": "Missing Fixture",
+          "reason": "Foot surgery"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380869,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:45:00+00:00",
+          "timestamp": 1754757900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380870"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 425585,
+          "name": "Oliver Braude",
+          "photo": "https://media.api-sports.io/football/players/425585.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 210,
+          "name": "Heerenveen",
+          "logo": "https://media.api-sports.io/football/teams/210.png"
+        },
+        "fixture": {
+          "id": 1380870,
+          "timezone": "UTC",
+          "date": "2025-08-09T18:00:00+00:00",
+          "timestamp": 1754762400
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380871"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 1815,
+          "name": "Jonathan Alexander De Guzman",
+          "photo": "https://media.api-sports.io/football/players/1815.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png"
+        },
+        "fixture": {
+          "id": 1380871,
+          "timezone": "UTC",
+          "date": "2025-08-09T19:00:00+00:00",
+          "timestamp": 1754766000
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 39100,
+          "name": "Tobias Lauritsen",
+          "photo": "https://media.api-sports.io/football/players/39100.png",
+          "type": "Missing Fixture",
+          "reason": "hand injury"
+        },
+        "team": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png"
+        },
+        "fixture": {
+          "id": 1380871,
+          "timezone": "UTC",
+          "date": "2025-08-09T19:00:00+00:00",
+          "timestamp": 1754766000
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 92977,
+          "name": "Lance Duijvestijn",
+          "photo": "https://media.api-sports.io/football/players/92977.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png"
+        },
+        "fixture": {
+          "id": 1380871,
+          "timezone": "UTC",
+          "date": "2025-08-09T19:00:00+00:00",
+          "timestamp": 1754766000
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 359984,
+          "name": "Mike Kleijn",
+          "photo": "https://media.api-sports.io/football/players/359984.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png"
+        },
+        "fixture": {
+          "id": 1380871,
+          "timezone": "UTC",
+          "date": "2025-08-09T19:00:00+00:00",
+          "timestamp": 1754766000
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380872"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 37765,
+          "name": "Lars Unnerstall",
+          "photo": "https://media.api-sports.io/football/players/37765.png",
+          "type": "Missing Fixture",
+          "reason": "Minor Knock"
+        },
+        "team": {
+          "id": 415,
+          "name": "Twente",
+          "logo": "https://media.api-sports.io/football/teams/415.png"
+        },
+        "fixture": {
+          "id": 1380872,
+          "timezone": "UTC",
+          "date": "2025-08-10T10:15:00+00:00",
+          "timestamp": 1754820900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 37588,
+          "name": "Odysseus Velanas",
+          "photo": "https://media.api-sports.io/football/players/37588.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 193,
+          "name": "PEC Zwolle",
+          "logo": "https://media.api-sports.io/football/teams/193.png"
+        },
+        "fixture": {
+          "id": 1380872,
+          "timezone": "UTC",
+          "date": "2025-08-10T10:15:00+00:00",
+          "timestamp": 1754820900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 36881,
+          "name": "Jasper Schendelaar",
+          "photo": "https://media.api-sports.io/football/players/36881.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 193,
+          "name": "PEC Zwolle",
+          "logo": "https://media.api-sports.io/football/teams/193.png"
+        },
+        "fixture": {
+          "id": 1380872,
+          "timezone": "UTC",
+          "date": "2025-08-10T10:15:00+00:00",
+          "timestamp": 1754820900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380873"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 37652,
+          "name": "Branco van den Boomen",
+          "photo": "https://media.api-sports.io/football/players/37652.png",
+          "type": "Missing Fixture",
+          "reason": "Back Injury"
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "fixture": {
+          "id": 1380873,
+          "timezone": "UTC",
+          "date": "2025-08-10T12:30:00+00:00",
+          "timestamp": 1754829000
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 38750,
+          "name": "Brian Brobbey",
+          "photo": "https://media.api-sports.io/football/players/38750.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "fixture": {
+          "id": 1380873,
+          "timezone": "UTC",
+          "date": "2025-08-10T12:30:00+00:00",
+          "timestamp": 1754829000
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 14701,
+          "name": "Josip Sutalo",
+          "photo": "https://media.api-sports.io/football/players/14701.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "fixture": {
+          "id": 1380873,
+          "timezone": "UTC",
+          "date": "2025-08-10T12:30:00+00:00",
+          "timestamp": 1754829000
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380874"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 36854,
+          "name": "Etienne Vaessen",
+          "photo": "https://media.api-sports.io/football/players/36854.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 202,
+          "name": "Groningen",
+          "logo": "https://media.api-sports.io/football/teams/202.png"
+        },
+        "fixture": {
+          "id": 1380874,
+          "timezone": "UTC",
+          "date": "2025-08-10T12:30:00+00:00",
+          "timestamp": 1754829000
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380875"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 37735,
+          "name": "Mike Eerdhuijzen",
+          "photo": "https://media.api-sports.io/football/players/37735.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png"
+        },
+        "fixture": {
+          "id": 1380875,
+          "timezone": "UTC",
+          "date": "2025-08-10T14:45:00+00:00",
+          "timestamp": 1754837100
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 156998,
+          "name": "Davy van den Berg",
+          "photo": "https://media.api-sports.io/football/players/156998.png",
+          "type": "Missing Fixture",
+          "reason": "Foot injury"
+        },
+        "team": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png"
+        },
+        "fixture": {
+          "id": 1380875,
+          "timezone": "UTC",
+          "date": "2025-08-10T14:45:00+00:00",
+          "timestamp": 1754837100
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 203153,
+          "name": "Sava-Arangel Cestic",
+          "photo": "https://media.api-sports.io/football/players/203153.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle fracture"
+        },
+        "team": {
+          "id": 206,
+          "name": "Heracles",
+          "logo": "https://media.api-sports.io/football/teams/206.png"
+        },
+        "fixture": {
+          "id": 1380875,
+          "timezone": "UTC",
+          "date": "2025-08-10T14:45:00+00:00",
+          "timestamp": 1754837100
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 284295,
+          "name": "Zidane Iqbal",
+          "photo": "https://media.api-sports.io/football/players/284295.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png"
+        },
+        "fixture": {
+          "id": 1380875,
+          "timezone": "UTC",
+          "date": "2025-08-10T14:45:00+00:00",
+          "timestamp": 1754837100
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 350641,
+          "name": "Ivar Jenner",
+          "photo": "https://media.api-sports.io/football/players/350641.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png"
+        },
+        "fixture": {
+          "id": 1380875,
+          "timezone": "UTC",
+          "date": "2025-08-10T14:45:00+00:00",
+          "timestamp": 1754837100
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 359315,
+          "name": "Rafik el Arguioui",
+          "photo": "https://media.api-sports.io/football/players/359315.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png"
+        },
+        "fixture": {
+          "id": 1380875,
+          "timezone": "UTC",
+          "date": "2025-08-10T14:45:00+00:00",
+          "timestamp": 1754837100
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380876"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 37588,
+          "name": "Odysseus Velanas",
+          "photo": "https://media.api-sports.io/football/players/37588.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 193,
+          "name": "PEC Zwolle",
+          "logo": "https://media.api-sports.io/football/teams/193.png"
+        },
+        "fixture": {
+          "id": 1380876,
+          "timezone": "UTC",
+          "date": "2025-08-15T18:00:00+00:00",
+          "timestamp": 1755280800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 36881,
+          "name": "Jasper Schendelaar",
+          "photo": "https://media.api-sports.io/football/players/36881.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 193,
+          "name": "PEC Zwolle",
+          "logo": "https://media.api-sports.io/football/teams/193.png"
+        },
+        "fixture": {
+          "id": 1380876,
+          "timezone": "UTC",
+          "date": "2025-08-15T18:00:00+00:00",
+          "timestamp": 1755280800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380878"
+    },
+    "errors": [],
+    "results": 10,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 7529,
+          "name": "Gernot Trauner",
+          "photo": "https://media.api-sports.io/football/players/7529.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon problems"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380878,
+          "timezone": "UTC",
+          "date": "2025-08-16T16:45:00+00:00",
+          "timestamp": 1755362700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 40911,
+          "name": "Jakub Moder",
+          "photo": "https://media.api-sports.io/football/players/40911.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380878,
+          "timezone": "UTC",
+          "date": "2025-08-16T16:45:00+00:00",
+          "timestamp": 1755362700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 319518,
+          "name": "Lennard Hartjes",
+          "photo": "https://media.api-sports.io/football/players/319518.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 196,
+          "name": "Excelsior",
+          "logo": "https://media.api-sports.io/football/teams/196.png"
+        },
+        "fixture": {
+          "id": 1380878,
+          "timezone": "UTC",
+          "date": "2025-08-16T16:45:00+00:00",
+          "timestamp": 1755362700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 138874,
+          "name": "Antef Tsoungui",
+          "photo": "https://media.api-sports.io/football/players/138874.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380878,
+          "timezone": "UTC",
+          "date": "2025-08-16T16:45:00+00:00",
+          "timestamp": 1755362700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 297583,
+          "name": "Jeyland Mitchell",
+          "photo": "https://media.api-sports.io/football/players/297583.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380878,
+          "timezone": "UTC",
+          "date": "2025-08-16T16:45:00+00:00",
+          "timestamp": 1755362700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 328141,
+          "name": "Thomas Beelen",
+          "photo": "https://media.api-sports.io/football/players/328141.png",
+          "type": "Missing Fixture",
+          "reason": "Broken leg"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380878,
+          "timezone": "UTC",
+          "date": "2025-08-16T16:45:00+00:00",
+          "timestamp": 1755362700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 359390,
+          "name": "Givairo Read",
+          "photo": "https://media.api-sports.io/football/players/359390.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380878,
+          "timezone": "UTC",
+          "date": "2025-08-16T16:45:00+00:00",
+          "timestamp": 1755362700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 361888,
+          "name": "Shiloh Kiesar t Zand",
+          "photo": "https://media.api-sports.io/football/players/361888.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380878,
+          "timezone": "UTC",
+          "date": "2025-08-16T16:45:00+00:00",
+          "timestamp": 1755362700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 374500,
+          "name": "Mannou Berger",
+          "photo": "https://media.api-sports.io/football/players/374500.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380878,
+          "timezone": "UTC",
+          "date": "2025-08-16T16:45:00+00:00",
+          "timestamp": 1755362700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 275268,
+          "name": "Chris-Kevin Nadje",
+          "photo": "https://media.api-sports.io/football/players/275268.png",
+          "type": "Missing Fixture",
+          "reason": "Foot surgery"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1380878,
+          "timezone": "UTC",
+          "date": "2025-08-16T16:45:00+00:00",
+          "timestamp": 1755362700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380879"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 37081,
+          "name": "Mario Engels",
+          "photo": "https://media.api-sports.io/football/players/37081.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 206,
+          "name": "Heracles",
+          "logo": "https://media.api-sports.io/football/teams/206.png"
+        },
+        "fixture": {
+          "id": 1380879,
+          "timezone": "UTC",
+          "date": "2025-08-16T18:00:00+00:00",
+          "timestamp": 1755367200
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 21152,
+          "name": "Jeff Reine Adelaide",
+          "photo": "https://media.api-sports.io/football/players/21152.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 206,
+          "name": "Heracles",
+          "logo": "https://media.api-sports.io/football/teams/206.png"
+        },
+        "fixture": {
+          "id": 1380879,
+          "timezone": "UTC",
+          "date": "2025-08-16T18:00:00+00:00",
+          "timestamp": 1755367200
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 203153,
+          "name": "Sava-Arangel Cestic",
+          "photo": "https://media.api-sports.io/football/players/203153.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle fracture"
+        },
+        "team": {
+          "id": 206,
+          "name": "Heracles",
+          "logo": "https://media.api-sports.io/football/teams/206.png"
+        },
+        "fixture": {
+          "id": 1380879,
+          "timezone": "UTC",
+          "date": "2025-08-16T18:00:00+00:00",
+          "timestamp": 1755367200
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380877"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 36854,
+          "name": "Etienne Vaessen",
+          "photo": "https://media.api-sports.io/football/players/36854.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 202,
+          "name": "Groningen",
+          "logo": "https://media.api-sports.io/football/teams/202.png"
+        },
+        "fixture": {
+          "id": 1380877,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:00:00+00:00",
+          "timestamp": 1755370800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 325845,
+          "name": "Levi Smans",
+          "photo": "https://media.api-sports.io/football/players/325845.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 210,
+          "name": "Heerenveen",
+          "logo": "https://media.api-sports.io/football/teams/210.png"
+        },
+        "fixture": {
+          "id": 1380877,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:00:00+00:00",
+          "timestamp": 1755370800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380880"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 37652,
+          "name": "Branco van den Boomen",
+          "photo": "https://media.api-sports.io/football/players/37652.png",
+          "type": "Missing Fixture",
+          "reason": "Back Injury"
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "fixture": {
+          "id": 1380880,
+          "timezone": "UTC",
+          "date": "2025-08-17T10:15:00+00:00",
+          "timestamp": 1755425700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 38750,
+          "name": "Brian Brobbey",
+          "photo": "https://media.api-sports.io/football/players/38750.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "fixture": {
+          "id": 1380880,
+          "timezone": "UTC",
+          "date": "2025-08-17T10:15:00+00:00",
+          "timestamp": 1755425700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 128765,
+          "name": "Soren Tengstedt",
+          "photo": "https://media.api-sports.io/football/players/128765.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png"
+        },
+        "fixture": {
+          "id": 1380880,
+          "timezone": "UTC",
+          "date": "2025-08-17T10:15:00+00:00",
+          "timestamp": 1755425700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 14701,
+          "name": "Josip Sutalo",
+          "photo": "https://media.api-sports.io/football/players/14701.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "fixture": {
+          "id": 1380880,
+          "timezone": "UTC",
+          "date": "2025-08-17T10:15:00+00:00",
+          "timestamp": 1755425700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 277922,
+          "name": "Calvin Twigt",
+          "photo": "https://media.api-sports.io/football/players/277922.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png"
+        },
+        "fixture": {
+          "id": 1380880,
+          "timezone": "UTC",
+          "date": "2025-08-17T10:15:00+00:00",
+          "timestamp": 1755425700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 378962,
+          "name": "Pim Saathof",
+          "photo": "https://media.api-sports.io/football/players/378962.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png"
+        },
+        "fixture": {
+          "id": 1380880,
+          "timezone": "UTC",
+          "date": "2025-08-17T10:15:00+00:00",
+          "timestamp": 1755425700
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380882"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 37765,
+          "name": "Lars Unnerstall",
+          "photo": "https://media.api-sports.io/football/players/37765.png",
+          "type": "Missing Fixture",
+          "reason": "Minor Knock"
+        },
+        "team": {
+          "id": 415,
+          "name": "Twente",
+          "logo": "https://media.api-sports.io/football/teams/415.png"
+        },
+        "fixture": {
+          "id": 1380882,
+          "timezone": "UTC",
+          "date": "2025-08-17T12:30:00+00:00",
+          "timestamp": 1755433800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380881"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 1815,
+          "name": "Jonathan Alexander De Guzman",
+          "photo": "https://media.api-sports.io/football/players/1815.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png"
+        },
+        "fixture": {
+          "id": 1380881,
+          "timezone": "UTC",
+          "date": "2025-08-17T12:30:00+00:00",
+          "timestamp": 1755433800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 284295,
+          "name": "Zidane Iqbal",
+          "photo": "https://media.api-sports.io/football/players/284295.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png"
+        },
+        "fixture": {
+          "id": 1380881,
+          "timezone": "UTC",
+          "date": "2025-08-17T12:30:00+00:00",
+          "timestamp": 1755433800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 350641,
+          "name": "Ivar Jenner",
+          "photo": "https://media.api-sports.io/football/players/350641.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png"
+        },
+        "fixture": {
+          "id": 1380881,
+          "timezone": "UTC",
+          "date": "2025-08-17T12:30:00+00:00",
+          "timestamp": 1755433800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 359984,
+          "name": "Mike Kleijn",
+          "photo": "https://media.api-sports.io/football/players/359984.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png"
+        },
+        "fixture": {
+          "id": 1380881,
+          "timezone": "UTC",
+          "date": "2025-08-17T12:30:00+00:00",
+          "timestamp": 1755433800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 359315,
+          "name": "Rafik el Arguioui",
+          "photo": "https://media.api-sports.io/football/players/359315.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png"
+        },
+        "fixture": {
+          "id": 1380881,
+          "timezone": "UTC",
+          "date": "2025-08-17T12:30:00+00:00",
+          "timestamp": 1755433800
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380883"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 199793,
+          "name": "Seiya Maikuma",
+          "photo": "https://media.api-sports.io/football/players/199793.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png"
+        },
+        "fixture": {
+          "id": 1380883,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:45:00+00:00",
+          "timestamp": 1755441900
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1380884"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 39094,
+          "name": "Fredrik Oldrup Jensen",
+          "photo": "https://media.api-sports.io/football/players/39094.png",
+          "type": "Missing Fixture",
+          "reason": "Toe Injury"
+        },
+        "team": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png"
+        },
+        "fixture": {
+          "id": 1380884,
+          "timezone": "UTC",
+          "date": "2025-08-17T18:00:00+00:00",
+          "timestamp": 1755453600
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 536,
+          "name": "Daley Sinkgraven",
+          "photo": "https://media.api-sports.io/football/players/536.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 205,
+          "name": "Fortuna Sittard",
+          "logo": "https://media.api-sports.io/football/teams/205.png"
+        },
+        "fixture": {
+          "id": 1380884,
+          "timezone": "UTC",
+          "date": "2025-08-17T18:00:00+00:00",
+          "timestamp": 1755453600
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 1717,
+          "name": "Leo Greiml",
+          "photo": "https://media.api-sports.io/football/players/1717.png",
+          "type": "Missing Fixture",
+          "reason": "Shoulder injury"
+        },
+        "team": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png"
+        },
+        "fixture": {
+          "id": 1380884,
+          "timezone": "UTC",
+          "date": "2025-08-17T18:00:00+00:00",
+          "timestamp": 1755453600
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 129788,
+          "name": "Charles Andreas Brym",
+          "photo": "https://media.api-sports.io/football/players/129788.png",
+          "type": "Missing Fixture",
+          "reason": "Arm injury"
+        },
+        "team": {
+          "id": 203,
+          "name": "NAC Breda",
+          "logo": "https://media.api-sports.io/football/teams/203.png"
+        },
+        "fixture": {
+          "id": 1380884,
+          "timezone": "UTC",
+          "date": "2025-08-17T18:00:00+00:00",
+          "timestamp": 1755453600
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 41592,
+          "name": "Umaro Embalo",
+          "photo": "https://media.api-sports.io/football/players/41592.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 205,
+          "name": "Fortuna Sittard",
+          "logo": "https://media.api-sports.io/football/teams/205.png"
+        },
+        "fixture": {
+          "id": 1380884,
+          "timezone": "UTC",
+          "date": "2025-08-17T18:00:00+00:00",
+          "timestamp": 1755453600
+        },
+        "league": {
+          "id": 88,
+          "season": 2025,
+          "name": "Eredivisie",
+          "country": "Netherlands",
+          "logo": "https://media.api-sports.io/football/leagues/88.png",
+          "flag": "https://media.api-sports.io/flags/nl.svg"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,8612 @@
+[
+  {
+    "fixture": {
+      "id": 1311851,
+      "referee": "S. Simpson",
+      "timezone": "UTC",
+      "date": "2024-11-01T19:45:00+00:00",
+      "timestamp": 1730490300,
+      "periods": {
+        "first": 1730490300,
+        "second": 1730493900
+      },
+      "venue": {
+        "id": 567,
+        "name": "Meadow Lane",
+        "city": "Nottingham, Nottinghamshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1376,
+        "name": "Notts County",
+        "logo": "https://media.api-sports.io/football/teams/1376.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4677,
+        "name": "Alfreton Town",
+        "logo": "https://media.api-sports.io/football/teams/4677.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311827,
+      "referee": "B. Speedie",
+      "timezone": "UTC",
+      "date": "2024-11-01T19:45:00+00:00",
+      "timestamp": 1730490300,
+      "periods": {
+        "first": 1730490300,
+        "second": 1730493900
+      },
+      "venue": {
+        "id": 5610,
+        "name": "The Lamb Ground",
+        "city": "Tamworth, Staffordshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7752,
+        "name": "Tamworth",
+        "logo": "https://media.api-sports.io/football/teams/7752.png",
+        "winner": true
+      },
+      "away": {
+        "id": 37,
+        "name": "Huddersfield",
+        "logo": "https://media.api-sports.io/football/teams/37.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311841,
+      "referee": "P. Howard",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 12052,
+        "name": "Select Car Leasing Stadium",
+        "city": "Reading, Berkshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 53,
+        "name": "Reading",
+        "logo": "https://media.api-sports.io/football/teams/53.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1336,
+        "name": "Fleetwood Town",
+        "logo": "https://media.api-sports.io/football/teams/1336.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311823,
+      "referee": "A. Herczeg",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 578,
+        "name": "AESSEAL New York Stadium",
+        "city": "Rotherham, South Yorkshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 73,
+        "name": "Rotherham",
+        "logo": "https://media.api-sports.io/football/teams/73.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1372,
+        "name": "Cheltenham",
+        "logo": "https://media.api-sports.io/football/teams/1372.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311833,
+      "referee": "S. Mather",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 513,
+        "name": "Pirelli Stadium",
+        "city": "Burton-upon-Trent, Staffordshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 748,
+        "name": "Burton Albion",
+        "logo": "https://media.api-sports.io/football/teams/748.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7745,
+        "name": "Scarborough Athletic",
+        "logo": "https://media.api-sports.io/football/teams/7745.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311838,
+      "referee": "O. Yates",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 510,
+        "name": "Memorial Stadium",
+        "city": "Bristol, Gloucestershire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1334,
+        "name": "Bristol Rovers",
+        "logo": "https://media.api-sports.io/football/teams/1334.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4687,
+        "name": "Weston-super-Mare",
+        "logo": "https://media.api-sports.io/football/teams/4687.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 2,
+        "away": 0
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311835,
+      "referee": "A. Bannister",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 577,
+        "name": "Crown Oil Arena",
+        "city": "Rochdale, Greater Manchester"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1339,
+        "name": "Rochdale",
+        "logo": "https://media.api-sports.io/football/teams/1339.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1832,
+        "name": "Bromley",
+        "logo": "https://media.api-sports.io/football/teams/1832.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311850,
+      "referee": "D. Drysdale",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 586,
+        "name": "Roots Hall",
+        "city": "Southend-on-Sea, Essex"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1341,
+        "name": "Southend",
+        "logo": "https://media.api-sports.io/football/teams/1341.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1335,
+        "name": "Charlton",
+        "logo": "https://media.api-sports.io/football/teams/1335.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": 0,
+        "away": 1
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311836,
+      "referee": "R. Ricardo",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 18620,
+        "name": "Poundland Bescot Stadium",
+        "city": "Walsall, West Midlands"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 15
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1342,
+        "name": "Walsall",
+        "logo": "https://media.api-sports.io/football/teams/1342.png",
+        "winner": true
+      },
+      "away": {
+        "id": 68,
+        "name": "Bolton",
+        "logo": "https://media.api-sports.io/football/teams/68.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311829,
+      "referee": "C. Hicks",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 19198,
+        "name": "University of Bradford Stadium",
+        "city": "Bradford, West Yorkshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1343,
+        "name": "Bradford",
+        "logo": "https://media.api-sports.io/football/teams/1343.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1818,
+        "name": "Aldershot Town",
+        "logo": "https://media.api-sports.io/football/teams/1818.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311849,
+      "referee": "M. Coy",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 19924,
+        "name": "SMH Group Stadium",
+        "city": "Chesterfield, Derbyshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1345,
+        "name": "Chesterfield",
+        "logo": "https://media.api-sports.io/football/teams/1345.png",
+        "winner": true
+      },
+      "away": {
+        "id": 7723,
+        "name": "Horsham",
+        "logo": "https://media.api-sports.io/football/teams/7723.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311854,
+      "referee": "C. Brook",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 537,
+        "name": "Priestfield Stadium",
+        "city": "Gillingham, Kent"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1347,
+        "name": "Gillingham",
+        "logo": "https://media.api-sports.io/football/teams/1347.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1356,
+        "name": "Blackpool",
+        "logo": "https://media.api-sports.io/football/teams/1356.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311847,
+      "referee": "C. Breakspear",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 572,
+        "name": "Vale Park",
+        "city": "Stoke-on-Trent, Staffordshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1351,
+        "name": "Port Vale",
+        "logo": "https://media.api-sports.io/football/teams/1351.png",
+        "winner": false
+      },
+      "away": {
+        "id": 747,
+        "name": "Barnsley",
+        "logo": "https://media.api-sports.io/football/teams/747.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311844,
+      "referee": "S. Jackson",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 21482,
+        "name": "The Nigel Eady County Ground",
+        "city": "Swindon, Wiltshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1353,
+        "name": "Swindon Town",
+        "logo": "https://media.api-sports.io/football/teams/1353.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1361,
+        "name": "Colchester",
+        "logo": "https://media.api-sports.io/football/teams/1361.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 1,
+        "away": 0
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311828,
+      "referee": "T. Reeves",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 602,
+        "name": "Adams Park",
+        "city": "High Wycombe, Buckinghamshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1358,
+        "name": "Wycombe",
+        "logo": "https://media.api-sports.io/football/teams/1358.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1828,
+        "name": "York",
+        "logo": "https://media.api-sports.io/football/teams/1828.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311846,
+      "referee": "J. Mulligan",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 11876,
+        "name": "Mornflake Stadium",
+        "city": "Crewe, Cheshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1363,
+        "name": "Crewe",
+        "logo": "https://media.api-sports.io/football/teams/1363.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1821,
+        "name": "Dagenham & Redbridge",
+        "logo": "https://media.api-sports.io/football/teams/1821.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311825,
+      "referee": "L. Swabey",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 532,
+        "name": "St James Park",
+        "city": "Exeter, Devon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 13
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1364,
+        "name": "Exeter City",
+        "logo": "https://media.api-sports.io/football/teams/1364.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1369,
+        "name": "Barnet",
+        "logo": "https://media.api-sports.io/football/teams/1369.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311837,
+      "referee": "J. Westgate",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 538,
+        "name": "Blundell Park",
+        "city": "Cleethorpes, North East Lincolnshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1365,
+        "name": "Grimsby",
+        "logo": "https://media.api-sports.io/football/teams/1365.png",
+        "winner": false
+      },
+      "away": {
+        "id": 8663,
+        "name": "Wealdstone",
+        "logo": "https://media.api-sports.io/football/teams/8663.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311857,
+      "referee": "S. Martin",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": null,
+        "name": "Rodney Parade",
+        "city": "Casnewydd"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1367,
+        "name": "Newport County",
+        "logo": "https://media.api-sports.io/football/teams/1367.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1350,
+        "name": "Peterborough",
+        "logo": "https://media.api-sports.io/football/teams/1350.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311842,
+      "referee": "O. Mackey",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 21182,
+        "name": "Lamex Stadium",
+        "city": "Stevenage, Hertfordshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1368,
+        "name": "Stevenage",
+        "logo": "https://media.api-sports.io/football/teams/1368.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1824,
+        "name": "Guiseley AFC",
+        "logo": "https://media.api-sports.io/football/teams/1824.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 5,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311826,
+      "referee": "M. Woods",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 517,
+        "name": "Brunton Park",
+        "city": "Carlisle, Cumbria"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1371,
+        "name": "Carlisle",
+        "logo": "https://media.api-sports.io/football/teams/1371.png",
+        "winner": false
+      },
+      "away": {
+        "id": 61,
+        "name": "Wigan",
+        "logo": "https://media.api-sports.io/football/teams/61.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311834,
+      "referee": "R. Martin",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 594,
+        "name": "Prenton Park",
+        "city": "Birkenhead, Merseyside"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1381,
+        "name": "Tranmere",
+        "logo": "https://media.api-sports.io/football/teams/1381.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1349,
+        "name": "Oldham",
+        "logo": "https://media.api-sports.io/football/teams/1349.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311824,
+      "referee": "D. Baines",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 19197,
+        "name": "SO Legal Stadium",
+        "city": "Barrow-in-Furness, Cumbria"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1819,
+        "name": "Barrow",
+        "logo": "https://media.api-sports.io/football/teams/1819.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1354,
+        "name": "Doncaster",
+        "logo": "https://media.api-sports.io/football/teams/1354.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1312074,
+      "referee": "R. Watkins",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 19204,
+        "name": "ARMCO Arena",
+        "city": "Solihull, West Midlands"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1834,
+        "name": "Solihull Moors",
+        "logo": "https://media.api-sports.io/football/teams/1834.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1825,
+        "name": "Maidstone Utd",
+        "logo": "https://media.api-sports.io/football/teams/1825.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311853,
+      "referee": "J. O'Connor",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 2689,
+        "name": "The Laithwaite Community Stadium",
+        "city": "Woking, Surrey"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1836,
+        "name": "Woking",
+        "logo": "https://media.api-sports.io/football/teams/1836.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1370,
+        "name": "Cambridge United",
+        "logo": "https://media.api-sports.io/football/teams/1370.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1312076,
+      "referee": "S. Parkinson",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 553,
+        "name": "York Road Stadium",
+        "city": "Maidenhead, Berkshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1838,
+        "name": "Maidenhead",
+        "logo": "https://media.api-sports.io/football/teams/1838.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1362,
+        "name": "Crawley Town",
+        "logo": "https://media.api-sports.io/football/teams/1362.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 1
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311845,
+      "referee": "L. Doughty",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 579,
+        "name": "The Peninsula Stadium",
+        "city": "Salford, Greater Manchester"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1844,
+        "name": "Salford City",
+        "logo": "https://media.api-sports.io/football/teams/1844.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1352,
+        "name": "Shrewsbury",
+        "logo": "https://media.api-sports.io/football/teams/1352.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311840,
+      "referee": "S. Tallis",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 3535,
+        "name": "Edgeley Park",
+        "city": "Stockport, Greater Manchester"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4686,
+        "name": "Stockport County",
+        "logo": "https://media.api-sports.io/football/teams/4686.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1378,
+        "name": "Forest Green",
+        "logo": "https://media.api-sports.io/football/teams/1378.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 1,
+        "away": 0
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1312072,
+      "referee": "S. Morland",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 11943,
+        "name": "St. James Park",
+        "city": "Brackley, Northamptonshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4701,
+        "name": "Brackley Town",
+        "logo": "https://media.api-sports.io/football/teams/4701.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1831,
+        "name": "Braintree",
+        "logo": "https://media.api-sports.io/football/teams/1831.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 5,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1312073,
+      "referee": "J. Richardson",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 5580,
+        "name": "Keys Park",
+        "city": "Hednesford, Staffordshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7721,
+        "name": "Hednesford Town",
+        "logo": "https://media.api-sports.io/football/teams/7721.png",
+        "winner": false
+      },
+      "away": {
+        "id": 4691,
+        "name": "Gainsborough Trinity",
+        "logo": "https://media.api-sports.io/football/teams/4691.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": 1,
+        "away": 1
+      },
+      "penalty": {
+        "home": 4,
+        "away": 5
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1312075,
+      "referee": "S. Copeland",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 5601,
+        "name": "Dales Lane",
+        "city": "Walsall, West Midlands"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7743,
+        "name": "Rushall Olympic",
+        "logo": "https://media.api-sports.io/football/teams/7743.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1360,
+        "name": "Accrington ST",
+        "logo": "https://media.api-sports.io/football/teams/1360.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311831,
+      "referee": "S. Mulhall",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 20346,
+        "name": "Sussex Transport Community Stadium",
+        "city": "Worthing, West Sussex"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7761,
+        "name": "Worthing",
+        "logo": "https://media.api-sports.io/football/teams/7761.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1375,
+        "name": "Morecambe",
+        "logo": "https://media.api-sports.io/football/teams/1375.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311855,
+      "referee": "A. Dale",
+      "timezone": "UTC",
+      "date": "2024-11-02T15:00:00+00:00",
+      "timestamp": 1730559600,
+      "periods": {
+        "first": 1730559600,
+        "second": 1730563200
+      },
+      "venue": {
+        "id": 6192,
+        "name": "Longmead Stadium",
+        "city": "Tonbridge, Kent"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8662,
+        "name": "Tonbridge Angels",
+        "logo": "https://media.api-sports.io/football/teams/8662.png",
+        "winner": false
+      },
+      "away": {
+        "id": 8812,
+        "name": "Harborough Town",
+        "logo": "https://media.api-sports.io/football/teams/8812.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311843,
+      "referee": "E. Bell",
+      "timezone": "UTC",
+      "date": "2024-11-02T17:30:00+00:00",
+      "timestamp": 1730568600,
+      "periods": {
+        "first": 1730568600,
+        "second": 1730572200
+      },
+      "venue": {
+        "id": 11881,
+        "name": "Sixfields Stadium",
+        "city": "Northampton, East Midlands"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1337,
+        "name": "Northampton",
+        "logo": "https://media.api-sports.io/football/teams/1337.png",
+        "winner": false
+      },
+      "away": {
+        "id": 8654,
+        "name": "Kettering Town",
+        "logo": "https://media.api-sports.io/football/teams/8654.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 1
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311839,
+      "referee": "M. Corlett",
+      "timezone": "UTC",
+      "date": "2024-11-03T12:30:00+00:00",
+      "timestamp": 1730637000,
+      "periods": {
+        "first": 1730637000,
+        "second": 1730640600
+      },
+      "venue": {
+        "id": 560,
+        "name": "Stadium MK",
+        "city": "Milton Keynes, Buckinghamshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1348,
+        "name": "Milton Keynes Dons",
+        "logo": "https://media.api-sports.io/football/teams/1348.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1333,
+        "name": "AFC Wimbledon",
+        "logo": "https://media.api-sports.io/football/teams/1333.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311856,
+      "referee": "B. Atkinson",
+      "timezone": "UTC",
+      "date": "2024-11-03T12:30:00+00:00",
+      "timestamp": 1730637000,
+      "periods": {
+        "first": 1730637000,
+        "second": 1730640600
+      },
+      "venue": {
+        "id": 12272,
+        "name": "VBS Community Stadium",
+        "city": "Sutton, Surrey"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1835,
+        "name": "Sutton Utd",
+        "logo": "https://media.api-sports.io/football/teams/1835.png",
+        "winner": false
+      },
+      "away": {
+        "id": 54,
+        "name": "Birmingham",
+        "logo": "https://media.api-sports.io/football/teams/54.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311832,
+      "referee": "J. Durkin",
+      "timezone": "UTC",
+      "date": "2024-11-03T14:00:00+00:00",
+      "timestamp": 1730642400,
+      "periods": {
+        "first": 1730642400,
+        "second": 1730646000
+      },
+      "venue": {
+        "id": 503,
+        "name": "Meadow Park",
+        "city": "Borehamwood, Hertfordshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1830,
+        "name": "Boreham Wood",
+        "logo": "https://media.api-sports.io/football/teams/1830.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1373,
+        "name": "Leyton Orient",
+        "logo": "https://media.api-sports.io/football/teams/1373.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 1,
+        "away": 3
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311830,
+      "referee": "T. Parsons",
+      "timezone": "UTC",
+      "date": "2024-11-03T14:00:00+00:00",
+      "timestamp": 1730642400,
+      "periods": {
+        "first": 1730642400,
+        "second": 1730646000
+      },
+      "venue": {
+        "id": 3552,
+        "name": "Tameside Stadium",
+        "city": "Ashton-under-Lyne, Lancashire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4703,
+        "name": "Curzon Ashton",
+        "logo": "https://media.api-sports.io/football/teams/4703.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1374,
+        "name": "Mansfield Town",
+        "logo": "https://media.api-sports.io/football/teams/1374.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311852,
+      "referee": "E. Duckworth",
+      "timezone": "UTC",
+      "date": "2024-11-03T15:30:00+00:00",
+      "timestamp": 1730647800,
+      "periods": {
+        "first": 1730647800,
+        "second": 1730651400
+      },
+      "venue": {
+        "id": null,
+        "name": "Exercise Stadium",
+        "city": "Harrogate, North Yorkshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1842,
+        "name": "Harrogate Town",
+        "logo": "https://media.api-sports.io/football/teams/1842.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1837,
+        "name": "Wrexham",
+        "logo": "https://media.api-sports.io/football/teams/1837.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1311848,
+      "referee": "A. Chilowicz",
+      "timezone": "UTC",
+      "date": "2024-11-04T19:15:00+00:00",
+      "timestamp": 1730747700,
+      "periods": {
+        "first": 1730747700,
+        "second": 1730751300
+      },
+      "venue": {
+        "id": 3551,
+        "name": "The Meadow",
+        "city": "Chesham, Buckinghamshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "1st Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4702,
+        "name": "Chesham United",
+        "logo": "https://media.api-sports.io/football/teams/4702.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1379,
+        "name": "Lincoln",
+        "logo": "https://media.api-sports.io/football/teams/1379.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314872,
+      "referee": "F. Hallam",
+      "timezone": "UTC",
+      "date": "2024-11-29T19:45:00+00:00",
+      "timestamp": 1732909500,
+      "periods": {
+        "first": 1732909500,
+        "second": 1732913100
+      },
+      "venue": {
+        "id": null,
+        "name": "Exercise Stadium",
+        "city": "Harrogate, North Yorkshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1842,
+        "name": "Harrogate Town",
+        "logo": "https://media.api-sports.io/football/teams/1842.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4691,
+        "name": "Gainsborough Trinity",
+        "logo": "https://media.api-sports.io/football/teams/4691.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314867,
+      "referee": "A. Chilowicz",
+      "timezone": "UTC",
+      "date": "2024-11-30T11:30:00+00:00",
+      "timestamp": 1732966200,
+      "periods": {
+        "first": 1732966200,
+        "second": 1732969800
+      },
+      "venue": {
+        "id": 6193,
+        "name": "Grosvenor Vale",
+        "city": "Ruislip, Middlesex"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8663,
+        "name": "Wealdstone",
+        "logo": "https://media.api-sports.io/football/teams/8663.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1358,
+        "name": "Wycombe",
+        "logo": "https://media.api-sports.io/football/teams/1358.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314858,
+      "referee": "S. Oldham",
+      "timezone": "UTC",
+      "date": "2024-11-30T15:00:00+00:00",
+      "timestamp": 1732978800,
+      "periods": {
+        "first": 1732978800,
+        "second": 1732982400
+      },
+      "venue": {
+        "id": 497,
+        "name": "Oakwell",
+        "city": "Barnsley, South Yorkshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 747,
+        "name": "Barnsley",
+        "logo": "https://media.api-sports.io/football/teams/747.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1334,
+        "name": "Bristol Rovers",
+        "logo": "https://media.api-sports.io/football/teams/1334.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 3,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314855,
+      "referee": "O. Yates",
+      "timezone": "UTC",
+      "date": "2024-11-30T15:00:00+00:00",
+      "timestamp": 1732978800,
+      "periods": {
+        "first": 1732978800,
+        "second": 1732982400
+      },
+      "venue": {
+        "id": 18620,
+        "name": "Poundland Bescot Stadium",
+        "city": "Walsall, West Midlands"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1342,
+        "name": "Walsall",
+        "logo": "https://media.api-sports.io/football/teams/1342.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1335,
+        "name": "Charlton",
+        "logo": "https://media.api-sports.io/football/teams/1335.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314865,
+      "referee": "R. Ricardo",
+      "timezone": "UTC",
+      "date": "2024-11-30T15:00:00+00:00",
+      "timestamp": 1732978800,
+      "periods": {
+        "first": 1732978800,
+        "second": 1732982400
+      },
+      "venue": {
+        "id": 570,
+        "name": "Weston Homes Stadium",
+        "city": "Peterborough"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1350,
+        "name": "Peterborough",
+        "logo": "https://media.api-sports.io/football/teams/1350.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1376,
+        "name": "Notts County",
+        "logo": "https://media.api-sports.io/football/teams/1376.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314860,
+      "referee": "G. Eltringham",
+      "timezone": "UTC",
+      "date": "2024-11-30T15:00:00+00:00",
+      "timestamp": 1732978800,
+      "periods": {
+        "first": 1732978800,
+        "second": 1732982400
+      },
+      "venue": {
+        "id": 490,
+        "name": "Wham Stadium",
+        "city": "Accrington, Lancashire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1360,
+        "name": "Accrington ST",
+        "logo": "https://media.api-sports.io/football/teams/1360.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1353,
+        "name": "Swindon Town",
+        "logo": "https://media.api-sports.io/football/teams/1353.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 4,
+        "away": 1
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314861,
+      "referee": "S. Gill",
+      "timezone": "UTC",
+      "date": "2024-11-30T15:00:00+00:00",
+      "timestamp": 1732978800,
+      "periods": {
+        "first": 1732978800,
+        "second": 1732982400
+      },
+      "venue": {
+        "id": 19200,
+        "name": "Broadfield Stadium",
+        "city": "Crawley, West Sussex"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1362,
+        "name": "Crawley Town",
+        "logo": "https://media.api-sports.io/football/teams/1362.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1379,
+        "name": "Lincoln",
+        "logo": "https://media.api-sports.io/football/teams/1379.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314856,
+      "referee": "J. Miles",
+      "timezone": "UTC",
+      "date": "2024-11-30T15:00:00+00:00",
+      "timestamp": 1732978800,
+      "periods": {
+        "first": 1732978800,
+        "second": 1732982400
+      },
+      "venue": {
+        "id": 532,
+        "name": "St James Park",
+        "city": "Exeter, Devon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1364,
+        "name": "Exeter City",
+        "logo": "https://media.api-sports.io/football/teams/1364.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1345,
+        "name": "Chesterfield",
+        "logo": "https://media.api-sports.io/football/teams/1345.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314864,
+      "referee": "T. Reeves",
+      "timezone": "UTC",
+      "date": "2024-11-30T15:00:00+00:00",
+      "timestamp": 1732978800,
+      "periods": {
+        "first": 1732978800,
+        "second": 1732982400
+      },
+      "venue": {
+        "id": 21182,
+        "name": "Lamex Stadium",
+        "city": "Stevenage, Hertfordshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1368,
+        "name": "Stevenage",
+        "logo": "https://media.api-sports.io/football/teams/1368.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1374,
+        "name": "Mansfield Town",
+        "logo": "https://media.api-sports.io/football/teams/1374.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314873,
+      "referee": "Z. Kennard-Kettle",
+      "timezone": "UTC",
+      "date": "2024-11-30T15:00:00+00:00",
+      "timestamp": 1732978800,
+      "periods": {
+        "first": 1732978800,
+        "second": 1732982400
+      },
+      "venue": {
+        "id": null,
+        "name": "Cledara Abbey Stadium",
+        "city": "Cambridge, Cambridgeshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1370,
+        "name": "Cambridge United",
+        "logo": "https://media.api-sports.io/football/teams/1370.png",
+        "winner": false
+      },
+      "away": {
+        "id": 61,
+        "name": "Wigan",
+        "logo": "https://media.api-sports.io/football/teams/61.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 1
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314857,
+      "referee": "A. Young",
+      "timezone": "UTC",
+      "date": "2024-11-30T15:00:00+00:00",
+      "timestamp": 1732978800,
+      "periods": {
+        "first": 1732978800,
+        "second": 1732982400
+      },
+      "venue": {
+        "id": null,
+        "name": "Gaughan Group Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1373,
+        "name": "Leyton Orient",
+        "logo": "https://media.api-sports.io/football/teams/1373.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1349,
+        "name": "Oldham",
+        "logo": "https://media.api-sports.io/football/teams/1349.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 1,
+        "away": 0
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314868,
+      "referee": "S. Stockbridge",
+      "timezone": "UTC",
+      "date": "2024-11-30T15:00:00+00:00",
+      "timestamp": 1732978800,
+      "periods": {
+        "first": 1732978800,
+        "second": 1732982400
+      },
+      "venue": {
+        "id": null,
+        "name": "Mazuma Mobile Stadium",
+        "city": "Morecambe, Lancashire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1375,
+        "name": "Morecambe",
+        "logo": "https://media.api-sports.io/football/teams/1375.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1343,
+        "name": "Bradford",
+        "logo": "https://media.api-sports.io/football/teams/1343.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314854,
+      "referee": "M. Coy",
+      "timezone": "UTC",
+      "date": "2024-11-30T15:00:00+00:00",
+      "timestamp": 1732978800,
+      "periods": {
+        "first": 1732978800,
+        "second": 1732982400
+      },
+      "venue": {
+        "id": 579,
+        "name": "The Peninsula Stadium",
+        "city": "Salford, Greater Manchester"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1844,
+        "name": "Salford City",
+        "logo": "https://media.api-sports.io/football/teams/1844.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1372,
+        "name": "Cheltenham",
+        "logo": "https://media.api-sports.io/football/teams/1372.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314866,
+      "referee": "S. Mather",
+      "timezone": "UTC",
+      "date": "2024-11-30T15:00:00+00:00",
+      "timestamp": 1732978800,
+      "periods": {
+        "first": 1732978800,
+        "second": 1732982400
+      },
+      "venue": {
+        "id": 3535,
+        "name": "Edgeley Park",
+        "city": "Stockport, Greater Manchester"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4686,
+        "name": "Stockport County",
+        "logo": "https://media.api-sports.io/football/teams/4686.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4701,
+        "name": "Brackley Town",
+        "logo": "https://media.api-sports.io/football/teams/4701.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314859,
+      "referee": "C. Hicks",
+      "timezone": "UTC",
+      "date": "2024-11-30T19:15:00+00:00",
+      "timestamp": 1732994100,
+      "periods": {
+        "first": 1732994100,
+        "second": 1732997700
+      },
+      "venue": {
+        "id": 12456,
+        "name": "The Cherry Red Records Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1333,
+        "name": "AFC Wimbledon",
+        "logo": "https://media.api-sports.io/football/teams/1333.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1821,
+        "name": "Dagenham & Redbridge",
+        "logo": "https://media.api-sports.io/football/teams/1821.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314870,
+      "referee": "B. Speedie",
+      "timezone": "UTC",
+      "date": "2024-12-01T12:00:00+00:00",
+      "timestamp": 1733054400,
+      "periods": {
+        "first": 1733054400,
+        "second": 1733058000
+      },
+      "venue": {
+        "id": 6184,
+        "name": "Latimer Park",
+        "city": "Kettering, Northamptonshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8654,
+        "name": "Kettering Town",
+        "logo": "https://media.api-sports.io/football/teams/8654.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1354,
+        "name": "Doncaster",
+        "logo": "https://media.api-sports.io/football/teams/1354.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 1
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314863,
+      "referee": "T. Nield",
+      "timezone": "UTC",
+      "date": "2024-12-01T13:00:00+00:00",
+      "timestamp": 1733058000,
+      "periods": {
+        "first": 1733058000,
+        "second": 1733061600
+      },
+      "venue": {
+        "id": 501,
+        "name": "Bloomfield Road",
+        "city": "Blackpool, Lancashire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1356,
+        "name": "Blackpool",
+        "logo": "https://media.api-sports.io/football/teams/1356.png",
+        "winner": false
+      },
+      "away": {
+        "id": 54,
+        "name": "Birmingham",
+        "logo": "https://media.api-sports.io/football/teams/54.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314871,
+      "referee": "D. Bourne",
+      "timezone": "UTC",
+      "date": "2024-12-01T14:00:00+00:00",
+      "timestamp": 1733061600,
+      "periods": {
+        "first": 1733061600,
+        "second": 1733065200
+      },
+      "venue": {
+        "id": 12052,
+        "name": "Select Car Leasing Stadium",
+        "city": "Reading, Berkshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 53,
+        "name": "Reading",
+        "logo": "https://media.api-sports.io/football/teams/53.png",
+        "winner": true
+      },
+      "away": {
+        "id": 8812,
+        "name": "Harborough Town",
+        "logo": "https://media.api-sports.io/football/teams/8812.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": 2,
+        "away": 0
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314862,
+      "referee": "T. Kirk",
+      "timezone": "UTC",
+      "date": "2024-12-01T14:00:00+00:00",
+      "timestamp": 1733061600,
+      "periods": {
+        "first": 1733061600,
+        "second": 1733065200
+      },
+      "venue": {
+        "id": 513,
+        "name": "Pirelli Stadium",
+        "city": "Burton-upon-Trent, Staffordshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 748,
+        "name": "Burton Albion",
+        "logo": "https://media.api-sports.io/football/teams/748.png",
+        "winner": false
+      },
+      "away": {
+        "id": 7752,
+        "name": "Tamworth",
+        "logo": "https://media.api-sports.io/football/teams/7752.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": 1,
+        "away": 1
+      },
+      "penalty": {
+        "home": 3,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1314869,
+      "referee": "M. Russell",
+      "timezone": "UTC",
+      "date": "2024-12-01T15:15:00+00:00",
+      "timestamp": 1733066100,
+      "periods": {
+        "first": 1733066100,
+        "second": 1733069700
+      },
+      "venue": {
+        "id": 19204,
+        "name": "ARMCO Arena",
+        "city": "Solihull, West Midlands"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "2nd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1834,
+        "name": "Solihull Moors",
+        "logo": "https://media.api-sports.io/football/teams/1834.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1832,
+        "name": "Bromley",
+        "logo": "https://media.api-sports.io/football/teams/1832.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318865,
+      "referee": "A. Herczeg",
+      "timezone": "UTC",
+      "date": "2025-01-09T19:00:00+00:00",
+      "timestamp": 1736449200,
+      "periods": {
+        "first": 1736449200,
+        "second": 1736452800
+      },
+      "venue": {
+        "id": 581,
+        "name": "Bramall Lane",
+        "city": "Sheffield"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 62,
+        "name": "Sheffield Utd",
+        "logo": "https://media.api-sports.io/football/teams/62.png",
+        "winner": false
+      },
+      "away": {
+        "id": 43,
+        "name": "Cardiff",
+        "logo": "https://media.api-sports.io/football/teams/43.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318866,
+      "referee": "M. Donohue",
+      "timezone": "UTC",
+      "date": "2025-01-09T19:45:00+00:00",
+      "timestamp": 1736451900,
+      "periods": {
+        "first": 1736451900,
+        "second": 1736455500
+      },
+      "venue": {
+        "id": 535,
+        "name": "Craven Cottage",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 36,
+        "name": "Fulham",
+        "logo": "https://media.api-sports.io/football/teams/36.png",
+        "winner": true
+      },
+      "away": {
+        "id": 38,
+        "name": "Watford",
+        "logo": "https://media.api-sports.io/football/teams/38.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318860,
+      "referee": "T. Bramall",
+      "timezone": "UTC",
+      "date": "2025-01-09T19:45:00+00:00",
+      "timestamp": 1736451900,
+      "periods": {
+        "first": 1736451900,
+        "second": 1736455500
+      },
+      "venue": {
+        "id": 8560,
+        "name": "Goodison Park",
+        "city": "Liverpool"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 45,
+        "name": "Everton",
+        "logo": "https://media.api-sports.io/football/teams/45.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1350,
+        "name": "Peterborough",
+        "logo": "https://media.api-sports.io/football/teams/1350.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318861,
+      "referee": "T. Reeves",
+      "timezone": "UTC",
+      "date": "2025-01-10T19:45:00+00:00",
+      "timestamp": 1736538300,
+      "periods": {
+        "first": 1736538300,
+        "second": 1736541900
+      },
+      "venue": {
+        "id": 602,
+        "name": "Adams Park",
+        "city": "High Wycombe, Buckinghamshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1358,
+        "name": "Wycombe",
+        "logo": "https://media.api-sports.io/football/teams/1358.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1355,
+        "name": "Portsmouth",
+        "logo": "https://media.api-sports.io/football/teams/1355.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318841,
+      "referee": "T. Robinson",
+      "timezone": "UTC",
+      "date": "2025-01-10T20:00:00+00:00",
+      "timestamp": 1736539200,
+      "periods": {
+        "first": 1736539200,
+        "second": 1736542800
+      },
+      "venue": {
+        "id": 495,
+        "name": "Villa Park",
+        "city": "Birmingham"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 66,
+        "name": "Aston Villa",
+        "logo": "https://media.api-sports.io/football/teams/66.png",
+        "winner": true
+      },
+      "away": {
+        "id": 48,
+        "name": "West Ham",
+        "logo": "https://media.api-sports.io/football/teams/48.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318862,
+      "referee": "M. Coy",
+      "timezone": "UTC",
+      "date": "2025-01-11T12:00:00+00:00",
+      "timestamp": 1736596800,
+      "periods": {
+        "first": 1736596800,
+        "second": 1736600400
+      },
+      "venue": {
+        "id": null,
+        "name": "St. Andrew's @ Knighthead Park",
+        "city": "Birmingham"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 54,
+        "name": "Birmingham",
+        "logo": "https://media.api-sports.io/football/teams/54.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1379,
+        "name": "Lincoln",
+        "logo": "https://media.api-sports.io/football/teams/1379.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318846,
+      "referee": "R. Jones",
+      "timezone": "UTC",
+      "date": "2025-01-11T12:00:00+00:00",
+      "timestamp": 1736596800,
+      "periods": {
+        "first": 1736596800,
+        "second": 1736600400
+      },
+      "venue": {
+        "id": 20106,
+        "name": "Ashton Gate Stadium",
+        "city": "Bristol"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 56,
+        "name": "Bristol City",
+        "logo": "https://media.api-sports.io/football/teams/56.png",
+        "winner": false
+      },
+      "away": {
+        "id": 39,
+        "name": "Wolves",
+        "logo": "https://media.api-sports.io/football/teams/39.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318849,
+      "referee": "D. Whitestone",
+      "timezone": "UTC",
+      "date": "2025-01-11T12:00:00+00:00",
+      "timestamp": 1736596800,
+      "periods": {
+        "first": 1736596800,
+        "second": 1736600400
+      },
+      "venue": {
+        "id": 558,
+        "name": "Riverside Stadium",
+        "city": "Middlesbrough"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 70,
+        "name": "Middlesbrough",
+        "logo": "https://media.api-sports.io/football/teams/70.png",
+        "winner": false
+      },
+      "away": {
+        "id": 67,
+        "name": "Blackburn",
+        "logo": "https://media.api-sports.io/football/teams/67.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318845,
+      "referee": "L. Smith",
+      "timezone": "UTC",
+      "date": "2025-01-11T12:15:00+00:00",
+      "timestamp": 1736597700,
+      "periods": {
+        "first": 1736597700,
+        "second": 1736601300
+      },
+      "venue": {
+        "id": 550,
+        "name": "Anfield",
+        "city": "Liverpool"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1360,
+        "name": "Accrington ST",
+        "logo": "https://media.api-sports.io/football/teams/1360.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318856,
+      "referee": "D. Webb",
+      "timezone": "UTC",
+      "date": "2025-01-11T14:00:00+00:00",
+      "timestamp": 1736604000,
+      "periods": {
+        "first": 1736604000,
+        "second": 1736607600
+      },
+      "venue": {
+        "id": 547,
+        "name": "King Power Stadium",
+        "city": "Leicester, Leicestershire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 46,
+        "name": "Leicester",
+        "logo": "https://media.api-sports.io/football/teams/46.png",
+        "winner": true
+      },
+      "away": {
+        "id": 72,
+        "name": "QPR",
+        "logo": "https://media.api-sports.io/football/teams/72.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318850,
+      "referee": "J. Busby",
+      "timezone": "UTC",
+      "date": "2025-01-11T15:00:00+00:00",
+      "timestamp": 1736607600,
+      "periods": {
+        "first": 1736607600,
+        "second": 1736611200
+      },
+      "venue": {
+        "id": 504,
+        "name": "Vitality Stadium",
+        "city": "Bournemouth, Dorset"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 35,
+        "name": "Bournemouth",
+        "logo": "https://media.api-sports.io/football/teams/35.png",
+        "winner": true
+      },
+      "away": {
+        "id": 60,
+        "name": "West Brom",
+        "logo": "https://media.api-sports.io/football/teams/60.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318848,
+      "referee": "A. Kitchen",
+      "timezone": "UTC",
+      "date": "2025-01-11T15:00:00+00:00",
+      "timestamp": 1736607600,
+      "periods": {
+        "first": 1736607600,
+        "second": 1736611200
+      },
+      "venue": {
+        "id": 519,
+        "name": "Stamford Bridge",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 49,
+        "name": "Chelsea",
+        "logo": "https://media.api-sports.io/football/teams/49.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1375,
+        "name": "Morecambe",
+        "logo": "https://media.api-sports.io/football/teams/1375.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318840,
+      "referee": "A. Davies",
+      "timezone": "UTC",
+      "date": "2025-01-11T15:00:00+00:00",
+      "timestamp": 1736607600,
+      "periods": {
+        "first": 1736607600,
+        "second": 1736611200
+      },
+      "venue": {
+        "id": 12052,
+        "name": "Select Car Leasing Stadium",
+        "city": "Reading, Berkshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 53,
+        "name": "Reading",
+        "logo": "https://media.api-sports.io/football/teams/53.png",
+        "winner": false
+      },
+      "away": {
+        "id": 44,
+        "name": "Burnley",
+        "logo": "https://media.api-sports.io/football/teams/44.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 2
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318857,
+      "referee": "B. Toner",
+      "timezone": "UTC",
+      "date": "2025-01-11T15:00:00+00:00",
+      "timestamp": 1736607600,
+      "periods": {
+        "first": 1736607600,
+        "second": 1736611200
+      },
+      "venue": {
+        "id": 10503,
+        "name": "Gtech Community Stadium",
+        "city": "Brentford, Middlesex"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 55,
+        "name": "Brentford",
+        "logo": "https://media.api-sports.io/football/teams/55.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1357,
+        "name": "Plymouth",
+        "logo": "https://media.api-sports.io/football/teams/1357.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318864,
+      "referee": "D. England",
+      "timezone": "UTC",
+      "date": "2025-01-11T15:00:00+00:00",
+      "timestamp": 1736607600,
+      "periods": {
+        "first": 1736607600,
+        "second": 1736611200
+      },
+      "venue": {
+        "id": 566,
+        "name": "The City Ground",
+        "city": "Nottingham, Nottinghamshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 65,
+        "name": "Nottingham Forest",
+        "logo": "https://media.api-sports.io/football/teams/65.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1359,
+        "name": "Luton",
+        "logo": "https://media.api-sports.io/football/teams/1359.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318842,
+      "referee": "S. Hooper",
+      "timezone": "UTC",
+      "date": "2025-01-11T15:00:00+00:00",
+      "timestamp": 1736607600,
+      "periods": {
+        "first": 1736607600,
+        "second": 1736611200
+      },
+      "venue": {
+        "id": 565,
+        "name": "Carrow Road",
+        "city": "Norwich, Norfolk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 71,
+        "name": "Norwich",
+        "logo": "https://media.api-sports.io/football/teams/71.png",
+        "winner": false
+      },
+      "away": {
+        "id": 51,
+        "name": "Brighton",
+        "logo": "https://media.api-sports.io/football/teams/51.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318853,
+      "referee": "E. Bell",
+      "timezone": "UTC",
+      "date": "2025-01-11T15:00:00+00:00",
+      "timestamp": 1736607600,
+      "periods": {
+        "first": 1736607600,
+        "second": 1736611200
+      },
+      "venue": {
+        "id": 589,
+        "name": "Stadium of Light",
+        "city": "Sunderland"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 746,
+        "name": "Sunderland",
+        "logo": "https://media.api-sports.io/football/teams/746.png",
+        "winner": false
+      },
+      "away": {
+        "id": 75,
+        "name": "Stoke City",
+        "logo": "https://media.api-sports.io/football/teams/75.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 1
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318855,
+      "referee": "S. Oldham",
+      "timezone": "UTC",
+      "date": "2025-01-11T15:00:00+00:00",
+      "timestamp": 1736607600,
+      "periods": {
+        "first": 1736607600,
+        "second": 1736611200
+      },
+      "venue": {
+        "id": 532,
+        "name": "St James Park",
+        "city": "Exeter, Devon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1364,
+        "name": "Exeter City",
+        "logo": "https://media.api-sports.io/football/teams/1364.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1338,
+        "name": "Oxford United",
+        "logo": "https://media.api-sports.io/football/teams/1338.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318843,
+      "referee": "J. Smith",
+      "timezone": "UTC",
+      "date": "2025-01-11T17:45:00+00:00",
+      "timestamp": 1736617500,
+      "periods": {
+        "first": 1736617500,
+        "second": 1736621100
+      },
+      "venue": {
+        "id": 555,
+        "name": "Etihad Stadium",
+        "city": "Manchester"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1844,
+        "name": "Salford City",
+        "logo": "https://media.api-sports.io/football/teams/1844.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 8,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 8,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318863,
+      "referee": "J. Bell",
+      "timezone": "UTC",
+      "date": "2025-01-11T17:45:00+00:00",
+      "timestamp": 1736617500,
+      "periods": {
+        "first": 1736617500,
+        "second": 1736621100
+      },
+      "venue": {
+        "id": 546,
+        "name": "Elland Road",
+        "city": "Leeds, West Yorkshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media.api-sports.io/football/teams/63.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1842,
+        "name": "Harrogate Town",
+        "logo": "https://media.api-sports.io/football/teams/1842.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318858,
+      "referee": "T. Kirk",
+      "timezone": "UTC",
+      "date": "2025-01-11T18:00:00+00:00",
+      "timestamp": 1736618400,
+      "periods": {
+        "first": 1736618400,
+        "second": 1736622000
+      },
+      "venue": {
+        "id": 11896,
+        "name": "The Coventry Building Society Arena",
+        "city": "Coventry, West Midlands"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1346,
+        "name": "Coventry",
+        "logo": "https://media.api-sports.io/football/teams/1346.png",
+        "winner": true
+      },
+      "away": {
+        "id": 74,
+        "name": "Sheffield Wednesday",
+        "logo": "https://media.api-sports.io/football/teams/74.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 4,
+        "away": 3
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318854,
+      "referee": "S. Gill",
+      "timezone": "UTC",
+      "date": "2025-01-12T12:00:00+00:00",
+      "timestamp": 1736683200,
+      "periods": {
+        "first": 1736683200,
+        "second": 1736686800
+      },
+      "venue": {
+        "id": 12051,
+        "name": "The MKM Stadium",
+        "city": "Hull"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 64,
+        "name": "Hull City",
+        "logo": "https://media.api-sports.io/football/teams/64.png",
+        "winner": false
+      },
+      "away": {
+        "id": 1354,
+        "name": "Doncaster",
+        "logo": "https://media.api-sports.io/football/teams/1354.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 4,
+        "away": 5
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318852,
+      "referee": "P. Bankes",
+      "timezone": "UTC",
+      "date": "2025-01-12T12:30:00+00:00",
+      "timestamp": 1736685000,
+      "periods": {
+        "first": 1736685000,
+        "second": 1736688600
+      },
+      "venue": {
+        "id": 5610,
+        "name": "The Lamb Ground",
+        "city": "Tamworth, Staffordshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7752,
+        "name": "Tamworth",
+        "logo": "https://media.api-sports.io/football/teams/7752.png",
+        "winner": false
+      },
+      "away": {
+        "id": 47,
+        "name": "Tottenham",
+        "logo": "https://media.api-sports.io/football/teams/47.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318859,
+      "referee": "W. Finnie",
+      "timezone": "UTC",
+      "date": "2025-01-12T15:00:00+00:00",
+      "timestamp": 1736694000,
+      "periods": {
+        "first": 1736694000,
+        "second": 1736697600
+      },
+      "venue": {
+        "id": 562,
+        "name": "St. James' Park",
+        "city": "Newcastle upon Tyne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1832,
+        "name": "Bromley",
+        "logo": "https://media.api-sports.io/football/teams/1832.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318838,
+      "referee": "A. Madley",
+      "timezone": "UTC",
+      "date": "2025-01-12T15:00:00+00:00",
+      "timestamp": 1736694000,
+      "periods": {
+        "first": 1736694000,
+        "second": 1736697600
+      },
+      "venue": {
+        "id": 494,
+        "name": "Emirates Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 42,
+        "name": "Arsenal",
+        "logo": "https://media.api-sports.io/football/teams/42.png",
+        "winner": false
+      },
+      "away": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 3,
+        "away": 5
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318868,
+      "referee": "S. Attwell",
+      "timezone": "UTC",
+      "date": "2025-01-12T15:00:00+00:00",
+      "timestamp": 1736694000,
+      "periods": {
+        "first": 1736694000,
+        "second": 1736697600
+      },
+      "venue": {
+        "id": 525,
+        "name": "Selhurst Park",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 52,
+        "name": "Crystal Palace",
+        "logo": "https://media.api-sports.io/football/teams/52.png",
+        "winner": true
+      },
+      "away": {
+        "id": 4686,
+        "name": "Stockport County",
+        "logo": "https://media.api-sports.io/football/teams/4686.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318867,
+      "referee": "O. Langford",
+      "timezone": "UTC",
+      "date": "2025-01-12T15:00:00+00:00",
+      "timestamp": 1736694000,
+      "periods": {
+        "first": 1736694000,
+        "second": 1736697600
+      },
+      "venue": {
+        "id": 545,
+        "name": "Portman Road",
+        "city": "Ipswich, Suffolk"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 57,
+        "name": "Ipswich",
+        "logo": "https://media.api-sports.io/football/teams/57.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1334,
+        "name": "Bristol Rovers",
+        "logo": "https://media.api-sports.io/football/teams/1334.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318837,
+      "referee": "T. Harrington",
+      "timezone": "UTC",
+      "date": "2025-01-12T16:30:00+00:00",
+      "timestamp": 1736699400,
+      "periods": {
+        "first": 1736699400,
+        "second": 1736703000
+      },
+      "venue": {
+        "id": 585,
+        "name": "St. Mary's Stadium",
+        "city": "Southampton, Hampshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 41,
+        "name": "Southampton",
+        "logo": "https://media.api-sports.io/football/teams/41.png",
+        "winner": true
+      },
+      "away": {
+        "id": 76,
+        "name": "Swansea",
+        "logo": "https://media.api-sports.io/football/teams/76.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318844,
+      "referee": "R. Madley",
+      "timezone": "UTC",
+      "date": "2025-01-13T19:30:00+00:00",
+      "timestamp": 1736796600,
+      "periods": {
+        "first": 1736796600,
+        "second": 1736800200
+      },
+      "venue": {
+        "id": 559,
+        "name": "The Den",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 58,
+        "name": "Millwall",
+        "logo": "https://media.api-sports.io/football/teams/58.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1821,
+        "name": "Dagenham & Redbridge",
+        "logo": "https://media.api-sports.io/football/teams/1821.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318847,
+      "referee": "R. Ricardo",
+      "timezone": "UTC",
+      "date": "2025-01-14T19:45:00+00:00",
+      "timestamp": 1736883900,
+      "periods": {
+        "first": 1736883900,
+        "second": 1736887500
+      },
+      "venue": {
+        "id": 574,
+        "name": "Deepdale",
+        "city": "Preston"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 59,
+        "name": "Preston",
+        "logo": "https://media.api-sports.io/football/teams/59.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1335,
+        "name": "Charlton",
+        "logo": "https://media.api-sports.io/football/teams/1335.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318839,
+      "referee": "B. Speedie",
+      "timezone": "UTC",
+      "date": "2025-01-14T19:45:00+00:00",
+      "timestamp": 1736883900,
+      "periods": {
+        "first": 1736883900,
+        "second": 1736887500
+      },
+      "venue": {
+        "id": null,
+        "name": "Gaughan Group Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1373,
+        "name": "Leyton Orient",
+        "logo": "https://media.api-sports.io/football/teams/1373.png",
+        "winner": true
+      },
+      "away": {
+        "id": 69,
+        "name": "Derby",
+        "logo": "https://media.api-sports.io/football/teams/69.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 6,
+        "away": 5
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1318851,
+      "referee": "A. Chilowicz",
+      "timezone": "UTC",
+      "date": "2025-01-14T19:45:00+00:00",
+      "timestamp": 1736883900,
+      "periods": {
+        "first": 1736883900,
+        "second": 1736887500
+      },
+      "venue": {
+        "id": 557,
+        "name": "One Call Stadium",
+        "city": "Mansfield, Nottinghamshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "3rd Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1374,
+        "name": "Mansfield Town",
+        "logo": "https://media.api-sports.io/football/teams/1374.png",
+        "winner": false
+      },
+      "away": {
+        "id": 61,
+        "name": "Wigan",
+        "logo": "https://media.api-sports.io/football/teams/61.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334962,
+      "referee": "M. Salisbury",
+      "timezone": "UTC",
+      "date": "2025-02-07T20:00:00+00:00",
+      "timestamp": 1738958400,
+      "periods": {
+        "first": 1738958400,
+        "second": 1738962000
+      },
+      "venue": {
+        "id": 556,
+        "name": "Old Trafford",
+        "city": "Manchester"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png",
+        "winner": true
+      },
+      "away": {
+        "id": 46,
+        "name": "Leicester",
+        "logo": "https://media.api-sports.io/football/teams/46.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334973,
+      "referee": "G. Ward",
+      "timezone": "UTC",
+      "date": "2025-02-08T12:15:00+00:00",
+      "timestamp": 1739016900,
+      "periods": {
+        "first": 1739016900,
+        "second": 1739020500
+      },
+      "venue": {
+        "id": 546,
+        "name": "Elland Road",
+        "city": "Leeds, West Yorkshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 63,
+        "name": "Leeds",
+        "logo": "https://media.api-sports.io/football/teams/63.png",
+        "winner": false
+      },
+      "away": {
+        "id": 58,
+        "name": "Millwall",
+        "logo": "https://media.api-sports.io/football/teams/58.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1335516,
+      "referee": "D. Bond",
+      "timezone": "UTC",
+      "date": "2025-02-08T12:15:00+00:00",
+      "timestamp": 1739016900,
+      "periods": {
+        "first": 1739016900,
+        "second": 1739020500
+      },
+      "venue": {
+        "id": null,
+        "name": "Gaughan Group Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1373,
+        "name": "Leyton Orient",
+        "logo": "https://media.api-sports.io/football/teams/1373.png",
+        "winner": false
+      },
+      "away": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334971,
+      "referee": "W. Finnie",
+      "timezone": "UTC",
+      "date": "2025-02-08T15:00:00+00:00",
+      "timestamp": 1739026800,
+      "periods": {
+        "first": 1739026800,
+        "second": 1739030400
+      },
+      "venue": {
+        "id": 585,
+        "name": "St. Mary's Stadium",
+        "city": "Southampton, Hampshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 41,
+        "name": "Southampton",
+        "logo": "https://media.api-sports.io/football/teams/41.png",
+        "winner": false
+      },
+      "away": {
+        "id": 44,
+        "name": "Burnley",
+        "logo": "https://media.api-sports.io/football/teams/44.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334969,
+      "referee": "J. Brooks",
+      "timezone": "UTC",
+      "date": "2025-02-08T15:00:00+00:00",
+      "timestamp": 1739026800,
+      "periods": {
+        "first": 1739026800,
+        "second": 1739030400
+      },
+      "venue": {
+        "id": 8560,
+        "name": "Goodison Park",
+        "city": "Liverpool"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 45,
+        "name": "Everton",
+        "logo": "https://media.api-sports.io/football/teams/45.png",
+        "winner": false
+      },
+      "away": {
+        "id": 35,
+        "name": "Bournemouth",
+        "logo": "https://media.api-sports.io/football/teams/35.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1335514,
+      "referee": "B. Speedie",
+      "timezone": "UTC",
+      "date": "2025-02-08T15:00:00+00:00",
+      "timestamp": 1739026800,
+      "periods": {
+        "first": 1739026800,
+        "second": 1739030400
+      },
+      "venue": {
+        "id": 574,
+        "name": "Deepdale",
+        "city": "Preston"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 59,
+        "name": "Preston",
+        "logo": "https://media.api-sports.io/football/teams/59.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1358,
+        "name": "Wycombe",
+        "logo": "https://media.api-sports.io/football/teams/1358.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 4,
+        "away": 2
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1335515,
+      "referee": "D. Webb",
+      "timezone": "UTC",
+      "date": "2025-02-08T15:00:00+00:00",
+      "timestamp": 1739026800,
+      "periods": {
+        "first": 1739026800,
+        "second": 1739030400
+      },
+      "venue": {
+        "id": null,
+        "name": "The Brick Community Stadium",
+        "city": "Wigan"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 61,
+        "name": "Wigan",
+        "logo": "https://media.api-sports.io/football/teams/61.png",
+        "winner": false
+      },
+      "away": {
+        "id": 36,
+        "name": "Fulham",
+        "logo": "https://media.api-sports.io/football/teams/36.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334974,
+      "referee": "T. Kirk",
+      "timezone": "UTC",
+      "date": "2025-02-08T15:00:00+00:00",
+      "timestamp": 1739026800,
+      "periods": {
+        "first": 1739026800,
+        "second": 1739030400
+      },
+      "venue": {
+        "id": 588,
+        "name": "bet365 Stadium",
+        "city": "Stoke-on-Trent, Staffordshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 75,
+        "name": "Stoke City",
+        "logo": "https://media.api-sports.io/football/teams/75.png",
+        "winner": false
+      },
+      "away": {
+        "id": 43,
+        "name": "Cardiff",
+        "logo": "https://media.api-sports.io/football/teams/43.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 2,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334964,
+      "referee": "B. Toner",
+      "timezone": "UTC",
+      "date": "2025-02-08T15:00:00+00:00",
+      "timestamp": 1739026800,
+      "periods": {
+        "first": 1739026800,
+        "second": 1739030400
+      },
+      "venue": {
+        "id": 11896,
+        "name": "The Coventry Building Society Arena",
+        "city": "Coventry, West Midlands"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1346,
+        "name": "Coventry",
+        "logo": "https://media.api-sports.io/football/teams/1346.png",
+        "winner": false
+      },
+      "away": {
+        "id": 57,
+        "name": "Ipswich",
+        "logo": "https://media.api-sports.io/football/teams/57.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334967,
+      "referee": "M. Donohue",
+      "timezone": "UTC",
+      "date": "2025-02-08T17:45:00+00:00",
+      "timestamp": 1739036700,
+      "periods": {
+        "first": 1739036700,
+        "second": 1739040300
+      },
+      "venue": {
+        "id": null,
+        "name": "St. Andrew's @ Knighthead Park",
+        "city": "Birmingham"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 14
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 54,
+        "name": "Birmingham",
+        "logo": "https://media.api-sports.io/football/teams/54.png",
+        "winner": false
+      },
+      "away": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334963,
+      "referee": "J. Gillett",
+      "timezone": "UTC",
+      "date": "2025-02-08T20:00:00+00:00",
+      "timestamp": 1739044800,
+      "periods": {
+        "first": 1739044800,
+        "second": 1739048400
+      },
+      "venue": {
+        "id": 508,
+        "name": "American Express Stadium",
+        "city": "Falmer, East Sussex"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 51,
+        "name": "Brighton",
+        "logo": "https://media.api-sports.io/football/teams/51.png",
+        "winner": true
+      },
+      "away": {
+        "id": 49,
+        "name": "Chelsea",
+        "logo": "https://media.api-sports.io/football/teams/49.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334966,
+      "referee": "L. Smith",
+      "timezone": "UTC",
+      "date": "2025-02-09T12:30:00+00:00",
+      "timestamp": 1739104200,
+      "periods": {
+        "first": 1739104200,
+        "second": 1739107800
+      },
+      "venue": {
+        "id": 500,
+        "name": "Ewood Park",
+        "city": "Blackburn, Lancashire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 67,
+        "name": "Blackburn",
+        "logo": "https://media.api-sports.io/football/teams/67.png",
+        "winner": false
+      },
+      "away": {
+        "id": 39,
+        "name": "Wolves",
+        "logo": "https://media.api-sports.io/football/teams/39.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334968,
+      "referee": "S. Barrott",
+      "timezone": "UTC",
+      "date": "2025-02-09T15:00:00+00:00",
+      "timestamp": 1739113200,
+      "periods": {
+        "first": 1739113200,
+        "second": 1739116800
+      },
+      "venue": {
+        "id": 571,
+        "name": "Home Park",
+        "city": "Plymouth"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1357,
+        "name": "Plymouth",
+        "logo": "https://media.api-sports.io/football/teams/1357.png",
+        "winner": true
+      },
+      "away": {
+        "id": 40,
+        "name": "Liverpool",
+        "logo": "https://media.api-sports.io/football/teams/40.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334970,
+      "referee": "A. Taylor",
+      "timezone": "UTC",
+      "date": "2025-02-09T17:35:00+00:00",
+      "timestamp": 1739122500,
+      "periods": {
+        "first": 1739122500,
+        "second": 1739126100
+      },
+      "venue": {
+        "id": 495,
+        "name": "Villa Park",
+        "city": "Birmingham"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 66,
+        "name": "Aston Villa",
+        "logo": "https://media.api-sports.io/football/teams/66.png",
+        "winner": true
+      },
+      "away": {
+        "id": 47,
+        "name": "Tottenham",
+        "logo": "https://media.api-sports.io/football/teams/47.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334972,
+      "referee": "F. Hallam",
+      "timezone": "UTC",
+      "date": "2025-02-10T19:45:00+00:00",
+      "timestamp": 1739216700,
+      "periods": {
+        "first": 1739216700,
+        "second": 1739220300
+      },
+      "venue": {
+        "id": 12676,
+        "name": "Eco-Power Stadium",
+        "city": "Doncaster, South Yorkshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1354,
+        "name": "Doncaster",
+        "logo": "https://media.api-sports.io/football/teams/1354.png",
+        "winner": false
+      },
+      "away": {
+        "id": 52,
+        "name": "Crystal Palace",
+        "logo": "https://media.api-sports.io/football/teams/52.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1334965,
+      "referee": "A. Kitchen",
+      "timezone": "UTC",
+      "date": "2025-02-11T20:00:00+00:00",
+      "timestamp": 1739304000,
+      "periods": {
+        "first": 1739304000,
+        "second": 1739307600
+      },
+      "venue": {
+        "id": 532,
+        "name": "St James Park",
+        "city": "Exeter, Devon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "4th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1364,
+        "name": "Exeter City",
+        "logo": "https://media.api-sports.io/football/teams/1364.png",
+        "winner": false
+      },
+      "away": {
+        "id": 65,
+        "name": "Nottingham Forest",
+        "logo": "https://media.api-sports.io/football/teams/65.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 2,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1349953,
+      "referee": "P. Bankes",
+      "timezone": "UTC",
+      "date": "2025-02-28T20:00:00+00:00",
+      "timestamp": 1740772800,
+      "periods": {
+        "first": 1740772800,
+        "second": 1740776400
+      },
+      "venue": {
+        "id": 495,
+        "name": "Villa Park",
+        "city": "Birmingham"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "5th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 66,
+        "name": "Aston Villa",
+        "logo": "https://media.api-sports.io/football/teams/66.png",
+        "winner": true
+      },
+      "away": {
+        "id": 43,
+        "name": "Cardiff",
+        "logo": "https://media.api-sports.io/football/teams/43.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1349954,
+      "referee": "M. Oliver",
+      "timezone": "UTC",
+      "date": "2025-03-01T12:15:00+00:00",
+      "timestamp": 1740831300,
+      "periods": {
+        "first": 1740831300,
+        "second": 1740834900
+      },
+      "venue": {
+        "id": 525,
+        "name": "Selhurst Park",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "5th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 52,
+        "name": "Crystal Palace",
+        "logo": "https://media.api-sports.io/football/teams/52.png",
+        "winner": true
+      },
+      "away": {
+        "id": 58,
+        "name": "Millwall",
+        "logo": "https://media.api-sports.io/football/teams/58.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1349952,
+      "referee": "J. Brooks",
+      "timezone": "UTC",
+      "date": "2025-03-01T12:15:00+00:00",
+      "timestamp": 1740831300,
+      "periods": {
+        "first": 1740831300,
+        "second": 1740834900
+      },
+      "venue": {
+        "id": 574,
+        "name": "Deepdale",
+        "city": "Preston"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 2
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "5th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 59,
+        "name": "Preston",
+        "logo": "https://media.api-sports.io/football/teams/59.png",
+        "winner": true
+      },
+      "away": {
+        "id": 44,
+        "name": "Burnley",
+        "logo": "https://media.api-sports.io/football/teams/44.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1349957,
+      "referee": "C. Kavanagh",
+      "timezone": "UTC",
+      "date": "2025-03-01T15:00:00+00:00",
+      "timestamp": 1740841200,
+      "periods": {
+        "first": 1740841200,
+        "second": 1740844800
+      },
+      "venue": {
+        "id": 504,
+        "name": "Vitality Stadium",
+        "city": "Bournemouth, Dorset"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "5th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 35,
+        "name": "Bournemouth",
+        "logo": "https://media.api-sports.io/football/teams/35.png",
+        "winner": true
+      },
+      "away": {
+        "id": 39,
+        "name": "Wolves",
+        "logo": "https://media.api-sports.io/football/teams/39.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 5,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1349958,
+      "referee": "C. Pawson",
+      "timezone": "UTC",
+      "date": "2025-03-01T17:45:00+00:00",
+      "timestamp": 1740851100,
+      "periods": {
+        "first": 1740851100,
+        "second": 1740854700
+      },
+      "venue": {
+        "id": 555,
+        "name": "Etihad Stadium",
+        "city": "Manchester"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "5th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1357,
+        "name": "Plymouth",
+        "logo": "https://media.api-sports.io/football/teams/1357.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1349956,
+      "referee": "A. Taylor",
+      "timezone": "UTC",
+      "date": "2025-03-02T13:45:00+00:00",
+      "timestamp": 1740923100,
+      "periods": {
+        "first": 1740923100,
+        "second": 1740926700
+      },
+      "venue": {
+        "id": 562,
+        "name": "St. James' Park",
+        "city": "Newcastle upon Tyne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "AET",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "5th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 34,
+        "name": "Newcastle",
+        "logo": "https://media.api-sports.io/football/teams/34.png",
+        "winner": false
+      },
+      "away": {
+        "id": 51,
+        "name": "Brighton",
+        "logo": "https://media.api-sports.io/football/teams/51.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 1
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1349955,
+      "referee": "S. Attwell",
+      "timezone": "UTC",
+      "date": "2025-03-02T16:30:00+00:00",
+      "timestamp": 1740933000,
+      "periods": {
+        "first": 1740933000,
+        "second": 1740936600
+      },
+      "venue": {
+        "id": 556,
+        "name": "Old Trafford",
+        "city": "Manchester"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "5th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 33,
+        "name": "Manchester United",
+        "logo": "https://media.api-sports.io/football/teams/33.png",
+        "winner": false
+      },
+      "away": {
+        "id": 36,
+        "name": "Fulham",
+        "logo": "https://media.api-sports.io/football/teams/36.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 3,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1349959,
+      "referee": "T. Harrington",
+      "timezone": "UTC",
+      "date": "2025-03-03T19:30:00+00:00",
+      "timestamp": 1741030200,
+      "periods": {
+        "first": 1741030200,
+        "second": 1741033800
+      },
+      "venue": {
+        "id": 566,
+        "name": "The City Ground",
+        "city": "Nottingham, Nottinghamshire"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "5th Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 65,
+        "name": "Nottingham Forest",
+        "logo": "https://media.api-sports.io/football/teams/65.png",
+        "winner": true
+      },
+      "away": {
+        "id": 57,
+        "name": "Ipswich",
+        "logo": "https://media.api-sports.io/football/teams/57.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 5,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1357106,
+      "referee": "D. England",
+      "timezone": "UTC",
+      "date": "2025-03-29T12:15:00+00:00",
+      "timestamp": 1743250500,
+      "periods": {
+        "first": 1743250500,
+        "second": 1743254100
+      },
+      "venue": {
+        "id": 535,
+        "name": "Craven Cottage",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 36,
+        "name": "Fulham",
+        "logo": "https://media.api-sports.io/football/teams/36.png",
+        "winner": false
+      },
+      "away": {
+        "id": 52,
+        "name": "Crystal Palace",
+        "logo": "https://media.api-sports.io/football/teams/52.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1357108,
+      "referee": "P. Bankes",
+      "timezone": "UTC",
+      "date": "2025-03-29T17:15:00+00:00",
+      "timestamp": 1743268500,
+      "periods": {
+        "first": 1743268500,
+        "second": 1743272100
+      },
+      "venue": {
+        "id": 508,
+        "name": "American Express Stadium",
+        "city": "Falmer, East Sussex"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 51,
+        "name": "Brighton",
+        "logo": "https://media.api-sports.io/football/teams/51.png",
+        "winner": false
+      },
+      "away": {
+        "id": 65,
+        "name": "Nottingham Forest",
+        "logo": "https://media.api-sports.io/football/teams/65.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 3,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1357109,
+      "referee": "C. Kavanagh",
+      "timezone": "UTC",
+      "date": "2025-03-30T12:30:00+00:00",
+      "timestamp": 1743337800,
+      "periods": {
+        "first": 1743337800,
+        "second": 1743341400
+      },
+      "venue": {
+        "id": 574,
+        "name": "Deepdale",
+        "city": "Preston"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 59,
+        "name": "Preston",
+        "logo": "https://media.api-sports.io/football/teams/59.png",
+        "winner": false
+      },
+      "away": {
+        "id": 66,
+        "name": "Aston Villa",
+        "logo": "https://media.api-sports.io/football/teams/66.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1357107,
+      "referee": "S. Attwell",
+      "timezone": "UTC",
+      "date": "2025-03-30T15:30:00+00:00",
+      "timestamp": 1743348600,
+      "periods": {
+        "first": 1743348600,
+        "second": 1743352200
+      },
+      "venue": {
+        "id": 504,
+        "name": "Vitality Stadium",
+        "city": "Bournemouth, Dorset"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 35,
+        "name": "Bournemouth",
+        "logo": "https://media.api-sports.io/football/teams/35.png",
+        "winner": false
+      },
+      "away": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1367449,
+      "referee": "A. Taylor",
+      "timezone": "UTC",
+      "date": "2025-04-26T16:15:00+00:00",
+      "timestamp": 1745684100,
+      "periods": {
+        "first": 1745684100,
+        "second": 1745687700
+      },
+      "venue": {
+        "id": 489,
+        "name": "Wembley Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 52,
+        "name": "Crystal Palace",
+        "logo": "https://media.api-sports.io/football/teams/52.png",
+        "winner": true
+      },
+      "away": {
+        "id": 66,
+        "name": "Aston Villa",
+        "logo": "https://media.api-sports.io/football/teams/66.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1367448,
+      "referee": "M. Oliver",
+      "timezone": "UTC",
+      "date": "2025-04-27T15:30:00+00:00",
+      "timestamp": 1745767800,
+      "periods": {
+        "first": 1745767800,
+        "second": 1745771400
+      },
+      "venue": {
+        "id": 489,
+        "name": "Wembley Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 65,
+        "name": "Nottingham Forest",
+        "logo": "https://media.api-sports.io/football/teams/65.png",
+        "winner": false
+      },
+      "away": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1373151,
+      "referee": "S. Attwell",
+      "timezone": "UTC",
+      "date": "2025-05-17T15:30:00+00:00",
+      "timestamp": 1747495800,
+      "periods": {
+        "first": 1747495800,
+        "second": 1747499400
+      },
+      "venue": {
+        "id": 489,
+        "name": "Wembley Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 45,
+      "name": "FA Cup",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/45.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2024,
+      "round": "Final",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 52,
+        "name": "Crystal Palace",
+        "logo": "https://media.api-sports.io/football/teams/52.png",
+        "winner": true
+      },
+      "away": {
+        "id": 50,
+        "name": "Manchester City",
+        "logo": "https://media.api-sports.io/football/teams/50.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

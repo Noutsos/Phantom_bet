@@ -1,0 +1,1481 @@
+from datetime import datetime, timedelta
+import pandas as pd
+import numpy as np
+from pathlib import Path
+from typing import Dict, Optional, List, Tuple
+import warnings
+from tqdm import tqdm  # For progress tracking (optional)
+warnings.filterwarnings("ignore")
+from src.utils import LEAGUES  # Assuming LEAGUES is defined in utils.py
+
+class FootballDataPipeline:
+    """
+    Enhanced pipeline that:
+    1. First merges all seasons for each league into complete DataFrames
+    2. Then performs preprocessing on the complete league data
+    3. Finally combines all leagues into one final dataset
+    """
+    
+    def __init__(self, config: Optional[Dict] = None):
+        # Default configuration
+        self.config = {
+            'raw_dir': 'data/extracted',
+            'merged_dir': 'data/processed',
+            'final_output': 'data/final_processed.csv',
+            'verbose': True,
+            'data_types': {
+                'fixtures': 'fixture_events.csv',
+                'team_stats': 'team_statistics.csv'
+            },
+            'required_cols': {
+                'fixtures': ['fixture_id', 'home_team_id', 'away_team_id', 'date'],
+                'team_stats': ['fixture_id', 'team_id']
+            },
+            'rolling_windows': [ 5],
+            'min_matches': 5,
+            'merge_first': True  # New config to control merge behavior
+        }
+        
+        if config:
+            self.config.update(config)
+            
+        Path(self.config['merged_dir']).mkdir(parents=True, exist_ok=True)
+
+    def _log(self, message: str):
+        if self.config['verbose']:
+            print(f"{message}")
+
+    def _discover_data_structure(self) -> Dict[str, Dict[str, List[str]]]:
+        """Discover available countries, leagues and seasons"""
+        structure = {}
+        raw_path = Path(self.config['raw_dir'])
+        
+        for country_dir in raw_path.iterdir():
+            if country_dir.is_dir():
+                country_name = country_dir.name
+                structure[country_name] = {}
+                
+                for league_dir in country_dir.iterdir():
+                    if league_dir.is_dir():
+                        league_name = league_dir.name
+                        seasons = []
+                        
+                        for season_dir in league_dir.iterdir():
+                            if season_dir.is_dir():
+                                seasons.append(season_dir.name)
+                        
+                        if seasons:
+                            structure[country_name][league_name] = sorted(seasons)
+        
+        return structure
+    
+    def _clean_data(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Comprehensive cleaning for football fixture data that:
+        - Preserves all original columns
+        - Ensures consistent ID types (int64)
+        - Handles type conversions correctly
+        - Maintains statistical integrity
+        """
+        if df.empty:
+            return df
+
+        # Create a working copy
+        df = df.copy()
+
+        if 'away_Passes %' in df.columns:
+            # Get the index of the column 'away_passes'
+            col_index = df.columns.get_loc('away_Passes %')
+    
+            # Keep only columns up to and including 'away_passes'
+            df = df.iloc[:, :col_index + 1]
+
+        # 5. Filter FT matches only if status exists
+        if 'status' in df.columns:
+            df = df[df['status'].isin(['FT', 'AET', 'PEN', 'NS'])]
+        else:
+            self._log("Status column missing - skipping FT filter")
+
+
+        # 1. Convert all ID columns to int64 upfront
+        id_columns = ['fixture_id', 'league_id', 'home_team_id', 'away_team_id', 'venue_id']
+        for col in id_columns:
+            if col in df.columns:
+                # Use pd.NA for missing values in integer columns
+                df[col] = pd.to_numeric(df[col], errors='coerce').astype('Int64')
+
+        # 2. Convert date and time columns
+        if 'date' in df.columns:
+            df['date'] = pd.to_datetime(df['date'], errors='coerce')
+    
+        
+        # 2. Standardize column names (preserve original as reference)
+        original_columns = dict(zip(df.columns, 
+            df.columns.str.strip().str.lower()
+            .str.replace(r'[^a-z0-9]+', '_', regex=True)
+            .str.replace(r'_+', '_', regex=True)
+            .str.strip('_')
+        ))
+        df = df.rename(columns=original_columns)
+
+        # 2. Handle percentage columns with proper error handling
+        for side in ['home', 'away']:
+            # Ball possession percentage
+            poss_col = f"{side}_ball_possession"
+            if poss_col in df.columns:
+                try:
+                    # First ensure we're working with strings
+                    df[poss_col] = df[poss_col].astype(str)
+                    # Then remove % and convert
+                    df[poss_col] = (
+                        df[poss_col].str.replace('%', '')
+                        .apply(pd.to_numeric, errors='coerce') / 100
+                    )
+                   
+                except Exception as e:
+                    print(f"Error processing {poss_col}: {e}")
+                    df[poss_col] = np.nan  # Set to NaN if conversion fails
+
+            # Pass accuracy percentage
+            pass_pct_col = f"{side}_passes"
+            if pass_pct_col in df.columns:
+                try:
+                    df[pass_pct_col] = df[pass_pct_col].astype(str)
+                    df[pass_pct_col] = (
+                        df[pass_pct_col].str.replace('%', '')
+                        .apply(pd.to_numeric, errors='coerce') / 100
+                    )
+                    
+                except Exception as e:
+                    print(f"Error processing {pass_pct_col}: {e}")
+                    df[pass_pct_col] = np.nan
+                
+        # Filter only FT games for the shot data check
+        ft_games = df[df['status'] == 'FT'].copy()
+        
+        # Check for missing data in FT games only
+        missing_data = ft_games[
+            ['home_goals', 'away_goals',
+            'halftime_home', 'halftime_away',
+            'fulltime_home', 'fulltime_away']
+        ].isna().any(axis=1)
+        
+        # Get indices of FT games with missing data
+        bad_ft_indices = ft_games[missing_data].index
+        
+        # Drop only those FT games with missing data
+        df = df.drop(bad_ft_indices)  
+
+        # 4. Convert numeric columns with proper null handling
+        numeric_cols = [
+            'maintime', 'first_half', 'second_half', 
+            'home_goals', 'away_goals', 
+            'halftime_home', 'halftime_away',
+            'fulltime_home', 'fulltime_away'
+        ]
+        for col in numeric_cols:
+            if col in df.columns:
+                df[col] = pd.to_numeric(df[col], errors='coerce').astype('Int64')
+
+        # 5. Handle float columns that should stay float
+        float_cols = ['extratime']
+        for col in float_cols:
+            if col in df.columns:
+                df[col] = pd.to_numeric(df[col], errors='coerce')
+
+
+        # 7. Handle missing values
+        fill_rules = {
+            'extratime': 0,
+            'penalty_home': 0,
+            'penalty_away': 0,
+            'home_shots_on_goal': 0,
+            'away_shots_on_goal': 0,
+            'home_shots_off_goal': 0,
+            'away_shots_off_goal': 0,
+            'home_total_shots': 0,
+            'away_total_shots': 0,
+            'home_blocked_shots': 0,
+            'away_blocked_shots': 0,
+            'home_shots_insidebox': 0,
+            'away_shots_insidebox': 0,
+            'home_shots_outsidebox': 0,
+            'away_shots_outsidebox': 0,
+            'home_ball_possession': 0.5,  # Default to 50% if missing
+            'away_ball_possession': 0.5,  # Default to 50% if missing
+            'home_offsides': 0,
+            'away_offsides': 0,
+            'home_corners': 0,
+            'away_corners': 0,
+            'home_fouls': 0,
+            'away_fouls': 0,
+            'home_yellow_cards': 0,
+            'away_yellow_cards': 0,
+            'home_red_cards': 0,
+            'away_red_cards': 0,
+            'home_goalkeeper_saves': 0,
+            'away_goalkeeper_saves': 0,
+            'referee': 'Unknown',
+            'venue_city': 'Unknown',
+            'venue_name': 'Unknown'
+        }
+        
+        for col, val in fill_rules.items():
+            if col in df.columns:
+                df[col] = df[col].fillna(val)
+
+
+
+        # 8. Clean text fields
+        text_cols = ['home_team', 'away_team', 'league_name', 'round', 'referee']
+        for col in text_cols:
+            if col in df.columns:
+                df[col] = df[col].astype(str).str.strip().str.title()
+
+        # 9. Final validation
+        required_cols = ['fixture_id', 'date', 'home_team', 'away_team', 'league_id']
+        missing_cols = [col for col in required_cols if col not in df.columns]
+        if missing_cols:
+            raise ValueError(f"Missing required columns: {missing_cols}")
+
+        cols_to_drop = ['home_winner', 'away_winner', 'home_team_name', 'away_team_name', 'home_team_logo', 'away_team_logo']
+        df = df.drop(columns=[col for col in cols_to_drop if col in df.columns], errors='ignore')
+
+
+        
+        # 10. Sort by date and reset index
+        if 'date' in df.columns:
+            df = df.sort_values('date').reset_index(drop=True)
+
+        return df
+
+    def _create_target_column(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Creates target outcome column, handling both completed and NS games.
+        
+        For completed matches (FT status with goals):
+        - home_win: home_goals > away_goals
+        - away_win: home_goals < away_goals  
+        - draw: home_goals == away_goals
+        
+        For NS games:
+        - outcome set to 'NS' (Not Started)
+        
+        Args:
+            df: DataFrame containing match data with home_goals, away_goals columns
+            
+        Returns:
+            DataFrame with added 'outcome' column
+        """
+        df = df.copy()  # Avoid modifying original DataFrame
+        
+        # Initialize outcome column with 'NS' as default
+        df['outcome'] = 'NS'
+        
+        # Only process rows where we have goal data (completed matches)
+        if all(col in df.columns for col in ['home_goals', 'away_goals']):
+            # Create mask for completed matches
+            completed_mask = df['home_goals'].notna() & df['away_goals'].notna()
+            
+            # Only process completed matches
+            if completed_mask.any():
+                completed_df = df[completed_mask].copy()
+                
+                # Create boolean conditions
+                home_wins = (completed_df['home_goals'] > completed_df['away_goals'])
+                away_wins = (completed_df['home_goals'] < completed_df['away_goals'])
+                
+                # Apply to original dataframe
+                df.loc[completed_mask, 'outcome'] = np.select(
+                    condlist=[home_wins, away_wins],
+                    choicelist=['home_win', 'away_win'],
+                    default='draw'
+                )
+        
+        return df
+   
+    def _create_temporal_features(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Creates pure temporal features without any existing streak or form calculations.
+        Returns DataFrame with added temporal columns.
+        """
+        if 'date' not in df.columns:
+            raise ValueError("DataFrame must contain 'date' column")
+            
+        df = df.copy()
+        df['date'] = pd.to_datetime(df['date'])
+        df = df.sort_values('date')
+        
+        # 1. Basic date components
+        df['year'] = df['date'].dt.year
+        df['month'] = df['date'].dt.month
+        df['day_of_month'] = df['date'].dt.day
+        df['day_of_week'] = df['date'].dt.dayofweek  # Monday=0, Sunday=6
+        df['is_weekend'] = df['day_of_week'].isin([5, 6]).astype(int)
+        df['season_quarter'] = (df['month'] - 1) // 3 + 1  # 1-4 quarters
+        
+        # Fixed values for first matches
+        DEFAULT_DAYS_REST = 7  # Typical weekly schedule
+        SEASON_START_MEDIAN_DAYS_REST = 56  # Preseason break
+        
+        # 2. Days since last match with fixed values for season starters
+        for team_type in ['home', 'away']:
+            team_col = f'{team_type}_team_id'
+            days_since_col = f'{team_type}_days_since_last_match'
+            
+            # Calculate days since last match
+            df[days_since_col] = df.groupby(team_col)['date'].diff().dt.days
+            
+            # Fill first match of each season per team
+            season_first_mask = df.groupby([team_col, 'year'])['date'].rank(method='first') == 1
+            df.loc[season_first_mask, days_since_col] = SEASON_START_MEDIAN_DAYS_REST
+            
+            # Fill very first match for new teams (no history at all)
+            team_first_mask = df.groupby(team_col)['date'].rank(method='first') == 1
+            df.loc[team_first_mask, days_since_col] = SEASON_START_MEDIAN_DAYS_REST
+            
+            # Fill any remaining NaNs (shouldn't exist but just in case)
+            df[days_since_col] = df[days_since_col].fillna(DEFAULT_DAYS_REST)
+            
+            # Create rest ratio (actual days vs expected days)
+            df[f'{team_type}_rest_ratio'] = (
+                df[days_since_col] / 
+                df.groupby(team_col)[days_since_col].transform('median')
+            )
+        
+            
+            # Match density (relative to team's normal schedule)
+            df[f'{team_type}_match_density'] = (
+                df.groupby(team_col)[days_since_col].transform('mean') / 
+                (df[days_since_col] + 0.001))  # Avoid division by zero
+        
+
+        
+        # 4. Holiday features (example for UK)
+        df['is_holiday'] = (
+            (df['month'].isin([12, 1])) &  # Christmas/New Year
+            (df['day_of_month'].isin([24, 25, 26, 31, 1])) |
+            (df['month'] == 3) & (df['day_of_month'].isin([17]))  # St. Patrick's
+        ).astype(int)
+        
+        # 5. Time-based features only (no team performance metrics)
+        df['is_night_match'] = ((df['date'].dt.hour >= 18) | (df['date'].dt.hour <= 6)).astype(int)
+        df['time_of_day'] = df['date'].dt.hour + df['date'].dt.minute/60
+        
+        return df
+
+    def _create_standings(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Processes and corrects football fixture data with comprehensive feature engineering.
+        Handles all edge cases and produces ML-ready output with accurate standings.
+        """
+        # Load and prepare data
+        
+        df['date'] = pd.to_datetime(df['date'])
+        df = df.sort_values(['league_id', 'season', 'date']).reset_index(drop=True)
+        
+
+        season_start_dates = df.groupby('season')['date'].min().to_dict()
+
+        # Initialize league-aware team tracking
+        team_history = {}  # Key: (team_id, league_id, season)
+        
+        for idx, row in tqdm(df.iterrows(), total=len(df), desc="Initializing Team History"):
+            home_id = row['home_team_id']
+            away_id = row['away_team_id']
+            league_id = row['league_id']
+            season = row['season']
+            
+            # Initialize league-specific team records
+            for team_id in [home_id, away_id]:
+                key = (team_id, league_id, season)
+                if key not in team_history:
+                    team_history[key] = {
+                        'points': 0,
+                        'goals_for': 0,
+                        'goals_against': 0,
+                        'matches_played': 0,
+                        'form': []
+                    }
+        
+        # Define features with proper data types
+        features = {
+            # Numeric features
+            'home_rank': 'float64',
+            'home_points': 'int64',
+            'home_goals_diff': 'int64',
+            'home_played': 'int64',
+            'home_wins': 'int64',
+            'home_draws': 'int64',
+            'home_losses': 'int64',
+            'home_goals_for': 'int64',
+            'home_goals_against': 'int64',
+            'home_days_rest': 'int64',
+            'home_form_strength': 'float64',
+            'away_rank': 'float64',
+            'away_points': 'int64',
+            'away_goals_diff': 'int64',
+            'away_played': 'int64',
+            'away_wins': 'int64',
+            'away_draws': 'int64',
+            'away_losses': 'int64',
+            'away_goals_for': 'int64',
+            'away_goals_against': 'int64',
+            'away_days_rest': 'int64',
+            'away_form_strength': 'float64',
+            # Categorical features
+
+        }
+
+        # Initialize columns carefully (don't overwrite existing data)
+        for col, dtype in features.items():
+            if col not in df.columns:
+                df[col] = pd.Series(dtype=dtype)
+            elif df[col].dtype != dtype and dtype != 'object':  # Don't overwrite strings
+                try:
+                    df[col] = df[col].astype(dtype)
+                except:
+                    df[col] = pd.Series(dtype=dtype)
+
+        # Process each match
+        for idx, row in tqdm(df.iterrows(), total=len(df), desc="Calculating Standings"):
+            home_id = row['home_team_id']
+            away_id = row['away_team_id']
+            match_date = row['date']
+            season = row['season']
+            round_num = row['round']
+            
+            # Initialize team data if new season or new team
+            for team_id in [home_id, away_id]:
+                if team_id not in team_history or season != team_history[team_id]['current_season']:
+                    team_history[team_id] = {
+                        'current_season': season,
+                        'points': 0,
+                        'goals_for': 0,
+                        'goals_against': 0,
+                        'wins': 0,
+                        'draws': 0,
+                        'losses': 0,
+                        'form': [],  # Stores numeric form (1=win, 0.5=draw, 0=loss)
+                        'last_match_date': season_start_dates.get(season, match_date) - timedelta(days=30),
+                        'matches_played': 0,
+                        'team_name': row['home_team'] if team_id == home_id else row['away_team']
+                    }
+            
+            # Calculate days rest (capped at 30 days)
+            home_days_rest = (match_date - team_history[home_id]['last_match_date']).days
+            away_days_rest = (match_date - team_history[away_id]['last_match_date']).days
+            home_days_rest = min(30, home_days_rest) if home_days_rest > 0 else 30  # Default for first match
+            away_days_rest = min(30, away_days_rest) if away_days_rest > 0 else 30  # Default for first match
+            
+            # Calculate form strength with additive smoothing
+            def calculate_enhanced_form_strength(team_id, match_date, team_history, df):
+                """Calculate form strength with exponential weighting and goal difference consideration"""
+                # Get last 5 matches (excluding current match)
+                past_matches = df[(df['home_team_id'] == team_id) | (df['away_team_id'] == team_id)]
+                past_matches = past_matches[past_matches['date'] < match_date].sort_values('date', ascending=False).head(5)
+                
+                if past_matches.empty:
+                    return 0.5  # Neutral value
+                
+                total_weight = 0
+                form_score = 0
+                
+                for i, (_, match) in enumerate(past_matches.iterrows()):
+                    # Determine if home or away
+                    is_home = match['home_team_id'] == team_id
+                    weight = 0.8 ** i  # Exponential decay (most recent match has weight 1)
+                    
+                    # Get match result
+                    if is_home:
+                        goals_for = match['home_goals']
+                        goals_against = match['away_goals']
+                    else:
+                        goals_for = match['away_goals']
+                        goals_against = match['home_goals']
+                        
+                    # Calculate result score (0-1)
+                    if goals_for > goals_against:  # Win
+                        result_score = 1.0
+                    elif goals_for == goals_against:  # Draw
+                        result_score = 0.5
+                    else:  # Loss
+                        result_score = 0.0
+                        
+                    # Add goal difference factor (capped at ±3)
+                    gd_factor = min(3, max(-3, goals_for - goals_against)) / 12  # ±0.25 max effect
+                    
+                    form_score += (result_score + gd_factor) * weight
+                    total_weight += weight
+                
+                # Normalize and apply bounds
+                form_strength = form_score / total_weight
+                return max(0, min(1, round(form_strength, 4)))
+            
+            home_form_strength = calculate_enhanced_form_strength(home_id, match_date, team_history, df)
+            away_form_strength = calculate_enhanced_form_strength(away_id, match_date, team_history, df)
+            
+            # Generate form string (last 5 matches)
+            def get_form_string(form_history):
+                if not form_history:
+                    return 'N'
+                return ''.join(['W' if x == 1 else 'D' if x == 0.5 else 'L' for x in form_history[-5:]])
+            
+            home_form_str = get_form_string(team_history[home_id]['form'])
+            away_form_str = get_form_string(team_history[away_id]['form'])
+            
+            # Set PRE-MATCH features
+            df.at[idx, 'home_points'] = team_history[home_id]['points']
+            df.at[idx, 'home_goals_for'] = team_history[home_id]['goals_for']
+            df.at[idx, 'home_goals_against'] = team_history[home_id]['goals_against']
+            df.at[idx, 'home_goals_diff'] = team_history[home_id]['goals_for'] - team_history[home_id]['goals_against']
+            df.at[idx, 'home_played'] = team_history[home_id]['matches_played']
+            df.at[idx, 'home_wins'] = team_history[home_id]['wins']
+            df.at[idx, 'home_draws'] = team_history[home_id]['draws']
+            df.at[idx, 'home_losses'] = team_history[home_id]['losses']
+            df.at[idx, 'home_days_rest'] = home_days_rest
+            df.at[idx, 'home_form_strength'] = home_form_strength
+            #df.at[idx, 'home_form'] = home_form_str
+            
+            df.at[idx, 'away_points'] = team_history[away_id]['points']
+            df.at[idx, 'away_goals_for'] = team_history[away_id]['goals_for']
+            df.at[idx, 'away_goals_against'] = team_history[away_id]['goals_against']
+            df.at[idx, 'away_goals_diff'] = team_history[away_id]['goals_for'] - team_history[away_id]['goals_against']
+            df.at[idx, 'away_played'] = team_history[away_id]['matches_played']
+            df.at[idx, 'away_wins'] = team_history[away_id]['wins']
+            df.at[idx, 'away_draws'] = team_history[away_id]['draws']
+            df.at[idx, 'away_losses'] = team_history[away_id]['losses']
+            df.at[idx, 'away_days_rest'] = away_days_rest
+            df.at[idx, 'away_form_strength'] = away_form_strength
+            #df.at[idx, 'away_form'] = away_form_str
+            
+            # Update POST-MATCH stats (using actual match results)
+            # Only process results for non-NS matches
+            if row['status'] != 'NS':
+                try:
+                    home_goals = int(row['home_goals'])
+                    away_goals = int(row['away_goals'])
+                    
+                    # Update team stats
+                    team_history[home_id]['goals_for'] += home_goals
+                    team_history[home_id]['goals_against'] += away_goals
+                    team_history[away_id]['goals_for'] += away_goals
+                    team_history[away_id]['goals_against'] += home_goals
+                    
+                    # Update points and form
+                    if home_goals > away_goals:
+                        team_history[home_id]['points'] += 3
+                        team_history[home_id]['wins'] += 1
+                        team_history[home_id]['form'].append(1)
+                        team_history[away_id]['losses'] += 1
+                        team_history[away_id]['form'].append(0)
+                    elif home_goals == away_goals:
+                        team_history[home_id]['points'] += 1
+                        team_history[home_id]['draws'] += 1
+                        team_history[home_id]['form'].append(0.5)
+                        team_history[away_id]['points'] += 1
+                        team_history[away_id]['draws'] += 1
+                        team_history[away_id]['form'].append(0.5)
+                    else:
+                        team_history[away_id]['points'] += 3
+                        team_history[away_id]['wins'] += 1
+                        team_history[away_id]['form'].append(1)
+                        team_history[home_id]['losses'] += 1
+                        team_history[home_id]['form'].append(0)
+                    
+                    team_history[home_id]['matches_played'] += 1
+                    team_history[away_id]['matches_played'] += 1
+                    
+                except (ValueError, TypeError):
+                    # Handle cases where goals are NaN or invalid
+                    pass
+        
+        def calculate_ranks(group):
+            """
+            Properly calculates ranks within each season/round group using:
+            1. Points (descending)
+            2. Goal Difference (descending)
+            3. Goals For (descending)
+            """
+            # Create temporary dataframe for ranking calculations
+            teams = {}
+            for _, row in group.iterrows():
+                for team_type in ['home', 'away']:
+                    team_id = row[f'{team_type}_team_id']
+                    if team_id not in teams:
+                        teams[team_id] = {
+                            'points': row[f'{team_type}_points'],
+                            'gd': row[f'{team_type}_goals_diff'],
+                            'gf': row[f'{team_type}_goals_for'],
+                            'name': row[f'{team_type}_team']
+                        }
+            
+            # Convert to DataFrame for ranking
+            ranking_df = pd.DataFrame.from_dict(teams, orient='index')
+            ranking_df['rank_key'] = ranking_df.apply(lambda x: (-x['points'], -x['gd'], -x['gf']), axis=1)
+            ranking_df['rank'] = ranking_df['rank_key'].rank(method='min').astype(int)
+            
+            # Map ranks back to original dataframe
+            for idx, row in group.iterrows():
+                home_id = row['home_team_id']
+                away_id = row['away_team_id']
+                group.at[idx, 'home_rank'] = ranking_df.at[home_id, 'rank']
+                group.at[idx, 'away_rank'] = ranking_df.at[away_id, 'rank']
+            
+            return group
+
+        # Apply ranking calculation
+        df = df.groupby(['season', 'round'], group_keys=False).apply(calculate_ranks)
+    
+        
+        # Select output columns
+        output_cols = [
+            'fixture_id', 'date', 'season', 'round',
+            'league_name', 'league_flag', 'league_logo',
+            'venue_name', 'venue_id', 'referee', 'status',
+            'home_team', 'home_team_id', 'home_team_flag', 
+            'away_team', 'away_team_id', 'away_team_flag',
+            'home_goals', 'away_goals'
+        ] + list(features.keys())
+
+      
+        return df
+ 
+    def _create_h2h_features(self, df: pd.DataFrame, LEAGUES: dict) -> pd.DataFrame:
+        """Enhanced H2H calculator with proper NS game handling and historical data only"""
+        # Create working copy with shot data filter
+        df = df.copy().sort_values('date')
+        
+        # Competition type classification
+        def get_competition_type(league_id):
+            league_id = str(league_id)
+            for country, competitions in LEAGUES.items():
+                if league_id in competitions:
+                    return 'cup' if 'cup' in competitions[league_id]['name'].lower() else 'league'
+            return 'league'
+        
+        df['competition_type'] = df['league_id'].apply(get_competition_type)
+        
+        # Initialize ALL H2H features
+        h2h_features = [
+            'h2h_matches', 'h2h_home_wins', 'h2h_away_wins', 'h2h_draws',
+            'h2h_home_goals', 'h2h_away_goals', 'h2h_goal_diff',
+            'h2h_home_win_pct', 'h2h_away_win_pct', 'h2h_avg_goals',
+            'h2h_recent_home_wins_last5', 'h2h_recent_away_wins_last5',
+            'h2h_recent_draws_last5', 'h2h_recent_avg_goals_last5',
+            'h2h_streak', 'h2h_league_matches', 'h2h_cup_matches',
+            'h2h_cup_home_wins', 'h2h_cup_away_wins', 'h2h_same_country',
+            'h2h_win_streak', 'h2h_loss_streak'
+        ]
+        df[h2h_features] = 0  # Initialize all features
+        
+        # Create separate DataFrames for completed and upcoming matches
+        completed_matches = df[df['status'].isin(['FT', 'AET', 'PEN'])]
+        upcoming_matches = df[df['status'] == 'NS']
+        
+        # Pre-calculate competition averages using only completed matches
+        comp_stats = {}
+        for (country, league_id), group in completed_matches.groupby(['country', 'league_id']):
+            comp_key = f"{country}_{league_id}"
+            comp_stats[comp_key] = {
+                'avg_goals': (group['home_goals'].mean() + group['away_goals'].mean()) / 2,
+                'home_win_rate': (group['home_goals'] > group['away_goals']).mean()
+            }
+        
+        def calculate_match_stats(target_df, source_df):
+            """Calculate H2H stats for matches using historical data only"""
+            for idx, row in tqdm(target_df.iterrows(), total=len(target_df), desc="Calculating H2H"):
+                home, away, date, country = row[['home_team_id', 'away_team_id', 'date', 'country']]
+                comp_key = f"{country}_{row['league_id']}"
+                
+                # Get historical matches BEFORE current date
+                past_matches = source_df[
+                    (((source_df['home_team_id'] == home) & (source_df['away_team_id'] == away)) |
+                    (((source_df['home_team_id'] == away) & (source_df['away_team_id'] == home))) &
+                    (source_df['date'] < date) &
+                    (source_df['country'] == country))
+                ].copy()
+                
+                target_df.at[idx, 'h2h_same_country'] = 1
+                
+                if not past_matches.empty:
+                    # Calculate all features
+                    total = len(past_matches)
+                    home_wins = len(past_matches[
+                        (past_matches['home_team_id'] == home) & 
+                        (past_matches['home_goals'] > past_matches['away_goals'])
+                    ])
+                    away_wins = len(past_matches[
+                        (past_matches['away_team_id'] == home) & 
+                        (past_matches['away_goals'] > past_matches['home_goals'])
+                    ])
+                    
+                    # Store basic counts
+                    target_df.at[idx, 'h2h_matches'] = total
+                    target_df.at[idx, 'h2h_home_wins'] = home_wins
+                    target_df.at[idx, 'h2h_away_wins'] = away_wins
+                    target_df.at[idx, 'h2h_draws'] = total - home_wins - away_wins
+                    
+                    # Goal calculations
+                    home_goals = past_matches[past_matches['home_team_id'] == home]['home_goals'].sum() + \
+                                past_matches[past_matches['away_team_id'] == home]['away_goals'].sum()
+                    away_goals = past_matches[past_matches['away_team_id'] == home]['home_goals'].sum() + \
+                                past_matches[past_matches['home_team_id'] == home]['away_goals'].sum()
+                    
+                    target_df.at[idx, 'h2h_home_goals'] = home_goals
+                    target_df.at[idx, 'h2h_away_goals'] = away_goals
+                    target_df.at[idx, 'h2h_goal_diff'] = home_goals - away_goals
+                    
+                    # Percentages and averages
+                    target_df.at[idx, 'h2h_home_win_pct'] = home_wins / total if total > 0 else 0
+                    target_df.at[idx, 'h2h_away_win_pct'] = away_wins / total if total > 0 else 0
+                    target_df.at[idx, 'h2h_avg_goals'] = (home_goals + away_goals) / total if total > 0 else 0
+                    
+                    # Recent form (last 5 matches)
+                    last5 = past_matches.nlargest(5, 'date')
+                    if not last5.empty:
+                        target_df.at[idx, 'h2h_recent_avg_goals_last5'] = (
+                            last5['home_goals'].sum() + last5['away_goals'].sum()
+                        ) / len(last5)
+                        
+                    # Competition-specific stats
+                    league_matches = past_matches[past_matches['competition_type'] == 'league']
+                    cup_matches = past_matches[past_matches['competition_type'] == 'cup']
+                    target_df.at[idx, 'h2h_league_matches'] = len(league_matches)
+                    target_df.at[idx, 'h2h_cup_matches'] = len(cup_matches)
+                    
+                    # Streaks
+                    streak = self._calculate_streak(past_matches, home)
+                    target_df.at[idx, 'h2h_streak'] = streak
+                    target_df.at[idx, 'h2h_win_streak'] = max(streak, 0)
+                    target_df.at[idx, 'h2h_loss_streak'] = abs(min(streak, 0))
+                    
+                else:
+                    # Fallback to competition averages
+                    stats = comp_stats.get(comp_key, {'avg_goals': 2.5, 'home_win_rate': 0.45})
+                    target_df.at[idx, 'h2h_avg_goals'] = stats['avg_goals']
+                    target_df.at[idx, 'h2h_home_win_pct'] = stats['home_win_rate']
+                    target_df.at[idx, 'h2h_away_win_pct'] = 1 - stats['home_win_rate'] - 0.25
+        
+        # Process completed matches first
+        calculate_match_stats(completed_matches, completed_matches)
+        
+        # Process NS matches using only completed matches as history
+        calculate_match_stats(upcoming_matches, completed_matches)
+        
+        # Combine results
+        return pd.concat([completed_matches, upcoming_matches]).sort_values('date')
+
+    def _calculate_streak(self, matches, home_team):
+        """
+        Enhanced streak calculation that safely handles NaN values in goals.
+        Returns float value between -1 (terrible streak) and 1 (excellent streak)
+        """
+        if matches.empty:
+            return 0.0
+        
+        streak_score = 0.0
+        total_weight = 0.0
+        streak_direction = None
+        consecutive_count = 0
+        
+        for i, (_, match) in enumerate(matches.sort_values('date', ascending=False).iterrows()):
+            # Determine perspective
+            is_home = match['home_team_id'] == home_team
+            goals_for = match['home_goals'] if is_home else match['away_goals']
+            goals_against = match['away_goals'] if is_home else match['home_goals']
+            
+            # Skip matches with NaN goals
+            if pd.isna(goals_for) or pd.isna(goals_against):
+                continue
+                
+            weight = 0.8 ** i  # Exponential decay
+            
+            # Safely compare goals
+            try:
+                if goals_for > goals_against:  # Win
+                    current_direction = 1
+                    result_score = 1.0
+                elif goals_for < goals_against:  # Loss
+                    current_direction = -1
+                    result_score = 0.0
+                else:  # Draw
+                    current_direction = 0
+                    result_score = 0.5
+            except TypeError:
+                continue  # Skip if comparison fails
+                
+            # Calculate goal difference factor
+            try:
+                gd_factor = min(3, max(-3, goals_for - goals_against)) / 12
+            except TypeError:
+                gd_factor = 0
+                
+            # Track consecutive results
+            if streak_direction is None:
+                streak_direction = current_direction
+                consecutive_count = 1
+            elif current_direction == streak_direction:
+                consecutive_count += 1
+            else:
+                break  # Streak broken
+                
+            # Calculate weighted contribution
+            match_contribution = (result_score + gd_factor) * weight
+            streak_score += match_contribution
+            total_weight += weight
+        
+        if total_weight == 0:
+            return 0.0
+            
+        # Normalize and apply streak length bonus
+        normalized_streak = streak_score / total_weight
+        streak_bonus = min(0.2, consecutive_count * 0.05)
+        
+        if streak_direction == 1:  # Winning streak
+            final_score = min(1.0, normalized_streak + streak_bonus)
+        elif streak_direction == -1:  # Losing streak
+            final_score = max(-1.0, normalized_streak - streak_bonus)
+        else:  # Drawing streak
+            final_score = normalized_streak
+        
+        return round(final_score, 4)
+
+
+    def _add_new_metrics(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Enhanced derived features with comprehensive shot analysis and performance metrics.
+        Organized into logical sections with better documentation and error handling.
+        
+        Args:
+            df: Input DataFrame containing match statistics
+            
+        Returns:
+            DataFrame with additional calculated metrics
+        """
+        # Make a copy to avoid modifying the original DataFrame
+        df = df.copy()
+        
+        # 1. String columns handling and cleanup
+        string_cols = ['league_name', 'league_flag', 'league_logo', 'season',
+                    'home_team', 'home_team_flag', 'away_team', 'away_team_flag',
+                    'venue_name', 'venue_city', 'referee', 'status',
+                    'home_form', 'away_form', 'round', 'outcome', 'h2h_streak']
+        
+        # Store string columns before processing
+        string_backups = {col: df[col].copy() for col in string_cols if col in df.columns}
+        
+        
+        # Columns to drop
+        cols_to_drop = ['home_team_name', 'away_team_name', 'home_winner', 'away_winner',
+                    'home_team_logo', 'away_team_logo']
+        df = df.drop(columns=[col for col in cols_to_drop if col in df.columns], errors='ignore')
+
+
+        # --- Feature Engineering ---
+        self.original_metrics = [
+            'shots_on_goal', 'shots_off_goal', 'total_shots', 'blocked_shots', 
+            'shots_insidebox', 'shots_outsidebox', 'fouls', 'corner_kicks', 
+            'offsides', 'ball_possession', 'yellow_cards', 'red_cards', 
+            'goalkeeper_saves', 'total_passes', 'passes_accurate', 'passes',
+            'expected_goals', 'goals_prevented'
+        ]        
+        
+        # Finalize new metrics sets
+        self.original_metrics = {
+            f"{prefix}_{metric}" 
+            for metric in self.original_metrics 
+            for prefix in ['home', 'away']
+        }       
+        
+        self.new_metrics = set()
+        self.diff_metrics = set()
+        
+        # Helper function to check if required columns exist
+        def has_required_cols(prefix, metrics):
+            return all(f"{prefix}_{m}" in df.columns for m in metrics)
+        
+        
+        # ===================================
+        # 1. ADVANCED METRICS (xG and gp)
+        # ===================================
+        def calculate_expected_goals(row, team_type):
+            """Calculate expected goals based on shot data"""
+            prefix = f"{team_type}_"
+            shots_on_goal = row.get(f"{prefix}shots_on_goal", 0)
+            shots_insidebox = row.get(f"{prefix}shots_insidebox", 0)
+            shots_outsidebox = row.get(f"{prefix}shots_outsidebox", 0)
+            possession = row.get(f"{prefix}ball_possession", 50)
+            
+            # Weightings (calibrated for soccer/football)
+            inside_box_weight = 0.15
+            outside_box_weight = 0.05
+            on_target_weight = 0.3
+            
+            # Basic xG calculation
+            xG = (shots_insidebox * inside_box_weight + 
+                shots_outsidebox * outside_box_weight) * (1 + on_target_weight if shots_on_goal > 0 else 1)
+            
+            # Adjust for possession
+            xG *= (possession / 50)  # Normalize around average possession
+            
+            return round(xG, 2)
+
+        def calculate_goals_prevented(row, team_type):
+            """Calculate goals prevented by goalkeeper"""
+            prefix = f"{team_type}_"
+            opp_prefix = "away_" if team_type == "home" else "home_"
+            
+            goals_conceded = row.get(f"{opp_prefix}goals", 0)
+            xG_against = row.get(f"{opp_prefix}expected_goals", 0)
+            saves = row.get(f"{prefix}goalkeeper_saves", 0)
+            
+            goals_prevented = xG_against - goals_conceded
+            
+            # Adjust for number of saves
+            if pd.notna(saves):
+                goals_prevented *= (1 + saves / 10)
+                
+            return round(goals_prevented, 2) if not pd.isna(goals_prevented) else 0
+
+        # Calculate advanced metrics if shot data exists
+        if has_required_cols('home', ['shots_insidebox', 'shots_outsidebox', 'shots_on_goal', 'ball_possession']):
+            # Calculate expected goals
+            df['home_expected_goals'] = df.apply(lambda x: calculate_expected_goals(x, 'home'), axis=1)
+            df['away_expected_goals'] = df.apply(lambda x: calculate_expected_goals(x, 'away'), axis=1)
+            
+            # Calculate goals prevented if goalkeeper data exists
+            if 'home_goalkeeper_saves' in df.columns:
+                df['home_goals_prevented'] = df.apply(lambda x: calculate_goals_prevented(x, 'home'), axis=1)
+                df['away_goals_prevented'] = df.apply(lambda x: calculate_goals_prevented(x, 'away'), axis=1)
+            
+            self.new_metrics.update(['expected_goals', 'goals_prevented'])        
+        
+        # ========================
+        # 2. SHOT ANALYSIS METRICS
+        # ========================
+        shot_metrics = ['shots_on_goal', 'total_shots', 'shots_insidebox', 'shots_outsidebox', 'goals']
+        
+        if (has_required_cols('home', shot_metrics) and 
+            has_required_cols('away', shot_metrics)):
+            
+            for prefix in ['home', 'away']:
+                opp_prefix = 'away' if prefix == 'home' else 'home'
+                
+                # Shot accuracy
+                df[f'{prefix}_shot_accuracy'] = (
+                    df[f'{prefix}_shots_on_goal'] / 
+                    df[f'{prefix}_total_shots'].replace(0, 1))
+                
+                # Shot quality
+                df[f'{prefix}_shot_quality'] = (
+                    (df[f'{prefix}_shots_insidebox'] * 1.5 + 
+                    df[f'{prefix}_shots_outsidebox'] * 0.5) / 
+                    df[f'{prefix}_total_shots'].replace(0, 1))
+                
+                # Box ratio
+                df[f'{prefix}_box_ratio'] = (
+                    df[f'{prefix}_shots_insidebox'] / 
+                    df[f'{prefix}_total_shots'].replace(0, 1))
+                
+                # Shot efficiency
+                df[f'{prefix}_shot_efficiency'] = (
+                    df[f'{prefix}_goals'] / 
+                    df[f'{prefix}_total_shots'].replace(0, 1))
+                
+                # Long-range threat
+                df[f'{prefix}_longrange_threat'] = (
+                    df[f'{prefix}_shots_outsidebox'] / 
+                    df[f'{prefix}_total_shots'].replace(0, 1))
+
+            
+            self.new_metrics.update(['shot_accuracy', 'shot_quality', 'box_ratio', 'shot_efficiency', 'longrange_threat'])
+
+        # ========================
+        # 3. OFFENSIVE METRICS
+        # ========================
+        offensive_metrics = ['offsides', 'passes', 'corner_kicks', 'goals']
+        
+        if (has_required_cols('home', offensive_metrics) and 
+            has_required_cols('away', offensive_metrics)):
+            
+            for prefix in ['home', 'away']:
+                opp_prefix = 'away' if prefix == 'home' else 'home'
+                
+                # Offside per attempt
+                df[f'{prefix}_offside_per_attempt'] = (
+                    df[f'{opp_prefix}_offsides'] / 
+                    df[f'{prefix}_passes'].replace(0, 1))
+                
+                # Corner efficiency
+                df[f'{prefix}_corner_efficiency'] = (
+                    df[f'{prefix}_goals'] / 
+                    df[f'{prefix}_corner_kicks'].replace(0, 1))
+            
+            self.new_metrics.update(['offside_per_attempt', 'corner_efficiency'])
+
+        # ========================
+        # 4. DEFENSIVE METRICS
+        # ========================
+        defensive_metrics = ['goals', 'shots_on_goal', 'fouls', 'blocked_shots']
+        
+        if (has_required_cols('home', defensive_metrics) and 
+            has_required_cols('away', defensive_metrics)):
+            
+            for prefix in ['home', 'away']:
+                opp_prefix = 'away' if prefix == 'home' else 'home'
+                
+                # Defensive efficiency
+                df[f'{prefix}_defensive_efficiency'] = (
+                    1 - (df[f'{opp_prefix}_goals'] / 
+                        df[f'{prefix}_shots_on_goal'].replace(0, 1)))
+                
+                # Defensive pressure
+                df[f'{prefix}_defensive_pressure'] = (
+                    df[f'{prefix}_fouls'] + 
+                    df[f'{prefix}_blocked_shots'])
+                
+                # Home clearance efficiency
+                df[f'{prefix}_clearance_efficiency'] = (
+                    df[f'{prefix}_blocked_shots'] / 
+                    (df[f'{prefix}_shots_on_goal'] + 
+                     df[f'{prefix}_shots_off_goal']).replace(0, 1))
+               
+            
+            self.new_metrics.update(['defensive_efficiency', 'defensive_pressure', 'clearance_efficiency'])
+
+        # ========================
+        # 5. POSSESSION METRICS
+        # ========================
+        possession_metrics = ['passes_accurate', 'total_passes', 'fouls', 'ball_possession']
+        
+        if (has_required_cols('home', possession_metrics) and 
+            has_required_cols('away', possession_metrics)):
+            
+            # Possession difference
+            df['possession_difference'] = (
+                df['home_ball_possession'] - 
+                df['away_ball_possession'])
+            
+            for prefix in ['home', 'away']:
+                # Pass accuracy
+                df[f'{prefix}_pass_accuracy'] = (
+                    df[f'{prefix}_passes_accurate'] / 
+                    df[f'{prefix}_total_passes'].replace(0, 1))
+                
+                # Press resistance
+                df[f'{prefix}_press_resistance'] = (
+                    df[f'{prefix}_total_passes'] / 
+                    (df[f'{prefix}_fouls'] + 1))
+                
+                # Possession efficiency
+                df[f'{prefix}_possession_efficiency'] = (
+                    df[f'{prefix}_passes'] / 
+                    df[f'{prefix}_ball_possession'].replace(0, 1))
+            
+            self.new_metrics.update(['pass_accuracy', 'press_resistance', 'possession_efficiency'])
+            self.diff_metrics.add('possession_difference')
+
+        # ========================
+        # 6. xG METRICS
+        # ========================
+        if all(col in df.columns for col in ['home_expected_goals', 'away_expected_goals']):
+            # xG difference
+            df['xg_difference'] = (
+                df['home_expected_goals'] - 
+                df['away_expected_goals'])
+            
+            # Total xG
+            df['xg_total'] = (
+                df['home_expected_goals'] + 
+                df['away_expected_goals'])
+            
+            for prefix in ['home', 'away']:
+                opp_prefix = 'away' if prefix == 'home' else 'home'
+                
+                # xG performance
+                df[f'{prefix}_xg_performance'] = (
+                    df[f'{prefix}_goals'] - 
+                    df[f'{prefix}_expected_goals'])
+                
+                # xG efficiency
+                df[f'{prefix}_xg_efficiency'] = (
+                    df[f'{prefix}_goals'] / 
+                    df[f'{prefix}_expected_goals'].replace(0, 1))
+            
+            self.new_metrics.update(['xg_performance', 'xg_efficiency'])
+            self.diff_metrics.update(['xg_difference', 'xg_total'])
+
+        # ========================
+        # 7. GOALKEEPER METRICS
+        # ========================
+        if all(col in df.columns for col in ['home_goalkeeper_saves', 'away_shots_on_goal',
+                                        'away_goalkeeper_saves', 'home_shots_on_goal']):
+            df['home_save_percentage'] = (
+                df['home_goalkeeper_saves'] / 
+                df['away_shots_on_goal'].replace(0, 1))
+            
+            df['away_save_percentage'] = (
+                df['away_goalkeeper_saves'] / 
+                df['home_shots_on_goal'].replace(0, 1))
+            
+            self.new_metrics.add('save_percentage')
+
+        # ========================
+        # 8. MATCH CONTEXT METRICS
+        # ========================
+        if all(col in df.columns for col in ['home_yellow_cards', 'home_red_cards',
+                                        'away_yellow_cards', 'away_red_cards']):
+            for prefix in ['home', 'away']:
+                df[f'{prefix}_total_cards'] = (
+                    df[f'{prefix}_yellow_cards'] + 
+                    df[f'{prefix}_red_cards'] * 2)
+            
+            df['discipline_difference'] = (
+                df['home_total_cards'] - 
+                df['away_total_cards'])
+            
+            # Home pressing intensity
+            df['home_pressing_intensity'] = df['away_total_cards'] / df['away_ball_possession'].replace(0, 1)
+            df['away_pressing_intensity'] = df['home_total_cards'] / df['home_ball_possession'].replace(0, 1)
+
+            
+            self.new_metrics.update(['total_cards', 'pressing_intensity'])
+            self.diff_metrics.add('discipline_difference')
+
+        # ========================
+        # 9. MATCH MOMENTUM METRICS
+        # ========================
+        if all(col in df.columns for col in ['halftime_home', 'halftime_away', 
+                                            'home_goals', 'away_goals']):
+            
+            # First fill NA values with 0 or appropriate default value
+            cols_to_fill = ['halftime_home', 'halftime_away', 'home_goals', 'away_goals', 'fulltime_home', 'fulltime_away']
+            df[cols_to_fill] = df[cols_to_fill].fillna(0)
+            
+            # Comeback wins
+            df['home_comeback_win'] = (
+                (df['halftime_home'] < df['halftime_away']) & 
+                (df['home_goals'] > df['away_goals'])
+            ).astype(int)
+            
+            df['away_comeback_win'] = (
+                (df['halftime_away'] < df['halftime_home']) & 
+                (df['away_goals'] > df['home_goals'])
+            ).astype(int)
+            
+            # Lost leads
+            df['home_lost_lead'] = (
+                (df['halftime_home'] > df['halftime_away']) & 
+                (df['home_goals'] < df['away_goals'])
+            ).astype(int)
+            
+            df['away_lost_lead'] = (
+                (df['halftime_away'] > df['halftime_home']) & 
+                (df['away_goals'] < df['home_goals'])
+            ).astype(int)
+            
+            # Halftime advantage
+            df['ht_lead_difference'] = df['halftime_home'] - df['halftime_away']
+            df['ft_ht_swing'] = (df['home_goals'] - df['away_goals']) - df['ht_lead_difference']
+            
+            self.new_metrics.update(['comeback_win', 'lost_lead'])
+            self.diff_metrics.update(['ht_lead_difference', 'ft_ht_swing'])        
+        
+        
+        # Rest advantage
+        if all(col in df.columns for col in ['home_days_rest', 'away_days_rest']):
+            df['rest_difference'] = (
+                df['home_days_rest'] - 
+                df['away_days_rest'])
+            self.diff_metrics.add('rest_difference')
+
+        # Clean sheets
+        df['home_clean_sheet'] = (df['away_goals'] == 0).astype(int)
+        df['away_clean_sheet'] = (df['home_goals'] == 0).astype(int)
+        self.new_metrics.add('clean_sheet')
+
+
+
+        self.new_metrics = {
+            f"{prefix}_{metric}" 
+            for metric in self.new_metrics 
+            if metric not in self.diff_metrics 
+            for prefix in ['home', 'away']
+        } | self.diff_metrics  # Include differential metrics
+
+        self.combined_metrics = self.original_metrics.union(self.new_metrics)
+
+        if self.config.get('drop_original_metrics', False):
+            # Drop original features if configured
+            cols_to_drop = [col for col in self.original_metrics if col in df.columns]
+            df = df.drop(columns=cols_to_drop, errors='ignore')
+            self._log(f"Dropped {len(cols_to_drop)} original metrics")
+
+        # Restore string columns
+        for col, data in string_backups.items():
+            if col in df.columns:
+                df[col] = data
+            else:
+                df[col] = data
+                self._log(f"Restored missing column: {col}")
+
+        return df
+    
+    def _calculate_rolling_averages(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Calculate rolling averages and optionally drop original features
+        
+        Args:
+            df: Input DataFrame with match data
+            
+        Returns:
+            DataFrame with rolling averages added and original features dropped if configured
+        """
+        if 'date' not in df.columns:
+            return df
+        
+        # Sort and prepare
+        df = df.sort_values(['season', 'date'])
+        
+        # Calculate rolling features for all available metrics
+        for window in self.config['rolling_windows']:
+            for feature in self.combined_metrics:
+                if feature in df.columns:
+                    rolling_col = f"{feature}_rolling_{window}"
+                    
+                    if feature.startswith('home_'):
+                        df[rolling_col] = df.groupby(['season', 'home_team_id'])[feature]\
+                                        .transform(lambda x: x.rolling(window, min_periods=1).mean())
+                    elif feature.startswith('away_'):
+                        df[rolling_col] = df.groupby(['season', 'away_team_id'])[feature]\
+                                        .transform(lambda x: x.rolling(window, min_periods=1).mean())
+                    else:
+                        home_vals = df.groupby(['season', 'home_team_id'])[feature]\
+                                    .transform(lambda x: x.rolling(window, min_periods=1).mean())
+                        away_vals = df.groupby(['season', 'away_team_id'])[feature]\
+                                    .transform(lambda x: x.rolling(window, min_periods=1).mean())
+                        df[rolling_col] = (home_vals + away_vals) / 2
+        
+        # SIMPLE DROP LOGIC - ONLY THIS PART CHANGED
+        if self.config.get('drop_non_roll_features', False):
+            cols_to_drop = [col for col in self.combined_metrics if col in df.columns]
+            df = df.drop(columns=cols_to_drop, errors='ignore')
+            self._log(f"Dropped {len(cols_to_drop)} non rolled metrics")
+
+
+        
+        return df
+
+
+    
+    def _preprocess_and_feature_engineer(self, df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Main preprocessing and feature engineering method that combines:
+        1. Standings creation
+        2. Additional feature engineering
+        3. Rolling averages
+        """
+        df = df.copy()
+        #print(f"Found {len(df.columns)} Initial columns: {df.columns.tolist()}")
+
+        df = self._clean_data(df)
+        #print(f"Found {len(df.columns)} Columns after cleaning: {df.columns.tolist()}")
+
+        df = self._create_temporal_features(df)
+        
+        df = self._create_target_column(df)
+        
+        # First create the standings
+        df = self._create_standings(df)
+
+        # 2. Add head-to-head features
+        #df = self._create_h2h_features(df, LEAGUES)
+        
+        #print(df.columns)
+        # Then add other features
+        df = self._add_new_metrics(df)
+        
+        # Finally calculate rolling averages
+        df = self._calculate_rolling_averages(df)
+
+        # Cleanup to keep only relevant features
+        df = df.fillna(0)  # Fill NaNs with 0 for numerical stability
+        
+        return df
+    
+    def _process_single_season(self, country: str, league: str, season: str) -> Optional[pd.DataFrame]:
+        """Process and merge data for a single country/league/season
+        
+        Args:
+            country: Country name (directory name)
+            league: League name (subdirectory name)
+            season: Season name (subdirectory name)
+            
+        Returns:
+            Merged DataFrame or None if processing fails
+        """
+        season_path = Path(self.config['raw_dir']) / country / league / season
+        self._log(f"Processing {country}/{league}/{season}")
+        
+        try:
+            # 1. Validate and load files
+            fixtures_path = season_path / self.config['data_types']['fixtures']
+            team_stats_path = season_path / self.config['data_types']['team_stats']
+            
+            if not fixtures_path.exists():
+                self._log(f"Missing fixtures file: {fixtures_path}")
+                return None
+            if not team_stats_path.exists():
+                self._log(f"Missing team stats file: {team_stats_path}")
+                return None
+                
+            # Load with error handling
+            fixtures = pd.read_csv(fixtures_path)
+            team_stats = pd.read_csv(team_stats_path)
+
+            
+            # 2. Validate required columns
+            required_fixture_cols = self.config['required_cols']['fixtures']
+            missing_fixture_cols = [col for col in required_fixture_cols 
+                                if col not in fixtures.columns]
+            if missing_fixture_cols:
+                raise ValueError(f"Missing required columns in fixtures: {missing_fixture_cols}")
+
+            
+            # 4. Prepare team references
+            team_ref = fixtures[['fixture_id', 'home_team_id', 'away_team_id']].copy()
+            
+            # Handle optional columns - only for team_stats
+            optional_team_stats_columns = ['expected_goals', 'goals_prevented']
+            columns_to_drop = [col for col in optional_team_stats_columns 
+                            if col in team_stats.columns]
+            
+            # Safely filter team stats
+            if columns_to_drop:
+                team_stats = team_stats.drop(columns=columns_to_drop, errors='ignore')
+            
+            # Handle penalty columns in fixtures (if they exist but you want to remove them)
+            penalty_columns = ['penalty_home', 'penalty_away']
+            if any(col in fixtures.columns for col in penalty_columns):
+                fixtures = fixtures.drop(columns=penalty_columns, errors='ignore')
+            
+            # 6. Merge team stats with references
+            team_data = team_stats.merge(team_ref, on='fixture_id', how='left')
+            
+            # 7. Split into home/away data with error handling
+            try:
+                home_mask = team_data['team_id'] == team_data['home_team_id']
+                home_data = (
+                    team_data[home_mask]
+                    .drop(columns=['home_team_id', 'away_team_id', 'team_id'])
+                    .rename(columns=lambda x: f'home_{x}' if x != 'fixture_id' else x)
+                )
+                
+                away_mask = team_data['team_id'] == team_data['away_team_id']
+                away_data = (
+                    team_data[away_mask]
+                    .drop(columns=['home_team_id', 'away_team_id', 'team_id'])
+                    .rename(columns=lambda x: f'away_{x}' if x != 'fixture_id' else x)
+                )
+            except KeyError as e:
+                raise ValueError(f"Missing team reference columns: {str(e)}")
+            
+            # 8. Final merge with validation
+            if len(home_data) == 0 or len(away_data) == 0:
+                raise ValueError("No home or away data found after splitting")
+                
+            merged = (
+                fixtures
+                .merge(home_data, on='fixture_id', how='left')
+                .merge(away_data, on='fixture_id', how='left')
+            )
+            
+            
+            # Validate merge succeeded
+            if len(merged) == 0:
+                raise ValueError("Final merge resulted in empty DataFrame")
+                
+            return merged
+            
+        except Exception as e:
+            self._log(f"Error processing {country}/{league}/{season}: {str(e)}")
+            if self.config.get('verbose', False):
+                import traceback
+                self._log(traceback.format_exc())
+            return None
+
+    def _merge_all_seasons(self, country: str, league: str, seasons: List[str]) -> Optional[pd.DataFrame]:
+        """Merge all seasons for a specific country/league"""
+        league_data = pd.DataFrame()
+        
+        for season in seasons:
+            season_data = self._process_single_season(country, league, season)
+            if season_data is not None:
+                league_data = pd.concat([league_data, season_data], ignore_index=True)
+        
+        if league_data.empty:
+            self._log(f"No valid data found for {country}/{league}")
+            return None
+            
+        return league_data
+
+    def run_pipeline(self) -> pd.DataFrame:
+        """Run the complete pipeline following country/league/season structure"""
+        data_structure = self._discover_data_structure()
+        all_data = pd.DataFrame()
+        
+        # First merge all files
+        for country, leagues in data_structure.items():
+            # Create country folder in merged directory
+            country_dir = Path(self.config['merged_dir']) / country
+            country_dir.mkdir(parents=True, exist_ok=True)
+            
+            for league, seasons in leagues.items():
+                # Create league folder
+                league_dir = country_dir / league
+                league_dir.mkdir(exist_ok=True)
+                
+                # Merge all seasons for this league
+                league_data = self._merge_all_seasons(country, league, seasons)
+                
+                if league_data is None or league_data.empty:
+                    continue
+                    
+                # Save the merged league file (before preprocessing)
+                league_filename = "all_seasons_merged.csv"
+                league_path = league_dir / league_filename
+                league_data.to_csv(league_path, index=False)
+                self._log(f"Saved merged data to {league_path}")
+                
+                # Add to complete dataset
+                all_data = pd.concat([all_data, league_data], ignore_index=True)
+
+        # Then preprocess the complete dataset
+        if not all_data.empty:
+            all_data = self._preprocess_and_feature_engineer(all_data)
+            all_data.sort_values(by=['date'], inplace=True)
+            
+            # Save final combined file
+            all_data.to_csv(self.config['final_output'], index=False)
+            self._log(f"\nPipeline complete. Final dataset saved to {self.config['final_output']}")
+            self._log(f"Final Dataset contains {len(all_data)} records and {len(all_data.columns)} features.")
+            self._log(f"Columns: {', '.join(all_data.columns)}")
+        else:
+            self._log("\nPipeline completed but no data was processed")
+        
+        return all_data
+    
+if __name__ == "__main__":
+    config = {
+        'raw_dir': 'data/extracted',
+        'final_output': 'data/final_processed_new.csv',
+        'verbose': True,
+        'rolling_windows': [5],  # Calculate 3, 5, and 10-match rolling averages
+        'min_matches': 5 , # Require at least 5 matches for rolling averages
+        'drop_non_roll_features': True, # Drop non rolled features after rolling averages
+        'drop_original_metrics': True, # Drop original rolled features after rolling averages
+    }
+    
+    pipeline = FootballDataPipeline(config)
+    final_data = pipeline.run_pipeline()

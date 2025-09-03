@@ -1,0 +1,6 @@
+country_league,file_type,column,present_years,missing_years,status
+Italy_Serie B,team_statistics,expected_goals,"2022, 2023, 2024","2017, 2018, 2019, 2020, 2021",Inconsistent
+Italy_Serie B,team_statistics,goals_prevented,"2023, 2024","2017, 2018, 2019, 2020, 2021, 2022",Inconsistent
+Italy_Serie B,team_statistics,Substitutions,2018,"2017, 2019, 2020, 2021, 2022, 2023, 2024",Added
+Italy_Serie B,player_statistics,duels_won,"2020, 2021, 2022, 2023, 2024",2019,Inconsistent
+Italy_Serie B,player_statistics,duels_total,"2020, 2021, 2022, 2023, 2024",2019,Inconsistent

@@ -1,0 +1,925 @@
+﻿fixture_id,team_id,team_name,team_logo,Shots on Goal,Shots off Goal,Total Shots,Blocked Shots,Shots insidebox,Shots outsidebox,Fouls,Corner Kicks,Offsides,Ball Possession,Yellow Cards,Red Cards,Goalkeeper Saves,Total passes,Passes accurate,Passes %
+10679,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,7,3,11,1,4,7,16,7,1,43%,2,0,4,330,274,83%
+10679,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,4,4,11,3,4,7,14,1,3,57%,2,0,5,443,356,80%
+10678,719,Tenerife,https://media.api-sports.io/football/teams/719.png,7,5,13,1,5,8,18,6,2,50%,0,0,2,397,309,78%
+10678,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,2,3,6,1,3,3,17,2,2,50%,3,0,6,414,329,79%
+10676,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,4,5,11,2,7,4,13,3,3,54%,2,0,1,508,412,81%
+10676,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,1,1,4,2,0,4,16,3,1,46%,2,0,4,429,327,76%
+10677,727,Osasuna,https://media.api-sports.io/football/teams/727.png,4,5,11,2,6,5,9,3,5,51%,3,0,2,349,220,63%
+10677,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,3,3,7,1,3,4,16,2,0,49%,6,0,3,323,192,59%
+10674,713,Cordoba,https://media.api-sports.io/football/teams/713.png,6,4,16,6,11,5,16,12,2,69%,0,0,1,488,387,79%
+10674,724,Cadiz,https://media.api-sports.io/football/teams/724.png,3,2,6,1,5,1,14,6,3,31%,1,0,5,222,125,56%
+10675,717,Numancia,https://media.api-sports.io/football/teams/717.png,6,7,15,2,9,6,13,8,5,43%,1,0,2,307,208,68%
+10675,726,Huesca,https://media.api-sports.io/football/teams/726.png,2,5,9,2,3,6,12,0,2,57%,7,1,5,414,314,76%
+10673,720,Valladolid,https://media.api-sports.io/football/teams/720.png,7,6,19,6,12,7,21,11,0,61%,4,0,2,460,375,82%
+10673,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,4,9,1,2,7,16,2,1,39%,1,0,6,301,232,77%
+10672,718,Oviedo,https://media.api-sports.io/football/teams/718.png,3,5,10,2,7,3,19,5,4,52%,2,0,1,433,333,77%
+10672,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,4,2,10,4,5,5,12,2,1,48%,6,0,1,423,322,76%
+10671,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,6,8,18,4,13,5,22,6,1,50%,2,0,6,373,263,71%
+10671,723,Almeria,https://media.api-sports.io/football/teams/723.png,7,5,14,2,9,5,15,5,1,50%,1,0,6,364,275,76%
+10670,715,Granada CF,https://media.api-sports.io/football/teams/715.png,4,11,21,6,10,11,18,6,1,62%,2,0,2,407,296,73%
+10670,722,Albacete,https://media.api-sports.io/football/teams/722.png,2,0,2,0,1,1,15,2,3,38%,3,0,4,247,145,59%
+10669,716,Lugo,https://media.api-sports.io/football/teams/716.png,3,6,15,6,9,6,10,8,4,54%,3,0,2,429,338,79%
+10669,729,Reus,https://media.api-sports.io/football/teams/729.png,2,2,4,0,2,2,18,2,3,46%,1,0,3,368,268,73%
+10668,722,Albacete,https://media.api-sports.io/football/teams/722.png,0,6,11,5,4,7,20,4,0,49%,3,0,2,362,273,75%
+10668,713,Cordoba,https://media.api-sports.io/football/teams/713.png,5,5,12,2,5,7,18,3,4,51%,2,0,0,380,299,79%
+10666,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,7,6,16,3,8,8,10,9,2,67%,3,0,0,521,443,85%
+10666,727,Osasuna,https://media.api-sports.io/football/teams/727.png,1,3,5,1,1,4,10,0,4,33%,3,1,5,254,182,72%
+10667,726,Huesca,https://media.api-sports.io/football/teams/726.png,3,7,15,5,7,8,12,2,3,44%,3,0,1,325,227,70%
+10667,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,1,1,5,3,2,3,14,6,5,56%,2,0,1,394,310,79%
+10664,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,9,5,18,4,14,4,8,11,1,64%,1,0,3,523,445,85%
+10664,717,Numancia,https://media.api-sports.io/football/teams/717.png,5,6,12,1,10,2,18,3,4,36%,2,0,7,279,196,70%
+10665,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,6,5,13,2,4,9,12,2,0,47%,1,0,5,372,307,83%
+10665,720,Valladolid,https://media.api-sports.io/football/teams/720.png,7,4,15,4,10,5,18,6,3,53%,5,0,5,397,324,82%
+10663,723,Almeria,https://media.api-sports.io/football/teams/723.png,4,6,14,4,4,10,15,7,3,54%,3,0,3,432,348,81%
+10663,718,Oviedo,https://media.api-sports.io/football/teams/718.png,4,3,9,2,4,5,21,2,1,46%,3,0,3,368,273,74%
+10661,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,4,1,6,1,5,1,13,4,4,51%,1,0,4,409,320,78%
+10661,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,4,11,3,9,2,18,5,2,49%,0,0,2,389,304,78%
+10662,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,6,7,16,3,10,6,16,12,,62%,3,0,0,463,365,79%
+10662,715,Granada CF,https://media.api-sports.io/football/teams/715.png,1,2,4,1,0,4,17,3,,38%,2,1,5,281,188,67%
+10659,724,Cadiz,https://media.api-sports.io/football/teams/724.png,5,9,15,1,11,4,19,7,4,47%,3,0,2,365,248,68%
+10659,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,3,4,9,2,6,3,18,4,3,53%,4,0,6,419,310,74%
+10660,729,Reus,https://media.api-sports.io/football/teams/729.png,4,5,13,4,9,4,15,2,0,53%,1,0,2,364,267,73%
+10660,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,3,6,11,2,7,4,19,3,5,47%,3,0,2,310,213,69%
+10658,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,1,5,8,2,5,3,11,4,1,55%,2,0,8,484,416,86%
+10658,719,Tenerife,https://media.api-sports.io/football/teams/719.png,11,4,17,2,12,5,16,4,2,45%,1,0,1,388,321,83%
+10657,715,Granada CF,https://media.api-sports.io/football/teams/715.png,3,8,11,0,7,4,21,5,2,47%,2,0,3,372,280,75%
+10657,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,5,3,13,5,4,9,11,5,1,53%,1,0,1,416,331,80%
+10655,716,Lugo,https://media.api-sports.io/football/teams/716.png,3,4,9,2,2,7,10,4,0,61%,3,0,5,424,313,74%
+10655,724,Cadiz,https://media.api-sports.io/football/teams/724.png,6,6,14,2,10,4,13,6,4,39%,1,0,3,261,173,66%
+10656,717,Numancia,https://media.api-sports.io/football/teams/717.png,5,7,12,0,9,3,15,5,3,37%,2,0,3,269,162,60%
+10656,723,Almeria,https://media.api-sports.io/football/teams/723.png,3,9,16,4,6,10,14,7,5,63%,5,0,4,453,353,78%
+10652,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,3,7,12,2,5,7,14,4,2,54%,2,0,3,475,371,78%
+10652,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,6,3,12,3,8,5,12,8,2,46%,3,0,3,397,292,74%
+10653,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,4,6,11,1,6,5,10,6,2,42%,2,0,3,338,262,78%
+10653,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,3,8,13,2,8,5,15,2,3,58%,2,0,4,474,415,88%
+10654,727,Osasuna,https://media.api-sports.io/football/teams/727.png,2,4,12,6,7,5,11,7,0,52%,6,0,1,374,276,74%
+10654,726,Huesca,https://media.api-sports.io/football/teams/726.png,2,4,12,6,6,6,15,6,1,48%,7,0,1,343,245,71%
+10651,718,Oviedo,https://media.api-sports.io/football/teams/718.png,8,8,17,1,13,4,20,5,2,40%,1,0,4,330,228,69%
+10651,729,Reus,https://media.api-sports.io/football/teams/729.png,3,8,13,2,9,4,11,4,3,60%,1,0,5,479,382,80%
+10650,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,4,4,12,4,4,8,24,3,3,50%,3,0,1,414,340,82%
+10650,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,3,6,13,4,5,8,14,4,0,50%,3,0,3,411,320,78%
+10649,720,Valladolid,https://media.api-sports.io/football/teams/720.png,3,2,10,5,6,4,17,5,2,50%,2,0,4,337,262,78%
+10649,719,Tenerife,https://media.api-sports.io/football/teams/719.png,4,6,15,5,6,9,15,7,1,50%,3,0,1,337,265,79%
+10648,713,Cordoba,https://media.api-sports.io/football/teams/713.png,5,5,13,3,5,8,18,5,2,51%,2,0,1,401,324,81%
+10648,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,3,0,7,4,4,3,14,5,2,49%,4,1,4,386,305,79%
+10647,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,4,3,11,4,6,5,19,5,0,56%,2,0,2,407,316,78%
+10647,722,Albacete,https://media.api-sports.io/football/teams/722.png,2,6,10,2,6,4,19,2,3,44%,4,0,3,309,229,74%
+10646,724,Cadiz,https://media.api-sports.io/football/teams/724.png,5,3,12,4,6,6,16,7,2,49%,1,0,3,355,254,72%
+10646,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,3,1,8,4,5,3,10,2,2,51%,2,0,3,377,254,67%
+10645,726,Huesca,https://media.api-sports.io/football/teams/726.png,6,5,13,2,8,5,17,8,3,59%,3,0,0,385,287,75%
+10645,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,0,2,2,0,1,1,18,7,3,41%,3,0,6,253,145,57%
+10643,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,7,3,13,3,9,4,16,3,0,40%,2,0,4,350,267,76%
+10643,713,Cordoba,https://media.api-sports.io/football/teams/713.png,4,6,14,4,6,8,15,10,3,60%,2,0,3,478,401,84%
+10644,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,3,3,8,2,5,3,20,7,3,49%,2,0,3,345,233,68%
+10644,718,Oviedo,https://media.api-sports.io/football/teams/718.png,4,3,12,5,8,4,25,3,0,51%,4,0,2,343,235,69%
+10642,723,Almeria,https://media.api-sports.io/football/teams/723.png,5,6,13,2,8,5,14,6,0,54%,3,0,4,412,323,78%
+10642,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,5,5,10,0,5,5,10,6,2,46%,4,0,3,336,253,75%
+10641,719,Tenerife,https://media.api-sports.io/football/teams/719.png,3,5,8,0,7,1,10,6,2,54%,5,1,2,403,301,75%
+10641,715,Granada CF,https://media.api-sports.io/football/teams/715.png,2,4,7,1,5,4,17,6,2,46%,3,0,1,332,253,76%
+10640,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,1,4,10,5,2,8,16,1,1,55%,2,0,1,481,386,80%
+10640,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,2,4,7,1,3,4,30,3,0,45%,6,0,1,375,271,72%
+10639,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,5,4,11,2,7,5,11,6,0,58%,3,0,2,428,355,83%
+10639,720,Valladolid,https://media.api-sports.io/football/teams/720.png,6,2,10,2,8,2,17,7,4,42%,1,0,2,292,222,76%
+10638,722,Albacete,https://media.api-sports.io/football/teams/722.png,3,7,14,4,11,3,11,9,3,47%,2,0,5,282,190,67%
+10638,716,Lugo,https://media.api-sports.io/football/teams/716.png,6,2,11,3,7,4,20,2,0,53%,3,0,3,345,244,71%
+10637,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,2,6,16,8,8,8,10,3,1,67%,1,0,1,521,436,84%
+10637,727,Osasuna,https://media.api-sports.io/football/teams/727.png,5,2,11,4,8,3,22,3,2,33%,5,0,2,253,163,64%
+10636,729,Reus,https://media.api-sports.io/football/teams/729.png,3,4,11,4,7,4,13,3,6,52%,2,0,1,376,235,63%
+10636,717,Numancia,https://media.api-sports.io/football/teams/717.png,1,2,6,3,4,2,17,1,6,48%,3,0,2,344,199,58%
+10635,716,Lugo,https://media.api-sports.io/football/teams/716.png,6,3,16,7,13,3,15,8,3,60%,1,0,7,404,340,84%
+10635,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,8,4,14,2,8,6,14,8,2,40%,2,0,4,268,191,71%
+10634,720,Valladolid,https://media.api-sports.io/football/teams/720.png,10,5,17,2,12,5,11,8,4,51%,6,0,3,347,243,70%
+10634,715,Granada CF,https://media.api-sports.io/football/teams/715.png,3,5,10,2,6,4,18,7,2,49%,3,0,8,325,220,68%
+10632,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,4,5,9,0,5,4,23,7,4,52%,0,0,2,356,255,72%
+10632,729,Reus,https://media.api-sports.io/football/teams/729.png,3,3,9,3,5,4,17,2,1,48%,2,0,3,332,230,69%
+10633,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,3,5,10,2,6,4,12,0,1,45%,3,0,0,377,275,73%
+10633,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,0,5,9,4,3,6,22,1,2,55%,4,0,3,456,370,81%
+10631,727,Osasuna,https://media.api-sports.io/football/teams/727.png,4,5,10,1,6,4,22,6,1,53%,3,0,1,379,303,80%
+10631,723,Almeria,https://media.api-sports.io/football/teams/723.png,2,4,8,2,3,5,19,3,3,47%,2,0,2,331,253,76%
+10630,717,Numancia,https://media.api-sports.io/football/teams/717.png,3,4,9,2,8,1,15,4,1,40%,1,0,3,333,218,65%
+10630,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,3,1,8,4,3,5,12,7,5,60%,1,1,0,490,385,79%
+10629,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,4,3,10,3,7,3,11,5,4,51%,5,0,1,407,344,85%
+10629,726,Huesca,https://media.api-sports.io/football/teams/726.png,3,3,10,4,6,4,18,7,5,49%,2,0,1,363,308,85%
+10628,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,3,8,18,7,17,1,13,6,0,49%,2,0,5,432,361,84%
+10628,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,6,5,12,1,5,7,12,6,1,51%,1,0,2,457,390,85%
+10626,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,3,2,8,3,5,3,16,1,1,50%,2,0,3,433,343,79%
+10626,722,Albacete,https://media.api-sports.io/football/teams/722.png,4,4,9,1,4,5,15,5,2,50%,3,0,0,403,327,81%
+10627,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,8,14,4,5,9,14,3,,61%,4,0,2,481,349,73%
+10627,724,Cadiz,https://media.api-sports.io/football/teams/724.png,2,6,9,1,3,6,16,6,,39%,3,0,1,293,165,56%
+10625,713,Cordoba,https://media.api-sports.io/football/teams/713.png,4,6,18,8,10,8,17,9,1,58%,0,0,4,411,328,80%
+10625,719,Tenerife,https://media.api-sports.io/football/teams/719.png,4,1,8,3,4,4,23,3,0,42%,2,0,2,308,228,74%
+10624,723,Almeria,https://media.api-sports.io/football/teams/723.png,5,7,16,4,8,8,16,4,0,55%,2,0,4,453,367,81%
+10624,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,4,7,14,3,6,8,7,8,3,45%,2,0,2,356,279,78%
+10623,729,Reus,https://media.api-sports.io/football/teams/729.png,3,3,10,4,5,5,18,2,3,54%,0,0,3,402,299,74%
+10623,727,Osasuna,https://media.api-sports.io/football/teams/727.png,3,7,12,2,6,6,14,6,2,46%,3,0,3,323,213,66%
+10621,715,Granada CF,https://media.api-sports.io/football/teams/715.png,6,3,10,1,8,2,17,4,1,42%,2,0,5,314,219,70%
+10621,713,Cordoba,https://media.api-sports.io/football/teams/713.png,6,8,18,4,10,8,11,4,1,58%,3,0,3,427,326,76%
+10622,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,4,6,12,2,9,3,10,7,3,41%,1,0,6,336,248,74%
+10622,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,6,5,17,6,9,8,19,4,2,59%,2,0,3,480,396,83%
+10620,719,Tenerife,https://media.api-sports.io/football/teams/719.png,6,7,15,2,8,7,18,5,3,42%,2,0,3,331,240,73%
+10620,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,3,7,13,3,6,7,13,6,2,58%,2,0,2,445,345,78%
+10619,726,Huesca,https://media.api-sports.io/football/teams/726.png,3,4,13,6,9,4,21,9,0,45%,3,0,3,321,246,77%
+10619,720,Valladolid,https://media.api-sports.io/football/teams/720.png,3,7,13,3,5,8,14,6,2,55%,4,1,2,371,292,79%
+10618,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,4,8,17,5,6,11,16,7,1,43%,1,0,0,383,317,83%
+10618,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,1,1,2,0,0,2,15,2,2,57%,3,0,1,522,437,84%
+10617,722,Albacete,https://media.api-sports.io/football/teams/722.png,3,3,7,1,5,2,21,7,7,48%,4,0,0,294,195,66%
+10617,718,Oviedo,https://media.api-sports.io/football/teams/718.png,1,9,12,2,8,4,15,6,1,52%,3,0,1,310,203,65%
+10616,724,Cadiz,https://media.api-sports.io/football/teams/724.png,1,5,8,2,3,5,14,4,,38%,3,1,1,282,177,63%
+10616,717,Numancia,https://media.api-sports.io/football/teams/717.png,1,4,8,3,6,2,18,4,,62%,3,0,1,439,326,74%
+10615,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,3,1,6,2,3,3,6,2,1,37%,4,1,7,311,241,77%
+10615,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,9,6,21,6,11,10,17,5,1,63%,7,0,2,498,433,87%
+10614,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,5,3,8,0,4,4,18,5,,45%,1,0,2,346,255,74%
+10614,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,8,16,4,11,5,20,7,,55%,3,0,4,411,310,75%
+10613,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,1,8,14,5,7,7,14,7,1,51%,6,1,1,447,372,83%
+10613,723,Almeria,https://media.api-sports.io/football/teams/723.png,1,5,7,1,3,4,21,1,3,49%,6,1,1,423,346,82%
+10612,720,Valladolid,https://media.api-sports.io/football/teams/720.png,9,7,17,1,13,4,18,4,2,56%,1,0,3,436,344,79%
+10612,713,Cordoba,https://media.api-sports.io/football/teams/713.png,4,6,10,0,6,4,13,3,3,44%,3,1,5,340,257,76%
+10611,717,Numancia,https://media.api-sports.io/football/teams/717.png,7,3,15,5,6,10,7,4,2,51%,1,0,3,353,235,67%
+10611,722,Albacete,https://media.api-sports.io/football/teams/722.png,4,3,10,3,7,3,15,8,8,49%,5,0,3,337,228,68%
+10610,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,7,4,11,0,8,4,13,3,2,53%,2,0,4,368,252,68%
+10610,724,Cadiz,https://media.api-sports.io/football/teams/724.png,4,5,14,5,7,7,14,8,0,47%,4,0,5,309,185,60%
+10609,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,1,9,14,4,8,6,16,8,1,49%,4,0,3,346,232,67%
+10609,715,Granada CF,https://media.api-sports.io/football/teams/715.png,5,0,7,2,4,3,11,4,3,51%,3,0,1,364,260,71%
+10608,726,Huesca,https://media.api-sports.io/football/teams/726.png,6,5,13,2,7,6,12,4,5,49%,1,0,3,428,343,80%
+10608,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,4,5,12,3,7,5,18,7,4,51%,4,0,3,442,350,79%
+10606,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,4,9,1,6,3,29,5,2,48%,3,0,3,323,225,70%
+10606,719,Tenerife,https://media.api-sports.io/football/teams/719.png,3,6,9,0,6,3,13,7,5,52%,4,0,3,351,253,72%
+10607,727,Osasuna,https://media.api-sports.io/football/teams/727.png,9,6,17,2,15,2,11,4,1,43%,4,0,1,369,277,75%
+10607,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,0,4,6,2,2,4,18,4,0,57%,2,0,7,486,366,75%
+10605,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,2,7,12,3,8,4,9,6,2,61%,3,0,0,522,443,85%
+10605,729,Reus,https://media.api-sports.io/football/teams/729.png,1,3,6,2,4,2,15,3,2,39%,3,1,2,323,243,75%
+10604,718,Oviedo,https://media.api-sports.io/football/teams/718.png,5,1,7,1,4,3,19,5,2,42%,3,0,3,311,218,70%
+10604,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,5,3,10,2,5,5,13,6,2,58%,1,0,5,444,346,78%
+10603,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,7,5,14,2,9,5,8,6,4,55%,1,0,1,450,338,75%
+10603,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,2,2,10,6,3,7,16,2,1,45%,3,0,4,357,252,71%
+10601,723,Almeria,https://media.api-sports.io/football/teams/723.png,2,4,9,3,3,6,13,5,3,56%,0,0,5,500,419,84%
+10601,726,Huesca,https://media.api-sports.io/football/teams/726.png,8,6,20,6,12,8,12,8,1,44%,2,0,2,390,310,79%
+10602,729,Reus,https://media.api-sports.io/football/teams/729.png,2,7,11,2,8,3,19,4,,45%,1,0,2,435,341,78%
+10602,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,3,2,7,2,2,5,12,4,,55%,4,0,1,524,437,83%
+10600,719,Tenerife,https://media.api-sports.io/football/teams/719.png,7,10,22,5,11,11,14,11,3,56%,3,0,2,444,362,82%
+10600,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,2,3,6,1,5,1,15,1,2,44%,6,1,5,353,258,73%
+10599,724,Cadiz,https://media.api-sports.io/football/teams/724.png,2,4,10,4,7,3,17,8,3,48%,3,0,1,286,169,59%
+10599,727,Osasuna,https://media.api-sports.io/football/teams/727.png,3,3,6,0,5,1,20,2,2,52%,2,0,2,320,201,63%
+10598,722,Albacete,https://media.api-sports.io/football/teams/722.png,6,4,11,1,5,6,26,7,2,34%,6,0,3,194,114,59%
+10598,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,4,5,12,3,6,6,21,3,1,66%,4,0,4,379,285,75%
+10597,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,5,7,15,3,5,10,19,5,1,35%,1,0,2,263,201,76%
+10597,720,Valladolid,https://media.api-sports.io/football/teams/720.png,3,2,6,1,3,3,15,5,1,65%,4,0,1,482,391,81%
+10595,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,1,9,4,6,3,5,6,0,55%,1,0,4,489,369,75%
+10595,718,Oviedo,https://media.api-sports.io/football/teams/718.png,5,8,16,3,9,7,11,5,3,45%,2,0,3,380,248,65%
+10596,713,Cordoba,https://media.api-sports.io/football/teams/713.png,4,4,12,4,7,6,24,4,8,55%,1,0,5,441,336,76%
+10596,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,5,2,7,0,4,3,9,1,5,45%,2,1,2,360,249,69%
+10594,715,Granada CF,https://media.api-sports.io/football/teams/715.png,5,6,15,4,10,5,18,8,,39%,2,1,2,274,181,66%
+10594,716,Lugo,https://media.api-sports.io/football/teams/716.png,2,5,7,0,3,4,16,3,,61%,2,0,3,428,336,79%
+10593,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,6,2,9,1,8,1,11,4,3,66%,2,0,4,605,533,88%
+10593,717,Numancia,https://media.api-sports.io/football/teams/717.png,4,5,10,1,4,6,13,5,0,34%,3,1,3,293,231,79%
+10592,726,Huesca,https://media.api-sports.io/football/teams/726.png,4,11,20,5,11,9,9,3,1,48%,,0,6,425,335,79%
+10592,729,Reus,https://media.api-sports.io/football/teams/729.png,7,3,10,0,6,4,9,3,2,52%,,0,3,460,371,81%
+10591,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,2,6,9,1,4,5,5,5,1,58%,0,0,1,598,505,84%
+10591,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,3,1,5,1,4,1,14,7,3,42%,1,0,2,429,340,79%
+10589,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,3,6,10,1,6,4,21,5,1,41%,2,0,2,315,215,68%
+10589,715,Granada CF,https://media.api-sports.io/football/teams/715.png,2,8,13,3,9,4,17,5,3,59%,3,0,1,446,346,78%
+10590,717,Numancia,https://media.api-sports.io/football/teams/717.png,6,5,19,8,15,4,15,8,3,38%,5,0,3,319,233,73%
+10590,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,3,3,9,3,3,6,12,4,0,62%,4,0,5,537,456,85%
+10588,718,Oviedo,https://media.api-sports.io/football/teams/718.png,9,6,16,1,10,6,16,4,2,53%,6,0,2,377,254,67%
+10588,719,Tenerife,https://media.api-sports.io/football/teams/719.png,3,1,6,2,2,4,8,2,4,47%,1,0,7,337,210,62%
+10586,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,4,4,18,10,8,10,14,12,2,52%,2,0,2,435,363,83%
+10586,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,4,3,12,5,5,7,16,5,3,48%,2,0,4,406,331,82%
+10587,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,3,5,10,2,3,7,16,3,2,61%,4,1,4,468,366,78%
+10587,724,Cadiz,https://media.api-sports.io/football/teams/724.png,4,1,7,2,5,2,16,4,2,39%,4,0,3,288,170,59%
+10585,716,Lugo,https://media.api-sports.io/football/teams/716.png,6,7,14,1,11,3,14,7,0,58%,1,0,2,398,292,73%
+10585,713,Cordoba,https://media.api-sports.io/football/teams/713.png,2,1,5,2,2,3,14,4,2,42%,1,0,4,286,185,65%
+10584,720,Valladolid,https://media.api-sports.io/football/teams/720.png,6,3,14,5,6,8,27,9,4,66%,0,0,2,528,450,85%
+10584,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,2,5,10,3,4,6,21,4,1,34%,2,0,2,257,173,67%
+10583,727,Osasuna,https://media.api-sports.io/football/teams/727.png,3,7,11,1,4,7,11,6,0,52%,2,0,2,324,205,63%
+10583,722,Albacete,https://media.api-sports.io/football/teams/722.png,2,5,8,1,4,4,22,4,3,48%,3,0,2,299,175,59%
+10582,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,8,4,18,6,9,9,10,11,2,62%,2,0,1,486,422,87%
+10582,723,Almeria,https://media.api-sports.io/football/teams/723.png,1,4,5,0,2,3,24,3,0,38%,3,2,7,294,238,81%
+10581,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,3,9,13,1,8,5,16,8,4,49%,2,0,6,406,311,77%
+10581,726,Huesca,https://media.api-sports.io/football/teams/726.png,7,4,12,1,6,6,14,5,1,51%,0,0,2,430,336,78%
+10580,724,Cadiz,https://media.api-sports.io/football/teams/724.png,3,5,8,0,5,4,19,5,3,34%,0,0,3,278,181,65%
+10580,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,5,3,10,2,5,5,19,5,1,66%,3,0,2,543,442,81%
+10578,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,2,9,16,5,9,7,14,9,2,45%,2,0,4,388,316,81%
+10578,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,4,7,16,5,9,7,12,6,0,55%,2,0,1,460,379,82%
+10579,715,Granada CF,https://media.api-sports.io/football/teams/715.png,2,7,10,1,9,2,11,5,1,52%,2,0,3,388,260,67%
+10579,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,3,7,2,3,4,14,6,1,48%,1,0,1,344,238,69%
+10577,719,Tenerife,https://media.api-sports.io/football/teams/719.png,3,2,7,2,4,3,14,3,3,46%,5,1,1,329,256,78%
+10577,717,Numancia,https://media.api-sports.io/football/teams/717.png,2,2,6,2,3,3,20,5,5,54%,3,1,2,380,311,82%
+10576,729,Reus,https://media.api-sports.io/football/teams/729.png,6,4,13,3,9,4,16,5,3,54%,3,0,2,362,292,81%
+10576,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,4,8,14,2,9,5,18,7,3,46%,4,0,6,307,230,75%
+10575,722,Albacete,https://media.api-sports.io/football/teams/722.png,3,3,8,2,3,5,18,3,5,36%,3,0,3,256,144,56%
+10575,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,4,4,10,2,8,2,13,6,3,64%,2,0,1,421,308,73%
+10574,723,Almeria,https://media.api-sports.io/football/teams/723.png,3,8,16,5,6,10,11,8,1,43%,1,1,1,326,239,73%
+10574,720,Valladolid,https://media.api-sports.io/football/teams/720.png,2,6,11,3,6,5,15,6,4,57%,2,0,2,420,344,82%
+10573,713,Cordoba,https://media.api-sports.io/football/teams/713.png,6,8,19,5,11,8,10,13,1,64%,4,0,5,475,397,84%
+10573,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,10,4,15,1,11,4,13,2,1,36%,3,0,5,271,195,72%
+10572,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,4,3,9,2,3,6,17,2,2,47%,1,1,5,364,285,78%
+10572,727,Osasuna,https://media.api-sports.io/football/teams/727.png,6,6,16,4,6,10,15,5,1,53%,3,0,3,393,324,82%
+10571,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,2,4,7,1,5,2,24,4,2,44%,2,0,3,319,220,69%
+10571,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,5,13,4,10,3,19,5,3,56%,2,0,2,414,330,80%
+10570,727,Osasuna,https://media.api-sports.io/football/teams/727.png,3,8,17,6,11,6,13,8,2,38%,5,1,2,288,228,79%
+10570,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,4,9,1,4,5,6,7,4,62%,2,0,1,483,420,87%
+10569,726,Huesca,https://media.api-sports.io/football/teams/726.png,8,4,14,2,9,5,11,4,2,58%,2,0,1,531,453,85%
+10569,724,Cadiz,https://media.api-sports.io/football/teams/724.png,1,5,8,2,4,4,10,7,4,42%,3,0,7,367,268,73%
+10568,717,Numancia,https://media.api-sports.io/football/teams/717.png,8,10,21,3,11,10,11,8,2,48%,0,1,5,373,253,68%
+10568,715,Granada CF,https://media.api-sports.io/football/teams/715.png,8,6,17,3,11,6,13,2,8,52%,4,0,7,423,314,74%
+10567,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,11,6,18,1,11,8,20,7,0,56%,1,0,2,376,298,79%
+10567,719,Tenerife,https://media.api-sports.io/football/teams/719.png,4,2,6,0,1,5,25,1,2,44%,3,0,10,289,203,70%
+10566,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,3,5,11,3,8,3,14,2,0,36%,4,0,3,293,217,74%
+10566,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,5,6,13,2,10,3,7,6,4,64%,3,0,1,521,444,85%
+10565,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,8,13,3,11,3,27,4,2,53%,3,0,3,521,423,81%
+10565,713,Cordoba,https://media.api-sports.io/football/teams/713.png,3,6,10,1,6,4,12,1,2,47%,4,0,1,464,379,82%
+10564,720,Valladolid,https://media.api-sports.io/football/teams/720.png,7,3,14,4,9,5,13,8,7,69%,3,0,2,514,452,88%
+10564,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,2,8,2,6,2,23,1,2,31%,5,1,5,239,164,69%
+10562,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,2,8,16,6,7,9,9,6,2,51%,2,1,1,440,362,82%
+10562,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,4,6,12,2,7,5,15,4,5,49%,2,0,2,427,340,80%
+10563,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,6,4,15,5,7,8,7,5,1,59%,0,0,1,518,414,80%
+10563,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,2,2,4,0,4,0,15,4,1,41%,3,0,5,356,243,68%
+10561,723,Almeria,https://media.api-sports.io/football/teams/723.png,3,6,13,4,5,8,10,8,7,62%,0,0,1,485,403,83%
+10561,729,Reus,https://media.api-sports.io/football/teams/729.png,2,2,5,1,2,3,12,4,2,38%,2,0,4,306,227,74%
+10560,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,2,2,12,8,3,9,16,4,2,70%,1,0,4,612,507,83%
+10560,722,Albacete,https://media.api-sports.io/football/teams/722.png,4,7,12,1,7,5,24,3,4,30%,3,0,2,249,171,69%
+10559,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,1,7,10,2,8,2,10,12,4,51%,1,0,1,469,380,81%
+10559,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,1,2,6,3,3,3,18,3,2,49%,2,0,1,471,375,80%
+10558,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,9,16,3,10,6,22,3,2,59%,3,0,1,422,334,79%
+10558,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,2,4,7,1,2,5,22,1,0,41%,2,0,2,296,190,64%
+10556,722,Albacete,https://media.api-sports.io/football/teams/722.png,8,5,14,1,7,7,19,4,6,43%,1,0,0,250,140,56%
+10556,726,Huesca,https://media.api-sports.io/football/teams/726.png,0,3,7,4,3,4,18,4,2,57%,2,0,8,329,228,69%
+10557,724,Cadiz,https://media.api-sports.io/football/teams/724.png,2,2,5,1,4,1,7,3,0,39%,1,0,0,329,237,72%
+10557,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,0,4,9,5,3,6,14,6,7,61%,2,0,2,519,425,82%
+10555,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,1,5,7,1,4,4,15,0,3,40%,2,0,2,369,280,76%
+10555,723,Almeria,https://media.api-sports.io/football/teams/723.png,2,5,13,6,7,6,14,9,0,60%,1,0,0,520,430,83%
+10554,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,6,5,16,5,7,9,14,4,0,59%,3,0,5,535,469,88%
+10554,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,6,0,7,1,3,4,20,4,1,41%,4,0,5,361,280,78%
+10553,713,Cordoba,https://media.api-sports.io/football/teams/713.png,3,11,16,2,11,5,15,10,4,62%,2,0,3,495,400,81%
+10553,717,Numancia,https://media.api-sports.io/football/teams/717.png,3,1,6,2,3,3,12,2,3,38%,3,0,2,295,196,66%
+10552,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,3,5,8,0,6,2,16,4,4,47%,2,0,2,355,242,68%
+10552,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,6,12,4,5,7,18,4,2,53%,2,0,1,395,276,70%
+10551,729,Reus,https://media.api-sports.io/football/teams/729.png,5,7,12,0,10,2,19,8,0,38%,1,0,4,278,188,68%
+10551,720,Valladolid,https://media.api-sports.io/football/teams/720.png,6,8,15,1,10,5,19,13,1,62%,1,0,3,454,370,81%
+10550,719,Tenerife,https://media.api-sports.io/football/teams/719.png,8,3,12,1,10,2,12,7,5,56%,2,0,0,416,324,78%
+10550,727,Osasuna,https://media.api-sports.io/football/teams/727.png,0,3,5,2,4,1,16,2,3,44%,8,0,7,332,230,69%
+10549,715,Granada CF,https://media.api-sports.io/football/teams/715.png,6,8,18,4,11,7,15,7,1,53%,2,0,4,423,326,77%
+10549,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,5,2,8,1,1,7,14,6,1,47%,1,1,2,362,258,71%
+10548,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,5,10,18,3,12,6,16,8,0,50%,2,0,5,439,349,79%
+10548,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,5,4,9,0,6,3,8,2,1,50%,2,0,5,443,374,84%
+10547,717,Numancia,https://media.api-sports.io/football/teams/717.png,2,5,11,4,7,4,12,9,2,46%,1,0,2,340,210,62%
+10547,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,2,5,7,0,5,2,20,7,3,54%,2,0,1,392,266,68%
+10546,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,6,9,19,4,13,6,8,12,1,70%,0,0,2,499,406,81%
+10546,722,Albacete,https://media.api-sports.io/football/teams/722.png,3,5,9,1,5,4,14,3,2,30%,1,0,5,209,118,56%
+10545,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,5,6,14,3,11,3,15,5,0,55%,4,1,4,433,332,77%
+10545,719,Tenerife,https://media.api-sports.io/football/teams/719.png,5,8,16,3,13,3,10,6,4,45%,3,0,4,351,247,70%
+10544,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,5,8,19,6,9,10,18,4,5,56%,0,0,2,477,369,77%
+10544,713,Cordoba,https://media.api-sports.io/football/teams/713.png,2,1,4,1,1,3,18,2,2,44%,1,0,4,384,278,72%
+10543,729,Reus,https://media.api-sports.io/football/teams/729.png,1,4,7,2,4,3,17,1,4,46%,1,0,3,339,211,62%
+10543,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,3,3,10,4,6,4,12,7,4,54%,1,0,0,383,228,60%
+10542,718,Oviedo,https://media.api-sports.io/football/teams/718.png,4,6,13,3,10,3,14,9,3,45%,4,0,1,362,265,73%
+10542,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,6,13,3,9,4,13,3,1,55%,3,0,1,452,343,76%
+10541,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,5,10,21,6,13,8,12,6,1,52%,3,0,3,544,477,88%
+10541,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,9,14,1,7,7,15,3,4,48%,3,0,4,493,441,89%
+10540,720,Valladolid,https://media.api-sports.io/football/teams/720.png,6,12,26,8,19,7,7,13,3,69%,1,0,0,548,478,87%
+10540,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,3,0,4,1,2,2,19,0,2,31%,3,0,6,261,180,69%
+10539,727,Osasuna,https://media.api-sports.io/football/teams/727.png,1,7,9,1,4,5,13,6,2,45%,0,0,5,359,231,64%
+10539,715,Granada CF,https://media.api-sports.io/football/teams/715.png,5,3,11,3,6,5,16,2,2,55%,2,0,1,443,328,74%
+10538,723,Almeria,https://media.api-sports.io/football/teams/723.png,1,5,14,8,5,9,17,13,1,63%,3,0,1,440,333,76%
+10538,724,Cadiz,https://media.api-sports.io/football/teams/724.png,4,2,9,3,6,3,9,8,1,37%,3,0,1,252,161,64%
+10537,726,Huesca,https://media.api-sports.io/football/teams/726.png,9,8,19,2,9,10,19,8,4,46%,2,0,3,288,205,71%
+10537,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,4,3,7,0,5,2,16,4,2,54%,3,0,5,351,251,72%
+10536,713,Cordoba,https://media.api-sports.io/football/teams/713.png,1,8,12,3,7,5,16,5,1,58%,4,0,2,497,385,77%
+10536,727,Osasuna,https://media.api-sports.io/football/teams/727.png,3,5,9,1,6,3,19,1,4,42%,3,0,1,362,257,71%
+10535,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,2,8,10,0,6,4,16,3,1,47%,0,0,2,404,268,66%
+10535,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,3,4,10,3,7,3,17,1,4,53%,1,0,1,444,323,73%
+10534,722,Albacete,https://media.api-sports.io/football/teams/722.png,6,7,15,2,5,10,21,5,1,49%,2,0,3,303,203,67%
+10534,723,Almeria,https://media.api-sports.io/football/teams/723.png,3,2,7,2,4,3,15,4,7,51%,4,1,4,313,199,64%
+10532,719,Tenerife,https://media.api-sports.io/football/teams/719.png,5,2,7,0,6,1,19,0,7,33%,2,0,2,318,223,70%
+10532,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,2,9,15,4,11,4,13,6,1,67%,1,0,3,614,510,83%
+10533,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,5,2,8,1,5,3,14,2,1,43%,1,0,3,342,256,75%
+10533,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,5,6,16,5,8,8,14,12,2,57%,4,0,2,429,334,78%
+10531,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,2,5,10,3,5,5,9,4,3,53%,2,0,2,524,443,85%
+10531,726,Huesca,https://media.api-sports.io/football/teams/726.png,4,11,15,0,8,7,20,2,2,47%,3,0,2,471,377,80%
+10530,715,Granada CF,https://media.api-sports.io/football/teams/715.png,6,9,21,6,12,9,13,11,1,64%,1,1,0,491,401,82%
+10530,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,2,2,4,0,3,1,17,4,3,36%,6,0,5,267,167,63%
+10529,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,2,5,9,2,5,4,18,3,3,44%,3,0,3,299,193,65%
+10529,718,Oviedo,https://media.api-sports.io/football/teams/718.png,5,8,18,5,13,5,16,6,5,56%,5,1,1,370,247,67%
+10528,716,Lugo,https://media.api-sports.io/football/teams/716.png,6,10,18,2,11,7,9,9,4,71%,1,0,0,544,444,82%
+10528,717,Numancia,https://media.api-sports.io/football/teams/717.png,1,3,5,1,4,1,18,6,6,29%,3,0,5,217,117,54%
+10527,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,4,5,12,3,10,2,15,4,,31%,4,0,4,284,192,68%
+10527,720,Valladolid,https://media.api-sports.io/football/teams/720.png,5,2,9,2,7,2,10,4,,69%,3,0,3,606,511,84%
+10526,724,Cadiz,https://media.api-sports.io/football/teams/724.png,5,6,14,3,7,7,13,8,2,45%,1,0,1,332,243,73%
+10526,729,Reus,https://media.api-sports.io/football/teams/729.png,1,1,3,1,1,2,16,1,2,55%,3,0,5,407,315,77%
+10525,723,Almeria,https://media.api-sports.io/football/teams/723.png,7,6,14,1,8,6,20,5,2,37%,2,0,1,286,205,72%
+10525,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,1,5,10,4,6,4,14,5,2,63%,2,0,4,493,406,82%
+10524,726,Huesca,https://media.api-sports.io/football/teams/726.png,6,9,21,6,11,10,13,4,3,60%,0,0,3,530,430,81%
+10524,719,Tenerife,https://media.api-sports.io/football/teams/719.png,3,3,7,1,3,4,21,5,4,40%,5,0,3,338,247,73%
+10523,720,Valladolid,https://media.api-sports.io/football/teams/720.png,3,1,5,1,5,0,13,5,0,42%,1,0,2,311,213,68%
+10523,718,Oviedo,https://media.api-sports.io/football/teams/718.png,3,4,11,4,8,3,17,11,1,58%,3,0,0,422,329,78%
+10522,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,2,1,3,0,3,1,18,6,4,49%,4,0,1,333,236,71%
+10522,716,Lugo,https://media.api-sports.io/football/teams/716.png,3,3,7,1,5,2,19,3,2,51%,3,0,2,349,229,66%
+10521,729,Reus,https://media.api-sports.io/football/teams/729.png,3,7,16,6,12,4,19,7,2,66%,1,0,4,469,369,79%
+10521,722,Albacete,https://media.api-sports.io/football/teams/722.png,5,1,7,1,4,3,20,1,2,34%,2,0,2,235,127,54%
+10520,717,Numancia,https://media.api-sports.io/football/teams/717.png,2,4,11,5,5,7,16,4,3,46%,1,0,4,346,240,69%
+10520,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,6,2,10,2,4,6,21,0,4,54%,3,0,2,427,306,72%
+10519,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,6,9,19,4,6,13,6,6,4,49%,1,0,3,448,375,84%
+10519,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,3,5,11,3,5,6,10,3,1,51%,1,0,5,484,393,81%
+10517,727,Osasuna,https://media.api-sports.io/football/teams/727.png,3,5,8,0,1,7,16,3,1,52%,2,0,0,375,283,75%
+10517,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,3,3,9,3,7,2,23,1,4,48%,6,1,1,347,235,68%
+10518,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,7,7,15,1,11,4,18,10,0,54%,5,1,2,429,350,82%
+10518,713,Cordoba,https://media.api-sports.io/football/teams/713.png,3,5,11,3,7,4,12,5,3,46%,4,0,6,366,287,78%
+10516,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,3,8,14,3,4,10,13,6,0,52%,2,0,6,484,400,83%
+10516,715,Granada CF,https://media.api-sports.io/football/teams/715.png,7,7,20,6,11,9,17,7,5,48%,3,0,2,424,336,79%
+10515,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,2,11,15,2,7,8,13,4,0,63%,1,0,3,491,374,76%
+10515,724,Cadiz,https://media.api-sports.io/football/teams/724.png,6,5,16,5,11,5,15,5,1,37%,2,0,2,276,169,61%
+10514,719,Tenerife,https://media.api-sports.io/football/teams/719.png,6,2,14,6,9,5,17,12,0,58%,5,0,1,456,366,80%
+10514,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,3,2,6,1,4,2,13,0,2,42%,1,1,4,355,276,78%
+10513,724,Cadiz,https://media.api-sports.io/football/teams/724.png,2,2,5,1,2,3,22,5,0,30%,2,0,5,235,136,58%
+10513,720,Valladolid,https://media.api-sports.io/football/teams/720.png,5,4,10,1,3,7,12,5,4,70%,2,1,1,547,444,81%
+10511,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,1,10,12,1,4,8,23,5,2,53%,4,0,7,381,285,75%
+10511,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,9,6,19,4,10,9,16,6,0,47%,3,0,1,329,230,70%
+10512,718,Oviedo,https://media.api-sports.io/football/teams/718.png,4,5,11,2,8,4,15,9,1,55%,3,0,3,454,330,73%
+10512,717,Numancia,https://media.api-sports.io/football/teams/717.png,4,4,11,3,5,6,14,3,1,45%,2,0,2,361,242,67%
+10510,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,0,12,17,5,14,3,12,6,3,66%,5,2,4,503,422,84%
+10510,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,4,2,8,2,3,5,9,3,0,34%,4,1,0,262,168,64%
+10509,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,8,12,27,7,15,12,12,7,5,55%,1,0,0,417,348,83%
+10509,729,Reus,https://media.api-sports.io/football/teams/729.png,0,4,6,2,3,3,18,5,3,45%,3,0,8,350,262,75%
+10508,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,5,3,12,4,9,3,15,9,0,66%,4,0,4,578,485,84%
+10508,723,Almeria,https://media.api-sports.io/football/teams/723.png,5,2,9,2,3,6,16,0,1,34%,3,1,4,305,219,72%
+10507,715,Granada CF,https://media.api-sports.io/football/teams/715.png,5,6,13,2,8,5,17,11,2,44%,1,0,3,317,215,68%
+10507,726,Huesca,https://media.api-sports.io/football/teams/726.png,3,3,6,0,2,4,8,1,5,56%,4,1,3,408,299,73%
+10505,713,Cordoba,https://media.api-sports.io/football/teams/713.png,6,7,18,5,13,5,21,7,8,51%,1,0,1,416,346,83%
+10505,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,3,3,9,3,7,2,7,0,4,49%,0,1,5,424,348,82%
+10506,716,Lugo,https://media.api-sports.io/football/teams/716.png,5,4,13,4,6,7,21,5,1,52%,4,0,1,365,268,73%
+10506,727,Osasuna,https://media.api-sports.io/football/teams/727.png,1,4,9,4,3,6,12,6,6,48%,4,0,4,339,246,73%
+10504,722,Albacete,https://media.api-sports.io/football/teams/722.png,6,7,16,3,8,8,20,5,0,42%,2,0,3,284,175,62%
+10504,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,5,3,16,8,9,7,20,5,2,58%,2,0,4,385,258,67%
+10503,726,Huesca,https://media.api-sports.io/football/teams/726.png,7,5,17,5,11,6,13,3,4,47%,1,0,3,415,327,79%
+10503,713,Cordoba,https://media.api-sports.io/football/teams/713.png,4,4,10,2,6,4,11,4,3,53%,1,0,3,452,344,76%
+10501,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,7,3,15,5,8,7,17,6,2,58%,2,0,3,450,332,74%
+10501,715,Granada CF,https://media.api-sports.io/football/teams/715.png,3,6,10,1,3,7,21,4,4,42%,2,0,6,315,193,61%
+10502,729,Reus,https://media.api-sports.io/football/teams/729.png,4,6,11,1,6,5,17,6,2,39%,1,0,3,343,260,76%
+10502,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,8,18,6,9,9,13,3,2,61%,2,0,2,541,454,84%
+10500,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,1,3,6,2,5,1,15,3,3,66%,4,0,3,539,397,74%
+10500,718,Oviedo,https://media.api-sports.io/football/teams/718.png,5,3,9,1,4,5,20,3,3,34%,5,0,2,270,170,63%
+10499,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,4,1,12,7,8,4,8,7,7,59%,2,0,3,516,415,80%
+10499,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,5,8,16,3,10,6,16,4,4,41%,3,0,2,332,239,72%
+10498,720,Valladolid,https://media.api-sports.io/football/teams/720.png,7,3,13,3,11,2,15,10,3,49%,3,1,4,385,277,72%
+10498,717,Numancia,https://media.api-sports.io/football/teams/717.png,7,7,16,2,9,7,8,6,4,51%,1,0,5,399,297,74%
+10496,724,Cadiz,https://media.api-sports.io/football/teams/724.png,4,1,7,2,4,3,15,3,1,51%,2,0,0,378,259,69%
+10496,722,Albacete,https://media.api-sports.io/football/teams/722.png,0,7,11,4,5,6,18,5,3,49%,2,0,2,349,227,65%
+10497,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,2,2,4,0,3,1,18,2,5,43%,2,0,2,395,272,69%
+10497,716,Lugo,https://media.api-sports.io/football/teams/716.png,3,5,9,1,5,4,27,0,3,57%,3,0,1,509,387,76%
+10495,723,Almeria,https://media.api-sports.io/football/teams/723.png,6,3,11,2,7,4,12,5,,37%,2,0,6,262,161,61%
+10495,719,Tenerife,https://media.api-sports.io/football/teams/719.png,7,8,19,4,12,7,13,10,,63%,2,0,4,438,342,78%
+10494,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,6,8,19,5,12,7,14,11,3,50%,2,0,5,379,284,75%
+10494,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,6,7,16,3,9,7,11,7,1,50%,2,0,6,396,299,76%
+10493,715,Granada CF,https://media.api-sports.io/football/teams/715.png,7,4,13,2,6,7,13,2,1,62%,2,0,2,542,409,75%
+10493,723,Almeria,https://media.api-sports.io/football/teams/723.png,4,6,10,0,6,4,9,4,1,38%,1,0,4,321,218,68%
+10492,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,6,4,12,2,6,6,12,3,2,50%,1,1,1,433,334,77%
+10492,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,2,4,7,1,5,2,19,5,3,50%,2,0,4,421,305,72%
+10491,722,Albacete,https://media.api-sports.io/football/teams/722.png,9,7,17,1,13,4,16,5,6,31%,2,0,2,219,118,54%
+10491,720,Valladolid,https://media.api-sports.io/football/teams/720.png,2,4,6,0,4,3,14,5,1,69%,2,0,7,474,350,74%
+10490,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,4,2,12,6,6,6,12,7,4,54%,4,0,1,421,299,71%
+10490,726,Huesca,https://media.api-sports.io/football/teams/726.png,2,4,9,3,5,4,15,4,8,46%,3,0,3,364,265,73%
+10489,717,Numancia,https://media.api-sports.io/football/teams/717.png,3,9,12,0,7,5,12,5,1,34%,2,0,6,237,129,54%
+10489,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,6,2,10,2,6,4,21,6,4,66%,3,0,2,456,340,75%
+10488,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,2,3,6,1,4,2,15,5,3,41%,4,2,1,334,249,75%
+10488,724,Cadiz,https://media.api-sports.io/football/teams/724.png,3,9,13,1,9,4,14,3,3,59%,1,0,2,467,384,82%
+10487,713,Cordoba,https://media.api-sports.io/football/teams/713.png,7,2,13,4,10,3,11,7,3,46%,2,0,7,395,295,75%
+10487,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,9,4,17,4,11,6,10,3,4,54%,0,0,4,459,362,79%
+10486,716,Lugo,https://media.api-sports.io/football/teams/716.png,8,7,20,5,13,7,22,12,4,46%,2,0,1,378,296,78%
+10486,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,2,1,9,6,4,5,8,4,3,54%,2,0,5,453,392,87%
+10484,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,5,3,9,1,7,2,14,4,6,46%,1,0,5,374,277,74%
+10484,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,6,6,14,2,5,9,15,3,1,54%,3,0,3,427,331,78%
+10485,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,5,10,3,3,7,13,4,3,48%,1,0,0,263,109,41%
+10485,727,Osasuna,https://media.api-sports.io/football/teams/727.png,0,2,5,3,3,2,20,3,3,52%,2,0,1,282,110,39%
+10483,719,Tenerife,https://media.api-sports.io/football/teams/719.png,12,3,17,2,12,5,15,5,1,42%,1,0,1,353,288,82%
+10483,729,Reus,https://media.api-sports.io/football/teams/729.png,1,5,7,1,1,6,13,0,1,58%,2,0,9,486,413,85%
+10482,724,Cadiz,https://media.api-sports.io/football/teams/724.png,6,5,13,2,10,3,16,3,1,30%,2,0,3,232,157,68%
+10482,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,2,7,1,4,3,18,1,0,70%,4,0,3,536,455,85%
+10481,727,Osasuna,https://media.api-sports.io/football/teams/727.png,5,2,8,1,6,2,11,3,4,52%,4,0,0,396,257,65%
+10481,717,Numancia,https://media.api-sports.io/football/teams/717.png,2,1,6,3,2,4,18,3,7,48%,1,0,3,360,227,63%
+10480,720,Valladolid,https://media.api-sports.io/football/teams/720.png,5,5,10,0,7,3,17,5,4,49%,2,0,1,346,270,78%
+10480,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,1,6,14,7,6,8,16,5,1,51%,2,0,2,374,291,78%
+10479,729,Reus,https://media.api-sports.io/football/teams/729.png,0,8,10,2,5,5,12,3,3,47%,1,0,3,397,261,66%
+10479,715,Granada CF,https://media.api-sports.io/football/teams/715.png,3,5,15,7,5,10,15,5,2,53%,4,0,0,424,290,68%
+10478,723,Almeria,https://media.api-sports.io/football/teams/723.png,3,3,6,0,6,0,14,5,2,34%,3,0,4,302,207,69%
+10478,713,Cordoba,https://media.api-sports.io/football/teams/713.png,4,5,11,2,6,5,12,7,2,66%,2,0,2,586,485,83%
+10477,722,Albacete,https://media.api-sports.io/football/teams/722.png,2,7,13,4,5,8,15,6,2,37%,1,0,1,262,157,60%
+10477,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,1,8,13,4,3,10,13,1,1,63%,2,0,2,454,345,76%
+10476,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,8,8,18,2,10,8,11,11,2,72%,2,0,1,553,470,85%
+10476,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,3,6,1,1,5,16,1,0,28%,2,1,7,220,119,54%
+10475,726,Huesca,https://media.api-sports.io/football/teams/726.png,5,7,15,3,11,4,16,5,2,42%,3,0,2,298,197,66%
+10475,716,Lugo,https://media.api-sports.io/football/teams/716.png,2,8,12,2,8,4,12,8,2,58%,3,0,2,383,282,74%
+10473,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,5,5,17,7,8,9,15,9,1,62%,2,0,1,594,506,85%
+10473,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,1,3,7,3,5,2,16,5,2,38%,2,0,3,356,258,72%
+10474,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,4,5,11,2,9,2,21,7,2,50%,1,0,3,413,317,77%
+10474,719,Tenerife,https://media.api-sports.io/football/teams/719.png,3,5,8,0,4,4,14,4,5,50%,5,1,2,414,325,79%
+10472,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,6,9,15,0,11,4,8,3,1,58%,2,0,1,584,486,83%
+10472,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,2,4,9,3,5,4,17,4,0,42%,1,0,4,414,296,71%
+10471,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,1,1,7,5,3,4,8,5,2,74%,2,0,1,634,537,85%
+10471,722,Albacete,https://media.api-sports.io/football/teams/722.png,2,5,10,3,2,8,14,2,1,26%,5,0,1,218,137,63%
+10470,720,Valladolid,https://media.api-sports.io/football/teams/720.png,6,4,13,3,13,1,18,7,5,39%,1,0,2,298,228,77%
+10470,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,4,3,10,3,4,6,10,1,1,61%,3,0,4,465,392,84%
+10469,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,2,6,10,2,5,5,17,5,2,49%,5,0,6,357,222,62%
+10469,727,Osasuna,https://media.api-sports.io/football/teams/727.png,7,5,14,2,9,5,12,5,5,51%,1,0,2,367,245,67%
+10467,713,Cordoba,https://media.api-sports.io/football/teams/713.png,9,4,18,5,9,9,14,3,3,56%,0,0,2,422,354,84%
+10467,729,Reus,https://media.api-sports.io/football/teams/729.png,2,1,4,1,4,0,22,3,3,44%,4,0,4,326,247,76%
+10468,715,Granada CF,https://media.api-sports.io/football/teams/715.png,4,11,19,4,12,8,9,2,2,51%,1,0,3,422,316,75%
+10468,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,4,3,9,2,5,4,14,4,3,49%,3,0,3,407,303,74%
+10466,717,Numancia,https://media.api-sports.io/football/teams/717.png,6,6,15,3,10,5,7,4,11,51%,1,0,1,388,249,64%
+10466,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,1,5,8,2,5,3,11,7,2,49%,2,1,4,370,232,63%
+10465,719,Tenerife,https://media.api-sports.io/football/teams/719.png,3,6,15,6,10,5,7,5,1,59%,2,0,3,498,374,75%
+10465,724,Cadiz,https://media.api-sports.io/football/teams/724.png,4,3,8,1,5,3,17,5,1,41%,1,0,2,349,234,67%
+10464,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,3,9,2,6,3,17,9,3,54%,4,1,2,384,289,75%
+10464,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,4,1,8,3,6,2,12,4,3,46%,5,1,3,328,255,78%
+10463,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,6,4,13,3,5,8,19,10,3,56%,1,0,2,429,329,77%
+10463,723,Almeria,https://media.api-sports.io/football/teams/723.png,2,2,5,1,2,3,13,5,1,44%,1,0,3,323,217,67%
+10462,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,3,1,5,1,3,2,22,6,1,44%,2,0,7,355,274,77%
+10462,726,Huesca,https://media.api-sports.io/football/teams/726.png,10,14,28,4,13,15,11,5,5,56%,3,0,2,462,392,85%
+10461,718,Oviedo,https://media.api-sports.io/football/teams/718.png,8,5,15,2,13,2,15,0,3,35%,,0,1,310,220,71%
+10461,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,1,3,11,7,6,5,11,3,1,65%,,0,5,582,485,83%
+10460,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,7,3,10,0,10,0,20,3,2,40%,1,0,2,399,300,75%
+10460,713,Cordoba,https://media.api-sports.io/football/teams/713.png,4,10,19,5,13,6,12,2,4,60%,1,0,4,584,503,86%
+10458,724,Cadiz,https://media.api-sports.io/football/teams/724.png,2,2,6,2,4,2,12,4,3,39%,1,1,4,287,162,56%
+10458,715,Granada CF,https://media.api-sports.io/football/teams/715.png,4,6,20,10,13,7,12,6,2,61%,5,0,1,449,295,66%
+10459,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,6,13,31,12,16,15,12,8,3,64%,2,0,0,483,385,80%
+10459,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,3,6,10,1,6,4,17,2,2,36%,6,0,4,268,179,67%
+10457,729,Reus,https://media.api-sports.io/football/teams/729.png,4,8,17,5,11,6,10,4,2,57%,2,0,4,440,344,78%
+10457,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,5,4,13,4,6,7,20,5,2,43%,2,1,3,328,223,68%
+10456,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,2,13,17,2,8,9,17,9,3,55%,3,0,3,429,335,78%
+10456,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,5,10,1,8,2,6,2,1,45%,1,0,1,340,234,69%
+10454,727,Osasuna,https://media.api-sports.io/football/teams/727.png,6,2,10,2,8,2,18,1,1,50%,5,0,1,385,286,74%
+10454,720,Valladolid,https://media.api-sports.io/football/teams/720.png,3,1,7,3,6,1,16,2,0,50%,4,0,2,367,273,74%
+10455,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,4,1,8,3,4,4,9,6,2,57%,3,0,3,466,360,77%
+10455,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,5,4,11,2,7,4,19,4,2,43%,5,0,1,356,247,69%
+10453,722,Albacete,https://media.api-sports.io/football/teams/722.png,5,6,14,3,7,7,17,4,0,60%,2,0,1,380,288,76%
+10453,719,Tenerife,https://media.api-sports.io/football/teams/719.png,3,3,7,1,4,3,20,3,2,40%,7,1,4,257,161,63%
+10451,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,2,9,14,3,7,7,9,3,1,62%,0,0,1,521,411,79%
+10451,717,Numancia,https://media.api-sports.io/football/teams/717.png,3,3,9,3,5,4,20,3,1,38%,1,0,0,296,184,62%
+10452,726,Huesca,https://media.api-sports.io/football/teams/726.png,3,3,8,2,5,3,13,5,5,50%,1,0,1,364,263,72%
+10452,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,2,4,0,2,2,22,3,1,50%,4,0,2,353,247,70%
+10450,723,Almeria,https://media.api-sports.io/football/teams/723.png,1,5,7,1,4,3,16,1,5,45%,6,1,4,320,240,75%
+10450,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,8,17,5,12,5,22,4,1,55%,2,0,0,380,284,75%
+10449,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,4,1,9,4,4,5,15,1,1,54%,4,1,0,428,320,75%
+10449,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,9,12,1,8,4,17,6,2,46%,5,0,2,358,252,70%
+10448,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,4,11,3,7,4,12,2,0,54%,3,0,1,485,385,79%
+10448,720,Valladolid,https://media.api-sports.io/football/teams/720.png,2,3,6,1,4,2,14,2,2,46%,2,0,4,398,298,75%
+10446,723,Almeria,https://media.api-sports.io/football/teams/723.png,5,8,14,1,6,8,13,2,1,46%,3,0,2,380,294,77%
+10446,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,2,6,14,6,6,9,16,4,2,54%,1,0,4,443,363,82%
+10447,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,9,1,14,4,11,4,17,13,2,57%,1,0,1,468,375,80%
+10447,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,1,2,10,7,4,6,14,6,1,43%,2,0,7,345,261,76%
+10445,729,Reus,https://media.api-sports.io/football/teams/729.png,4,8,16,4,7,9,9,6,5,54%,2,0,4,387,289,75%
+10445,716,Lugo,https://media.api-sports.io/football/teams/716.png,6,5,11,0,8,3,15,5,1,46%,5,0,4,344,244,71%
+10444,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,3,7,11,1,7,4,23,7,2,55%,2,0,1,441,332,75%
+10444,719,Tenerife,https://media.api-sports.io/football/teams/719.png,1,2,6,3,4,2,16,2,5,45%,1,0,1,351,241,69%
+10443,726,Huesca,https://media.api-sports.io/football/teams/726.png,7,6,17,4,9,8,9,13,6,61%,2,0,2,415,316,76%
+10443,717,Numancia,https://media.api-sports.io/football/teams/717.png,3,7,11,1,6,5,22,5,1,39%,5,0,5,245,157,64%
+10442,724,Cadiz,https://media.api-sports.io/football/teams/724.png,4,3,9,2,6,3,12,5,6,32%,2,0,5,288,188,65%
+10442,713,Cordoba,https://media.api-sports.io/football/teams/713.png,5,6,13,2,9,4,10,3,0,68%,3,0,2,608,490,81%
+10440,722,Albacete,https://media.api-sports.io/football/teams/722.png,2,5,8,1,3,5,15,2,1,34%,2,0,1,242,117,48%
+10440,715,Granada CF,https://media.api-sports.io/football/teams/715.png,2,11,16,3,9,7,17,3,1,66%,3,0,0,460,334,73%
+10441,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,5,4,15,6,9,6,8,7,0,74%,4,0,1,576,504,88%
+10441,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,2,6,9,1,6,3,12,2,1,26%,5,0,3,197,115,58%
+10439,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,5,4,11,2,5,6,15,6,0,57%,1,0,1,459,362,79%
+10439,727,Osasuna,https://media.api-sports.io/football/teams/727.png,2,6,8,0,7,1,17,3,1,43%,0,0,5,335,230,69%
+10438,727,Osasuna,https://media.api-sports.io/football/teams/727.png,8,12,27,7,18,9,12,11,2,65%,1,0,0,504,418,83%
+10438,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,2,0,2,0,1,1,14,0,4,35%,3,0,8,285,193,68%
+10437,715,Granada CF,https://media.api-sports.io/football/teams/715.png,4,8,14,2,10,4,12,8,4,49%,1,0,4,416,320,77%
+10437,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,5,5,12,2,6,6,13,2,1,51%,4,0,2,448,348,78%
+10436,720,Valladolid,https://media.api-sports.io/football/teams/720.png,6,8,16,2,11,5,16,4,5,54%,4,0,3,376,269,72%
+10436,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,3,6,9,0,6,3,14,3,3,46%,3,0,5,334,231,69%
+10434,713,Cordoba,https://media.api-sports.io/football/teams/713.png,3,2,8,3,6,2,12,2,4,56%,0,0,5,406,309,76%
+10434,722,Albacete,https://media.api-sports.io/football/teams/722.png,5,6,16,5,9,7,14,10,5,44%,3,0,2,293,189,65%
+10435,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,4,9,3,8,2,20,4,2,58%,3,0,1,449,320,71%
+10435,723,Almeria,https://media.api-sports.io/football/teams/723.png,2,3,7,2,2,5,15,1,1,42%,5,0,1,314,194,62%
+10433,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,5,2,7,0,6,1,21,3,5,32%,5,1,2,237,139,59%
+10433,726,Huesca,https://media.api-sports.io/football/teams/726.png,5,9,18,4,8,10,9,8,0,68%,4,0,3,510,433,85%
+10432,716,Lugo,https://media.api-sports.io/football/teams/716.png,5,4,11,2,6,5,20,4,1,45%,2,0,4,344,261,76%
+10432,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,5,5,13,3,10,3,9,5,4,55%,1,0,2,414,327,79%
+10431,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,5,4,9,0,5,4,17,3,0,57%,2,1,3,439,314,72%
+10431,724,Cadiz,https://media.api-sports.io/football/teams/724.png,3,5,11,3,3,8,17,5,1,43%,1,0,3,319,207,65%
+10430,727,Osasuna,https://media.api-sports.io/football/teams/727.png,3,6,9,0,5,4,18,4,1,44%,2,0,2,404,314,78%
+10430,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,3,2,9,4,2,7,20,4,0,56%,2,0,1,491,418,85%
+10428,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,2,7,11,2,6,5,12,3,0,50%,2,0,4,463,364,79%
+10428,729,Reus,https://media.api-sports.io/football/teams/729.png,6,4,12,2,5,7,11,1,1,50%,5,0,1,470,385,82%
+10429,717,Numancia,https://media.api-sports.io/football/teams/717.png,0,8,15,7,5,10,10,3,2,46%,1,0,3,395,278,70%
+10429,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,3,4,9,2,7,2,15,1,10,54%,2,0,0,468,366,78%
+10427,719,Tenerife,https://media.api-sports.io/football/teams/719.png,3,8,16,5,9,7,16,15,2,61%,3,0,1,499,422,85%
+10427,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,1,6,1,3,3,16,0,0,39%,3,0,2,332,251,76%
+10426,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,5,6,13,2,6,7,14,7,4,47%,1,0,4,334,249,75%
+10426,713,Cordoba,https://media.api-sports.io/football/teams/713.png,4,5,12,3,9,3,10,7,5,53%,2,0,4,366,292,80%
+10425,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,3,2,8,3,4,4,10,3,0,43%,2,0,1,407,306,75%
+10425,715,Granada CF,https://media.api-sports.io/football/teams/715.png,1,2,11,8,7,4,16,9,4,57%,1,0,1,493,396,80%
+10423,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,13,10,27,4,17,10,10,6,4,67%,0,0,3,620,541,87%
+10423,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,3,5,8,0,4,5,13,1,6,33%,1,0,8,297,214,72%
+10424,729,Reus,https://media.api-sports.io/football/teams/729.png,0,8,10,2,5,5,16,5,2,56%,2,0,4,466,352,76%
+10424,718,Oviedo,https://media.api-sports.io/football/teams/718.png,4,9,16,3,9,7,12,2,1,44%,3,0,0,349,230,66%
+10422,722,Albacete,https://media.api-sports.io/football/teams/722.png,4,4,9,1,7,2,22,3,5,30%,3,1,2,208,103,50%
+10422,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,2,5,10,3,6,4,21,6,2,70%,5,1,2,482,370,77%
+10421,724,Cadiz,https://media.api-sports.io/football/teams/724.png,3,3,9,3,6,3,14,5,4,41%,4,1,2,323,222,69%
+10421,716,Lugo,https://media.api-sports.io/football/teams/716.png,3,3,7,1,4,3,13,2,2,59%,1,0,2,479,384,80%
+10420,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,4,4,8,0,6,2,18,1,3,58%,2,0,2,486,398,82%
+10420,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,3,5,10,2,6,4,17,5,0,42%,2,0,2,327,248,76%
+10419,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,5,12,20,3,13,7,14,8,3,46%,0,0,3,400,306,77%
+10419,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,3,5,11,3,4,7,16,3,3,54%,4,0,3,463,361,78%
+10417,723,Almeria,https://media.api-sports.io/football/teams/723.png,0,6,9,3,5,4,12,8,4,38%,2,0,1,308,181,59%
+10417,717,Numancia,https://media.api-sports.io/football/teams/717.png,1,5,12,6,7,5,19,5,2,62%,3,0,0,478,366,77%
+10418,726,Huesca,https://media.api-sports.io/football/teams/726.png,7,3,11,1,6,5,15,7,3,51%,2,0,2,387,266,69%
+10418,727,Osasuna,https://media.api-sports.io/football/teams/727.png,2,4,7,1,5,2,12,3,2,49%,5,1,6,363,257,71%
+10416,719,Tenerife,https://media.api-sports.io/football/teams/719.png,5,5,16,6,7,9,18,6,1,55%,5,1,0,416,307,74%
+10416,720,Valladolid,https://media.api-sports.io/football/teams/720.png,0,4,5,1,4,1,18,2,1,45%,2,0,5,345,247,72%
+10415,727,Osasuna,https://media.api-sports.io/football/teams/727.png,5,6,17,6,10,7,16,4,3,48%,1,0,5,400,295,74%
+10415,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,6,4,13,3,8,5,12,4,1,52%,1,0,4,451,334,74%
+10414,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,5,6,15,4,9,6,14,7,3,50%,4,0,4,381,243,64%
+10414,724,Cadiz,https://media.api-sports.io/football/teams/724.png,4,1,5,0,2,3,16,4,1,50%,2,0,5,378,232,61%
+10412,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,5,3,16,8,11,5,15,6,0,64%,0,0,0,590,494,84%
+10412,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,1,5,8,2,1,7,15,2,3,36%,4,0,4,328,241,73%
+10413,720,Valladolid,https://media.api-sports.io/football/teams/720.png,7,4,13,2,11,2,19,6,1,50%,5,0,1,349,265,76%
+10413,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,3,4,10,3,7,3,14,3,0,50%,5,0,4,361,283,78%
+10411,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,3,9,19,7,12,7,22,8,3,49%,5,0,0,334,232,69%
+10411,723,Almeria,https://media.api-sports.io/football/teams/723.png,2,3,7,2,3,4,19,2,0,51%,3,0,2,354,261,74%
+10410,715,Granada CF,https://media.api-sports.io/football/teams/715.png,4,3,13,6,5,8,13,8,2,48%,4,1,5,366,267,73%
+10410,719,Tenerife,https://media.api-sports.io/football/teams/719.png,6,8,16,2,8,8,18,3,3,52%,4,0,2,404,288,71%
+10409,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,4,10,2,6,4,13,8,1,60%,2,0,3,405,304,75%
+10409,722,Albacete,https://media.api-sports.io/football/teams/722.png,4,8,18,6,11,7,18,7,5,40%,6,0,3,257,158,61%
+10408,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,3,4,8,1,6,2,18,8,1,43%,3,0,2,331,252,76%
+10408,726,Huesca,https://media.api-sports.io/football/teams/726.png,3,4,14,7,10,4,16,8,1,57%,3,0,3,449,376,84%
+10406,717,Numancia,https://media.api-sports.io/football/teams/717.png,2,4,7,1,5,2,8,2,1,47%,1,0,2,400,280,70%
+10406,729,Reus,https://media.api-sports.io/football/teams/729.png,2,3,6,1,2,4,13,5,5,53%,1,0,0,448,336,75%
+10407,718,Oviedo,https://media.api-sports.io/football/teams/718.png,5,7,14,2,8,6,19,7,2,46%,3,0,1,317,190,60%
+10407,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,2,5,11,4,5,6,20,4,2,54%,3,0,3,384,267,70%
+10405,713,Cordoba,https://media.api-sports.io/football/teams/713.png,1,5,7,1,3,4,19,6,3,39%,5,0,2,323,241,75%
+10405,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,5,16,7,10,6,12,5,1,61%,3,0,0,510,426,84%
+10404,715,Granada CF,https://media.api-sports.io/football/teams/715.png,1,5,8,2,6,2,16,5,2,38%,5,0,2,288,189,66%
+10404,720,Valladolid,https://media.api-sports.io/football/teams/720.png,3,4,9,2,6,3,17,6,1,62%,5,0,0,460,364,79%
+10403,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,6,7,14,1,12,2,20,10,5,58%,2,0,5,460,353,77%
+10403,717,Numancia,https://media.api-sports.io/football/teams/717.png,5,3,9,1,8,1,14,2,4,42%,6,0,4,327,213,65%
+10401,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,3,5,11,3,5,6,13,6,,53%,2,0,3,524,441,84%
+10401,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,4,5,12,3,8,4,20,3,,47%,4,0,3,464,377,81%
+10402,724,Cadiz,https://media.api-sports.io/football/teams/724.png,6,3,9,,8,1,19,9,1,60%,3,0,1,408,304,75%
+10402,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,2,4,,2,2,18,2,0,40%,3,1,4,279,160,57%
+10400,723,Almeria,https://media.api-sports.io/football/teams/723.png,1,3,6,2,2,4,16,4,0,42%,2,0,3,298,210,70%
+10400,727,Osasuna,https://media.api-sports.io/football/teams/727.png,4,2,7,1,4,3,23,4,4,58%,3,0,1,406,302,74%
+10399,722,Albacete,https://media.api-sports.io/football/teams/722.png,0,2,5,3,2,3,16,9,1,48%,3,0,1,240,116,48%
+10399,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,2,2,5,1,2,3,19,3,6,52%,5,0,0,274,144,53%
+10398,726,Huesca,https://media.api-sports.io/football/teams/726.png,9,7,29,13,17,12,15,10,3,49%,3,0,3,387,322,83%
+10398,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,3,2,8,3,1,7,9,2,4,51%,3,0,7,401,310,77%
+10396,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,5,10,19,4,6,13,13,9,2,59%,3,0,4,481,397,83%
+10396,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,4,4,10,2,7,3,13,6,1,41%,1,0,3,326,240,74%
+10397,729,Reus,https://media.api-sports.io/football/teams/729.png,7,1,16,8,9,7,11,7,4,60%,2,0,0,525,443,84%
+10397,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,0,4,6,2,4,2,18,2,1,40%,3,0,4,350,232,66%
+10395,719,Tenerife,https://media.api-sports.io/football/teams/719.png,11,7,22,4,19,3,18,3,3,36%,4,0,4,249,172,69%
+10395,713,Cordoba,https://media.api-sports.io/football/teams/713.png,5,7,17,5,9,8,9,6,3,64%,3,0,6,442,344,78%
+10394,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,7,10,19,2,9,10,14,9,2,46%,1,0,4,311,218,70%
+10394,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,9,14,1,10,4,15,8,2,54%,4,0,5,345,270,78%
+10393,720,Valladolid,https://media.api-sports.io/football/teams/720.png,4,4,8,0,6,2,11,4,4,50%,1,0,4,399,311,78%
+10393,726,Huesca,https://media.api-sports.io/football/teams/726.png,6,6,16,4,8,8,18,3,2,50%,2,1,1,394,315,80%
+10392,727,Osasuna,https://media.api-sports.io/football/teams/727.png,2,6,10,2,5,5,14,6,4,52%,1,0,1,415,279,67%
+10392,729,Reus,https://media.api-sports.io/football/teams/729.png,1,5,8,2,2,6,17,1,3,48%,2,0,2,389,260,67%
+10390,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,6,5,12,1,8,4,12,12,4,68%,2,0,1,502,402,80%
+10390,719,Tenerife,https://media.api-sports.io/football/teams/719.png,2,5,9,2,7,2,17,3,3,32%,3,0,5,234,134,57%
+10391,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,2,7,3,5,2,12,5,4,56%,1,0,3,437,289,66%
+10391,722,Albacete,https://media.api-sports.io/football/teams/722.png,3,3,8,2,4,4,16,3,3,44%,3,0,2,339,176,52%
+10389,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,1,4,9,4,6,3,14,5,1,47%,1,0,2,389,281,72%
+10389,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,2,1,8,5,6,2,12,7,1,53%,1,0,1,424,309,73%
+10388,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,5,7,18,6,10,8,19,4,1,45%,1,0,5,329,255,78%
+10388,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,7,4,13,2,10,3,20,2,1,55%,4,0,5,434,328,76%
+10387,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,3,2,9,4,6,3,13,7,4,53%,4,0,2,389,315,81%
+10387,723,Almeria,https://media.api-sports.io/football/teams/723.png,6,8,17,3,12,5,14,8,2,47%,1,0,3,338,277,82%
+10386,713,Cordoba,https://media.api-sports.io/football/teams/713.png,4,4,15,7,11,4,15,6,1,39%,1,0,1,266,148,56%
+10386,715,Granada CF,https://media.api-sports.io/football/teams/715.png,3,8,19,8,13,6,15,4,3,61%,3,0,3,392,307,78%
+10385,717,Numancia,https://media.api-sports.io/football/teams/717.png,5,10,20,5,9,11,11,7,0,53%,0,0,0,393,279,71%
+10385,724,Cadiz,https://media.api-sports.io/football/teams/724.png,0,3,4,1,2,2,9,4,5,47%,2,0,4,353,235,67%
+10384,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,6,4,10,0,6,4,6,2,2,55%,1,0,2,516,429,83%
+10384,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,5,5,12,2,6,6,13,6,3,45%,0,0,4,412,330,80%
+10383,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,5,12,3,8,4,16,3,1,51%,3,0,4,455,365,80%
+10383,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,6,5,14,3,10,4,8,2,5,49%,4,0,3,443,357,81%
+10382,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,5,9,14,0,9,5,19,6,2,50%,5,0,2,389,267,69%
+10382,727,Osasuna,https://media.api-sports.io/football/teams/727.png,2,3,7,2,4,3,13,1,6,50%,3,0,3,380,266,70%
+10381,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,3,4,12,5,7,5,16,4,1,59%,0,0,2,539,450,83%
+10381,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,3,3,7,1,2,5,15,5,0,41%,3,0,2,359,250,70%
+10379,723,Almeria,https://media.api-sports.io/football/teams/723.png,3,4,9,2,7,2,15,4,1,33%,2,0,3,272,184,68%
+10379,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,4,3,14,7,10,4,18,6,0,67%,4,0,1,549,460,84%
+10380,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,6,4,11,1,9,2,19,3,0,46%,1,0,2,410,313,76%
+10380,726,Huesca,https://media.api-sports.io/football/teams/726.png,2,5,9,2,6,3,20,4,2,54%,2,0,3,465,370,80%
+10378,724,Cadiz,https://media.api-sports.io/football/teams/724.png,5,7,13,1,6,7,12,2,2,61%,3,0,2,496,399,80%
+10378,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,2,4,9,3,3,6,13,6,2,39%,2,0,6,307,209,68%
+10377,713,Cordoba,https://media.api-sports.io/football/teams/713.png,8,6,22,8,11,11,13,6,1,58%,2,0,2,414,318,77%
+10377,720,Valladolid,https://media.api-sports.io/football/teams/720.png,3,3,7,1,4,3,19,3,1,42%,4,1,6,296,212,72%
+10376,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,4,2,9,3,8,2,15,5,1,50%,1,0,1,392,294,75%
+10376,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,2,9,5,3,6,14,4,2,50%,3,1,3,381,265,70%
+10374,715,Granada CF,https://media.api-sports.io/football/teams/715.png,8,6,19,5,10,9,13,5,3,40%,0,0,3,350,237,68%
+10374,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,3,4,9,2,6,3,14,4,0,60%,2,0,6,540,430,80%
+10373,722,Albacete,https://media.api-sports.io/football/teams/722.png,4,3,9,2,4,5,13,2,7,39%,4,0,2,282,143,51%
+10373,717,Numancia,https://media.api-sports.io/football/teams/717.png,2,2,8,4,2,6,8,4,8,61%,2,0,2,429,281,66%
+10375,729,Reus,https://media.api-sports.io/football/teams/729.png,7,5,14,2,6,8,14,5,9,63%,4,0,4,439,353,80%
+10375,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,4,4,10,2,5,5,10,4,3,37%,3,1,4,254,145,57%
+10372,719,Tenerife,https://media.api-sports.io/football/teams/719.png,8,7,18,3,15,3,11,5,4,46%,3,0,2,326,230,71%
+10372,716,Lugo,https://media.api-sports.io/football/teams/716.png,2,6,12,4,9,3,11,8,3,54%,3,0,5,377,278,74%
+10371,718,Oviedo,https://media.api-sports.io/football/teams/718.png,3,7,14,4,9,5,15,5,1,51%,4,0,3,459,375,82%
+10371,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,3,3,7,1,2,5,14,4,0,49%,1,0,3,449,361,80%
+10370,717,Numancia,https://media.api-sports.io/football/teams/717.png,5,4,12,3,5,7,5,4,1,52%,2,0,4,395,309,78%
+10370,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,6,4,12,2,8,4,10,6,7,48%,3,0,3,361,274,76%
+10368,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,2,6,8,0,7,2,13,2,1,49%,3,0,1,383,291,76%
+10368,729,Reus,https://media.api-sports.io/football/teams/729.png,1,7,10,2,4,6,18,2,2,51%,4,0,1,397,309,78%
+10369,727,Osasuna,https://media.api-sports.io/football/teams/727.png,3,2,5,,3,2,21,3,1,41%,5,0,2,293,164,56%
+10369,724,Cadiz,https://media.api-sports.io/football/teams/724.png,2,4,6,,2,4,14,5,1,59%,4,0,2,398,291,73%
+10367,716,Lugo,https://media.api-sports.io/football/teams/716.png,2,7,14,5,6,8,12,11,4,51%,2,0,2,384,288,75%
+10367,715,Granada CF,https://media.api-sports.io/football/teams/715.png,3,6,11,2,10,1,13,4,5,49%,2,0,0,373,291,78%
+10366,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,4,2,9,3,6,3,15,7,4,53%,2,0,4,350,222,63%
+10366,722,Albacete,https://media.api-sports.io/football/teams/722.png,7,8,17,2,14,3,15,5,1,47%,2,0,3,297,174,59%
+10365,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,7,4,12,1,6,6,21,4,3,52%,4,0,3,364,239,66%
+10365,719,Tenerife,https://media.api-sports.io/football/teams/719.png,5,7,13,1,6,7,13,6,3,48%,2,0,6,334,211,63%
+10362,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,5,4,10,1,7,3,16,10,1,65%,3,0,3,485,339,70%
+10362,713,Cordoba,https://media.api-sports.io/football/teams/713.png,5,2,8,1,3,5,19,1,5,35%,2,0,3,263,136,52%
+10364,720,Valladolid,https://media.api-sports.io/football/teams/720.png,6,3,12,3,8,4,22,8,1,55%,5,0,4,453,372,82%
+10364,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,5,6,13,2,8,5,18,5,1,45%,3,1,4,359,265,74%
+10363,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,3,9,13,1,6,7,14,6,4,47%,3,0,4,322,203,63%
+10363,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,5,5,12,2,7,5,19,8,1,53%,2,0,3,354,246,69%
+10361,726,Huesca,https://media.api-sports.io/football/teams/726.png,5,1,7,1,6,2,18,12,4,65%,2,2,3,514,431,84%
+10361,723,Almeria,https://media.api-sports.io/football/teams/723.png,6,3,11,2,8,3,21,3,1,35%,4,0,4,273,193,71%
+10360,719,Tenerife,https://media.api-sports.io/football/teams/719.png,3,4,7,0,6,1,20,1,3,48%,3,0,1,367,260,71%
+10360,718,Oviedo,https://media.api-sports.io/football/teams/718.png,3,4,8,1,7,1,11,1,1,52%,4,0,0,380,260,68%
+10359,715,Granada CF,https://media.api-sports.io/football/teams/715.png,11,11,29,7,11,18,12,13,2,66%,1,0,0,471,394,84%
+10359,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,1,5,6,0,3,3,20,1,2,34%,5,0,11,246,155,63%
+10357,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,2,7,12,3,8,4,12,7,1,49%,1,0,6,381,239,63%
+10357,720,Valladolid,https://media.api-sports.io/football/teams/720.png,5,3,9,1,4,5,14,9,2,51%,1,0,2,396,282,71%
+10358,723,Almeria,https://media.api-sports.io/football/teams/723.png,4,7,14,3,9,5,22,4,3,45%,5,0,2,376,294,78%
+10358,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,3,7,15,5,6,9,20,6,1,55%,6,0,4,459,373,81%
+10356,724,Cadiz,https://media.api-sports.io/football/teams/724.png,8,5,15,2,12,3,14,5,3,42%,0,0,4,351,267,76%
+10356,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,5,4,12,3,6,6,12,6,2,58%,1,0,3,471,392,83%
+10355,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,5,6,14,3,11,3,9,5,7,59%,0,0,1,540,456,84%
+10355,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,2,3,7,2,4,3,11,3,0,41%,2,1,2,366,277,76%
+10354,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,5,3,11,3,9,2,10,1,2,54%,3,0,2,479,358,75%
+10354,717,Numancia,https://media.api-sports.io/football/teams/717.png,4,6,12,2,9,3,18,2,2,46%,0,0,2,385,265,69%
+10352,713,Cordoba,https://media.api-sports.io/football/teams/713.png,5,10,19,4,13,6,16,12,5,60%,1,0,1,383,309,81%
+10352,716,Lugo,https://media.api-sports.io/football/teams/716.png,1,3,4,0,2,2,29,2,1,40%,7,1,4,269,184,68%
+10351,722,Albacete,https://media.api-sports.io/football/teams/722.png,1,4,5,,1,4,16,2,1,30%,5,1,2,223,102,46%
+10351,727,Osasuna,https://media.api-sports.io/football/teams/727.png,1,4,5,,1,4,10,1,2,70%,3,0,1,512,387,76%
+10353,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,5,5,11,1,10,1,14,3,6,53%,3,0,5,527,423,80%
+10353,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,5,6,13,2,5,8,11,2,2,47%,2,0,1,456,358,79%
+10350,729,Reus,https://media.api-sports.io/football/teams/729.png,3,4,10,3,6,4,16,3,2,49%,3,0,2,429,336,78%
+10350,726,Huesca,https://media.api-sports.io/football/teams/726.png,2,3,6,1,4,2,13,3,1,51%,2,0,3,442,340,77%
+10349,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,3,2,6,1,3,3,14,5,3,52%,0,1,4,374,269,72%
+10349,722,Albacete,https://media.api-sports.io/football/teams/722.png,6,3,9,0,6,3,16,2,4,48%,3,0,2,349,232,66%
+10348,727,Osasuna,https://media.api-sports.io/football/teams/727.png,11,7,23,5,12,11,10,12,3,62%,2,0,1,452,373,83%
+10348,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,3,3,9,3,5,4,17,3,2,38%,4,0,9,290,212,73%
+10347,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,7,16,5,10,6,13,8,2,64%,1,0,3,451,374,83%
+10347,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,4,6,14,4,8,6,20,11,3,36%,4,0,2,234,149,64%
+10346,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,7,7,18,4,12,6,18,8,1,33%,2,0,1,273,185,68%
+10346,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,2,4,11,5,6,5,10,11,2,67%,1,0,6,528,456,86%
+10345,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,6,7,16,3,9,7,13,4,3,56%,3,0,1,425,327,77%
+10345,724,Cadiz,https://media.api-sports.io/football/teams/724.png,2,2,7,3,4,3,10,4,2,44%,2,0,6,314,229,73%
+10344,720,Valladolid,https://media.api-sports.io/football/teams/720.png,7,7,15,1,11,4,10,9,4,58%,2,0,2,399,309,77%
+10344,723,Almeria,https://media.api-sports.io/football/teams/723.png,3,8,13,2,7,6,10,5,0,42%,2,0,5,286,191,67%
+10343,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,5,6,15,4,8,7,8,5,4,53%,2,0,2,482,399,83%
+10343,729,Reus,https://media.api-sports.io/football/teams/729.png,4,3,7,0,5,2,16,2,0,47%,2,0,2,424,339,80%
+10341,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,2,7,10,1,6,4,19,8,1,55%,5,0,5,372,254,68%
+10341,713,Cordoba,https://media.api-sports.io/football/teams/713.png,7,2,11,2,7,4,25,3,5,45%,5,1,2,318,208,65%
+10342,718,Oviedo,https://media.api-sports.io/football/teams/718.png,3,3,8,2,7,1,16,5,2,41%,2,0,1,294,180,61%
+10342,715,Granada CF,https://media.api-sports.io/football/teams/715.png,2,6,10,2,4,6,17,3,6,59%,5,1,1,409,295,72%
+10340,717,Numancia,https://media.api-sports.io/football/teams/717.png,5,7,15,3,12,4,10,6,0,54%,1,0,2,394,285,72%
+10340,719,Tenerife,https://media.api-sports.io/football/teams/719.png,2,6,10,2,5,5,17,8,4,46%,4,0,3,327,211,65%
+10339,726,Huesca,https://media.api-sports.io/football/teams/726.png,3,7,10,0,6,4,13,5,0,56%,2,0,1,462,353,76%
+10339,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,3,5,9,1,9,0,14,3,1,44%,3,0,3,374,267,71%
+10338,722,Albacete,https://media.api-sports.io/football/teams/722.png,5,10,19,4,14,5,14,12,2,44%,2,0,2,266,158,59%
+10338,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,2,3,7,2,1,6,14,5,0,56%,2,0,5,358,230,64%
+10337,716,Lugo,https://media.api-sports.io/football/teams/716.png,5,7,14,2,10,4,10,9,3,45%,2,1,3,322,237,74%
+10337,720,Valladolid,https://media.api-sports.io/football/teams/720.png,3,3,7,1,5,2,21,2,4,55%,4,0,4,387,311,80%
+10336,713,Cordoba,https://media.api-sports.io/football/teams/713.png,3,11,19,5,8,11,20,7,1,55%,2,0,1,402,281,70%
+10336,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,3,7,2,5,2,24,2,1,45%,5,0,2,335,206,61%
+10335,729,Reus,https://media.api-sports.io/football/teams/729.png,5,8,14,1,9,5,19,4,2,44%,3,0,6,354,259,73%
+10335,723,Almeria,https://media.api-sports.io/football/teams/723.png,6,7,16,3,10,6,10,7,2,56%,2,0,4,435,332,76%
+10334,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,3,2,6,1,5,2,14,4,2,41%,1,0,5,387,291,75%
+10334,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,5,5,17,7,8,9,7,3,2,59%,2,0,3,549,451,82%
+10333,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,7,3,18,8,12,6,16,7,0,47%,2,0,1,362,250,69%
+10333,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,1,6,8,1,5,3,22,1,2,53%,3,0,5,399,294,74%
+10332,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,1,8,12,3,6,6,18,8,0,60%,1,0,5,508,411,81%
+10332,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,6,6,13,1,8,5,12,2,1,40%,4,0,1,330,245,74%
+10331,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,6,16,6,7,9,14,6,0,64%,4,0,0,626,549,88%
+10331,727,Osasuna,https://media.api-sports.io/football/teams/727.png,2,3,7,2,5,2,16,5,1,36%,4,0,4,337,258,77%
+10330,719,Tenerife,https://media.api-sports.io/football/teams/719.png,5,7,12,0,7,5,15,3,1,58%,1,0,2,489,373,76%
+10330,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,2,5,8,1,5,3,16,1,0,42%,3,0,4,344,233,68%
+10329,715,Granada CF,https://media.api-sports.io/football/teams/715.png,2,5,10,3,7,3,9,9,11,54%,3,0,0,404,293,73%
+10329,717,Numancia,https://media.api-sports.io/football/teams/717.png,0,7,10,3,3,7,9,5,1,46%,2,0,1,345,224,65%
+10328,724,Cadiz,https://media.api-sports.io/football/teams/724.png,4,7,11,0,3,8,3,8,3,47%,1,0,3,383,276,72%
+10328,726,Huesca,https://media.api-sports.io/football/teams/726.png,5,3,10,2,6,4,14,3,3,53%,2,0,3,453,338,75%
+10327,717,Numancia,https://media.api-sports.io/football/teams/717.png,4,6,11,1,10,2,19,2,1,39%,1,0,1,278,168,60%
+10327,713,Cordoba,https://media.api-sports.io/football/teams/713.png,2,3,7,2,5,2,14,3,8,61%,3,0,3,429,309,72%
+10326,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,5,5,14,4,9,5,14,7,2,61%,4,1,4,463,391,84%
+10326,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,5,4,12,3,8,4,20,4,2,39%,6,1,3,303,231,76%
+10324,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,7,12,3,7,5,9,7,3,49%,2,0,1,381,260,68%
+10324,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,2,4,9,3,5,4,25,8,0,51%,5,0,2,404,305,75%
+10325,720,Valladolid,https://media.api-sports.io/football/teams/720.png,4,8,13,1,9,4,17,4,0,42%,3,1,3,331,261,79%
+10325,729,Reus,https://media.api-sports.io/football/teams/729.png,3,5,13,5,5,8,10,7,1,58%,4,1,3,467,398,85%
+10323,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,5,3,9,1,5,4,22,1,1,30%,2,0,3,253,186,74%
+10323,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,8,18,6,8,10,15,12,3,70%,3,0,2,573,522,91%
+10321,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,5,4,11,2,10,1,13,6,1,36%,1,0,3,305,207,68%
+10321,715,Granada CF,https://media.api-sports.io/football/teams/715.png,5,5,13,3,9,4,6,5,3,64%,1,0,2,542,430,79%
+10322,727,Osasuna,https://media.api-sports.io/football/teams/727.png,2,8,14,4,6,8,18,6,2,66%,2,0,1,478,373,78%
+10322,719,Tenerife,https://media.api-sports.io/football/teams/719.png,2,4,9,3,5,4,20,3,3,34%,2,0,2,242,146,60%
+10319,723,Almeria,https://media.api-sports.io/football/teams/723.png,3,13,20,4,11,9,13,9,2,53%,5,0,0,406,311,77%
+10319,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,4,2,6,0,5,1,18,0,1,47%,4,0,2,379,276,73%
+10320,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,3,9,17,5,7,10,9,8,,61%,1,0,0,480,394,82%
+10320,724,Cadiz,https://media.api-sports.io/football/teams/724.png,1,5,7,1,3,4,13,5,,39%,1,0,2,292,198,68%
+10318,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,5,3,8,0,5,3,18,4,6,31%,3,0,5,241,163,68%
+10318,716,Lugo,https://media.api-sports.io/football/teams/716.png,5,5,14,4,7,7,10,5,1,69%,2,0,2,522,442,85%
+10317,724,Cadiz,https://media.api-sports.io/football/teams/724.png,2,8,12,2,9,3,7,7,2,66%,1,0,1,495,404,82%
+10317,723,Almeria,https://media.api-sports.io/football/teams/723.png,1,1,2,0,0,2,17,2,2,34%,3,0,2,260,172,66%
+10315,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,6,18,8,7,11,19,12,1,68%,2,0,2,631,554,88%
+10315,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,3,5,8,0,5,3,16,1,0,32%,8,1,4,307,231,75%
+10316,715,Granada CF,https://media.api-sports.io/football/teams/715.png,4,4,12,4,7,5,13,9,2,58%,1,0,2,413,298,72%
+10316,727,Osasuna,https://media.api-sports.io/football/teams/727.png,3,6,11,2,7,4,15,2,3,42%,2,0,3,308,214,69%
+10313,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,2,2,6,2,4,2,10,5,6,58%,4,0,3,433,292,67%
+10313,717,Numancia,https://media.api-sports.io/football/teams/717.png,3,7,10,0,5,6,14,7,2,42%,2,0,2,283,162,57%
+10314,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,7,6,18,5,9,9,13,2,1,41%,2,0,3,397,311,78%
+10314,726,Huesca,https://media.api-sports.io/football/teams/726.png,3,4,12,5,5,7,7,2,1,59%,1,0,6,551,454,82%
+10312,722,Albacete,https://media.api-sports.io/football/teams/722.png,1,7,11,3,4,7,17,4,1,35%,2,0,4,255,152,60%
+10312,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,5,11,20,4,8,12,16,3,4,65%,3,0,1,474,359,76%
+10311,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,4,6,15,5,10,5,15,6,1,39%,4,0,1,295,189,64%
+10311,720,Valladolid,https://media.api-sports.io/football/teams/720.png,1,9,15,5,6,9,15,3,1,61%,5,0,3,460,349,76%
+10310,716,Lugo,https://media.api-sports.io/football/teams/716.png,1,7,11,3,5,6,18,2,2,55%,6,1,1,366,242,66%
+10310,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,4,7,1,4,3,13,2,8,45%,3,0,1,298,194,65%
+10308,713,Cordoba,https://media.api-sports.io/football/teams/713.png,4,11,20,5,7,13,14,6,2,53%,5,0,4,442,333,75%
+10308,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,4,2,9,3,6,3,16,5,2,47%,3,1,3,375,268,71%
+10309,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,2,4,7,1,5,2,10,4,4,47%,2,0,3,425,350,82%
+10309,729,Reus,https://media.api-sports.io/football/teams/729.png,4,9,16,3,14,2,9,12,5,53%,2,0,0,451,361,80%
+10307,719,Tenerife,https://media.api-sports.io/football/teams/719.png,3,8,15,4,11,4,16,6,1,51%,2,0,2,342,251,73%
+10307,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,2,4,10,4,4,6,21,6,0,49%,5,0,1,330,215,65%
+10306,726,Huesca,https://media.api-sports.io/football/teams/726.png,3,5,14,6,9,5,13,2,5,59%,2,0,2,398,283,71%
+10306,722,Albacete,https://media.api-sports.io/football/teams/722.png,2,12,15,1,8,7,7,4,7,41%,4,0,3,264,158,60%
+10305,729,Reus,https://media.api-sports.io/football/teams/729.png,3,3,10,4,9,1,16,3,1,45%,4,0,1,398,300,75%
+10305,724,Cadiz,https://media.api-sports.io/football/teams/724.png,1,3,7,3,4,3,12,7,3,55%,3,0,2,454,373,82%
+10304,717,Numancia,https://media.api-sports.io/football/teams/717.png,5,10,17,2,11,6,12,12,1,53%,3,0,1,369,262,71%
+10304,716,Lugo,https://media.api-sports.io/football/teams/716.png,1,1,3,1,2,1,15,4,5,47%,1,0,3,350,233,67%
+10303,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,2,4,8,2,5,3,8,2,1,40%,3,0,3,374,263,70%
+10303,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,5,4,10,1,4,6,17,6,2,60%,4,0,1,558,452,81%
+10302,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,3,3,9,3,5,4,12,1,,41%,3,0,,358,272,76%
+10302,719,Tenerife,https://media.api-sports.io/football/teams/719.png,2,13,17,2,12,5,13,8,,59%,5,0,,477,378,79%
+10301,727,Osasuna,https://media.api-sports.io/football/teams/727.png,3,9,14,2,10,4,20,6,0,65%,5,1,2,434,321,74%
+10301,713,Cordoba,https://media.api-sports.io/football/teams/713.png,3,0,4,1,3,1,23,1,2,35%,6,2,2,238,116,49%
+10300,720,Valladolid,https://media.api-sports.io/football/teams/720.png,4,3,13,6,9,4,12,7,5,58%,5,0,1,519,422,81%
+10300,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,2,4,9,3,5,4,13,2,3,42%,2,0,3,387,270,70%
+10299,723,Almeria,https://media.api-sports.io/football/teams/723.png,3,6,12,3,8,4,10,8,4,65%,,0,2,511,399,78%
+10299,722,Albacete,https://media.api-sports.io/football/teams/722.png,3,3,9,3,7,2,9,5,1,35%,,0,2,285,165,58%
+10297,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,4,9,16,3,7,9,13,5,1,56%,3,0,2,558,483,87%
+10297,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,3,4,8,1,4,4,14,2,3,44%,0,0,2,445,366,82%
+10298,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,3,2,5,0,1,4,19,8,3,49%,2,0,1,333,226,68%
+10298,715,Granada CF,https://media.api-sports.io/football/teams/715.png,3,6,10,1,7,3,23,3,2,51%,1,0,3,338,224,66%
+10296,718,Oviedo,https://media.api-sports.io/football/teams/718.png,6,4,11,1,6,5,17,1,1,52%,4,0,2,372,259,70%
+10296,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,2,5,11,4,6,5,22,4,2,48%,7,1,5,335,217,65%
+10295,726,Huesca,https://media.api-sports.io/football/teams/726.png,3,7,17,7,11,6,14,7,0,46%,3,0,3,382,303,79%
+10295,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,6,11,1,5,6,11,6,4,54%,4,0,1,448,363,81%
+10293,713,Cordoba,https://media.api-sports.io/football/teams/713.png,9,4,17,4,13,4,19,9,4,53%,4,0,2,294,212,72%
+10293,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,2,11,13,0,10,3,18,4,0,47%,4,1,6,249,164,66%
+10294,718,Oviedo,https://media.api-sports.io/football/teams/718.png,4,4,10,2,4,6,10,1,1,51%,3,0,3,432,302,70%
+10294,720,Valladolid,https://media.api-sports.io/football/teams/720.png,4,4,12,4,7,6,15,3,5,49%,2,0,3,414,288,70%
+10291,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,5,6,14,3,8,6,15,4,5,47%,3,0,4,334,207,62%
+10291,717,Numancia,https://media.api-sports.io/football/teams/717.png,4,7,15,4,10,5,12,2,1,53%,3,0,5,366,232,63%
+10292,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,6,3,13,4,7,6,9,6,3,62%,2,0,2,515,435,84%
+10292,723,Almeria,https://media.api-sports.io/football/teams/723.png,3,2,5,0,1,4,18,4,2,38%,2,0,4,298,221,74%
+10290,719,Tenerife,https://media.api-sports.io/football/teams/719.png,8,7,17,2,13,4,16,6,3,37%,6,2,2,281,205,73%
+10290,726,Huesca,https://media.api-sports.io/football/teams/726.png,6,6,15,3,11,4,16,5,3,63%,4,0,6,490,421,86%
+10289,722,Albacete,https://media.api-sports.io/football/teams/722.png,4,9,16,3,11,5,18,4,2,47%,2,0,1,332,221,67%
+10289,729,Reus,https://media.api-sports.io/football/teams/729.png,2,3,7,2,4,3,10,4,5,53%,2,0,4,388,278,72%
+10288,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,1,6,14,7,4,10,13,11,1,64%,3,0,1,458,351,77%
+10288,727,Osasuna,https://media.api-sports.io/football/teams/727.png,1,3,5,1,2,3,17,5,1,36%,2,0,1,252,145,58%
+10287,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,5,3,13,5,7,6,8,7,2,54%,3,0,3,512,437,85%
+10287,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,6,1,8,1,3,5,14,6,0,46%,3,0,4,403,338,84%
+10286,716,Lugo,https://media.api-sports.io/football/teams/716.png,2,2,5,1,3,2,18,2,1,53%,2,0,1,416,311,75%
+10286,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,2,6,12,4,8,4,12,2,5,47%,3,0,1,339,252,74%
+10285,724,Cadiz,https://media.api-sports.io/football/teams/724.png,3,6,9,0,6,3,18,7,4,47%,0,0,1,357,254,71%
+10285,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,1,2,5,2,4,1,18,4,4,53%,2,0,3,410,291,71%
+10284,715,Granada CF,https://media.api-sports.io/football/teams/715.png,8,6,16,2,10,6,14,2,2,48%,3,1,1,421,354,84%
+10284,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,3,7,13,3,6,8,7,2,0,52%,1,0,4,455,376,83%
+10283,729,Reus,https://media.api-sports.io/football/teams/729.png,6,12,20,2,14,6,8,8,1,55%,,0,6,442,384,87%
+10283,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,7,2,14,5,6,8,8,1,5,45%,,0,5,371,302,81%
+10282,720,Valladolid,https://media.api-sports.io/football/teams/720.png,3,5,9,1,8,1,12,3,1,48%,3,0,4,369,293,79%
+10282,724,Cadiz,https://media.api-sports.io/football/teams/724.png,5,5,12,2,9,3,11,7,1,52%,2,0,2,383,302,79%
+10281,723,Almeria,https://media.api-sports.io/football/teams/723.png,2,5,8,1,6,2,13,3,6,30%,3,0,8,232,167,72%
+10281,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,8,3,17,6,7,10,14,7,1,70%,4,0,1,551,485,88%
+10279,727,Osasuna,https://media.api-sports.io/football/teams/727.png,5,5,14,4,8,6,7,12,8,43%,2,0,3,347,260,75%
+10279,716,Lugo,https://media.api-sports.io/football/teams/716.png,4,5,10,1,6,4,13,4,1,57%,2,0,4,471,362,77%
+10280,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,3,4,8,1,6,2,24,4,2,45%,2,0,1,315,207,66%
+10280,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,1,5,7,1,5,2,21,3,0,55%,3,0,2,380,258,68%
+10278,726,Huesca,https://media.api-sports.io/football/teams/726.png,4,3,8,1,7,1,16,3,2,45%,3,0,2,285,159,56%
+10278,715,Granada CF,https://media.api-sports.io/football/teams/715.png,3,5,13,5,7,6,20,4,1,55%,5,0,2,329,204,62%
+10277,717,Numancia,https://media.api-sports.io/football/teams/717.png,5,5,11,1,8,3,14,6,5,47%,1,0,5,300,173,58%
+10277,718,Oviedo,https://media.api-sports.io/football/teams/718.png,5,3,14,6,8,6,19,7,1,53%,4,0,2,337,211,63%
+10276,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,8,5,15,2,14,1,9,6,1,62%,3,0,6,465,343,74%
+10276,722,Albacete,https://media.api-sports.io/football/teams/722.png,7,5,13,1,5,8,19,4,1,38%,3,0,5,280,167,60%
+10274,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,4,3,7,0,4,3,18,3,5,58%,4,1,1,459,374,81%
+10274,713,Cordoba,https://media.api-sports.io/football/teams/713.png,2,3,9,4,6,3,14,6,4,42%,3,0,2,318,225,71%
+10275,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,6,5,15,4,10,5,10,2,1,49%,1,0,4,423,334,79%
+10275,719,Tenerife,https://media.api-sports.io/football/teams/719.png,6,5,12,1,9,3,10,6,2,51%,2,0,3,412,321,78%
+10273,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,3,3,7,1,3,4,14,1,5,45%,4,0,1,353,244,69%
+10273,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,1,7,9,1,6,3,11,4,1,55%,4,1,2,425,306,72%
+10272,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,3,5,10,2,3,7,20,7,2,54%,3,0,1,464,362,78%
+10272,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,1,3,8,4,5,3,17,2,3,46%,3,0,3,401,301,75%
+10270,713,Cordoba,https://media.api-sports.io/football/teams/713.png,6,6,16,4,12,4,17,3,5,58%,3,0,3,446,369,83%
+10270,726,Huesca,https://media.api-sports.io/football/teams/726.png,7,1,8,0,6,2,14,5,2,42%,2,0,4,324,231,71%
+10271,717,Numancia,https://media.api-sports.io/football/teams/717.png,2,6,9,1,9,0,16,1,0,44%,1,0,0,347,222,64%
+10271,720,Valladolid,https://media.api-sports.io/football/teams/720.png,1,3,4,0,3,1,13,3,2,56%,3,0,2,441,315,71%
+10268,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,4,10,20,6,15,5,11,6,1,54%,1,0,2,532,449,84%
+10268,729,Reus,https://media.api-sports.io/football/teams/729.png,3,2,9,4,6,3,10,1,0,46%,2,0,4,454,382,84%
+10269,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,6,5,13,2,6,7,14,2,1,45%,3,0,8,384,275,72%
+10269,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,9,10,26,7,20,6,7,20,1,55%,1,0,4,428,315,74%
+10267,719,Tenerife,https://media.api-sports.io/football/teams/719.png,3,6,14,5,6,8,12,6,7,61%,4,1,4,499,402,81%
+10267,723,Almeria,https://media.api-sports.io/football/teams/723.png,4,7,13,2,5,8,17,3,1,39%,2,0,3,313,219,70%
+10266,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,4,4,14,6,4,10,20,3,2,52%,2,0,1,409,327,80%
+10266,727,Osasuna,https://media.api-sports.io/football/teams/727.png,3,3,8,2,6,2,20,4,1,48%,2,0,4,388,289,74%
+10265,718,Oviedo,https://media.api-sports.io/football/teams/718.png,6,3,14,5,9,5,14,9,3,58%,2,0,1,433,338,78%
+10265,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,1,2,4,1,3,1,16,6,1,42%,2,1,5,312,213,68%
+10264,716,Lugo,https://media.api-sports.io/football/teams/716.png,3,5,13,5,10,3,17,3,5,65%,1,0,1,544,462,85%
+10264,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,1,1,4,2,1,3,15,5,6,35%,1,0,2,279,202,72%
+10263,722,Albacete,https://media.api-sports.io/football/teams/722.png,5,8,19,6,10,9,12,5,1,39%,4,0,2,244,151,62%
+10263,724,Cadiz,https://media.api-sports.io/football/teams/724.png,3,3,8,2,5,3,15,4,0,61%,3,0,4,391,287,73%
+10262,715,Granada CF,https://media.api-sports.io/football/teams/715.png,2,9,17,6,11,6,9,8,4,48%,0,0,4,399,322,81%
+10262,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,5,10,16,1,6,10,9,7,2,52%,3,0,2,438,356,81%
+10261,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,5,7,14,2,13,2,15,7,3,49%,3,0,4,402,288,72%
+10261,717,Numancia,https://media.api-sports.io/football/teams/717.png,5,5,16,6,8,8,5,6,2,51%,0,0,4,385,259,67%
+10260,720,Valladolid,https://media.api-sports.io/football/teams/720.png,5,9,15,1,9,6,11,7,0,58%,2,0,3,405,316,78%
+10260,722,Albacete,https://media.api-sports.io/football/teams/722.png,5,3,12,4,8,4,12,1,1,42%,4,0,2,302,200,66%
+10259,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,6,6,16,4,8,8,20,5,2,53%,1,0,3,510,424,83%
+10259,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,6,5,12,1,8,4,12,3,2,47%,6,1,4,464,370,80%
+10257,727,Osasuna,https://media.api-sports.io/football/teams/727.png,5,9,18,4,13,5,21,6,2,59%,5,0,1,457,355,78%
+10257,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,1,5,2,2,3,18,1,1,41%,5,0,3,328,189,58%
+10258,729,Reus,https://media.api-sports.io/football/teams/729.png,5,2,9,2,7,2,5,7,1,44%,1,1,3,340,247,73%
+10258,719,Tenerife,https://media.api-sports.io/football/teams/719.png,4,14,23,5,14,9,11,5,2,56%,2,0,5,419,343,82%
+10256,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,5,6,15,4,11,4,15,7,4,44%,4,0,2,384,303,79%
+10256,716,Lugo,https://media.api-sports.io/football/teams/716.png,3,6,12,3,8,4,19,6,2,56%,4,0,4,485,409,84%
+10255,726,Huesca,https://media.api-sports.io/football/teams/726.png,7,7,14,0,8,6,13,7,2,48%,1,0,1,378,278,74%
+10255,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,2,6,9,1,3,6,19,3,5,52%,3,0,4,408,304,75%
+10253,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,7,3,14,4,7,7,15,4,2,57%,3,0,3,479,388,81%
+10253,713,Cordoba,https://media.api-sports.io/football/teams/713.png,5,5,13,3,3,10,12,5,4,43%,3,0,6,350,252,72%
+10254,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,4,6,12,2,10,2,13,8,0,50%,0,0,3,401,310,77%
+10254,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,3,4,10,3,8,2,19,5,1,50%,1,0,3,395,301,76%
+10252,723,Almeria,https://media.api-sports.io/football/teams/723.png,4,5,10,1,8,2,14,4,0,32%,3,0,2,273,197,72%
+10252,715,Granada CF,https://media.api-sports.io/football/teams/715.png,2,3,10,5,3,7,13,2,3,68%,3,0,2,566,489,86%
+10251,724,Cadiz,https://media.api-sports.io/football/teams/724.png,3,3,8,2,5,3,20,9,1,38%,1,0,3,298,240,81%
+10251,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,3,2,7,2,4,3,20,3,1,62%,4,1,1,521,436,84%
+10250,719,Tenerife,https://media.api-sports.io/football/teams/719.png,3,4,12,5,4,8,13,6,8,49%,1,0,5,394,289,73%
+10250,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,4,5,12,3,8,4,15,8,5,51%,1,0,2,401,291,73%
+10248,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,6,7,16,3,14,2,27,9,2,49%,7,0,1,321,243,76%
+10248,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,4,4,12,4,7,5,20,2,2,51%,4,1,1,340,257,76%
+10249,718,Oviedo,https://media.api-sports.io/football/teams/718.png,7,8,19,4,15,4,18,7,1,44%,4,0,2,320,226,71%
+10249,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,3,2,6,1,4,3,12,3,2,56%,2,0,5,417,313,75%
+10246,715,Granada CF,https://media.api-sports.io/football/teams/715.png,4,10,15,1,10,5,7,6,2,47%,0,0,1,410,355,87%
+10246,729,Reus,https://media.api-sports.io/football/teams/729.png,1,2,5,2,3,2,13,5,1,53%,1,0,3,479,401,84%
+10247,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,1,3,7,3,4,3,10,4,0,47%,1,0,6,401,310,77%
+10247,720,Valladolid,https://media.api-sports.io/football/teams/720.png,11,2,16,3,12,4,8,4,1,53%,2,0,0,444,358,81%
+10245,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,6,4,13,3,8,5,21,5,1,44%,2,0,5,404,324,80%
+10245,724,Cadiz,https://media.api-sports.io/football/teams/724.png,6,1,11,4,6,5,14,2,1,56%,3,0,3,490,414,84%
+10244,717,Numancia,https://media.api-sports.io/football/teams/717.png,5,6,14,3,7,7,17,7,1,48%,2,0,2,299,194,65%
+10244,727,Osasuna,https://media.api-sports.io/football/teams/727.png,3,3,6,0,5,1,16,4,3,52%,4,0,4,335,228,68%
+10242,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,6,6,12,0,9,3,20,2,1,45%,4,0,2,337,250,74%
+10242,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,2,5,10,3,5,5,20,8,0,55%,1,0,2,376,305,81%
+10243,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,5,0,6,1,5,1,8,4,2,60%,3,0,4,489,404,83%
+10243,722,Albacete,https://media.api-sports.io/football/teams/722.png,5,8,19,6,11,8,14,10,1,40%,2,0,1,276,198,72%
+10241,713,Cordoba,https://media.api-sports.io/football/teams/713.png,6,5,13,2,6,8,19,6,1,48%,4,0,1,366,273,75%
+10241,723,Almeria,https://media.api-sports.io/football/teams/723.png,1,2,4,1,2,2,22,5,4,52%,4,1,4,379,293,77%
+10240,716,Lugo,https://media.api-sports.io/football/teams/716.png,7,6,20,7,15,5,12,10,2,60%,3,0,2,492,410,83%
+10240,726,Huesca,https://media.api-sports.io/football/teams/726.png,4,2,11,5,10,1,13,7,3,40%,3,0,7,342,251,73%
+10229,722,Albacete,https://media.api-sports.io/football/teams/722.png,1,7,10,2,6,4,18,5,2,41%,3,0,5,263,155,59%
+10229,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,5,5,13,3,6,7,12,6,0,59%,1,0,1,392,290,74%
+10230,723,Almeria,https://media.api-sports.io/football/teams/723.png,2,4,8,2,5,3,14,7,3,40%,1,0,4,310,220,71%
+10230,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,4,6,14,4,3,11,18,5,0,60%,2,0,2,470,380,81%
+10231,724,Cadiz,https://media.api-sports.io/football/teams/724.png,2,6,11,3,7,4,14,7,4,54%,0,0,3,437,331,76%
+10231,719,Tenerife,https://media.api-sports.io/football/teams/719.png,4,1,10,5,6,4,15,4,1,46%,3,0,1,382,266,70%
+10232,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,6,5,16,5,12,4,10,4,5,49%,3,0,2,395,296,75%
+10232,718,Oviedo,https://media.api-sports.io/football/teams/718.png,2,4,10,4,8,2,18,6,0,51%,7,0,4,386,276,72%
+10233,726,Huesca,https://media.api-sports.io/football/teams/726.png,2,8,12,2,3,9,11,3,2,63%,3,1,0,543,457,84%
+10233,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,1,7,8,0,3,5,10,5,5,37%,3,0,2,305,230,75%
+10234,727,Osasuna,https://media.api-sports.io/football/teams/727.png,4,12,17,1,11,6,12,8,0,51%,0,0,3,386,288,75%
+10234,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,3,3,8,2,4,4,15,8,1,49%,2,0,3,371,269,73%
+10235,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,6,6,15,3,10,5,18,5,4,43%,1,0,0,368,292,79%
+10235,716,Lugo,https://media.api-sports.io/football/teams/716.png,0,6,8,2,6,2,15,7,0,57%,6,0,5,471,384,82%
+10236,729,Reus,https://media.api-sports.io/football/teams/729.png,3,2,8,3,7,1,16,4,2,70%,2,0,3,610,508,83%
+10236,713,Cordoba,https://media.api-sports.io/football/teams/713.png,5,6,12,1,9,3,13,3,1,30%,1,0,2,248,142,57%
+10237,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,5,4,12,3,9,4,25,5,4,44%,6,0,9,273,185,68%
+10237,717,Numancia,https://media.api-sports.io/football/teams/717.png,9,9,22,4,9,14,15,9,1,56%,1,0,4,322,226,70%
+10238,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,7,4,12,1,10,2,17,5,,46%,1,0,2,432,335,78%
+10238,715,Granada CF,https://media.api-sports.io/football/teams/715.png,3,5,9,1,3,6,11,3,,54%,2,0,6,505,413,82%
+10239,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,5,2,8,1,5,3,17,3,1,47%,1,1,4,365,286,78%
+10239,720,Valladolid,https://media.api-sports.io/football/teams/720.png,6,12,22,4,17,5,19,5,1,53%,5,0,2,383,321,84%
+10228,721,Lorca FC,https://media.api-sports.io/football/teams/721.png,10,4,17,3,13,4,14,6,4,44%,,0,6,367,270,74%
+10228,730,Sevilla Atletico,https://media.api-sports.io/football/teams/730.png,7,3,12,2,5,7,7,7,5,56%,,0,8,476,391,82%
+10218,711,Alcorcon,https://media.api-sports.io/football/teams/711.png,7,4,12,1,7,5,12,2,3,48%,2,0,1,433,350,81%
+10218,729,Reus,https://media.api-sports.io/football/teams/729.png,1,2,4,1,1,3,14,2,1,52%,3,0,4,470,372,79%
+10219,712,Barcelona B,https://media.api-sports.io/football/teams/712.png,3,7,18,8,8,10,16,9,1,49%,1,0,2,452,375,83%
+10219,732,Zaragoza,https://media.api-sports.io/football/teams/732.png,4,1,6,1,4,2,10,5,2,51%,2,0,3,494,397,80%
+10220,713,Cordoba,https://media.api-sports.io/football/teams/713.png,9,2,12,1,9,3,9,2,2,40%,1,0,2,332,242,73%
+10220,731,Sporting Gijon,https://media.api-sports.io/football/teams/731.png,2,2,7,3,4,3,16,7,3,60%,3,0,6,480,388,81%
+10221,714,Gimnastic,https://media.api-sports.io/football/teams/714.png,5,5,11,1,7,4,13,4,1,35%,0,0,3,285,209,73%
+10221,728,Rayo Vallecano,https://media.api-sports.io/football/teams/728.png,3,5,11,3,6,5,7,6,0,65%,3,1,3,518,442,85%
+10222,715,Granada CF,https://media.api-sports.io/football/teams/715.png,4,5,16,7,10,6,11,7,3,66%,0,0,1,518,428,83%
+10222,724,Cadiz,https://media.api-sports.io/football/teams/724.png,2,5,8,1,1,7,13,3,0,34%,5,1,2,246,170,69%
+10223,716,Lugo,https://media.api-sports.io/football/teams/716.png,3,4,8,1,6,2,15,7,3,71%,1,0,2,486,415,85%
+10223,723,Almeria,https://media.api-sports.io/football/teams/723.png,3,1,5,1,2,3,14,4,2,29%,4,0,2,194,110,57%
+10224,717,Numancia,https://media.api-sports.io/football/teams/717.png,8,4,13,1,9,4,17,3,2,42%,1,0,0,300,203,68%
+10224,725,Cultural Leonesa,https://media.api-sports.io/football/teams/725.png,1,1,3,1,1,2,10,5,7,58%,3,0,6,417,311,75%
+10225,718,Oviedo,https://media.api-sports.io/football/teams/718.png,5,5,14,4,9,5,21,7,1,53%,3,0,6,427,316,74%
+10225,726,Huesca,https://media.api-sports.io/football/teams/726.png,7,4,13,2,9,4,13,4,1,47%,6,0,3,370,272,74%
+10226,719,Tenerife,https://media.api-sports.io/football/teams/719.png,4,3,7,,6,1,13,5,3,55%,0,0,2,389,252,65%
+10226,722,Albacete,https://media.api-sports.io/football/teams/722.png,3,5,8,,5,3,20,1,5,45%,2,0,3,312,178,57%
+10227,720,Valladolid,https://media.api-sports.io/football/teams/720.png,3,5,13,5,8,5,21,6,2,46%,3,0,1,279,207,74%
+10227,727,Osasuna,https://media.api-sports.io/football/teams/727.png,1,8,9,0,7,2,18,6,0,54%,7,1,1,329,255,78%

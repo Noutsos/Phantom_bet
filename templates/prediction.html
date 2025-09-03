@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>Prediction</h2>
+    <p>Make predictions on upcoming fixtures using the trained model</p>
+    
+    <div class="info-box">
+        <h3>What this phase does:</h3>
+        <ul>
+            <li>Loads the trained model from the training phase</li>
+            <li>Fetches upcoming fixture data from the API</li>
+            <li>Applies the same preprocessing to the new data</li>
+            <li>Generates predictions for match outcomes</li>
+            <li>Saves predictions to CSV file</li>
+        </ul>
+    </div>
+    
+    <form method="POST" class="config-form">
+        <button type="submit" class="btn btn-primary">Run Prediction</button>
+    </form>
+    
+    <div class="view-predictions-link">
+        <p>After running predictions, you can view them here:</p>
+        <a href="{{ url_for('view_predictions') }}" class="btn btn-secondary">View Predictions</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,632 @@
+[
+  {
+    "fixture": {
+      "id": 1422839,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-05T16:30:00+00:00",
+      "timestamp": 1757089800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 642,
+        "name": "Stade Michel d'Ornano",
+        "city": "Caen"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 63,
+      "name": "National 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/63.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 88,
+        "name": "Caen",
+        "logo": "https://media.api-sports.io/football/teams/88.png",
+        "winner": null
+      },
+      "away": {
+        "id": 89,
+        "name": "Dijon",
+        "logo": "https://media.api-sports.io/football/teams/89.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1423955,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-05T16:30:00+00:00",
+      "timestamp": 1757089800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21428,
+        "name": "Stade Michel-Moretti",
+        "city": "Ajaccio"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 63,
+      "name": "National 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/63.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 98,
+        "name": "Ajaccio",
+        "logo": "https://media.api-sports.io/football/teams/98.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3131,
+        "name": "Versailles",
+        "logo": "https://media.api-sports.io/football/teams/3131.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1422841,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-05T16:30:00+00:00",
+      "timestamp": 1757089800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 668,
+        "name": "Stade de la Source",
+        "city": "Orl\u00e9ans"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 63,
+      "name": "National 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/63.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 103,
+        "name": "Orleans",
+        "logo": "https://media.api-sports.io/football/teams/103.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3069,
+        "name": "Le Puy Foot",
+        "logo": "https://media.api-sports.io/football/teams/3069.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1422838,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-05T16:30:00+00:00",
+      "timestamp": 1757089800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 640,
+        "name": "Stade Marcel-Verch\u00e8re",
+        "city": "Bourg-en-Bresse"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 63,
+      "name": "National 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/63.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 430,
+        "name": "Bourg-en-bresse 01",
+        "logo": "https://media.api-sports.io/football/teams/430.png",
+        "winner": null
+      },
+      "away": {
+        "id": 9930,
+        "name": "Aubagne",
+        "logo": "https://media.api-sports.io/football/teams/9930.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1422840,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-05T16:30:00+00:00",
+      "timestamp": 1757089800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 685,
+        "name": "Stade Guy Piriou",
+        "city": "Concarneau"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 63,
+      "name": "National 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/63.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1300,
+        "name": "Concarneau",
+        "logo": "https://media.api-sports.io/football/teams/1300.png",
+        "winner": null
+      },
+      "away": {
+        "id": 431,
+        "name": "Quevilly",
+        "logo": "https://media.api-sports.io/football/teams/431.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1422845,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-05T16:30:00+00:00",
+      "timestamp": 1757089800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 687,
+        "name": "Stade Armand Chouffet",
+        "city": "Villefranche-sur-Sa\u00f4ne"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 63,
+      "name": "National 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/63.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1302,
+        "name": "Villefranche",
+        "logo": "https://media.api-sports.io/football/teams/1302.png",
+        "winner": null
+      },
+      "away": {
+        "id": 3179,
+        "name": "Fleury 91",
+        "logo": "https://media.api-sports.io/football/teams/3179.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1422844,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-05T16:30:00+00:00",
+      "timestamp": 1757089800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 2118,
+        "name": "Stade Fred Aubert",
+        "city": "Saint-Brieuc"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 63,
+      "name": "National 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/63.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3229,
+        "name": "Stade Briochin",
+        "logo": "https://media.api-sports.io/football/teams/3229.png",
+        "winner": null
+      },
+      "away": {
+        "id": 105,
+        "name": "Valenciennes",
+        "logo": "https://media.api-sports.io/football/teams/105.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1422842,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-05T16:30:00+00:00",
+      "timestamp": 1757089800,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade Pel\u00e9",
+        "city": "Paris"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 63,
+      "name": "National 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/63.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 9238,
+        "name": "Gobelins",
+        "logo": "https://media.api-sports.io/football/teams/9238.png",
+        "winner": null
+      },
+      "away": {
+        "id": 115,
+        "name": "Sochaux",
+        "logo": "https://media.api-sports.io/football/teams/115.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1422843,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T16:00:00+00:00",
+      "timestamp": 1757174400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 672,
+        "name": "Stade Robert Diochon",
+        "city": "Le Petit-Quevilly"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 63,
+      "name": "National 1",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/63.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 5",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3221,
+        "name": "Rouen",
+        "logo": "https://media.api-sports.io/football/teams/3221.png",
+        "winner": null
+      },
+      "away": {
+        "id": 107,
+        "name": "Chateauroux",
+        "logo": "https://media.api-sports.io/football/teams/107.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

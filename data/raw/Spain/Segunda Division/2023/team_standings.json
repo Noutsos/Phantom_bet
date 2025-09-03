@@ -1,0 +1,1019 @@
+{
+  "get": "standings",
+  "parameters": {
+    "league": "141",
+    "season": "2023"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "league": {
+        "id": 141,
+        "name": "Segunda Divisi\u00f3n",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/141.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2023,
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 537,
+                "name": "Leganes",
+                "logo": "https://media.api-sports.io/football/teams/537.png"
+              },
+              "points": 74,
+              "goalsDiff": 29,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "WDWLW",
+              "status": "same",
+              "description": "Promotion",
+              "all": {
+                "played": 42,
+                "win": 20,
+                "draw": 14,
+                "lose": 8,
+                "goals": {
+                  "for": 56,
+                  "against": 27
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 11,
+                "draw": 8,
+                "lose": 2,
+                "goals": {
+                  "for": 33,
+                  "against": 11
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 9,
+                "draw": 6,
+                "lose": 6,
+                "goals": {
+                  "for": 23,
+                  "against": 16
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 720,
+                "name": "Valladolid",
+                "logo": "https://media.api-sports.io/football/teams/720.png"
+              },
+              "points": 72,
+              "goalsDiff": 15,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "LWDDW",
+              "status": "same",
+              "description": "Promotion",
+              "all": {
+                "played": 42,
+                "win": 21,
+                "draw": 9,
+                "lose": 12,
+                "goals": {
+                  "for": 51,
+                  "against": 36
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 14,
+                "draw": 5,
+                "lose": 2,
+                "goals": {
+                  "for": 33,
+                  "against": 12
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 7,
+                "draw": 4,
+                "lose": 10,
+                "goals": {
+                  "for": 18,
+                  "against": 24
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 545,
+                "name": "Eibar",
+                "logo": "https://media.api-sports.io/football/teams/545.png"
+              },
+              "points": 71,
+              "goalsDiff": 24,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "WLWDW",
+              "status": "same",
+              "description": "Promotion Play-off",
+              "all": {
+                "played": 42,
+                "win": 21,
+                "draw": 8,
+                "lose": 13,
+                "goals": {
+                  "for": 72,
+                  "against": 48
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 14,
+                "draw": 4,
+                "lose": 3,
+                "goals": {
+                  "for": 45,
+                  "against": 17
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 7,
+                "draw": 4,
+                "lose": 10,
+                "goals": {
+                  "for": 27,
+                  "against": 31
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 540,
+                "name": "Espanyol",
+                "logo": "https://media.api-sports.io/football/teams/540.png"
+              },
+              "points": 69,
+              "goalsDiff": 19,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "WDWDD",
+              "status": "same",
+              "description": "Promotion Play-off",
+              "all": {
+                "played": 42,
+                "win": 17,
+                "draw": 18,
+                "lose": 7,
+                "goals": {
+                  "for": 59,
+                  "against": 40
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 12,
+                "draw": 8,
+                "lose": 1,
+                "goals": {
+                  "for": 39,
+                  "against": 18
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 5,
+                "draw": 10,
+                "lose": 6,
+                "goals": {
+                  "for": 20,
+                  "against": 22
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 5,
+              "team": {
+                "id": 731,
+                "name": "Sporting Gijon",
+                "logo": "https://media.api-sports.io/football/teams/731.png"
+              },
+              "points": 65,
+              "goalsDiff": 9,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "WWLWD",
+              "status": "same",
+              "description": "Promotion Play-off",
+              "all": {
+                "played": 42,
+                "win": 18,
+                "draw": 11,
+                "lose": 13,
+                "goals": {
+                  "for": 51,
+                  "against": 42
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 12,
+                "draw": 6,
+                "lose": 3,
+                "goals": {
+                  "for": 32,
+                  "against": 18
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 6,
+                "draw": 5,
+                "lose": 10,
+                "goals": {
+                  "for": 19,
+                  "against": 24
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 6,
+              "team": {
+                "id": 718,
+                "name": "Oviedo",
+                "logo": "https://media.api-sports.io/football/teams/718.png"
+              },
+              "points": 64,
+              "goalsDiff": 16,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "LWLWW",
+              "status": "same",
+              "description": "Promotion Play-off",
+              "all": {
+                "played": 42,
+                "win": 17,
+                "draw": 13,
+                "lose": 12,
+                "goals": {
+                  "for": 55,
+                  "against": 39
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 12,
+                "draw": 7,
+                "lose": 2,
+                "goals": {
+                  "for": 34,
+                  "against": 14
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 5,
+                "draw": 6,
+                "lose": 10,
+                "goals": {
+                  "for": 21,
+                  "against": 25
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 7,
+              "team": {
+                "id": 4665,
+                "name": "Racing Santander",
+                "logo": "https://media.api-sports.io/football/teams/4665.png"
+              },
+              "points": 64,
+              "goalsDiff": 8,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "LLWWW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 42,
+                "win": 18,
+                "draw": 10,
+                "lose": 14,
+                "goals": {
+                  "for": 63,
+                  "against": 55
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 13,
+                "draw": 3,
+                "lose": 5,
+                "goals": {
+                  "for": 36,
+                  "against": 21
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 5,
+                "draw": 7,
+                "lose": 9,
+                "goals": {
+                  "for": 27,
+                  "against": 34
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 8,
+              "team": {
+                "id": 539,
+                "name": "Levante",
+                "logo": "https://media.api-sports.io/football/teams/539.png"
+              },
+              "points": 59,
+              "goalsDiff": 4,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "DDDDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 42,
+                "win": 13,
+                "draw": 20,
+                "lose": 9,
+                "goals": {
+                  "for": 49,
+                  "against": 45
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 9,
+                "draw": 8,
+                "lose": 4,
+                "goals": {
+                  "for": 31,
+                  "against": 28
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 4,
+                "draw": 12,
+                "lose": 5,
+                "goals": {
+                  "for": 18,
+                  "against": 17
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
+              "team": {
+                "id": 9580,
+                "name": "Burgos",
+                "logo": "https://media.api-sports.io/football/teams/9580.png"
+              },
+              "points": 59,
+              "goalsDiff": -2,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "DDLLW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 42,
+                "win": 16,
+                "draw": 11,
+                "lose": 15,
+                "goals": {
+                  "for": 52,
+                  "against": 54
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 12,
+                "draw": 8,
+                "lose": 1,
+                "goals": {
+                  "for": 32,
+                  "against": 14
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 4,
+                "draw": 3,
+                "lose": 14,
+                "goals": {
+                  "for": 20,
+                  "against": 40
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 10,
+              "team": {
+                "id": 9409,
+                "name": "Racing Ferrol",
+                "logo": "https://media.api-sports.io/football/teams/9409.png"
+              },
+              "points": 59,
+              "goalsDiff": -3,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "LDDWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 42,
+                "win": 15,
+                "draw": 14,
+                "lose": 13,
+                "goals": {
+                  "for": 49,
+                  "against": 52
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 10,
+                "draw": 9,
+                "lose": 2,
+                "goals": {
+                  "for": 31,
+                  "against": 22
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 5,
+                "draw": 5,
+                "lose": 11,
+                "goals": {
+                  "for": 18,
+                  "against": 30
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 11,
+              "team": {
+                "id": 797,
+                "name": "Elche",
+                "logo": "https://media.api-sports.io/football/teams/797.png"
+              },
+              "points": 59,
+              "goalsDiff": -3,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "LLDLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 42,
+                "win": 16,
+                "draw": 11,
+                "lose": 15,
+                "goals": {
+                  "for": 43,
+                  "against": 46
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 10,
+                "draw": 6,
+                "lose": 5,
+                "goals": {
+                  "for": 25,
+                  "against": 18
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 6,
+                "draw": 5,
+                "lose": 10,
+                "goals": {
+                  "for": 18,
+                  "against": 28
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 719,
+                "name": "Tenerife",
+                "logo": "https://media.api-sports.io/football/teams/719.png"
+              },
+              "points": 56,
+              "goalsDiff": -3,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "WDLLW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 42,
+                "win": 15,
+                "draw": 11,
+                "lose": 16,
+                "goals": {
+                  "for": 38,
+                  "against": 41
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 11,
+                "draw": 5,
+                "lose": 5,
+                "goals": {
+                  "for": 20,
+                  "against": 11
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 4,
+                "draw": 6,
+                "lose": 11,
+                "goals": {
+                  "for": 18,
+                  "against": 30
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 13,
+              "team": {
+                "id": 722,
+                "name": "Albacete",
+                "logo": "https://media.api-sports.io/football/teams/722.png"
+              },
+              "points": 51,
+              "goalsDiff": -6,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "DDDWW",
+              "status": "up",
+              "description": null,
+              "all": {
+                "played": 42,
+                "win": 12,
+                "draw": 15,
+                "lose": 15,
+                "goals": {
+                  "for": 50,
+                  "against": 56
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 9,
+                "draw": 8,
+                "lose": 4,
+                "goals": {
+                  "for": 28,
+                  "against": 21
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 3,
+                "draw": 7,
+                "lose": 11,
+                "goals": {
+                  "for": 22,
+                  "against": 35
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 14,
+              "team": {
+                "id": 5262,
+                "name": "FC Cartagena",
+                "logo": "https://media.api-sports.io/football/teams/5262.png"
+              },
+              "points": 51,
+              "goalsDiff": -14,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "LLLWW",
+              "status": "up",
+              "description": null,
+              "all": {
+                "played": 42,
+                "win": 14,
+                "draw": 9,
+                "lose": 19,
+                "goals": {
+                  "for": 37,
+                  "against": 51
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 9,
+                "draw": 1,
+                "lose": 11,
+                "goals": {
+                  "for": 20,
+                  "against": 26
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 5,
+                "draw": 8,
+                "lose": 8,
+                "goals": {
+                  "for": 17,
+                  "against": 25
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 15,
+              "team": {
+                "id": 732,
+                "name": "Zaragoza",
+                "logo": "https://media.api-sports.io/football/teams/732.png"
+              },
+              "points": 51,
+              "goalsDiff": 0,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "DWDLL",
+              "status": "down",
+              "description": null,
+              "all": {
+                "played": 42,
+                "win": 12,
+                "draw": 15,
+                "lose": 15,
+                "goals": {
+                  "for": 42,
+                  "against": 42
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 7,
+                "draw": 6,
+                "lose": 8,
+                "goals": {
+                  "for": 25,
+                  "against": 23
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 5,
+                "draw": 9,
+                "lose": 7,
+                "goals": {
+                  "for": 17,
+                  "against": 19
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 16,
+              "team": {
+                "id": 9692,
+                "name": "Eldense",
+                "logo": "https://media.api-sports.io/football/teams/9692.png"
+              },
+              "points": 50,
+              "goalsDiff": -10,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "LWDWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 42,
+                "win": 12,
+                "draw": 14,
+                "lose": 16,
+                "goals": {
+                  "for": 46,
+                  "against": 56
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 6,
+                "draw": 8,
+                "lose": 7,
+                "goals": {
+                  "for": 24,
+                  "against": 25
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 6,
+                "draw": 6,
+                "lose": 9,
+                "goals": {
+                  "for": 22,
+                  "against": 31
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 17,
+              "team": {
+                "id": 726,
+                "name": "Huesca",
+                "logo": "https://media.api-sports.io/football/teams/726.png"
+              },
+              "points": 49,
+              "goalsDiff": 3,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "DWLWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 42,
+                "win": 11,
+                "draw": 16,
+                "lose": 15,
+                "goals": {
+                  "for": 36,
+                  "against": 33
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 5,
+                "draw": 7,
+                "lose": 9,
+                "goals": {
+                  "for": 17,
+                  "against": 20
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 6,
+                "draw": 9,
+                "lose": 6,
+                "goals": {
+                  "for": 19,
+                  "against": 13
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 18,
+              "team": {
+                "id": 799,
+                "name": "Mirandes",
+                "logo": "https://media.api-sports.io/football/teams/799.png"
+              },
+              "points": 49,
+              "goalsDiff": -8,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "WDDLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 42,
+                "win": 12,
+                "draw": 13,
+                "lose": 17,
+                "goals": {
+                  "for": 47,
+                  "against": 55
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 9,
+                "draw": 5,
+                "lose": 7,
+                "goals": {
+                  "for": 30,
+                  "against": 26
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 3,
+                "draw": 8,
+                "lose": 10,
+                "goals": {
+                  "for": 17,
+                  "against": 29
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 19,
+              "team": {
+                "id": 9380,
+                "name": "Amorebieta",
+                "logo": "https://media.api-sports.io/football/teams/9380.png"
+              },
+              "points": 45,
+              "goalsDiff": -16,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "LDWWL",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 42,
+                "win": 11,
+                "draw": 12,
+                "lose": 19,
+                "goals": {
+                  "for": 37,
+                  "against": 53
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 7,
+                "draw": 6,
+                "lose": 8,
+                "goals": {
+                  "for": 21,
+                  "against": 18
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 4,
+                "draw": 6,
+                "lose": 11,
+                "goals": {
+                  "for": 16,
+                  "against": 35
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 20,
+              "team": {
+                "id": 711,
+                "name": "Alcorcon",
+                "logo": "https://media.api-sports.io/football/teams/711.png"
+              },
+              "points": 44,
+              "goalsDiff": -21,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "DDDLL",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 42,
+                "win": 10,
+                "draw": 14,
+                "lose": 18,
+                "goals": {
+                  "for": 32,
+                  "against": 53
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 5,
+                "draw": 11,
+                "lose": 5,
+                "goals": {
+                  "for": 15,
+                  "against": 18
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 5,
+                "draw": 3,
+                "lose": 13,
+                "goals": {
+                  "for": 17,
+                  "against": 35
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 21,
+              "team": {
+                "id": 8157,
+                "name": "FC Andorra",
+                "logo": "https://media.api-sports.io/football/teams/8157.png"
+              },
+              "points": 43,
+              "goalsDiff": -20,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "WLWLL",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 42,
+                "win": 11,
+                "draw": 10,
+                "lose": 21,
+                "goals": {
+                  "for": 33,
+                  "against": 53
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 9,
+                "draw": 4,
+                "lose": 8,
+                "goals": {
+                  "for": 20,
+                  "against": 19
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 2,
+                "draw": 6,
+                "lose": 13,
+                "goals": {
+                  "for": 13,
+                  "against": 34
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            },
+            {
+              "rank": 22,
+              "team": {
+                "id": 9595,
+                "name": "Villarreal II",
+                "logo": "https://media.api-sports.io/football/teams/9595.png"
+              },
+              "points": 43,
+              "goalsDiff": -21,
+              "group": "Segunda Divisi\u00c3\u00b3n: Regular Season",
+              "form": "WLDLL",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 42,
+                "win": 11,
+                "draw": 10,
+                "lose": 21,
+                "goals": {
+                  "for": 41,
+                  "against": 62
+                }
+              },
+              "home": {
+                "played": 21,
+                "win": 9,
+                "draw": 6,
+                "lose": 6,
+                "goals": {
+                  "for": 24,
+                  "against": 24
+                }
+              },
+              "away": {
+                "played": 21,
+                "win": 2,
+                "draw": 4,
+                "lose": 15,
+                "goals": {
+                  "for": 17,
+                  "against": 38
+                }
+              },
+              "update": "2024-06-26T00:00:00+00:00"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

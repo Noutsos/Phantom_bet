@@ -1,0 +1,1483 @@
+{
+  "get": "standings",
+  "parameters": {
+    "league": "2",
+    "season": "2019"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2019,
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 85,
+                "name": "Paris Saint Germain",
+                "logo": "https://media.api-sports.io/football/teams/85.png"
+              },
+              "points": 16,
+              "goalsDiff": 15,
+              "group": "UEFA Champions League: Group A",
+              "form": "WDWWW",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 5,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 17,
+                  "against": 2
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 9,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 8,
+                  "against": 2
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 541,
+                "name": "Real Madrid",
+                "logo": "https://media.api-sports.io/football/teams/541.png"
+              },
+              "points": 11,
+              "goalsDiff": 6,
+              "group": "UEFA Champions League: Group A",
+              "form": "WDWWD",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 14,
+                  "against": 8
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 10,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 4
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 569,
+                "name": "Club Brugge KV",
+                "logo": "https://media.api-sports.io/football/teams/569.png"
+              },
+              "points": 3,
+              "goalsDiff": -8,
+              "group": "UEFA Champions League: Group A",
+              "form": "LDLLD",
+              "status": "same",
+              "description": "UEFA Europa League",
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 3,
+                "lose": 3,
+                "goals": {
+                  "for": 4,
+                  "against": 12
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 1,
+                  "against": 8
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 3,
+                  "against": 4
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 645,
+                "name": "Galatasaray",
+                "logo": "https://media.api-sports.io/football/teams/645.png"
+              },
+              "points": 2,
+              "goalsDiff": -13,
+              "group": "UEFA Champions League: Group A",
+              "form": "LDLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 2,
+                "lose": 4,
+                "goals": {
+                  "for": 1,
+                  "against": 14
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 1,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 0,
+                  "against": 11
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 157,
+                "name": "Bayern Munich",
+                "logo": "https://media.api-sports.io/football/teams/157.png"
+              },
+              "points": 18,
+              "goalsDiff": 19,
+              "group": "UEFA Champions League: Group B",
+              "form": "WDWWW",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 6,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 24,
+                  "against": 5
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 8,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 16,
+                  "against": 4
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 47,
+                "name": "Tottenham",
+                "logo": "https://media.api-sports.io/football/teams/47.png"
+              },
+              "points": 10,
+              "goalsDiff": 4,
+              "group": "UEFA Champions League: Group B",
+              "form": "WDWWD",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 18,
+                  "against": 14
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 11,
+                  "against": 9
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 7,
+                  "against": 5
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 553,
+                "name": "Olympiakos Piraeus",
+                "logo": "https://media.api-sports.io/football/teams/553.png"
+              },
+              "points": 4,
+              "goalsDiff": -6,
+              "group": "UEFA Champions League: Group B",
+              "form": "LDLLD",
+              "status": "same",
+              "description": "UEFA Europa League",
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 1,
+                "lose": 4,
+                "goals": {
+                  "for": 8,
+                  "against": 14
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 3,
+                  "against": 9
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 598,
+                "name": "FK Crvena Zvezda",
+                "logo": "https://media.api-sports.io/football/teams/598.png"
+              },
+              "points": 3,
+              "goalsDiff": -17,
+              "group": "UEFA Champions League: Group B",
+              "form": "LDLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 0,
+                "lose": 5,
+                "goals": {
+                  "for": 3,
+                  "against": 20
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 11
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 0,
+                  "against": 9
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 50,
+                "name": "Manchester City",
+                "logo": "https://media.api-sports.io/football/teams/50.png"
+              },
+              "points": 14,
+              "goalsDiff": 12,
+              "group": "UEFA Champions League: Group C",
+              "form": "WDWWW",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 16,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 8,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 8,
+                  "against": 2
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 499,
+                "name": "Atalanta",
+                "logo": "https://media.api-sports.io/football/teams/499.png"
+              },
+              "points": 7,
+              "goalsDiff": -4,
+              "group": "UEFA Champions League: Group C",
+              "form": "WDWWD",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 8,
+                  "against": 12
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 4,
+                  "against": 9
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 550,
+                "name": "Shakhtar Donetsk",
+                "logo": "https://media.api-sports.io/football/teams/550.png"
+              },
+              "points": 6,
+              "goalsDiff": -5,
+              "group": "UEFA Champions League: Group C",
+              "form": "LDLLD",
+              "status": "same",
+              "description": "UEFA Europa League",
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 3,
+                "lose": 2,
+                "goals": {
+                  "for": 8,
+                  "against": 13
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 8
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 6,
+                  "against": 5
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 620,
+                "name": "Dinamo Zagreb",
+                "logo": "https://media.api-sports.io/football/teams/620.png"
+              },
+              "points": 5,
+              "goalsDiff": -3,
+              "group": "UEFA Champions League: Group C",
+              "form": "LDLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 10,
+                  "against": 13
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 8,
+                  "against": 7
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 6
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 496,
+                "name": "Juventus",
+                "logo": "https://media.api-sports.io/football/teams/496.png"
+              },
+              "points": 16,
+              "goalsDiff": 8,
+              "group": "UEFA Champions League: Group D",
+              "form": "WDWWW",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 5,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 12,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 6,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 6,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 530,
+                "name": "Atletico Madrid",
+                "logo": "https://media.api-sports.io/football/teams/530.png"
+              },
+              "points": 10,
+              "goalsDiff": 3,
+              "group": "UEFA Champions League: Group D",
+              "form": "WDWWD",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 8,
+                  "against": 5
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 5,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 168,
+                "name": "Bayer Leverkusen",
+                "logo": "https://media.api-sports.io/football/teams/168.png"
+              },
+              "points": 6,
+              "goalsDiff": -4,
+              "group": "UEFA Champions League: Group D",
+              "form": "LDLLD",
+              "status": "same",
+              "description": "UEFA Europa League",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 0,
+                "lose": 4,
+                "goals": {
+                  "for": 5,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 4
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 597,
+                "name": "Lokomotiv Moscow",
+                "logo": "https://media.api-sports.io/football/teams/597.png"
+              },
+              "points": 3,
+              "goalsDiff": -7,
+              "group": "UEFA Champions League: Group D",
+              "form": "LDLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 0,
+                "lose": 5,
+                "goals": {
+                  "for": 4,
+                  "against": 11
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 1,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 5
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 40,
+                "name": "Liverpool",
+                "logo": "https://media.api-sports.io/football/teams/40.png"
+              },
+              "points": 13,
+              "goalsDiff": 5,
+              "group": "UEFA Champions League: Group E",
+              "form": "WDWWW",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 13,
+                  "against": 8
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 6,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 492,
+                "name": "Napoli",
+                "logo": "https://media.api-sports.io/football/teams/492.png"
+              },
+              "points": 12,
+              "goalsDiff": 7,
+              "group": "UEFA Champions League: Group E",
+              "form": "WDWWD",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 3,
+                "lose": 0,
+                "goals": {
+                  "for": 11,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 571,
+                "name": "Red Bull Salzburg",
+                "logo": "https://media.api-sports.io/football/teams/571.png"
+              },
+              "points": 7,
+              "goalsDiff": 3,
+              "group": "UEFA Champions League: Group E",
+              "form": "LDLLD",
+              "status": "same",
+              "description": "UEFA Europa League",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 16,
+                  "against": 13
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 8,
+                  "against": 7
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 8,
+                  "against": 6
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 742,
+                "name": "Genk",
+                "logo": "https://media.api-sports.io/football/teams/742.png"
+              },
+              "points": 1,
+              "goalsDiff": -15,
+              "group": "UEFA Champions League: Group E",
+              "form": "LDLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 5,
+                  "against": 20
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 8
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 3,
+                  "against": 12
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 529,
+                "name": "Barcelona",
+                "logo": "https://media.api-sports.io/football/teams/529.png"
+              },
+              "points": 14,
+              "goalsDiff": 5,
+              "group": "UEFA Champions League: Group F",
+              "form": "WDWWW",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 9,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 5,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 2
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 165,
+                "name": "Borussia Dortmund",
+                "logo": "https://media.api-sports.io/football/teams/165.png"
+              },
+              "points": 10,
+              "goalsDiff": 0,
+              "group": "UEFA Champions League: Group F",
+              "form": "WDWWD",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 8,
+                  "against": 8
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 5,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 5
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 505,
+                "name": "Inter",
+                "logo": "https://media.api-sports.io/football/teams/505.png"
+              },
+              "points": 7,
+              "goalsDiff": 1,
+              "group": "UEFA Champions League: Group F",
+              "form": "LDLLD",
+              "status": "same",
+              "description": "UEFA Europa League",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 10,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 6,
+                  "against": 6
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 560,
+                "name": "Slavia Praha",
+                "logo": "https://media.api-sports.io/football/teams/560.png"
+              },
+              "points": 2,
+              "goalsDiff": -6,
+              "group": "UEFA Champions League: Group F",
+              "form": "LDLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 2,
+                "lose": 4,
+                "goals": {
+                  "for": 4,
+                  "against": 10
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 2,
+                  "against": 7
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 173,
+                "name": "RB Leipzig",
+                "logo": "https://media.api-sports.io/football/teams/173.png"
+              },
+              "points": 11,
+              "goalsDiff": 2,
+              "group": "UEFA Champions League: Group G",
+              "form": "WDWWW",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 10,
+                  "against": 8
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 6,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 80,
+                "name": "Lyon",
+                "logo": "https://media.api-sports.io/football/teams/80.png"
+              },
+              "points": 8,
+              "goalsDiff": 1,
+              "group": "UEFA Champions League: Group G",
+              "form": "WDWWD",
+              "status": "same",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 9,
+                  "against": 8
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 6,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 4
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 211,
+                "name": "Benfica",
+                "logo": "https://media.api-sports.io/football/teams/211.png"
+              },
+              "points": 7,
+              "goalsDiff": -1,
+              "group": "UEFA Champions League: Group G",
+              "form": "LDLLD",
+              "status": "same",
+              "description": "UEFA Europa League",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 10,
+                  "against": 11
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 6,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 4,
+                  "against": 8
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 596,
+                "name": "Zenit Saint Petersburg",
+                "logo": "https://media.api-sports.io/football/teams/596.png"
+              },
+              "points": 7,
+              "goalsDiff": -2,
+              "group": "UEFA Champions League: Group G",
+              "form": "LDLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 7,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 6
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 532,
+                "name": "Valencia",
+                "logo": "https://media.api-sports.io/football/teams/532.png"
+              },
+              "points": 11,
+              "goalsDiff": 2,
+              "group": "UEFA Champions League: Group H",
+              "form": "WDWWW",
+              "status": "up",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 9,
+                  "against": 7
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 6,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 3,
+                  "against": 1
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 49,
+                "name": "Chelsea",
+                "logo": "https://media.api-sports.io/football/teams/49.png"
+              },
+              "points": 11,
+              "goalsDiff": 2,
+              "group": "UEFA Champions League: Group H",
+              "form": "WDWWD",
+              "status": "down",
+              "description": "8th Finals",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 11,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 6,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 5,
+                  "against": 3
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 194,
+                "name": "Ajax",
+                "logo": "https://media.api-sports.io/football/teams/194.png"
+              },
+              "points": 10,
+              "goalsDiff": 6,
+              "group": "UEFA Champions League: Group H",
+              "form": "LDLLD",
+              "status": "same",
+              "description": "UEFA Europa League",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 12,
+                  "against": 6
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 9,
+                  "against": 4
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 79,
+                "name": "Lille",
+                "logo": "https://media.api-sports.io/football/teams/79.png"
+              },
+              "points": 1,
+              "goalsDiff": -10,
+              "group": "UEFA Champions League: Group H",
+              "form": "LDLLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 4,
+                  "against": 14
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 2,
+                  "against": 9
+                }
+              },
+              "update": "2020-06-18T00:00:00+00:00"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

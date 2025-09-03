@@ -1,0 +1,617 @@
+﻿fixture_id,team_id,team_name,team_logo,Shots on Goal,Shots off Goal,Total Shots,Blocked Shots,Shots insidebox,Shots outsidebox,Fouls,Corner Kicks,Offsides,Ball Possession,Yellow Cards,Red Cards,Goalkeeper Saves,Total passes,Passes accurate,Passes %
+587176,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,12,6,21,3,17,4,11,9,3,62%,1,,1,604,539,89%
+587176,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,1,2,5,2,3,2,12,2,3,38%,2,,3,361,268,74%
+587183,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,6,7,16,3,8,8,13,7,,44%,2,,2,334,232,69%
+587183,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,6,6,13,1,12,1,17,4,,56%,0,,5,431,341,79%
+587180,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,6,6,18,6,12,6,14,14,2,62%,2,,3,533,425,80%
+587180,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,4,5,12,3,5,7,13,3,1,38%,2,,5,331,231,70%
+587184,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,7,10,26,9,17,9,12,7,0,64%,2,,2,551,455,83%
+587184,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,6,0,7,1,6,1,16,2,3,36%,2,,4,308,216,70%
+587181,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,3,6,15,6,8,7,9,8,4,58%,2,,2,533,433,81%
+587181,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,5,1,9,3,7,2,9,1,1,42%,0,,2,386,286,74%
+587182,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,6,6,13,1,10,3,12,1,0,49%,3,,4,446,356,80%
+587182,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,7,5,13,1,8,5,13,6,2,51%,4,,4,456,358,79%
+587177,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,4,3,10,3,9,1,10,1,2,47%,1,,2,530,462,87%
+587177,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,2,2,8,4,4,4,9,3,2,53%,1,,1,585,515,88%
+587178,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,10,10,23,3,20,3,5,7,1,72%,1,,0,746,662,89%
+587178,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,1,4,9,4,6,3,11,5,3,28%,2,,6,268,195,73%
+587179,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,1,4,9,4,6,3,14,4,3,40%,1,,3,390,289,74%
+587179,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,3,2,7,2,6,1,12,4,3,60%,2,,1,576,468,81%
+587189,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,6,4,12,2,7,5,13,4,1,56%,3,,0,484,406,84%
+587189,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,3,7,11,1,7,4,16,3,0,44%,4,,6,381,289,76%
+587185,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,6,3,14,5,12,2,11,7,4,62%,1,,1,633,533,84%
+587185,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,2,8,14,4,9,5,16,5,0,38%,2,,5,372,270,73%
+587191,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,2,5,12,5,6,6,9,3,1,49%,2,1,3,425,338,80%
+587191,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,7,6,15,2,13,2,17,9,0,51%,4,1,1,441,353,80%
+587186,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,4,6,11,1,7,4,16,4,6,59%,1,,1,559,464,83%
+587186,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,2,5,7,0,4,3,10,1,0,41%,3,,3,380,268,71%
+587192,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,4,2,6,0,5,1,7,3,3,20%,3,,6,204,133,65%
+587192,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,6,7,18,5,13,5,8,11,0,80%,4,,2,817,745,91%
+587193,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,2,3,7,2,1,6,12,4,1,47%,3,,2,404,337,83%
+587193,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,2,4,12,6,9,3,16,7,0,53%,3,,1,444,354,80%
+587190,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,4,4,18,10,9,9,20,8,2,65%,7,1,4,502,379,75%
+587190,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,7,6,17,4,12,5,14,3,3,35%,2,0,3,257,133,52%
+587187,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,8,4,17,5,14,3,15,3,1,28%,3,,2,247,154,62%
+587187,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,3,9,16,4,13,3,10,6,5,72%,2,,4,628,534,85%
+587188,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,7,6,19,6,11,8,11,9,3,53%,0,,1,423,333,79%
+587188,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,2,5,8,1,3,5,13,1,0,47%,3,,6,389,299,77%
+587199,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,7,3,11,1,9,2,13,4,2,50%,1,,0,488,387,79%
+587199,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,0,2,5,3,2,3,11,2,1,50%,4,,3,478,372,78%
+587201,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,2,4,7,1,3,4,12,2,6,36%,2,,4,318,228,72%
+587201,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,4,4,9,1,5,4,16,1,2,64%,2,,1,565,465,82%
+587195,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,7,7,16,2,10,6,8,3,1,66%,1,,2,769,687,89%
+587195,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,2,1,6,3,2,4,12,2,0,34%,1,,3,387,315,81%
+587198,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,8,6,16,2,15,1,12,5,9,51%,2,,3,490,382,78%
+587198,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,4,4,12,4,9,3,8,7,1,49%,3,,5,469,364,78%
+587202,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,3,8,12,1,8,4,8,7,1,47%,3,,5,430,335,78%
+587202,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,6,7,15,2,10,5,17,12,1,53%,2,,1,467,375,80%
+587200,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,2,3,8,3,4,4,16,4,0,40%,3,,7,399,298,75%
+587200,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,11,1,15,3,12,3,12,10,2,60%,3,,1,602,506,84%
+587196,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,7,10,22,5,15,7,14,8,3,67%,1,,1,630,567,90%
+587196,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,1,3,5,1,1,4,10,1,1,33%,3,,4,309,225,73%
+587197,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,6,7,18,5,9,9,7,12,3,64%,0,,1,611,513,84%
+587197,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,1,5,8,2,4,4,13,2,0,36%,1,,6,347,234,67%
+587194,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,9,6,22,7,14,8,13,6,2,67%,3,,2,568,486,86%
+587194,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,5,4,10,1,5,5,19,1,6,33%,3,,5,277,204,74%
+587206,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,4,8,15,3,11,4,14,6,1,63%,2,,0,541,453,84%
+587206,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,2,5,7,0,5,2,10,4,1,37%,2,,5,309,210,68%
+587205,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,4,11,20,5,15,5,10,4,2,62%,3,,3,523,441,84%
+587205,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,4,7,13,2,7,6,14,4,1,38%,3,,4,312,237,76%
+587208,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,0,2,6,4,2,4,12,6,5,38%,3,,4,372,289,78%
+587208,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,5,3,9,1,5,4,6,2,4,62%,1,,0,597,512,86%
+587204,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,3,4,9,2,7,2,13,4,0,45%,1,,3,459,368,80%
+587204,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,5,6,15,4,12,3,11,6,3,55%,1,,3,567,469,83%
+587210,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,2,1,5,2,3,2,9,5,5,32%,0,,2,309,213,69%
+587210,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,5,6,16,5,12,4,13,8,1,68%,1,,2,645,548,85%
+587211,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,5,1,11,5,5,6,6,6,2,33%,1,0,5,344,269,78%
+587211,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,9,7,17,1,14,3,6,10,2,67%,0,1,4,665,603,91%
+587203,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,2,8,13,3,10,3,14,5,2,48%,2,,5,416,319,77%
+587203,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,6,5,15,4,9,6,13,4,4,52%,2,,1,452,334,74%
+587209,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,5,2,9,2,5,4,19,2,4,40%,3,,3,357,244,68%
+587209,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,4,9,17,4,11,6,18,8,0,60%,2,,4,532,399,75%
+587207,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,4,1,8,3,5,3,7,5,2,53%,3,,5,493,391,79%
+587207,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,6,5,11,0,6,5,13,7,2,47%,1,,3,423,314,74%
+587220,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,4,4,8,0,4,4,11,3,1,58%,2,,3,553,460,83%
+587220,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,4,9,15,2,7,8,12,5,1,42%,5,,3,385,303,79%
+587212,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,9,6,20,5,14,6,11,10,3,60%,3,,2,580,512,88%
+587212,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,2,5,8,1,3,5,12,3,7,40%,0,,4,378,289,76%
+587218,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,7,3,15,5,10,5,18,3,1,40%,5,,8,402,289,72%
+587218,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,12,6,21,3,17,4,11,7,2,60%,3,,5,609,504,83%
+587214,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,8,12,26,6,17,9,11,7,2,67%,1,0,1,543,459,85%
+587214,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,2,4,9,3,7,2,21,3,0,33%,4,1,6,257,173,67%
+587217,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,7,8,19,4,11,8,9,4,2,50%,1,,3,402,315,78%
+587217,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,4,3,8,1,4,4,14,2,0,50%,4,,6,395,302,76%
+587213,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,7,6,18,5,12,6,5,7,0,74%,0,,0,810,725,90%
+587213,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,0,1,3,2,3,0,14,2,3,26%,1,,4,271,190,70%
+587216,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,4,5,14,5,10,4,13,4,1,48%,2,,0,498,398,80%
+587216,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,1,2,9,6,3,6,10,3,1,52%,1,,2,533,415,78%
+587219,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,2,3,5,0,1,4,10,1,3,49%,2,,3,451,360,80%
+587219,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,4,6,14,4,7,7,20,4,4,51%,2,,1,448,365,81%
+587215,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,7,6,15,2,11,4,14,3,2,65%,1,,2,701,616,88%
+587215,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,3,2,6,1,4,2,8,3,3,35%,2,,4,362,264,73%
+587226,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,2,4,9,3,5,4,11,3,4,46%,2,,7,406,336,83%
+587226,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,8,4,20,8,11,9,15,4,0,54%,2,,1,468,385,82%
+587224,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,5,7,15,3,11,4,12,5,4,72%,1,,3,676,588,87%
+587224,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,4,5,11,2,6,5,14,3,4,28%,3,,5,257,176,68%
+587228,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,6,4,13,3,9,4,12,4,2,49%,5,,3,485,395,81%
+587228,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,4,3,9,2,7,2,10,1,3,51%,1,,3,488,398,82%
+587229,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,2,3,5,0,2,3,13,0,1,25%,1,,8,274,184,67%
+587229,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,10,3,21,8,13,8,13,12,4,75%,1,,2,823,709,86%
+587227,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,2,6,9,1,6,3,12,5,1,37%,1,,2,370,274,74%
+587227,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,4,1,6,1,5,1,13,1,1,63%,2,,1,642,552,86%
+587221,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,3,2,5,0,5,0,13,2,5,49%,2,,3,513,404,79%
+587221,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,3,6,15,6,10,5,17,4,2,51%,4,,2,527,417,79%
+587223,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,5,3,8,0,4,4,10,4,3,40%,2,,3,377,291,77%
+587223,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,7,4,18,7,7,11,11,6,4,60%,2,,3,577,487,84%
+587225,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,5,8,20,7,14,6,8,8,3,52%,3,,3,412,315,76%
+587225,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,4,4,11,3,3,8,15,6,2,48%,1,,4,382,271,71%
+587222,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,5,4,10,1,8,2,19,3,2,60%,1,1,3,538,455,85%
+587222,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,6,3,9,0,9,0,13,6,3,40%,2,0,3,350,276,79%
+587237,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,4,7,17,6,8,9,20,1,0,67%,2,,1,648,581,90%
+587237,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,1,2,7,4,5,2,20,3,1,33%,2,,3,313,239,76%
+587235,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,7,3,13,3,9,4,18,4,1,32%,1,,2,267,177,66%
+587235,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,3,11,21,7,15,6,13,9,4,68%,1,,5,552,453,82%
+587236,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,1,4,8,3,3,5,12,2,3,47%,3,,2,437,348,80%
+587236,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,5,5,12,2,9,3,10,6,1,53%,0,,1,493,402,82%
+587238,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,5,6,15,4,10,5,14,10,2,39%,2,,4,323,245,76%
+587238,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,7,6,16,3,11,5,16,8,0,61%,4,,3,486,402,83%
+587231,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,7,5,15,3,8,7,14,3,1,57%,2,,3,542,452,83%
+587231,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,3,3,8,2,7,1,14,4,2,43%,3,,4,399,300,75%
+587234,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,9,2,12,1,9,3,17,5,2,51%,0,,1,541,471,87%
+587234,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,1,4,6,1,3,3,9,1,1,49%,1,,4,517,447,86%
+587230,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,5,7,15,3,12,3,15,4,4,51%,2,,4,525,419,80%
+587230,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,7,4,14,3,10,4,7,3,4,49%,2,,3,494,392,79%
+587233,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,8,4,14,2,10,4,15,3,5,46%,1,,4,419,307,73%
+587233,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,5,8,16,3,12,4,14,7,1,54%,3,,5,468,361,77%
+587232,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,4,3,13,6,8,5,15,6,2,59%,4,,3,621,519,84%
+587232,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,6,6,15,3,10,5,12,2,1,41%,2,,0,432,323,75%
+587239,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,2,11,16,3,8,8,10,7,2,70%,1,,2,662,587,89%
+587239,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,3,3,7,1,6,1,10,3,3,30%,3,,1,277,186,67%
+587240,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,6,7,14,1,9,5,7,2,7,52%,1,0,4,546,454,83%
+587240,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,5,2,9,2,4,5,12,1,1,48%,4,1,5,494,397,80%
+587241,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,8,2,13,3,9,4,15,3,1,42%,3,,6,372,284,76%
+587241,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,8,9,22,5,16,6,18,4,1,58%,2,,5,503,414,82%
+587245,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,7,3,13,3,9,4,11,6,6,41%,0,,5,372,275,74%
+587245,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,7,7,18,4,13,5,12,4,1,59%,1,,7,541,452,84%
+587247,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,0,0,0,0,0,0,5,0,3,30%,0,,2,331,223,67%
+587247,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,4,2,8,2,7,1,10,10,0,70%,1,,0,743,632,85%
+587243,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,3,5,8,0,6,2,18,5,0,37%,3,,1,331,226,68%
+587243,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,2,4,10,4,10,0,12,6,3,63%,2,,2,570,455,80%
+587244,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,3,3,9,3,4,5,13,4,1,40%,1,,3,438,361,82%
+587244,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,8,3,16,5,12,4,17,3,1,60%,1,,1,649,572,88%
+587242,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,6,8,20,6,11,9,6,9,1,71%,0,,5,714,616,86%
+587242,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,8,10,20,2,10,10,13,4,1,29%,1,,5,274,185,68%
+587246,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,3,3,9,3,6,3,12,5,2,49%,1,,1,463,360,78%
+587246,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,3,2,9,4,8,1,15,4,2,51%,2,,2,475,381,80%
+587252,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,6,5,13,2,9,4,12,0,3,61%,2,0,2,608,522,86%
+587252,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,4,1,5,0,3,2,11,5,4,39%,3,1,1,372,294,79%
+587248,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,5,6,16,5,14,2,11,6,2,69%,1,,3,732,638,87%
+587248,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,5,1,6,0,4,2,11,2,0,31%,2,,4,327,231,71%
+587255,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,2,5,10,3,6,4,15,4,3,59%,3,,4,579,463,80%
+587255,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,5,2,10,3,7,3,8,1,6,41%,1,,1,399,296,74%
+587256,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,4,7,15,4,10,5,11,4,7,42%,,,3,413,333,81%
+587256,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,6,7,14,1,8,6,13,3,2,58%,,,3,564,470,83%
+587249,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,6,7,15,2,12,3,14,6,3,58%,2,,2,570,472,83%
+587249,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,3,6,14,5,10,4,15,7,1,42%,2,,4,405,291,72%
+587253,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,7,5,15,3,8,7,12,4,4,44%,2,,1,402,284,71%
+587253,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,4,3,12,5,9,3,16,5,1,56%,3,,4,508,397,78%
+587250,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,9,7,18,2,15,3,8,5,1,56%,2,,1,553,464,84%
+587250,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,2,5,13,6,7,6,14,4,1,44%,3,,5,407,322,79%
+587251,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,1,9,16,6,6,10,16,6,0,58%,2,,3,512,419,82%
+587251,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,3,1,5,1,3,2,19,1,2,42%,1,,1,367,273,74%
+587254,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,3,3,9,3,8,1,16,11,2,35%,,0,3,344,246,72%
+587254,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,4,4,10,2,8,2,10,5,0,65%,,1,3,649,539,83%
+587261,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,7,2,10,1,7,3,15,9,0,68%,1,0,0,645,561,87%
+587261,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,1,2,5,2,4,1,9,2,1,32%,3,1,4,301,204,68%
+587259,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,7,12,22,3,17,5,12,5,1,39%,1,,2,366,273,75%
+587259,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,4,5,12,3,6,6,19,5,1,61%,2,,5,579,487,84%
+587260,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,1,4,9,4,4,5,14,6,1,42%,6,,4,428,307,72%
+587260,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,5,9,16,2,8,8,5,5,5,58%,1,,0,584,463,79%
+587265,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,5,5,12,2,5,7,16,2,1,48%,3,,4,483,355,73%
+587265,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,5,7,15,3,10,5,17,3,2,52%,2,,3,493,361,73%
+587263,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,3,2,6,1,4,2,12,3,2,39%,0,,4,369,261,71%
+587263,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,6,8,16,2,9,7,11,8,1,61%,1,,1,565,462,82%
+587257,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,5,2,9,2,6,3,5,10,0,61%,0,,1,636,512,81%
+587257,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,4,2,7,1,5,2,8,2,4,39%,1,,2,400,290,73%
+587264,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,3,7,13,3,8,5,10,2,0,53%,4,,4,545,415,76%
+587264,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,6,4,11,1,6,5,15,4,1,47%,4,,2,481,370,77%
+587262,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,4,7,15,4,8,7,16,2,1,35%,2,,7,311,214,69%
+587262,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,9,10,25,6,15,10,11,8,1,65%,3,,4,559,466,83%
+587258,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,7,3,10,0,8,2,15,4,7,55%,0,,1,533,463,87%
+587258,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,2,6,12,4,7,5,9,3,6,45%,1,,4,424,334,79%
+587270,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,9,7,18,2,11,7,10,8,1,54%,5,,3,475,348,73%
+587270,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,4,1,7,2,3,4,12,1,2,46%,2,,7,406,274,67%
+587271,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,7,6,16,3,14,2,16,5,3,47%,3,,2,462,365,79%
+587271,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,2,3,5,0,3,2,13,4,2,53%,0,,5,514,402,78%
+587268,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,4,7,16,5,11,5,9,13,1,55%,3,,2,427,349,82%
+587268,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,3,2,7,2,3,4,17,2,2,45%,2,,2,369,282,76%
+587273,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,4,6,15,5,9,6,15,5,2,60%,4,0,5,524,429,82%
+587273,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,6,2,9,1,5,4,11,3,2,40%,4,1,4,350,263,75%
+587266,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,4,5,12,3,6,6,11,8,3,71%,2,,5,744,650,87%
+587266,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,10,5,18,3,12,6,13,2,3,29%,3,,3,290,215,74%
+587267,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,7,5,15,3,7,8,17,1,2,55%,3,,2,595,517,87%
+587267,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,2,5,10,3,4,6,11,6,0,45%,1,,5,469,376,80%
+587272,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,5,5,12,2,9,3,17,4,2,32%,3,,4,317,208,66%
+587272,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,5,3,12,4,5,7,8,7,0,68%,2,,4,655,531,81%
+587274,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,4,3,9,2,6,3,17,2,0,40%,3,1,2,323,204,63%
+587274,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,4,7,16,5,11,5,13,3,3,60%,4,0,3,472,366,78%
+587269,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,8,3,13,2,10,3,12,6,4,60%,3,0,3,597,520,87%
+587269,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,4,7,11,0,6,5,13,5,1,40%,6,2,4,378,291,77%
+587277,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,3,4,10,3,6,4,18,4,1,39%,6,1,2,330,215,65%
+587277,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,5,2,8,1,6,2,15,5,3,61%,4,0,0,499,378,76%
+587278,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,0,10,11,1,7,4,17,5,,64%,3,,,583,484,83%
+587278,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,0,3,5,2,4,1,11,4,,36%,1,,,310,207,67%
+587281,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,3,2,6,1,3,3,10,4,1,45%,3,,7,487,387,79%
+587281,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,9,4,15,2,10,5,13,4,4,55%,2,,2,582,480,82%
+587283,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,5,7,14,2,12,2,15,2,4,62%,3,,3,507,395,78%
+587283,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,5,6,15,4,10,5,14,3,1,38%,3,,3,303,201,66%
+587279,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,2,5,9,2,4,5,15,2,0,54%,2,,1,488,398,82%
+587279,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,3,4,11,4,9,2,9,3,1,46%,1,,2,401,314,78%
+587275,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,2,6,11,3,10,1,14,7,0,58%,3,,5,488,397,81%
+587275,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,6,6,17,5,11,6,16,7,3,42%,1,,0,335,261,78%
+587276,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,2,3,6,1,6,0,15,5,3,44%,2,,2,410,319,78%
+587276,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,3,0,4,1,2,2,14,5,3,56%,0,,2,526,406,77%
+587282,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,2,7,12,3,6,6,13,1,1,48%,1,,1,402,287,71%
+587282,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,2,4,9,3,3,6,15,3,1,52%,2,,2,430,296,69%
+587280,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,0,7,7,0,4,3,11,2,2,33%,1,,3,327,236,72%
+587280,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,7,3,14,4,7,7,13,6,3,67%,1,,0,651,565,87%
+587289,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,5,5,12,2,8,4,9,8,2,29%,1,,2,282,168,60%
+587289,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,3,7,16,6,11,5,7,6,0,71%,1,,3,703,593,84%
+587285,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,5,8,15,2,7,8,14,3,1,47%,1,1,3,440,357,81%
+587285,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,5,8,16,3,11,5,22,3,2,53%,3,0,4,484,397,82%
+587291,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,1,7,8,0,3,5,15,2,,43%,2,,6,419,337,80%
+587291,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,7,3,13,3,4,9,11,5,,57%,2,,1,565,472,84%
+587292,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,4,9,15,2,10,5,10,2,0,45%,1,,5,423,307,73%
+587292,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,6,8,15,1,12,3,10,4,4,55%,4,,4,492,373,76%
+587284,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,6,8,18,4,14,4,11,8,4,64%,1,,1,669,565,84%
+587284,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,1,1,4,2,2,2,8,2,4,36%,0,,6,386,278,72%
+587290,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,2,5,9,2,3,6,17,1,3,45%,6,,2,334,236,71%
+587290,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,3,5,9,1,7,2,19,6,2,55%,5,,3,402,290,72%
+587286,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,2,2,7,3,3,4,13,5,5,50%,1,,1,521,417,80%
+587286,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,3,6,14,5,10,4,6,7,2,50%,1,,1,496,379,76%
+587288,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,9,6,17,2,13,4,9,7,2,41%,,,2,341,236,69%
+587288,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,3,5,9,1,7,2,16,3,2,59%,,,5,489,401,82%
+587287,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,5,3,13,5,10,3,15,4,0,47%,2,,2,426,325,76%
+587287,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,2,4,9,3,7,2,7,6,3,53%,3,,4,467,364,78%
+587299,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,2,6,11,3,7,4,15,6,2,57%,2,,0,539,406,75%
+587299,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,2,6,9,1,4,5,14,5,3,43%,4,,2,394,258,65%
+587295,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,6,5,15,4,11,4,14,8,0,70%,2,,3,613,527,86%
+587295,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,5,5,10,0,7,3,22,3,1,30%,2,,5,262,182,69%
+587296,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,4,5,11,2,8,3,9,2,1,34%,,,1,320,218,68%
+587296,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,2,4,7,1,5,2,6,7,3,66%,,,3,604,506,84%
+587300,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,0,5,7,2,4,3,8,3,2,42%,2,,5,394,291,74%
+587300,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,6,12,24,6,15,9,7,14,5,58%,1,,0,535,443,83%
+587298,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,2,5,12,5,6,6,20,8,3,45%,2,,3,369,263,71%
+587298,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,4,3,11,4,6,5,12,3,5,55%,3,,2,468,389,83%
+587297,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,9,6,21,6,12,9,11,9,6,62%,2,,4,454,386,85%
+587297,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,4,5,11,2,4,7,18,5,1,38%,2,,6,275,208,76%
+587301,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,1,5,10,4,8,2,10,3,2,44%,2,,7,451,344,76%
+587301,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,8,10,22,4,15,7,10,6,3,56%,1,,1,569,460,81%
+587294,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,7,6,14,1,11,3,10,10,1,59%,3,,5,541,456,84%
+587294,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,5,9,21,7,11,10,12,5,0,41%,1,,5,360,276,77%
+587293,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,12,2,17,3,14,3,11,10,1,73%,2,,5,725,650,90%
+587293,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,7,4,12,1,7,5,9,2,1,27%,1,,7,264,191,72%
+587303,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,4,3,8,1,5,3,9,3,3,33%,1,,1,358,280,78%
+587303,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,4,5,16,7,7,9,10,8,4,67%,1,,1,706,621,88%
+587305,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,6,3,13,4,10,3,14,1,3,49%,,,2,474,381,80%
+587305,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,2,1,5,2,2,3,9,3,2,51%,,,1,482,371,77%
+587308,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,1,6,9,2,5,4,17,3,1,40%,2,,5,320,202,63%
+587308,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,7,3,13,3,10,3,15,7,2,60%,1,,1,472,357,76%
+587304,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,3,6,12,3,6,6,21,3,3,73%,2,,0,708,614,87%
+587304,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,1,1,2,0,1,1,14,1,2,27%,2,,2,264,153,58%
+587307,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,5,4,12,3,11,1,15,5,3,40%,2,,5,330,244,74%
+587307,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,4,9,19,6,9,10,13,4,1,60%,4,,1,480,396,83%
+587306,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,6,5,13,2,9,4,16,5,1,48%,3,0,3,434,327,75%
+587306,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,5,3,10,2,8,2,13,3,0,52%,1,1,4,472,356,75%
+587302,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,4,4,12,4,5,7,8,3,0,54%,0,,3,570,466,82%
+587302,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,6,6,15,3,12,3,12,3,2,46%,2,,3,477,369,77%
+587309,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,3,7,12,2,6,6,7,4,0,43%,3,1,6,386,305,79%
+587309,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,10,9,26,7,19,7,12,11,2,57%,2,0,2,498,424,85%
+587310,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,2,6,12,4,7,5,8,8,1,49%,1,,4,405,307,76%
+587310,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,4,3,11,4,7,4,18,3,4,51%,1,,1,421,319,76%
+587316,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,3,6,11,2,5,6,9,2,,33%,1,,3,375,248,66%
+587316,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,3,6,13,4,7,6,10,3,,67%,2,,2,738,624,85%
+587314,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,2,3,9,4,7,2,16,6,2,47%,4,,6,438,325,74%
+587314,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,9,3,13,1,10,3,9,6,0,53%,3,,0,479,369,77%
+587318,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,5,2,11,4,7,4,10,4,2,49%,0,,1,460,364,79%
+587318,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,0,5,6,1,5,1,18,4,1,51%,1,,3,478,383,80%
+587312,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,7,7,17,3,11,6,10,1,4,73%,1,,2,725,637,88%
+587312,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,3,5,9,1,7,2,19,2,0,27%,2,,6,260,169,65%
+587313,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,5,5,12,2,8,4,9,5,2,53%,1,,2,501,424,85%
+587313,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,2,6,9,1,4,5,21,3,4,47%,1,,5,460,369,80%
+587317,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,1,5,8,2,6,2,13,5,2,48%,2,,3,421,321,76%
+587317,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,3,6,13,4,5,8,19,4,0,52%,3,,1,446,357,80%
+587319,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,6,6,19,7,14,5,11,5,,60%,2,,3,617,530,86%
+587319,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,5,2,8,1,6,2,20,2,,40%,3,,4,417,327,78%
+587311,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,9,6,25,10,14,11,4,14,1,59%,1,,1,551,488,89%
+587311,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,2,5,8,1,8,0,14,3,0,41%,2,,7,376,288,77%
+587315,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,11,5,17,1,15,2,8,8,2,67%,0,,0,645,559,87%
+587315,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,1,2,4,1,2,2,10,2,1,33%,1,,8,312,208,67%
+587321,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,6,3,11,2,7,4,15,7,3,59%,2,,2,594,497,84%
+587321,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,3,7,13,3,9,4,11,5,1,41%,2,,5,401,324,81%
+587324,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,2,7,13,4,4,9,16,3,1,57%,1,,3,481,392,81%
+587324,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,6,3,11,2,6,5,16,2,1,43%,1,,2,370,287,78%
+587326,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,0,6,8,2,5,3,17,2,4,37%,1,,,293,166,57%
+587326,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,2,6,9,1,7,2,15,5,3,63%,2,,,500,380,76%
+587322,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,13,6,23,4,10,13,13,6,2,47%,2,,1,496,413,83%
+587322,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,3,7,16,6,11,5,8,5,1,53%,2,,11,529,442,84%
+587325,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,7,3,14,4,8,6,7,5,2,62%,2,,1,560,469,84%
+587325,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,3,6,13,4,8,5,11,8,3,38%,1,,5,324,235,73%
+587323,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,4,4,11,3,7,4,10,4,0,38%,3,,2,316,197,62%
+587323,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,3,6,15,6,10,5,15,5,1,62%,3,,2,523,400,76%
+587327,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,0,6,9,3,4,5,15,5,2,36%,2,,4,310,238,77%
+587327,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,4,7,13,2,6,7,11,7,4,64%,0,,0,550,476,87%
+587320,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,5,8,16,3,9,7,6,5,0,67%,1,,1,804,703,87%
+587320,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,1,3,4,0,1,3,11,1,3,33%,1,,4,386,294,76%
+587328,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,3,5,9,1,5,4,9,2,1,34%,1,,3,326,234,72%
+587328,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,3,4,10,3,6,4,9,6,1,66%,0,,1,619,538,87%
+587329,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,7,3,10,0,7,3,9,3,0,42%,1,,4,462,373,81%
+587329,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,7,6,15,2,11,4,9,7,1,58%,0,,3,606,511,84%
+587332,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,5,3,10,2,10,0,20,3,0,40%,2,,8,324,217,67%
+587332,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,9,11,25,5,13,12,12,5,1,60%,0,,3,474,389,82%
+587335,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,4,4,9,1,7,2,13,3,2,31%,2,,3,273,162,59%
+587335,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,5,4,13,4,9,4,16,9,0,69%,4,,1,597,477,80%
+587330,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,3,5,10,2,6,4,13,6,3,63%,1,,3,599,489,82%
+587330,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,4,2,8,2,6,2,7,2,1,37%,1,,3,334,228,68%
+587336,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,4,3,8,1,5,3,13,2,0,36%,3,,4,327,223,68%
+587336,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,5,3,9,1,7,2,21,3,2,64%,1,,2,556,452,81%
+587337,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,4,3,8,1,7,1,14,0,3,43%,2,,3,407,325,80%
+587337,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,7,3,15,5,11,4,22,8,2,57%,2,,3,523,449,86%
+587333,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,10,6,18,2,12,6,16,7,2,66%,2,,1,527,431,82%
+587333,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,5,2,7,0,4,3,12,1,0,34%,3,,9,280,181,65%
+587334,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,3,9,13,1,8,5,5,3,2,40%,1,,9,363,277,76%
+587334,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,13,13,31,5,23,8,9,7,1,60%,1,,3,532,458,86%
+587331,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,4,6,13,3,7,6,8,6,0,44%,2,,4,410,301,73%
+587331,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,4,3,15,8,13,2,13,9,2,56%,3,,1,492,391,79%
+587346,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,3,6,11,2,9,2,9,2,3,52%,1,,2,402,313,78%
+587346,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,2,5,9,2,3,6,20,4,0,48%,4,,2,349,251,72%
+587338,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,9,4,15,2,10,5,11,10,5,60%,1,,4,605,517,85%
+587338,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,5,6,16,5,12,4,8,4,3,40%,0,,5,396,310,78%
+587345,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,5,7,15,3,8,7,12,6,3,49%,0,,0,482,378,78%
+587345,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,1,4,6,1,3,3,20,1,1,51%,4,,4,514,418,81%
+587339,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,5,4,14,5,10,4,12,10,1,67%,0,,0,724,630,87%
+587339,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,1,3,6,2,4,2,12,1,0,33%,1,,3,343,255,74%
+587342,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,7,6,15,2,11,4,17,4,0,60%,1,,2,541,443,82%
+587342,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,3,5,9,1,7,2,14,7,4,40%,4,,4,353,248,70%
+587343,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,2,7,13,4,9,4,11,2,1,42%,1,,3,447,360,81%
+587343,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,4,8,14,2,11,3,13,9,2,58%,3,,1,600,519,87%
+587340,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,2,9,16,5,10,6,11,6,4,45%,2,,3,436,332,76%
+587340,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,3,2,8,3,4,4,15,6,4,55%,2,,1,510,401,79%
+587344,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,6,4,14,4,9,5,15,3,2,44%,2,,2,369,248,67%
+587344,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,3,3,9,3,6,3,17,5,2,56%,1,,3,461,354,77%
+587341,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,5,5,12,2,8,4,13,5,1,45%,,,2,367,277,75%
+587341,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,2,4,10,4,9,1,10,10,1,55%,,,2,429,327,76%
+587351,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,7,2,10,1,8,2,12,3,6,38%,2,,5,343,263,77%
+587351,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,6,6,14,2,9,5,15,11,3,62%,1,,7,533,447,84%
+587350,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,3,2,6,1,1,5,12,1,2,32%,1,,5,321,235,73%
+587350,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,6,4,16,6,9,7,12,1,1,68%,2,,1,694,605,87%
+587353,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,5,3,10,2,8,2,12,3,1,43%,2,0,4,364,239,66%
+587353,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,4,4,11,3,8,3,11,1,4,57%,5,1,4,483,358,74%
+587348,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,11,6,24,7,20,4,12,4,1,56%,,,5,482,392,81%
+587348,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,7,2,13,4,11,2,9,4,3,44%,,,6,379,283,75%
+587354,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,1,4,9,4,7,2,10,7,1,45%,2,,4,403,300,74%
+587354,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,6,3,16,7,12,4,15,4,6,55%,0,,1,480,394,82%
+587352,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,1,2,3,0,2,1,14,1,2,36%,2,,7,332,233,70%
+587352,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,10,4,26,12,19,7,16,7,3,64%,1,,2,560,466,83%
+587347,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,2,5,10,3,6,4,18,4,3,64%,4,,1,698,618,89%
+587347,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,3,1,7,3,4,3,11,1,4,36%,2,,1,389,296,76%
+587349,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,1,6,8,1,5,3,15,4,1,46%,0,,2,461,366,79%
+587349,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,5,4,9,0,8,1,12,7,4,54%,3,,0,521,436,84%
+587358,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,6,7,16,3,7,9,23,3,4,59%,3,,1,567,468,83%
+587358,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,2,0,4,2,4,0,15,4,1,41%,5,,4,371,254,68%
+587363,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,4,5,12,3,5,7,4,4,,46%,0,,2,474,393,83%
+587363,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,2,5,9,2,6,3,20,1,,54%,2,,4,541,456,84%
+587357,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,3,1,7,3,5,2,20,1,3,54%,3,,4,509,395,78%
+587357,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,6,5,13,2,10,3,16,7,0,46%,7,,1,419,299,71%
+587359,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,5,5,11,1,7,4,13,2,0,69%,5,,3,643,542,84%
+587359,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,5,6,19,8,17,2,16,2,4,31%,1,,2,272,175,64%
+587364,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,3,6,11,2,7,4,21,1,0,52%,2,,0,476,395,83%
+587364,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,2,4,10,4,6,4,17,5,3,48%,2,,2,430,344,80%
+587362,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,3,10,20,7,12,8,14,1,2,37%,3,,0,335,227,68%
+587362,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,0,4,5,1,2,3,15,6,0,63%,2,,3,561,442,79%
+587361,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,7,5,16,4,13,3,14,7,2,60%,3,,1,610,503,82%
+587361,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,1,5,6,0,3,3,4,2,4,40%,1,,5,398,287,72%
+587360,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,6,8,17,3,9,8,11,9,3,54%,1,,3,525,409,78%
+587360,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,3,5,11,3,6,5,11,6,1,46%,3,,6,454,337,74%
+587356,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,12,3,19,4,13,6,7,5,3,64%,1,,0,619,534,86%
+587356,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,3,3,7,1,4,3,13,2,1,36%,1,,8,346,247,71%
+587373,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,2,4,7,1,4,3,10,3,1,45%,0,,3,406,323,80%
+587373,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,6,3,12,3,7,5,14,8,3,55%,2,,2,495,393,79%
+587367,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,1,5,9,3,3,6,15,2,,64%,2,,3,556,465,84%
+587367,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,4,10,15,1,10,5,14,4,,36%,2,,1,302,222,74%
+587365,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,4,5,12,3,9,3,10,4,6,69%,1,,4,634,526,83%
+587365,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,6,2,8,0,5,3,16,4,2,31%,1,,3,276,165,60%
+587368,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,5,4,12,3,7,5,12,6,1,40%,2,,6,378,275,73%
+587368,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,6,14,22,2,15,7,7,10,1,60%,0,,3,542,438,81%
+587371,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,0,7,9,2,4,5,15,0,0,52%,2,,2,544,444,82%
+587371,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,3,2,9,4,7,2,10,6,4,48%,1,,0,483,398,82%
+587370,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,2,4,13,7,7,6,9,4,1,38%,2,,2,361,278,77%
+587370,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,6,1,10,3,8,2,13,2,0,62%,2,,2,599,504,84%
+587372,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,3,3,6,0,3,3,16,1,4,26%,2,,2,242,144,60%
+587372,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,3,3,10,4,7,3,14,4,2,74%,4,,2,656,573,87%
+587369,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,4,3,9,2,4,5,10,3,6,47%,1,,3,438,341,78%
+587369,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,6,6,14,2,9,5,8,4,1,53%,1,,4,485,376,78%
+587366,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,6,3,12,3,9,3,16,6,1,51%,2,,1,487,387,79%
+587366,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,1,0,2,1,2,0,12,3,5,49%,2,,2,463,368,79%
+587381,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,5,1,9,3,6,3,9,2,2,31%,4,,3,317,212,67%
+587381,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,4,6,12,2,9,3,15,8,2,69%,3,,3,667,580,87%
+587374,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,7,6,14,1,8,6,7,4,1,55%,2,,2,634,562,89%
+587374,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,3,2,6,1,6,0,9,4,2,45%,1,,2,502,395,79%
+587378,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,2,6,11,3,8,3,15,3,3,57%,5,1,2,484,386,80%
+587378,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,2,4,9,3,5,4,14,5,2,43%,0,0,1,349,243,70%
+587375,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,9,6,20,5,16,4,12,5,2,62%,0,,2,617,548,89%
+587375,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,2,4,8,2,6,2,16,2,1,38%,3,,6,375,300,80%
+587382,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,10,6,17,1,12,5,15,11,0,49%,2,,4,397,311,78%
+587382,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,5,1,10,4,6,4,18,9,1,51%,3,,5,416,338,81%
+587376,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,10,8,21,3,13,8,20,3,5,66%,2,,0,649,539,83%
+587376,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,2,2,5,1,4,1,15,4,1,34%,2,,6,331,218,66%
+587379,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,1,1,5,3,4,1,13,3,9,45%,0,,2,468,362,77%
+587379,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,3,8,14,3,8,6,12,4,2,55%,2,,0,555,440,79%
+587380,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,6,5,11,0,6,5,9,5,2,61%,1,,2,471,337,72%
+587380,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,3,2,9,4,7,2,7,3,2,39%,2,,6,305,172,56%
+587377,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,5,11,22,6,13,9,12,8,1,66%,2,,1,652,564,87%
+587377,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,3,1,6,2,4,2,11,3,1,34%,3,,4,325,233,72%
+587389,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,2,0,2,0,1,1,10,2,1,49%,2,,2,401,273,68%
+587389,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,2,7,19,10,11,8,16,6,2,51%,2,,2,394,265,67%
+587388,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,7,5,17,5,12,5,15,6,2,65%,2,,3,523,431,82%
+587388,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,4,4,8,0,6,2,13,1,2,35%,3,,5,280,181,65%
+587386,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,1,1,5,3,2,3,10,1,0,42%,1,,4,386,282,73%
+587386,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,7,4,13,2,7,6,13,3,1,58%,1,,1,545,443,81%
+587384,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,3,2,8,3,6,2,6,7,2,42%,0,,4,427,349,82%
+587384,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,5,2,13,6,11,2,10,8,2,58%,2,,3,587,501,85%
+587385,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,4,4,9,1,5,4,13,2,0,38%,2,0,5,367,251,68%
+587385,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,6,6,18,6,10,8,15,6,5,62%,3,1,2,573,468,82%
+587387,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,7,5,20,8,15,5,15,13,1,58%,2,,0,486,395,81%
+587387,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,1,5,8,2,4,4,17,4,1,42%,3,,6,339,258,76%
+587383,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,9,12,27,6,18,9,8,6,0,65%,1,,1,681,587,86%
+587383,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,3,1,4,0,2,2,13,0,2,35%,1,,5,360,255,71%
+587390,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,4,6,16,6,9,7,13,9,4,68%,2,,4,632,549,87%
+587390,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,5,6,12,1,10,2,10,3,0,32%,0,,3,299,207,69%
+587391,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,2,0,4,2,3,1,9,3,1,40%,,,3,442,334,76%
+587391,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,3,3,8,2,7,1,5,3,7,60%,,,2,642,547,85%
+587355,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,8,9,26,9,20,6,12,9,1,59%,1,1,0,486,375,77%
+587355,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,2,3,5,0,4,1,9,0,1,41%,2,0,8,345,215,62%
+587398,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,3,6,10,1,8,2,6,1,3,35%,,,6,357,257,72%
+587398,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,7,14,26,5,20,6,10,10,5,65%,,,0,642,545,85%
+587395,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,7,5,16,4,8,8,12,3,6,53%,0,,1,468,377,81%
+587395,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,1,2,5,2,3,2,8,8,2,47%,1,,3,392,290,74%
+587399,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,4,2,8,2,6,2,5,3,3,42%,1,,3,508,405,80%
+587399,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,6,10,21,5,18,3,9,8,7,58%,0,,3,668,588,88%
+587397,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,7,3,11,1,7,4,24,0,1,48%,1,,2,448,356,79%
+587397,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,2,5,12,5,7,5,15,4,0,52%,3,,6,477,370,78%
+587396,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,7,4,14,3,13,1,20,6,2,41%,2,,4,387,288,74%
+587396,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,5,2,9,2,4,5,13,6,0,59%,3,,4,568,477,84%
+587392,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,4,7,12,1,7,5,6,7,3,71%,1,0,0,800,724,91%
+587392,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,0,1,3,2,0,3,11,0,0,29%,1,1,2,319,244,76%
+587394,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,5,9,20,6,15,5,17,9,2,75%,2,,4,749,654,87%
+587394,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,6,3,11,2,9,2,9,5,2,25%,1,,4,249,160,64%
+587393,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,8,4,14,2,7,7,14,4,4,56%,2,,1,481,382,79%
+587393,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,2,3,5,0,5,0,21,3,1,44%,3,,7,365,260,71%
+587400,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,4,2,7,1,3,4,14,4,1,42%,0,,5,427,332,78%
+587400,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,5,7,16,4,9,7,9,4,1,58%,2,,3,564,472,84%
+587409,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,0,5,7,2,4,3,10,1,1,18%,2,,7,199,111,56%
+587409,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,8,5,20,7,10,10,12,7,3,82%,1,,0,896,814,91%
+587401,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,7,6,15,2,11,4,10,1,1,42%,1,1,4,450,348,77%
+587401,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,4,2,12,6,4,8,12,3,2,58%,2,0,3,602,512,85%
+587408,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,4,4,10,2,7,3,16,3,1,50%,3,,2,484,351,73%
+587408,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,3,7,15,5,8,7,14,9,1,50%,1,,3,457,336,74%
+587404,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,5,4,9,0,7,2,9,2,2,54%,1,,4,537,445,83%
+587404,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,8,9,25,8,21,4,10,4,2,46%,2,,1,434,341,79%
+587407,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,2,4,10,4,8,2,4,5,2,43%,1,,2,425,350,82%
+587407,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,4,6,13,3,9,4,12,2,2,57%,1,,0,570,494,87%
+587406,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,1,2,4,1,3,1,8,2,7,29%,1,,5,303,235,78%
+587406,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,7,9,21,5,15,6,8,7,2,71%,2,,1,729,654,90%
+587402,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,2,4,8,2,4,4,14,2,0,63%,,,5,601,497,83%
+587402,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,7,5,15,3,12,3,12,9,1,37%,,,1,336,223,66%
+587405,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,9,2,13,2,9,4,10,4,3,28%,0,,1,247,158,64%
+587405,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,1,8,12,3,10,2,20,8,1,72%,2,,6,590,517,88%
+587403,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,5,5,13,3,9,4,19,3,1,56%,7,,7,421,330,78%
+587403,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,7,8,20,5,10,10,13,5,1,44%,2,,3,314,228,73%
+587414,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,5,6,12,1,10,2,18,5,1,51%,2,,1,469,378,81%
+587414,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,1,8,9,0,7,2,11,4,1,49%,1,,4,437,336,77%
+587416,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,6,3,11,2,9,2,25,2,2,57%,4,,1,436,318,73%
+587416,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,2,5,10,3,4,6,10,3,1,43%,1,,4,323,202,63%
+587410,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,5,11,19,3,13,6,9,10,5,57%,0,,2,521,429,82%
+587410,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,3,9,14,2,8,6,12,2,2,43%,3,,4,398,303,76%
+587413,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,3,4,8,1,6,2,13,5,1,64%,1,,1,735,654,89%
+587413,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,2,3,6,1,5,1,9,4,2,36%,0,,1,402,327,81%
+587417,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,2,3,7,2,5,2,7,2,4,30%,1,,4,309,223,72%
+587417,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,5,5,15,5,11,4,10,10,2,70%,1,,0,692,578,84%
+587411,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,2,9,14,3,6,8,13,8,6,53%,3,,4,541,446,82%
+587411,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,5,2,9,2,7,2,9,4,5,47%,2,,2,475,382,80%
+587412,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,6,9,19,4,10,9,11,0,3,47%,1,,4,487,384,79%
+587412,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,4,3,10,3,7,3,14,3,3,53%,3,,4,514,404,79%
+587418,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,3,8,14,3,10,4,8,6,2,59%,1,,2,596,494,83%
+587418,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,2,5,10,3,4,6,9,0,2,41%,2,,3,401,301,75%
+587415,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,3,6,13,4,8,5,13,2,2,59%,2,,0,540,431,80%
+587415,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,1,2,4,1,2,2,12,3,4,41%,4,,2,380,286,75%
+587426,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,4,7,13,2,9,4,8,4,1,44%,3,,0,407,302,74%
+587426,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,0,5,9,4,5,4,10,2,1,56%,2,,4,508,393,77%
+587419,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,2,9,14,3,11,3,10,8,1,59%,2,,1,606,510,84%
+587419,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,2,3,7,2,5,2,12,1,3,41%,0,,1,413,310,75%
+587422,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,7,11,23,5,11,12,12,11,1,62%,2,0,2,562,484,86%
+587422,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,4,2,7,1,4,3,17,3,2,38%,1,1,5,356,278,78%
+587425,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,2,7,12,3,6,6,13,2,2,37%,,,0,373,284,76%
+587425,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,4,3,8,1,7,1,10,2,5,63%,,,1,641,549,86%
+587421,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,5,2,8,1,7,1,11,3,1,45%,3,,5,362,242,67%
+587421,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,7,12,20,1,11,9,13,7,1,55%,2,,1,423,314,74%
+587427,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,3,4,13,6,9,4,13,3,,49%,4,,4,494,402,81%
+587427,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,7,4,17,6,9,8,11,8,,51%,2,,1,499,416,83%
+587423,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,2,4,7,1,4,3,10,4,2,44%,0,,4,421,328,78%
+587423,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,4,4,12,4,8,4,14,6,3,56%,2,,1,522,424,81%
+587424,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,4,10,23,9,16,7,14,2,1,62%,2,,2,522,428,82%
+587424,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,5,1,9,3,5,4,14,5,1,38%,1,,2,307,199,65%
+587420,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,0,0,2,2,1,1,14,1,1,45%,1,,3,507,407,80%
+587420,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,3,1,5,1,4,1,12,1,3,55%,1,,0,619,526,85%
+587429,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,2,8,16,6,11,5,14,4,5,63%,0,,0,683,591,87%
+587429,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,0,2,5,3,4,1,13,1,2,37%,2,,2,398,318,80%
+587433,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,8,3,13,2,9,4,15,3,3,57%,2,,2,474,389,82%
+587433,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,2,1,4,1,3,1,12,4,0,43%,1,,4,357,279,78%
+587432,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,3,5,8,0,7,1,16,6,5,47%,2,,5,480,374,78%
+587432,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,9,5,14,0,10,4,9,5,0,53%,1,,1,536,421,79%
+587430,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,4,13,21,4,14,7,11,7,2,36%,2,,4,325,231,71%
+587430,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,4,9,16,3,10,6,10,8,2,64%,4,,0,569,475,83%
+587436,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,3,3,10,4,5,5,10,7,0,51%,4,,1,443,338,76%
+587436,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,1,4,9,4,6,3,9,3,2,49%,1,,3,424,313,74%
+587434,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,4,2,9,3,8,1,15,4,2,44%,2,,1,426,315,74%
+587434,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,2,4,9,3,5,4,12,4,3,56%,3,,3,534,430,81%
+587431,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,5,2,8,1,7,1,12,2,1,42%,1,,2,388,296,76%
+587431,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,2,8,13,3,9,4,12,3,1,58%,1,,2,508,410,81%
+587428,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,8,6,17,3,10,7,8,7,3,69%,1,,2,745,689,92%
+587428,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,3,4,10,3,7,3,15,4,3,31%,4,,4,326,268,82%
+587442,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,3,2,5,0,3,2,9,0,,28%,2,,6,255,171,67%
+587442,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,6,12,25,7,17,8,16,8,,72%,3,,1,642,561,87%
+587437,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,8,7,24,9,8,16,6,7,3,61%,,,4,638,576,90%
+587437,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,4,2,7,1,5,2,14,3,3,39%,,,6,402,333,83%
+587440,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,4,3,11,4,6,5,18,7,4,60%,3,,4,570,493,86%
+587440,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,4,7,15,4,9,6,8,5,3,40%,1,,2,363,278,77%
+587444,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,5,5,15,5,9,6,14,4,4,44%,3,0,0,313,212,68%
+587444,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,0,3,5,2,2,3,12,2,3,56%,5,1,4,392,284,72%
+587443,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,3,9,20,8,10,10,7,10,0,65%,1,,4,622,474,76%
+587443,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,5,8,14,1,9,5,13,4,2,35%,2,,4,338,214,63%
+587438,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,11,7,20,2,16,4,12,4,2,52%,2,,1,515,437,85%
+587438,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,1,2,5,2,2,3,10,3,3,48%,1,,8,463,382,83%
+587439,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,6,11,19,2,13,6,9,5,1,55%,3,,0,515,413,80%
+587439,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,2,2,6,2,5,1,5,4,3,45%,0,,3,426,324,76%
+587445,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,4,4,10,2,7,3,12,4,1,61%,3,,1,588,489,83%
+587445,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,4,7,13,2,8,5,11,1,3,39%,0,,3,368,261,71%
+587454,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,5,3,13,5,12,1,17,6,,53%,2,,3,426,324,76%
+587454,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,6,5,15,4,11,4,13,3,,47%,3,,2,383,295,77%
+587450,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,6,5,14,3,7,7,10,6,2,48%,1,,3,442,354,80%
+587450,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,4,9,17,4,8,9,12,5,2,52%,2,,5,465,391,84%
+587449,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,2,12,21,7,11,10,10,10,1,53%,1,0,1,453,369,81%
+587449,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,4,4,8,0,7,1,12,2,1,47%,3,1,2,405,309,76%
+587453,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,3,1,6,2,3,3,12,2,2,28%,3,,3,250,140,56%
+587453,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,4,6,15,5,8,7,15,3,1,72%,4,,2,648,566,87%
+587451,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,6,6,16,4,10,6,10,11,5,54%,,,5,482,383,79%
+587451,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,6,2,9,1,6,3,8,2,4,46%,,,3,412,307,75%
+587448,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,9,8,19,2,13,6,9,5,1,51%,1,,4,536,437,82%
+587448,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,5,4,13,4,10,3,8,6,0,49%,1,,6,501,404,81%
+587446,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,11,11,25,3,17,8,19,10,2,66%,2,0,0,671,608,91%
+587446,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,0,1,1,0,1,0,8,1,1,34%,0,1,9,341,266,78%
+587447,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,12,3,20,5,15,5,11,4,1,63%,1,,4,634,551,87%
+587447,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,4,3,9,2,5,4,8,1,0,37%,1,,7,369,283,77%
+587435,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,9,5,16,2,11,5,18,6,2,55%,2,,4,472,370,78%
+587435,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,5,2,7,0,6,1,13,4,1,45%,3,,8,379,268,71%
+587441,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,6,5,13,2,7,6,10,4,2,39%,4,,4,365,286,78%
+587441,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,4,8,13,1,8,5,13,6,2,61%,3,,3,555,477,86%
+587463,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,7,5,16,4,12,4,14,2,0,57%,,,8,521,430,83%
+587463,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,9,6,21,6,12,9,12,12,3,43%,,,5,365,255,70%
+587458,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,8,5,17,4,6,11,9,4,1,60%,1,,1,561,469,84%
+587458,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,1,7,9,1,6,3,8,3,1,40%,0,,5,362,267,74%
+587462,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,1,8,12,3,7,5,9,4,4,37%,3,1,4,342,266,78%
+587462,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,4,7,14,3,8,6,14,6,2,63%,2,0,1,582,501,86%
+587456,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,4,7,15,4,11,4,8,7,4,44%,1,,6,409,325,79%
+587456,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,8,3,14,3,7,7,13,7,1,56%,1,,1,526,441,84%
+587457,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,12,6,21,3,11,10,12,9,3,62%,1,,1,559,491,88%
+587457,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,3,1,6,2,5,1,12,3,1,38%,2,,8,338,262,78%
+587455,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,7,8,22,7,16,6,3,5,3,57%,0,1,4,632,567,90%
+587455,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,3,7,14,4,7,7,9,3,0,43%,2,0,1,462,390,84%
+587461,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,2,8,18,8,8,10,15,3,1,55%,2,,2,395,309,78%
+587461,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,6,4,11,1,9,2,16,2,2,45%,2,,1,315,237,75%
+587459,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,3,6,14,5,10,4,10,8,2,73%,2,,2,669,589,88%
+587459,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,3,2,6,1,2,4,14,2,3,27%,0,,2,241,160,66%
+587460,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,4,3,11,4,7,4,13,4,1,64%,3,,6,553,455,82%
+587460,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,6,4,13,3,5,8,9,3,0,36%,4,,4,306,212,69%
+587452,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,1,10,12,1,9,3,9,1,0,45%,3,0,4,415,335,81%
+587452,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,6,7,17,4,11,6,11,7,7,55%,5,1,0,497,420,85%
+587468,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,1,0,1,0,1,0,11,1,1,41%,2,,4,323,242,75%
+587468,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,4,7,12,1,10,2,12,5,1,59%,2,,1,448,371,83%
+587467,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,5,7,14,2,8,6,10,4,5,38%,1,,4,369,313,85%
+587467,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,6,5,17,6,10,7,13,8,2,62%,2,,2,585,515,88%
+587465,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,4,3,9,2,4,5,14,2,2,49%,2,,4,537,435,81%
+587465,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,6,3,11,2,7,4,14,1,2,51%,4,,3,556,470,85%
+587466,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,4,1,10,5,7,3,9,4,1,49%,2,,5,509,417,82%
+587466,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,6,5,13,2,10,3,16,5,2,51%,2,,3,518,434,84%
+587471,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,5,2,13,6,9,4,13,5,2,31%,3,1,4,233,136,58%
+587471,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,5,8,15,2,10,5,17,5,4,69%,3,1,3,508,396,78%
+587469,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,6,5,11,0,9,2,9,1,3,36%,0,,6,332,243,73%
+587469,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,9,10,25,6,18,7,11,13,5,64%,2,,2,557,485,87%
+587472,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,6,6,19,7,15,4,5,10,1,40%,1,,2,389,280,72%
+587472,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,3,3,7,1,5,2,8,4,0,60%,2,,5,563,475,84%
+587470,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,5,4,11,2,7,4,9,4,1,34%,,,1,351,275,78%
+587470,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,4,3,13,6,10,3,11,2,0,66%,,,4,681,609,89%
+587464,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,4,7,13,2,11,2,13,11,0,64%,3,,3,519,411,79%
+587464,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,5,4,13,4,6,7,15,3,2,36%,3,,2,287,193,67%
+587473,157,Bayern Munich,https://media.api-sports.io/football/teams/157.png,14,8,26,4,19,7,6,10,1,70%,1,,2,620,543,88%
+587473,170,FC Augsburg,https://media.api-sports.io/football/teams/170.png,4,3,9,2,7,2,9,2,2,30%,1,,10,256,172,67%
+587476,161,VfL Wolfsburg,https://media.api-sports.io/football/teams/161.png,5,6,16,5,9,7,12,7,1,61%,3,,4,504,413,82%
+587476,164,FSV Mainz 05,https://media.api-sports.io/football/teams/164.png,7,5,16,4,14,2,19,7,1,39%,3,,3,313,222,71%
+587480,162,Werder Bremen,https://media.api-sports.io/football/teams/162.png,8,5,16,3,10,6,19,2,2,46%,1,,4,474,392,83%
+587480,163,Borussia Monchengladbach,https://media.api-sports.io/football/teams/163.png,8,4,16,4,12,4,12,5,4,54%,2,,6,560,488,87%
+587474,165,Borussia Dortmund,https://media.api-sports.io/football/teams/165.png,3,4,9,2,6,3,6,3,1,52%,,,6,582,507,87%
+587474,168,Bayer Leverkusen,https://media.api-sports.io/football/teams/168.png,7,5,16,4,9,7,8,6,1,48%,,,0,521,454,87%
+587475,167,1899 Hoffenheim,https://media.api-sports.io/football/teams/167.png,4,10,21,7,13,8,8,4,1,56%,,,4,555,483,87%
+587475,159,Hertha Berlin,https://media.api-sports.io/football/teams/159.png,5,4,9,0,7,2,5,3,2,44%,,,2,426,352,83%
+587477,169,Eintracht Frankfurt,https://media.api-sports.io/football/teams/169.png,10,5,16,1,9,7,7,8,1,51%,1,,5,509,420,83%
+587477,160,SC Freiburg,https://media.api-sports.io/football/teams/160.png,6,5,11,0,7,4,10,1,2,49%,0,,7,492,399,81%
+587481,172,VfB Stuttgart,https://media.api-sports.io/football/teams/172.png,0,5,12,7,8,4,12,3,2,72%,1,,1,695,615,88%
+587481,188,Arminia Bielefeld,https://media.api-sports.io/football/teams/188.png,3,2,10,5,6,4,11,6,0,28%,0,,0,257,164,64%
+587478,182,Union Berlin,https://media.api-sports.io/football/teams/182.png,4,5,10,1,6,4,15,7,3,37%,2,,7,346,240,69%
+587478,173,RB Leipzig,https://media.api-sports.io/football/teams/173.png,8,6,19,5,12,7,11,3,5,63%,1,,2,583,480,82%
+587479,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,10,5,21,6,16,5,14,8,3,66%,1,,0,482,389,81%
+587479,174,FC Schalke 04,https://media.api-sports.io/football/teams/174.png,0,4,6,2,4,2,12,4,0,34%,2,,9,249,149,60%
+705680,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,4,7,16,5,11,5,21,9,2,57%,4,,2,460,373,81%
+705680,191,Holstein Kiel,https://media.api-sports.io/football/teams/191.png,3,2,8,3,5,3,20,5,0,43%,3,,3,344,265,77%
+705681,191,Holstein Kiel,https://media.api-sports.io/football/teams/191.png,3,5,10,2,6,4,8,2,1,59%,1,,6,474,374,79%
+705681,192,1.FC Köln,https://media.api-sports.io/football/teams/192.png,11,7,19,1,17,2,17,8,2,41%,4,,2,312,224,72%

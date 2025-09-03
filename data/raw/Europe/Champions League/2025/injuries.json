@@ -1,0 +1,4228 @@
+[
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421137"
+    },
+    "errors": [],
+    "results": 9,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19319,
+          "name": "Martin Olsson",
+          "photo": "https://media.api-sports.io/football/players/19319.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "fixture": {
+          "id": 1421137,
+          "timezone": "UTC",
+          "date": "2025-08-05T17:00:00+00:00",
+          "timestamp": 1754413200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 19124,
+          "name": "Pontus Jansson",
+          "photo": "https://media.api-sports.io/football/players/19124.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "fixture": {
+          "id": 1421137,
+          "timezone": "UTC",
+          "date": "2025-08-05T17:00:00+00:00",
+          "timestamp": 1754413200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 1947,
+          "name": "Johan Dahlin",
+          "photo": "https://media.api-sports.io/football/players/1947.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate ligament injury"
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "fixture": {
+          "id": 1421137,
+          "timezone": "UTC",
+          "date": "2025-08-05T17:00:00+00:00",
+          "timestamp": 1754413200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 1958,
+          "name": "Anders Christiansen",
+          "photo": "https://media.api-sports.io/football/players/1958.png",
+          "type": "Missing Fixture",
+          "reason": "Groin Injury"
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "fixture": {
+          "id": 1421137,
+          "timezone": "UTC",
+          "date": "2025-08-05T17:00:00+00:00",
+          "timestamp": 1754413200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 1188,
+          "name": "Erik Botheim",
+          "photo": "https://media.api-sports.io/football/players/1188.png",
+          "type": "Missing Fixture",
+          "reason": "Fracture of the lower leg"
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "fixture": {
+          "id": 1421137,
+          "timezone": "UTC",
+          "date": "2025-08-05T17:00:00+00:00",
+          "timestamp": 1754413200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 161919,
+          "name": "Youssoufa Moukoko",
+          "photo": "https://media.api-sports.io/football/players/161919.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png"
+        },
+        "fixture": {
+          "id": 1421137,
+          "timezone": "UTC",
+          "date": "2025-08-05T17:00:00+00:00",
+          "timestamp": 1754413200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 351014,
+          "name": "Junnosuke Suzuki",
+          "photo": "https://media.api-sports.io/football/players/351014.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png"
+        },
+        "fixture": {
+          "id": 1421137,
+          "timezone": "UTC",
+          "date": "2025-08-05T17:00:00+00:00",
+          "timestamp": 1754413200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 444418,
+          "name": "Jonathan Moalem",
+          "photo": "https://media.api-sports.io/football/players/444418.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png"
+        },
+        "fixture": {
+          "id": 1421137,
+          "timezone": "UTC",
+          "date": "2025-08-05T17:00:00+00:00",
+          "timestamp": 1754413200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 443781,
+          "name": "Gentian Lajqi",
+          "photo": "https://media.api-sports.io/football/players/443781.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate ligament injury"
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "fixture": {
+          "id": 1421137,
+          "timezone": "UTC",
+          "date": "2025-08-05T17:00:00+00:00",
+          "timestamp": 1754413200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421138"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 2172,
+          "name": "Vitaliy Buyalskyi",
+          "photo": "https://media.api-sports.io/football/players/2172.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "fixture": {
+          "id": 1421138,
+          "timezone": "UTC",
+          "date": "2025-08-05T18:00:00+00:00",
+          "timestamp": 1754416800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 128382,
+          "name": "Angel Yesid Torres Quinones",
+          "photo": "https://media.api-sports.io/football/players/128382.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "fixture": {
+          "id": 1421138,
+          "timezone": "UTC",
+          "date": "2025-08-05T18:00:00+00:00",
+          "timestamp": 1754416800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 63637,
+          "name": "Valentyn Rubchynskyi",
+          "photo": "https://media.api-sports.io/football/players/63637.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon problems"
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "fixture": {
+          "id": 1421138,
+          "timezone": "UTC",
+          "date": "2025-08-05T18:00:00+00:00",
+          "timestamp": 1754416800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421139"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 334257,
+          "name": "Amin Ramazanov",
+          "photo": "https://media.api-sports.io/football/players/334257.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate ligament injury"
+        },
+        "team": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png"
+        },
+        "fixture": {
+          "id": 1421139,
+          "timezone": "UTC",
+          "date": "2025-08-05T18:00:00+00:00",
+          "timestamp": 1754416800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421140"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19990,
+          "name": "Dujon Sterling",
+          "photo": "https://media.api-sports.io/football/players/19990.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon surgery"
+        },
+        "team": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png"
+        },
+        "fixture": {
+          "id": 1421140,
+          "timezone": "UTC",
+          "date": "2025-08-05T18:45:00+00:00",
+          "timestamp": 1754419500
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 179449,
+          "name": "Cheick Souare",
+          "photo": "https://media.api-sports.io/football/players/179449.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "fixture": {
+          "id": 1421140,
+          "timezone": "UTC",
+          "date": "2025-08-05T18:45:00+00:00",
+          "timestamp": 1754419500
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1419568"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 78172,
+          "name": "Joao Paulo da Silva Araujo",
+          "photo": "https://media.api-sports.io/football/players/78172.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 664,
+          "name": "Kairat Almaty",
+          "logo": "https://media.api-sports.io/football/teams/664.png"
+        },
+        "fixture": {
+          "id": 1419568,
+          "timezone": "UTC",
+          "date": "2025-08-06T15:00:00+00:00",
+          "timestamp": 1754492400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 77895,
+          "name": "Elder Santana Conceicao",
+          "photo": "https://media.api-sports.io/football/players/77895.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 664,
+          "name": "Kairat Almaty",
+          "logo": "https://media.api-sports.io/football/teams/664.png"
+        },
+        "fixture": {
+          "id": 1419568,
+          "timezone": "UTC",
+          "date": "2025-08-06T15:00:00+00:00",
+          "timestamp": 1754492400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421141"
+    },
+    "errors": [],
+    "results": 11,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 15683,
+          "name": "Gustaf Nilsson",
+          "photo": "https://media.api-sports.io/football/players/15683.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon problems"
+        },
+        "team": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png"
+        },
+        "fixture": {
+          "id": 1421141,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:00:00+00:00",
+          "timestamp": 1754499600
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 33910,
+          "name": "Takumu Kawamura",
+          "photo": "https://media.api-sports.io/football/players/33910.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421141,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:00:00+00:00",
+          "timestamp": 1754499600
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 40809,
+          "name": "Michal Skoras",
+          "photo": "https://media.api-sports.io/football/players/40809.png",
+          "type": "Missing Fixture",
+          "reason": "Minor Knock"
+        },
+        "team": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png"
+        },
+        "fixture": {
+          "id": 1421141,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:00:00+00:00",
+          "timestamp": 1754499600
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 301322,
+          "name": "Kyriani Sabbe",
+          "photo": "https://media.api-sports.io/football/players/301322.png",
+          "type": "Missing Fixture",
+          "reason": "Minor Knock"
+        },
+        "team": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png"
+        },
+        "fixture": {
+          "id": 1421141,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:00:00+00:00",
+          "timestamp": 1754499600
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 162121,
+          "name": "Justin Omoregie",
+          "photo": "https://media.api-sports.io/football/players/162121.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon rupture"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421141,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:00:00+00:00",
+          "timestamp": 1754499600
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 361981,
+          "name": "Anrie Chase",
+          "photo": "https://media.api-sports.io/football/players/361981.png",
+          "type": "Missing Fixture",
+          "reason": "torn muscle fiber in the adduc"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421141,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:00:00+00:00",
+          "timestamp": 1754499600
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 331865,
+          "name": "Karim Konate",
+          "photo": "https://media.api-sports.io/football/players/331865.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421141,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:00:00+00:00",
+          "timestamp": 1754499600
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 381810,
+          "name": "Moussa Yeo",
+          "photo": "https://media.api-sports.io/football/players/381810.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421141,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:00:00+00:00",
+          "timestamp": 1754499600
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 394986,
+          "name": "John Mellberg",
+          "photo": "https://media.api-sports.io/football/players/394986.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421141,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:00:00+00:00",
+          "timestamp": 1754499600
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 364320,
+          "name": "Valentin Sulzbacher",
+          "photo": "https://media.api-sports.io/football/players/364320.png",
+          "type": "Missing Fixture",
+          "reason": "Thigh problems"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421141,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:00:00+00:00",
+          "timestamp": 1754499600
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 445566,
+          "name": "Christian Zawieschitzky",
+          "photo": "https://media.api-sports.io/football/players/445566.png",
+          "type": "Missing Fixture",
+          "reason": "Calf Injury"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421141,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:00:00+00:00",
+          "timestamp": 1754499600
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421142"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 1063,
+          "name": "Georgi Terziev",
+          "photo": "https://media.api-sports.io/football/players/1063.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate Ligament Surgery"
+        },
+        "team": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png"
+        },
+        "fixture": {
+          "id": 1421142,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:30:00+00:00",
+          "timestamp": 1754501400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 48610,
+          "name": "Kwadwo Duah",
+          "photo": "https://media.api-sports.io/football/players/48610.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png"
+        },
+        "fixture": {
+          "id": 1421142,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:30:00+00:00",
+          "timestamp": 1754501400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 157893,
+          "name": "Aguibou Camara",
+          "photo": "https://media.api-sports.io/football/players/157893.png",
+          "type": "Missing Fixture",
+          "reason": null
+        },
+        "team": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png"
+        },
+        "fixture": {
+          "id": 1421142,
+          "timezone": "UTC",
+          "date": "2025-08-06T17:30:00+00:00",
+          "timestamp": 1754501400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421143"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 31556,
+          "name": "Radoslaw Murawski",
+          "photo": "https://media.api-sports.io/football/players/31556.png",
+          "type": "Missing Fixture",
+          "reason": "Leg Injury"
+        },
+        "team": {
+          "id": 347,
+          "name": "Lech Poznan",
+          "logo": "https://media.api-sports.io/football/teams/347.png"
+        },
+        "fixture": {
+          "id": 1421143,
+          "timezone": "UTC",
+          "date": "2025-08-06T18:30:00+00:00",
+          "timestamp": 1754505000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 55342,
+          "name": "Daniel Hakans",
+          "photo": "https://media.api-sports.io/football/players/55342.png",
+          "type": "Missing Fixture",
+          "reason": "Surgery"
+        },
+        "team": {
+          "id": 347,
+          "name": "Lech Poznan",
+          "logo": "https://media.api-sports.io/football/teams/347.png"
+        },
+        "fixture": {
+          "id": 1421143,
+          "timezone": "UTC",
+          "date": "2025-08-06T18:30:00+00:00",
+          "timestamp": 1754505000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 161176,
+          "name": "Patrik Walemark",
+          "photo": "https://media.api-sports.io/football/players/161176.png",
+          "type": "Missing Fixture",
+          "reason": "Surgery"
+        },
+        "team": {
+          "id": 347,
+          "name": "Lech Poznan",
+          "logo": "https://media.api-sports.io/football/teams/347.png"
+        },
+        "fixture": {
+          "id": 1421143,
+          "timezone": "UTC",
+          "date": "2025-08-06T18:30:00+00:00",
+          "timestamp": 1754505000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 371957,
+          "name": "Bartlomiej Baranski",
+          "photo": "https://media.api-sports.io/football/players/371957.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 347,
+          "name": "Lech Poznan",
+          "logo": "https://media.api-sports.io/football/teams/347.png"
+        },
+        "fixture": {
+          "id": 1421143,
+          "timezone": "UTC",
+          "date": "2025-08-06T18:30:00+00:00",
+          "timestamp": 1754505000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1414143"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 662,
+          "name": "Tanguy Ndombele Alvaro",
+          "photo": "https://media.api-sports.io/football/players/662.png",
+          "type": "Missing Fixture",
+          "reason": "Pubalgia"
+        },
+        "team": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media.api-sports.io/football/teams/84.png"
+        },
+        "fixture": {
+          "id": 1414143,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 15623,
+          "name": "Alexander Bahr",
+          "photo": "https://media.api-sports.io/football/players/15623.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "fixture": {
+          "id": 1414143,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 137303,
+          "name": "Evann Guessand",
+          "photo": "https://media.api-sports.io/football/players/137303.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Problems"
+        },
+        "team": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media.api-sports.io/football/teams/84.png"
+        },
+        "fixture": {
+          "id": 1414143,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 3099,
+          "name": "Youssouf Ndayishimiye",
+          "photo": "https://media.api-sports.io/football/players/3099.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate ligament injury"
+        },
+        "team": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media.api-sports.io/football/teams/84.png"
+        },
+        "fixture": {
+          "id": 1414143,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 196343,
+          "name": "Mohamed Abdelmonem",
+          "photo": "https://media.api-sports.io/football/players/196343.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media.api-sports.io/football/teams/84.png"
+        },
+        "fixture": {
+          "id": 1414143,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 287592,
+          "name": "Manu Silva",
+          "photo": "https://media.api-sports.io/football/players/287592.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "fixture": {
+          "id": 1414143,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1414142"
+    },
+    "errors": [],
+    "results": 12,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 7529,
+          "name": "Gernot Trauner",
+          "photo": "https://media.api-sports.io/football/players/7529.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon problems"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414142,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 50097,
+          "name": "Mert Yandas",
+          "photo": "https://media.api-sports.io/football/players/50097.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "fixture": {
+          "id": 1414142,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 829,
+          "name": "Rodrigo Becao",
+          "photo": "https://media.api-sports.io/football/players/829.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "fixture": {
+          "id": 1414142,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 40911,
+          "name": "Jakub Moder",
+          "photo": "https://media.api-sports.io/football/players/40911.png",
+          "type": "Missing Fixture",
+          "reason": "Minor Knock"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414142,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 37742,
+          "name": "Gijs Smal",
+          "photo": "https://media.api-sports.io/football/players/37742.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414142,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 12724,
+          "name": "Anderson Souza Conceicao Talis",
+          "photo": "https://media.api-sports.io/football/players/12724.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "fixture": {
+          "id": 1414142,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 214463,
+          "name": "Ismail Yuksek",
+          "photo": "https://media.api-sports.io/football/players/214463.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "fixture": {
+          "id": 1414142,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 138874,
+          "name": "Antef Tsoungui",
+          "photo": "https://media.api-sports.io/football/players/138874.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414142,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 297583,
+          "name": "Jeyland Mitchell",
+          "photo": "https://media.api-sports.io/football/players/297583.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414142,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 328141,
+          "name": "Thomas Beelen",
+          "photo": "https://media.api-sports.io/football/players/328141.png",
+          "type": "Missing Fixture",
+          "reason": "Broken leg"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414142,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 361888,
+          "name": "Shiloh Kiesar t Zand",
+          "photo": "https://media.api-sports.io/football/players/361888.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414142,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 275268,
+          "name": "Chris-Kevin Nadje",
+          "photo": "https://media.api-sports.io/football/players/275268.png",
+          "type": "Missing Fixture",
+          "reason": "Foot surgery"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414142,
+          "timezone": "UTC",
+          "date": "2025-08-06T19:00:00+00:00",
+          "timestamp": 1754506800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421144"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 334257,
+          "name": "Amin Ramazanov",
+          "photo": "https://media.api-sports.io/football/players/334257.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate ligament injury"
+        },
+        "team": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png"
+        },
+        "fixture": {
+          "id": 1421144,
+          "timezone": "UTC",
+          "date": "2025-08-12T16:00:00+00:00",
+          "timestamp": 1755014400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421148"
+    },
+    "errors": [],
+    "results": 9,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19319,
+          "name": "Martin Olsson",
+          "photo": "https://media.api-sports.io/football/players/19319.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "fixture": {
+          "id": 1421148,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 19124,
+          "name": "Pontus Jansson",
+          "photo": "https://media.api-sports.io/football/players/19124.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "fixture": {
+          "id": 1421148,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 1947,
+          "name": "Johan Dahlin",
+          "photo": "https://media.api-sports.io/football/players/1947.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate ligament injury"
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "fixture": {
+          "id": 1421148,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 1958,
+          "name": "Anders Christiansen",
+          "photo": "https://media.api-sports.io/football/players/1958.png",
+          "type": "Missing Fixture",
+          "reason": "Groin Injury"
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "fixture": {
+          "id": 1421148,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 1188,
+          "name": "Erik Botheim",
+          "photo": "https://media.api-sports.io/football/players/1188.png",
+          "type": "Missing Fixture",
+          "reason": "Fracture of the lower leg"
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "fixture": {
+          "id": 1421148,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 42012,
+          "name": "Mohamed Elias Achouri",
+          "photo": "https://media.api-sports.io/football/players/42012.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png"
+        },
+        "fixture": {
+          "id": 1421148,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 351014,
+          "name": "Junnosuke Suzuki",
+          "photo": "https://media.api-sports.io/football/players/351014.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png"
+        },
+        "fixture": {
+          "id": 1421148,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 444418,
+          "name": "Jonathan Moalem",
+          "photo": "https://media.api-sports.io/football/players/444418.png",
+          "type": "Missing Fixture",
+          "reason": "Hip problems"
+        },
+        "team": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png"
+        },
+        "fixture": {
+          "id": 1421148,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 443781,
+          "name": "Gentian Lajqi",
+          "photo": "https://media.api-sports.io/football/players/443781.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate ligament injury"
+        },
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "fixture": {
+          "id": 1421148,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421146"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19990,
+          "name": "Dujon Sterling",
+          "photo": "https://media.api-sports.io/football/players/19990.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon surgery"
+        },
+        "team": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png"
+        },
+        "fixture": {
+          "id": 1421146,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 179449,
+          "name": "Cheick Souare",
+          "photo": "https://media.api-sports.io/football/players/179449.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 567,
+          "name": "Plzen",
+          "logo": "https://media.api-sports.io/football/teams/567.png"
+        },
+        "fixture": {
+          "id": 1421146,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1414144"
+    },
+    "errors": [],
+    "results": 15,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 7529,
+          "name": "Gernot Trauner",
+          "photo": "https://media.api-sports.io/football/players/7529.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon problems"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 37147,
+          "name": "Bart Nieuwkoop",
+          "photo": "https://media.api-sports.io/football/players/37147.png",
+          "type": "Missing Fixture",
+          "reason": "Rest"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 47446,
+          "name": "Emre Mor",
+          "photo": "https://media.api-sports.io/football/players/47446.png",
+          "type": "Missing Fixture",
+          "reason": "Injury"
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 50097,
+          "name": "Mert Yandas",
+          "photo": "https://media.api-sports.io/football/players/50097.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 829,
+          "name": "Rodrigo Becao",
+          "photo": "https://media.api-sports.io/football/players/829.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 40911,
+          "name": "Jakub Moder",
+          "photo": "https://media.api-sports.io/football/players/40911.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 37742,
+          "name": "Gijs Smal",
+          "photo": "https://media.api-sports.io/football/players/37742.png",
+          "type": "Missing Fixture",
+          "reason": "Injury"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 134756,
+          "name": "Neraysho Kasanwirjo",
+          "photo": "https://media.api-sports.io/football/players/134756.png",
+          "type": "Missing Fixture",
+          "reason": "Injury"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 138874,
+          "name": "Antef Tsoungui",
+          "photo": "https://media.api-sports.io/football/players/138874.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 297583,
+          "name": "Jeyland Mitchell",
+          "photo": "https://media.api-sports.io/football/players/297583.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 328141,
+          "name": "Thomas Beelen",
+          "photo": "https://media.api-sports.io/football/players/328141.png",
+          "type": "Missing Fixture",
+          "reason": "Broken leg"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 359390,
+          "name": "Givairo Read",
+          "photo": "https://media.api-sports.io/football/players/359390.png",
+          "type": "Missing Fixture",
+          "reason": "Knock"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 361888,
+          "name": "Shiloh Kiesar t Zand",
+          "photo": "https://media.api-sports.io/football/players/361888.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 374500,
+          "name": "Mannou Berger",
+          "photo": "https://media.api-sports.io/football/players/374500.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 275268,
+          "name": "Chris-Kevin Nadje",
+          "photo": "https://media.api-sports.io/football/players/275268.png",
+          "type": "Missing Fixture",
+          "reason": "Foot surgery"
+        },
+        "team": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "fixture": {
+          "id": 1414144,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421145"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 128382,
+          "name": "Angel Yesid Torres Quinones",
+          "photo": "https://media.api-sports.io/football/players/128382.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "fixture": {
+          "id": 1421145,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 63637,
+          "name": "Valentyn Rubchynskyi",
+          "photo": "https://media.api-sports.io/football/players/63637.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon problems"
+        },
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "fixture": {
+          "id": 1421145,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:00:00+00:00",
+          "timestamp": 1755018000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421147"
+    },
+    "errors": [],
+    "results": 12,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 25928,
+          "name": "Karim Onisiwo",
+          "photo": "https://media.api-sports.io/football/players/25928.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421147,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:30:00+00:00",
+          "timestamp": 1755019800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 15683,
+          "name": "Gustaf Nilsson",
+          "photo": "https://media.api-sports.io/football/players/15683.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon problems"
+        },
+        "team": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png"
+        },
+        "fixture": {
+          "id": 1421147,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:30:00+00:00",
+          "timestamp": 1755019800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 33910,
+          "name": "Takumu Kawamura",
+          "photo": "https://media.api-sports.io/football/players/33910.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421147,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:30:00+00:00",
+          "timestamp": 1755019800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 40809,
+          "name": "Michal Skoras",
+          "photo": "https://media.api-sports.io/football/players/40809.png",
+          "type": "Missing Fixture",
+          "reason": "Minor Knock"
+        },
+        "team": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png"
+        },
+        "fixture": {
+          "id": 1421147,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:30:00+00:00",
+          "timestamp": 1755019800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 301322,
+          "name": "Kyriani Sabbe",
+          "photo": "https://media.api-sports.io/football/players/301322.png",
+          "type": "Missing Fixture",
+          "reason": "Minor Knock"
+        },
+        "team": {
+          "id": 569,
+          "name": "Club Brugge KV",
+          "logo": "https://media.api-sports.io/football/teams/569.png"
+        },
+        "fixture": {
+          "id": 1421147,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:30:00+00:00",
+          "timestamp": 1755019800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 162121,
+          "name": "Justin Omoregie",
+          "photo": "https://media.api-sports.io/football/players/162121.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon rupture"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421147,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:30:00+00:00",
+          "timestamp": 1755019800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 288073,
+          "name": "Sota Kitano",
+          "photo": "https://media.api-sports.io/football/players/288073.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421147,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:30:00+00:00",
+          "timestamp": 1755019800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 361981,
+          "name": "Anrie Chase",
+          "photo": "https://media.api-sports.io/football/players/361981.png",
+          "type": "Missing Fixture",
+          "reason": "torn muscle fiber in the adduc"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421147,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:30:00+00:00",
+          "timestamp": 1755019800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 331865,
+          "name": "Karim Konate",
+          "photo": "https://media.api-sports.io/football/players/331865.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421147,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:30:00+00:00",
+          "timestamp": 1755019800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 394986,
+          "name": "John Mellberg",
+          "photo": "https://media.api-sports.io/football/players/394986.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421147,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:30:00+00:00",
+          "timestamp": 1755019800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 364320,
+          "name": "Valentin Sulzbacher",
+          "photo": "https://media.api-sports.io/football/players/364320.png",
+          "type": "Missing Fixture",
+          "reason": "Thigh problems"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421147,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:30:00+00:00",
+          "timestamp": 1755019800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 445566,
+          "name": "Christian Zawieschitzky",
+          "photo": "https://media.api-sports.io/football/players/445566.png",
+          "type": "Missing Fixture",
+          "reason": "Calf Injury"
+        },
+        "team": {
+          "id": 571,
+          "name": "Red Bull Salzburg",
+          "logo": "https://media.api-sports.io/football/teams/571.png"
+        },
+        "fixture": {
+          "id": 1421147,
+          "timezone": "UTC",
+          "date": "2025-08-12T17:30:00+00:00",
+          "timestamp": 1755019800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421149"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 1063,
+          "name": "Georgi Terziev",
+          "photo": "https://media.api-sports.io/football/players/1063.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate Ligament Surgery"
+        },
+        "team": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png"
+        },
+        "fixture": {
+          "id": 1421149,
+          "timezone": "UTC",
+          "date": "2025-08-12T18:15:00+00:00",
+          "timestamp": 1755022500
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 48610,
+          "name": "Kwadwo Duah",
+          "photo": "https://media.api-sports.io/football/players/48610.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png"
+        },
+        "fixture": {
+          "id": 1421149,
+          "timezone": "UTC",
+          "date": "2025-08-12T18:15:00+00:00",
+          "timestamp": 1755022500
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 157893,
+          "name": "Aguibou Camara",
+          "photo": "https://media.api-sports.io/football/players/157893.png",
+          "type": "Missing Fixture",
+          "reason": null
+        },
+        "team": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png"
+        },
+        "fixture": {
+          "id": 1421149,
+          "timezone": "UTC",
+          "date": "2025-08-12T18:15:00+00:00",
+          "timestamp": 1755022500
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 342442,
+          "name": "Krisztian Lisztes",
+          "photo": "https://media.api-sports.io/football/players/342442.png",
+          "type": "Missing Fixture",
+          "reason": "Muscular problems"
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "fixture": {
+          "id": 1421149,
+          "timezone": "UTC",
+          "date": "2025-08-12T18:15:00+00:00",
+          "timestamp": 1755022500
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1419569"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 78172,
+          "name": "Joao Paulo da Silva Araujo",
+          "photo": "https://media.api-sports.io/football/players/78172.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 664,
+          "name": "Kairat Almaty",
+          "logo": "https://media.api-sports.io/football/teams/664.png"
+        },
+        "fixture": {
+          "id": 1419569,
+          "timezone": "UTC",
+          "date": "2025-08-12T18:15:00+00:00",
+          "timestamp": 1755022500
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 77895,
+          "name": "Elder Santana Conceicao",
+          "photo": "https://media.api-sports.io/football/players/77895.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 664,
+          "name": "Kairat Almaty",
+          "logo": "https://media.api-sports.io/football/teams/664.png"
+        },
+        "fixture": {
+          "id": 1419569,
+          "timezone": "UTC",
+          "date": "2025-08-12T18:15:00+00:00",
+          "timestamp": 1755022500
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1414145"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 662,
+          "name": "Tanguy Ndombele Alvaro",
+          "photo": "https://media.api-sports.io/football/players/662.png",
+          "type": "Missing Fixture",
+          "reason": "Pubalgia"
+        },
+        "team": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media.api-sports.io/football/teams/84.png"
+        },
+        "fixture": {
+          "id": 1414145,
+          "timezone": "UTC",
+          "date": "2025-08-12T19:00:00+00:00",
+          "timestamp": 1755025200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 15623,
+          "name": "Alexander Bahr",
+          "photo": "https://media.api-sports.io/football/players/15623.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "fixture": {
+          "id": 1414145,
+          "timezone": "UTC",
+          "date": "2025-08-12T19:00:00+00:00",
+          "timestamp": 1755025200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 3099,
+          "name": "Youssouf Ndayishimiye",
+          "photo": "https://media.api-sports.io/football/players/3099.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate ligament injury"
+        },
+        "team": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media.api-sports.io/football/teams/84.png"
+        },
+        "fixture": {
+          "id": 1414145,
+          "timezone": "UTC",
+          "date": "2025-08-12T19:00:00+00:00",
+          "timestamp": 1755025200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 196343,
+          "name": "Mohamed Abdelmonem",
+          "photo": "https://media.api-sports.io/football/players/196343.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media.api-sports.io/football/teams/84.png"
+        },
+        "fixture": {
+          "id": 1414145,
+          "timezone": "UTC",
+          "date": "2025-08-12T19:00:00+00:00",
+          "timestamp": 1755025200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 287592,
+          "name": "Manu Silva",
+          "photo": "https://media.api-sports.io/football/players/287592.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "fixture": {
+          "id": 1414145,
+          "timezone": "UTC",
+          "date": "2025-08-12T19:00:00+00:00",
+          "timestamp": 1755025200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1421150"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 31556,
+          "name": "Radoslaw Murawski",
+          "photo": "https://media.api-sports.io/football/players/31556.png",
+          "type": "Missing Fixture",
+          "reason": "Leg Injury"
+        },
+        "team": {
+          "id": 347,
+          "name": "Lech Poznan",
+          "logo": "https://media.api-sports.io/football/teams/347.png"
+        },
+        "fixture": {
+          "id": 1421150,
+          "timezone": "UTC",
+          "date": "2025-08-12T19:00:00+00:00",
+          "timestamp": 1755025200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 55342,
+          "name": "Daniel Hakans",
+          "photo": "https://media.api-sports.io/football/players/55342.png",
+          "type": "Missing Fixture",
+          "reason": "Surgery"
+        },
+        "team": {
+          "id": 347,
+          "name": "Lech Poznan",
+          "logo": "https://media.api-sports.io/football/teams/347.png"
+        },
+        "fixture": {
+          "id": 1421150,
+          "timezone": "UTC",
+          "date": "2025-08-12T19:00:00+00:00",
+          "timestamp": 1755025200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 161176,
+          "name": "Patrik Walemark",
+          "photo": "https://media.api-sports.io/football/players/161176.png",
+          "type": "Missing Fixture",
+          "reason": "Surgery"
+        },
+        "team": {
+          "id": 347,
+          "name": "Lech Poznan",
+          "logo": "https://media.api-sports.io/football/teams/347.png"
+        },
+        "fixture": {
+          "id": 1421150,
+          "timezone": "UTC",
+          "date": "2025-08-12T19:00:00+00:00",
+          "timestamp": 1755025200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 371957,
+          "name": "Bartlomiej Baranski",
+          "photo": "https://media.api-sports.io/football/players/371957.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 347,
+          "name": "Lech Poznan",
+          "logo": "https://media.api-sports.io/football/teams/347.png"
+        },
+        "fixture": {
+          "id": 1421150,
+          "timezone": "UTC",
+          "date": "2025-08-12T19:00:00+00:00",
+          "timestamp": 1755025200
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1435547"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19990,
+          "name": "Dujon Sterling",
+          "photo": "https://media.api-sports.io/football/players/19990.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon surgery"
+        },
+        "team": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png"
+        },
+        "fixture": {
+          "id": 1435547,
+          "timezone": "UTC",
+          "date": "2025-08-19T19:00:00+00:00",
+          "timestamp": 1755630000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1435546"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1435545"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 334257,
+          "name": "Amin Ramazanov",
+          "photo": "https://media.api-sports.io/football/players/334257.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate ligament injury"
+        },
+        "team": {
+          "id": 556,
+          "name": "Qarabag",
+          "logo": "https://media.api-sports.io/football/teams/556.png"
+        },
+        "fixture": {
+          "id": 1435545,
+          "timezone": "UTC",
+          "date": "2025-08-19T19:00:00+00:00",
+          "timestamp": 1755630000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 342442,
+          "name": "Krisztian Lisztes",
+          "photo": "https://media.api-sports.io/football/players/342442.png",
+          "type": "Missing Fixture",
+          "reason": "Muscular problems"
+        },
+        "team": {
+          "id": 651,
+          "name": "Ferencvarosi TC",
+          "logo": "https://media.api-sports.io/football/teams/651.png"
+        },
+        "fixture": {
+          "id": 1435545,
+          "timezone": "UTC",
+          "date": "2025-08-19T19:00:00+00:00",
+          "timestamp": 1755630000
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1435549"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 78172,
+          "name": "Joao Paulo da Silva Araujo",
+          "photo": "https://media.api-sports.io/football/players/78172.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 664,
+          "name": "Kairat Almaty",
+          "logo": "https://media.api-sports.io/football/teams/664.png"
+        },
+        "fixture": {
+          "id": 1435549,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 77895,
+          "name": "Elder Santana Conceicao",
+          "photo": "https://media.api-sports.io/football/players/77895.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 664,
+          "name": "Kairat Almaty",
+          "logo": "https://media.api-sports.io/football/teams/664.png"
+        },
+        "fixture": {
+          "id": 1435549,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 581,
+          "name": "Joao Pedro Neves Filipe",
+          "photo": "https://media.api-sports.io/football/players/581.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate Ligament Surgery"
+        },
+        "team": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png"
+        },
+        "fixture": {
+          "id": 1435549,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1424397"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 39352,
+          "name": "Jostein Gundersen",
+          "photo": "https://media.api-sports.io/football/players/39352.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "fixture": {
+          "id": 1424397,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 7432,
+          "name": "Alexandar Borkovic",
+          "photo": "https://media.api-sports.io/football/players/7432.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 637,
+          "name": "Sturm Graz",
+          "logo": "https://media.api-sports.io/football/teams/637.png"
+        },
+        "fixture": {
+          "id": 1424397,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 151510,
+          "name": "Ole Didrik Blomberg",
+          "photo": "https://media.api-sports.io/football/players/151510.png",
+          "type": "Missing Fixture",
+          "reason": "ligament stretching"
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "fixture": {
+          "id": 1424397,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 281989,
+          "name": "Daniil Khudyakov",
+          "photo": "https://media.api-sports.io/football/players/281989.png",
+          "type": "Missing Fixture",
+          "reason": "Broken wrist"
+        },
+        "team": {
+          "id": 637,
+          "name": "Sturm Graz",
+          "logo": "https://media.api-sports.io/football/teams/637.png"
+        },
+        "fixture": {
+          "id": 1424397,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1435548"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 15,
+          "name": "Thomas Delaney",
+          "photo": "https://media.api-sports.io/football/players/15.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png"
+        },
+        "fixture": {
+          "id": 1435548,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 1011,
+          "name": "Kevin Ruegg",
+          "photo": "https://media.api-sports.io/football/players/1011.png",
+          "type": "Missing Fixture",
+          "reason": null
+        },
+        "team": {
+          "id": 551,
+          "name": "FC Basel 1893",
+          "logo": "https://media.api-sports.io/football/teams/551.png"
+        },
+        "fixture": {
+          "id": 1435548,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 42012,
+          "name": "Mohamed Elias Achouri",
+          "photo": "https://media.api-sports.io/football/players/42012.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png"
+        },
+        "fixture": {
+          "id": 1435548,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 366579,
+          "name": "Finn van Breemen",
+          "photo": "https://media.api-sports.io/football/players/366579.png",
+          "type": "Missing Fixture",
+          "reason": "Meniscus injur"
+        },
+        "team": {
+          "id": 551,
+          "name": "FC Basel 1893",
+          "logo": "https://media.api-sports.io/football/teams/551.png"
+        },
+        "fixture": {
+          "id": 1435548,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 444418,
+          "name": "Jonathan Moalem",
+          "photo": "https://media.api-sports.io/football/players/444418.png",
+          "type": "Missing Fixture",
+          "reason": "Hip problems"
+        },
+        "team": {
+          "id": 400,
+          "name": "FC Copenhagen",
+          "logo": "https://media.api-sports.io/football/teams/400.png"
+        },
+        "fixture": {
+          "id": 1435548,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1435550"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 18768,
+          "name": "Cenk Tosun",
+          "photo": "https://media.api-sports.io/football/players/18768.png",
+          "type": "Missing Fixture",
+          "reason": "Groin Injury"
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "fixture": {
+          "id": 1435550,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 50097,
+          "name": "Mert Yandas",
+          "photo": "https://media.api-sports.io/football/players/50097.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "fixture": {
+          "id": 1435550,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 829,
+          "name": "Rodrigo Becao",
+          "photo": "https://media.api-sports.io/football/players/829.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "fixture": {
+          "id": 1435550,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 15623,
+          "name": "Alexander Bahr",
+          "photo": "https://media.api-sports.io/football/players/15623.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "fixture": {
+          "id": 1435550,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 1719,
+          "name": "Mert Muldur",
+          "photo": "https://media.api-sports.io/football/players/1719.png",
+          "type": "Missing Fixture",
+          "reason": "Injury"
+        },
+        "team": {
+          "id": 611,
+          "name": "Fenerbahce",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        },
+        "fixture": {
+          "id": 1435550,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 287592,
+          "name": "Manu Silva",
+          "photo": "https://media.api-sports.io/football/players/287592.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "fixture": {
+          "id": 1435550,
+          "timezone": "UTC",
+          "date": "2025-08-20T19:00:00+00:00",
+          "timestamp": 1755716400
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1435551"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 78172,
+          "name": "Joao Paulo da Silva Araujo",
+          "photo": "https://media.api-sports.io/football/players/78172.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 664,
+          "name": "Kairat Almaty",
+          "logo": "https://media.api-sports.io/football/teams/664.png"
+        },
+        "fixture": {
+          "id": 1435551,
+          "timezone": "UTC",
+          "date": "2025-08-26T16:45:00+00:00",
+          "timestamp": 1756226700
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 77895,
+          "name": "Elder Santana Conceicao",
+          "photo": "https://media.api-sports.io/football/players/77895.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 664,
+          "name": "Kairat Almaty",
+          "logo": "https://media.api-sports.io/football/teams/664.png"
+        },
+        "fixture": {
+          "id": 1435551,
+          "timezone": "UTC",
+          "date": "2025-08-26T16:45:00+00:00",
+          "timestamp": 1756226700
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 581,
+          "name": "Joao Pedro Neves Filipe",
+          "photo": "https://media.api-sports.io/football/players/581.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate Ligament Surgery"
+        },
+        "team": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png"
+        },
+        "fixture": {
+          "id": 1435551,
+          "timezone": "UTC",
+          "date": "2025-08-26T16:45:00+00:00",
+          "timestamp": 1756226700
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1424398"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 7432,
+          "name": "Alexandar Borkovic",
+          "photo": "https://media.api-sports.io/football/players/7432.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 637,
+          "name": "Sturm Graz",
+          "logo": "https://media.api-sports.io/football/teams/637.png"
+        },
+        "fixture": {
+          "id": 1424398,
+          "timezone": "UTC",
+          "date": "2025-08-26T19:00:00+00:00",
+          "timestamp": 1756234800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 151510,
+          "name": "Ole Didrik Blomberg",
+          "photo": "https://media.api-sports.io/football/players/151510.png",
+          "type": "Missing Fixture",
+          "reason": "ligament stretching"
+        },
+        "team": {
+          "id": 327,
+          "name": "Bodo/Glimt",
+          "logo": "https://media.api-sports.io/football/teams/327.png"
+        },
+        "fixture": {
+          "id": 1424398,
+          "timezone": "UTC",
+          "date": "2025-08-26T19:00:00+00:00",
+          "timestamp": 1756234800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      },
+      {
+        "player": {
+          "id": 281989,
+          "name": "Daniil Khudyakov",
+          "photo": "https://media.api-sports.io/football/players/281989.png",
+          "type": "Missing Fixture",
+          "reason": "Broken wrist"
+        },
+        "team": {
+          "id": 637,
+          "name": "Sturm Graz",
+          "logo": "https://media.api-sports.io/football/teams/637.png"
+        },
+        "fixture": {
+          "id": 1424398,
+          "timezone": "UTC",
+          "date": "2025-08-26T19:00:00+00:00",
+          "timestamp": 1756234800
+        },
+        "league": {
+          "id": 2,
+          "season": 2025,
+          "name": "UEFA Champions League",
+          "country": "World",
+          "logo": "https://media.api-sports.io/football/leagues/2.png",
+          "flag": null
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1435552"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  }
+]

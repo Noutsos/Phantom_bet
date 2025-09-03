@@ -1,0 +1,929 @@
+{
+  "get": "standings",
+  "parameters": {
+    "league": "135",
+    "season": "2019"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "flag": "https://media.api-sports.io/flags/it.svg",
+        "season": 2019,
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 496,
+                "name": "Juventus",
+                "logo": "https://media.api-sports.io/football/teams/496.png"
+              },
+              "points": 83,
+              "goalsDiff": 33,
+              "group": "Serie A",
+              "form": "LLWLW",
+              "status": "same",
+              "description": "Promotion - Champions League (Group Stage)",
+              "all": {
+                "played": 38,
+                "win": 26,
+                "draw": 5,
+                "lose": 7,
+                "goals": {
+                  "for": 76,
+                  "against": 43
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 16,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 46,
+                  "against": 17
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 10,
+                "draw": 3,
+                "lose": 6,
+                "goals": {
+                  "for": 30,
+                  "against": 26
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 505,
+                "name": "Inter",
+                "logo": "https://media.api-sports.io/football/teams/505.png"
+              },
+              "points": 82,
+              "goalsDiff": 45,
+              "group": "Serie A",
+              "form": "WWWDD",
+              "status": "same",
+              "description": "Promotion - Champions League (Group Stage)",
+              "all": {
+                "played": 38,
+                "win": 24,
+                "draw": 10,
+                "lose": 4,
+                "goals": {
+                  "for": 81,
+                  "against": 36
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 11,
+                "draw": 6,
+                "lose": 2,
+                "goals": {
+                  "for": 40,
+                  "against": 17
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 13,
+                "draw": 4,
+                "lose": 2,
+                "goals": {
+                  "for": 41,
+                  "against": 19
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 499,
+                "name": "Atalanta",
+                "logo": "https://media.api-sports.io/football/teams/499.png"
+              },
+              "points": 78,
+              "goalsDiff": 50,
+              "group": "Serie A",
+              "form": "LWDWD",
+              "status": "same",
+              "description": "Promotion - Champions League (Group Stage)",
+              "all": {
+                "played": 38,
+                "win": 23,
+                "draw": 9,
+                "lose": 6,
+                "goals": {
+                  "for": 98,
+                  "against": 48
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 12,
+                "draw": 2,
+                "lose": 5,
+                "goals": {
+                  "for": 51,
+                  "against": 26
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 11,
+                "draw": 7,
+                "lose": 1,
+                "goals": {
+                  "for": 47,
+                  "against": 22
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 487,
+                "name": "Lazio",
+                "logo": "https://media.api-sports.io/football/teams/487.png"
+              },
+              "points": 78,
+              "goalsDiff": 37,
+              "group": "Serie A",
+              "form": "LWWWL",
+              "status": "same",
+              "description": "Promotion - Champions League (Group Stage)",
+              "all": {
+                "played": 38,
+                "win": 24,
+                "draw": 6,
+                "lose": 8,
+                "goals": {
+                  "for": 79,
+                  "against": 42
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 14,
+                "draw": 3,
+                "lose": 2,
+                "goals": {
+                  "for": 46,
+                  "against": 17
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 10,
+                "draw": 3,
+                "lose": 6,
+                "goals": {
+                  "for": 33,
+                  "against": 25
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 5,
+              "team": {
+                "id": 497,
+                "name": "AS Roma",
+                "logo": "https://media.api-sports.io/football/teams/497.png"
+              },
+              "points": 70,
+              "goalsDiff": 26,
+              "group": "Serie A",
+              "form": "WWWWD",
+              "status": "same",
+              "description": "Promotion - Europa League (Group Stage)",
+              "all": {
+                "played": 38,
+                "win": 21,
+                "draw": 7,
+                "lose": 10,
+                "goals": {
+                  "for": 77,
+                  "against": 51
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 10,
+                "draw": 4,
+                "lose": 5,
+                "goals": {
+                  "for": 36,
+                  "against": 27
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 11,
+                "draw": 3,
+                "lose": 5,
+                "goals": {
+                  "for": 41,
+                  "against": 24
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 6,
+              "team": {
+                "id": 489,
+                "name": "AC Milan",
+                "logo": "https://media.api-sports.io/football/teams/489.png"
+              },
+              "points": 66,
+              "goalsDiff": 17,
+              "group": "Serie A",
+              "form": "WWDWW",
+              "status": "same",
+              "description": "Promotion - Europa League (Qualification)",
+              "all": {
+                "played": 38,
+                "win": 19,
+                "draw": 9,
+                "lose": 10,
+                "goals": {
+                  "for": 63,
+                  "against": 46
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 9,
+                "draw": 6,
+                "lose": 4,
+                "goals": {
+                  "for": 31,
+                  "against": 20
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 10,
+                "draw": 3,
+                "lose": 6,
+                "goals": {
+                  "for": 32,
+                  "against": 26
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 7,
+              "team": {
+                "id": 492,
+                "name": "Napoli",
+                "logo": "https://media.api-sports.io/football/teams/492.png"
+              },
+              "points": 62,
+              "goalsDiff": 11,
+              "group": "Serie A",
+              "form": "WLWLW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 18,
+                "draw": 8,
+                "lose": 12,
+                "goals": {
+                  "for": 61,
+                  "against": 50
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 10,
+                "draw": 3,
+                "lose": 6,
+                "goals": {
+                  "for": 31,
+                  "against": 24
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 8,
+                "draw": 5,
+                "lose": 6,
+                "goals": {
+                  "for": 30,
+                  "against": 26
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 8,
+              "team": {
+                "id": 488,
+                "name": "Sassuolo",
+                "logo": "https://media.api-sports.io/football/teams/488.png"
+              },
+              "points": 51,
+              "goalsDiff": 6,
+              "group": "Serie A",
+              "form": "LWLLD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 14,
+                "draw": 9,
+                "lose": 15,
+                "goals": {
+                  "for": 69,
+                  "against": 63
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 8,
+                "draw": 3,
+                "lose": 8,
+                "goals": {
+                  "for": 44,
+                  "against": 33
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 6,
+                "draw": 6,
+                "lose": 7,
+                "goals": {
+                  "for": 25,
+                  "against": 30
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
+              "team": {
+                "id": 504,
+                "name": "Verona",
+                "logo": "https://media.api-sports.io/football/teams/504.png"
+              },
+              "points": 49,
+              "goalsDiff": -4,
+              "group": "Serie A",
+              "form": "LWLDD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 12,
+                "draw": 13,
+                "lose": 13,
+                "goals": {
+                  "for": 47,
+                  "against": 51
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 9,
+                "draw": 5,
+                "lose": 5,
+                "goals": {
+                  "for": 29,
+                  "against": 25
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 8,
+                "lose": 8,
+                "goals": {
+                  "for": 18,
+                  "against": 26
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 10,
+              "team": {
+                "id": 502,
+                "name": "Fiorentina",
+                "logo": "https://media.api-sports.io/football/teams/502.png"
+              },
+              "points": 49,
+              "goalsDiff": 3,
+              "group": "Serie A",
+              "form": "WWLDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 12,
+                "draw": 13,
+                "lose": 13,
+                "goals": {
+                  "for": 51,
+                  "against": 48
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 5,
+                "draw": 8,
+                "lose": 6,
+                "goals": {
+                  "for": 22,
+                  "against": 22
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 7,
+                "draw": 5,
+                "lose": 7,
+                "goals": {
+                  "for": 29,
+                  "against": 26
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 11,
+              "team": {
+                "id": 523,
+                "name": "Parma",
+                "logo": "https://media.api-sports.io/football/teams/523.png"
+              },
+              "points": 49,
+              "goalsDiff": -1,
+              "group": "Serie A",
+              "form": "WLWWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 14,
+                "draw": 7,
+                "lose": 17,
+                "goals": {
+                  "for": 56,
+                  "against": 57
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 7,
+                "draw": 2,
+                "lose": 10,
+                "goals": {
+                  "for": 26,
+                  "against": 24
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 7,
+                "draw": 5,
+                "lose": 7,
+                "goals": {
+                  "for": 30,
+                  "against": 33
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 500,
+                "name": "Bologna",
+                "logo": "https://media.api-sports.io/football/teams/500.png"
+              },
+              "points": 47,
+              "goalsDiff": -13,
+              "group": "Serie A",
+              "form": "DLWLL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 12,
+                "draw": 11,
+                "lose": 15,
+                "goals": {
+                  "for": 52,
+                  "against": 65
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 5,
+                "draw": 8,
+                "lose": 6,
+                "goals": {
+                  "for": 25,
+                  "against": 29
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 7,
+                "draw": 3,
+                "lose": 9,
+                "goals": {
+                  "for": 27,
+                  "against": 36
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 13,
+              "team": {
+                "id": 494,
+                "name": "Udinese",
+                "logo": "https://media.api-sports.io/football/teams/494.png"
+              },
+              "points": 45,
+              "goalsDiff": -14,
+              "group": "Serie A",
+              "form": "WLWWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 12,
+                "draw": 9,
+                "lose": 17,
+                "goals": {
+                  "for": 37,
+                  "against": 51
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 6,
+                "draw": 6,
+                "lose": 7,
+                "goals": {
+                  "for": 18,
+                  "against": 23
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 6,
+                "draw": 3,
+                "lose": 10,
+                "goals": {
+                  "for": 19,
+                  "against": 28
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 14,
+              "team": {
+                "id": 490,
+                "name": "Cagliari",
+                "logo": "https://media.api-sports.io/football/teams/490.png"
+              },
+              "points": 45,
+              "goalsDiff": -4,
+              "group": "Serie A",
+              "form": "LWLLD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 11,
+                "draw": 12,
+                "lose": 15,
+                "goals": {
+                  "for": 52,
+                  "against": 56
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 7,
+                "draw": 4,
+                "lose": 8,
+                "goals": {
+                  "for": 32,
+                  "against": 28
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 4,
+                "draw": 8,
+                "lose": 7,
+                "goals": {
+                  "for": 20,
+                  "against": 28
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 15,
+              "team": {
+                "id": 498,
+                "name": "Sampdoria",
+                "logo": "https://media.api-sports.io/football/teams/498.png"
+              },
+              "points": 42,
+              "goalsDiff": -17,
+              "group": "Serie A",
+              "form": "DLLLW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 12,
+                "draw": 6,
+                "lose": 20,
+                "goals": {
+                  "for": 48,
+                  "against": 65
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 6,
+                "draw": 4,
+                "lose": 9,
+                "goals": {
+                  "for": 25,
+                  "against": 30
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 6,
+                "draw": 2,
+                "lose": 11,
+                "goals": {
+                  "for": 23,
+                  "against": 35
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 16,
+              "team": {
+                "id": 503,
+                "name": "Torino",
+                "logo": "https://media.api-sports.io/football/teams/503.png"
+              },
+              "points": 40,
+              "goalsDiff": -22,
+              "group": "Serie A",
+              "form": "DLDDL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 11,
+                "draw": 7,
+                "lose": 20,
+                "goals": {
+                  "for": 46,
+                  "against": 68
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 7,
+                "draw": 4,
+                "lose": 8,
+                "goals": {
+                  "for": 23,
+                  "against": 30
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 4,
+                "draw": 3,
+                "lose": 12,
+                "goals": {
+                  "for": 23,
+                  "against": 38
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 17,
+              "team": {
+                "id": 495,
+                "name": "Genoa",
+                "logo": "https://media.api-sports.io/football/teams/495.png"
+              },
+              "points": 39,
+              "goalsDiff": -26,
+              "group": "Serie A",
+              "form": "WLLWW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 38,
+                "win": 10,
+                "draw": 9,
+                "lose": 19,
+                "goals": {
+                  "for": 47,
+                  "against": 73
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 7,
+                "draw": 1,
+                "lose": 11,
+                "goals": {
+                  "for": 24,
+                  "against": 31
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 8,
+                "lose": 8,
+                "goals": {
+                  "for": 23,
+                  "against": 42
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 18,
+              "team": {
+                "id": 867,
+                "name": "Lecce",
+                "logo": "https://media.api-sports.io/football/teams/867.png"
+              },
+              "points": 35,
+              "goalsDiff": -33,
+              "group": "Serie A",
+              "form": "LWLWL",
+              "status": "same",
+              "description": "Relegation - Serie B",
+              "all": {
+                "played": 38,
+                "win": 9,
+                "draw": 8,
+                "lose": 21,
+                "goals": {
+                  "for": 52,
+                  "against": 85
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 4,
+                "draw": 5,
+                "lose": 10,
+                "goals": {
+                  "for": 30,
+                  "against": 41
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 5,
+                "draw": 3,
+                "lose": 11,
+                "goals": {
+                  "for": 22,
+                  "against": 44
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 19,
+              "team": {
+                "id": 518,
+                "name": "Brescia",
+                "logo": "https://media.api-sports.io/football/teams/518.png"
+              },
+              "points": 25,
+              "goalsDiff": -44,
+              "group": "Serie A",
+              "form": "DLLLW",
+              "status": "same",
+              "description": "Relegation - Serie B",
+              "all": {
+                "played": 38,
+                "win": 6,
+                "draw": 7,
+                "lose": 25,
+                "goals": {
+                  "for": 35,
+                  "against": 79
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 3,
+                "draw": 5,
+                "lose": 11,
+                "goals": {
+                  "for": 21,
+                  "against": 34
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 2,
+                "lose": 14,
+                "goals": {
+                  "for": 14,
+                  "against": 45
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            },
+            {
+              "rank": 20,
+              "team": {
+                "id": 493,
+                "name": "Spal",
+                "logo": "https://media.api-sports.io/football/teams/493.png"
+              },
+              "points": 20,
+              "goalsDiff": -50,
+              "group": "Serie A",
+              "form": "LLDLL",
+              "status": "same",
+              "description": "Relegation - Serie B",
+              "all": {
+                "played": 38,
+                "win": 5,
+                "draw": 5,
+                "lose": 28,
+                "goals": {
+                  "for": 27,
+                  "against": 77
+                }
+              },
+              "home": {
+                "played": 19,
+                "win": 2,
+                "draw": 4,
+                "lose": 13,
+                "goals": {
+                  "for": 16,
+                  "against": 40
+                }
+              },
+              "away": {
+                "played": 19,
+                "win": 3,
+                "draw": 1,
+                "lose": 15,
+                "goals": {
+                  "for": 11,
+                  "against": 37
+                }
+              },
+              "update": "2020-08-02T00:00:00+00:00"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

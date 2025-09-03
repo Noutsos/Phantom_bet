@@ -1,0 +1,2594 @@
+[
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062485"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062489"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062486"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062518"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062498"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062510"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062493"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062469"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062507"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062509"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062508"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062521"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062513"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062527"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062504"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062515"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062511"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062473"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062528"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062497"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062503"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062487"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062472"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062490"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062453"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062479"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062481"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062463"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062525"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062483"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062484"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062523"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062480"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062457"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062460"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062502"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062465"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062477"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062505"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062459"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062495"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062458"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062499"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062519"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062475"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062494"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062488"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062522"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062470"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062456"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062500"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062526"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062464"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062517"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062530"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062529"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062471"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062492"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062520"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062478"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062514"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062476"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062501"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062482"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062454"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062531"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062461"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062468"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062506"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062491"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062474"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062512"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062467"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062466"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062524"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062496"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062455"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062516"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1062462"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132116"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132022"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132042"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132043"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132041"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132050"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132040"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132038"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132030"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132037"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132025"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132115"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132032"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132051"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132114"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132044"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132036"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132054"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132028"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132045"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132033"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132047"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132021"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132046"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132056"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132053"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132031"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132055"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132027"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132034"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132029"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132048"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132049"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132023"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132024"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132052"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132026"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132039"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132035"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1132057"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135858"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135817"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135868"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135842"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135824"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135861"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135851"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135854"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135869"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135871"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135867"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135844"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135876"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135863"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135848"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135822"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135825"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135879"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135873"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135860"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135826"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135866"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135880"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135836"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135832"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135857"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135852"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135837"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135846"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135855"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135870"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135877"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135847"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135853"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135835"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135849"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135862"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135843"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135878"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135821"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135859"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135872"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135823"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135830"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135839"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135833"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135841"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135829"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135875"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135865"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135819"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135864"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135838"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135856"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135874"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135840"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135818"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135820"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135831"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135828"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135827"
+    },
+    "errors": {
+      "rateLimit": "Too many requests. Your rate limit is 10 requests per minute."
+    },
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135850"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1135845"
+    },
+    "errors": [],
+    "results": 0,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": []
+  }
+]

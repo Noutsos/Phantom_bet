@@ -1,0 +1,2382 @@
+[
+  {
+    "fixture": {
+      "id": 1421137,
+      "referee": "Jo\u00e3o Pedro Silva Pinheiro",
+      "timezone": "UTC",
+      "date": "2025-08-05T17:00:00+00:00",
+      "timestamp": 1754413200,
+      "periods": {
+        "first": 1754413200,
+        "second": 1754416800
+      },
+      "venue": {
+        "id": 1518,
+        "name": "Eleda Stadion",
+        "city": "Malm\u00f6"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 375,
+        "name": "Malmo FF",
+        "logo": "https://media.api-sports.io/football/teams/375.png",
+        "winner": null
+      },
+      "away": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421138,
+      "referee": "Sandro Sch\u00e4rer",
+      "timezone": "UTC",
+      "date": "2025-08-05T18:00:00+00:00",
+      "timestamp": 1754416800,
+      "periods": {
+        "first": 1754416800,
+        "second": 1754420400
+      },
+      "venue": {
+        "id": null,
+        "name": "Motor Lublin Arena",
+        "city": "Lublin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 572,
+        "name": "Dynamo Kyiv",
+        "logo": "https://media.api-sports.io/football/teams/572.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3403,
+        "name": "Pafos",
+        "logo": "https://media.api-sports.io/football/teams/3403.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421139,
+      "referee": "Ivan Kru\u017eliak",
+      "timezone": "UTC",
+      "date": "2025-08-05T18:00:00+00:00",
+      "timestamp": 1754416800,
+      "periods": {
+        "first": 1754416800,
+        "second": 1754420400
+      },
+      "venue": {
+        "id": 1045,
+        "name": "To\u0161e Proeski Arena",
+        "city": "Skopje"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 609,
+        "name": "Shkendija",
+        "logo": "https://media.api-sports.io/football/teams/609.png",
+        "winner": false
+      },
+      "away": {
+        "id": 556,
+        "name": "Qarabag",
+        "logo": "https://media.api-sports.io/football/teams/556.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421140,
+      "referee": "Cl\u00e9ment Turpin",
+      "timezone": "UTC",
+      "date": "2025-08-05T18:45:00+00:00",
+      "timestamp": 1754419500,
+      "periods": {
+        "first": 1754419500,
+        "second": 1754423100
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 257,
+        "name": "Rangers",
+        "logo": "https://media.api-sports.io/football/teams/257.png",
+        "winner": true
+      },
+      "away": {
+        "id": 567,
+        "name": "Plzen",
+        "logo": "https://media.api-sports.io/football/teams/567.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1419568,
+      "referee": "Serdar G\u00f6z\u00fcb\u00fcy\u00fck",
+      "timezone": "UTC",
+      "date": "2025-08-06T15:00:00+00:00",
+      "timestamp": 1754492400,
+      "periods": {
+        "first": 1754492400,
+        "second": 1754496000
+      },
+      "venue": {
+        "id": null,
+        "name": "Ortalyq stad\u0131on",
+        "city": "Almat\u0131 (Almaty)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 13
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 664,
+        "name": "Kairat Almaty",
+        "logo": "https://media.api-sports.io/football/teams/664.png",
+        "winner": true
+      },
+      "away": {
+        "id": 656,
+        "name": "Slovan Bratislava",
+        "logo": "https://media.api-sports.io/football/teams/656.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421141,
+      "referee": "Sr\u0111an Jovanovi\u0107",
+      "timezone": "UTC",
+      "date": "2025-08-06T17:00:00+00:00",
+      "timestamp": 1754499600,
+      "periods": {
+        "first": 1754499600,
+        "second": 1754503200
+      },
+      "venue": {
+        "id": 148,
+        "name": "Red Bull Arena",
+        "city": "Wals-Siezenheim"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 571,
+        "name": "Red Bull Salzburg",
+        "logo": "https://media.api-sports.io/football/teams/571.png",
+        "winner": false
+      },
+      "away": {
+        "id": 569,
+        "name": "Club Brugge KV",
+        "logo": "https://media.api-sports.io/football/teams/569.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421142,
+      "referee": "Espen Esk\u00e5s",
+      "timezone": "UTC",
+      "date": "2025-08-06T17:30:00+00:00",
+      "timestamp": 1754501400,
+      "periods": {
+        "first": 1754501400,
+        "second": 1754505000
+      },
+      "venue": {
+        "id": 10547,
+        "name": "Huvepharma Arena",
+        "city": "Razgrad"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 566,
+        "name": "Ludogorets",
+        "logo": "https://media.api-sports.io/football/teams/566.png",
+        "winner": null
+      },
+      "away": {
+        "id": 651,
+        "name": "Ferencvarosi TC",
+        "logo": "https://media.api-sports.io/football/teams/651.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421143,
+      "referee": "Tobias Stieler",
+      "timezone": "UTC",
+      "date": "2025-08-06T18:30:00+00:00",
+      "timestamp": 1754505000,
+      "periods": {
+        "first": 1754505000,
+        "second": 1754508600
+      },
+      "venue": {
+        "id": 20110,
+        "name": "Enea Stadion",
+        "city": "Pozna\u0144"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 347,
+        "name": "Lech Poznan",
+        "logo": "https://media.api-sports.io/football/teams/347.png",
+        "winner": false
+      },
+      "away": {
+        "id": 598,
+        "name": "FK Crvena Zvezda",
+        "logo": "https://media.api-sports.io/football/teams/598.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1414143,
+      "referee": "Michael Oliver",
+      "timezone": "UTC",
+      "date": "2025-08-06T19:00:00+00:00",
+      "timestamp": 1754506800,
+      "periods": {
+        "first": 1754506800,
+        "second": 1754510400
+      },
+      "venue": {
+        "id": 663,
+        "name": "Allianz Riviera",
+        "city": "Nice"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 84,
+        "name": "Nice",
+        "logo": "https://media.api-sports.io/football/teams/84.png",
+        "winner": false
+      },
+      "away": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1414142,
+      "referee": "Glenn Nyberg",
+      "timezone": "UTC",
+      "date": "2025-08-06T19:00:00+00:00",
+      "timestamp": 1754506800,
+      "periods": {
+        "first": 1754506800,
+        "second": 1754510400
+      },
+      "venue": {
+        "id": 1128,
+        "name": "Stadion Feijenoord",
+        "city": "Rotterdam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 209,
+        "name": "Feyenoord",
+        "logo": "https://media.api-sports.io/football/teams/209.png",
+        "winner": true
+      },
+      "away": {
+        "id": 611,
+        "name": "Fenerbahce",
+        "logo": "https://media.api-sports.io/football/teams/611.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421144,
+      "referee": "Danny Desmond Makkelie",
+      "timezone": "UTC",
+      "date": "2025-08-12T16:00:00+00:00",
+      "timestamp": 1755014400,
+      "periods": {
+        "first": 1755014400,
+        "second": 1755018000
+      },
+      "venue": {
+        "id": 5799,
+        "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+        "city": "Baku"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 556,
+        "name": "Qarabag",
+        "logo": "https://media.api-sports.io/football/teams/556.png",
+        "winner": true
+      },
+      "away": {
+        "id": 609,
+        "name": "Shkendija",
+        "logo": "https://media.api-sports.io/football/teams/609.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 4,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421148,
+      "referee": "Jos\u00e9 Mar\u00eda S\u00e1nchez Mart\u00ednez",
+      "timezone": "UTC",
+      "date": "2025-08-12T17:00:00+00:00",
+      "timestamp": 1755018000,
+      "periods": {
+        "first": 1755018000,
+        "second": 1755021600
+      },
+      "venue": {
+        "id": 11600,
+        "name": "Parken",
+        "city": "K\u00f8benhavn"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png",
+        "winner": true
+      },
+      "away": {
+        "id": 375,
+        "name": "Malmo FF",
+        "logo": "https://media.api-sports.io/football/teams/375.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421146,
+      "referee": "Szymon Marciniak",
+      "timezone": "UTC",
+      "date": "2025-08-12T17:00:00+00:00",
+      "timestamp": 1755018000,
+      "periods": {
+        "first": 1755018000,
+        "second": 1755021600
+      },
+      "venue": {
+        "id": 438,
+        "name": "Doosan Ar\u00e9na",
+        "city": "Plze\u0148"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 567,
+        "name": "Plzen",
+        "logo": "https://media.api-sports.io/football/teams/567.png",
+        "winner": true
+      },
+      "away": {
+        "id": 257,
+        "name": "Rangers",
+        "logo": "https://media.api-sports.io/football/teams/257.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1414144,
+      "referee": "Istv\u00e1n Kov\u00e1cs",
+      "timezone": "UTC",
+      "date": "2025-08-12T17:00:00+00:00",
+      "timestamp": 1755018000,
+      "periods": {
+        "first": 1755018000,
+        "second": 1755021600
+      },
+      "venue": {
+        "id": 1581,
+        "name": "\u00dclker Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+        "city": "\u0130stanbul"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 611,
+        "name": "Fenerbahce",
+        "logo": "https://media.api-sports.io/football/teams/611.png",
+        "winner": true
+      },
+      "away": {
+        "id": 209,
+        "name": "Feyenoord",
+        "logo": "https://media.api-sports.io/football/teams/209.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421145,
+      "referee": "Davide Massa",
+      "timezone": "UTC",
+      "date": "2025-08-12T17:00:00+00:00",
+      "timestamp": 1755018000,
+      "periods": {
+        "first": 1755018000,
+        "second": 1755021600
+      },
+      "venue": {
+        "id": 19616,
+        "name": "Alphamega Stadium",
+        "city": "Kolossi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3403,
+        "name": "Pafos",
+        "logo": "https://media.api-sports.io/football/teams/3403.png",
+        "winner": true
+      },
+      "away": {
+        "id": 572,
+        "name": "Dynamo Kyiv",
+        "logo": "https://media.api-sports.io/football/teams/572.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421147,
+      "referee": "Irfan Peljto",
+      "timezone": "UTC",
+      "date": "2025-08-12T17:30:00+00:00",
+      "timestamp": 1755019800,
+      "periods": {
+        "first": 1755019800,
+        "second": 1755023400
+      },
+      "venue": {
+        "id": 176,
+        "name": "Jan Breydelstadion",
+        "city": "Brugge"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 569,
+        "name": "Club Brugge KV",
+        "logo": "https://media.api-sports.io/football/teams/569.png",
+        "winner": true
+      },
+      "away": {
+        "id": 571,
+        "name": "Red Bull Salzburg",
+        "logo": "https://media.api-sports.io/football/teams/571.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421149,
+      "referee": "Alejandro Jos\u00e9 Hern\u00e1ndez Hern\u00e1ndez",
+      "timezone": "UTC",
+      "date": "2025-08-12T18:15:00+00:00",
+      "timestamp": 1755022500,
+      "periods": {
+        "first": 1755022500,
+        "second": 1755026100
+      },
+      "venue": {
+        "id": 799,
+        "name": "Groupama Ar\u00e9na",
+        "city": "Budapest"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 651,
+        "name": "Ferencvarosi TC",
+        "logo": "https://media.api-sports.io/football/teams/651.png",
+        "winner": true
+      },
+      "away": {
+        "id": 566,
+        "name": "Ludogorets",
+        "logo": "https://media.api-sports.io/football/teams/566.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1419569,
+      "referee": "Beno\u00eet Bastien",
+      "timezone": "UTC",
+      "date": "2025-08-12T18:15:00+00:00",
+      "timestamp": 1755022500,
+      "periods": {
+        "first": 1755022500,
+        "second": 1755026100
+      },
+      "venue": {
+        "id": 11914,
+        "name": "\u0160tadi\u00f3n Teheln\u00e9 pole",
+        "city": "Bratislava"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 656,
+        "name": "Slovan Bratislava",
+        "logo": "https://media.api-sports.io/football/teams/656.png",
+        "winner": false
+      },
+      "away": {
+        "id": 664,
+        "name": "Kairat Almaty",
+        "logo": "https://media.api-sports.io/football/teams/664.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 3,
+        "away": 4
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1414145,
+      "referee": "Marco Guida",
+      "timezone": "UTC",
+      "date": "2025-08-12T19:00:00+00:00",
+      "timestamp": 1755025200,
+      "periods": {
+        "first": 1755025200,
+        "second": 1755028800
+      },
+      "venue": {
+        "id": null,
+        "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+        "city": "Lisboa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png",
+        "winner": true
+      },
+      "away": {
+        "id": 84,
+        "name": "Nice",
+        "logo": "https://media.api-sports.io/football/teams/84.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1421150,
+      "referee": "Fran\u00e7ois Letexier",
+      "timezone": "UTC",
+      "date": "2025-08-12T19:00:00+00:00",
+      "timestamp": 1755025200,
+      "periods": {
+        "first": 1755025200,
+        "second": 1755028800
+      },
+      "venue": {
+        "id": 1406,
+        "name": "Stadion Rajko Miti\u0107",
+        "city": "Beograd"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "3rd Qualifying Round",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 598,
+        "name": "FK Crvena Zvezda",
+        "logo": "https://media.api-sports.io/football/teams/598.png",
+        "winner": null
+      },
+      "away": {
+        "id": 347,
+        "name": "Lech Poznan",
+        "logo": "https://media.api-sports.io/football/teams/347.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1435547,
+      "referee": "Fran\u00e7ois Letexier",
+      "timezone": "UTC",
+      "date": "2025-08-19T19:00:00+00:00",
+      "timestamp": 1755630000,
+      "periods": {
+        "first": 1755630000,
+        "second": 1755633600
+      },
+      "venue": {
+        "id": 1401,
+        "name": "Ibrox Stadium",
+        "city": "Glasgow"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 257,
+        "name": "Rangers",
+        "logo": "https://media.api-sports.io/football/teams/257.png",
+        "winner": false
+      },
+      "away": {
+        "id": 569,
+        "name": "Club Brugge KV",
+        "logo": "https://media.api-sports.io/football/teams/569.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 3
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1435546,
+      "referee": "Alejandro Jos\u00e9 Hern\u00e1ndez Hern\u00e1ndez",
+      "timezone": "UTC",
+      "date": "2025-08-19T19:00:00+00:00",
+      "timestamp": 1755630000,
+      "periods": {
+        "first": 1755630000,
+        "second": 1755633600
+      },
+      "venue": {
+        "id": 1406,
+        "name": "Stadion Rajko Miti\u0107",
+        "city": "Beograd"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 598,
+        "name": "FK Crvena Zvezda",
+        "logo": "https://media.api-sports.io/football/teams/598.png",
+        "winner": false
+      },
+      "away": {
+        "id": 3403,
+        "name": "Pafos",
+        "logo": "https://media.api-sports.io/football/teams/3403.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1435545,
+      "referee": "Jo\u00e3o Pedro Silva Pinheiro",
+      "timezone": "UTC",
+      "date": "2025-08-19T19:00:00+00:00",
+      "timestamp": 1755630000,
+      "periods": {
+        "first": 1755630000,
+        "second": 1755633600
+      },
+      "venue": {
+        "id": 799,
+        "name": "Groupama Ar\u00e9na",
+        "city": "Budapest"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 651,
+        "name": "Ferencvarosi TC",
+        "logo": "https://media.api-sports.io/football/teams/651.png",
+        "winner": false
+      },
+      "away": {
+        "id": 556,
+        "name": "Qarabag",
+        "logo": "https://media.api-sports.io/football/teams/556.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1435549,
+      "referee": "Espen Esk\u00e5s",
+      "timezone": "UTC",
+      "date": "2025-08-20T19:00:00+00:00",
+      "timestamp": 1755716400,
+      "periods": {
+        "first": 1755716400,
+        "second": 1755720000
+      },
+      "venue": {
+        "id": 1386,
+        "name": "Celtic Park",
+        "city": "Glasgow"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 247,
+        "name": "Celtic",
+        "logo": "https://media.api-sports.io/football/teams/247.png",
+        "winner": null
+      },
+      "away": {
+        "id": 664,
+        "name": "Kairat Almaty",
+        "logo": "https://media.api-sports.io/football/teams/664.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1424397,
+      "referee": "Sandro Sch\u00e4rer",
+      "timezone": "UTC",
+      "date": "2025-08-20T19:00:00+00:00",
+      "timestamp": 1755716400,
+      "periods": {
+        "first": 1755716400,
+        "second": 1755720000
+      },
+      "venue": {
+        "id": 1175,
+        "name": "Aspmyra Stadion",
+        "city": "Bod\u00f8"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 327,
+        "name": "Bodo/Glimt",
+        "logo": "https://media.api-sports.io/football/teams/327.png",
+        "winner": true
+      },
+      "away": {
+        "id": 637,
+        "name": "Sturm Graz",
+        "logo": "https://media.api-sports.io/football/teams/637.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1435548,
+      "referee": "Anthony Taylor",
+      "timezone": "UTC",
+      "date": "2025-08-20T19:00:00+00:00",
+      "timestamp": 1755716400,
+      "periods": {
+        "first": 1755716400,
+        "second": 1755720000
+      },
+      "venue": {
+        "id": 1530,
+        "name": "St. Jakob-Park",
+        "city": "Basel"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 551,
+        "name": "FC Basel 1893",
+        "logo": "https://media.api-sports.io/football/teams/551.png",
+        "winner": null
+      },
+      "away": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1435550,
+      "referee": "Daniel Siebert",
+      "timezone": "UTC",
+      "date": "2025-08-20T19:00:00+00:00",
+      "timestamp": 1755716400,
+      "periods": {
+        "first": 1755716400,
+        "second": 1755720000
+      },
+      "venue": {
+        "id": null,
+        "name": "Chobani Stadyumu Fenerbah\u00e7e \u015e\u00fckr\u00fc Saraco\u011flu Spor Kompleksi",
+        "city": "\u0130stanbul"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 611,
+        "name": "Fenerbahce",
+        "logo": "https://media.api-sports.io/football/teams/611.png",
+        "winner": null
+      },
+      "away": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1435551,
+      "referee": "Maurizio Mariani",
+      "timezone": "UTC",
+      "date": "2025-08-26T16:45:00+00:00",
+      "timestamp": 1756226700,
+      "periods": {
+        "first": 1756226700,
+        "second": 1756230300
+      },
+      "venue": {
+        "id": null,
+        "name": "Ortalyq stad\u0131on",
+        "city": "Almat\u0131 (Almaty)"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 664,
+        "name": "Kairat Almaty",
+        "logo": "https://media.api-sports.io/football/teams/664.png",
+        "winner": true
+      },
+      "away": {
+        "id": 247,
+        "name": "Celtic",
+        "logo": "https://media.api-sports.io/football/teams/247.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 3,
+        "away": 2
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1424398,
+      "referee": "Szymon Marciniak",
+      "timezone": "UTC",
+      "date": "2025-08-26T19:00:00+00:00",
+      "timestamp": 1756234800,
+      "periods": {
+        "first": 1756234800,
+        "second": 1756238400
+      },
+      "venue": {
+        "id": 19258,
+        "name": "28 Black Arena",
+        "city": "Klagenfurt am W\u00f6rthersee"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 637,
+        "name": "Sturm Graz",
+        "logo": "https://media.api-sports.io/football/teams/637.png",
+        "winner": true
+      },
+      "away": {
+        "id": 327,
+        "name": "Bodo/Glimt",
+        "logo": "https://media.api-sports.io/football/teams/327.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1435552,
+      "referee": "Michael Oliver",
+      "timezone": "UTC",
+      "date": "2025-08-26T19:00:00+00:00",
+      "timestamp": 1756234800,
+      "periods": {
+        "first": 1756234800,
+        "second": 1756238400
+      },
+      "venue": {
+        "id": 19616,
+        "name": "Alphamega Stadium",
+        "city": "Kolossi"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 3403,
+        "name": "Pafos",
+        "logo": "https://media.api-sports.io/football/teams/3403.png",
+        "winner": null
+      },
+      "away": {
+        "id": 598,
+        "name": "FK Crvena Zvezda",
+        "logo": "https://media.api-sports.io/football/teams/598.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1435553,
+      "referee": "Cl\u00e9ment Turpin",
+      "timezone": "UTC",
+      "date": "2025-08-27T16:45:00+00:00",
+      "timestamp": 1756313100,
+      "periods": {
+        "first": 1756313100,
+        "second": 1756316700
+      },
+      "venue": {
+        "id": 5799,
+        "name": "Tofiq B\u0259hramov ad\u0131na Respublika stadionu",
+        "city": "Baku"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 556,
+        "name": "Qarabag",
+        "logo": "https://media.api-sports.io/football/teams/556.png",
+        "winner": false
+      },
+      "away": {
+        "id": 651,
+        "name": "Ferencvarosi TC",
+        "logo": "https://media.api-sports.io/football/teams/651.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1435556,
+      "referee": "Slavko Vin\u010di\u0107",
+      "timezone": "UTC",
+      "date": "2025-08-27T19:00:00+00:00",
+      "timestamp": 1756321200,
+      "periods": {
+        "first": 1756321200,
+        "second": 1756324800
+      },
+      "venue": {
+        "id": null,
+        "name": "Est\u00e1dio do Sport Lisboa e Benfica",
+        "city": "Lisboa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png",
+        "winner": true
+      },
+      "away": {
+        "id": 611,
+        "name": "Fenerbahce",
+        "logo": "https://media.api-sports.io/football/teams/611.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1435554,
+      "referee": "Istv\u00e1n Kov\u00e1cs",
+      "timezone": "UTC",
+      "date": "2025-08-27T19:00:00+00:00",
+      "timestamp": 1756321200,
+      "periods": {
+        "first": 1756321200,
+        "second": 1756324800
+      },
+      "venue": {
+        "id": 11600,
+        "name": "Parken",
+        "city": "K\u00f8benhavn"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 400,
+        "name": "FC Copenhagen",
+        "logo": "https://media.api-sports.io/football/teams/400.png",
+        "winner": true
+      },
+      "away": {
+        "id": 551,
+        "name": "FC Basel 1893",
+        "logo": "https://media.api-sports.io/football/teams/551.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1435555,
+      "referee": "Felix Zwayer",
+      "timezone": "UTC",
+      "date": "2025-08-27T19:00:00+00:00",
+      "timestamp": 1756321200,
+      "periods": {
+        "first": 1756321200,
+        "second": 1756324800
+      },
+      "venue": {
+        "id": 176,
+        "name": "Jan Breydelstadion",
+        "city": "Brugge"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 1
+      }
+    },
+    "league": {
+      "id": 2,
+      "name": "UEFA Champions League",
+      "country": "World",
+      "logo": "https://media.api-sports.io/football/leagues/2.png",
+      "flag": null,
+      "season": 2025,
+      "round": "Play-offs",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 569,
+        "name": "Club Brugge KV",
+        "logo": "https://media.api-sports.io/football/teams/569.png",
+        "winner": true
+      },
+      "away": {
+        "id": 257,
+        "name": "Rangers",
+        "logo": "https://media.api-sports.io/football/teams/257.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 5,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

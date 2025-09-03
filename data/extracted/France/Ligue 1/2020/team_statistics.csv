@@ -1,0 +1,765 @@
+﻿fixture_id,team_id,team_name,team_logo,Shots on Goal,Shots off Goal,Total Shots,Blocked Shots,Shots insidebox,Shots outsidebox,Fouls,Corner Kicks,Offsides,Ball Possession,Yellow Cards,Red Cards,Goalkeeper Saves,Total passes,Passes accurate,Passes %
+571475,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,1,4,5,0,1,4,10,2,0,43%,2,1,1,482,401,83%
+571475,83,Nantes,https://media.api-sports.io/football/teams/83.png,1,3,6,2,0,6,15,3,3,57%,3,0,1,618,551,89%
+571474,89,Dijon,https://media.api-sports.io/football/teams/89.png,1,5,9,3,5,4,15,3,2,53%,,,3,530,471,89%
+571474,77,Angers,https://media.api-sports.io/football/teams/77.png,4,5,12,3,9,3,8,9,1,47%,,,1,438,382,87%
+571473,79,Lille,https://media.api-sports.io/football/teams/79.png,1,4,5,0,1,4,12,4,,51%,0,1,1,501,421,84%
+571473,94,Rennes,https://media.api-sports.io/football/teams/94.png,2,9,16,5,9,7,16,2,,49%,1,1,0,480,407,85%
+571477,91,Monaco,https://media.api-sports.io/football/teams/91.png,5,12,22,5,16,6,8,8,,76%,1,,1,735,665,90%
+571477,93,Reims,https://media.api-sports.io/football/teams/93.png,3,4,9,2,7,2,14,1,,24%,3,,3,235,162,69%
+571478,92,Nimes,https://media.api-sports.io/football/teams/92.png,5,5,12,2,10,2,14,4,0,44%,2,0,3,333,246,74%
+571478,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,3,5,10,2,6,4,17,4,3,56%,3,1,1,418,321,77%
+571472,97,Lorient,https://media.api-sports.io/football/teams/97.png,7,2,10,1,9,1,17,6,1,49%,3,,0,400,329,82%
+571472,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,1,3,7,3,1,6,10,1,2,51%,2,,4,419,330,79%
+571479,84,Nice,https://media.api-sports.io/football/teams/84.png,2,0,4,2,2,2,17,1,0,57%,2,,4,515,441,86%
+571479,116,Lens,https://media.api-sports.io/football/teams/116.png,4,9,16,3,12,4,18,7,1,43%,3,,0,353,292,83%
+571482,80,Lyon,https://media.api-sports.io/football/teams/80.png,12,10,27,5,22,5,12,13,0,64%,3,,1,538,482,90%
+571482,89,Dijon,https://media.api-sports.io/football/teams/89.png,2,1,6,3,2,4,7,2,4,36%,3,,9,311,238,77%
+571489,94,Rennes,https://media.api-sports.io/football/teams/94.png,7,8,16,1,7,9,18,2,1,66%,3,1,2,611,523,86%
+571489,82,Montpellier,https://media.api-sports.io/football/teams/82.png,3,6,10,1,6,4,16,1,1,34%,2,1,6,293,212,72%
+571491,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,0,6,6,0,3,3,14,3,1,44%,2,,,441,360,82%
+571491,84,Nice,https://media.api-sports.io/football/teams/84.png,2,1,3,0,3,0,11,1,1,56%,6,,,573,495,86%
+571490,93,Reims,https://media.api-sports.io/football/teams/93.png,0,4,4,0,1,3,20,1,2,50%,4,,2,535,449,84%
+571490,79,Lille,https://media.api-sports.io/football/teams/79.png,3,6,10,1,4,6,11,2,2,50%,1,,0,532,434,82%
+571485,77,Angers,https://media.api-sports.io/football/teams/77.png,2,4,12,6,6,6,12,5,1,57%,1,,5,538,460,86%
+571485,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,7,0,7,0,7,0,19,7,1,43%,3,,2,410,333,81%
+571487,83,Nantes,https://media.api-sports.io/football/teams/83.png,4,3,8,1,7,1,17,4,2,33%,3,2,8,275,174,63%
+571487,92,Nimes,https://media.api-sports.io/football/teams/92.png,9,5,18,4,14,4,9,8,1,67%,2,0,2,532,429,81%
+571486,112,Metz,https://media.api-sports.io/football/teams/112.png,4,8,14,2,7,7,14,10,0,54%,0,0,1,471,379,80%
+571486,91,Monaco,https://media.api-sports.io/football/teams/91.png,2,1,3,0,2,1,20,1,4,46%,5,1,4,404,302,75%
+571488,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,5,4,13,4,10,3,14,2,0,52%,2,,1,431,357,83%
+571488,97,Lorient,https://media.api-sports.io/football/teams/97.png,1,2,6,3,4,2,23,5,1,48%,1,,3,378,295,78%
+571484,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,4,13,19,2,16,3,17,10,3,58%,2,,1,490,398,81%
+571484,81,Marseille,https://media.api-sports.io/football/teams/81.png,4,2,7,1,6,1,13,2,2,42%,4,,2,355,260,73%
+571483,116,Lens,https://media.api-sports.io/football/teams/116.png,3,3,7,1,6,1,21,4,3,21%,2,,1,236,164,69%
+571483,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,1,5,8,2,2,6,10,2,3,79%,2,,2,896,813,91%
+571493,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,0,4,5,1,2,3,12,4,,45%,2,,3,369,288,78%
+571493,80,Lyon,https://media.api-sports.io/football/teams/80.png,3,11,20,6,9,11,19,5,,55%,3,,0,456,372,82%
+571499,82,Montpellier,https://media.api-sports.io/football/teams/82.png,13,3,20,4,13,7,18,8,1,37%,0,,0,280,213,76%
+571499,84,Nice,https://media.api-sports.io/football/teams/84.png,1,4,9,4,6,3,16,9,0,63%,2,,10,483,416,86%
+571498,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,4,4,9,1,6,3,13,6,3,48%,1,,6,347,265,76%
+571498,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,7,4,14,3,8,6,19,3,0,52%,3,,2,381,283,74%
+571495,79,Lille,https://media.api-sports.io/football/teams/79.png,6,6,16,4,7,9,12,8,1,61%,4,,1,558,464,83%
+571495,112,Metz,https://media.api-sports.io/football/teams/112.png,1,3,5,1,5,0,14,3,2,39%,4,,5,336,249,74%
+571494,77,Angers,https://media.api-sports.io/football/teams/77.png,7,10,20,3,8,12,12,1,2,57%,4,1,2,544,478,88%
+571494,93,Reims,https://media.api-sports.io/football/teams/93.png,2,5,7,0,4,3,12,2,0,43%,2,1,6,401,325,81%
+571492,89,Dijon,https://media.api-sports.io/football/teams/89.png,3,2,7,2,3,4,16,5,1,49%,2,1,3,433,363,84%
+571492,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,5,10,19,4,10,9,16,7,2,51%,0,0,3,438,368,84%
+571497,92,Nimes,https://media.api-sports.io/football/teams/92.png,9,5,17,3,11,6,17,8,1,45%,2,,2,354,281,79%
+571497,94,Rennes,https://media.api-sports.io/football/teams/94.png,6,3,10,1,6,4,13,4,0,55%,6,,7,444,352,79%
+571496,97,Lorient,https://media.api-sports.io/football/teams/97.png,3,2,6,1,3,3,20,4,,46%,4,0,3,354,256,72%
+571496,116,Lens,https://media.api-sports.io/football/teams/116.png,6,5,12,1,7,5,16,2,,54%,3,1,1,407,324,80%
+571500,91,Monaco,https://media.api-sports.io/football/teams/91.png,5,10,18,3,16,2,14,9,3,57%,3,,1,582,497,85%
+571500,83,Nantes,https://media.api-sports.io/football/teams/83.png,2,4,7,1,3,4,11,4,1,43%,1,,3,420,336,80%
+571501,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,4,6,14,4,9,5,17,4,4,65%,6,3,1,529,463,88%
+571501,81,Marseille,https://media.api-sports.io/football/teams/81.png,2,1,5,2,3,2,19,2,3,35%,8,2,4,279,206,74%
+571480,82,Montpellier,https://media.api-sports.io/football/teams/82.png,3,4,10,3,7,3,13,4,2,44%,3,1,6,391,316,81%
+571480,80,Lyon,https://media.api-sports.io/football/teams/80.png,7,6,19,6,12,7,13,11,0,56%,2,1,1,488,414,85%
+571481,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,8,10,20,2,12,8,8,8,1,71%,3,1,1,638,556,87%
+571481,112,Metz,https://media.api-sports.io/football/teams/112.png,1,3,7,3,4,3,6,2,3,29%,2,0,7,254,172,68%
+571476,81,Marseille,https://media.api-sports.io/football/teams/81.png,2,8,13,3,10,3,13,7,3,59%,2,,3,519,427,82%
+571476,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,5,2,12,5,8,4,15,6,4,41%,2,,2,344,267,78%
+571503,80,Lyon,https://media.api-sports.io/football/teams/80.png,3,5,16,8,8,8,18,9,,73%,3,,4,639,556,87%
+571503,92,Nimes,https://media.api-sports.io/football/teams/92.png,3,4,10,3,2,8,12,2,,27%,2,,3,232,146,63%
+571504,116,Lens,https://media.api-sports.io/football/teams/116.png,5,8,19,6,16,3,15,7,1,59%,5,0,2,546,465,85%
+571504,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,3,4,7,0,4,3,15,0,1,41%,5,1,3,379,300,79%
+571508,94,Rennes,https://media.api-sports.io/football/teams/94.png,3,7,15,5,9,6,11,9,0,58%,1,,1,601,530,88%
+571508,91,Monaco,https://media.api-sports.io/football/teams/91.png,2,6,14,6,9,5,12,10,3,42%,2,,1,424,344,81%
+571509,84,Nice,https://media.api-sports.io/football/teams/84.png,5,5,14,4,5,9,9,4,0,50%,1,,3,551,502,91%
+571509,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,6,3,14,5,14,0,9,7,2,50%,2,,5,539,497,92%
+571507,82,Montpellier,https://media.api-sports.io/football/teams/82.png,9,3,14,2,10,4,14,6,,50%,4,,2,512,444,87%
+571507,77,Angers,https://media.api-sports.io/football/teams/77.png,3,7,14,4,9,5,5,3,,50%,3,,6,518,447,86%
+571511,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,7,7,17,3,11,6,10,8,2,57%,1,,2,562,474,84%
+571511,89,Dijon,https://media.api-sports.io/football/teams/89.png,2,3,5,0,3,2,16,2,1,43%,1,,5,414,335,81%
+571505,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,6,4,14,4,10,4,20,4,2,57%,2,,3,504,422,84%
+571505,97,Lorient,https://media.api-sports.io/football/teams/97.png,4,5,10,1,7,3,13,6,1,43%,1,,3,369,272,74%
+571506,112,Metz,https://media.api-sports.io/football/teams/112.png,4,7,14,3,7,7,14,8,1,59%,1,0,3,450,373,83%
+571506,93,Reims,https://media.api-sports.io/football/teams/93.png,4,3,10,3,4,6,7,5,0,41%,4,1,2,318,233,73%
+571510,83,Nantes,https://media.api-sports.io/football/teams/83.png,3,10,15,2,11,4,12,4,3,56%,2,,1,418,347,83%
+571510,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,4,1,6,1,2,4,17,2,0,44%,2,,1,339,245,72%
+571502,81,Marseille,https://media.api-sports.io/football/teams/81.png,2,6,11,3,6,5,12,5,0,56%,3,,6,499,385,77%
+571502,79,Lille,https://media.api-sports.io/football/teams/79.png,7,6,14,1,9,5,18,4,5,44%,3,,1,391,300,77%
+571512,79,Lille,https://media.api-sports.io/football/teams/79.png,4,3,12,5,9,3,16,4,3,54%,0,,6,498,396,80%
+571512,83,Nantes,https://media.api-sports.io/football/teams/83.png,6,1,12,5,7,5,12,7,1,46%,2,,3,408,309,76%
+571521,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,4,2,6,0,4,2,11,6,5,47%,1,,3,432,358,83%
+571521,94,Rennes,https://media.api-sports.io/football/teams/94.png,6,1,10,3,8,2,12,4,0,53%,1,,4,482,414,86%
+571517,81,Marseille,https://media.api-sports.io/football/teams/81.png,3,11,17,3,9,8,15,5,2,60%,0,,3,563,476,85%
+571517,112,Metz,https://media.api-sports.io/football/teams/112.png,3,5,14,6,7,7,11,5,4,40%,2,,2,368,284,77%
+571514,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,5,7,18,6,13,5,9,7,1,46%,1,,2,475,409,86%
+571514,84,Nice,https://media.api-sports.io/football/teams/84.png,2,9,13,2,4,9,15,7,0,54%,1,,5,561,487,87%
+571515,77,Angers,https://media.api-sports.io/football/teams/77.png,5,4,12,3,9,3,17,6,5,52%,3,,4,510,411,81%
+571515,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,6,6,14,2,12,2,21,1,1,48%,2,,1,471,363,77%
+571513,89,Dijon,https://media.api-sports.io/football/teams/89.png,5,2,15,8,10,5,15,6,2,39%,4,,2,307,221,72%
+571513,82,Montpellier,https://media.api-sports.io/football/teams/82.png,5,6,14,3,9,5,11,13,2,61%,1,,3,475,383,81%
+571520,91,Monaco,https://media.api-sports.io/football/teams/91.png,5,3,11,3,6,5,11,6,3,57%,3,2,3,527,431,82%
+571520,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,5,2,9,2,6,3,12,2,5,43%,1,0,2,381,302,79%
+571519,92,Nimes,https://media.api-sports.io/football/teams/92.png,4,4,13,5,3,10,10,5,2,50%,0,,4,429,308,72%
+571519,116,Lens,https://media.api-sports.io/football/teams/116.png,5,6,15,4,8,7,16,7,1,50%,3,,3,422,315,75%
+571516,97,Lorient,https://media.api-sports.io/football/teams/97.png,2,1,4,1,4,0,19,1,1,31%,2,,5,304,218,72%
+571516,80,Lyon,https://media.api-sports.io/football/teams/80.png,6,10,19,3,9,10,7,5,0,69%,0,,1,672,613,91%
+571518,93,Reims,https://media.api-sports.io/football/teams/93.png,3,4,8,1,4,4,11,3,1,35%,2,,5,370,313,85%
+571518,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,7,12,21,2,15,6,10,7,1,65%,2,,3,676,614,91%
+571529,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,12,2,18,4,12,6,11,6,2,57%,1,,1,648,594,92%
+571529,77,Angers,https://media.api-sports.io/football/teams/77.png,2,5,8,1,5,3,9,2,0,43%,2,,6,478,418,87%
+571522,116,Lens,https://media.api-sports.io/football/teams/116.png,5,6,13,2,8,5,23,12,2,66%,1,0,1,533,457,86%
+571522,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,1,1,2,0,2,0,10,0,0,34%,1,2,4,275,198,72%
+571530,84,Nice,https://media.api-sports.io/football/teams/84.png,8,6,19,5,13,6,13,9,2,73%,2,0,1,758,681,90%
+571530,83,Nantes,https://media.api-sports.io/football/teams/83.png,1,6,11,4,6,5,8,2,2,27%,1,1,6,274,195,71%
+571526,82,Montpellier,https://media.api-sports.io/football/teams/82.png,2,5,12,5,8,4,14,8,2,51%,2,,0,404,293,73%
+571526,92,Nimes,https://media.api-sports.io/football/teams/92.png,1,4,8,3,5,3,15,2,0,49%,1,,2,384,294,77%
+571524,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,7,7,17,3,10,7,15,5,2,50%,2,,1,498,424,85%
+571524,89,Dijon,https://media.api-sports.io/football/teams/89.png,1,2,5,2,2,3,14,4,0,50%,3,,4,496,409,82%
+571528,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,3,7,15,5,13,2,11,11,0,45%,1,,3,421,337,80%
+571528,79,Lille,https://media.api-sports.io/football/teams/79.png,6,3,12,3,6,6,10,1,2,55%,1,,2,530,442,83%
+571523,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,5,2,7,0,6,1,10,1,1,28%,3,,2,256,167,65%
+571523,91,Monaco,https://media.api-sports.io/football/teams/91.png,2,13,21,6,13,8,17,8,0,72%,4,,4,646,559,87%
+571525,112,Metz,https://media.api-sports.io/football/teams/112.png,8,7,16,1,8,8,10,4,0,58%,1,,3,534,456,85%
+571525,97,Lorient,https://media.api-sports.io/football/teams/97.png,4,3,10,3,3,7,15,3,1,42%,2,,5,386,295,76%
+571527,94,Rennes,https://media.api-sports.io/football/teams/94.png,3,9,19,7,12,7,12,10,0,73%,4,,2,651,577,89%
+571527,93,Reims,https://media.api-sports.io/football/teams/93.png,4,4,9,1,6,3,16,2,2,27%,3,,1,232,156,67%
+571531,80,Lyon,https://media.api-sports.io/football/teams/80.png,3,15,24,6,17,7,14,19,1,67%,1,0,0,531,469,88%
+571531,81,Marseille,https://media.api-sports.io/football/teams/81.png,1,2,3,0,1,2,10,5,0,33%,2,1,2,266,190,71%
+571534,89,Dijon,https://media.api-sports.io/football/teams/89.png,4,5,12,3,7,5,22,3,2,39%,4,,2,361,280,78%
+571534,94,Rennes,https://media.api-sports.io/football/teams/94.png,3,6,12,3,6,6,13,5,1,61%,2,,3,561,465,83%
+571540,92,Nimes,https://media.api-sports.io/football/teams/92.png,2,3,5,0,1,4,10,1,1,24%,1,1,7,224,144,64%
+571540,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,11,12,30,7,23,7,12,9,0,76%,2,0,2,706,631,89%
+571539,93,Reims,https://media.api-sports.io/football/teams/93.png,3,1,6,2,3,3,14,3,2,46%,4,2,1,345,259,75%
+571539,97,Lorient,https://media.api-sports.io/football/teams/97.png,4,5,14,5,9,5,11,6,2,54%,1,0,2,388,298,77%
+571532,81,Marseille,https://media.api-sports.io/football/teams/81.png,4,2,6,0,5,1,13,6,2,55%,3,,3,519,430,83%
+571532,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,4,1,8,3,5,3,13,10,1,45%,1,,2,403,316,78%
+571541,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,8,11,19,0,14,5,13,4,3,53%,2,,3,365,271,74%
+571541,80,Lyon,https://media.api-sports.io/football/teams/80.png,8,6,14,0,11,3,8,2,2,47%,3,,6,345,259,75%
+571535,77,Angers,https://media.api-sports.io/football/teams/77.png,2,2,7,3,5,2,18,2,2,46%,4,,2,421,327,78%
+571535,112,Metz,https://media.api-sports.io/football/teams/112.png,3,3,7,1,3,4,13,5,1,54%,2,,1,493,399,81%
+571537,83,Nantes,https://media.api-sports.io/football/teams/83.png,8,2,12,2,10,2,15,2,6,39%,3,,4,347,243,70%
+571537,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,5,8,14,1,7,7,15,6,3,61%,2,,5,520,419,81%
+571536,91,Monaco,https://media.api-sports.io/football/teams/91.png,7,7,21,7,11,10,13,10,2,80%,2,0,1,678,587,87%
+571536,82,Montpellier,https://media.api-sports.io/football/teams/82.png,2,1,3,0,2,1,13,2,3,20%,1,1,6,165,87,53%
+571538,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,4,2,11,5,7,4,15,7,2,46%,2,,2,428,360,84%
+571538,84,Nice,https://media.api-sports.io/football/teams/84.png,5,5,11,1,8,3,10,3,1,54%,5,,3,524,426,81%
+571533,79,Lille,https://media.api-sports.io/football/teams/79.png,6,4,16,6,12,4,13,7,1,56%,0,0,2,515,431,84%
+571533,116,Lens,https://media.api-sports.io/football/teams/116.png,2,3,7,2,4,3,16,2,1,44%,3,2,2,393,290,74%
+571551,94,Rennes,https://media.api-sports.io/football/teams/94.png,1,7,11,3,9,2,11,5,2,63%,2,,2,688,616,90%
+571551,77,Angers,https://media.api-sports.io/football/teams/77.png,4,1,10,5,8,2,5,4,2,37%,0,,0,398,327,82%
+571542,97,Lorient,https://media.api-sports.io/football/teams/97.png,3,9,12,0,7,5,10,6,1,35%,3,,2,278,186,67%
+571542,81,Marseille,https://media.api-sports.io/football/teams/81.png,3,9,15,3,9,6,12,4,0,65%,3,,3,550,437,79%
+571548,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,9,8,20,3,17,3,12,4,2,55%,0,,3,537,488,91%
+571548,89,Dijon,https://media.api-sports.io/football/teams/89.png,3,8,16,5,11,5,18,10,0,45%,2,,5,419,375,89%
+571545,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,6,9,20,5,15,5,9,7,2,59%,3,,4,552,489,89%
+571545,92,Nimes,https://media.api-sports.io/football/teams/92.png,4,4,8,0,5,3,16,4,1,41%,3,,4,377,300,80%
+571550,82,Montpellier,https://media.api-sports.io/football/teams/82.png,1,3,5,1,2,3,7,3,0,32%,1,2,5,323,256,79%
+571550,93,Reims,https://media.api-sports.io/football/teams/93.png,9,9,24,6,18,6,11,8,2,68%,0,0,1,687,634,92%
+571544,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,4,8,14,2,10,4,8,12,3,63%,1,,2,576,488,85%
+571544,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,5,1,7,1,4,3,11,2,1,37%,3,,4,349,250,72%
+571547,112,Metz,https://media.api-sports.io/football/teams/112.png,3,3,6,0,2,4,11,5,1,42%,3,,0,323,232,72%
+571547,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,0,6,10,4,5,5,18,3,1,58%,3,,2,439,349,79%
+571549,84,Nice,https://media.api-sports.io/football/teams/84.png,3,3,8,2,6,2,13,5,1,53%,1,,3,559,489,87%
+571549,79,Lille,https://media.api-sports.io/football/teams/79.png,4,6,12,2,5,7,19,3,3,47%,6,,2,493,433,88%
+571546,80,Lyon,https://media.api-sports.io/football/teams/80.png,6,6,15,3,10,5,12,2,3,34%,3,1,4,292,225,77%
+571546,91,Monaco,https://media.api-sports.io/football/teams/91.png,5,6,18,7,11,7,15,12,0,66%,4,0,2,561,478,85%
+571558,94,Rennes,https://media.api-sports.io/football/teams/94.png,8,8,24,8,16,8,2,8,0,69%,1,,3,808,726,90%
+571558,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,4,3,9,2,7,2,12,1,3,31%,3,,7,365,280,77%
+571557,83,Nantes,https://media.api-sports.io/football/teams/83.png,1,3,6,2,3,3,12,2,0,36%,2,,1,428,356,83%
+571557,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,4,7,13,2,10,3,13,4,4,64%,1,,1,747,679,91%
+571561,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,0,4,8,4,4,4,16,8,0,54%,3,,1,467,394,84%
+571561,82,Montpellier,https://media.api-sports.io/football/teams/82.png,2,6,10,2,6,4,17,2,2,46%,3,,0,392,311,79%
+571555,77,Angers,https://media.api-sports.io/football/teams/77.png,5,4,11,2,6,5,18,9,0,51%,5,,2,479,408,85%
+571555,84,Nice,https://media.api-sports.io/football/teams/84.png,5,2,12,5,7,5,12,5,1,49%,2,,5,460,381,83%
+571554,89,Dijon,https://media.api-sports.io/football/teams/89.png,2,4,11,5,4,7,18,9,3,53%,2,,1,475,373,79%
+571554,97,Lorient,https://media.api-sports.io/football/teams/97.png,1,3,9,5,5,4,13,7,3,47%,1,,2,409,316,77%
+571560,92,Nimes,https://media.api-sports.io/football/teams/92.png,2,8,16,6,7,9,13,10,1,66%,3,0,4,556,454,82%
+571560,112,Metz,https://media.api-sports.io/football/teams/112.png,5,1,8,2,4,4,15,1,1,34%,2,1,2,283,190,67%
+571559,93,Reims,https://media.api-sports.io/football/teams/93.png,4,6,12,2,4,8,13,5,,51%,0,,1,454,380,84%
+571559,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,3,5,8,0,6,2,13,3,,49%,2,,3,406,338,83%
+571556,91,Monaco,https://media.api-sports.io/football/teams/91.png,6,5,17,6,13,4,10,10,2,52%,2,,0,474,412,87%
+571556,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,0,1,5,4,3,2,12,4,1,48%,2,,2,439,357,81%
+571553,79,Lille,https://media.api-sports.io/football/teams/79.png,6,4,15,5,4,11,14,9,,60%,3,0,1,600,532,89%
+571553,80,Lyon,https://media.api-sports.io/football/teams/80.png,1,4,8,3,5,3,10,4,,40%,3,1,5,400,325,81%
+571568,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,2,5,9,2,5,4,13,2,,51%,0,,0,491,363,74%
+571568,81,Marseille,https://media.api-sports.io/football/teams/81.png,1,0,1,0,0,1,17,2,,49%,4,,2,464,356,77%
+571564,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,1,6,9,2,4,5,14,3,,52%,2,,1,521,445,85%
+571564,82,Montpellier,https://media.api-sports.io/football/teams/82.png,3,4,9,2,6,3,10,5,,48%,1,,1,463,391,84%
+571567,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,6,3,9,0,3,6,19,2,1,49%,3,,3,513,435,85%
+571567,94,Rennes,https://media.api-sports.io/football/teams/94.png,3,7,16,6,10,6,15,7,1,51%,0,,3,509,435,85%
+571563,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,8,2,12,2,11,1,13,3,1,36%,4,,5,316,236,75%
+571563,79,Lille,https://media.api-sports.io/football/teams/79.png,7,5,22,10,13,9,15,11,5,64%,3,,5,545,487,89%
+571569,92,Nimes,https://media.api-sports.io/football/teams/92.png,4,5,11,2,7,4,12,6,1,60%,2,,3,404,338,84%
+571569,77,Angers,https://media.api-sports.io/football/teams/77.png,8,2,15,5,11,4,15,2,0,40%,5,,3,268,192,72%
+571565,97,Lorient,https://media.api-sports.io/football/teams/97.png,4,9,18,5,10,8,18,5,,47%,3,,2,401,282,70%
+571565,83,Nantes,https://media.api-sports.io/football/teams/83.png,4,5,16,7,5,11,10,5,,53%,1,,4,436,330,76%
+571566,112,Metz,https://media.api-sports.io/football/teams/112.png,4,7,14,3,10,4,16,5,1,45%,2,,5,323,274,85%
+571566,89,Dijon,https://media.api-sports.io/football/teams/89.png,6,7,14,1,11,3,11,6,0,55%,1,,3,410,344,84%
+571562,116,Lens,https://media.api-sports.io/football/teams/116.png,5,6,14,3,8,6,12,9,1,62%,3,,3,547,466,85%
+571562,93,Reims,https://media.api-sports.io/football/teams/93.png,6,2,8,0,6,2,7,1,1,38%,1,,2,347,253,73%
+571570,84,Nice,https://media.api-sports.io/football/teams/84.png,4,2,8,2,3,5,8,1,2,62%,2,,6,603,514,85%
+571570,91,Monaco,https://media.api-sports.io/football/teams/91.png,8,5,15,2,12,3,16,4,1,38%,2,,3,362,279,77%
+571571,80,Lyon,https://media.api-sports.io/football/teams/80.png,6,9,18,3,14,4,19,3,3,59%,5,,4,447,364,81%
+571571,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,4,3,15,8,8,7,19,5,0,41%,3,,4,287,193,67%
+571581,94,Rennes,https://media.api-sports.io/football/teams/94.png,2,9,14,3,8,6,18,7,3,59%,2,,2,519,406,78%
+571581,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,3,2,6,1,3,3,19,3,1,41%,2,,2,372,274,74%
+571577,91,Monaco,https://media.api-sports.io/football/teams/91.png,5,8,15,2,10,5,12,2,0,52%,2,0,2,540,458,85%
+571577,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,4,5,9,0,5,4,19,1,4,48%,3,1,2,491,428,87%
+571574,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,5,4,10,1,6,4,12,5,,41%,1,,0,405,306,76%
+571574,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,1,9,17,7,10,7,10,6,,59%,1,,1,558,485,87%
+571579,83,Nantes,https://media.api-sports.io/football/teams/83.png,5,8,18,5,13,5,18,6,2,66%,2,,3,568,487,86%
+571579,112,Metz,https://media.api-sports.io/football/teams/112.png,4,2,11,5,9,2,15,2,2,34%,3,,4,274,195,71%
+571580,82,Montpellier,https://media.api-sports.io/football/teams/82.png,9,10,21,2,16,5,16,11,0,57%,2,,2,486,420,86%
+571580,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,5,3,9,1,7,2,11,3,1,43%,1,,5,371,281,76%
+571573,89,Dijon,https://media.api-sports.io/football/teams/89.png,2,5,11,4,8,3,15,8,1,52%,2,,3,512,419,82%
+571573,116,Lens,https://media.api-sports.io/football/teams/116.png,4,3,8,1,6,2,7,6,1,48%,0,,2,462,370,80%
+571578,93,Reims,https://media.api-sports.io/football/teams/93.png,6,6,16,4,7,9,18,7,4,71%,3,,4,614,518,84%
+571578,92,Nimes,https://media.api-sports.io/football/teams/92.png,5,1,6,0,2,4,11,1,1,29%,1,,6,255,164,64%
+571575,77,Angers,https://media.api-sports.io/football/teams/77.png,8,6,19,5,9,10,12,8,0,50%,2,,1,453,372,82%
+571575,80,Lyon,https://media.api-sports.io/football/teams/80.png,2,2,5,1,5,0,12,3,3,50%,3,,7,460,382,83%
+571572,79,Lille,https://media.api-sports.io/football/teams/79.png,13,8,31,10,20,11,10,9,,63%,1,,2,695,607,87%
+571572,97,Lorient,https://media.api-sports.io/football/teams/97.png,2,1,7,4,5,2,11,4,,37%,3,,9,396,304,77%
+571543,116,Lens,https://media.api-sports.io/football/teams/116.png,1,3,7,3,3,4,14,6,1,49%,4,,2,439,320,73%
+571543,83,Nantes,https://media.api-sports.io/football/teams/83.png,3,3,11,5,9,2,18,2,0,51%,2,,0,452,348,77%
+571591,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,3,2,6,1,2,4,11,2,1,31%,,1,6,291,210,72%
+571591,94,Rennes,https://media.api-sports.io/football/teams/94.png,7,8,21,6,13,8,12,7,0,69%,,0,2,620,548,88%
+571582,81,Marseille,https://media.api-sports.io/football/teams/81.png,9,4,15,2,12,3,16,3,2,57%,4,,1,478,399,83%
+571582,83,Nantes,https://media.api-sports.io/football/teams/83.png,2,3,6,1,3,3,11,7,1,43%,2,,6,343,278,81%
+571589,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,9,5,16,2,13,3,8,14,4,65%,1,,3,631,559,89%
+571589,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,4,8,18,6,10,8,10,5,1,35%,1,,7,330,259,78%
+571583,80,Lyon,https://media.api-sports.io/football/teams/80.png,4,9,15,2,8,7,20,4,3,64%,2,0,2,636,573,90%
+571583,93,Reims,https://media.api-sports.io/football/teams/93.png,2,5,9,2,3,6,11,2,3,36%,1,1,1,353,290,82%
+571587,91,Monaco,https://media.api-sports.io/football/teams/91.png,5,6,17,6,13,4,16,8,2,67%,1,0,2,614,541,88%
+571587,92,Nimes,https://media.api-sports.io/football/teams/92.png,2,4,6,0,3,3,9,3,1,33%,1,1,2,293,205,70%
+571584,97,Lorient,https://media.api-sports.io/football/teams/97.png,2,6,8,0,5,3,13,2,3,41%,2,,2,357,266,75%
+571584,82,Montpellier,https://media.api-sports.io/football/teams/82.png,3,9,16,4,14,2,14,4,1,59%,1,,2,499,402,81%
+571586,112,Metz,https://media.api-sports.io/football/teams/112.png,6,5,15,4,8,7,11,10,0,46%,2,,2,453,382,84%
+571586,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,3,5,10,2,6,4,10,5,2,54%,1,,6,530,451,85%
+571585,116,Lens,https://media.api-sports.io/football/teams/116.png,5,6,13,2,7,6,15,1,0,64%,2,,3,620,546,88%
+571585,77,Angers,https://media.api-sports.io/football/teams/77.png,6,9,18,3,12,6,13,7,1,36%,2,,4,339,264,78%
+571590,84,Nice,https://media.api-sports.io/football/teams/84.png,7,12,23,4,15,8,7,11,5,61%,3,,1,624,538,86%
+571590,89,Dijon,https://media.api-sports.io/football/teams/89.png,4,3,9,2,6,3,21,1,0,39%,3,,5,386,308,80%
+571588,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,5,1,7,1,3,4,15,3,1,38%,4,,1,357,259,73%
+571588,79,Lille,https://media.api-sports.io/football/teams/79.png,2,5,9,2,4,5,13,3,2,62%,1,,4,570,461,81%
+571599,92,Nimes,https://media.api-sports.io/football/teams/92.png,0,6,7,1,4,3,11,1,2,31%,3,1,2,297,208,70%
+571599,81,Marseille,https://media.api-sports.io/football/teams/81.png,4,7,17,6,14,3,18,8,4,69%,4,0,0,635,540,85%
+571601,94,Rennes,https://media.api-sports.io/football/teams/94.png,4,4,10,2,6,4,17,8,0,59%,1,,2,501,387,77%
+571601,116,Lens,https://media.api-sports.io/football/teams/116.png,4,2,6,0,3,3,16,3,1,41%,3,,4,341,226,66%
+571597,82,Montpellier,https://media.api-sports.io/football/teams/82.png,2,10,17,5,8,9,12,3,1,35%,1,,3,357,275,77%
+571597,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,6,5,13,2,10,3,14,3,2,65%,3,,1,679,604,89%
+571592,79,Lille,https://media.api-sports.io/football/teams/79.png,5,3,10,2,5,5,12,1,,41%,3,,2,425,339,80%
+571592,91,Monaco,https://media.api-sports.io/football/teams/91.png,3,3,8,2,5,3,11,3,,59%,0,,3,586,490,84%
+571595,77,Angers,https://media.api-sports.io/football/teams/77.png,3,5,10,2,7,3,13,2,1,47%,3,,3,450,338,75%
+571595,97,Lorient,https://media.api-sports.io/football/teams/97.png,3,7,12,2,3,9,11,12,0,53%,0,,1,476,372,78%
+571594,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,6,11,21,4,12,9,10,8,1,58%,0,,3,667,605,91%
+571594,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,3,2,8,3,1,7,11,2,4,42%,3,,5,475,400,84%
+571600,83,Nantes,https://media.api-sports.io/football/teams/83.png,2,6,14,6,9,5,13,7,1,62%,3,,4,568,487,86%
+571600,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,8,4,12,0,9,3,13,3,2,38%,2,,2,352,261,74%
+571593,89,Dijon,https://media.api-sports.io/football/teams/89.png,1,4,6,1,4,2,15,7,0,40%,0,,2,369,248,67%
+571593,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,2,4,7,1,3,4,13,4,2,60%,1,,1,528,418,79%
+571598,93,Reims,https://media.api-sports.io/football/teams/93.png,2,5,11,4,7,4,12,6,3,35%,1,,4,341,250,73%
+571598,84,Nice,https://media.api-sports.io/football/teams/84.png,4,2,12,6,7,5,13,6,1,65%,2,,2,644,537,83%
+571596,112,Metz,https://media.api-sports.io/football/teams/112.png,5,4,12,3,6,6,14,5,0,46%,1,1,2,447,377,84%
+571596,80,Lyon,https://media.api-sports.io/football/teams/80.png,5,8,18,5,14,4,14,6,1,54%,0,1,4,524,458,87%
+571607,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,3,8,14,3,9,5,16,5,2,62%,3,,3,629,536,85%
+571607,77,Angers,https://media.api-sports.io/football/teams/77.png,3,2,8,3,5,3,15,6,1,38%,3,,3,376,295,78%
+571606,81,Marseille,https://media.api-sports.io/football/teams/81.png,2,2,5,1,4,1,22,1,1,39%,3,,3,355,243,68%
+571606,91,Monaco,https://media.api-sports.io/football/teams/91.png,4,4,9,1,8,1,10,3,4,61%,2,,0,551,433,79%
+571603,116,Lens,https://media.api-sports.io/football/teams/116.png,4,7,14,3,10,4,11,6,1,59%,1,,4,525,442,84%
+571603,82,Montpellier,https://media.api-sports.io/football/teams/82.png,7,1,10,2,8,2,14,4,0,41%,1,,3,358,263,73%
+571609,84,Nice,https://media.api-sports.io/football/teams/84.png,3,6,11,2,5,6,16,3,1,54%,2,,4,552,469,85%
+571609,94,Rennes,https://media.api-sports.io/football/teams/94.png,6,7,16,3,11,5,10,6,1,46%,1,,3,463,390,84%
+571610,83,Nantes,https://media.api-sports.io/football/teams/83.png,6,6,17,5,11,6,11,4,0,37%,2,,2,339,227,67%
+571610,89,Dijon,https://media.api-sports.io/football/teams/89.png,4,7,13,2,9,4,16,4,3,63%,2,,5,569,477,84%
+571608,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,4,12,17,1,8,9,11,5,0,56%,3,,1,502,401,80%
+571608,112,Metz,https://media.api-sports.io/football/teams/112.png,3,2,6,1,4,2,16,4,2,44%,5,,2,385,280,73%
+571605,97,Lorient,https://media.api-sports.io/football/teams/97.png,5,6,13,2,11,2,18,2,2,43%,2,,2,397,293,74%
+571605,92,Nimes,https://media.api-sports.io/football/teams/92.png,2,2,6,2,5,1,7,3,0,57%,0,,2,498,384,77%
+571604,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,6,4,10,0,9,1,12,3,1,51%,1,,3,484,388,80%
+571604,93,Reims,https://media.api-sports.io/football/teams/93.png,4,5,10,1,6,4,11,4,3,49%,1,,4,450,373,83%
+571602,79,Lille,https://media.api-sports.io/football/teams/79.png,5,8,15,2,9,6,14,8,2,55%,0,,2,527,444,84%
+571602,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,3,1,4,0,2,2,10,3,0,45%,2,,3,420,335,80%
+571611,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,1,3,7,3,6,1,11,5,2,64%,4,0,4,601,536,89%
+571611,80,Lyon,https://media.api-sports.io/football/teams/80.png,5,1,9,3,4,5,17,5,3,36%,1,1,1,331,265,80%
+571615,77,Angers,https://media.api-sports.io/football/teams/77.png,2,2,8,4,2,6,9,6,1,55%,1,,1,530,446,84%
+571615,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,3,3,7,1,3,4,11,2,1,45%,2,,2,419,334,80%
+571617,82,Montpellier,https://media.api-sports.io/football/teams/82.png,3,9,14,2,8,6,11,10,0,58%,3,,3,511,431,84%
+571617,112,Metz,https://media.api-sports.io/football/teams/112.png,5,3,9,1,6,3,9,2,1,42%,3,,3,378,306,81%
+571613,89,Dijon,https://media.api-sports.io/football/teams/89.png,1,4,6,1,1,5,21,5,0,46%,,,3,419,340,81%
+571613,79,Lille,https://media.api-sports.io/football/teams/79.png,5,5,10,0,5,5,8,4,2,54%,,,1,481,389,81%
+571620,92,Nimes,https://media.api-sports.io/football/teams/92.png,4,9,15,2,8,7,8,4,1,44%,1,0,4,420,339,81%
+571620,84,Nice,https://media.api-sports.io/football/teams/84.png,6,6,14,2,11,3,10,5,0,56%,2,1,4,530,455,86%
+571618,93,Reims,https://media.api-sports.io/football/teams/93.png,4,6,13,3,8,5,13,3,4,45%,2,,5,389,307,79%
+571618,83,Nantes,https://media.api-sports.io/football/teams/83.png,7,5,18,6,8,10,13,6,0,55%,2,,1,465,379,82%
+571614,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,3,4,11,4,7,4,12,3,2,52%,3,,6,476,394,83%
+571614,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,8,6,19,5,8,11,14,4,0,48%,2,,2,432,357,83%
+571612,80,Lyon,https://media.api-sports.io/football/teams/80.png,11,10,28,7,17,11,13,12,1,56%,3,0,1,524,467,89%
+571612,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,2,3,8,3,4,4,4,2,2,44%,0,1,8,424,344,81%
+571619,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,8,10,24,6,14,10,19,9,,74%,3,0,3,773,696,90%
+571619,97,Lorient,https://media.api-sports.io/football/teams/97.png,3,4,8,1,6,2,9,2,,26%,0,1,6,260,184,71%
+571616,91,Monaco,https://media.api-sports.io/football/teams/91.png,1,4,7,2,5,2,8,3,3,32%,2,1,1,325,244,75%
+571616,116,Lens,https://media.api-sports.io/football/teams/116.png,4,3,8,1,4,4,17,3,0,68%,4,0,1,712,631,89%
+571621,94,Rennes,https://media.api-sports.io/football/teams/94.png,5,4,15,6,8,7,19,9,1,67%,1,0,0,576,491,85%
+571621,81,Marseille,https://media.api-sports.io/football/teams/81.png,1,5,7,1,4,3,15,1,0,33%,4,1,3,288,201,70%
+571626,112,Metz,https://media.api-sports.io/football/teams/112.png,4,6,12,2,9,3,17,8,0,39%,1,,3,317,233,74%
+571626,116,Lens,https://media.api-sports.io/football/teams/116.png,3,6,17,8,8,9,8,4,1,61%,1,,2,502,405,81%
+571625,81,Marseille,https://media.api-sports.io/football/teams/81.png,6,4,12,2,9,3,11,7,1,71%,1,,1,653,578,89%
+571625,93,Reims,https://media.api-sports.io/football/teams/93.png,1,1,3,1,2,1,11,3,2,29%,3,,5,270,194,72%
+571629,84,Nice,https://media.api-sports.io/football/teams/84.png,1,4,8,3,4,4,17,8,1,54%,1,,5,592,526,89%
+571629,80,Lyon,https://media.api-sports.io/football/teams/80.png,9,4,13,0,9,4,9,2,1,46%,1,,0,502,442,88%
+571624,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,7,7,17,3,11,6,14,6,1,55%,2,,2,549,487,89%
+571624,82,Montpellier,https://media.api-sports.io/football/teams/82.png,4,4,10,2,6,4,15,4,0,45%,1,,5,430,371,86%
+571630,83,Nantes,https://media.api-sports.io/football/teams/83.png,2,5,9,2,6,3,16,5,,60%,3,,5,585,468,80%
+571630,77,Angers,https://media.api-sports.io/football/teams/77.png,6,4,12,2,7,5,13,6,,40%,0,,1,375,266,71%
+571623,89,Dijon,https://media.api-sports.io/football/teams/89.png,1,10,11,0,8,3,13,2,3,51%,2,,5,446,367,82%
+571623,91,Monaco,https://media.api-sports.io/football/teams/91.png,6,4,13,3,10,3,14,6,2,49%,1,,1,419,334,80%
+571628,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,3,1,10,6,6,4,15,5,2,54%,2,,4,447,352,79%
+571628,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,6,3,11,2,9,2,12,3,3,46%,1,,4,391,307,79%
+571627,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,9,6,18,3,11,7,15,6,2,59%,2,,2,479,406,85%
+571627,92,Nimes,https://media.api-sports.io/football/teams/92.png,4,3,9,2,4,5,9,3,0,41%,3,,7,330,249,75%
+571622,97,Lorient,https://media.api-sports.io/football/teams/97.png,2,8,11,1,7,4,19,1,,43%,1,,1,438,364,83%
+571622,94,Rennes,https://media.api-sports.io/football/teams/94.png,4,4,15,7,9,6,9,2,,57%,2,,2,572,491,86%
+571631,79,Lille,https://media.api-sports.io/football/teams/79.png,3,2,8,3,4,4,12,4,2,30%,0,,2,336,255,76%
+571631,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,1,5,8,2,7,1,11,5,1,70%,2,,3,755,663,88%
+571634,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,3,4,9,2,5,4,11,5,0,62%,3,,2,663,592,89%
+571634,93,Reims,https://media.api-sports.io/football/teams/93.png,5,1,10,4,5,5,12,5,2,38%,1,,2,410,329,80%
+571640,84,Nice,https://media.api-sports.io/football/teams/84.png,3,0,3,0,2,1,11,0,1,41%,3,1,4,435,356,82%
+571640,97,Lorient,https://media.api-sports.io/football/teams/97.png,6,11,24,7,11,13,13,10,0,59%,4,0,1,581,514,88%
+571639,92,Nimes,https://media.api-sports.io/football/teams/92.png,1,4,8,3,5,3,10,7,3,46%,2,1,1,378,286,76%
+571639,89,Dijon,https://media.api-sports.io/football/teams/89.png,4,5,14,5,12,2,11,3,5,54%,2,0,0,449,359,80%
+571641,94,Rennes,https://media.api-sports.io/football/teams/94.png,6,3,11,2,8,3,14,6,0,62%,1,,4,615,522,85%
+571641,112,Metz,https://media.api-sports.io/football/teams/112.png,4,3,9,2,6,3,18,5,2,38%,1,,5,369,284,77%
+571633,116,Lens,https://media.api-sports.io/football/teams/116.png,4,6,11,1,10,1,13,3,1,47%,0,,2,459,377,82%
+571633,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,3,3,10,4,8,2,13,6,1,53%,2,,2,505,419,83%
+571635,77,Angers,https://media.api-sports.io/football/teams/77.png,2,4,9,3,7,2,14,2,2,29%,2,,1,241,174,72%
+571635,81,Marseille,https://media.api-sports.io/football/teams/81.png,2,5,8,1,5,3,14,8,1,71%,4,,0,605,499,82%
+571632,80,Lyon,https://media.api-sports.io/football/teams/80.png,11,4,22,7,19,3,11,9,1,64%,1,,3,676,603,89%
+571632,83,Nantes,https://media.api-sports.io/football/teams/83.png,4,9,18,5,13,5,13,7,2,36%,3,,8,349,281,81%
+571637,82,Montpellier,https://media.api-sports.io/football/teams/82.png,6,5,17,6,10,7,13,6,0,46%,3,,4,402,328,82%
+571637,79,Lille,https://media.api-sports.io/football/teams/79.png,7,2,9,0,5,4,11,4,2,54%,2,,4,482,406,84%
+571638,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,8,6,17,3,11,6,7,5,2,68%,,,2,794,739,93%
+571638,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,2,3,8,3,4,4,9,5,1,32%,,,3,341,281,82%
+571636,91,Monaco,https://media.api-sports.io/football/teams/91.png,2,0,2,0,2,0,12,0,0,39%,3,1,4,327,229,70%
+571636,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,6,11,18,1,12,6,13,10,2,61%,2,0,0,474,383,81%
+571650,83,Nantes,https://media.api-sports.io/football/teams/83.png,2,3,7,2,4,3,13,6,,28%,2,,0,302,218,72%
+571650,94,Rennes,https://media.api-sports.io/football/teams/94.png,0,3,8,5,6,2,13,3,,72%,3,,2,795,713,90%
+571651,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,12,5,21,4,17,4,12,10,,59%,1,,2,553,479,87%
+571651,92,Nimes,https://media.api-sports.io/football/teams/92.png,2,1,6,3,6,0,6,5,,41%,2,,7,381,314,82%
+571643,97,Lorient,https://media.api-sports.io/football/teams/97.png,5,4,11,2,3,8,9,5,2,40%,1,1,4,386,312,81%
+571643,91,Monaco,https://media.api-sports.io/football/teams/91.png,9,1,15,5,9,6,9,8,1,60%,3,0,3,579,504,87%
+571645,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,6,3,10,1,7,3,12,6,2,39%,2,,6,410,311,76%
+571645,84,Nice,https://media.api-sports.io/football/teams/84.png,6,5,12,1,9,3,8,6,0,61%,3,,4,633,541,85%
+571647,112,Metz,https://media.api-sports.io/football/teams/112.png,3,2,9,4,6,3,10,3,3,42%,1,,3,430,347,81%
+571647,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,3,4,12,5,7,5,20,2,1,58%,2,,3,588,511,87%
+571644,79,Lille,https://media.api-sports.io/football/teams/79.png,2,3,7,2,3,4,12,8,2,66%,3,,1,651,542,83%
+571644,77,Angers,https://media.api-sports.io/football/teams/77.png,3,3,7,1,3,4,10,6,1,34%,1,,1,329,224,68%
+571642,80,Lyon,https://media.api-sports.io/football/teams/80.png,6,4,11,1,6,5,9,7,2,49%,1,,1,442,365,83%
+571642,116,Lens,https://media.api-sports.io/football/teams/116.png,3,5,11,3,6,5,10,4,2,51%,2,,4,434,360,83%
+571646,81,Marseille,https://media.api-sports.io/football/teams/81.png,7,7,17,3,11,6,4,5,0,56%,,,4,592,515,87%
+571646,82,Montpellier,https://media.api-sports.io/football/teams/82.png,5,7,13,1,8,5,6,1,6,44%,,,4,447,357,80%
+571649,93,Reims,https://media.api-sports.io/football/teams/93.png,3,3,9,3,5,4,13,7,1,57%,2,,0,532,451,85%
+571649,89,Dijon,https://media.api-sports.io/football/teams/89.png,0,4,8,4,2,6,8,5,0,43%,3,,3,403,313,78%
+571648,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,5,5,11,1,9,2,13,9,1,31%,1,,3,318,233,73%
+571648,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,4,6,11,1,10,1,12,10,1,69%,1,,4,719,642,89%
+571655,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,6,7,16,3,11,5,10,5,1,48%,2,,3,488,391,80%
+571655,97,Lorient,https://media.api-sports.io/football/teams/97.png,4,5,12,3,7,5,10,3,4,52%,0,,4,522,431,83%
+571657,82,Montpellier,https://media.api-sports.io/football/teams/82.png,6,1,8,1,7,1,18,1,1,47%,5,,2,424,350,83%
+571657,83,Nantes,https://media.api-sports.io/football/teams/83.png,3,7,12,2,2,10,11,8,2,53%,0,,3,474,412,87%
+571659,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,11,6,22,5,17,5,7,7,3,60%,1,,2,671,610,91%
+571659,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,2,6,12,4,6,6,13,4,0,40%,1,,8,425,360,85%
+571654,89,Dijon,https://media.api-sports.io/football/teams/89.png,0,4,4,0,2,2,13,0,5,41%,3,,4,395,303,77%
+571654,81,Marseille,https://media.api-sports.io/football/teams/81.png,4,5,11,2,8,3,13,6,3,59%,2,,0,555,440,79%
+571656,91,Monaco,https://media.api-sports.io/football/teams/91.png,4,7,13,2,11,2,9,5,3,55%,2,,2,602,506,84%
+571656,77,Angers,https://media.api-sports.io/football/teams/77.png,2,3,6,1,4,2,10,2,0,45%,0,,2,473,357,75%
+571660,92,Nimes,https://media.api-sports.io/football/teams/92.png,0,3,7,4,5,2,12,2,1,48%,0,,1,482,384,80%
+571660,79,Lille,https://media.api-sports.io/football/teams/79.png,2,4,10,4,8,2,13,3,1,52%,3,,0,521,434,83%
+571658,93,Reims,https://media.api-sports.io/football/teams/93.png,3,3,7,1,4,3,19,0,0,34%,2,,5,305,214,70%
+571658,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,6,5,14,3,11,3,17,3,2,66%,4,,0,568,477,84%
+571661,94,Rennes,https://media.api-sports.io/football/teams/94.png,6,6,14,2,7,7,12,2,1,55%,1,,2,601,520,87%
+571661,80,Lyon,https://media.api-sports.io/football/teams/80.png,4,7,13,2,7,6,16,5,0,45%,2,,5,486,407,84%
+571652,112,Metz,https://media.api-sports.io/football/teams/112.png,5,5,16,6,7,9,19,5,4,43%,2,,3,387,301,78%
+571652,84,Nice,https://media.api-sports.io/football/teams/84.png,4,1,11,6,5,6,8,2,1,57%,2,,4,515,428,83%
+571653,116,Lens,https://media.api-sports.io/football/teams/116.png,2,6,11,3,7,4,16,4,2,65%,1,,3,586,502,86%
+571653,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,4,3,10,3,7,3,15,4,1,35%,1,,2,315,209,66%
+571670,82,Montpellier,https://media.api-sports.io/football/teams/82.png,3,1,9,5,7,2,17,5,1,51%,2,,1,441,327,74%
+571670,91,Monaco,https://media.api-sports.io/football/teams/91.png,5,6,16,5,13,3,12,6,1,49%,3,,1,423,302,71%
+571667,81,Marseille,https://media.api-sports.io/football/teams/81.png,6,4,14,4,10,4,13,7,1,64%,2,,4,657,568,86%
+571667,92,Nimes,https://media.api-sports.io/football/teams/92.png,5,2,8,1,6,2,6,3,7,36%,2,,5,360,276,77%
+571665,77,Angers,https://media.api-sports.io/football/teams/77.png,4,4,11,3,6,5,11,5,1,39%,0,,2,412,324,79%
+571665,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,3,6,11,2,8,3,13,7,2,61%,2,,4,670,585,87%
+571664,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,4,7,14,3,14,0,9,3,2,41%,1,,2,441,363,82%
+571664,94,Rennes,https://media.api-sports.io/football/teams/94.png,4,3,7,0,5,2,8,3,0,59%,1,,3,632,559,88%
+571669,83,Nantes,https://media.api-sports.io/football/teams/83.png,2,4,10,4,5,5,14,2,2,41%,3,,0,347,246,71%
+571669,116,Lens,https://media.api-sports.io/football/teams/116.png,1,6,8,1,6,2,19,4,1,59%,3,,1,487,409,84%
+571668,84,Nice,https://media.api-sports.io/football/teams/84.png,1,7,10,2,6,4,8,3,4,50%,0,,6,454,393,87%
+571668,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,9,4,17,4,13,4,7,10,6,50%,1,,1,451,379,84%
+571671,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,3,8,15,4,8,7,23,7,0,41%,2,,3,339,251,74%
+571671,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,3,3,8,2,7,1,9,3,1,59%,2,,2,490,414,84%
+571663,79,Lille,https://media.api-sports.io/football/teams/79.png,8,4,16,4,8,8,13,3,,61%,2,,3,635,549,86%
+571663,93,Reims,https://media.api-sports.io/football/teams/93.png,4,2,8,2,3,5,11,5,,39%,1,,6,405,324,80%
+571666,80,Lyon,https://media.api-sports.io/football/teams/80.png,5,11,23,7,17,6,14,9,1,63%,1,,2,542,456,84%
+571666,112,Metz,https://media.api-sports.io/football/teams/112.png,4,9,18,5,10,8,11,2,0,37%,3,,5,304,221,73%
+571552,81,Marseille,https://media.api-sports.io/football/teams/81.png,1,3,4,0,0,4,13,3,0,45%,5,,3,439,348,79%
+571552,116,Lens,https://media.api-sports.io/football/teams/116.png,4,6,13,3,8,5,12,9,3,55%,3,,1,512,437,85%
+571679,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,8,11,26,7,18,8,16,7,3,72%,2,0,1,620,553,89%
+571679,82,Montpellier,https://media.api-sports.io/football/teams/82.png,1,4,5,0,2,3,12,1,1,28%,1,1,4,234,155,66%
+571672,116,Lens,https://media.api-sports.io/football/teams/116.png,3,6,13,4,5,8,9,6,2,55%,2,,1,503,427,85%
+571672,84,Nice,https://media.api-sports.io/football/teams/84.png,2,4,7,1,4,3,14,2,2,45%,1,,3,414,329,79%
+571676,91,Monaco,https://media.api-sports.io/football/teams/91.png,6,2,8,0,4,4,18,5,3,53%,3,,0,460,336,73%
+571676,81,Marseille,https://media.api-sports.io/football/teams/81.png,1,4,5,0,2,3,21,4,1,47%,5,,3,405,281,69%
+571674,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,3,2,7,2,5,2,11,3,3,45%,1,,6,461,390,85%
+571674,77,Angers,https://media.api-sports.io/football/teams/77.png,7,5,15,3,9,6,20,4,0,55%,2,,1,546,475,87%
+571673,89,Dijon,https://media.api-sports.io/football/teams/89.png,3,2,5,0,3,2,14,3,2,49%,1,,1,454,348,77%
+571673,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,2,10,15,3,10,5,9,4,0,51%,0,,2,477,389,82%
+571677,93,Reims,https://media.api-sports.io/football/teams/93.png,2,5,12,5,9,3,16,2,1,35%,3,,0,313,232,74%
+571677,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,0,8,15,7,6,9,11,4,1,65%,0,,1,560,472,84%
+571675,112,Metz,https://media.api-sports.io/football/teams/112.png,4,4,14,6,5,9,15,4,1,43%,3,,0,362,298,82%
+571675,83,Nantes,https://media.api-sports.io/football/teams/83.png,0,6,8,2,3,5,15,6,4,57%,1,,2,450,379,84%
+571678,94,Rennes,https://media.api-sports.io/football/teams/94.png,2,5,11,4,6,5,12,2,0,68%,2,,3,644,543,84%
+571678,79,Lille,https://media.api-sports.io/football/teams/79.png,4,4,9,1,8,1,15,2,4,32%,2,,2,304,193,63%
+571681,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,0,3,3,0,3,0,13,1,2,40%,3,,7,348,257,74%
+571681,80,Lyon,https://media.api-sports.io/football/teams/80.png,12,3,19,4,12,7,9,8,1,60%,1,,0,518,441,85%
+571662,97,Lorient,https://media.api-sports.io/football/teams/97.png,5,5,14,4,10,4,13,9,4,45%,2,,0,322,243,75%
+571662,89,Dijon,https://media.api-sports.io/football/teams/89.png,2,5,7,0,7,0,17,6,0,55%,3,,3,401,296,74%
+571686,80,Lyon,https://media.api-sports.io/football/teams/80.png,4,1,10,5,5,5,17,7,0,57%,1,,1,551,460,83%
+571686,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,2,7,12,3,6,6,6,9,2,43%,2,,2,408,325,80%
+571690,82,Montpellier,https://media.api-sports.io/football/teams/82.png,7,5,17,5,14,3,15,12,3,55%,4,,0,407,325,80%
+571690,116,Lens,https://media.api-sports.io/football/teams/116.png,2,5,11,4,5,6,17,3,0,45%,4,,6,350,263,75%
+571688,84,Nice,https://media.api-sports.io/football/teams/84.png,2,2,7,3,4,3,11,4,1,45%,2,,0,439,366,83%
+571688,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,1,9,10,0,8,2,11,10,0,55%,2,,2,504,452,90%
+571685,77,Angers,https://media.api-sports.io/football/teams/77.png,5,6,12,1,8,4,9,4,1,39%,1,,3,393,317,81%
+571685,92,Nimes,https://media.api-sports.io/football/teams/92.png,4,4,8,0,3,5,7,8,2,61%,3,,2,602,525,87%
+571691,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,2,5,12,5,7,5,17,4,,47%,1,,4,422,352,83%
+571691,93,Reims,https://media.api-sports.io/football/teams/93.png,5,3,10,2,7,3,8,3,,53%,2,,2,481,398,83%
+571682,97,Lorient,https://media.api-sports.io/football/teams/97.png,5,6,16,5,8,8,15,7,1,35%,4,,1,284,225,79%
+571682,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,3,8,14,3,10,4,9,9,0,65%,2,,2,542,467,86%
+571684,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,5,4,10,1,7,3,13,4,2,63%,1,,2,616,524,85%
+571684,112,Metz,https://media.api-sports.io/football/teams/112.png,6,7,15,2,6,9,14,1,0,37%,3,,3,363,288,79%
+571683,79,Lille,https://media.api-sports.io/football/teams/79.png,2,8,14,4,8,6,12,5,2,58%,2,,3,685,579,85%
+571683,89,Dijon,https://media.api-sports.io/football/teams/89.png,3,4,10,3,4,6,7,2,0,42%,2,,1,485,379,78%
+571689,83,Nantes,https://media.api-sports.io/football/teams/83.png,3,4,8,1,5,3,11,2,3,31%,4,1,3,292,206,71%
+571689,91,Monaco,https://media.api-sports.io/football/teams/91.png,5,6,14,3,8,6,14,8,3,69%,3,0,2,635,540,85%
+571695,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,4,4,10,2,7,3,8,1,0,53%,1,,3,551,486,88%
+571695,79,Lille,https://media.api-sports.io/football/teams/79.png,6,3,11,2,8,3,17,2,1,47%,2,,4,472,392,83%
+571700,93,Reims,https://media.api-sports.io/football/teams/93.png,2,7,10,1,6,4,6,4,3,57%,2,,2,540,453,84%
+571700,77,Angers,https://media.api-sports.io/football/teams/77.png,2,3,6,1,1,5,8,5,0,43%,1,,2,394,317,80%
+571699,94,Rennes,https://media.api-sports.io/football/teams/94.png,6,2,10,2,7,3,17,5,0,59%,2,,2,629,540,86%
+571699,97,Lorient,https://media.api-sports.io/football/teams/97.png,3,8,12,1,6,6,6,3,2,41%,1,,5,430,340,79%
+571701,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,4,4,9,1,2,7,12,3,0,41%,2,,0,379,293,77%
+571701,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,2,1,3,0,3,0,14,3,2,59%,0,,2,549,461,84%
+571692,112,Metz,https://media.api-sports.io/football/teams/112.png,6,6,17,5,8,9,15,8,0,45%,6,,2,362,304,84%
+571692,82,Montpellier,https://media.api-sports.io/football/teams/82.png,4,1,15,10,8,7,15,7,1,55%,1,,5,433,368,85%
+571697,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,6,6,14,2,10,4,13,4,3,66%,0,,6,719,654,91%
+571697,92,Nimes,https://media.api-sports.io/football/teams/92.png,6,6,19,7,12,7,11,7,1,34%,1,,3,355,300,85%
+571694,89,Dijon,https://media.api-sports.io/football/teams/89.png,2,10,14,2,7,7,15,1,1,37%,2,,7,381,300,79%
+571694,80,Lyon,https://media.api-sports.io/football/teams/80.png,8,5,16,3,12,4,12,6,0,63%,0,,2,660,566,86%
+571696,91,Monaco,https://media.api-sports.io/football/teams/91.png,6,5,15,4,10,5,16,6,1,42%,0,,1,383,289,75%
+571696,84,Nice,https://media.api-sports.io/football/teams/84.png,2,2,5,1,3,2,19,2,0,58%,4,,4,541,459,85%
+571693,116,Lens,https://media.api-sports.io/football/teams/116.png,3,13,21,5,11,10,18,8,3,60%,4,,2,506,420,83%
+571693,81,Marseille,https://media.api-sports.io/football/teams/81.png,4,6,11,1,7,4,14,4,0,40%,2,,1,334,229,69%
+571698,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,8,5,14,1,10,4,15,5,1,50%,3,,5,379,275,73%
+571698,83,Nantes,https://media.api-sports.io/football/teams/83.png,6,5,12,1,7,5,19,5,1,50%,1,,6,373,278,75%
+571702,97,Lorient,https://media.api-sports.io/football/teams/97.png,3,4,9,2,2,7,12,2,1,40%,0,,3,351,268,76%
+571702,93,Reims,https://media.api-sports.io/football/teams/93.png,3,4,13,6,8,5,12,5,3,60%,4,,2,503,397,79%
+571705,80,Lyon,https://media.api-sports.io/football/teams/80.png,8,4,16,4,10,6,7,6,2,70%,2,0,1,651,582,89%
+571705,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,1,3,8,4,4,4,10,2,0,30%,2,1,5,271,201,74%
+571703,116,Lens,https://media.api-sports.io/football/teams/116.png,3,2,10,5,6,4,13,6,,52%,2,,1,524,434,83%
+571703,94,Rennes,https://media.api-sports.io/football/teams/94.png,1,8,10,1,6,4,11,4,,48%,4,,3,485,395,81%
+571704,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,6,13,25,6,15,10,11,6,1,46%,1,,3,452,370,82%
+571704,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,4,1,8,3,5,3,15,4,0,54%,3,,4,526,435,83%
+571706,82,Montpellier,https://media.api-sports.io/football/teams/82.png,11,9,24,4,20,4,12,9,1,59%,3,0,3,463,393,85%
+571706,89,Dijon,https://media.api-sports.io/football/teams/89.png,5,4,13,4,10,3,14,4,0,41%,3,1,7,336,262,78%
+571709,84,Nice,https://media.api-sports.io/football/teams/84.png,2,6,11,3,8,3,11,5,0,51%,2,,3,492,419,85%
+571709,77,Angers,https://media.api-sports.io/football/teams/77.png,3,4,10,3,5,5,9,9,1,49%,1,,0,449,381,85%
+571707,92,Nimes,https://media.api-sports.io/football/teams/92.png,4,3,9,2,6,3,12,5,0,44%,2,,1,420,340,81%
+571707,91,Monaco,https://media.api-sports.io/football/teams/91.png,5,3,11,3,7,4,16,6,2,56%,2,,1,527,444,84%
+571708,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,3,5,12,4,7,5,8,8,1,49%,2,,0,442,338,76%
+571708,112,Metz,https://media.api-sports.io/football/teams/112.png,0,8,10,2,3,7,9,2,1,51%,2,,3,466,353,76%
+571710,83,Nantes,https://media.api-sports.io/football/teams/83.png,2,3,6,1,4,2,13,4,0,43%,3,,1,420,317,75%
+571710,79,Lille,https://media.api-sports.io/football/teams/79.png,3,10,15,2,8,7,13,2,2,57%,0,,1,549,444,81%
+571711,81,Marseille,https://media.api-sports.io/football/teams/81.png,4,4,12,4,5,7,12,7,2,53%,1,1,0,554,462,83%
+571711,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,2,7,9,0,7,2,12,1,3,47%,2,0,4,486,415,85%
+571719,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,4,10,17,3,10,7,12,4,1,55%,2,,4,608,552,91%
+571719,84,Nice,https://media.api-sports.io/football/teams/84.png,5,6,13,2,8,5,6,1,1,45%,0,,2,501,439,88%
+571718,93,Reims,https://media.api-sports.io/football/teams/93.png,6,2,9,1,6,3,9,4,1,35%,2,,5,300,223,74%
+571718,116,Lens,https://media.api-sports.io/football/teams/116.png,6,6,17,5,11,6,7,6,3,65%,0,,5,529,447,84%
+571716,80,Lyon,https://media.api-sports.io/football/teams/80.png,8,7,24,9,21,3,9,6,0,54%,0,,3,475,393,83%
+571716,82,Montpellier,https://media.api-sports.io/football/teams/82.png,5,5,12,2,9,3,12,1,1,46%,1,,7,394,297,75%
+571720,91,Monaco,https://media.api-sports.io/football/teams/91.png,4,4,12,4,10,2,13,7,2,70%,3,,0,712,604,85%
+571720,97,Lorient,https://media.api-sports.io/football/teams/97.png,2,3,5,0,2,3,13,1,0,30%,3,,3,313,215,69%
+571715,77,Angers,https://media.api-sports.io/football/teams/77.png,3,1,8,4,7,1,18,7,0,65%,2,,1,560,453,81%
+571715,83,Nantes,https://media.api-sports.io/football/teams/83.png,3,2,7,2,5,2,21,2,2,35%,3,,2,299,206,69%
+571713,89,Dijon,https://media.api-sports.io/football/teams/89.png,3,7,10,0,7,3,17,3,1,50%,4,1,2,478,365,76%
+571713,92,Nimes,https://media.api-sports.io/football/teams/92.png,4,3,8,1,6,2,13,0,4,50%,1,0,3,476,353,74%
+571721,94,Rennes,https://media.api-sports.io/football/teams/94.png,2,10,13,1,9,4,18,7,0,72%,5,,1,646,535,83%
+571721,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,3,2,6,1,4,2,16,1,1,28%,2,,2,249,151,61%
+571717,112,Metz,https://media.api-sports.io/football/teams/112.png,2,7,14,5,8,6,13,7,1,45%,2,,0,398,299,75%
+571717,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,2,5,13,6,9,4,12,7,1,55%,1,,2,477,376,79%
+571712,79,Lille,https://media.api-sports.io/football/teams/79.png,0,10,15,5,7,8,16,9,1,69%,2,,1,676,595,88%
+571712,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,1,1,3,1,0,3,15,3,1,31%,1,,0,304,221,73%
+571714,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,1,13,19,5,13,6,13,6,3,56%,1,0,1,492,433,88%
+571714,81,Marseille,https://media.api-sports.io/football/teams/81.png,0,3,4,1,2,2,17,5,3,44%,1,2,1,389,304,78%
+571576,81,Marseille,https://media.api-sports.io/football/teams/81.png,4,2,8,2,4,4,10,5,1,44%,2,,2,429,340,79%
+571576,84,Nice,https://media.api-sports.io/football/teams/84.png,4,5,10,1,7,3,13,3,2,56%,1,,1,541,460,85%
+571725,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,7,7,19,5,11,8,9,11,1,50%,2,,4,483,377,78%
+571725,80,Lyon,https://media.api-sports.io/football/teams/80.png,7,4,16,5,13,3,12,7,0,50%,2,,5,491,394,80%
+571728,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,8,8,19,3,9,10,10,1,1,48%,0,,1,385,284,74%
+571728,93,Reims,https://media.api-sports.io/football/teams/93.png,2,2,4,0,4,0,11,2,1,52%,2,,6,431,327,76%
+571726,83,Nantes,https://media.api-sports.io/football/teams/83.png,1,4,6,1,4,2,11,2,2,33%,4,0,2,299,187,63%
+571726,81,Marseille,https://media.api-sports.io/football/teams/81.png,3,4,7,0,4,3,15,1,3,67%,1,1,0,598,466,78%
+571722,82,Montpellier,https://media.api-sports.io/football/teams/82.png,7,4,12,1,9,3,10,3,0,34%,1,,4,319,243,76%
+571722,94,Rennes,https://media.api-sports.io/football/teams/94.png,5,5,14,4,10,4,12,6,1,66%,2,,5,594,525,88%
+571727,84,Nice,https://media.api-sports.io/football/teams/84.png,3,4,12,5,7,5,16,3,0,65%,1,,2,586,494,84%
+571727,112,Metz,https://media.api-sports.io/football/teams/112.png,4,6,11,1,7,4,12,3,1,35%,1,,2,316,235,74%
+571730,92,Nimes,https://media.api-sports.io/football/teams/92.png,3,1,8,4,5,3,10,6,1,28%,0,0,4,261,183,70%
+571730,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,4,4,11,3,5,6,12,7,1,72%,3,1,1,630,565,90%
+571731,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,2,8,15,5,11,4,23,5,1,57%,2,,3,515,416,81%
+571731,77,Angers,https://media.api-sports.io/football/teams/77.png,3,0,8,5,3,5,11,4,0,43%,1,,2,375,277,74%
+571724,116,Lens,https://media.api-sports.io/football/teams/116.png,4,4,11,3,5,6,13,5,3,55%,3,0,2,474,403,85%
+571724,89,Dijon,https://media.api-sports.io/football/teams/89.png,4,5,12,3,7,5,12,4,1,45%,0,1,2,380,288,76%
+571723,97,Lorient,https://media.api-sports.io/football/teams/97.png,3,3,8,2,4,4,9,1,2,44%,2,,4,436,349,80%
+571723,79,Lille,https://media.api-sports.io/football/teams/79.png,7,5,16,4,6,10,9,5,1,56%,0,,2,547,455,83%
+571729,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,1,7,10,2,5,5,12,3,,74%,4,,1,794,718,90%
+571729,91,Monaco,https://media.api-sports.io/football/teams/91.png,3,1,5,1,4,1,10,2,,26%,1,,1,264,187,71%
+571680,92,Nimes,https://media.api-sports.io/football/teams/92.png,2,4,7,1,3,4,10,4,1,49%,2,,3,458,363,79%
+571680,97,Lorient,https://media.api-sports.io/football/teams/97.png,3,5,11,3,5,6,14,7,0,51%,4,,1,476,393,83%
+571738,94,Rennes,https://media.api-sports.io/football/teams/94.png,5,5,17,7,5,12,17,6,2,62%,0,,5,548,481,88%
+571738,84,Nice,https://media.api-sports.io/football/teams/84.png,7,5,14,2,8,6,18,1,1,38%,2,,4,330,259,78%
+571733,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,1,5,8,2,6,2,18,1,1,50%,1,,3,417,326,78%
+571733,112,Metz,https://media.api-sports.io/football/teams/112.png,5,5,15,5,13,2,12,10,2,50%,2,,0,379,285,75%
+571732,89,Dijon,https://media.api-sports.io/football/teams/89.png,1,2,5,2,2,3,10,2,3,39%,2,,1,402,349,87%
+571732,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,5,0,7,2,5,2,9,4,3,61%,1,,1,627,565,90%
+571740,91,Monaco,https://media.api-sports.io/football/teams/91.png,9,5,15,1,9,6,14,4,1,63%,2,,1,690,606,88%
+571740,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,1,3,7,3,3,4,6,2,3,37%,0,,8,396,314,79%
+571734,77,Angers,https://media.api-sports.io/football/teams/77.png,3,3,6,0,4,2,16,6,1,39%,,,2,286,191,67%
+571734,116,Lens,https://media.api-sports.io/football/teams/116.png,4,6,14,4,8,6,15,11,3,61%,,,1,447,365,82%
+571739,92,Nimes,https://media.api-sports.io/football/teams/92.png,4,2,8,2,5,3,16,1,0,60%,2,1,0,512,396,77%
+571739,83,Nantes,https://media.api-sports.io/football/teams/83.png,1,4,8,3,5,3,25,8,2,40%,1,0,3,313,206,66%
+571737,93,Reims,https://media.api-sports.io/football/teams/93.png,2,5,9,2,5,4,9,5,3,56%,1,,2,493,415,84%
+571737,82,Montpellier,https://media.api-sports.io/football/teams/82.png,2,6,9,1,5,4,10,1,0,44%,1,,2,375,282,75%
+571736,97,Lorient,https://media.api-sports.io/football/teams/97.png,3,5,11,3,4,7,12,5,2,55%,1,,1,478,386,81%
+571736,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,2,7,9,0,6,3,15,3,1,45%,3,,1,383,297,78%
+571735,79,Lille,https://media.api-sports.io/football/teams/79.png,5,6,14,3,8,6,10,9,0,68%,0,,2,633,531,84%
+571735,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,3,5,10,2,4,6,14,2,1,32%,2,,4,289,195,67%
+571741,81,Marseille,https://media.api-sports.io/football/teams/81.png,2,5,12,5,10,2,13,7,0,53%,4,0,0,479,407,85%
+571741,80,Lyon,https://media.api-sports.io/football/teams/80.png,1,6,11,4,4,7,11,2,7,47%,4,1,1,424,353,83%
+571742,80,Lyon,https://media.api-sports.io/football/teams/80.png,7,4,15,4,11,4,12,6,4,46%,1,,1,475,385,81%
+571742,94,Rennes,https://media.api-sports.io/football/teams/94.png,1,7,12,4,7,5,15,4,1,54%,3,,6,536,455,85%
+571749,84,Nice,https://media.api-sports.io/football/teams/84.png,4,5,10,1,8,2,14,0,2,54%,3,,6,587,510,87%
+571749,92,Nimes,https://media.api-sports.io/football/teams/92.png,7,8,22,7,17,5,8,6,1,46%,3,,2,475,388,82%
+571744,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,3,6,10,1,8,2,17,3,,49%,3,,1,482,406,84%
+571744,89,Dijon,https://media.api-sports.io/football/teams/89.png,2,6,10,2,6,4,13,5,,51%,1,,0,490,406,83%
+571746,112,Metz,https://media.api-sports.io/football/teams/112.png,2,6,15,7,6,9,18,6,2,65%,2,1,3,585,504,86%
+571746,77,Angers,https://media.api-sports.io/football/teams/77.png,4,4,8,0,5,3,9,1,2,35%,2,0,2,311,226,73%
+571748,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,4,10,18,4,13,5,13,13,,65%,3,,2,525,426,81%
+571748,116,Lens,https://media.api-sports.io/football/teams/116.png,5,4,9,0,8,1,12,3,,35%,2,,1,284,207,73%
+571745,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,2,8,11,1,8,3,8,8,2,43%,3,,2,443,374,84%
+571745,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,3,5,12,4,9,3,15,1,4,57%,3,,2,596,523,88%
+571743,79,Lille,https://media.api-sports.io/football/teams/79.png,8,7,23,8,16,7,12,11,1,60%,0,,1,558,461,83%
+571743,81,Marseille,https://media.api-sports.io/football/teams/81.png,1,1,3,1,1,2,7,1,0,40%,1,,6,372,275,74%
+571747,82,Montpellier,https://media.api-sports.io/football/teams/82.png,4,3,10,3,5,5,17,5,1,53%,2,,5,480,395,82%
+571747,97,Lorient,https://media.api-sports.io/football/teams/97.png,6,5,14,3,7,7,15,3,0,47%,3,,3,434,350,81%
+571750,83,Nantes,https://media.api-sports.io/football/teams/83.png,5,6,12,1,5,7,10,6,1,49%,0,,0,408,301,74%
+571750,93,Reims,https://media.api-sports.io/football/teams/93.png,2,2,4,0,4,0,15,3,1,51%,5,,4,424,314,74%
+571751,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,2,7,17,8,8,9,10,5,5,37%,3,,1,322,220,68%
+571751,91,Monaco,https://media.api-sports.io/football/teams/91.png,1,3,5,1,4,1,12,7,0,63%,0,,2,557,444,80%
+571687,81,Marseille,https://media.api-sports.io/football/teams/81.png,2,4,9,3,8,1,15,3,1,50%,2,,2,466,382,82%
+571687,94,Rennes,https://media.api-sports.io/football/teams/94.png,2,5,10,3,3,7,19,4,0,50%,3,,1,460,378,82%
+571758,93,Reims,https://media.api-sports.io/football/teams/93.png,5,6,14,3,6,8,11,2,2,32%,3,,5,333,238,71%
+571758,80,Lyon,https://media.api-sports.io/football/teams/80.png,6,8,17,3,11,6,12,5,5,68%,1,,4,684,576,84%
+571755,77,Angers,https://media.api-sports.io/football/teams/77.png,1,1,4,2,3,1,8,6,2,54%,1,,2,522,408,78%
+571755,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,3,3,7,1,4,3,14,3,3,46%,2,,1,447,339,76%
+571756,81,Marseille,https://media.api-sports.io/football/teams/81.png,6,2,12,4,8,4,15,3,2,40%,3,,0,392,313,80%
+571756,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,1,2,6,3,2,4,12,6,3,60%,1,,2,603,522,87%
+571760,92,Nimes,https://media.api-sports.io/football/teams/92.png,7,3,12,2,8,4,11,5,1,39%,2,,4,279,177,63%
+571760,82,Montpellier,https://media.api-sports.io/football/teams/82.png,5,6,12,1,6,6,19,7,5,61%,0,,5,393,310,79%
+571754,89,Dijon,https://media.api-sports.io/football/teams/89.png,3,8,13,2,10,3,15,5,1,45%,5,,3,407,315,77%
+571754,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,6,2,10,2,8,2,7,6,1,55%,1,,2,472,371,79%
+571761,94,Rennes,https://media.api-sports.io/football/teams/94.png,2,7,11,2,8,3,13,6,3,49%,0,,1,476,385,81%
+571761,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,1,3,6,2,3,3,13,3,1,51%,2,,1,473,368,78%
+571752,97,Lorient,https://media.api-sports.io/football/teams/97.png,7,4,17,6,9,8,2,5,1,49%,2,,1,500,425,85%
+571752,84,Nice,https://media.api-sports.io/football/teams/84.png,2,2,6,2,2,4,12,2,1,51%,2,,6,515,438,85%
+571753,116,Lens,https://media.api-sports.io/football/teams/116.png,6,8,16,2,5,11,17,6,0,52%,4,,2,436,354,81%
+571753,112,Metz,https://media.api-sports.io/football/teams/112.png,4,1,7,2,4,3,8,1,3,48%,3,,4,402,321,80%
+571757,91,Monaco,https://media.api-sports.io/football/teams/91.png,4,1,8,3,7,1,11,6,4,63%,3,,2,654,566,87%
+571757,79,Lille,https://media.api-sports.io/football/teams/79.png,2,2,5,1,2,3,11,2,1,37%,3,,4,379,288,76%
+571759,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,5,6,11,0,6,5,14,9,0,74%,2,,3,718,659,92%
+571759,83,Nantes,https://media.api-sports.io/football/teams/83.png,5,3,8,0,4,4,15,1,1,26%,2,,4,250,178,71%
+571767,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,3,2,9,4,6,3,7,2,1,40%,1,,0,381,282,74%
+571767,91,Monaco,https://media.api-sports.io/football/teams/91.png,4,7,15,4,7,8,11,6,1,60%,2,,3,580,485,84%
+571765,112,Metz,https://media.api-sports.io/football/teams/112.png,2,6,14,6,8,6,11,4,3,52%,0,0,2,502,414,82%
+571765,94,Rennes,https://media.api-sports.io/football/teams/94.png,5,4,9,0,4,5,12,3,2,48%,2,1,1,475,362,76%
+571769,84,Nice,https://media.api-sports.io/football/teams/84.png,7,7,17,3,12,5,11,7,2,42%,1,,2,371,297,80%
+571769,81,Marseille,https://media.api-sports.io/football/teams/81.png,2,2,7,3,2,5,16,5,2,58%,1,,4,498,422,85%
+571768,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,5,7,17,5,10,7,10,12,0,59%,2,,2,464,368,79%
+571768,116,Lens,https://media.api-sports.io/football/teams/116.png,4,7,12,1,8,4,10,7,1,41%,5,,4,323,244,76%
+571766,82,Montpellier,https://media.api-sports.io/football/teams/82.png,9,9,23,5,18,5,8,6,2,43%,1,,2,384,315,82%
+571766,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,3,5,13,5,7,6,10,6,2,57%,2,,6,506,428,85%
+571770,83,Nantes,https://media.api-sports.io/football/teams/83.png,3,4,8,1,6,2,11,2,0,36%,0,,2,349,255,73%
+571770,97,Lorient,https://media.api-sports.io/football/teams/97.png,3,6,15,6,8,7,8,7,1,64%,1,,2,608,507,83%
+571763,89,Dijon,https://media.api-sports.io/football/teams/89.png,4,5,10,1,8,2,10,2,1,54%,3,,1,514,411,80%
+571763,93,Reims,https://media.api-sports.io/football/teams/93.png,2,4,9,3,5,4,10,3,3,46%,0,,4,429,347,81%
+571764,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,2,5,11,4,6,5,17,3,2,52%,1,,5,533,451,85%
+571764,77,Angers,https://media.api-sports.io/football/teams/77.png,5,8,15,2,6,9,11,6,0,48%,3,,2,493,408,83%
+571762,79,Lille,https://media.api-sports.io/football/teams/79.png,4,6,15,5,10,5,19,8,3,72%,2,,2,731,638,87%
+571762,92,Nimes,https://media.api-sports.io/football/teams/92.png,4,5,10,1,8,2,10,0,0,28%,0,,3,286,192,67%
+571771,80,Lyon,https://media.api-sports.io/football/teams/80.png,7,1,8,0,5,3,14,1,4,42%,2,,5,441,380,86%
+571771,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,9,5,14,0,9,5,15,4,1,58%,0,,5,605,543,90%
+571777,91,Monaco,https://media.api-sports.io/football/teams/91.png,6,5,15,4,10,5,16,8,3,61%,0,0,1,514,427,83%
+571777,112,Metz,https://media.api-sports.io/football/teams/112.png,1,3,6,2,4,2,15,1,1,39%,6,1,2,329,262,80%
+571778,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,3,10,16,3,8,8,18,5,0,65%,6,1,2,580,507,87%
+571778,79,Lille,https://media.api-sports.io/football/teams/79.png,3,0,3,0,2,1,12,0,2,35%,4,1,3,321,239,74%
+571773,116,Lens,https://media.api-sports.io/football/teams/116.png,4,4,9,1,4,5,12,2,1,39%,3,0,4,388,303,78%
+571773,80,Lyon,https://media.api-sports.io/football/teams/80.png,6,7,15,2,12,3,14,4,2,61%,3,1,3,590,504,85%
+571775,77,Angers,https://media.api-sports.io/football/teams/77.png,4,5,14,5,8,6,15,4,1,62%,1,,2,618,526,85%
+571775,82,Montpellier,https://media.api-sports.io/football/teams/82.png,3,5,8,0,7,1,9,0,1,38%,1,,3,362,264,73%
+571774,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,6,6,14,2,8,6,8,6,,61%,1,,2,582,510,88%
+571774,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,5,4,12,3,10,2,15,5,,39%,1,,4,356,274,77%
+571780,83,Nantes,https://media.api-sports.io/football/teams/83.png,6,8,18,4,7,11,15,10,0,49%,1,,6,426,339,80%
+571780,84,Nice,https://media.api-sports.io/football/teams/84.png,8,4,17,5,10,7,14,5,1,51%,2,,5,441,361,82%
+571781,93,Reims,https://media.api-sports.io/football/teams/93.png,4,5,9,0,4,5,7,1,1,42%,3,1,6,383,318,83%
+571781,94,Rennes,https://media.api-sports.io/football/teams/94.png,8,4,19,7,9,10,11,6,1,58%,3,0,2,514,456,89%
+571772,97,Lorient,https://media.api-sports.io/football/teams/97.png,4,5,13,4,5,8,9,6,3,45%,3,0,1,401,301,75%
+571772,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,1,2,5,2,3,2,23,5,0,55%,2,1,3,480,366,76%
+571779,92,Nimes,https://media.api-sports.io/football/teams/92.png,3,6,14,5,9,5,12,5,2,52%,5,,4,424,333,79%
+571779,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,5,7,15,3,10,5,19,3,1,48%,2,,3,375,280,75%
+571776,81,Marseille,https://media.api-sports.io/football/teams/81.png,3,7,16,6,9,7,11,7,3,64%,2,,1,653,573,88%
+571776,89,Dijon,https://media.api-sports.io/football/teams/89.png,1,1,4,2,3,1,9,1,3,36%,4,,2,357,273,76%
+571782,112,Metz,https://media.api-sports.io/football/teams/112.png,7,5,18,6,10,8,16,10,0,50%,2,,4,409,323,79%
+571782,79,Lille,https://media.api-sports.io/football/teams/79.png,6,2,9,1,5,4,13,2,2,50%,2,,7,402,312,78%
+571791,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,3,5,9,1,7,2,8,5,4,36%,0,,3,353,279,79%
+571791,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,7,4,16,5,10,6,6,4,0,64%,1,,2,634,556,88%
+571787,82,Montpellier,https://media.api-sports.io/football/teams/82.png,7,6,20,7,13,7,17,6,2,43%,2,0,4,327,243,74%
+571787,81,Marseille,https://media.api-sports.io/football/teams/81.png,8,2,13,3,8,5,12,3,0,57%,2,1,4,458,399,87%
+571789,94,Rennes,https://media.api-sports.io/football/teams/94.png,4,8,14,2,9,5,16,3,2,63%,6,,2,639,533,83%
+571789,83,Nantes,https://media.api-sports.io/football/teams/83.png,2,2,4,0,2,2,15,3,0,37%,2,,3,354,265,75%
+571790,84,Nice,https://media.api-sports.io/football/teams/84.png,2,8,13,3,7,6,13,10,0,54%,0,,1,477,425,89%
+571790,93,Reims,https://media.api-sports.io/football/teams/93.png,1,7,10,2,6,4,11,6,2,46%,1,,2,384,327,85%
+571785,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,4,9,22,9,15,7,15,9,1,63%,4,,2,516,429,83%
+571785,92,Nimes,https://media.api-sports.io/football/teams/92.png,3,1,5,1,5,0,16,2,2,37%,1,,3,306,205,67%
+571784,116,Lens,https://media.api-sports.io/football/teams/116.png,6,4,14,4,9,5,11,5,,37%,,,4,333,255,77%
+571784,97,Lorient,https://media.api-sports.io/football/teams/97.png,6,7,17,4,14,3,8,10,,63%,,,2,534,449,84%
+571788,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,6,7,17,4,13,4,12,5,0,36%,3,,1,303,226,75%
+571788,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,2,8,10,0,8,2,17,6,2,64%,0,,2,527,443,84%
+571786,91,Monaco,https://media.api-sports.io/football/teams/91.png,10,4,16,2,11,5,10,6,4,63%,1,,1,636,545,86%
+571786,89,Dijon,https://media.api-sports.io/football/teams/89.png,1,5,6,0,3,3,16,4,1,37%,1,,7,352,257,73%
+571783,80,Lyon,https://media.api-sports.io/football/teams/80.png,6,7,16,3,9,7,15,5,6,53%,,,3,593,501,84%
+571783,77,Angers,https://media.api-sports.io/football/teams/77.png,3,5,11,3,9,2,14,4,1,47%,,,3,520,436,84%
+571796,79,Lille,https://media.api-sports.io/football/teams/79.png,9,8,20,3,10,10,14,9,1,63%,3,,3,595,501,84%
+571796,82,Montpellier,https://media.api-sports.io/football/teams/82.png,4,6,10,0,4,6,11,0,2,37%,1,,8,348,263,76%
+571795,77,Angers,https://media.api-sports.io/football/teams/77.png,3,4,10,3,4,6,11,2,3,41%,2,,0,471,398,85%
+571795,94,Rennes,https://media.api-sports.io/football/teams/94.png,3,4,9,2,4,5,10,3,3,59%,0,,3,690,607,88%
+571797,81,Marseille,https://media.api-sports.io/football/teams/81.png,5,5,13,3,12,1,9,8,1,73%,1,,4,727,652,90%
+571797,97,Lorient,https://media.api-sports.io/football/teams/97.png,6,5,12,1,4,8,15,3,0,27%,0,,2,269,197,73%
+571798,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,5,8,17,4,10,7,13,13,0,71%,1,,3,680,603,89%
+571798,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,5,2,7,0,4,3,15,3,4,29%,1,,2,265,197,74%
+571792,89,Dijon,https://media.api-sports.io/football/teams/89.png,3,2,9,4,7,2,8,1,5,43%,1,,2,384,311,81%
+571792,84,Nice,https://media.api-sports.io/football/teams/84.png,2,6,10,2,8,2,13,9,1,57%,1,,1,502,427,85%
+571799,92,Nimes,https://media.api-sports.io/football/teams/92.png,1,4,5,0,5,0,10,2,3,51%,0,0,2,476,393,83%
+571799,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,3,2,7,2,4,3,17,1,0,49%,2,1,0,448,358,80%
+571801,93,Reims,https://media.api-sports.io/football/teams/93.png,6,7,15,2,8,7,13,10,1,47%,3,,2,429,356,83%
+571801,112,Metz,https://media.api-sports.io/football/teams/112.png,2,6,11,3,4,7,17,4,3,53%,1,,6,488,405,83%
+571793,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,5,2,7,0,4,3,14,2,2,44%,2,1,1,342,259,76%
+571793,116,Lens,https://media.api-sports.io/football/teams/116.png,2,3,8,3,4,4,16,4,1,56%,7,2,5,429,344,80%
+571794,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,2,3,7,2,4,3,13,4,1,40%,4,1,3,420,331,79%
+571794,91,Monaco,https://media.api-sports.io/football/teams/91.png,6,4,13,3,7,6,11,5,2,60%,1,0,2,618,522,84%
+571800,83,Nantes,https://media.api-sports.io/football/teams/83.png,3,5,12,4,4,8,16,5,2,49%,0,,2,473,377,80%
+571800,80,Lyon,https://media.api-sports.io/football/teams/80.png,4,5,11,2,9,2,10,4,1,51%,1,,2,494,386,78%
+571810,93,Reims,https://media.api-sports.io/football/teams/93.png,1,3,10,6,5,5,9,5,2,41%,2,1,3,413,354,86%
+571810,81,Marseille,https://media.api-sports.io/football/teams/81.png,6,2,11,3,6,5,2,2,2,59%,0,0,0,598,529,88%
+571808,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,3,3,6,0,6,0,17,3,1,42%,2,,5,325,252,78%
+571808,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,7,3,12,2,8,4,11,2,0,58%,1,,2,442,345,78%
+571806,112,Metz,https://media.api-sports.io/football/teams/112.png,3,4,8,1,5,3,12,1,1,33%,1,,4,325,267,82%
+571806,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,8,10,19,1,13,6,12,9,0,67%,4,,2,678,605,89%
+571807,84,Nice,https://media.api-sports.io/football/teams/84.png,8,3,18,7,13,5,13,7,1,58%,1,,2,500,431,86%
+571807,82,Montpellier,https://media.api-sports.io/football/teams/82.png,3,8,14,3,11,3,17,6,2,42%,2,,5,331,252,76%
+571809,94,Rennes,https://media.api-sports.io/football/teams/94.png,12,7,25,6,17,8,13,8,3,74%,6,,0,775,713,92%
+571809,89,Dijon,https://media.api-sports.io/football/teams/89.png,1,2,4,1,3,1,8,2,1,26%,3,,6,263,204,78%
+571811,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,4,4,12,4,8,4,15,6,0,64%,1,,3,510,398,78%
+571811,83,Nantes,https://media.api-sports.io/football/teams/83.png,5,2,7,0,4,3,13,4,4,36%,3,,3,276,181,66%
+571803,97,Lorient,https://media.api-sports.io/football/teams/97.png,7,6,13,0,9,4,9,6,1,43%,2,,6,382,292,76%
+571803,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,7,4,13,2,7,6,14,3,1,57%,3,,3,498,420,84%
+571804,116,Lens,https://media.api-sports.io/football/teams/116.png,4,2,7,1,5,2,14,4,1,43%,1,1,1,360,276,77%
+571804,92,Nimes,https://media.api-sports.io/football/teams/92.png,2,9,16,5,9,7,15,6,1,57%,2,0,2,461,379,82%
+571805,77,Angers,https://media.api-sports.io/football/teams/77.png,0,3,4,1,1,3,18,4,2,41%,2,,2,366,267,73%
+571805,91,Monaco,https://media.api-sports.io/football/teams/91.png,3,5,10,2,7,3,11,1,2,59%,2,,0,539,445,83%
+571802,80,Lyon,https://media.api-sports.io/football/teams/80.png,2,2,7,3,5,2,9,8,1,46%,0,,4,478,381,80%
+571802,79,Lille,https://media.api-sports.io/football/teams/79.png,8,5,16,3,13,3,13,4,1,54%,3,,1,575,497,86%
+571817,81,Marseille,https://media.api-sports.io/football/teams/81.png,4,4,8,0,3,5,10,5,1,67%,4,,4,643,572,89%
+571817,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,5,3,8,0,5,3,14,6,0,33%,2,,3,299,227,76%
+571821,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,6,5,14,3,9,5,14,6,3,59%,4,,2,595,538,90%
+571821,116,Lens,https://media.api-sports.io/football/teams/116.png,3,11,15,1,10,5,16,2,2,41%,2,,4,398,345,87%
+571812,79,Lille,https://media.api-sports.io/football/teams/79.png,4,4,12,4,3,9,9,5,2,55%,2,0,0,617,549,89%
+571812,84,Nice,https://media.api-sports.io/football/teams/84.png,0,0,0,0,0,0,12,1,2,45%,3,1,2,492,426,87%
+571815,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,4,2,9,3,6,3,14,3,1,45%,4,0,2,401,327,82%
+571815,94,Rennes,https://media.api-sports.io/football/teams/94.png,2,4,9,3,4,5,14,5,1,55%,1,1,2,475,394,83%
+571813,89,Dijon,https://media.api-sports.io/football/teams/89.png,4,4,10,2,8,2,11,6,0,44%,1,1,2,398,313,79%
+571813,112,Metz,https://media.api-sports.io/football/teams/112.png,6,7,14,1,8,6,16,3,1,56%,1,0,3,491,412,84%
+571818,92,Nimes,https://media.api-sports.io/football/teams/92.png,7,7,18,4,10,8,15,10,1,51%,2,,5,400,318,80%
+571818,93,Reims,https://media.api-sports.io/football/teams/93.png,7,3,12,2,6,6,13,5,0,49%,2,,5,391,302,77%
+571816,97,Lorient,https://media.api-sports.io/football/teams/97.png,4,6,13,3,9,4,8,5,4,49%,3,1,2,541,463,86%
+571816,77,Angers,https://media.api-sports.io/football/teams/77.png,2,6,9,1,2,7,13,0,0,51%,3,1,2,544,461,85%
+571814,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,7,3,16,6,9,7,12,5,2,58%,2,,2,564,475,84%
+571814,83,Nantes,https://media.api-sports.io/football/teams/83.png,6,1,12,5,9,3,10,5,2,42%,0,,6,394,301,76%
+571819,82,Montpellier,https://media.api-sports.io/football/teams/82.png,2,5,13,6,10,3,15,7,1,45%,2,,5,358,272,76%
+571819,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,7,4,19,8,14,5,12,7,0,55%,1,,1,440,367,83%
+571820,91,Monaco,https://media.api-sports.io/football/teams/91.png,4,6,12,2,10,2,23,5,2,47%,1,2,2,435,317,73%
+571820,80,Lyon,https://media.api-sports.io/football/teams/80.png,5,9,17,3,10,7,16,5,3,53%,4,3,2,472,380,81%
+571824,116,Lens,https://media.api-sports.io/football/teams/116.png,5,4,11,2,9,2,15,5,,48%,3,1,3,497,447,90%
+571824,79,Lille,https://media.api-sports.io/football/teams/79.png,6,5,11,0,5,6,9,4,,52%,2,0,5,529,473,89%
+571826,83,Nantes,https://media.api-sports.io/football/teams/83.png,3,4,11,4,4,7,13,5,0,49%,0,,2,417,309,74%
+571826,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,2,6,10,2,7,3,20,2,2,51%,5,,0,426,321,75%
+571823,80,Lyon,https://media.api-sports.io/football/teams/80.png,11,8,25,6,20,5,17,5,0,59%,2,,1,598,525,88%
+571823,97,Lorient,https://media.api-sports.io/football/teams/97.png,2,3,8,3,3,5,10,1,1,41%,2,,6,415,342,82%
+571828,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,5,8,18,5,10,8,22,10,2,44%,1,,4,313,238,76%
+571828,81,Marseille,https://media.api-sports.io/football/teams/81.png,4,8,15,3,9,6,12,4,3,56%,3,,4,386,301,78%
+571825,77,Angers,https://media.api-sports.io/football/teams/77.png,4,5,11,2,6,5,8,1,2,44%,,,1,471,390,83%
+571825,89,Dijon,https://media.api-sports.io/football/teams/89.png,1,1,5,3,4,1,11,4,1,56%,,,2,585,501,86%
+571827,84,Nice,https://media.api-sports.io/football/teams/84.png,5,7,14,2,13,1,8,7,,62%,1,1,0,612,555,91%
+571827,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,2,4,9,3,5,4,11,5,,38%,1,0,3,368,297,81%
+571831,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,7,7,18,4,13,5,16,4,1,57%,2,,0,452,368,81%
+571831,82,Montpellier,https://media.api-sports.io/football/teams/82.png,3,1,6,2,4,2,16,6,1,43%,3,,5,340,245,72%
+571822,112,Metz,https://media.api-sports.io/football/teams/112.png,2,5,11,4,5,6,13,0,1,59%,1,,2,564,473,84%
+571822,92,Nimes,https://media.api-sports.io/football/teams/92.png,5,3,10,2,7,3,12,6,2,41%,2,,2,380,292,77%
+571830,93,Reims,https://media.api-sports.io/football/teams/93.png,2,4,8,2,5,3,11,3,1,38%,1,,1,403,329,82%
+571830,91,Monaco,https://media.api-sports.io/football/teams/91.png,2,3,7,2,3,4,13,3,0,62%,3,,2,655,576,88%
+571829,94,Rennes,https://media.api-sports.io/football/teams/94.png,10,6,19,3,11,8,12,9,4,42%,4,0,3,415,343,83%
+571829,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,4,7,12,1,11,1,11,3,2,58%,1,1,9,565,503,89%
+571835,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,4,5,11,2,10,1,16,1,1,33%,2,,4,290,202,70%
+571835,116,Lens,https://media.api-sports.io/football/teams/116.png,4,5,14,5,11,3,15,6,2,67%,2,,1,563,486,86%
+571833,79,Lille,https://media.api-sports.io/football/teams/79.png,3,6,14,5,5,9,11,3,1,59%,1,,1,597,504,84%
+571833,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,1,3,8,4,6,2,14,6,1,41%,2,,3,399,311,78%
+571836,81,Marseille,https://media.api-sports.io/football/teams/81.png,11,3,16,2,10,6,16,3,2,53%,3,,3,543,489,90%
+571836,77,Angers,https://media.api-sports.io/football/teams/77.png,5,3,11,3,6,5,12,4,2,47%,2,,8,480,420,88%
+571840,82,Montpellier,https://media.api-sports.io/football/teams/82.png,2,2,4,0,2,2,18,1,,40%,0,1,8,346,268,77%
+571840,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,8,8,21,5,17,4,13,11,,60%,3,0,2,502,419,83%
+571839,84,Nice,https://media.api-sports.io/football/teams/84.png,3,3,7,1,5,2,9,4,1,72%,2,,3,678,608,90%
+571839,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,5,2,11,4,9,2,10,4,2,28%,1,,3,258,198,77%
+571841,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,10,11,28,7,19,9,14,9,1,57%,,0,0,586,548,94%
+571841,93,Reims,https://media.api-sports.io/football/teams/93.png,0,1,2,1,1,1,4,5,2,43%,,1,5,441,384,87%
+571834,89,Dijon,https://media.api-sports.io/football/teams/89.png,1,4,10,5,8,2,12,3,1,70%,2,,0,668,569,85%
+571834,83,Nantes,https://media.api-sports.io/football/teams/83.png,4,9,16,3,11,5,10,6,1,30%,1,,1,266,192,72%
+571837,91,Monaco,https://media.api-sports.io/football/teams/91.png,3,2,11,6,8,3,12,4,2,39%,2,0,2,365,267,73%
+571837,94,Rennes,https://media.api-sports.io/football/teams/94.png,2,5,9,2,4,5,14,4,0,61%,2,1,1,561,447,80%
+571838,92,Nimes,https://media.api-sports.io/football/teams/92.png,4,0,8,4,5,3,7,3,2,42%,,,8,429,348,81%
+571838,80,Lyon,https://media.api-sports.io/football/teams/80.png,13,5,21,3,10,11,13,6,0,58%,,,2,579,489,84%
+571832,97,Lorient,https://media.api-sports.io/football/teams/97.png,2,2,6,2,5,1,16,2,,37%,1,,,383,297,78%
+571832,112,Metz,https://media.api-sports.io/football/teams/112.png,1,1,3,1,0,3,19,1,,63%,4,,,635,553,87%
+571845,77,Angers,https://media.api-sports.io/football/teams/77.png,4,5,10,1,5,5,10,4,0,57%,0,,0,660,580,88%
+571845,79,Lille,https://media.api-sports.io/football/teams/79.png,2,3,5,0,3,2,14,2,4,43%,2,,3,498,413,83%
+571842,80,Lyon,https://media.api-sports.io/football/teams/80.png,6,4,12,2,8,4,8,6,2,54%,1,,3,510,429,84%
+571842,84,Nice,https://media.api-sports.io/football/teams/84.png,6,6,14,2,9,5,10,6,0,46%,2,,4,432,359,83%
+571847,83,Nantes,https://media.api-sports.io/football/teams/83.png,5,4,15,6,8,7,8,9,1,48%,2,,3,354,269,76%
+571847,82,Montpellier,https://media.api-sports.io/football/teams/82.png,5,2,8,1,8,0,11,5,1,52%,2,,4,376,287,76%
+571850,93,Reims,https://media.api-sports.io/football/teams/93.png,3,4,10,3,8,2,11,5,2,55%,1,,3,554,494,89%
+571850,78,Bordeaux,https://media.api-sports.io/football/teams/78.png,5,3,12,4,6,6,6,2,1,45%,1,,2,449,391,87%
+571849,94,Rennes,https://media.api-sports.io/football/teams/94.png,6,4,12,2,6,6,11,4,0,68%,1,,2,832,773,93%
+571849,92,Nimes,https://media.api-sports.io/football/teams/92.png,2,7,9,0,4,5,10,3,2,32%,0,,4,384,325,85%
+571851,95,Strasbourg,https://media.api-sports.io/football/teams/95.png,2,4,6,0,1,5,17,2,0,51%,1,,0,488,415,85%
+571851,97,Lorient,https://media.api-sports.io/football/teams/97.png,1,4,7,2,3,4,9,3,1,49%,1,,1,442,366,83%
+571844,106,Stade Brestois 29,https://media.api-sports.io/football/teams/106.png,5,1,6,0,6,0,7,5,1,36%,1,,3,391,304,78%
+571844,85,Paris Saint Germain,https://media.api-sports.io/football/teams/85.png,4,3,9,2,7,2,6,4,0,64%,2,,5,695,616,89%
+571846,112,Metz,https://media.api-sports.io/football/teams/112.png,3,3,10,4,3,7,14,1,1,35%,3,,1,318,254,80%
+571846,81,Marseille,https://media.api-sports.io/football/teams/81.png,2,6,9,1,6,3,9,10,1,65%,2,,2,581,501,86%
+571843,116,Lens,https://media.api-sports.io/football/teams/116.png,1,3,4,0,3,1,16,2,3,34%,3,,3,338,242,72%
+571843,91,Monaco,https://media.api-sports.io/football/teams/91.png,3,11,19,5,10,9,6,7,4,66%,2,,1,632,528,84%
+571848,1063,Saint Etienne,https://media.api-sports.io/football/teams/1063.png,5,9,19,5,11,8,13,9,1,65%,1,,1,609,512,84%
+571848,89,Dijon,https://media.api-sports.io/football/teams/89.png,2,7,10,1,5,5,10,3,0,35%,0,,5,328,236,72%
+705636,96,Toulouse,https://media.api-sports.io/football/teams/96.png,2,7,15,6,5,10,12,3,4,56%,2,,2,530,429,81%
+705636,83,Nantes,https://media.api-sports.io/football/teams/83.png,4,6,11,1,7,4,17,1,0,44%,1,,1,409,317,78%
+705637,83,Nantes,https://media.api-sports.io/football/teams/83.png,2,3,8,3,6,2,19,4,1,38%,3,0,4,306,189,62%
+705637,96,Toulouse,https://media.api-sports.io/football/teams/96.png,5,6,12,1,8,4,17,1,0,62%,3,1,2,500,383,77%

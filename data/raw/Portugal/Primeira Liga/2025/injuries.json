@@ -1,0 +1,1584 @@
+[
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396240"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 41179,
+          "name": "Matheus Reis de Lima",
+          "photo": "https://media.api-sports.io/football/players/41179.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "fixture": {
+          "id": 1396240,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:15:00+00:00",
+          "timestamp": 1754680500
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 41194,
+          "name": "Nuno Santos",
+          "photo": "https://media.api-sports.io/football/players/41194.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "fixture": {
+          "id": 1396240,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:15:00+00:00",
+          "timestamp": 1754680500
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 41892,
+          "name": "Daniel Braganca",
+          "photo": "https://media.api-sports.io/football/players/41892.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "fixture": {
+          "id": 1396240,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:15:00+00:00",
+          "timestamp": 1754680500
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 182515,
+          "name": "Claudio Mendes Vicente",
+          "photo": "https://media.api-sports.io/football/players/182515.png",
+          "type": "Missing Fixture",
+          "reason": "Sprain"
+        },
+        "team": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png"
+        },
+        "fixture": {
+          "id": 1396240,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:15:00+00:00",
+          "timestamp": 1754680500
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 64267,
+          "name": "Kiki Silva",
+          "photo": "https://media.api-sports.io/football/players/64267.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png"
+        },
+        "fixture": {
+          "id": 1396240,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:15:00+00:00",
+          "timestamp": 1754680500
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396245"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19404,
+          "name": "Lucas Eduardo Santos Joao",
+          "photo": "https://media.api-sports.io/football/players/19404.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png"
+        },
+        "fixture": {
+          "id": 1396245,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:30:00+00:00",
+          "timestamp": 1754749800
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 10308,
+          "name": "Leonardo Rodrigues dos Santos",
+          "photo": "https://media.api-sports.io/football/players/10308.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png"
+        },
+        "fixture": {
+          "id": 1396245,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:30:00+00:00",
+          "timestamp": 1754749800
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 23119,
+          "name": "Lenny Vallier",
+          "photo": "https://media.api-sports.io/football/players/23119.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png"
+        },
+        "fixture": {
+          "id": 1396245,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:30:00+00:00",
+          "timestamp": 1754749800
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 162212,
+          "name": "Miguel Baeza Perez",
+          "photo": "https://media.api-sports.io/football/players/162212.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png"
+        },
+        "fixture": {
+          "id": 1396245,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:30:00+00:00",
+          "timestamp": 1754749800
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 162208,
+          "name": "Tidjany Chabrol Toure",
+          "photo": "https://media.api-sports.io/football/players/162208.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png"
+        },
+        "fixture": {
+          "id": 1396245,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:30:00+00:00",
+          "timestamp": 1754749800
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 436450,
+          "name": "Motez Nourani",
+          "photo": "https://media.api-sports.io/football/players/436450.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png"
+        },
+        "fixture": {
+          "id": 1396245,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:30:00+00:00",
+          "timestamp": 1754749800
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396237"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 8457,
+          "name": "David Simao",
+          "photo": "https://media.api-sports.io/football/players/8457.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 240,
+          "name": "Arouca",
+          "logo": "https://media.api-sports.io/football/teams/240.png"
+        },
+        "fixture": {
+          "id": 1396237,
+          "timezone": "UTC",
+          "date": "2025-08-09T19:30:00+00:00",
+          "timestamp": 1754767800
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 127372,
+          "name": "Tiago Esgaio",
+          "photo": "https://media.api-sports.io/football/players/127372.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 240,
+          "name": "Arouca",
+          "logo": "https://media.api-sports.io/football/teams/240.png"
+        },
+        "fixture": {
+          "id": 1396237,
+          "timezone": "UTC",
+          "date": "2025-08-09T19:30:00+00:00",
+          "timestamp": 1754767800
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396242"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 41154,
+          "name": "Diogo Filipe Costa Rocha, Roch",
+          "photo": "https://media.api-sports.io/football/players/41154.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 242,
+          "name": "Famalicao",
+          "logo": "https://media.api-sports.io/football/teams/242.png"
+        },
+        "fixture": {
+          "id": 1396242,
+          "timezone": "UTC",
+          "date": "2025-08-10T16:00:00+00:00",
+          "timestamp": 1754841600
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 237065,
+          "name": "Oscar Aranda Subiela",
+          "photo": "https://media.api-sports.io/football/players/237065.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 242,
+          "name": "Famalicao",
+          "logo": "https://media.api-sports.io/football/teams/242.png"
+        },
+        "fixture": {
+          "id": 1396242,
+          "timezone": "UTC",
+          "date": "2025-08-10T16:00:00+00:00",
+          "timestamp": 1754841600
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 100533,
+          "name": "Pedro Pacheco",
+          "photo": "https://media.api-sports.io/football/players/100533.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "fixture": {
+          "id": 1396242,
+          "timezone": "UTC",
+          "date": "2025-08-10T16:00:00+00:00",
+          "timestamp": 1754841600
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396244"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 195092,
+          "name": "Guilherme Liberato",
+          "photo": "https://media.api-sports.io/football/players/195092.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 215,
+          "name": "Moreirense",
+          "logo": "https://media.api-sports.io/football/teams/215.png"
+        },
+        "fixture": {
+          "id": 1396244,
+          "timezone": "UTC",
+          "date": "2025-08-10T19:30:00+00:00",
+          "timestamp": 1754854200
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 333680,
+          "name": "Rodri Alonso",
+          "photo": "https://media.api-sports.io/football/players/333680.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 215,
+          "name": "Moreirense",
+          "logo": "https://media.api-sports.io/football/teams/215.png"
+        },
+        "fixture": {
+          "id": 1396244,
+          "timezone": "UTC",
+          "date": "2025-08-10T19:30:00+00:00",
+          "timestamp": 1754854200
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396239"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 158433,
+          "name": "Sphephelo Sithole",
+          "photo": "https://media.api-sports.io/football/players/158433.png",
+          "type": "Missing Fixture",
+          "reason": "Tibia and Fibula Fracture"
+        },
+        "team": {
+          "id": 218,
+          "name": "Tondela",
+          "logo": "https://media.api-sports.io/football/teams/218.png"
+        },
+        "fixture": {
+          "id": 1396239,
+          "timezone": "UTC",
+          "date": "2025-08-10T19:30:00+00:00",
+          "timestamp": 1754854200
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 441512,
+          "name": "Jonatas Noro",
+          "photo": "https://media.api-sports.io/football/players/441512.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon rupture"
+        },
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "fixture": {
+          "id": 1396239,
+          "timezone": "UTC",
+          "date": "2025-08-10T19:30:00+00:00",
+          "timestamp": 1754854200
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396241"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 22228,
+          "name": "Xeka",
+          "photo": "https://media.api-sports.io/football/players/22228.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png"
+        },
+        "fixture": {
+          "id": 1396241,
+          "timezone": "UTC",
+          "date": "2025-08-11T17:45:00+00:00",
+          "timestamp": 1754934300
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396243"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 184615,
+          "name": "Oscar Rivas Viondi",
+          "photo": "https://media.api-sports.io/football/players/184615.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png"
+        },
+        "fixture": {
+          "id": 1396243,
+          "timezone": "UTC",
+          "date": "2025-08-11T19:45:00+00:00",
+          "timestamp": 1754941500
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396246"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 182515,
+          "name": "Claudio Mendes Vicente",
+          "photo": "https://media.api-sports.io/football/players/182515.png",
+          "type": "Missing Fixture",
+          "reason": "Sprain"
+        },
+        "team": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png"
+        },
+        "fixture": {
+          "id": 1396246,
+          "timezone": "UTC",
+          "date": "2025-08-15T14:30:00+00:00",
+          "timestamp": 1755268200
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 64267,
+          "name": "Kiki Silva",
+          "photo": "https://media.api-sports.io/football/players/64267.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png"
+        },
+        "fixture": {
+          "id": 1396246,
+          "timezone": "UTC",
+          "date": "2025-08-15T14:30:00+00:00",
+          "timestamp": 1755268200
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396253"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 41154,
+          "name": "Diogo Filipe Costa Rocha, Roch",
+          "photo": "https://media.api-sports.io/football/players/41154.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 242,
+          "name": "Famalicao",
+          "logo": "https://media.api-sports.io/football/teams/242.png"
+        },
+        "fixture": {
+          "id": 1396253,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:30:00+00:00",
+          "timestamp": 1755354600
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 237065,
+          "name": "Oscar Aranda Subiela",
+          "photo": "https://media.api-sports.io/football/players/237065.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 242,
+          "name": "Famalicao",
+          "logo": "https://media.api-sports.io/football/teams/242.png"
+        },
+        "fixture": {
+          "id": 1396253,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:30:00+00:00",
+          "timestamp": 1755354600
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396254"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 22228,
+          "name": "Xeka",
+          "photo": "https://media.api-sports.io/football/players/22228.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png"
+        },
+        "fixture": {
+          "id": 1396254,
+          "timezone": "UTC",
+          "date": "2025-08-16T17:00:00+00:00",
+          "timestamp": 1755363600
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 162474,
+          "name": "Alejandro Orellana Gomez",
+          "photo": "https://media.api-sports.io/football/players/162474.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png"
+        },
+        "fixture": {
+          "id": 1396254,
+          "timezone": "UTC",
+          "date": "2025-08-16T17:00:00+00:00",
+          "timestamp": 1755363600
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 184615,
+          "name": "Oscar Rivas Viondi",
+          "photo": "https://media.api-sports.io/football/players/184615.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 224,
+          "name": "Guimaraes",
+          "logo": "https://media.api-sports.io/football/teams/224.png"
+        },
+        "fixture": {
+          "id": 1396254,
+          "timezone": "UTC",
+          "date": "2025-08-16T17:00:00+00:00",
+          "timestamp": 1755363600
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396248"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 15623,
+          "name": "Alexander Bahr",
+          "photo": "https://media.api-sports.io/football/players/15623.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "fixture": {
+          "id": 1396248,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 161939,
+          "name": "Tomas Araujo",
+          "photo": "https://media.api-sports.io/football/players/161939.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "fixture": {
+          "id": 1396248,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 287592,
+          "name": "Manu Silva",
+          "photo": "https://media.api-sports.io/football/players/287592.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "fixture": {
+          "id": 1396248,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 386310,
+          "name": "Guilherme Montoia",
+          "photo": "https://media.api-sports.io/football/players/386310.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 15130,
+          "name": "Estrela",
+          "logo": "https://media.api-sports.io/football/teams/15130.png"
+        },
+        "fixture": {
+          "id": 1396248,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 404757,
+          "name": "Robinho",
+          "photo": "https://media.api-sports.io/football/players/404757.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 15130,
+          "name": "Estrela",
+          "logo": "https://media.api-sports.io/football/teams/15130.png"
+        },
+        "fixture": {
+          "id": 1396248,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396250"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19404,
+          "name": "Lucas Eduardo Santos Joao",
+          "photo": "https://media.api-sports.io/football/players/19404.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png"
+        },
+        "fixture": {
+          "id": 1396250,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:30:00+00:00",
+          "timestamp": 1755441000
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 436450,
+          "name": "Motez Nourani",
+          "photo": "https://media.api-sports.io/football/players/436450.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png"
+        },
+        "fixture": {
+          "id": 1396250,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:30:00+00:00",
+          "timestamp": 1755441000
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396251"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 312311,
+          "name": "Michel",
+          "photo": "https://media.api-sports.io/football/players/312311.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 215,
+          "name": "Moreirense",
+          "logo": "https://media.api-sports.io/football/teams/215.png"
+        },
+        "fixture": {
+          "id": 1396251,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:00:00+00:00",
+          "timestamp": 1755450000
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 100533,
+          "name": "Pedro Pacheco",
+          "photo": "https://media.api-sports.io/football/players/100533.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        },
+        "fixture": {
+          "id": 1396251,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:00:00+00:00",
+          "timestamp": 1755450000
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396247"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 426799,
+          "name": "Chissumba",
+          "photo": "https://media.api-sports.io/football/players/426799.png",
+          "type": "Missing Fixture",
+          "reason": "ineligible"
+        },
+        "team": {
+          "id": 4724,
+          "name": "Alverca",
+          "logo": "https://media.api-sports.io/football/teams/4724.png"
+        },
+        "fixture": {
+          "id": 1396247,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:00:00+00:00",
+          "timestamp": 1755450000
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 441512,
+          "name": "Jonatas Noro",
+          "photo": "https://media.api-sports.io/football/players/441512.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon rupture"
+        },
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "fixture": {
+          "id": 1396247,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:00:00+00:00",
+          "timestamp": 1755450000
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396252"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 41179,
+          "name": "Matheus Reis de Lima",
+          "photo": "https://media.api-sports.io/football/players/41179.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "fixture": {
+          "id": 1396252,
+          "timezone": "UTC",
+          "date": "2025-08-17T19:30:00+00:00",
+          "timestamp": 1755459000
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 41194,
+          "name": "Nuno Santos",
+          "photo": "https://media.api-sports.io/football/players/41194.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "fixture": {
+          "id": 1396252,
+          "timezone": "UTC",
+          "date": "2025-08-17T19:30:00+00:00",
+          "timestamp": 1755459000
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 51776,
+          "name": "Maximiliano Araujo",
+          "photo": "https://media.api-sports.io/football/players/51776.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "fixture": {
+          "id": 1396252,
+          "timezone": "UTC",
+          "date": "2025-08-17T19:30:00+00:00",
+          "timestamp": 1755459000
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 41892,
+          "name": "Daniel Braganca",
+          "photo": "https://media.api-sports.io/football/players/41892.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "fixture": {
+          "id": 1396252,
+          "timezone": "UTC",
+          "date": "2025-08-17T19:30:00+00:00",
+          "timestamp": 1755459000
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 354753,
+          "name": "Ousmane Diomande",
+          "photo": "https://media.api-sports.io/football/players/354753.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        },
+        "fixture": {
+          "id": 1396252,
+          "timezone": "UTC",
+          "date": "2025-08-17T19:30:00+00:00",
+          "timestamp": 1755459000
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1396249"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 162208,
+          "name": "Tidjany Chabrol Toure",
+          "photo": "https://media.api-sports.io/football/players/162208.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png"
+        },
+        "fixture": {
+          "id": 1396249,
+          "timezone": "UTC",
+          "date": "2025-08-18T19:15:00+00:00",
+          "timestamp": 1755544500
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 197382,
+          "name": "Carlos Eduardo",
+          "photo": "https://media.api-sports.io/football/players/197382.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png"
+        },
+        "fixture": {
+          "id": 1396249,
+          "timezone": "UTC",
+          "date": "2025-08-18T19:15:00+00:00",
+          "timestamp": 1755544500
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 336596,
+          "name": "Martim Fernandes",
+          "photo": "https://media.api-sports.io/football/players/336596.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        },
+        "fixture": {
+          "id": 1396249,
+          "timezone": "UTC",
+          "date": "2025-08-18T19:15:00+00:00",
+          "timestamp": 1755544500
+        },
+        "league": {
+          "id": 94,
+          "season": 2025,
+          "name": "Primeira Liga",
+          "country": "Portugal",
+          "logo": "https://media.api-sports.io/football/leagues/94.png",
+          "flag": "https://media.api-sports.io/flags/pt.svg"
+        }
+      }
+    ]
+  }
+]

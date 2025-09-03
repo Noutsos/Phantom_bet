@@ -1,0 +1,3306 @@
+[
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390824"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 547,
+          "name": "Donny van de Beek",
+          "photo": "https://media.api-sports.io/football/players/547.png",
+          "type": "Missing Fixture",
+          "reason": "Injury"
+        },
+        "team": {
+          "id": 547,
+          "name": "Girona",
+          "logo": "https://media.api-sports.io/football/teams/547.png"
+        },
+        "fixture": {
+          "id": 1390824,
+          "timezone": "UTC",
+          "date": "2025-08-15T17:00:00+00:00",
+          "timestamp": 1755277200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 15900,
+          "name": "Abdul Mumin",
+          "photo": "https://media.api-sports.io/football/players/15900.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 728,
+          "name": "Rayo Vallecano",
+          "logo": "https://media.api-sports.io/football/teams/728.png"
+        },
+        "fixture": {
+          "id": 1390824,
+          "timezone": "UTC",
+          "date": "2025-08-15T17:00:00+00:00",
+          "timestamp": 1755277200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 155,
+          "name": "Abel Ruiz",
+          "photo": "https://media.api-sports.io/football/players/155.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 547,
+          "name": "Girona",
+          "logo": "https://media.api-sports.io/football/teams/547.png"
+        },
+        "fixture": {
+          "id": 1390824,
+          "timezone": "UTC",
+          "date": "2025-08-15T17:00:00+00:00",
+          "timestamp": 1755277200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 162032,
+          "name": "Miguel Ortega Gutierrez",
+          "photo": "https://media.api-sports.io/football/players/162032.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle surgery"
+        },
+        "team": {
+          "id": 547,
+          "name": "Girona",
+          "logo": "https://media.api-sports.io/football/teams/547.png"
+        },
+        "fixture": {
+          "id": 1390824,
+          "timezone": "UTC",
+          "date": "2025-08-15T17:00:00+00:00",
+          "timestamp": 1755277200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390828"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 47429,
+          "name": "David Costas",
+          "photo": "https://media.api-sports.io/football/players/47429.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 718,
+          "name": "Oviedo",
+          "logo": "https://media.api-sports.io/football/teams/718.png"
+        },
+        "fixture": {
+          "id": 1390828,
+          "timezone": "UTC",
+          "date": "2025-08-15T19:30:00+00:00",
+          "timestamp": 1755286200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 18906,
+          "name": "Ayoze Perez",
+          "photo": "https://media.api-sports.io/football/players/18906.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "fixture": {
+          "id": 1390828,
+          "timezone": "UTC",
+          "date": "2025-08-15T19:30:00+00:00",
+          "timestamp": 1755286200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 46996,
+          "name": "Alvaro Lemos",
+          "photo": "https://media.api-sports.io/football/players/46996.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 718,
+          "name": "Oviedo",
+          "logo": "https://media.api-sports.io/football/teams/718.png"
+        },
+        "fixture": {
+          "id": 1390828,
+          "timezone": "UTC",
+          "date": "2025-08-15T19:30:00+00:00",
+          "timestamp": 1755286200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 30927,
+          "name": "Santiago Colombatto",
+          "photo": "https://media.api-sports.io/football/players/30927.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 718,
+          "name": "Oviedo",
+          "logo": "https://media.api-sports.io/football/teams/718.png"
+        },
+        "fixture": {
+          "id": 1390828,
+          "timezone": "UTC",
+          "date": "2025-08-15T19:30:00+00:00",
+          "timestamp": 1755286200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 21997,
+          "name": "Logan Costa",
+          "photo": "https://media.api-sports.io/football/players/21997.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "fixture": {
+          "id": 1390828,
+          "timezone": "UTC",
+          "date": "2025-08-15T19:30:00+00:00",
+          "timestamp": 1755286200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 288112,
+          "name": "Willy Kambwala",
+          "photo": "https://media.api-sports.io/football/players/288112.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "fixture": {
+          "id": 1390828,
+          "timezone": "UTC",
+          "date": "2025-08-15T19:30:00+00:00",
+          "timestamp": 1755286200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390825"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 521,
+          "name": "Robert Lewandowski",
+          "photo": "https://media.api-sports.io/football/players/521.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "fixture": {
+          "id": 1390825,
+          "timezone": "UTC",
+          "date": "2025-08-16T17:30:00+00:00",
+          "timestamp": 1755365400
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 127,
+          "name": "Marc-Andre ter Stegen",
+          "photo": "https://media.api-sports.io/football/players/127.png",
+          "type": "Missing Fixture",
+          "reason": "Back Injury"
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "fixture": {
+          "id": 1390825,
+          "timezone": "UTC",
+          "date": "2025-08-16T17:30:00+00:00",
+          "timestamp": 1755365400
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 190485,
+          "name": "Samuel Almeida Costa",
+          "photo": "https://media.api-sports.io/football/players/190485.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 798,
+          "name": "Mallorca",
+          "logo": "https://media.api-sports.io/football/teams/798.png"
+        },
+        "fixture": {
+          "id": 1390825,
+          "timezone": "UTC",
+          "date": "2025-08-16T17:30:00+00:00",
+          "timestamp": 1755365400
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 371912,
+          "name": "Daniel Rodriguez",
+          "photo": "https://media.api-sports.io/football/players/371912.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "fixture": {
+          "id": 1390825,
+          "timezone": "UTC",
+          "date": "2025-08-16T17:30:00+00:00",
+          "timestamp": 1755365400
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390827"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 1482,
+          "name": "Thierry Correia",
+          "photo": "https://media.api-sports.io/football/players/1482.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png"
+        },
+        "fixture": {
+          "id": 1390827,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 288074,
+          "name": "Alberto Mari",
+          "photo": "https://media.api-sports.io/football/players/288074.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png"
+        },
+        "fixture": {
+          "id": 1390827,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 287654,
+          "name": "Jon Gorrotxategi",
+          "photo": "https://media.api-sports.io/football/players/287654.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "fixture": {
+          "id": 1390827,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390819"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 163630,
+          "name": "Alfonso Pastor Vacas",
+          "photo": "https://media.api-sports.io/football/players/163630.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 539,
+          "name": "Levante",
+          "logo": "https://media.api-sports.io/football/teams/539.png"
+        },
+        "fixture": {
+          "id": 1390819,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 182770,
+          "name": "Carlos Alvarez",
+          "photo": "https://media.api-sports.io/football/players/182770.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 539,
+          "name": "Levante",
+          "logo": "https://media.api-sports.io/football/teams/539.png"
+        },
+        "fixture": {
+          "id": 1390819,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 182603,
+          "name": "Jon Ander Olasagasti",
+          "photo": "https://media.api-sports.io/football/players/182603.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 539,
+          "name": "Levante",
+          "logo": "https://media.api-sports.io/football/teams/539.png"
+        },
+        "fixture": {
+          "id": 1390819,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 125239,
+          "name": "Kervin Arriaga",
+          "photo": "https://media.api-sports.io/football/players/125239.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 539,
+          "name": "Levante",
+          "logo": "https://media.api-sports.io/football/teams/539.png"
+        },
+        "fixture": {
+          "id": 1390819,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 316517,
+          "name": "Alan Matturro",
+          "photo": "https://media.api-sports.io/football/players/316517.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 539,
+          "name": "Levante",
+          "logo": "https://media.api-sports.io/football/teams/539.png"
+        },
+        "fixture": {
+          "id": 1390819,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 421807,
+          "name": "Matias Moreno",
+          "photo": "https://media.api-sports.io/football/players/421807.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 539,
+          "name": "Levante",
+          "logo": "https://media.api-sports.io/football/teams/539.png"
+        },
+        "fixture": {
+          "id": 1390819,
+          "timezone": "UTC",
+          "date": "2025-08-16T19:30:00+00:00",
+          "timestamp": 1755372600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390821"
+    },
+    "errors": [],
+    "results": 7,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 47320,
+          "name": "Juan Miguel Jimenez Lopez",
+          "photo": "https://media.api-sports.io/football/players/47320.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 546,
+          "name": "Getafe",
+          "logo": "https://media.api-sports.io/football/teams/546.png"
+        },
+        "fixture": {
+          "id": 1390821,
+          "timezone": "UTC",
+          "date": "2025-08-17T15:00:00+00:00",
+          "timestamp": 1755442800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 570,
+          "name": "Franco Cervi",
+          "photo": "https://media.api-sports.io/football/players/570.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 538,
+          "name": "Celta Vigo",
+          "logo": "https://media.api-sports.io/football/teams/538.png"
+        },
+        "fixture": {
+          "id": 1390821,
+          "timezone": "UTC",
+          "date": "2025-08-17T15:00:00+00:00",
+          "timestamp": 1755442800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 46795,
+          "name": "Domingos Duarte",
+          "photo": "https://media.api-sports.io/football/players/46795.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 546,
+          "name": "Getafe",
+          "logo": "https://media.api-sports.io/football/teams/546.png"
+        },
+        "fixture": {
+          "id": 1390821,
+          "timezone": "UTC",
+          "date": "2025-08-17T15:00:00+00:00",
+          "timestamp": 1755442800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 46813,
+          "name": "Abdel Abqar",
+          "photo": "https://media.api-sports.io/football/players/46813.png",
+          "type": "Missing Fixture",
+          "reason": "Injury"
+        },
+        "team": {
+          "id": 546,
+          "name": "Getafe",
+          "logo": "https://media.api-sports.io/football/teams/546.png"
+        },
+        "fixture": {
+          "id": 1390821,
+          "timezone": "UTC",
+          "date": "2025-08-17T15:00:00+00:00",
+          "timestamp": 1755442800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 269163,
+          "name": "Williot Swedberg",
+          "photo": "https://media.api-sports.io/football/players/269163.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 538,
+          "name": "Celta Vigo",
+          "logo": "https://media.api-sports.io/football/teams/538.png"
+        },
+        "fixture": {
+          "id": 1390821,
+          "timezone": "UTC",
+          "date": "2025-08-17T15:00:00+00:00",
+          "timestamp": 1755442800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 320517,
+          "name": "Pablo Duran",
+          "photo": "https://media.api-sports.io/football/players/320517.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 538,
+          "name": "Celta Vigo",
+          "logo": "https://media.api-sports.io/football/teams/538.png"
+        },
+        "fixture": {
+          "id": 1390821,
+          "timezone": "UTC",
+          "date": "2025-08-17T15:00:00+00:00",
+          "timestamp": 1755442800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 184459,
+          "name": "Alex Sancris",
+          "photo": "https://media.api-sports.io/football/players/184459.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 546,
+          "name": "Getafe",
+          "logo": "https://media.api-sports.io/football/teams/546.png"
+        },
+        "fixture": {
+          "id": 1390821,
+          "timezone": "UTC",
+          "date": "2025-08-17T15:00:00+00:00",
+          "timestamp": 1755442800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390820"
+    },
+    "errors": [],
+    "results": 10,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 47271,
+          "name": "Yeray Alvarez Lopez",
+          "photo": "https://media.api-sports.io/football/players/47271.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png"
+        },
+        "fixture": {
+          "id": 1390820,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:30:00+00:00",
+          "timestamp": 1755451800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 39121,
+          "name": "Chidera Ejuke",
+          "photo": "https://media.api-sports.io/football/players/39121.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "fixture": {
+          "id": 1390820,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:30:00+00:00",
+          "timestamp": 1755451800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 48471,
+          "name": "Ruben Vargas",
+          "photo": "https://media.api-sports.io/football/players/48471.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "fixture": {
+          "id": 1390820,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:30:00+00:00",
+          "timestamp": 1755451800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 133110,
+          "name": "Nianzou Kouassi",
+          "photo": "https://media.api-sports.io/football/players/133110.png",
+          "type": "Missing Fixture",
+          "reason": "Hip injury"
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "fixture": {
+          "id": 1390820,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:30:00+00:00",
+          "timestamp": 1755451800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 128398,
+          "name": "Oihan Sancet",
+          "photo": "https://media.api-sports.io/football/players/128398.png",
+          "type": "Missing Fixture",
+          "reason": "Inner ligament injury"
+        },
+        "team": {
+          "id": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png"
+        },
+        "fixture": {
+          "id": 1390820,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:30:00+00:00",
+          "timestamp": 1755451800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 174918,
+          "name": "Loic Bade",
+          "photo": "https://media.api-sports.io/football/players/174918.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "fixture": {
+          "id": 1390820,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:30:00+00:00",
+          "timestamp": 1755451800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 182617,
+          "name": "Benat Prados Diaz",
+          "photo": "https://media.api-sports.io/football/players/182617.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png"
+        },
+        "fixture": {
+          "id": 1390820,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:30:00+00:00",
+          "timestamp": 1755451800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 332308,
+          "name": "Unai Gomez",
+          "photo": "https://media.api-sports.io/football/players/332308.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png"
+        },
+        "fixture": {
+          "id": 1390820,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:30:00+00:00",
+          "timestamp": 1755451800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 185398,
+          "name": "Isaac Romero Bernal",
+          "photo": "https://media.api-sports.io/football/players/185398.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "fixture": {
+          "id": 1390820,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:30:00+00:00",
+          "timestamp": 1755451800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 197196,
+          "name": "Ramon Martinez",
+          "photo": "https://media.api-sports.io/football/players/197196.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "fixture": {
+          "id": 1390820,
+          "timezone": "UTC",
+          "date": "2025-08-17T17:30:00+00:00",
+          "timestamp": 1755451800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390823"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 31,
+          "name": "Jose Maria Gimenez de Vargas",
+          "photo": "https://media.api-sports.io/football/players/31.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "fixture": {
+          "id": 1390823,
+          "timezone": "UTC",
+          "date": "2025-08-17T19:30:00+00:00",
+          "timestamp": 1755459000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390822"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 47302,
+          "name": "Diego Javier Llorente Rios",
+          "photo": "https://media.api-sports.io/football/players/47302.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "fixture": {
+          "id": 1390822,
+          "timezone": "UTC",
+          "date": "2025-08-18T19:00:00+00:00",
+          "timestamp": 1755543600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 47341,
+          "name": "Marc Roca",
+          "photo": "https://media.api-sports.io/football/players/47341.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "fixture": {
+          "id": 1390822,
+          "timezone": "UTC",
+          "date": "2025-08-18T19:00:00+00:00",
+          "timestamp": 1755543600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 128985,
+          "name": "Iker Losada",
+          "photo": "https://media.api-sports.io/football/players/128985.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "fixture": {
+          "id": 1390822,
+          "timezone": "UTC",
+          "date": "2025-08-18T19:00:00+00:00",
+          "timestamp": 1755543600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 300885,
+          "name": "Nelson Alexander Deossa Suarez",
+          "photo": "https://media.api-sports.io/football/players/300885.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "fixture": {
+          "id": 1390822,
+          "timezone": "UTC",
+          "date": "2025-08-18T19:00:00+00:00",
+          "timestamp": 1755543600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 284415,
+          "name": "Yago Santiago",
+          "photo": "https://media.api-sports.io/football/players/284415.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 797,
+          "name": "Elche",
+          "logo": "https://media.api-sports.io/football/teams/797.png"
+        },
+        "fixture": {
+          "id": 1390822,
+          "timezone": "UTC",
+          "date": "2025-08-18T19:00:00+00:00",
+          "timestamp": 1755543600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 181421,
+          "name": "Abdessamad Ezzalzouli",
+          "photo": "https://media.api-sports.io/football/players/181421.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "fixture": {
+          "id": 1390822,
+          "timezone": "UTC",
+          "date": "2025-08-18T19:00:00+00:00",
+          "timestamp": 1755543600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390826"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 2285,
+          "name": "Antonio Rudiger",
+          "photo": "https://media.api-sports.io/football/players/2285.png",
+          "type": "Missing Fixture",
+          "reason": "Suspension"
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "fixture": {
+          "id": 1390826,
+          "timezone": "UTC",
+          "date": "2025-08-19T19:00:00+00:00",
+          "timestamp": 1755630000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 653,
+          "name": "Ferland Mendy",
+          "photo": "https://media.api-sports.io/football/players/653.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "fixture": {
+          "id": 1390826,
+          "timezone": "UTC",
+          "date": "2025-08-19T19:00:00+00:00",
+          "timestamp": 1755630000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 2207,
+          "name": "Eduardo Camavinga",
+          "photo": "https://media.api-sports.io/football/players/2207.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle sprain"
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "fixture": {
+          "id": 1390826,
+          "timezone": "UTC",
+          "date": "2025-08-19T19:00:00+00:00",
+          "timestamp": 1755630000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 129718,
+          "name": "Jude Bellingham",
+          "photo": "https://media.api-sports.io/football/players/129718.png",
+          "type": "Missing Fixture",
+          "reason": "Shoulder injury"
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "fixture": {
+          "id": 1390826,
+          "timezone": "UTC",
+          "date": "2025-08-19T19:00:00+00:00",
+          "timestamp": 1755630000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 288800,
+          "name": "Iker Benito",
+          "photo": "https://media.api-sports.io/football/players/288800.png",
+          "type": "Missing Fixture",
+          "reason": "Injury"
+        },
+        "team": {
+          "id": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png"
+        },
+        "fixture": {
+          "id": 1390826,
+          "timezone": "UTC",
+          "date": "2025-08-19T19:00:00+00:00",
+          "timestamp": 1755630000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 377122,
+          "name": "Endrick Felipe Moreira de Sous",
+          "photo": "https://media.api-sports.io/football/players/377122.png",
+          "type": "Missing Fixture",
+          "reason": "Injury"
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "fixture": {
+          "id": 1390826,
+          "timezone": "UTC",
+          "date": "2025-08-19T19:00:00+00:00",
+          "timestamp": 1755630000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390832"
+    },
+    "errors": [],
+    "results": 8,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 521,
+          "name": "Robert Lewandowski",
+          "photo": "https://media.api-sports.io/football/players/521.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "fixture": {
+          "id": 1390832,
+          "timezone": "UTC",
+          "date": "2025-08-23T19:30:00+00:00",
+          "timestamp": 1755977400
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 127,
+          "name": "Marc-Andre ter Stegen",
+          "photo": "https://media.api-sports.io/football/players/127.png",
+          "type": "Missing Fixture",
+          "reason": "Back Injury"
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "fixture": {
+          "id": 1390832,
+          "timezone": "UTC",
+          "date": "2025-08-23T19:30:00+00:00",
+          "timestamp": 1755977400
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20817,
+          "name": "Goduine Koyalipou",
+          "photo": "https://media.api-sports.io/football/players/20817.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 539,
+          "name": "Levante",
+          "logo": "https://media.api-sports.io/football/teams/539.png"
+        },
+        "fixture": {
+          "id": 1390832,
+          "timezone": "UTC",
+          "date": "2025-08-23T19:30:00+00:00",
+          "timestamp": 1755977400
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 163630,
+          "name": "Alfonso Pastor Vacas",
+          "photo": "https://media.api-sports.io/football/players/163630.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 539,
+          "name": "Levante",
+          "logo": "https://media.api-sports.io/football/teams/539.png"
+        },
+        "fixture": {
+          "id": 1390832,
+          "timezone": "UTC",
+          "date": "2025-08-23T19:30:00+00:00",
+          "timestamp": 1755977400
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 182603,
+          "name": "Jon Ander Olasagasti",
+          "photo": "https://media.api-sports.io/football/players/182603.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 539,
+          "name": "Levante",
+          "logo": "https://media.api-sports.io/football/teams/539.png"
+        },
+        "fixture": {
+          "id": 1390832,
+          "timezone": "UTC",
+          "date": "2025-08-23T19:30:00+00:00",
+          "timestamp": 1755977400
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 125239,
+          "name": "Kervin Arriaga",
+          "photo": "https://media.api-sports.io/football/players/125239.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 539,
+          "name": "Levante",
+          "logo": "https://media.api-sports.io/football/teams/539.png"
+        },
+        "fixture": {
+          "id": 1390832,
+          "timezone": "UTC",
+          "date": "2025-08-23T19:30:00+00:00",
+          "timestamp": 1755977400
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 316517,
+          "name": "Alan Matturro",
+          "photo": "https://media.api-sports.io/football/players/316517.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 539,
+          "name": "Levante",
+          "logo": "https://media.api-sports.io/football/teams/539.png"
+        },
+        "fixture": {
+          "id": 1390832,
+          "timezone": "UTC",
+          "date": "2025-08-23T19:30:00+00:00",
+          "timestamp": 1755977400
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 371912,
+          "name": "Daniel Rodriguez",
+          "photo": "https://media.api-sports.io/football/players/371912.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 529,
+          "name": "Barcelona",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        },
+        "fixture": {
+          "id": 1390832,
+          "timezone": "UTC",
+          "date": "2025-08-23T19:30:00+00:00",
+          "timestamp": 1755977400
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390829"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 15900,
+          "name": "Abdul Mumin",
+          "photo": "https://media.api-sports.io/football/players/15900.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 728,
+          "name": "Rayo Vallecano",
+          "logo": "https://media.api-sports.io/football/teams/728.png"
+        },
+        "fixture": {
+          "id": 1390829,
+          "timezone": "UTC",
+          "date": "2025-08-25T17:30:00+00:00",
+          "timestamp": 1756143000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 47109,
+          "name": "Oscar Valent\u00edn",
+          "photo": "https://media.api-sports.io/football/players/47109.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 728,
+          "name": "Rayo Vallecano",
+          "logo": "https://media.api-sports.io/football/teams/728.png"
+        },
+        "fixture": {
+          "id": 1390829,
+          "timezone": "UTC",
+          "date": "2025-08-25T17:30:00+00:00",
+          "timestamp": 1756143000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 128398,
+          "name": "Oihan Sancet",
+          "photo": "https://media.api-sports.io/football/players/128398.png",
+          "type": "Missing Fixture",
+          "reason": "Inner ligament injury"
+        },
+        "team": {
+          "id": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png"
+        },
+        "fixture": {
+          "id": 1390829,
+          "timezone": "UTC",
+          "date": "2025-08-25T17:30:00+00:00",
+          "timestamp": 1756143000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 182617,
+          "name": "Benat Prados Diaz",
+          "photo": "https://media.api-sports.io/football/players/182617.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png"
+        },
+        "fixture": {
+          "id": 1390829,
+          "timezone": "UTC",
+          "date": "2025-08-25T17:30:00+00:00",
+          "timestamp": 1756143000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 332308,
+          "name": "Unai Gomez",
+          "photo": "https://media.api-sports.io/football/players/332308.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 531,
+          "name": "Athletic Club",
+          "logo": "https://media.api-sports.io/football/teams/531.png"
+        },
+        "fixture": {
+          "id": 1390829,
+          "timezone": "UTC",
+          "date": "2025-08-25T17:30:00+00:00",
+          "timestamp": 1756143000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390835"
+    },
+    "errors": [],
+    "results": 1,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 287654,
+          "name": "Jon Gorrotxategi",
+          "photo": "https://media.api-sports.io/football/players/287654.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "fixture": {
+          "id": 1390835,
+          "timezone": "UTC",
+          "date": "2025-08-24T17:30:00+00:00",
+          "timestamp": 1756056600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390836"
+    },
+    "errors": [],
+    "results": 8,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 653,
+          "name": "Ferland Mendy",
+          "photo": "https://media.api-sports.io/football/players/653.png",
+          "type": "Missing Fixture",
+          "reason": "Thigh problems"
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "fixture": {
+          "id": 1390836,
+          "timezone": "UTC",
+          "date": "2025-08-24T19:30:00+00:00",
+          "timestamp": 1756063800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 46996,
+          "name": "Alvaro Lemos",
+          "photo": "https://media.api-sports.io/football/players/46996.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 718,
+          "name": "Oviedo",
+          "logo": "https://media.api-sports.io/football/teams/718.png"
+        },
+        "fixture": {
+          "id": 1390836,
+          "timezone": "UTC",
+          "date": "2025-08-24T19:30:00+00:00",
+          "timestamp": 1756063800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 30927,
+          "name": "Santiago Colombatto",
+          "photo": "https://media.api-sports.io/football/players/30927.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 718,
+          "name": "Oviedo",
+          "logo": "https://media.api-sports.io/football/teams/718.png"
+        },
+        "fixture": {
+          "id": 1390836,
+          "timezone": "UTC",
+          "date": "2025-08-24T19:30:00+00:00",
+          "timestamp": 1756063800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 2207,
+          "name": "Eduardo Camavinga",
+          "photo": "https://media.api-sports.io/football/players/2207.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "fixture": {
+          "id": 1390836,
+          "timezone": "UTC",
+          "date": "2025-08-24T19:30:00+00:00",
+          "timestamp": 1756063800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 129718,
+          "name": "Jude Bellingham",
+          "photo": "https://media.api-sports.io/football/players/129718.png",
+          "type": "Missing Fixture",
+          "reason": "Shoulder injury"
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "fixture": {
+          "id": 1390836,
+          "timezone": "UTC",
+          "date": "2025-08-24T19:30:00+00:00",
+          "timestamp": 1756063800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 131548,
+          "name": "Lucas Ahijado",
+          "photo": "https://media.api-sports.io/football/players/131548.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 718,
+          "name": "Oviedo",
+          "logo": "https://media.api-sports.io/football/teams/718.png"
+        },
+        "fixture": {
+          "id": 1390836,
+          "timezone": "UTC",
+          "date": "2025-08-24T19:30:00+00:00",
+          "timestamp": 1756063800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 377122,
+          "name": "Endrick Felipe Moreira de Sous",
+          "photo": "https://media.api-sports.io/football/players/377122.png",
+          "type": "Missing Fixture",
+          "reason": "Thigh problems"
+        },
+        "team": {
+          "id": 541,
+          "name": "Real Madrid",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "fixture": {
+          "id": 1390836,
+          "timezone": "UTC",
+          "date": "2025-08-24T19:30:00+00:00",
+          "timestamp": 1756063800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 182486,
+          "name": "Alberto Reina",
+          "photo": "https://media.api-sports.io/football/players/182486.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 718,
+          "name": "Oviedo",
+          "logo": "https://media.api-sports.io/football/teams/718.png"
+        },
+        "fixture": {
+          "id": 1390836,
+          "timezone": "UTC",
+          "date": "2025-08-24T19:30:00+00:00",
+          "timestamp": 1756063800
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390831"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 47302,
+          "name": "Diego Javier Llorente Rios",
+          "photo": "https://media.api-sports.io/football/players/47302.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "fixture": {
+          "id": 1390831,
+          "timezone": "UTC",
+          "date": "2025-08-22T19:30:00+00:00",
+          "timestamp": 1755891000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 1578,
+          "name": "Giovani Lo Celso",
+          "photo": "https://media.api-sports.io/football/players/1578.png",
+          "type": "Missing Fixture",
+          "reason": "Muscular problems"
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "fixture": {
+          "id": 1390831,
+          "timezone": "UTC",
+          "date": "2025-08-22T19:30:00+00:00",
+          "timestamp": 1755891000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 47341,
+          "name": "Marc Roca",
+          "photo": "https://media.api-sports.io/football/players/47341.png",
+          "type": "Missing Fixture",
+          "reason": "Foot injury"
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "fixture": {
+          "id": 1390831,
+          "timezone": "UTC",
+          "date": "2025-08-22T19:30:00+00:00",
+          "timestamp": 1755891000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 162170,
+          "name": "Hugo Novoa Ramos",
+          "photo": "https://media.api-sports.io/football/players/162170.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 542,
+          "name": "Alaves",
+          "logo": "https://media.api-sports.io/football/teams/542.png"
+        },
+        "fixture": {
+          "id": 1390831,
+          "timezone": "UTC",
+          "date": "2025-08-22T19:30:00+00:00",
+          "timestamp": 1755891000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 300885,
+          "name": "Nelson Alexander Deossa Suarez",
+          "photo": "https://media.api-sports.io/football/players/300885.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "fixture": {
+          "id": 1390831,
+          "timezone": "UTC",
+          "date": "2025-08-22T19:30:00+00:00",
+          "timestamp": 1755891000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 181421,
+          "name": "Abdessamad Ezzalzouli",
+          "photo": "https://media.api-sports.io/football/players/181421.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "fixture": {
+          "id": 1390831,
+          "timezone": "UTC",
+          "date": "2025-08-22T19:30:00+00:00",
+          "timestamp": 1755891000
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390830"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 31,
+          "name": "Jose Maria Gimenez de Vargas",
+          "photo": "https://media.api-sports.io/football/players/31.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "fixture": {
+          "id": 1390830,
+          "timezone": "UTC",
+          "date": "2025-08-23T17:30:00+00:00",
+          "timestamp": 1755970200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 182219,
+          "name": "Alejandro Baena Rodriguez",
+          "photo": "https://media.api-sports.io/football/players/182219.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 530,
+          "name": "Atletico Madrid",
+          "logo": "https://media.api-sports.io/football/teams/530.png"
+        },
+        "fixture": {
+          "id": 1390830,
+          "timezone": "UTC",
+          "date": "2025-08-23T17:30:00+00:00",
+          "timestamp": 1755970200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 284415,
+          "name": "Yago Santiago",
+          "photo": "https://media.api-sports.io/football/players/284415.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 797,
+          "name": "Elche",
+          "logo": "https://media.api-sports.io/football/teams/797.png"
+        },
+        "fixture": {
+          "id": 1390830,
+          "timezone": "UTC",
+          "date": "2025-08-23T17:30:00+00:00",
+          "timestamp": 1755970200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390834"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 1482,
+          "name": "Thierry Correia",
+          "photo": "https://media.api-sports.io/football/players/1482.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png"
+        },
+        "fixture": {
+          "id": 1390834,
+          "timezone": "UTC",
+          "date": "2025-08-24T15:00:00+00:00",
+          "timestamp": 1756047600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 288800,
+          "name": "Iker Benito",
+          "photo": "https://media.api-sports.io/football/players/288800.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png"
+        },
+        "fixture": {
+          "id": 1390834,
+          "timezone": "UTC",
+          "date": "2025-08-24T15:00:00+00:00",
+          "timestamp": 1756047600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 181259,
+          "name": "Abel Bretones",
+          "photo": "https://media.api-sports.io/football/players/181259.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png"
+        },
+        "fixture": {
+          "id": 1390834,
+          "timezone": "UTC",
+          "date": "2025-08-24T15:00:00+00:00",
+          "timestamp": 1756047600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 288074,
+          "name": "Alberto Mari",
+          "photo": "https://media.api-sports.io/football/players/288074.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png"
+        },
+        "fixture": {
+          "id": 1390834,
+          "timezone": "UTC",
+          "date": "2025-08-24T15:00:00+00:00",
+          "timestamp": 1756047600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390838"
+    },
+    "errors": [],
+    "results": 9,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 1461,
+          "name": "Denis Suarez Fernandez",
+          "photo": "https://media.api-sports.io/football/players/1461.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "fixture": {
+          "id": 1390838,
+          "timezone": "UTC",
+          "date": "2025-08-24T17:30:00+00:00",
+          "timestamp": 1756056600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 158,
+          "name": "Paulo Gazzaniga",
+          "photo": "https://media.api-sports.io/football/players/158.png",
+          "type": "Missing Fixture",
+          "reason": "Suspension"
+        },
+        "team": {
+          "id": 547,
+          "name": "Girona",
+          "logo": "https://media.api-sports.io/football/teams/547.png"
+        },
+        "fixture": {
+          "id": 1390838,
+          "timezone": "UTC",
+          "date": "2025-08-24T17:30:00+00:00",
+          "timestamp": 1756056600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 1707,
+          "name": "Gerard Moreno Balaguero",
+          "photo": "https://media.api-sports.io/football/players/1707.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "fixture": {
+          "id": 1390838,
+          "timezone": "UTC",
+          "date": "2025-08-24T17:30:00+00:00",
+          "timestamp": 1756056600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 18906,
+          "name": "Ayoze Perez",
+          "photo": "https://media.api-sports.io/football/players/18906.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "fixture": {
+          "id": 1390838,
+          "timezone": "UTC",
+          "date": "2025-08-24T17:30:00+00:00",
+          "timestamp": 1756056600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 547,
+          "name": "Donny van de Beek",
+          "photo": "https://media.api-sports.io/football/players/547.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 547,
+          "name": "Girona",
+          "logo": "https://media.api-sports.io/football/teams/547.png"
+        },
+        "fixture": {
+          "id": 1390838,
+          "timezone": "UTC",
+          "date": "2025-08-24T17:30:00+00:00",
+          "timestamp": 1756056600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 155,
+          "name": "Abel Ruiz",
+          "photo": "https://media.api-sports.io/football/players/155.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 547,
+          "name": "Girona",
+          "logo": "https://media.api-sports.io/football/teams/547.png"
+        },
+        "fixture": {
+          "id": 1390838,
+          "timezone": "UTC",
+          "date": "2025-08-24T17:30:00+00:00",
+          "timestamp": 1756056600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 21997,
+          "name": "Logan Costa",
+          "photo": "https://media.api-sports.io/football/players/21997.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "fixture": {
+          "id": 1390838,
+          "timezone": "UTC",
+          "date": "2025-08-24T17:30:00+00:00",
+          "timestamp": 1756056600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 122956,
+          "name": "Diego Conde",
+          "photo": "https://media.api-sports.io/football/players/122956.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "fixture": {
+          "id": 1390838,
+          "timezone": "UTC",
+          "date": "2025-08-24T17:30:00+00:00",
+          "timestamp": 1756056600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 288112,
+          "name": "Willy Kambwala",
+          "photo": "https://media.api-sports.io/football/players/288112.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 533,
+          "name": "Villarreal",
+          "logo": "https://media.api-sports.io/football/teams/533.png"
+        },
+        "fixture": {
+          "id": 1390838,
+          "timezone": "UTC",
+          "date": "2025-08-24T17:30:00+00:00",
+          "timestamp": 1756056600
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390837"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 47320,
+          "name": "Juan Miguel Jimenez Lopez",
+          "photo": "https://media.api-sports.io/football/players/47320.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 546,
+          "name": "Getafe",
+          "logo": "https://media.api-sports.io/football/teams/546.png"
+        },
+        "fixture": {
+          "id": 1390837,
+          "timezone": "UTC",
+          "date": "2025-08-25T19:30:00+00:00",
+          "timestamp": 1756150200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 2924,
+          "name": "Adnan Januzaj",
+          "photo": "https://media.api-sports.io/football/players/2924.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "fixture": {
+          "id": 1390837,
+          "timezone": "UTC",
+          "date": "2025-08-25T19:30:00+00:00",
+          "timestamp": 1756150200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 133110,
+          "name": "Nianzou Kouassi",
+          "photo": "https://media.api-sports.io/football/players/133110.png",
+          "type": "Missing Fixture",
+          "reason": "Hip injury"
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "fixture": {
+          "id": 1390837,
+          "timezone": "UTC",
+          "date": "2025-08-25T19:30:00+00:00",
+          "timestamp": 1756150200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 340152,
+          "name": "Stanis Idumbo Muzambo",
+          "photo": "https://media.api-sports.io/football/players/340152.png",
+          "type": "Missing Fixture",
+          "reason": "Flexor of the left hip"
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "fixture": {
+          "id": 1390837,
+          "timezone": "UTC",
+          "date": "2025-08-25T19:30:00+00:00",
+          "timestamp": 1756150200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 184459,
+          "name": "Alex Sancris",
+          "photo": "https://media.api-sports.io/football/players/184459.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 546,
+          "name": "Getafe",
+          "logo": "https://media.api-sports.io/football/teams/546.png"
+        },
+        "fixture": {
+          "id": 1390837,
+          "timezone": "UTC",
+          "date": "2025-08-25T19:30:00+00:00",
+          "timestamp": 1756150200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 197196,
+          "name": "Ramon Martinez",
+          "photo": "https://media.api-sports.io/football/players/197196.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 536,
+          "name": "Sevilla",
+          "logo": "https://media.api-sports.io/football/teams/536.png"
+        },
+        "fixture": {
+          "id": 1390837,
+          "timezone": "UTC",
+          "date": "2025-08-25T19:30:00+00:00",
+          "timestamp": 1756150200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1390833"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 47399,
+          "name": "Ivan Cuellar Sacristan",
+          "photo": "https://media.api-sports.io/football/players/47399.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 798,
+          "name": "Mallorca",
+          "logo": "https://media.api-sports.io/football/teams/798.png"
+        },
+        "fixture": {
+          "id": 1390833,
+          "timezone": "UTC",
+          "date": "2025-08-23T15:00:00+00:00",
+          "timestamp": 1755961200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 47988,
+          "name": "Carl Starfelt",
+          "photo": "https://media.api-sports.io/football/players/47988.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle fiber tear"
+        },
+        "team": {
+          "id": 538,
+          "name": "Celta Vigo",
+          "logo": "https://media.api-sports.io/football/teams/538.png"
+        },
+        "fixture": {
+          "id": 1390833,
+          "timezone": "UTC",
+          "date": "2025-08-23T15:00:00+00:00",
+          "timestamp": 1755961200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 50048,
+          "name": "Vedat Muriqi",
+          "photo": "https://media.api-sports.io/football/players/50048.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 798,
+          "name": "Mallorca",
+          "logo": "https://media.api-sports.io/football/teams/798.png"
+        },
+        "fixture": {
+          "id": 1390833,
+          "timezone": "UTC",
+          "date": "2025-08-23T15:00:00+00:00",
+          "timestamp": 1755961200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 1701,
+          "name": "Manuel Morlanes",
+          "photo": "https://media.api-sports.io/football/players/1701.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 798,
+          "name": "Mallorca",
+          "logo": "https://media.api-sports.io/football/teams/798.png"
+        },
+        "fixture": {
+          "id": 1390833,
+          "timezone": "UTC",
+          "date": "2025-08-23T15:00:00+00:00",
+          "timestamp": 1755961200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 190485,
+          "name": "Samuel Almeida Costa",
+          "photo": "https://media.api-sports.io/football/players/190485.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 798,
+          "name": "Mallorca",
+          "logo": "https://media.api-sports.io/football/teams/798.png"
+        },
+        "fixture": {
+          "id": 1390833,
+          "timezone": "UTC",
+          "date": "2025-08-23T15:00:00+00:00",
+          "timestamp": 1755961200
+        },
+        "league": {
+          "id": 140,
+          "season": 2025,
+          "name": "La Liga",
+          "country": "Spain",
+          "logo": "https://media.api-sports.io/football/leagues/140.png",
+          "flag": "https://media.api-sports.io/flags/es.svg"
+        }
+      }
+    ]
+  }
+]

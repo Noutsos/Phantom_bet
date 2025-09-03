@@ -1,0 +1,1262 @@
+[
+  {
+    "fixture": {
+      "id": 1380867,
+      "referee": "Rob Dieperink",
+      "timezone": "UTC",
+      "date": "2025-08-08T18:00:00+00:00",
+      "timestamp": 1754676000,
+      "periods": {
+        "first": 1754676000,
+        "second": 1754679600
+      },
+      "venue": {
+        "id": 1129,
+        "name": "Fortuna Sittard Stadion",
+        "city": "Sittard"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 205,
+        "name": "Fortuna Sittard",
+        "logo": "https://media.api-sports.io/football/teams/205.png",
+        "winner": null
+      },
+      "away": {
+        "id": 410,
+        "name": "GO Ahead Eagles",
+        "logo": "https://media.api-sports.io/football/teams/410.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380868,
+      "referee": "Danny Desmond Makkelie",
+      "timezone": "UTC",
+      "date": "2025-08-09T14:30:00+00:00",
+      "timestamp": 1754749800,
+      "periods": {
+        "first": 1754749800,
+        "second": 1754753400
+      },
+      "venue": {
+        "id": 1140,
+        "name": "Goffertstadion",
+        "city": "Nijmegen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 413,
+        "name": "NEC Nijmegen",
+        "logo": "https://media.api-sports.io/football/teams/413.png",
+        "winner": true
+      },
+      "away": {
+        "id": 196,
+        "name": "Excelsior",
+        "logo": "https://media.api-sports.io/football/teams/196.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380869,
+      "referee": "Allard Lindhout",
+      "timezone": "UTC",
+      "date": "2025-08-09T16:45:00+00:00",
+      "timestamp": 1754757900,
+      "periods": {
+        "first": 1754757900,
+        "second": 1754761500
+      },
+      "venue": {
+        "id": 1128,
+        "name": "Stadion Feijenoord",
+        "city": "Rotterdam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 209,
+        "name": "Feyenoord",
+        "logo": "https://media.api-sports.io/football/teams/209.png",
+        "winner": true
+      },
+      "away": {
+        "id": 203,
+        "name": "NAC Breda",
+        "logo": "https://media.api-sports.io/football/teams/203.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380870,
+      "referee": "Marc Nagtegaal",
+      "timezone": "UTC",
+      "date": "2025-08-09T18:00:00+00:00",
+      "timestamp": 1754762400,
+      "periods": {
+        "first": 1754762400,
+        "second": 1754766000
+      },
+      "venue": {
+        "id": 1132,
+        "name": "Abe Lenstra Stadion",
+        "city": "Heerenveen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 210,
+        "name": "Heerenveen",
+        "logo": "https://media.api-sports.io/football/teams/210.png",
+        "winner": null
+      },
+      "away": {
+        "id": 416,
+        "name": "FC Volendam",
+        "logo": "https://media.api-sports.io/football/teams/416.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380871,
+      "referee": "Bas Nijhuis",
+      "timezone": "UTC",
+      "date": "2025-08-09T19:00:00+00:00",
+      "timestamp": 1754766000,
+      "periods": {
+        "first": 1754766000,
+        "second": 1754769600
+      },
+      "venue": {
+        "id": 1143,
+        "name": "Philips Stadion",
+        "city": "Eindhoven"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 197,
+        "name": "PSV Eindhoven",
+        "logo": "https://media.api-sports.io/football/teams/197.png",
+        "winner": true
+      },
+      "away": {
+        "id": 426,
+        "name": "Sparta Rotterdam",
+        "logo": "https://media.api-sports.io/football/teams/426.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 6,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 6,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380872,
+      "referee": "Joey Kooij",
+      "timezone": "UTC",
+      "date": "2025-08-10T10:15:00+00:00",
+      "timestamp": 1754820900,
+      "periods": {
+        "first": 1754820900,
+        "second": 1754824500
+      },
+      "venue": {
+        "id": 1160,
+        "name": "MAC\u00b3PARK Stadion",
+        "city": "Zwolle"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 193,
+        "name": "PEC Zwolle",
+        "logo": "https://media.api-sports.io/football/teams/193.png",
+        "winner": true
+      },
+      "away": {
+        "id": 415,
+        "name": "Twente",
+        "logo": "https://media.api-sports.io/football/teams/415.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380873,
+      "referee": "Jannick van der Laan",
+      "timezone": "UTC",
+      "date": "2025-08-10T12:30:00+00:00",
+      "timestamp": 1754829000,
+      "periods": {
+        "first": 1754829000,
+        "second": 1754832600
+      },
+      "venue": {
+        "id": 1117,
+        "name": "Johan Cruijff ArenA",
+        "city": "Amsterdam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 194,
+        "name": "Ajax",
+        "logo": "https://media.api-sports.io/football/teams/194.png",
+        "winner": true
+      },
+      "away": {
+        "id": 427,
+        "name": "Telstar",
+        "logo": "https://media.api-sports.io/football/teams/427.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380874,
+      "referee": "Serdar G\u00f6z\u00fcb\u00fcy\u00fck",
+      "timezone": "UTC",
+      "date": "2025-08-10T12:30:00+00:00",
+      "timestamp": 1754829000,
+      "periods": {
+        "first": 1754829000,
+        "second": 1754832600
+      },
+      "venue": {
+        "id": 1119,
+        "name": "AFAS Stadion",
+        "city": "Alkmaar"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 201,
+        "name": "AZ Alkmaar",
+        "logo": "https://media.api-sports.io/football/teams/201.png",
+        "winner": true
+      },
+      "away": {
+        "id": 202,
+        "name": "Groningen",
+        "logo": "https://media.api-sports.io/football/teams/202.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 3,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380875,
+      "referee": "Erwin Blank",
+      "timezone": "UTC",
+      "date": "2025-08-10T14:45:00+00:00",
+      "timestamp": 1754837100,
+      "periods": {
+        "first": 1754837100,
+        "second": 1754840700
+      },
+      "venue": {
+        "id": 1154,
+        "name": "Stadion Galgenwaard",
+        "city": "Utrecht"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 207,
+        "name": "Utrecht",
+        "logo": "https://media.api-sports.io/football/teams/207.png",
+        "winner": true
+      },
+      "away": {
+        "id": 206,
+        "name": "Heracles",
+        "logo": "https://media.api-sports.io/football/teams/206.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380876,
+      "referee": "Serdar G\u00f6z\u00fcb\u00fcy\u00fck",
+      "timezone": "UTC",
+      "date": "2025-08-15T18:00:00+00:00",
+      "timestamp": 1755280800,
+      "periods": {
+        "first": 1755280800,
+        "second": 1755284400
+      },
+      "venue": {
+        "id": 11907,
+        "name": "BUKO Stadion",
+        "city": "Velsen-Zuid"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 4
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 427,
+        "name": "Telstar",
+        "logo": "https://media.api-sports.io/football/teams/427.png",
+        "winner": false
+      },
+      "away": {
+        "id": 193,
+        "name": "PEC Zwolle",
+        "logo": "https://media.api-sports.io/football/teams/193.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380878,
+      "referee": "Dennis Johan Higler",
+      "timezone": "UTC",
+      "date": "2025-08-16T16:45:00+00:00",
+      "timestamp": 1755362700,
+      "periods": {
+        "first": 1755362700,
+        "second": 1755366300
+      },
+      "venue": {
+        "id": 2901,
+        "name": "Stadion Woudestein",
+        "city": "Rotterdam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 196,
+        "name": "Excelsior",
+        "logo": "https://media.api-sports.io/football/teams/196.png",
+        "winner": false
+      },
+      "away": {
+        "id": 209,
+        "name": "Feyenoord",
+        "logo": "https://media.api-sports.io/football/teams/209.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380879,
+      "referee": "Alex Bos",
+      "timezone": "UTC",
+      "date": "2025-08-16T18:00:00+00:00",
+      "timestamp": 1755367200,
+      "periods": {
+        "first": 1755367200,
+        "second": 1755370800
+      },
+      "venue": {
+        "id": null,
+        "name": "Asito Stadion",
+        "city": "Almelo"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 206,
+        "name": "Heracles",
+        "logo": "https://media.api-sports.io/football/teams/206.png",
+        "winner": false
+      },
+      "away": {
+        "id": 413,
+        "name": "NEC Nijmegen",
+        "logo": "https://media.api-sports.io/football/teams/413.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 4
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 4
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380877,
+      "referee": "Jeroen Manschot",
+      "timezone": "UTC",
+      "date": "2025-08-16T19:00:00+00:00",
+      "timestamp": 1755370800,
+      "periods": {
+        "first": 1755370800,
+        "second": 1755374400
+      },
+      "venue": {
+        "id": 12276,
+        "name": "Euroborg",
+        "city": "Groningen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 202,
+        "name": "Groningen",
+        "logo": "https://media.api-sports.io/football/teams/202.png",
+        "winner": true
+      },
+      "away": {
+        "id": 210,
+        "name": "Heerenveen",
+        "logo": "https://media.api-sports.io/football/teams/210.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380880,
+      "referee": "Danny Desmond Makkelie",
+      "timezone": "UTC",
+      "date": "2025-08-17T10:15:00+00:00",
+      "timestamp": 1755425700,
+      "periods": {
+        "first": 1755425700,
+        "second": 1755429300
+      },
+      "venue": {
+        "id": 1130,
+        "name": "De Adelaarshorst",
+        "city": "Deventer"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 410,
+        "name": "GO Ahead Eagles",
+        "logo": "https://media.api-sports.io/football/teams/410.png",
+        "winner": null
+      },
+      "away": {
+        "id": 194,
+        "name": "Ajax",
+        "logo": "https://media.api-sports.io/football/teams/194.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380882,
+      "referee": "Sander van der Eijk",
+      "timezone": "UTC",
+      "date": "2025-08-17T12:30:00+00:00",
+      "timestamp": 1755433800,
+      "periods": {
+        "first": 1755433800,
+        "second": 1755437400
+      },
+      "venue": {
+        "id": 1153,
+        "name": "De Grolsch Veste",
+        "city": "Enschede"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 415,
+        "name": "Twente",
+        "logo": "https://media.api-sports.io/football/teams/415.png",
+        "winner": false
+      },
+      "away": {
+        "id": 197,
+        "name": "PSV Eindhoven",
+        "logo": "https://media.api-sports.io/football/teams/197.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380881,
+      "referee": "Allard Lindhout",
+      "timezone": "UTC",
+      "date": "2025-08-17T12:30:00+00:00",
+      "timestamp": 1755433800,
+      "periods": {
+        "first": 1755433800,
+        "second": 1755437400
+      },
+      "venue": {
+        "id": 10505,
+        "name": "Sparta-Stadion Het Kasteel",
+        "city": "Rotterdam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 426,
+        "name": "Sparta Rotterdam",
+        "logo": "https://media.api-sports.io/football/teams/426.png",
+        "winner": true
+      },
+      "away": {
+        "id": 207,
+        "name": "Utrecht",
+        "logo": "https://media.api-sports.io/football/teams/207.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380883,
+      "referee": "Martijn Vos",
+      "timezone": "UTC",
+      "date": "2025-08-17T14:45:00+00:00",
+      "timestamp": 1755441900,
+      "periods": {
+        "first": 1755441900,
+        "second": 1755445500
+      },
+      "venue": {
+        "id": 1156,
+        "name": "Kras Stadion",
+        "city": "Volendam"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 416,
+        "name": "FC Volendam",
+        "logo": "https://media.api-sports.io/football/teams/416.png",
+        "winner": null
+      },
+      "away": {
+        "id": 201,
+        "name": "AZ Alkmaar",
+        "logo": "https://media.api-sports.io/football/teams/201.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1380884,
+      "referee": "Martin van den Kerkhof",
+      "timezone": "UTC",
+      "date": "2025-08-17T18:00:00+00:00",
+      "timestamp": 1755453600,
+      "periods": {
+        "first": 1755453600,
+        "second": 1755457200
+      },
+      "venue": {
+        "id": 1139,
+        "name": "Rat Verlegh Stadion",
+        "city": "Breda"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 88,
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "logo": "https://media.api-sports.io/football/leagues/88.png",
+      "flag": "https://media.api-sports.io/flags/nl.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 203,
+        "name": "NAC Breda",
+        "logo": "https://media.api-sports.io/football/teams/203.png",
+        "winner": true
+      },
+      "away": {
+        "id": 205,
+        "name": "Fortuna Sittard",
+        "logo": "https://media.api-sports.io/football/teams/205.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

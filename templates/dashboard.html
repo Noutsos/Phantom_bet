@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-8 mx-auto">
+        <div class="card">
+            <div class="card-header">
+                <h3>Pipeline Status Dashboard</h3>
+            </div>
+            <div class="card-body">
+                <div id="statusPanel">
+                    <div class="mb-3">
+                        <strong>Current Task:</strong> 
+                        <span id="currentTask">{{ status.current_task or 'None' }}</span>
+                    </div>
+                    <div class="mb-3">
+                        <strong>Status:</strong> 
+                        <span id="status" class="badge bg-{{ 'success' if status.status == 'completed' else 'warning' if status.status == 'running' else 'danger' if status.status == 'error' else 'secondary' }}">
+                            {{ status.status }}
+                        </span>
+                    </div>
+                    <div class="mb-3">
+                        <strong>Progress:</strong>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" 
+                                 style="width: {{ status.progress }}%;"
+                                 aria-valuenow="{{ status.progress }}" 
+                                 aria-valuemin="0" aria-valuemax="100">
+                                {{ status.progress }}%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <strong>Message:</strong>
+                        <div id="message" class="alert alert-info">
+                            {{ status.message }}
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <strong>Last Run:</strong> 
+                        <span id="lastRun">{{ status.last_run or 'Never' }}</span>
+                    </div>
+                    
+                    {% if status.predictions_file %}
+                    <div class="mb-3">
+                        <a href="{{ url_for('download_predictions') }}" 
+                           class="btn btn-success">
+                            Download Predictions
+                        </a>
+                    </div>
+                    {% endif %}
+                    
+                    <button class="btn btn-primary" onclick="refreshStatus()">
+                        Refresh Status
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

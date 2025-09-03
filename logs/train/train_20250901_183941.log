@@ -1,0 +1,36 @@
+2025-09-01 18:39:41,585 - src.train_pipeline - INFO - Starting hierarchical training with draw_model: logistic_regression, win_model: random_forest
+2025-09-01 18:39:41,585 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-01 18:39:41,608 - src.train_pipeline - INFO - Filtered to 37455 completed matches
+2025-09-01 18:39:41,647 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-01 18:39:41,655 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-01 18:39:41,655 - src.train_pipeline - INFO - Preparing features...
+2025-09-01 18:39:41,688 - src.train_pipeline - INFO - Removed 33 potential leakage columns
+2025-09-01 18:39:41,851 - src.train_pipeline - INFO - Feature preparation complete. Final features: 132
+2025-09-01 18:39:41,851 - src.train_pipeline - INFO - Data preparation complete. Features: 132, Samples: 37455
+2025-09-01 18:39:41,857 - src.train_pipeline - INFO - Time Series Split - Training: 22473, Holdout: 14982
+2025-09-01 18:39:41,857 - src.train_pipeline - INFO - Building pipeline for random_forest with importance feature selection
+2025-09-01 18:39:41,916 - src.train_pipeline - INFO - Numerical features: 132, Categorical features: 0
+2025-09-01 18:39:41,916 - src.train_pipeline - INFO - Selected model class: random_forest for classification
+2025-09-01 18:39:41,916 - src.train_pipeline - INFO - Using feature selection method: importance with top 75 features
+2025-09-01 18:39:41,916 - src.train_pipeline - INFO - Retrieved parameters for model: logistic_regression
+2025-09-01 18:39:41,917 - src.train_pipeline - INFO - Selected model class: logistic_regression for classification
+2025-09-01 18:39:41,917 - src.train_pipeline - INFO - Retrieved parameters for model: random_forest
+2025-09-01 18:39:41,917 - src.train_pipeline - INFO - Selected model class: random_forest for classification
+2025-09-01 18:39:41,917 - src.train_pipeline - INFO - Starting hierarchical cross-validation...
+2025-09-01 18:39:41,917 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-01 18:39:46,364 - src.train_pipeline - INFO - Fold 1 - Test Accuracy: 0.3089 - F1 Macro: 0.2333
+2025-09-01 18:39:46,367 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-01 18:39:54,004 - src.train_pipeline - INFO - Fold 2 - Test Accuracy: 0.3036 - F1 Macro: 0.2297
+2025-09-01 18:39:54,006 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-01 18:40:04,666 - src.train_pipeline - INFO - Fold 3 - Test Accuracy: 0.2801 - F1 Macro: 0.1837
+2025-09-01 18:40:04,668 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-01 18:40:18,281 - src.train_pipeline - INFO - Fold 4 - Test Accuracy: 0.3252 - F1 Macro: 0.2626
+2025-09-01 18:40:18,284 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-01 18:40:39,583 - src.train_pipeline - INFO - Fold 5 - Test Accuracy: 0.2943 - F1 Macro: 0.2071
+2025-09-01 18:40:39,587 - src.train_pipeline - INFO - Training final hierarchical model on full training period...
+2025-09-01 18:41:00,345 - src.train_pipeline - INFO - Evaluating hierarchical model on holdout period...
+2025-09-01 18:41:00,622 - src.train_pipeline - INFO - Hierarchical Holdout Accuracy: 0.2944
+2025-09-01 18:41:00,622 - src.train_pipeline - INFO - Hierarchical Draw Recall: 0.9895
+2025-09-01 18:41:00,622 - src.train_pipeline - INFO - Saving model artifacts...
+2025-09-01 18:41:00,957 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-09-01 18:41:00,957 - src.train_pipeline - INFO - Hierarchical training completed successfully!

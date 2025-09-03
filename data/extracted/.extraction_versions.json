@@ -1,0 +1,3817 @@
+{
+  "England\\Championship\\2018": {
+    "England\\Championship\\2018/fixture_events.json": {
+      "mtime": 1756659212.3891747,
+      "size": 888322,
+      "hash": "17fa28b366dd380b1dc93335f7fd6ac1",
+      "processed": "2025-08-31T20:53:16.125769"
+    },
+    "England\\Championship\\2018/team_statistics.json": {
+      "mtime": 1756659358.288058,
+      "size": 1939672,
+      "hash": "fc3c44d5b2f75c97145e42390c4add2d",
+      "processed": "2025-08-31T20:53:16.726905"
+    }
+  },
+  "England\\Championship\\2019": {
+    "England\\Championship\\2019/fixture_events.json": {
+      "mtime": 1756658715.5361052,
+      "size": 706698,
+      "hash": "58f545c66d762efc703b593d42094f42",
+      "processed": "2025-08-31T20:53:16.781918"
+    },
+    "England\\Championship\\2019/team_statistics.json": {
+      "mtime": 1756658827.5227735,
+      "size": 1554551,
+      "hash": "9fb5a6eafc94cc13005edb649f5b98b2",
+      "processed": "2025-08-31T20:53:17.316039"
+    }
+  },
+  "England\\Championship\\2020": {
+    "England\\Championship\\2020/fixture_events.json": {
+      "mtime": 1756541124.6846523,
+      "size": 889772,
+      "hash": "078279a9d320ed90065eee23aee24e5c",
+      "processed": "2025-08-31T20:53:17.377053"
+    },
+    "England\\Championship\\2020/team_statistics.json": {
+      "mtime": 1756541264.5467088,
+      "size": 1950401,
+      "hash": "c898ea02fb062a4903e92b6e140e7863",
+      "processed": "2025-08-31T20:53:17.981190"
+    }
+  },
+  "England\\Championship\\2021": {
+    "England\\Championship\\2021/fixture_events.json": {
+      "mtime": 1756540643.5582712,
+      "size": 889306,
+      "hash": "e8d4b2754c16b7553059b8864a7ee2a2",
+      "processed": "2025-08-31T20:53:18.041204"
+    },
+    "England\\Championship\\2021/team_statistics.json": {
+      "mtime": 1756540780.783102,
+      "size": 1950450,
+      "hash": "0c48eea9d5accacfa243b308fabd058e",
+      "processed": "2025-08-31T20:53:18.626336"
+    }
+  },
+  "England\\Championship\\2022": {
+    "England\\Championship\\2022/fixture_events.json": {
+      "mtime": 1756540299.6026003,
+      "size": 869541,
+      "hash": "39ddd5fd28bba6c709284fb11792bbc5",
+      "processed": "2025-08-31T20:53:18.680349"
+    },
+    "England\\Championship\\2022/team_statistics.json": {
+      "mtime": 1756540432.7126474,
+      "size": 1954891,
+      "hash": "59bde98ebf79d47b743af76e2e808c8f",
+      "processed": "2025-08-31T20:53:19.321494"
+    }
+  },
+  "England\\Championship\\2023": {
+    "England\\Championship\\2023/fixture_events.json": {
+      "mtime": 1756659618.9944448,
+      "size": 888652,
+      "hash": "d880743bcd30dbdf29c1f5aeec4595b2",
+      "processed": "2025-08-31T20:53:19.375507"
+    },
+    "England\\Championship\\2023/team_statistics.json": {
+      "mtime": 1756540009.8178737,
+      "size": 2050250,
+      "hash": "6565794699c803178db41874d35388a1",
+      "processed": "2025-08-31T20:53:20.132678"
+    }
+  },
+  "England\\Championship\\2024": {
+    "England\\Championship\\2024/fixture_events.json": {
+      "mtime": 1756659633.5241902,
+      "size": 885528,
+      "hash": "e118dab039eac50e2988babb7012c0a8",
+      "processed": "2025-08-31T20:53:20.187691"
+    },
+    "England\\Championship\\2024/team_statistics.json": {
+      "mtime": 1756539664.5948398,
+      "size": 2158368,
+      "hash": "ad96f66f1234190f684019e179adedb2",
+      "processed": "2025-08-31T20:53:20.810833"
+    }
+  },
+  "England\\Championship\\2025": {
+    "England\\Championship\\2025/fixture_events.json": {
+      "mtime": 1755833287.3806388,
+      "size": 38277,
+      "hash": "020f2b044a520071b352d52b22c49f29",
+      "processed": "2025-08-31T20:53:20.833838"
+    },
+    "England\\Championship\\2025/injuries.json": {
+      "mtime": 1755833319.8424697,
+      "size": 173484,
+      "hash": "d7c97c1b7634d72bf81edd73e0bea3f8",
+      "processed": "2025-08-31T20:53:20.876345"
+    },
+    "England\\Championship\\2025/lineups.json": {
+      "mtime": 1755833319.8184664,
+      "size": 250787,
+      "hash": "162bb5a890aef3efb65cf1f750766152",
+      "processed": "2025-08-31T20:53:20.930355"
+    },
+    "England\\Championship\\2025/odds.json": {
+      "mtime": 1755833320.1135325,
+      "size": 2307424,
+      "hash": "aa5e5c9708f10dcc358aa62be74629e7",
+      "processed": "2025-08-31T20:53:20.980366"
+    },
+    "England\\Championship\\2025/player_statistics.json": {
+      "mtime": 1755833319.782458,
+      "size": 1832735,
+      "hash": "4eb6df38492027f7b8bef9cf2152aed4",
+      "processed": "2025-08-31T20:53:21.099393"
+    },
+    "England\\Championship\\2025/team_standings.json": {
+      "mtime": 1755833320.3225818,
+      "size": 31693,
+      "hash": "f7fceda33529e98a08654a8c82666131",
+      "processed": "2025-08-31T20:53:21.117398"
+    },
+    "England\\Championship\\2025/team_statistics.json": {
+      "mtime": 1755833319.5454059,
+      "size": 93028,
+      "hash": "cce4217a0f36377df0063f6462c6df9d",
+      "processed": "2025-08-31T20:53:21.157409"
+    }
+  },
+  "England\\EFL Trophy\\2021": {
+    "England\\EFL Trophy\\2021/fixture_events.json": {
+      "mtime": 1755074982.1876192,
+      "size": 221587,
+      "hash": "61fdf400c576e8fde55d802c52fb2ad0",
+      "processed": "2025-08-31T20:53:21.184414"
+    },
+    "England\\EFL Trophy\\2021/team_statistics.json": {
+      "mtime": 1755075044.345735,
+      "size": 432935,
+      "hash": "a268bbab94956f648b0ef1fd0d65836c",
+      "processed": "2025-08-31T20:53:21.320444"
+    }
+  },
+  "England\\EFL Trophy\\2022": {
+    "England\\EFL Trophy\\2022/fixture_events.json": {
+      "mtime": 1755074859.819877,
+      "size": 221765,
+      "hash": "43f892dfe383c0d9daa40f3a32f36393",
+      "processed": "2025-08-31T20:53:21.348449"
+    },
+    "England\\EFL Trophy\\2022/team_statistics.json": {
+      "mtime": 1755074924.1066637,
+      "size": 321438,
+      "hash": "25c4dc6986c35d1873ffff1d99d374ec",
+      "processed": "2025-08-31T20:53:21.466478"
+    }
+  },
+  "England\\EFL Trophy\\2023": {
+    "England\\EFL Trophy\\2023/fixture_events.json": {
+      "mtime": 1755074658.4834046,
+      "size": 221990,
+      "hash": "f938ade85d86a10a02bdceaaecd95eeb",
+      "processed": "2025-08-31T20:53:21.494483"
+    },
+    "England\\EFL Trophy\\2023/team_statistics.json": {
+      "mtime": 1755074690.2078905,
+      "size": 421097,
+      "hash": "f9fcb64dc60bfb8225d004a81cb58759",
+      "processed": "2025-08-31T20:53:21.617511"
+    }
+  },
+  "England\\EFL Trophy\\2024": {
+    "England\\EFL Trophy\\2024/fixture_events.json": {
+      "mtime": 1755074609.3087218,
+      "size": 221837,
+      "hash": "38a6b09f6a0921bca0ad74c40d9a215a",
+      "processed": "2025-08-31T20:53:21.645518"
+    },
+    "England\\EFL Trophy\\2024/team_statistics.json": {
+      "mtime": 1755074638.337707,
+      "size": 478993,
+      "hash": "72708586d3054e7a7225035815cf22e4",
+      "processed": "2025-08-31T20:53:21.778548"
+    }
+  },
+  "England\\FA Cup\\2018": {
+    "England\\FA Cup\\2018/fixture_events.json": {
+      "mtime": 1756662203.4897976,
+      "size": 238575,
+      "hash": "a29c77af7169e4482c178b99e59c8d19",
+      "processed": "2025-08-31T20:53:21.844563"
+    },
+    "England\\FA Cup\\2018/team_statistics.json": {
+      "mtime": 1756662242.2554111,
+      "size": 276222,
+      "hash": "ada3c1d6864a5012dbf65b560e255a10",
+      "processed": "2025-08-31T20:53:21.939585"
+    }
+  },
+  "England\\FA Cup\\2019": {
+    "England\\FA Cup\\2019/fixture_events.json": {
+      "mtime": 1756661300.6532273,
+      "size": 237068,
+      "hash": "1345af4d2cf7fedfe9c4951d419e504f",
+      "processed": "2025-08-31T20:53:21.954587"
+    },
+    "England\\FA Cup\\2019/team_statistics.json": {
+      "mtime": 1756661336.5802195,
+      "size": 233840,
+      "hash": "56559fe001d86af1abac454a9e5c24e1",
+      "processed": "2025-08-31T20:53:22.040608"
+    }
+  },
+  "England\\FA Cup\\2020": {
+    "England\\FA Cup\\2020/fixture_events.json": {
+      "mtime": 1756660763.175455,
+      "size": 197810,
+      "hash": "a7ea1da37a8bc0b2380f313751bc3e3a",
+      "processed": "2025-08-31T20:53:22.068615"
+    },
+    "England\\FA Cup\\2020/team_statistics.json": {
+      "mtime": 1756660794.924451,
+      "size": 270734,
+      "hash": "c084dd980a92b3a0ca7f5f3449bf4649",
+      "processed": "2025-08-31T20:53:22.166637"
+    }
+  },
+  "England\\FA Cup\\2021": {
+    "England\\FA Cup\\2021/fixture_events.json": {
+      "mtime": 1756660608.1449473,
+      "size": 216428,
+      "hash": "3b41929f243dafe43529c27249248a56",
+      "processed": "2025-08-31T20:53:22.196644"
+    },
+    "England\\FA Cup\\2021/team_statistics.json": {
+      "mtime": 1756660643.5016022,
+      "size": 243911,
+      "hash": "6aedcd0cdc2f922c93520cb314d52182",
+      "processed": "2025-08-31T20:53:22.290665"
+    }
+  },
+  "England\\FA Cup\\2022": {
+    "England\\FA Cup\\2022/fixture_events.json": {
+      "mtime": 1756660467.8815947,
+      "size": 227481,
+      "hash": "ac625f98e929ee25ebdffe230535d1a9",
+      "processed": "2025-08-31T20:53:22.321672"
+    },
+    "England\\FA Cup\\2022/team_statistics.json": {
+      "mtime": 1756660506.9835064,
+      "size": 444934,
+      "hash": "a698238f34d6441bf906b021542de521",
+      "processed": "2025-08-31T20:53:22.500715"
+    }
+  },
+  "England\\FA Cup\\2023": {
+    "England\\FA Cup\\2023/fixture_events.json": {
+      "mtime": 1756660361.342908,
+      "size": 237066,
+      "hash": "5fb49355a9c9881a3c9873f8a275a743",
+      "processed": "2025-08-31T20:53:22.530718"
+    },
+    "England\\FA Cup\\2023/team_statistics.json": {
+      "mtime": 1756660396.624857,
+      "size": 266080,
+      "hash": "2a1871f05e0d2f279d5c6f3eeecb8030",
+      "processed": "2025-08-31T20:53:22.693756"
+    }
+  },
+  "England\\FA Cup\\2024": {
+    "England\\FA Cup\\2024/fixture_events.json": {
+      "mtime": 1756660199.3673859,
+      "size": 195312,
+      "hash": "e202cf68a73e7ad7b9a7ded84fe092ce",
+      "processed": "2025-08-31T20:53:22.727764"
+    },
+    "England\\FA Cup\\2024/team_statistics.json": {
+      "mtime": 1756660234.8707073,
+      "size": 243410,
+      "hash": "c181bc5693c910f25d45e3bf688ca512",
+      "processed": "2025-08-31T20:53:22.819786"
+    }
+  },
+  "England\\FA Trophy\\2023": {
+    "England\\FA Trophy\\2023/fixture_events.json": {
+      "mtime": 1755594772.718138,
+      "size": 506934,
+      "hash": "b02bd458f62e1c6e92deba61ef22bad4",
+      "processed": "2025-08-31T20:53:22.862795"
+    }
+  },
+  "England\\FA Trophy\\2024": {},
+  "England\\Premier League\\2018": {
+    "England\\Premier League\\2018/fixture_events.json": {
+      "mtime": 1753523373.5693555,
+      "size": 661295,
+      "hash": "caa3d97f8d502a15f8c321e79e11fe93",
+      "processed": "2025-08-31T20:53:22.989823"
+    },
+    "England\\Premier League\\2018/lineups.json": {
+      "mtime": 1753523755.9393826,
+      "size": 3398546,
+      "hash": "aeed6599fe69345e2d04fce7a6f302c3",
+      "processed": "2025-08-31T20:53:23.730991"
+    },
+    "England\\Premier League\\2018/player_statistics.json": {
+      "mtime": 1753523755.6183105,
+      "size": 19913409,
+      "hash": "1bf2f733aa9ee0fe0c02bab115c20f25",
+      "processed": "2025-08-31T20:53:25.119307"
+    },
+    "England\\Premier League\\2018/team_standings.json": {
+      "mtime": 1753523756.1518772,
+      "size": 26880,
+      "hash": "bf757f53d1a219dcdaa77e635b58d144",
+      "processed": "2025-08-31T20:53:25.158315"
+    },
+    "England\\Premier League\\2018/team_statistics.json": {
+      "mtime": 1753523753.9746952,
+      "size": 1329230,
+      "hash": "c77a0ab978a4d0abab26023c7271756e",
+      "processed": "2025-08-31T20:53:25.602417"
+    }
+  },
+  "England\\Premier League\\2019": {
+    "England\\Premier League\\2019/fixture_events.json": {
+      "mtime": 1753522973.6542087,
+      "size": 503089,
+      "hash": "11215577f240f590257b07386e5a6759",
+      "processed": "2025-08-31T20:53:25.646426"
+    },
+    "England\\Premier League\\2019/lineups.json": {
+      "mtime": 1753523267.3200605,
+      "size": 2574579,
+      "hash": "186853a7aa9d7d4e53773a6a0abba221",
+      "processed": "2025-08-31T20:53:26.173546"
+    },
+    "England\\Premier League\\2019/player_statistics.json": {
+      "mtime": 1753523267.0760067,
+      "size": 15008344,
+      "hash": "e39d32088d7874b05d392665fc01f3ec",
+      "processed": "2025-08-31T20:53:27.206782"
+    },
+    "England\\Premier League\\2019/team_standings.json": {
+      "mtime": 1753523267.641387,
+      "size": 26931,
+      "hash": "93942a84b313a6576e1da1a71ac68520",
+      "processed": "2025-08-31T20:53:27.238788"
+    },
+    "England\\Premier League\\2019/team_statistics.json": {
+      "mtime": 1753523265.8157237,
+      "size": 1008503,
+      "hash": "deae0c3329b817b22521baa3e3653de6",
+      "processed": "2025-08-31T20:53:27.520853"
+    }
+  },
+  "England\\Premier League\\2020": {
+    "England\\Premier League\\2020/fixture_events.json": {
+      "mtime": 1753522203.3547082,
+      "size": 658898,
+      "hash": "aa30b84ec9c2b3654b7c86a611b754a8",
+      "processed": "2025-08-31T20:53:27.618874"
+    },
+    "England\\Premier League\\2020/injuries.json": {
+      "mtime": 1753522590.9117887,
+      "size": 604585,
+      "hash": "4f2ddb26707612a3bd55dbfdbb67c2f1",
+      "processed": "2025-08-31T20:53:27.789914"
+    },
+    "England\\Premier League\\2020/lineups.json": {
+      "mtime": 1753522591.2358646,
+      "size": 3699661,
+      "hash": "356a5ffd7ad4cb0c8e7c195f1ec38684",
+      "processed": "2025-08-31T20:53:28.478069"
+    },
+    "England\\Premier League\\2020/player_statistics.json": {
+      "mtime": 1753522590.8677795,
+      "size": 28042429,
+      "hash": "e06b44c4a4ad452c6230dab0394ce85b",
+      "processed": "2025-08-31T20:53:30.210463"
+    },
+    "England\\Premier League\\2020/team_standings.json": {
+      "mtime": 1753522591.555778,
+      "size": 26968,
+      "hash": "61f5e0e67e1ed6be479409ac335684d4",
+      "processed": "2025-08-31T20:53:30.256478"
+    },
+    "England\\Premier League\\2020/team_statistics.json": {
+      "mtime": 1753522588.5802612,
+      "size": 1330502,
+      "hash": "0043d7cc232736e184d287d4ee1f33af",
+      "processed": "2025-08-31T20:53:30.617556"
+    }
+  },
+  "England\\Premier League\\2021": {
+    "England\\Premier League\\2021/fixture_events.json": {
+      "mtime": 1753109129.1949842,
+      "size": 659149,
+      "hash": "132831b9f8cd1c9246242a31ffb0a7c2",
+      "processed": "2025-08-31T20:53:30.665569"
+    },
+    "England\\Premier League\\2021/injuries.json": {
+      "mtime": 1753109626.218865,
+      "size": 2326034,
+      "hash": "0c8b645958847f1469a731ddcb227c50",
+      "processed": "2025-08-31T20:53:31.067659"
+    },
+    "England\\Premier League\\2021/lineups.json": {
+      "mtime": 1753109626.5873015,
+      "size": 3953612,
+      "hash": "b0d3e1a6c03984781c69d2ca526ece71",
+      "processed": "2025-08-31T20:53:31.779820"
+    },
+    "England\\Premier League\\2021/player_statistics.json": {
+      "mtime": 1753109626.0608306,
+      "size": 29035855,
+      "hash": "2a0beccf9c728339109e666df82bae60",
+      "processed": "2025-08-31T20:53:33.522922"
+    },
+    "England\\Premier League\\2021/team_standings.json": {
+      "mtime": 1753109626.9924748,
+      "size": 26962,
+      "hash": "d08d7412f82167a96c1eae4cc03b08eb",
+      "processed": "2025-08-31T20:53:33.571937"
+    },
+    "England\\Premier League\\2021/team_statistics.json": {
+      "mtime": 1753109623.6841052,
+      "size": 1330376,
+      "hash": "3876ca0c4ff2f2ad6c4ce0424321dfcd",
+      "processed": "2025-08-31T20:53:33.936015"
+    }
+  },
+  "England\\Premier League\\2022": {
+    "England\\Premier League\\2022/fixture_events.json": {
+      "mtime": 1752847301.7079945,
+      "size": 660303,
+      "hash": "b4843d9e276672acde51acce314ae2ae",
+      "processed": "2025-08-31T20:53:33.987028"
+    },
+    "England\\Premier League\\2022/injuries.json": {
+      "mtime": 1752847784.1935427,
+      "size": 2762507,
+      "hash": "7c9dfd6a4be423d57dd059f61a2a10b2",
+      "processed": "2025-08-31T20:53:34.397121"
+    },
+    "England\\Premier League\\2022/lineups.json": {
+      "mtime": 1752847784.5616243,
+      "size": 3960566,
+      "hash": "d69f6417a9922557a592e25ce7f29fe5",
+      "processed": "2025-08-31T20:53:35.031264"
+    },
+    "England\\Premier League\\2022/player_statistics.json": {
+      "mtime": 1752847784.0044994,
+      "size": 29066058,
+      "hash": "207322584e6f54fa97a137dd159768df",
+      "processed": "2025-08-31T20:53:36.800082"
+    },
+    "England\\Premier League\\2022/team_standings.json": {
+      "mtime": 1752847784.8375535,
+      "size": 26995,
+      "hash": "99cc600b48540811a90842cbc1a155d9",
+      "processed": "2025-08-31T20:53:36.848092"
+    },
+    "England\\Premier League\\2022/team_statistics.json": {
+      "mtime": 1752847781.602519,
+      "size": 1367563,
+      "hash": "6bd02ed483f2e604ccd9d2cc0c984e6d",
+      "processed": "2025-08-31T20:53:37.309198"
+    }
+  },
+  "England\\Premier League\\2023": {
+    "England\\Premier League\\2023/fixture_events.json": {
+      "mtime": 1753033882.7011395,
+      "size": 659917,
+      "hash": "92c02d99ec5bb59054ba3933228555b9",
+      "processed": "2025-08-31T20:53:37.354207"
+    },
+    "England\\Premier League\\2023/injuries.json": {
+      "mtime": 1753034293.3947513,
+      "size": 3465890,
+      "hash": "c8bfc1437b09289b61778d9a23ff8e36",
+      "processed": "2025-08-31T20:53:37.723292"
+    },
+    "England\\Premier League\\2023/lineups.json": {
+      "mtime": 1753034293.7637515,
+      "size": 3963562,
+      "hash": "ff457905a4780bff472ae9b0c152443c",
+      "processed": "2025-08-31T20:53:38.427722"
+    },
+    "England\\Premier League\\2023/player_statistics.json": {
+      "mtime": 1753034293.1497755,
+      "size": 29059244,
+      "hash": "7c0e8e5039d75148b9242b6d3161e4d3",
+      "processed": "2025-08-31T20:53:40.217300"
+    },
+    "England\\Premier League\\2023/team_standings.json": {
+      "mtime": 1753034294.0010562,
+      "size": 27001,
+      "hash": "b107005a707404a77a42fc592d9c2eb7",
+      "processed": "2025-08-31T20:53:40.264311"
+    },
+    "England\\Premier League\\2023/team_statistics.json": {
+      "mtime": 1753034290.7569726,
+      "size": 1405444,
+      "hash": "f8681ba6033dfbf29775f8cc84dd4300",
+      "processed": "2025-08-31T20:53:40.692408"
+    }
+  },
+  "England\\Premier League\\2024": {
+    "England\\Premier League\\2024/fixture_events.json": {
+      "mtime": 1753036643.5652978,
+      "size": 659523,
+      "hash": "bd78ffacd877b4fcc8a7bfd73d7a35af",
+      "processed": "2025-08-31T20:53:40.739420"
+    },
+    "England\\Premier League\\2024/injuries.json": {
+      "mtime": 1753037211.8415706,
+      "size": 2865480,
+      "hash": "b7e4c29ba4559c92e56fe04ba219c56c",
+      "processed": "2025-08-31T20:53:41.148511"
+    },
+    "England\\Premier League\\2024/lineups.json": {
+      "mtime": 1753037212.1976502,
+      "size": 3968945,
+      "hash": "d3110ae4d416780a8b6cb23965bf6eb4",
+      "processed": "2025-08-31T20:53:41.843670"
+    },
+    "England\\Premier League\\2024/player_statistics.json": {
+      "mtime": 1753037211.644526,
+      "size": 29049740,
+      "hash": "4e7879f81afae58035ce5221d213fa8b",
+      "processed": "2025-08-31T20:53:43.558059"
+    },
+    "England\\Premier League\\2024/team_standings.json": {
+      "mtime": 1753037212.5708115,
+      "size": 26791,
+      "hash": "ff5a360cd334f8adf13195d2c0489dc0",
+      "processed": "2025-08-31T20:53:43.605070"
+    },
+    "England\\Premier League\\2024/team_statistics.json": {
+      "mtime": 1753037209.1571405,
+      "size": 1472843,
+      "hash": "1b9ba55ff78a365599a467eb17f71a1d",
+      "processed": "2025-08-31T20:53:44.051171"
+    }
+  },
+  "England\\Premier League\\2025": {
+    "England\\Premier League\\2025/fixture_events.json": {
+      "mtime": 1756480656.4091182,
+      "size": 48075,
+      "hash": "cfc6085088576c11aeaa46e604d5f196",
+      "processed": "2025-08-31T20:53:44.082178"
+    },
+    "England\\Premier League\\2025/injuries.json": {
+      "mtime": 1756310840.0849018,
+      "size": 154354,
+      "hash": "f635eba4b6e2b0d3156756b4e5556a64",
+      "processed": "2025-08-31T20:53:44.118186"
+    },
+    "England\\Premier League\\2025/lineups.json": {
+      "mtime": 1756310836.3314683,
+      "size": 209423,
+      "hash": "e325536a69527921992249cc090a44ac",
+      "processed": "2025-08-31T20:53:44.164197"
+    },
+    "England\\Premier League\\2025/odds.json": {
+      "mtime": 1756478989.6787117,
+      "size": 5531602,
+      "hash": "a1c1bfe2a53171052529a4a7dc8a681d",
+      "processed": "2025-08-31T20:53:44.301229"
+    },
+    "England\\Premier League\\2025/player_statistics.json": {
+      "mtime": 1756310832.3664234,
+      "size": 1530517,
+      "hash": "84aba8a5e541020f246938ae434125c5",
+      "processed": "2025-08-31T20:53:44.397249"
+    },
+    "England\\Premier League\\2025/team_statistics.json": {
+      "mtime": 1756310829.1276064,
+      "size": 77513,
+      "hash": "e02cf4989107e06dabd5e5c496f7ba1e",
+      "processed": "2025-08-31T20:53:44.433258"
+    }
+  },
+  "Europe\\Champions League\\2018": {
+    "Europe\\Champions League\\2018/fixture_events.json": {
+      "mtime": 1754637720.395017,
+      "size": 283564,
+      "hash": "e773319ebb46ea1a488b561b6346ef48",
+      "processed": "2025-08-31T20:53:44.466265"
+    },
+    "Europe\\Champions League\\2018/lineups.json": {
+      "mtime": 1754637890.9438179,
+      "size": 1486915,
+      "hash": "ffe8b668b467d8af88610e001b8c6b6a",
+      "processed": "2025-08-31T20:53:44.780337"
+    },
+    "Europe\\Champions League\\2018/player_statistics.json": {
+      "mtime": 1754637890.7817812,
+      "size": 7569121,
+      "hash": "e0fa7403f130a85390796c3b0738c07e",
+      "processed": "2025-08-31T20:53:45.336462"
+    },
+    "Europe\\Champions League\\2018/team_standings.json": {
+      "mtime": 1754637891.3018978,
+      "size": 43423,
+      "hash": "e98bc9c4ac548e89581e565afb3d9ce8",
+      "processed": "2025-08-31T20:53:45.360469"
+    },
+    "Europe\\Champions League\\2018/team_statistics.json": {
+      "mtime": 1754637889.9886034,
+      "size": 545566,
+      "hash": "1c159cd21f166fdcb5ba4fca1497d03f",
+      "processed": "2025-08-31T20:53:45.579518"
+    }
+  },
+  "Europe\\Champions League\\2019": {
+    "Europe\\Champions League\\2019/fixture_events.json": {
+      "mtime": 1754592660.7581997,
+      "size": 238313,
+      "hash": "53530c8a1e4f548676ba9fa84e2b2b24",
+      "processed": "2025-08-31T20:53:45.609524"
+    },
+    "Europe\\Champions League\\2019/lineups.json": {
+      "mtime": 1754593353.7964845,
+      "size": 1257382,
+      "hash": "3d5744254e1d3e897e8289afa40e6af5",
+      "processed": "2025-08-31T20:53:45.886535"
+    },
+    "Europe\\Champions League\\2019/player_statistics.json": {
+      "mtime": 1754593353.6554544,
+      "size": 6620373,
+      "hash": "dedc5e29bfc5b91c95c3c5b5ee7e3b9f",
+      "processed": "2025-08-31T20:53:46.332635"
+    },
+    "Europe\\Champions League\\2019/team_standings.json": {
+      "mtime": 1754593354.940449,
+      "size": 42877,
+      "hash": "00b6c35c40ee59c3b8e76a46173fb2c1",
+      "processed": "2025-08-31T20:53:46.354924"
+    },
+    "Europe\\Champions League\\2019/team_statistics.json": {
+      "mtime": 1754593352.9973042,
+      "size": 478242,
+      "hash": "00d4c2df08b421e391680c5732124a43",
+      "processed": "2025-08-31T20:53:46.505959"
+    }
+  },
+  "Europe\\Champions League\\2020": {
+    "Europe\\Champions League\\2020/fixture_events.json": {
+      "mtime": 1754590232.7315238,
+      "size": 303004,
+      "hash": "38f351c46deea7108a87dd727b2cdef3",
+      "processed": "2025-08-31T20:53:46.539967"
+    },
+    "Europe\\Champions League\\2020/injuries.json": {
+      "mtime": 1754591168.9216623,
+      "size": 108486,
+      "hash": "7370b72362dc710ac7ab1da1097eeddb",
+      "processed": "2025-08-31T20:53:46.607984"
+    },
+    "Europe\\Champions League\\2020/lineups.json": {
+      "mtime": 1754591169.082699,
+      "size": 1809696,
+      "hash": "cf80be02d3ac47ed8b85cd4285122834",
+      "processed": "2025-08-31T20:53:46.916051"
+    },
+    "Europe\\Champions League\\2020/player_statistics.json": {
+      "mtime": 1754591168.91066,
+      "size": 11743137,
+      "hash": "fbb83476fc00b6b65f6487f03f52ec58",
+      "processed": "2025-08-31T20:53:47.673224"
+    },
+    "Europe\\Champions League\\2020/team_standings.json": {
+      "mtime": 1754591170.2545412,
+      "size": 43594,
+      "hash": "69bee03ce5a376a8c4cdc5007e91184b",
+      "processed": "2025-08-31T20:53:47.704231"
+    },
+    "Europe\\Champions League\\2020/team_statistics.json": {
+      "mtime": 1754591167.958777,
+      "size": 516332,
+      "hash": "bbfbb101459f6aff261b3e6914c41889",
+      "processed": "2025-08-31T20:53:47.860266"
+    }
+  },
+  "Europe\\Champions League\\2021": {
+    "Europe\\Champions League\\2021/fixture_events.json": {
+      "mtime": 1754589197.7322302,
+      "size": 267371,
+      "hash": "1117336a10eec57afa327f378214b1d8",
+      "processed": "2025-08-31T20:53:47.890272"
+    },
+    "Europe\\Champions League\\2021/injuries.json": {
+      "mtime": 1754589904.6635551,
+      "size": 882777,
+      "hash": "daec642640c661410b4bc810cd69a00b",
+      "processed": "2025-08-31T20:53:48.022302"
+    },
+    "Europe\\Champions League\\2021/lineups.json": {
+      "mtime": 1754589904.8235905,
+      "size": 1762245,
+      "hash": "cf9e677425a25c1cfe76256527ed1fde",
+      "processed": "2025-08-31T20:53:48.377436"
+    },
+    "Europe\\Champions League\\2021/player_statistics.json": {
+      "mtime": 1754589904.6025412,
+      "size": 12083968,
+      "hash": "efd9bd7718e751f223df5e31ec79c00e",
+      "processed": "2025-08-31T20:53:49.069593"
+    },
+    "Europe\\Champions League\\2021/team_standings.json": {
+      "mtime": 1754589905.470756,
+      "size": 41891,
+      "hash": "4dca6cec131b85c586a0a9f9b3141aa8",
+      "processed": "2025-08-31T20:53:49.099601"
+    },
+    "Europe\\Champions League\\2021/team_statistics.json": {
+      "mtime": 1754589903.651328,
+      "size": 550981,
+      "hash": "5157f603fe197a63234b8a249be4160b",
+      "processed": "2025-08-31T20:53:49.314649"
+    }
+  },
+  "Europe\\Champions League\\2022": {
+    "Europe\\Champions League\\2022/fixture_events.json": {
+      "mtime": 1753195972.8870747,
+      "size": 357916,
+      "hash": "22fbc7488d3c647601e7760189eb0f33",
+      "processed": "2025-08-31T20:53:49.369662"
+    },
+    "Europe\\Champions League\\2022/injuries.json": {
+      "mtime": 1753196217.1163516,
+      "size": 802316,
+      "hash": "842e6c3e613f936e1b1297f32c5cd253",
+      "processed": "2025-08-31T20:53:49.595713"
+    },
+    "Europe\\Champions League\\2022/lineups.json": {
+      "mtime": 1753196217.355963,
+      "size": 2365091,
+      "hash": "5ddef97bd02f0951291cde146f17b332",
+      "processed": "2025-08-31T20:53:50.223854"
+    },
+    "Europe\\Champions League\\2022/player_statistics.json": {
+      "mtime": 1753196217.0423346,
+      "size": 12231221,
+      "hash": "321d6fe2aed16dad9d770b761a703b62",
+      "processed": "2025-08-31T20:53:51.038040"
+    },
+    "Europe\\Champions League\\2022/team_standings.json": {
+      "mtime": 1753196217.723508,
+      "size": 43060,
+      "hash": "81f156a5d2e6d10e5c8138bad79952f0",
+      "processed": "2025-08-31T20:53:51.067047"
+    },
+    "Europe\\Champions League\\2022/team_statistics.json": {
+      "mtime": 1753196215.9613686,
+      "size": 741110,
+      "hash": "96b24753986790e28cf227f46d238377",
+      "processed": "2025-08-31T20:53:51.378120"
+    }
+  },
+  "Europe\\Champions League\\2023": {
+    "Europe\\Champions League\\2023/fixture_events.json": {
+      "mtime": 1753197240.020649,
+      "size": 359805,
+      "hash": "225a1a0f0654a4926f50a76475fcacbd",
+      "processed": "2025-08-31T20:53:51.421128"
+    },
+    "Europe\\Champions League\\2023/injuries.json": {
+      "mtime": 1753197571.1753006,
+      "size": 861305,
+      "hash": "0d7a8a196f577549144a0685746c521e",
+      "processed": "2025-08-31T20:53:51.642177"
+    },
+    "Europe\\Champions League\\2023/lineups.json": {
+      "mtime": 1753197571.3983512,
+      "size": 2381201,
+      "hash": "1bbadb415374b02d2030be30d8d993d3",
+      "processed": "2025-08-31T20:53:52.076275"
+    },
+    "Europe\\Champions League\\2023/player_statistics.json": {
+      "mtime": 1753197571.1132884,
+      "size": 14040030,
+      "hash": "26878d6b5bae83c3a18d70476ed5e97c",
+      "processed": "2025-08-31T20:53:53.039494"
+    },
+    "Europe\\Champions League\\2023/team_standings.json": {
+      "mtime": 1753197572.038034,
+      "size": 43053,
+      "hash": "2bc6eddc1cb18cf949059eb7ea9d7e93",
+      "processed": "2025-08-31T20:53:53.073504"
+    },
+    "Europe\\Champions League\\2023/team_statistics.json": {
+      "mtime": 1753197569.92002,
+      "size": 782193,
+      "hash": "d4570bf0902bff8224ef53ce0fe263da",
+      "processed": "2025-08-31T20:53:53.379572"
+    }
+  },
+  "Europe\\Champions League\\2024": {
+    "Europe\\Champions League\\2024/fixture_events.json": {
+      "mtime": 1753198262.030432,
+      "size": 475716,
+      "hash": "5a70b41d8fb5867501af48d7b4b3de1b",
+      "processed": "2025-08-31T20:53:53.420581"
+    },
+    "Europe\\Champions League\\2024/injuries.json": {
+      "mtime": 1753198573.922935,
+      "size": 1481439,
+      "hash": "d93b6ca0c5abd6a6cd5c5987a8751ef8",
+      "processed": "2025-08-31T20:53:53.698644"
+    },
+    "Europe\\Champions League\\2024/lineups.json": {
+      "mtime": 1753198574.2584124,
+      "size": 3157633,
+      "hash": "8c395481feac58ea8830fbe6053dc6bf",
+      "processed": "2025-08-31T20:53:54.262776"
+    },
+    "Europe\\Champions League\\2024/player_statistics.json": {
+      "mtime": 1753198573.8149104,
+      "size": 18004388,
+      "hash": "c5d2db97665b1fe51c1a79381f3c3963",
+      "processed": "2025-08-31T20:53:55.426037"
+    },
+    "Europe\\Champions League\\2024/team_standings.json": {
+      "mtime": 1753198574.5754423,
+      "size": 48663,
+      "hash": "5d88621e2aab3cd55e99d7c32e35e909",
+      "processed": "2025-08-31T20:53:55.462046"
+    },
+    "Europe\\Champions League\\2024/team_statistics.json": {
+      "mtime": 1753198572.245241,
+      "size": 886254,
+      "hash": "c02973ccd20aa98c220377359fe3c2d6",
+      "processed": "2025-08-31T20:53:55.741108"
+    }
+  },
+  "Europe\\Champions League\\2025": {
+    "Europe\\Champions League\\2025/fixture_events.json": {
+      "mtime": 1756311320.3607116,
+      "size": 47309,
+      "hash": "29b8df85ff9091d5b6956ced8a8056aa",
+      "processed": "2025-08-31T20:53:55.787120"
+    },
+    "Europe\\Champions League\\2025/injuries.json": {
+      "mtime": 1756311370.2890224,
+      "size": 122781,
+      "hash": "552257bdc38634ce962c657c3798adb0",
+      "processed": "2025-08-31T20:53:55.892143"
+    },
+    "Europe\\Champions League\\2025/lineups.json": {
+      "mtime": 1756311370.2740188,
+      "size": 348702,
+      "hash": "c0069a7b85744364161fc2a374c55fd9",
+      "processed": "2025-08-31T20:53:55.976163"
+    },
+    "Europe\\Champions League\\2025/odds.json": {
+      "mtime": 1756311370.4479861,
+      "size": 1273954,
+      "hash": "38017198b1305af3926817559d3cb59d",
+      "processed": "2025-08-31T20:53:56.028175"
+    },
+    "Europe\\Champions League\\2025/player_statistics.json": {
+      "mtime": 1756311370.2180061,
+      "size": 1979847,
+      "hash": "197d453f7a2594471df0facb37eb0213",
+      "processed": "2025-08-31T20:53:56.164204"
+    },
+    "Europe\\Champions League\\2025/team_statistics.json": {
+      "mtime": 1756311369.9665787,
+      "size": 90888,
+      "hash": "518dcdc19e93278135e16ae95d6d78d4",
+      "processed": "2025-08-31T20:53:56.216217"
+    }
+  },
+  "Europe\\Conference League\\2021": {
+    "Europe\\Conference League\\2021/fixture_events.json": {
+      "mtime": 1753376414.7902284,
+      "size": 726937,
+      "hash": "fc45a7b742e65de6c85e18884572a928",
+      "processed": "2025-08-31T20:53:56.261226"
+    },
+    "Europe\\Conference League\\2021/lineups.json": {
+      "mtime": 1753376953.4644916,
+      "size": 4633074,
+      "hash": "3bd157c7e732c8d5db26d68f8db89b77",
+      "processed": "2025-08-31T20:53:57.321471"
+    },
+    "Europe\\Conference League\\2021/player_statistics.json": {
+      "mtime": 1753376953.03504,
+      "size": 11602577,
+      "hash": "5aac9a3bdce13ecab2c27feb2825e5c5",
+      "processed": "2025-08-31T20:53:58.121649"
+    },
+    "Europe\\Conference League\\2021/team_standings.json": {
+      "mtime": 1753376953.9222918,
+      "size": 42825,
+      "hash": "da5fd3360918a050666a15ed394a7c64",
+      "processed": "2025-08-31T20:53:58.151657"
+    },
+    "Europe\\Conference League\\2021/team_statistics.json": {
+      "mtime": 1753376952.017445,
+      "size": 567524,
+      "hash": "9643b75c10354f07fe39170ed2719b87",
+      "processed": "2025-08-31T20:53:58.446723"
+    }
+  },
+  "Europe\\Conference League\\2022": {
+    "Europe\\Conference League\\2022/fixture_events.json": {
+      "mtime": 1753380166.910426,
+      "size": 712622,
+      "hash": "c090a112936d9e5e2c9a7f0d9afadc6f",
+      "processed": "2025-08-31T20:53:58.494736"
+    },
+    "Europe\\Conference League\\2022/lineups.json": {
+      "mtime": 1753380609.2555938,
+      "size": 4629629,
+      "hash": "fa11bd486775ed3d92372de3e05663c6",
+      "processed": "2025-08-31T20:53:59.542972"
+    },
+    "Europe\\Conference League\\2022/player_statistics.json": {
+      "mtime": 1753380608.8192637,
+      "size": 15475697,
+      "hash": "a6b53c4fd31e4ae61245fa6fead1533f",
+      "processed": "2025-08-31T20:54:00.524195"
+    },
+    "Europe\\Conference League\\2022/team_standings.json": {
+      "mtime": 1753380609.6173167,
+      "size": 42843,
+      "hash": "d64b7135f6596a0797c6d321d9b9c645",
+      "processed": "2025-08-31T20:54:00.559203"
+    },
+    "Europe\\Conference League\\2022/team_statistics.json": {
+      "mtime": 1753380607.5029964,
+      "size": 1346326,
+      "hash": "7e3a15ee02bf16bf17478ccc16eb2d6a",
+      "processed": "2025-08-31T20:54:01.188346"
+    }
+  },
+  "Europe\\Conference League\\2023": {
+    "Europe\\Conference League\\2023/fixture_events.json": {
+      "mtime": 1753380720.9265106,
+      "size": 718201,
+      "hash": "77efb87a37c4cfb31efc1f23192d4a4a",
+      "processed": "2025-08-31T20:54:01.241359"
+    },
+    "Europe\\Conference League\\2023/lineups.json": {
+      "mtime": 1753381166.9058254,
+      "size": 4663600,
+      "hash": "453aad25dae06bde0fcd48efc894f9c2",
+      "processed": "2025-08-31T20:54:02.242586"
+    },
+    "Europe\\Conference League\\2023/player_statistics.json": {
+      "mtime": 1753381166.4697273,
+      "size": 17350364,
+      "hash": "46f510ebd914d17f307eb5405e3ae3c3",
+      "processed": "2025-08-31T20:54:03.444859"
+    },
+    "Europe\\Conference League\\2023/team_standings.json": {
+      "mtime": 1753381167.2692423,
+      "size": 42837,
+      "hash": "8b4a93258caf2848a60b97770bfde07f",
+      "processed": "2025-08-31T20:54:03.486871"
+    },
+    "Europe\\Conference League\\2023/team_statistics.json": {
+      "mtime": 1753381165.0224025,
+      "size": 1528418,
+      "hash": "93de95ea566953a4ce803c6c09c54153",
+      "processed": "2025-08-31T20:54:04.109707"
+    }
+  },
+  "Europe\\Conference League\\2024": {
+    "Europe\\Conference League\\2024/fixture_events.json": {
+      "mtime": 1753381355.0381532,
+      "size": 704411,
+      "hash": "6e568b219ba0028f924937406d731939",
+      "processed": "2025-08-31T20:54:04.171721"
+    }
+  },
+  "Europe\\Conference League\\2025": {
+    "Europe\\Conference League\\2025/fixture_events.json": {
+      "mtime": 1756311452.1466696,
+      "size": 133455,
+      "hash": "ee4d7aae825a8985cc2d4f651caf4faa",
+      "processed": "2025-08-31T20:54:04.200728"
+    },
+    "Europe\\Conference League\\2025/lineups.json": {
+      "mtime": 1756311599.370308,
+      "size": 935190,
+      "hash": "7e418dde24bfc7d1d4da5b0f78dbe77b",
+      "processed": "2025-08-31T20:54:04.445784"
+    },
+    "Europe\\Conference League\\2025/odds.json": {
+      "mtime": 1756311599.6803784,
+      "size": 2222519,
+      "hash": "55305700592adf6c6332c415740a4311",
+      "processed": "2025-08-31T20:54:04.531802"
+    },
+    "Europe\\Conference League\\2025/player_statistics.json": {
+      "mtime": 1756311599.2242744,
+      "size": 3331599,
+      "hash": "ec944fd1c4240aa8629957f7db1c8d93",
+      "processed": "2025-08-31T20:54:04.852875"
+    },
+    "Europe\\Conference League\\2025/team_statistics.json": {
+      "mtime": 1756311598.6251388,
+      "size": 161723,
+      "hash": "0916b1777ccc2710b85cfdfad2a9aaa1",
+      "processed": "2025-08-31T20:54:04.947898"
+    }
+  },
+  "Europe\\Europa League\\2018": {
+    "Europe\\Europa League\\2018/fixture_events.json": {
+      "mtime": 1754909302.721872,
+      "size": 620068,
+      "hash": "cd522e319c2d2dbe8326f25699d11c7b",
+      "processed": "2025-08-31T20:54:04.985907"
+    },
+    "Europe\\Europa League\\2018/lineups.json": {
+      "mtime": 1754909684.948344,
+      "size": 3266972,
+      "hash": "61e6cfbfbfe7d346a5ef8eb681a2a72e",
+      "processed": "2025-08-31T20:54:05.747079"
+    },
+    "Europe\\Europa League\\2018/player_statistics.json": {
+      "mtime": 1754909684.6242712,
+      "size": 10872392,
+      "hash": "e5ff13bf2ca25e096262651c2ab91ddb",
+      "processed": "2025-08-31T20:54:06.556263"
+    },
+    "Europe\\Europa League\\2018/team_standings.json": {
+      "mtime": 1754909685.2518067,
+      "size": 64260,
+      "hash": "28c50eb8851ca32090306eaad52c70c9",
+      "processed": "2025-08-31T20:54:06.584768"
+    },
+    "Europe\\Europa League\\2018/team_statistics.json": {
+      "mtime": 1754909683.6517558,
+      "size": 954737,
+      "hash": "1cc464ae8e970f984f92a1b52eabdd29",
+      "processed": "2025-08-31T20:54:06.938850"
+    }
+  },
+  "Europe\\Europa League\\2019": {
+    "Europe\\Europa League\\2019/fixture_events.json": {
+      "mtime": 1754908874.968855,
+      "size": 573073,
+      "hash": "7e89d0ad182c1d287172fa95987026fc",
+      "processed": "2025-08-31T20:54:06.983859"
+    },
+    "Europe\\Europa League\\2019/lineups.json": {
+      "mtime": 1754909229.0780115,
+      "size": 3049615,
+      "hash": "8aa94a4c8b8ec78d29ac249745e3b2e7",
+      "processed": "2025-08-31T20:54:07.687017"
+    },
+    "Europe\\Europa League\\2019/player_statistics.json": {
+      "mtime": 1754909228.7838593,
+      "size": 9668106,
+      "hash": "65700a047928c224e9932b80916cd1ac",
+      "processed": "2025-08-31T20:54:08.347168"
+    },
+    "Europe\\Europa League\\2019/team_standings.json": {
+      "mtime": 1754909229.420439,
+      "size": 63725,
+      "hash": "b7580ea1c933ec49375a22c57bd1e6bc",
+      "processed": "2025-08-31T20:54:08.375175"
+    },
+    "Europe\\Europa League\\2019/team_statistics.json": {
+      "mtime": 1754909227.9326124,
+      "size": 874414,
+      "hash": "d16ab650c52e6d63c2722dc8860bc0c0",
+      "processed": "2025-08-31T20:54:08.652237"
+    }
+  },
+  "Europe\\Europa League\\2020": {
+    "Europe\\Europa League\\2020/fixture_events.json": {
+      "mtime": 1754908307.606433,
+      "size": 617239,
+      "hash": "0dadafa8e46bf462148cab3655ecf9d1",
+      "processed": "2025-08-31T20:54:08.696247"
+    },
+    "Europe\\Europa League\\2020/injuries.json": {
+      "mtime": 1754908720.8631206,
+      "size": 169844,
+      "hash": "0af7abafa3facd868fc0c25e3906cae4",
+      "processed": "2025-08-31T20:54:08.811275"
+    },
+    "Europe\\Europa League\\2020/lineups.json": {
+      "mtime": 1754908721.1861951,
+      "size": 3566063,
+      "hash": "56aa2ff98bfc656a65d970bf0dbce226",
+      "processed": "2025-08-31T20:54:09.474083"
+    },
+    "Europe\\Europa League\\2020/player_statistics.json": {
+      "mtime": 1754908720.84312,
+      "size": 16595934,
+      "hash": "3f90d95d568f6f20db02818e163696da",
+      "processed": "2025-08-31T20:54:10.519319"
+    },
+    "Europe\\Europa League\\2020/team_standings.json": {
+      "mtime": 1754908721.4712572,
+      "size": 64347,
+      "hash": "871761de40de248e4535fcf518c57c2a",
+      "processed": "2025-08-31T20:54:10.557116"
+    },
+    "Europe\\Europa League\\2020/team_statistics.json": {
+      "mtime": 1754908719.436684,
+      "size": 750738,
+      "hash": "8fa2adab38c64d0a05cfd128e0cdc4c8",
+      "processed": "2025-08-31T20:54:10.797855"
+    }
+  },
+  "Europe\\Europa League\\2021": {
+    "Europe\\Europa League\\2021/fixture_events.json": {
+      "mtime": 1753284023.116619,
+      "size": 300837,
+      "hash": "51226c045eb6dd7231e46c205d951ed3",
+      "processed": "2025-08-31T20:54:10.829707"
+    },
+    "Europe\\Europa League\\2021/injuries.json": {
+      "mtime": 1753284272.010268,
+      "size": 856413,
+      "hash": "d7bc4d32db7467280dccd1882008ce5d",
+      "processed": "2025-08-31T20:54:11.029752"
+    },
+    "Europe\\Europa League\\2021/lineups.json": {
+      "mtime": 1753284272.195922,
+      "size": 1962490,
+      "hash": "86cf5d4ae94518e13efb8ae626b1df4f",
+      "processed": "2025-08-31T20:54:11.361950"
+    },
+    "Europe\\Europa League\\2021/player_statistics.json": {
+      "mtime": 1753284271.9474547,
+      "size": 11636757,
+      "hash": "3e76ed1d2252dff9bdff8215cb630b73",
+      "processed": "2025-08-31T20:54:12.026102"
+    },
+    "Europe\\Europa League\\2021/team_standings.json": {
+      "mtime": 1753284272.7468724,
+      "size": 41841,
+      "hash": "a1bdec2dfaa1aaf0f1f55f7de3a0491f",
+      "processed": "2025-08-31T20:54:12.056109"
+    },
+    "Europe\\Europa League\\2021/team_statistics.json": {
+      "mtime": 1753284270.9388003,
+      "size": 519031,
+      "hash": "58c0edc5f13bdd85b610a4f233808f02",
+      "processed": "2025-08-31T20:54:12.227147"
+    }
+  },
+  "Europe\\Europa League\\2022": {
+    "Europe\\Europa League\\2022/fixture_events.json": {
+      "mtime": 1753284362.8976102,
+      "size": 298463,
+      "hash": "d1ff29ebf892b2535caa0040caa675af",
+      "processed": "2025-08-31T20:54:12.259154"
+    },
+    "Europe\\Europa League\\2022/injuries.json": {
+      "mtime": 1753284631.8600514,
+      "size": 773758,
+      "hash": "fd80b81d385d63fe734f403111f9b4a1",
+      "processed": "2025-08-31T20:54:12.478205"
+    },
+    "Europe\\Europa League\\2022/lineups.json": {
+      "mtime": 1753284632.0851135,
+      "size": 1982283,
+      "hash": "49e142e83098fa0b7f1fd256a222bc19",
+      "processed": "2025-08-31T20:54:12.796276"
+    },
+    "Europe\\Europa League\\2022/player_statistics.json": {
+      "mtime": 1753284631.8020394,
+      "size": 11900336,
+      "hash": "0d76507072ca9bae7c7aecd88c09bb36",
+      "processed": "2025-08-31T20:54:13.479432"
+    },
+    "Europe\\Europa League\\2022/team_standings.json": {
+      "mtime": 1753284632.6842833,
+      "size": 43098,
+      "hash": "14f89f8c42f0884c954d39728d1f97e3",
+      "processed": "2025-08-31T20:54:13.511439"
+    },
+    "Europe\\Europa League\\2022/team_statistics.json": {
+      "mtime": 1753284630.5816193,
+      "size": 553857,
+      "hash": "a488213c64003a12bc27570499233175",
+      "processed": "2025-08-31T20:54:13.715484"
+    }
+  },
+  "Europe\\Europa League\\2023": {
+    "Europe\\Europa League\\2023/fixture_events.json": {
+      "mtime": 1753285522.2849536,
+      "size": 297339,
+      "hash": "928acb8719f57afa0d656202cddc943e",
+      "processed": "2025-08-31T20:54:13.748303"
+    },
+    "Europe\\Europa League\\2023/injuries.json": {
+      "mtime": 1753285780.3379273,
+      "size": 755140,
+      "hash": "fa9cf86a2195cdbf00b9f72f92ddbdb3",
+      "processed": "2025-08-31T20:54:13.954350"
+    },
+    "Europe\\Europa League\\2023/lineups.json": {
+      "mtime": 1753285780.514968,
+      "size": 1977407,
+      "hash": "2fc99f0de81193d941a391a0ae012d7a",
+      "processed": "2025-08-31T20:54:14.280424"
+    },
+    "Europe\\Europa League\\2023/player_statistics.json": {
+      "mtime": 1753285780.2829154,
+      "size": 11789119,
+      "hash": "22b4214b2a7a3b242b7f505bf056a3ab",
+      "processed": "2025-08-31T20:54:15.098610"
+    },
+    "Europe\\Europa League\\2023/team_standings.json": {
+      "mtime": 1753285780.9874237,
+      "size": 43115,
+      "hash": "e4f554e22dd021c2cc5a8aa805537bd9",
+      "processed": "2025-08-31T20:54:15.148625"
+    },
+    "Europe\\Europa League\\2023/team_statistics.json": {
+      "mtime": 1753285779.2872963,
+      "size": 647664,
+      "hash": "d3c85d2648e575e2dc3cf33ece81f3ff",
+      "processed": "2025-08-31T20:54:15.382675"
+    }
+  },
+  "Europe\\Europa League\\2024": {
+    "Europe\\Europa League\\2024/fixture_events.json": {
+      "mtime": 1753285849.451587,
+      "size": 457106,
+      "hash": "86eca92eff81a98d11a29fd4e2d05bf1",
+      "processed": "2025-08-31T20:54:15.433686"
+    },
+    "Europe\\Europa League\\2024/injuries.json": {
+      "mtime": 1753286199.4982445,
+      "size": 1350125,
+      "hash": "e6608e645695b37edde87e90a215c88e",
+      "processed": "2025-08-31T20:54:15.646734"
+    },
+    "Europe\\Europa League\\2024/lineups.json": {
+      "mtime": 1753286199.774307,
+      "size": 3062224,
+      "hash": "9e2f0fb6488479f12fe3619f4941c347",
+      "processed": "2025-08-31T20:54:16.177855"
+    },
+    "Europe\\Europa League\\2024/player_statistics.json": {
+      "mtime": 1753286199.4002228,
+      "size": 15884364,
+      "hash": "1baf68a56d42c020ded77437e9149e8c",
+      "processed": "2025-08-31T20:54:17.110295"
+    },
+    "Europe\\Europa League\\2024/team_standings.json": {
+      "mtime": 1753286200.3350625,
+      "size": 48399,
+      "hash": "d8af54f78646f5acf0c09dea5218c4aa",
+      "processed": "2025-08-31T20:54:17.143445"
+    },
+    "Europe\\Europa League\\2024/team_statistics.json": {
+      "mtime": 1753286198.1013813,
+      "size": 1047420,
+      "hash": "1fdebd47b2d4c8099449bf3b2706acca",
+      "processed": "2025-08-31T20:54:17.454516"
+    }
+  },
+  "Europe\\Europa League\\2025": {
+    "Europe\\Europa League\\2025/fixture_events.json": {
+      "mtime": 1756311371.0576012,
+      "size": 59607,
+      "hash": "8c185f1b09da76552813bc6cd509f6b9",
+      "processed": "2025-08-31T20:54:17.482522"
+    },
+    "Europe\\Europa League\\2025/injuries.json": {
+      "mtime": 1756311451.1969304,
+      "size": 9848,
+      "hash": "39dbf4638f9dedf805a7ac487ce2970e",
+      "processed": "2025-08-31T20:54:17.510530"
+    },
+    "Europe\\Europa League\\2025/lineups.json": {
+      "mtime": 1756311451.1939306,
+      "size": 436754,
+      "hash": "0cae49857392e24c1eede399084d2eaf",
+      "processed": "2025-08-31T20:54:17.588547"
+    },
+    "Europe\\Europa League\\2025/odds.json": {
+      "mtime": 1756311451.3589668,
+      "size": 1152791,
+      "hash": "4ac9578afbbce6663aa9a3a053d38dbf",
+      "processed": "2025-08-31T20:54:17.630558"
+    },
+    "Europe\\Europa League\\2025/team_statistics.json": {
+      "mtime": 1756311451.1257784,
+      "size": 148938,
+      "hash": "3f57f6554b9008c5e13b8c166e6041ab",
+      "processed": "2025-08-31T20:54:17.729580"
+    }
+  },
+  "France\\Coupe de France\\2018": {
+    "France\\Coupe de France\\2018/fixture_events.json": {
+      "mtime": 1756662272.802743,
+      "size": 310648,
+      "hash": "fae745e2122055f9e104808258e98262",
+      "processed": "2025-08-31T20:54:17.814596"
+    },
+    "France\\Coupe de France\\2018/team_statistics.json": {
+      "mtime": 1756662318.8438797,
+      "size": 119457,
+      "hash": "1a37806cf00d61721f0e7da261680d9b",
+      "processed": "2025-08-31T20:54:17.897616"
+    }
+  },
+  "France\\Coupe de France\\2019": {
+    "France\\Coupe de France\\2019/fixture_events.json": {
+      "mtime": 1756661352.818794,
+      "size": 310157,
+      "hash": "a95d449ce1340fd7a88097408407a218",
+      "processed": "2025-08-31T20:54:17.917620"
+    },
+    "France\\Coupe de France\\2019/team_statistics.json": {
+      "mtime": 1756661400.065421,
+      "size": 125608,
+      "hash": "d6cc30da18814e0fda2e7a5b317e2372",
+      "processed": "2025-08-31T20:54:17.987636"
+    }
+  },
+  "France\\Coupe de France\\2020": {
+    "France\\Coupe de France\\2020/fixture_events.json": {
+      "mtime": 1756661092.602207,
+      "size": 272212,
+      "hash": "1b3c322e8bd2826e2370cade5db89afb",
+      "processed": "2025-08-31T20:54:18.021644"
+    },
+    "France\\Coupe de France\\2020/team_statistics.json": {
+      "mtime": 1756661135.4692867,
+      "size": 166039,
+      "hash": "e9b759b0805498534173ee058ec8a995",
+      "processed": "2025-08-31T20:54:18.105663"
+    }
+  },
+  "France\\Coupe de France\\2021": {
+    "France\\Coupe de France\\2021/fixture_events.json": {
+      "mtime": 1755073531.7408683,
+      "size": 335399,
+      "hash": "2070b0f806c9a7e9cdeb8b8c55925cee",
+      "processed": "2025-08-31T20:54:18.174681"
+    },
+    "France\\Coupe de France\\2021/team_statistics.json": {
+      "mtime": 1755073576.9051487,
+      "size": 167800,
+      "hash": "284c5ef1bbf9754322d1e8dc6fc1556e",
+      "processed": "2025-08-31T20:54:18.284704"
+    }
+  },
+  "France\\Coupe de France\\2022": {
+    "France\\Coupe de France\\2022/fixture_events.json": {
+      "mtime": 1755073452.472812,
+      "size": 339053,
+      "hash": "f943d966b130c3958cfc4643247bdede",
+      "processed": "2025-08-31T20:54:18.319713"
+    },
+    "France\\Coupe de France\\2022/team_statistics.json": {
+      "mtime": 1755073497.389202,
+      "size": 249733,
+      "hash": "1e14f726bd1c00cb7c86077d3cdeefcf",
+      "processed": "2025-08-31T20:54:18.434739"
+    }
+  },
+  "France\\Coupe de France\\2023": {
+    "France\\Coupe de France\\2023/fixture_events.json": {
+      "mtime": 1755073367.1341453,
+      "size": 342650,
+      "hash": "a7d9559297e46b77d522b5d468f2141a",
+      "processed": "2025-08-31T20:54:18.471747"
+    },
+    "France\\Coupe de France\\2023/team_statistics.json": {
+      "mtime": 1755073413.4093578,
+      "size": 249129,
+      "hash": "46a9fa52b3036c332b09cc9151407af8",
+      "processed": "2025-08-31T20:54:18.591774"
+    }
+  },
+  "France\\Coupe de France\\2024": {
+    "France\\Coupe de France\\2024/fixture_events.json": {
+      "mtime": 1755072995.0161958,
+      "size": 345729,
+      "hash": "9d9a0670262de23ab53d9444ae457b9f",
+      "processed": "2025-08-31T20:54:18.624782"
+    },
+    "France\\Coupe de France\\2024/team_statistics.json": {
+      "mtime": 1755073043.9039047,
+      "size": 216573,
+      "hash": "673ecfddd25e049e9d07b98ead8b910d",
+      "processed": "2025-08-31T20:54:18.728805"
+    }
+  },
+  "France\\Ligue 1\\2018": {
+    "France\\Ligue 1\\2018/fixture_events.json": {
+      "mtime": 1754584980.6892934,
+      "size": 654665,
+      "hash": "c15c79974a76c226c71fade4a39b0bee",
+      "processed": "2025-08-31T20:54:18.777817"
+    },
+    "France\\Ligue 1\\2018/lineups.json": {
+      "mtime": 1754585396.496075,
+      "size": 3395097,
+      "hash": "19f89e447619b29e7643c8ebfccfc520",
+      "processed": "2025-08-31T20:54:19.562994"
+    },
+    "France\\Ligue 1\\2018/player_statistics.json": {
+      "mtime": 1754585396.1630006,
+      "size": 20074389,
+      "hash": "57fadb4949deee3da93bf297dbd2dafd",
+      "processed": "2025-08-31T20:54:20.928195"
+    },
+    "France\\Ligue 1\\2018/team_standings.json": {
+      "mtime": 1754585396.733585,
+      "size": 26674,
+      "hash": "da895fb62b797460e537c09eb19c4c33",
+      "processed": "2025-08-31T20:54:20.970207"
+    },
+    "France\\Ligue 1\\2018/team_statistics.json": {
+      "mtime": 1754585394.51401,
+      "size": 1327460,
+      "hash": "e17cc8ad46eb8249fe128dedaec84b77",
+      "processed": "2025-08-31T20:54:21.370295"
+    }
+  },
+  "France\\Ligue 1\\2019": {
+    "France\\Ligue 1\\2019/fixture_events.json": {
+      "mtime": 1754585546.4866068,
+      "size": 655516,
+      "hash": "143369eea93e597c6eedcd6a7da8576a",
+      "processed": "2025-08-31T20:54:21.420309"
+    },
+    "France\\Ligue 1\\2019/lineups.json": {
+      "mtime": 1754585928.8736043,
+      "size": 2527397,
+      "hash": "80913bb8ead7c6062e41ed50cce31999",
+      "processed": "2025-08-31T20:54:22.275501"
+    },
+    "France\\Ligue 1\\2019/player_statistics.json": {
+      "mtime": 1754585928.6335528,
+      "size": 14792304,
+      "hash": "48ee20ffeee84da82e8bfecf3816fb4f",
+      "processed": "2025-08-31T20:54:23.470773"
+    },
+    "France\\Ligue 1\\2019/team_standings.json": {
+      "mtime": 1754585929.1402123,
+      "size": 26409,
+      "hash": "f184862445ebf0f7031ddfaa8d6d2b8e",
+      "processed": "2025-08-31T20:54:23.515784"
+    },
+    "France\\Ligue 1\\2019/team_statistics.json": {
+      "mtime": 1754585927.4273467,
+      "size": 998795,
+      "hash": "b64fa2f300273a082a6be45e48c98c44",
+      "processed": "2025-08-31T20:54:23.900872"
+    }
+  },
+  "France\\Ligue 1\\2020": {
+    "France\\Ligue 1\\2020/fixture_events.json": {
+      "mtime": 1754585980.7204278,
+      "size": 658395,
+      "hash": "7ed0a3839ba0484fd5bd9541c1eac9d1",
+      "processed": "2025-08-31T20:54:23.955883"
+    },
+    "France\\Ligue 1\\2020/injuries.json": {
+      "mtime": 1754586376.3271086,
+      "size": 574622,
+      "hash": "2c2ce1ade73f673058ead00840a5b9aa",
+      "processed": "2025-08-31T20:54:24.117920"
+    },
+    "France\\Ligue 1\\2020/lineups.json": {
+      "mtime": 1754586376.6661918,
+      "size": 3820243,
+      "hash": "875e2296ccee8c311861f958ab0e0a26",
+      "processed": "2025-08-31T20:54:25.062135"
+    },
+    "France\\Ligue 1\\2020/player_statistics.json": {
+      "mtime": 1754586376.2840998,
+      "size": 28856940,
+      "hash": "265bd239b1dd26f19f0ef6db7c898d8c",
+      "processed": "2025-08-31T20:54:27.335651"
+    },
+    "France\\Ligue 1\\2020/team_standings.json": {
+      "mtime": 1754586376.9030693,
+      "size": 26744,
+      "hash": "d48dc9299a53a503fc02181de7f67eb1",
+      "processed": "2025-08-31T20:54:27.397665"
+    },
+    "France\\Ligue 1\\2020/team_statistics.json": {
+      "mtime": 1754586373.9776034,
+      "size": 1336481,
+      "hash": "83127ddf3c109b36c6776879058992fb",
+      "processed": "2025-08-31T20:54:27.911781"
+    }
+  },
+  "France\\Ligue 1\\2021": {
+    "France\\Ligue 1\\2021/fixture_events.json": {
+      "mtime": 1753808027.0076463,
+      "size": 659139,
+      "hash": "af1336c98ab3ce261623323334809c53",
+      "processed": "2025-08-31T20:54:27.966794"
+    },
+    "France\\Ligue 1\\2021/injuries.json": {
+      "mtime": 1753808653.0927417,
+      "size": 2400220,
+      "hash": "d88a0c90ac45bbe6718a6d62cb719eec",
+      "processed": "2025-08-31T20:54:28.374887"
+    },
+    "France\\Ligue 1\\2021/lineups.json": {
+      "mtime": 1753808653.4501631,
+      "size": 3961189,
+      "hash": "911e757ab9c4bcd8d5aa08b439a85e3b",
+      "processed": "2025-08-31T20:54:29.134059"
+    },
+    "France\\Ligue 1\\2021/player_statistics.json": {
+      "mtime": 1753808652.9127004,
+      "size": 29045808,
+      "hash": "7e51edddbd82d5cf243851eb665245a8",
+      "processed": "2025-08-31T20:54:30.968476"
+    },
+    "France\\Ligue 1\\2021/team_standings.json": {
+      "mtime": 1753808653.7742362,
+      "size": 26761,
+      "hash": "b8aa9ecc3b606ae41342f8a92cb898c2",
+      "processed": "2025-08-31T20:54:31.024112"
+    },
+    "France\\Ligue 1\\2021/team_statistics.json": {
+      "mtime": 1753808650.520354,
+      "size": 1336898,
+      "hash": "97e21dae63c9c421c7e28e4d614e8d84",
+      "processed": "2025-08-31T20:54:31.414200"
+    }
+  },
+  "France\\Ligue 1\\2022": {
+    "France\\Ligue 1\\2022/fixture_events.json": {
+      "mtime": 1753808927.6266215,
+      "size": 638321,
+      "hash": "0f3a3430dd2df3be20bb56058fbfa058",
+      "processed": "2025-08-31T20:54:31.458213"
+    },
+    "France\\Ligue 1\\2022/injuries.json": {
+      "mtime": 1753809636.3697858,
+      "size": 2356647,
+      "hash": "f27d834a48082d0f1ffd20578cc5966d",
+      "processed": "2025-08-31T20:54:31.864302"
+    },
+    "France\\Ligue 1\\2022/lineups.json": {
+      "mtime": 1753809636.8837655,
+      "size": 3835014,
+      "hash": "dd1b81d8e3973fa2b9885ae329a05ee3",
+      "processed": "2025-08-31T20:54:32.575464"
+    },
+    "France\\Ligue 1\\2022/player_statistics.json": {
+      "mtime": 1753809636.175743,
+      "size": 28108741,
+      "hash": "c307b8ce759eb747cc72e05f91a5ac97",
+      "processed": "2025-08-31T20:54:34.600924"
+    },
+    "France\\Ligue 1\\2022/team_standings.json": {
+      "mtime": 1753809637.381878,
+      "size": 26779,
+      "hash": "efd7b46380f39acb4fd785e6d5598f9b",
+      "processed": "2025-08-31T20:54:34.719952"
+    },
+    "France\\Ligue 1\\2022/team_statistics.json": {
+      "mtime": 1753809633.008774,
+      "size": 1329042,
+      "hash": "13c5accba7dccab21467cec07925bb9a",
+      "processed": "2025-08-31T20:54:35.198060"
+    }
+  },
+  "France\\Ligue 1\\2023": {
+    "France\\Ligue 1\\2023/fixture_events.json": {
+      "mtime": 1753809939.6066802,
+      "size": 530282,
+      "hash": "ebdbce53b3b0d511d98b11b2b8ce6d9b",
+      "processed": "2025-08-31T20:54:35.240069"
+    },
+    "France\\Ligue 1\\2023/injuries.json": {
+      "mtime": 1753810665.8066895,
+      "size": 1859726,
+      "hash": "460ecc5c98bbf188b31949620ca2fbc5",
+      "processed": "2025-08-31T20:54:35.571144"
+    },
+    "France\\Ligue 1\\2023/lineups.json": {
+      "mtime": 1753810666.2127826,
+      "size": 3205597,
+      "hash": "6f9557bdd9a0dac682c6d9bb1b21a61a",
+      "processed": "2025-08-31T20:54:36.101264"
+    },
+    "France\\Ligue 1\\2023/player_statistics.json": {
+      "mtime": 1753810665.669994,
+      "size": 23491509,
+      "hash": "fb618abc26ed9cc3cc25d25d527d4a0b",
+      "processed": "2025-08-31T20:54:37.482430"
+    },
+    "France\\Ligue 1\\2023/team_standings.json": {
+      "mtime": 1753810666.6478794,
+      "size": 24216,
+      "hash": "e10c065cea3c76978867410fc77625a6",
+      "processed": "2025-08-31T20:54:37.521439"
+    },
+    "France\\Ligue 1\\2023/team_statistics.json": {
+      "mtime": 1753810663.1191554,
+      "size": 1134848,
+      "hash": "7faef3a71ecbb212f4776674e202e1ea",
+      "processed": "2025-08-31T20:54:37.925530"
+    }
+  },
+  "France\\Ligue 1\\2024": {
+    "France\\Ligue 1\\2024/fixture_events.json": {
+      "mtime": 1753812247.8786147,
+      "size": 531103,
+      "hash": "3a945c06ed3f04e8c337be3cd6ee22e8",
+      "processed": "2025-08-31T20:54:37.965539"
+    },
+    "France\\Ligue 1\\2024/injuries.json": {
+      "mtime": 1753813067.7510211,
+      "size": 2197087,
+      "hash": "75b2364b0511f519ccd17e3e362eb79c",
+      "processed": "2025-08-31T20:54:38.305616"
+    },
+    "France\\Ligue 1\\2024/lineups.json": {
+      "mtime": 1753813068.138108,
+      "size": 3206107,
+      "hash": "e3895e7569562e13324eeff53b8945f5",
+      "processed": "2025-08-31T20:54:38.873746"
+    },
+    "France\\Ligue 1\\2024/player_statistics.json": {
+      "mtime": 1753813067.4569547,
+      "size": 23529302,
+      "hash": "bae091e32dec35a052c03d000d5662cb",
+      "processed": "2025-08-31T20:54:40.477111"
+    },
+    "France\\Ligue 1\\2024/team_standings.json": {
+      "mtime": 1753813068.675228,
+      "size": 24018,
+      "hash": "cf51dbd78029fdc06b3d29a47355d088",
+      "processed": "2025-08-31T20:54:40.515119"
+    },
+    "France\\Ligue 1\\2024/team_statistics.json": {
+      "mtime": 1753813064.7573476,
+      "size": 1193032,
+      "hash": "c699953bda29b14a5734235c83ea9bfd",
+      "processed": "2025-08-31T20:54:40.873201"
+    }
+  },
+  "France\\Ligue 1\\2025": {
+    "France\\Ligue 1\\2025/fixture_events.json": {
+      "mtime": 1756480657.2071083,
+      "size": 41350,
+      "hash": "28167ffa2585495e2de25518e80cdcbf",
+      "processed": "2025-08-31T20:54:40.899206"
+    },
+    "France\\Ligue 1\\2025/injuries.json": {
+      "mtime": 1756311104.7081861,
+      "size": 80900,
+      "hash": "a5ef0ce2dc9324ee3da480860403f270",
+      "processed": "2025-08-31T20:54:40.931214"
+    },
+    "France\\Ligue 1\\2025/lineups.json": {
+      "mtime": 1756311101.017491,
+      "size": 188482,
+      "hash": "3bda554d7e94a378a7ae76d9b27a25f3",
+      "processed": "2025-08-31T20:54:40.975224"
+    },
+    "France\\Ligue 1\\2025/odds.json": {
+      "mtime": 1756479000.6609824,
+      "size": 4107047,
+      "hash": "f2b01ce05c520c2ea3b16433ec0d0122",
+      "processed": "2025-08-31T20:54:41.050240"
+    },
+    "France\\Ligue 1\\2025/player_statistics.json": {
+      "mtime": 1756311098.7559378,
+      "size": 1378229,
+      "hash": "ee3feb72ffbfbe5837b7c5e9667992e2",
+      "processed": "2025-08-31T20:54:41.143262"
+    },
+    "France\\Ligue 1\\2025/team_statistics.json": {
+      "mtime": 1756311094.6429358,
+      "size": 69697,
+      "hash": "6b0fdce6d0308eb772aaa0d8e861c848",
+      "processed": "2025-08-31T20:54:41.181271"
+    }
+  },
+  "France\\Ligue 2\\2018": {
+    "France\\Ligue 2\\2018/fixture_events.json": {
+      "mtime": 1756659438.9755983,
+      "size": 590304,
+      "hash": "aadd4ff2a6eb5f30212d36d01f7074e9",
+      "processed": "2025-08-31T20:54:41.224280"
+    },
+    "France\\Ligue 2\\2018/team_statistics.json": {
+      "mtime": 1756659531.9966755,
+      "size": 1294326,
+      "hash": "a24b3c0a570b5b186015f01ebfeb1c13",
+      "processed": "2025-08-31T20:54:41.661380"
+    }
+  },
+  "France\\Ligue 2\\2019": {
+    "France\\Ligue 2\\2019/fixture_events.json": {
+      "mtime": 1756658891.483155,
+      "size": 594514,
+      "hash": "1f66684bb00442f0799284e91c6d54a9",
+      "processed": "2025-08-31T20:54:41.708389"
+    },
+    "France\\Ligue 2\\2019/team_statistics.json": {
+      "mtime": 1756658992.1681147,
+      "size": 967705,
+      "hash": "5bf69f32b4efb0088f351f16f5f20b45",
+      "processed": "2025-08-31T20:54:42.002457"
+    }
+  },
+  "France\\Ligue 2\\2020": {
+    "France\\Ligue 2\\2020/fixture_events.json": {
+      "mtime": 1756541346.6739435,
+      "size": 614046,
+      "hash": "98f61b5700e119d76dddca5e2a8e9b3c",
+      "processed": "2025-08-31T20:54:42.049468"
+    },
+    "France\\Ligue 2\\2020/team_statistics.json": {
+      "mtime": 1756541450.3871977,
+      "size": 1341229,
+      "hash": "be6317771985bc209b647902be72bf46",
+      "processed": "2025-08-31T20:54:42.479565"
+    }
+  },
+  "France\\Ligue 2\\2021": {
+    "France\\Ligue 2\\2021/fixture_events.json": {
+      "mtime": 1756540861.6440344,
+      "size": 579348,
+      "hash": "19bf90cba4dff874941d030f32f6528b",
+      "processed": "2025-08-31T20:54:42.530576"
+    },
+    "France\\Ligue 2\\2021/team_statistics.json": {
+      "mtime": 1756540952.7335932,
+      "size": 1273961,
+      "hash": "0eeda5e6cad6ab641e21d6e050fe6056",
+      "processed": "2025-08-31T20:54:42.990681"
+    }
+  },
+  "France\\Ligue 2\\2022": {
+    "France\\Ligue 2\\2022/fixture_events.json": {
+      "mtime": 1756540507.4363143,
+      "size": 571641,
+      "hash": "2689b5d8153a7cbc4a607b7c977f9978",
+      "processed": "2025-08-31T20:54:43.034700"
+    },
+    "France\\Ligue 2\\2022/team_statistics.json": {
+      "mtime": 1756540597.5648322,
+      "size": 1296859,
+      "hash": "c4d1418fc5eb1e3f036ed4791131901c",
+      "processed": "2025-08-31T20:54:43.461788"
+    }
+  },
+  "France\\Ligue 2\\2023": {
+    "France\\Ligue 2\\2023/fixture_events.json": {
+      "mtime": 1756659620.4382596,
+      "size": 605378,
+      "hash": "36d1b2326fddae73e0fbed36ce88199c",
+      "processed": "2025-08-31T20:54:43.507800"
+    },
+    "France\\Ligue 2\\2023/team_statistics.json": {
+      "mtime": 1756540182.7304962,
+      "size": 1403960,
+      "hash": "4e90aad0377cea4eff7cb0c2a6d3ffda",
+      "processed": "2025-08-31T20:54:43.996909"
+    }
+  },
+  "France\\Ligue 2\\2024": {
+    "France\\Ligue 2\\2024/fixture_events.json": {
+      "mtime": 1756659634.8796942,
+      "size": 490579,
+      "hash": "4f3250d0ed3457feab54ee0b5e549494",
+      "processed": "2025-08-31T20:54:44.040921"
+    },
+    "France\\Ligue 2\\2024/team_statistics.json": {
+      "mtime": 1756539816.1143453,
+      "size": 1194316,
+      "hash": "ba73c37bf925c6cccf1b651f605588e3",
+      "processed": "2025-08-31T20:54:44.423008"
+    }
+  },
+  "France\\Ligue 2\\2025": {
+    "France\\Ligue 2\\2025/fixture_events.json": {
+      "mtime": 1755833343.5178604,
+      "size": 27098,
+      "hash": "241cc5f908f49d2875ab7a57e77364bb",
+      "processed": "2025-08-31T20:54:44.446012"
+    },
+    "France\\Ligue 2\\2025/injuries.json": {
+      "mtime": 1755833365.7546785,
+      "size": 36161,
+      "hash": "90cf050a034780363b8efe69d9acdd75",
+      "processed": "2025-08-31T20:54:44.481020"
+    },
+    "France\\Ligue 2\\2025/lineups.json": {
+      "mtime": 1755833365.749677,
+      "size": 163844,
+      "hash": "782f4d9e8a60b9e743fa284ae014723e",
+      "processed": "2025-08-31T20:54:44.528030"
+    },
+    "France\\Ligue 2\\2025/odds.json": {
+      "mtime": 1755833365.8216937,
+      "size": 538704,
+      "hash": "4acf520d3e513c8e6db26e5b0b41c4a5",
+      "processed": "2025-08-31T20:54:44.555036"
+    },
+    "France\\Ligue 2\\2025/player_statistics.json": {
+      "mtime": 1755833365.726672,
+      "size": 1175462,
+      "hash": "d7322fffcea804c0fd09e0ead91005d2",
+      "processed": "2025-08-31T20:54:44.645057"
+    },
+    "France\\Ligue 2\\2025/team_standings.json": {
+      "mtime": 1755833366.053755,
+      "size": 23699,
+      "hash": "2439d3c94a4c1d61558c707298cc054d",
+      "processed": "2025-08-31T20:54:44.661061"
+    },
+    "France\\Ligue 2\\2025/team_statistics.json": {
+      "mtime": 1755833365.58564,
+      "size": 65907,
+      "hash": "1c1308ab4c88d508869e8904a3048219",
+      "processed": "2025-08-31T20:54:44.694068"
+    }
+  },
+  "Germany\\2. Bundesliga\\2018": {
+    "Germany\\2. Bundesliga\\2018/fixture_events.json": {
+      "mtime": 1756659359.088176,
+      "size": 493781,
+      "hash": "b20683656593aded2e235e8849375b75",
+      "processed": "2025-08-31T20:54:44.734078"
+    },
+    "Germany\\2. Bundesliga\\2018/team_statistics.json": {
+      "mtime": 1756659438.308461,
+      "size": 1070518,
+      "hash": "8f91296086d05674b56ee5a79ddafcfd",
+      "processed": "2025-08-31T20:54:45.087157"
+    }
+  },
+  "Germany\\2. Bundesliga\\2019": {
+    "Germany\\2. Bundesliga\\2019/fixture_events.json": {
+      "mtime": 1756658828.07394,
+      "size": 398775,
+      "hash": "3c1595d1b1a8670d9c16e8cadfebe1ae",
+      "processed": "2025-08-31T20:54:45.125166"
+    },
+    "Germany\\2. Bundesliga\\2019/team_statistics.json": {
+      "mtime": 1756658890.8879921,
+      "size": 874795,
+      "hash": "b769c542dc99cf531217ad7b5a95ebe9",
+      "processed": "2025-08-31T20:54:45.381224"
+    }
+  },
+  "Germany\\2. Bundesliga\\2020": {
+    "Germany\\2. Bundesliga\\2020/fixture_events.json": {
+      "mtime": 1756541266.0101178,
+      "size": 494369,
+      "hash": "fc416d26d5329123369e449236a5153f",
+      "processed": "2025-08-31T20:54:45.424235"
+    },
+    "Germany\\2. Bundesliga\\2020/team_statistics.json": {
+      "mtime": 1756541345.9193096,
+      "size": 1082780,
+      "hash": "7b4713c523bbd808a19504c21364c338",
+      "processed": "2025-08-31T20:54:45.808321"
+    }
+  },
+  "Germany\\2. Bundesliga\\2021": {
+    "Germany\\2. Bundesliga\\2021/fixture_events.json": {
+      "mtime": 1756540781.545343,
+      "size": 469179,
+      "hash": "83ad3da967b3e2b34edf33fc2d048b05",
+      "processed": "2025-08-31T20:54:45.850331"
+    },
+    "Germany\\2. Bundesliga\\2021/team_statistics.json": {
+      "mtime": 1756540860.8541765,
+      "size": 1029692,
+      "hash": "a67cccc1b24552705f3eec5f0eefd083",
+      "processed": "2025-08-31T20:54:46.138398"
+    }
+  },
+  "Germany\\2. Bundesliga\\2022": {
+    "Germany\\2. Bundesliga\\2022/fixture_events.json": {
+      "mtime": 1756540433.8639655,
+      "size": 462387,
+      "hash": "7690e7e500894548c132993be58ea75a",
+      "processed": "2025-08-31T20:54:46.183407"
+    },
+    "Germany\\2. Bundesliga\\2022/team_statistics.json": {
+      "mtime": 1756540506.8011947,
+      "size": 1041034,
+      "hash": "3af5f623d7590313186bb8919890ec84",
+      "processed": "2025-08-31T20:54:46.629508"
+    }
+  },
+  "Germany\\2. Bundesliga\\2023": {
+    "Germany\\2. Bundesliga\\2023/fixture_events.json": {
+      "mtime": 1756659619.7797832,
+      "size": 479971,
+      "hash": "311d7ccbd801087ab7f499a447a542ac",
+      "processed": "2025-08-31T20:54:46.682520"
+    },
+    "Germany\\2. Bundesliga\\2023/team_statistics.json": {
+      "mtime": 1756540083.908631,
+      "size": 1105470,
+      "hash": "c2df31a720a11192bac722e52c89e7ba",
+      "processed": "2025-08-31T20:54:47.125622"
+    }
+  },
+  "Germany\\2. Bundesliga\\2024": {
+    "Germany\\2. Bundesliga\\2024/fixture_events.json": {
+      "mtime": 1756659634.2807293,
+      "size": 495601,
+      "hash": "304527d74f0557d24c7412929bfc34b8",
+      "processed": "2025-08-31T20:54:47.170630"
+    },
+    "Germany\\2. Bundesliga\\2024/team_statistics.json": {
+      "mtime": 1756539740.5752933,
+      "size": 1199734,
+      "hash": "5b65fd67d668b1532893b0064369a78a",
+      "processed": "2025-08-31T20:54:47.543715"
+    }
+  },
+  "Germany\\2. Bundesliga\\2025": {
+    "Germany\\2. Bundesliga\\2025/fixture_events.json": {
+      "mtime": 1755833320.851825,
+      "size": 29021,
+      "hash": "b0d482a9bb98a02634d4fad69a060d7f",
+      "processed": "2025-08-31T20:54:47.570722"
+    },
+    "Germany\\2. Bundesliga\\2025/injuries.json": {
+      "mtime": 1755833343.0036874,
+      "size": 73389,
+      "hash": "4ea7ef09f845fe9cbc1816e57b4137d3",
+      "processed": "2025-08-31T20:54:47.608730"
+    },
+    "Germany\\2. Bundesliga\\2025/lineups.json": {
+      "mtime": 1755833342.9946854,
+      "size": 188736,
+      "hash": "8bca6e46e80e136d0fc9f1c09b55b9c7",
+      "processed": "2025-08-31T20:54:47.654741"
+    },
+    "Germany\\2. Bundesliga\\2025/player_statistics.json": {
+      "mtime": 1755833342.9696798,
+      "size": 1374766,
+      "hash": "f3bc58010169ce84dd30e5aa2eef179f",
+      "processed": "2025-08-31T20:54:47.849785"
+    },
+    "Germany\\2. Bundesliga\\2025/team_standings.json": {
+      "mtime": 1755833343.2257943,
+      "size": 23985,
+      "hash": "c83adf04844f844cf85f6cb4be3831df",
+      "processed": "2025-08-31T20:54:47.869790"
+    },
+    "Germany\\2. Bundesliga\\2025/team_statistics.json": {
+      "mtime": 1755833342.8006413,
+      "size": 70088,
+      "hash": "c2837b3c87ded85efd79d1f768bb07bb",
+      "processed": "2025-08-31T20:54:47.903798"
+    }
+  },
+  "Germany\\Bundesliga\\2018": {
+    "Germany\\Bundesliga\\2018/fixture_events.json": {
+      "mtime": 1753526706.879777,
+      "size": 538186,
+      "hash": "c41c3e7479f064b0a32eb7fdde5c655c",
+      "processed": "2025-08-31T20:54:47.944807"
+    },
+    "Germany\\Bundesliga\\2018/lineups.json": {
+      "mtime": 1753527036.493129,
+      "size": 2759028,
+      "hash": "0a372693f98ec2b9896779a569bd6687",
+      "processed": "2025-08-31T20:54:48.615960"
+    },
+    "Germany\\Bundesliga\\2018/player_statistics.json": {
+      "mtime": 1753527036.2467628,
+      "size": 16236100,
+      "hash": "20b0730c8efea14ef3f552d7808f2e34",
+      "processed": "2025-08-31T20:54:49.824233"
+    },
+    "Germany\\Bundesliga\\2018/team_standings.json": {
+      "mtime": 1753527036.7355983,
+      "size": 24360,
+      "hash": "745fbd02f676b724e66e936352ff52c3",
+      "processed": "2025-08-31T20:54:49.867245"
+    },
+    "Germany\\Bundesliga\\2018/team_statistics.json": {
+      "mtime": 1753527034.9221382,
+      "size": 1080926,
+      "hash": "613509d095ecd60a2cca4484ccd52c67",
+      "processed": "2025-08-31T20:54:50.239328"
+    }
+  },
+  "Germany\\Bundesliga\\2019": {
+    "Germany\\Bundesliga\\2019/fixture_events.json": {
+      "mtime": 1753604542.4068706,
+      "size": 452603,
+      "hash": "880a54a177256330bd43fa4c586f859d",
+      "processed": "2025-08-31T20:54:50.283949"
+    },
+    "Germany\\Bundesliga\\2019/lineups.json": {
+      "mtime": 1753604874.8809419,
+      "size": 2535074,
+      "hash": "27c539d8f32c6d32a32a8eb0ef453a8b",
+      "processed": "2025-08-31T20:54:50.837076"
+    },
+    "Germany\\Bundesliga\\2019/player_statistics.json": {
+      "mtime": 1753604874.6112876,
+      "size": 13988327,
+      "hash": "aad4b99cdff2e739c5ab392b1830e0bf",
+      "processed": "2025-08-31T20:54:51.832303"
+    },
+    "Germany\\Bundesliga\\2019/team_standings.json": {
+      "mtime": 1753604875.2628987,
+      "size": 24397,
+      "hash": "68b9b3182ef318240f7957b7ba5e0d2e",
+      "processed": "2025-08-31T20:54:51.871310"
+    },
+    "Germany\\Bundesliga\\2019/team_statistics.json": {
+      "mtime": 1753604873.2677794,
+      "size": 914019,
+      "hash": "a1c2c063cbe5845dde9d03071419d1de",
+      "processed": "2025-08-31T20:54:52.181381"
+    }
+  },
+  "Germany\\Bundesliga\\2020": {
+    "Germany\\Bundesliga\\2020/fixture_events.json": {
+      "mtime": 1753604926.135198,
+      "size": 536194,
+      "hash": "44a9bc9e0dd40ba8bba99a28e1a9718e",
+      "processed": "2025-08-31T20:54:52.225391"
+    },
+    "Germany\\Bundesliga\\2020/injuries.json": {
+      "mtime": 1753605268.2301536,
+      "size": 596681,
+      "hash": "cd173725e7a7ec1e4fb1bed61f6ab878",
+      "processed": "2025-08-31T20:54:52.370423"
+    },
+    "Germany\\Bundesliga\\2020/lineups.json": {
+      "mtime": 1753605268.521068,
+      "size": 3083930,
+      "hash": "ca075556ef52c25121d074c61b4b10a3",
+      "processed": "2025-08-31T20:54:52.957557"
+    },
+    "Germany\\Bundesliga\\2020/player_statistics.json": {
+      "mtime": 1753605268.1821375,
+      "size": 23425336,
+      "hash": "3b9ae27214631170824893ce384a444d",
+      "processed": "2025-08-31T20:54:54.390885"
+    },
+    "Germany\\Bundesliga\\2020/team_standings.json": {
+      "mtime": 1753605268.8526556,
+      "size": 24389,
+      "hash": "7a8ada62e9900bc60fd47f85a2c77115",
+      "processed": "2025-08-31T20:54:54.445896"
+    },
+    "Germany\\Bundesliga\\2020/team_statistics.json": {
+      "mtime": 1753605266.1461232,
+      "size": 1082725,
+      "hash": "362fa440008edfd091090cac457cea70",
+      "processed": "2025-08-31T20:54:54.835983"
+    }
+  },
+  "Germany\\Bundesliga\\2021": {
+    "Germany\\Bundesliga\\2021/fixture_events.json": {
+      "mtime": 1753110868.0630586,
+      "size": 536574,
+      "hash": "10e4ba23657c2c145f2e38ad4411dde7",
+      "processed": "2025-08-31T20:54:54.882995"
+    },
+    "Germany\\Bundesliga\\2021/injuries.json": {
+      "mtime": 1753111234.260949,
+      "size": 2080880,
+      "hash": "4ce8f19d71f2f78f5d554a1ec8d3c599",
+      "processed": "2025-08-31T20:54:55.238076"
+    },
+    "Germany\\Bundesliga\\2021/lineups.json": {
+      "mtime": 1753111234.5680225,
+      "size": 3194007,
+      "hash": "5c934ac1d4b5c52eccfb519e3278e280",
+      "processed": "2025-08-31T20:54:55.796201"
+    },
+    "Germany\\Bundesliga\\2021/player_statistics.json": {
+      "mtime": 1753111234.1179178,
+      "size": 23367872,
+      "hash": "ff7efa16087c68d3228e02d3d1367f29",
+      "processed": "2025-08-31T20:54:57.445578"
+    },
+    "Germany\\Bundesliga\\2021/team_standings.json": {
+      "mtime": 1753111234.9228277,
+      "size": 24437,
+      "hash": "2c5ecb492b6b8c3abe84c26a625a299c",
+      "processed": "2025-08-31T20:54:57.494587"
+    },
+    "Germany\\Bundesliga\\2021/team_statistics.json": {
+      "mtime": 1753111232.1263483,
+      "size": 1082915,
+      "hash": "87166e9735f3f2ca4f5b51867b2d5336",
+      "processed": "2025-08-31T20:54:57.828664"
+    }
+  },
+  "Germany\\Bundesliga\\2022": {
+    "Germany\\Bundesliga\\2022/fixture_events.json": {
+      "mtime": 1753111318.7276428,
+      "size": 534353,
+      "hash": "76c12d9b145832a677d2ccc793f3b734",
+      "processed": "2025-08-31T20:54:57.870673"
+    },
+    "Germany\\Bundesliga\\2022/injuries.json": {
+      "mtime": 1753111665.5320284,
+      "size": 2132390,
+      "hash": "50823c0e5cfc9fe3dd94f43633de8b66",
+      "processed": "2025-08-31T20:54:58.181744"
+    },
+    "Germany\\Bundesliga\\2022/lineups.json": {
+      "mtime": 1753111665.8400977,
+      "size": 3194382,
+      "hash": "3a092def5c7b44e268fdb9c33c9edd7e",
+      "processed": "2025-08-31T20:54:58.792883"
+    },
+    "Germany\\Bundesliga\\2022/player_statistics.json": {
+      "mtime": 1753111665.3739939,
+      "size": 23383520,
+      "hash": "5e85a2a30f585d26d1fe6b2a2ac1bf97",
+      "processed": "2025-08-31T20:55:00.260215"
+    },
+    "Germany\\Bundesliga\\2022/team_standings.json": {
+      "mtime": 1753111666.0929966,
+      "size": 24399,
+      "hash": "938d244633fd49200dbdecf357cc670d",
+      "processed": "2025-08-31T20:55:00.312228"
+    },
+    "Germany\\Bundesliga\\2022/team_statistics.json": {
+      "mtime": 1753111663.2121453,
+      "size": 1111547,
+      "hash": "a3ee5896bd6e9262ad44b78ade6c4e1e",
+      "processed": "2025-08-31T20:55:00.718321"
+    }
+  },
+  "Germany\\Bundesliga\\2023": {
+    "Germany\\Bundesliga\\2023/fixture_events.json": {
+      "mtime": 1753193955.527852,
+      "size": 537005,
+      "hash": "6ceb0547f314c7f9d35a37d806ec98e0",
+      "processed": "2025-08-31T20:55:00.764331"
+    },
+    "Germany\\Bundesliga\\2023/injuries.json": {
+      "mtime": 1753194324.0048122,
+      "size": 2434292,
+      "hash": "c826fab66d76c3a2503ed176a6086882",
+      "processed": "2025-08-31T20:55:01.248440"
+    },
+    "Germany\\Bundesliga\\2023/lineups.json": {
+      "mtime": 1753194324.3018942,
+      "size": 3204046,
+      "hash": "56a087c595a36d7190a2c8520a87c646",
+      "processed": "2025-08-31T20:55:01.811568"
+    },
+    "Germany\\Bundesliga\\2023/player_statistics.json": {
+      "mtime": 1753194323.8417768,
+      "size": 23428858,
+      "hash": "ff93517f3b7a84255021a279237e7749",
+      "processed": "2025-08-31T20:55:03.292151"
+    },
+    "Germany\\Bundesliga\\2023/team_standings.json": {
+      "mtime": 1753194324.594002,
+      "size": 24412,
+      "hash": "b3c60d92cb7b9e9c0f825fd5f5304925",
+      "processed": "2025-08-31T20:55:03.334161"
+    },
+    "Germany\\Bundesliga\\2023/team_statistics.json": {
+      "mtime": 1753194321.8871381,
+      "size": 1143384,
+      "hash": "45beaa9b244db419692e197cb7e9479d",
+      "processed": "2025-08-31T20:55:03.711246"
+    }
+  },
+  "Germany\\Bundesliga\\2024": {
+    "Germany\\Bundesliga\\2024/fixture_events.json": {
+      "mtime": 1753194423.6976092,
+      "size": 535429,
+      "hash": "e6fcbe322b7e08639bcd6bb03b03adc1",
+      "processed": "2025-08-31T20:55:03.765259"
+    },
+    "Germany\\Bundesliga\\2024/injuries.json": {
+      "mtime": 1753194805.338361,
+      "size": 2382075,
+      "hash": "81f8f23966e7fa4c498b30e7c2ad85f3",
+      "processed": "2025-08-31T20:55:04.132341"
+    },
+    "Germany\\Bundesliga\\2024/lineups.json": {
+      "mtime": 1753194805.6314359,
+      "size": 3217864,
+      "hash": "86486afe425be6bacebae674bf3915c7",
+      "processed": "2025-08-31T20:55:04.686467"
+    },
+    "Germany\\Bundesliga\\2024/player_statistics.json": {
+      "mtime": 1753194805.1733177,
+      "size": 23517970,
+      "hash": "5bd0a847044976e5adabbb81706fb3a9",
+      "processed": "2025-08-31T20:55:06.081603"
+    },
+    "Germany\\Bundesliga\\2024/team_standings.json": {
+      "mtime": 1753194805.975553,
+      "size": 24417,
+      "hash": "174b4fdedc0a4842c984af63d807ed9b",
+      "processed": "2025-08-31T20:55:06.125820"
+    },
+    "Germany\\Bundesliga\\2024/team_statistics.json": {
+      "mtime": 1753194803.2502637,
+      "size": 1197683,
+      "hash": "380e3d931410b2c3cc1834c07a8e67f0",
+      "processed": "2025-08-31T20:55:06.511908"
+    }
+  },
+  "Germany\\Bundesliga\\2025": {
+    "Germany\\Bundesliga\\2025/fixture_events.json": {
+      "mtime": 1756480656.8442175,
+      "size": 27202,
+      "hash": "ecf7f77ba105f8ce566fb0815dd2fdb9",
+      "processed": "2025-08-31T20:55:06.534716"
+    },
+    "Germany\\Bundesliga\\2025/injuries.json": {
+      "mtime": 1756310932.1436772,
+      "size": 69305,
+      "hash": "16791b84187c7dc99fd6739451aefd52",
+      "processed": "2025-08-31T20:55:06.560722"
+    },
+    "Germany\\Bundesliga\\2025/lineups.json": {
+      "mtime": 1756310932.1356747,
+      "size": 94500,
+      "hash": "6633093f52ee15fc3643dfda0df98c24",
+      "processed": "2025-08-31T20:55:06.587728"
+    },
+    "Germany\\Bundesliga\\2025/odds.json": {
+      "mtime": 1756478996.3874393,
+      "size": 2739437,
+      "hash": "4b8162ad12df5180808d0bd00a1d96fb",
+      "processed": "2025-08-31T20:55:06.640740"
+    },
+    "Germany\\Bundesliga\\2025/player_statistics.json": {
+      "mtime": 1756310932.1216726,
+      "size": 689019,
+      "hash": "28edf52f10979ceb107a3bcaad4ae64b",
+      "processed": "2025-08-31T20:55:06.692752"
+    },
+    "Germany\\Bundesliga\\2025/team_standings.json": {
+      "mtime": 1756310932.7438118,
+      "size": 24068,
+      "hash": "23c8b80a81253060dc2f7f1c806422d8",
+      "processed": "2025-08-31T20:55:06.710757"
+    },
+    "Germany\\Bundesliga\\2025/team_statistics.json": {
+      "mtime": 1756310932.0336504,
+      "size": 34999,
+      "hash": "62263fe45d1a90668553db2535d38a86",
+      "processed": "2025-08-31T20:55:06.740768"
+    }
+  },
+  "Germany\\DFB Pokal\\2018": {
+    "Germany\\DFB Pokal\\2018/fixture_events.json": {
+      "mtime": 1756662257.8091803,
+      "size": 100798,
+      "hash": "be1febabd40a0248946bf47f7e8a6ed5",
+      "processed": "2025-08-31T20:55:06.759769"
+    },
+    "Germany\\DFB Pokal\\2018/team_statistics.json": {
+      "mtime": 1756662272.326905,
+      "size": 221169,
+      "hash": "3196251661465d5fa791749e7363d904",
+      "processed": "2025-08-31T20:55:06.931806"
+    }
+  },
+  "Germany\\DFB Pokal\\2019": {
+    "Germany\\DFB Pokal\\2019/fixture_events.json": {
+      "mtime": 1756661336.9785428,
+      "size": 95426,
+      "hash": "f4c1c92fc8ed9b63ca37e4aa24d149d8",
+      "processed": "2025-08-31T20:55:06.946809"
+    },
+    "Germany\\DFB Pokal\\2019/team_statistics.json": {
+      "mtime": 1756661352.2732189,
+      "size": 210999,
+      "hash": "e789da5b436c105f47c76b48e9e1f805",
+      "processed": "2025-08-31T20:55:07.011824"
+    }
+  },
+  "Germany\\DFB Pokal\\2020": {
+    "Germany\\DFB Pokal\\2020/fixture_events.json": {
+      "mtime": 1756661076.5589383,
+      "size": 100234,
+      "hash": "902860f87de989e609cdde5ad127bbe2",
+      "processed": "2025-08-31T20:55:07.036830"
+    },
+    "Germany\\DFB Pokal\\2020/team_statistics.json": {
+      "mtime": 1756661092.1260989,
+      "size": 208409,
+      "hash": "d5cdc49e9b1ffa8f4ae46dff6eebe80e",
+      "processed": "2025-08-31T20:55:07.112847"
+    }
+  },
+  "Germany\\DFB Pokal\\2021": {
+    "Germany\\DFB Pokal\\2021/fixture_events.json": {
+      "mtime": 1755070989.1641474,
+      "size": 109413,
+      "hash": "3ff4d0f3c3a3cdbd143b0dd6cd4bba0e",
+      "processed": "2025-08-31T20:55:07.144854"
+    },
+    "Germany\\DFB Pokal\\2021/team_statistics.json": {
+      "mtime": 1755071004.1972704,
+      "size": 221534,
+      "hash": "64463af25c1ecb21300df732fefeb2d8",
+      "processed": "2025-08-31T20:55:07.220871"
+    }
+  },
+  "Germany\\DFB Pokal\\2022": {
+    "Germany\\DFB Pokal\\2022/fixture_events.json": {
+      "mtime": 1755070970.1693363,
+      "size": 62704,
+      "hash": "643fca128349cb15bc03f3462efec841",
+      "processed": "2025-08-31T20:55:07.244876"
+    },
+    "Germany\\DFB Pokal\\2022/team_statistics.json": {
+      "mtime": 1755070978.703283,
+      "size": 129151,
+      "hash": "0c71a04b3c38c6ea973b80d48fa5eed3",
+      "processed": "2025-08-31T20:55:07.297889"
+    }
+  },
+  "Germany\\DFB Pokal\\2023": {
+    "Germany\\DFB Pokal\\2023/fixture_events.json": {
+      "mtime": 1755069865.5986378,
+      "size": 109596,
+      "hash": "ae5c674b3304da4a73064be9eab24241",
+      "processed": "2025-08-31T20:55:07.322897"
+    },
+    "Germany\\DFB Pokal\\2023/team_statistics.json": {
+      "mtime": 1755069880.858168,
+      "size": 219674,
+      "hash": "c2b84021499c0e4fa1fddc0daa19ab17",
+      "processed": "2025-08-31T20:55:07.408917"
+    }
+  },
+  "Germany\\DFB Pokal\\2024": {
+    "Germany\\DFB Pokal\\2024/fixture_events.json": {
+      "mtime": 1755069811.2290788,
+      "size": 109343,
+      "hash": "5d39b97b7c2bcd3ff87381f554e5cd7f",
+      "processed": "2025-08-31T20:55:07.432920"
+    },
+    "Germany\\DFB Pokal\\2024/team_statistics.json": {
+      "mtime": 1755069825.8353603,
+      "size": 245266,
+      "hash": "677a4e0bf7f9dd5649c0caa344d4034a",
+      "processed": "2025-08-31T20:55:07.508937"
+    }
+  },
+  "Greece\\Super League\\2021": {
+    "Greece\\Super League\\2021/fixture_events.json": {
+      "mtime": 1753110055.1339011,
+      "size": 420386,
+      "hash": "e591dd5c6192960fd9045dc7823119a0",
+      "processed": "2025-08-31T20:55:07.545946"
+    },
+    "Greece\\Super League\\2021/lineups.json": {
+      "mtime": 1753110324.946862,
+      "size": 2512120,
+      "hash": "c0ac030fa14c6760bf6d228438a8c97c",
+      "processed": "2025-08-31T20:55:08.120076"
+    },
+    "Greece\\Super League\\2021/team_standings.json": {
+      "mtime": 1753110325.261933,
+      "size": 37934,
+      "hash": "21eb64ff25883275668a3423ed7680b3",
+      "processed": "2025-08-31T20:55:08.188091"
+    },
+    "Greece\\Super League\\2021/team_statistics.json": {
+      "mtime": 1753110324.6778028,
+      "size": 845503,
+      "hash": "b90b386a7926c6161c409c31411ede81",
+      "processed": "2025-08-31T20:55:08.469156"
+    }
+  },
+  "Greece\\Super League\\2022": {
+    "Greece\\Super League\\2022/fixture_events.json": {
+      "mtime": 1752766348.402507,
+      "size": 419847,
+      "hash": "44598a48872c7cf9b3b9caf3930a52bb",
+      "processed": "2025-08-31T20:55:08.504163"
+    },
+    "Greece\\Super League\\2022/lineups.json": {
+      "mtime": 1752766623.821587,
+      "size": 2510586,
+      "hash": "e853131b71cd6de128aaae6b01e4bd0c",
+      "processed": "2025-08-31T20:55:09.088296"
+    },
+    "Greece\\Super League\\2022/player_statistics.json": {
+      "mtime": 1752766623.5755281,
+      "size": 18328120,
+      "hash": "223813d0c6aa1ff848fdc04c231ecc19",
+      "processed": "2025-08-31T20:55:10.300571"
+    },
+    "Greece\\Super League\\2022/team_standings.json": {
+      "mtime": 1752766624.1661382,
+      "size": 37963,
+      "hash": "5368052e5a2945e00d415c3ce89e03ad",
+      "processed": "2025-08-31T20:55:10.341583"
+    },
+    "Greece\\Super League\\2022/team_statistics.json": {
+      "mtime": 1752766622.062484,
+      "size": 861957,
+      "hash": "622e0099fecc2e97892eb14818a00194",
+      "processed": "2025-08-31T20:55:10.635648"
+    }
+  },
+  "Greece\\Super League\\2023": {
+    "Greece\\Super League\\2023/fixture_events.json": {
+      "mtime": 1752767265.9394257,
+      "size": 420438,
+      "hash": "fbcc5939fd194fa05ed01df89250c894",
+      "processed": "2025-08-31T20:55:10.690677"
+    },
+    "Greece\\Super League\\2023/lineups.json": {
+      "mtime": 1752767559.5582047,
+      "size": 2520560,
+      "hash": "b599f4f99e6a314d18e378c399ad706b",
+      "processed": "2025-08-31T20:55:11.247786"
+    },
+    "Greece\\Super League\\2023/player_statistics.json": {
+      "mtime": 1752767559.3211515,
+      "size": 18299432,
+      "hash": "563de15ad72d8c013c8a02764678a56c",
+      "processed": "2025-08-31T20:55:12.377043"
+    },
+    "Greece\\Super League\\2023/team_standings.json": {
+      "mtime": 1752767559.8152034,
+      "size": 37973,
+      "hash": "71c60ccebb3d37e7b32f153e510f60e8",
+      "processed": "2025-08-31T20:55:12.419054"
+    },
+    "Greece\\Super League\\2023/team_statistics.json": {
+      "mtime": 1752767557.738871,
+      "size": 884305,
+      "hash": "65b2c706b9f09c2a6d6ec89a5881ac2f",
+      "processed": "2025-08-31T20:55:12.761131"
+    }
+  },
+  "Greece\\Super League\\2024": {
+    "Greece\\Super League\\2024/fixture_events.json": {
+      "mtime": 1752846377.3825061,
+      "size": 412617,
+      "hash": "57782bd0f6cbefb1e4fd9cb604e4a5dc",
+      "processed": "2025-08-31T20:55:12.800139"
+    },
+    "Greece\\Super League\\2024/lineups.json": {
+      "mtime": 1752846688.4768603,
+      "size": 2475707,
+      "hash": "51fdd51d19d99e2d4e39ae9737ea0e1d",
+      "processed": "2025-08-31T20:55:13.270825"
+    },
+    "Greece\\Super League\\2024/player_statistics.json": {
+      "mtime": 1752846688.240806,
+      "size": 17821990,
+      "hash": "02b9412d787bd5c8d03a1654688fb8a8",
+      "processed": "2025-08-31T20:55:14.380591"
+    },
+    "Greece\\Super League\\2024/team_standings.json": {
+      "mtime": 1752846688.8095388,
+      "size": 38107,
+      "hash": "f891283372aef4fd0f284b56ab24d8d5",
+      "processed": "2025-08-31T20:55:14.424605"
+    },
+    "Greece\\Super League\\2024/team_statistics.json": {
+      "mtime": 1752846686.5444264,
+      "size": 905738,
+      "hash": "d4ffeacc580ec76bf6a95c561143fc56",
+      "processed": "2025-08-31T20:55:14.732672"
+    }
+  },
+  "Greece\\Super League\\2025": {
+    "Greece\\Super League\\2025/fixture_events.json": {
+      "mtime": 1756480711.5688493,
+      "size": 11334,
+      "hash": "5c5bd53455c06da0b2d267cf4b9e83a7",
+      "processed": "2025-08-31T20:55:14.755676"
+    },
+    "Greece\\Super League\\2025/odds.json": {
+      "mtime": 1756479125.8477829,
+      "size": 864457,
+      "hash": "40995c59029373e7031ae6d8d38620ff",
+      "processed": "2025-08-31T20:55:14.783684"
+    }
+  },
+  "Italy\\Coppa Italia\\2018": {
+    "Italy\\Coppa Italia\\2018/fixture_events.json": {
+      "mtime": 1756662242.5894866,
+      "size": 96237,
+      "hash": "84f51496556d16bf6b7d9b00bf2ca348",
+      "processed": "2025-08-31T20:55:14.798688"
+    },
+    "Italy\\Coppa Italia\\2018/team_statistics.json": {
+      "mtime": 1756662257.456738,
+      "size": 85729,
+      "hash": "4e19df37e3ed02cff7f7662bb56b35d1",
+      "processed": "2025-08-31T20:55:14.835696"
+    }
+  },
+  "Italy\\Coppa Italia\\2019": {
+    "Italy\\Coppa Italia\\2019/lineups.json": {
+      "mtime": 1756495757.2662096,
+      "size": 793413,
+      "hash": "76380297ae7024fcc52789110670114e",
+      "processed": "2025-08-31T20:55:15.021736"
+    },
+    "Italy\\Coppa Italia\\2019/player_statistics.json": {
+      "mtime": 1756495757.1091728,
+      "size": 766567,
+      "hash": "0eda5ab01aeeb789c88dc4288721579e",
+      "processed": "2025-08-31T20:55:15.086752"
+    },
+    "Italy\\Coppa Italia\\2019/team_statistics.json": {
+      "mtime": 1756495756.9711418,
+      "size": 89304,
+      "hash": "88acb64bea86d4d33bc9a6f2c2ad602f",
+      "processed": "2025-08-31T20:55:15.145766"
+    }
+  },
+  "Italy\\Coppa Italia\\2020": {
+    "Italy\\Coppa Italia\\2020/fixture_events.json": {
+      "mtime": 1756392694.0087354,
+      "size": 125185,
+      "hash": "acc383f060a87672197d7a44f6091774",
+      "processed": "2025-08-31T20:55:15.169771"
+    },
+    "Italy\\Coppa Italia\\2020/lineups.json": {
+      "mtime": 1756392784.492015,
+      "size": 811380,
+      "hash": "3b4c701f6147d1b996164fd812f3f231",
+      "processed": "2025-08-31T20:55:15.345810"
+    },
+    "Italy\\Coppa Italia\\2020/player_statistics.json": {
+      "mtime": 1756392784.3709877,
+      "size": 1466430,
+      "hash": "be0bdd3791b456788c2d614cd635ba9b",
+      "processed": "2025-08-31T20:55:15.441832"
+    },
+    "Italy\\Coppa Italia\\2020/team_statistics.json": {
+      "mtime": 1756392784.1599393,
+      "size": 96468,
+      "hash": "91d478077cebc3e569a6fdece1d6f0bc",
+      "processed": "2025-08-31T20:55:15.513851"
+    }
+  },
+  "Italy\\Coppa Italia\\2021": {
+    "Italy\\Coppa Italia\\2021/fixture_events.json": {
+      "mtime": 1756392621.847278,
+      "size": 71145,
+      "hash": "116d956191fa13157175e8bfb4fb1ab2",
+      "processed": "2025-08-31T20:55:15.558862"
+    },
+    "Italy\\Coppa Italia\\2021/lineups.json": {
+      "mtime": 1756392672.0574696,
+      "size": 509985,
+      "hash": "73da711e1cada0c20450e11fd2876445",
+      "processed": "2025-08-31T20:55:15.730897"
+    },
+    "Italy\\Coppa Italia\\2021/player_statistics.json": {
+      "mtime": 1756392671.9844522,
+      "size": 3302305,
+      "hash": "b348e61e9997fcd8969cd145c2f9c5a3",
+      "processed": "2025-08-31T20:55:15.982956"
+    },
+    "Italy\\Coppa Italia\\2021/team_statistics.json": {
+      "mtime": 1756392671.5593562,
+      "size": 137914,
+      "hash": "9a54200b3363b00c0509f207e04e5697",
+      "processed": "2025-08-31T20:55:16.049970"
+    }
+  },
+  "Italy\\Coppa Italia\\2022": {
+    "Italy\\Coppa Italia\\2022/fixture_events.json": {
+      "mtime": 1756392239.053401,
+      "size": 64750,
+      "hash": "265eebbcfb1f5833a50ee0c7492e28cd",
+      "processed": "2025-08-31T20:55:16.073978"
+    },
+    "Italy\\Coppa Italia\\2022/lineups.json": {
+      "mtime": 1756392288.5537705,
+      "size": 486454,
+      "hash": "2a1837ccdc7bbc5a6c8fd18c84781340",
+      "processed": "2025-08-31T20:55:16.180000"
+    },
+    "Italy\\Coppa Italia\\2022/player_statistics.json": {
+      "mtime": 1756392288.470752,
+      "size": 3649126,
+      "hash": "1bfa0710c0a1755f57c1cddbbcf70526",
+      "processed": "2025-08-31T20:55:16.373044"
+    },
+    "Italy\\Coppa Italia\\2022/team_statistics.json": {
+      "mtime": 1756392287.9226289,
+      "size": 145782,
+      "hash": "8ca1bb347a39053f7ec85a5c36705551",
+      "processed": "2025-08-31T20:55:16.447707"
+    }
+  },
+  "Italy\\Coppa Italia\\2023": {
+    "Italy\\Coppa Italia\\2023/fixture_events.json": {
+      "mtime": 1756391852.7496426,
+      "size": 71207,
+      "hash": "85bd3b73039652980c0a76a83ae4d0b0",
+      "processed": "2025-08-31T20:55:16.473715"
+    },
+    "Italy\\Coppa Italia\\2023/lineups.json": {
+      "mtime": 1756391904.3755052,
+      "size": 522899,
+      "hash": "50db3c26ce9d7eb84e5fd1fee1edb2a4",
+      "processed": "2025-08-31T20:55:16.601742"
+    },
+    "Italy\\Coppa Italia\\2023/player_statistics.json": {
+      "mtime": 1756391904.3044891,
+      "size": 2911594,
+      "hash": "cfb50b0ecb115d8b55b948228e9f6803",
+      "processed": "2025-08-31T20:55:16.768781"
+    },
+    "Italy\\Coppa Italia\\2023/team_statistics.json": {
+      "mtime": 1756391903.9264028,
+      "size": 131496,
+      "hash": "af0fa7c408454292e12a610659b7269f",
+      "processed": "2025-08-31T20:55:16.836797"
+    }
+  },
+  "Italy\\Coppa Italia\\2024": {
+    "Italy\\Coppa Italia\\2024/fixture_events.json": {
+      "mtime": 1756391759.2522335,
+      "size": 71215,
+      "hash": "9b7cb0e7a4b800ae8ae53b314dc3afc0",
+      "processed": "2025-08-31T20:55:16.905812"
+    },
+    "Italy\\Coppa Italia\\2024/lineups.json": {
+      "mtime": 1756391807.3213444,
+      "size": 544080,
+      "hash": "7aa8b9420e1059d2d364a6439a9ae483",
+      "processed": "2025-08-31T20:55:17.015838"
+    },
+    "Italy\\Coppa Italia\\2024/player_statistics.json": {
+      "mtime": 1756391807.242327,
+      "size": 3724889,
+      "hash": "1f81988606fd116ac879bb61c13a821d",
+      "processed": "2025-08-31T20:55:17.209880"
+    },
+    "Italy\\Coppa Italia\\2024/team_statistics.json": {
+      "mtime": 1756391806.750214,
+      "size": 170934,
+      "hash": "389cf0c0994bfee5ac2f9a122b9495a7",
+      "processed": "2025-08-31T20:55:17.279014"
+    }
+  },
+  "Italy\\Serie A\\2016": {
+    "Italy\\Serie A\\2016/fixture_events.json": {
+      "mtime": 1756474328.5090134,
+      "size": 605355,
+      "hash": "a20c0c6e1dab2a0ea2d8479a9237b4c6",
+      "processed": "2025-08-31T20:55:17.322023"
+    },
+    "Italy\\Serie A\\2016/lineups.json": {
+      "mtime": 1756474803.3784494,
+      "size": 4106624,
+      "hash": "30cab35c03309d9e9bca74102bcc9fed",
+      "processed": "2025-08-31T20:55:18.132207"
+    },
+    "Italy\\Serie A\\2016/player_statistics.json": {
+      "mtime": 1756474802.8073163,
+      "size": 20241437,
+      "hash": "1602889a9bf862431a245c166074a7d6",
+      "processed": "2025-08-31T20:55:19.390493"
+    },
+    "Italy\\Serie A\\2016/team_standings.json": {
+      "mtime": 1756474803.717399,
+      "size": 26593,
+      "hash": "6051cdcf7b37fee50d45359ada82802d",
+      "processed": "2025-08-31T20:55:19.429633"
+    },
+    "Italy\\Serie A\\2016/team_statistics.json": {
+      "mtime": 1756474800.207619,
+      "size": 1327965,
+      "hash": "e01a140ffeaa9ca720ef259db0e1478e",
+      "processed": "2025-08-31T20:55:19.841727"
+    }
+  },
+  "Italy\\Serie A\\2017": {
+    "Italy\\Serie A\\2017/fixture_events.json": {
+      "mtime": 1756473828.419304,
+      "size": 605050,
+      "hash": "ca424baa815487b962bb3e0eecba2fbd",
+      "processed": "2025-08-31T20:55:19.885737"
+    },
+    "Italy\\Serie A\\2017/lineups.json": {
+      "mtime": 1756474211.237122,
+      "size": 4105212,
+      "hash": "e097090346946d7d77e29fd48c7c644b",
+      "processed": "2025-08-31T20:55:20.665914"
+    },
+    "Italy\\Serie A\\2017/player_statistics.json": {
+      "mtime": 1756474210.598976,
+      "size": 20202650,
+      "hash": "f7b9a49d2b422a98b191cc2050bb729b",
+      "processed": "2025-08-31T20:55:22.006586"
+    },
+    "Italy\\Serie A\\2017/team_standings.json": {
+      "mtime": 1756474213.3596046,
+      "size": 26513,
+      "hash": "3c7c507ce613730a03793694ef44d072",
+      "processed": "2025-08-31T20:55:22.057600"
+    },
+    "Italy\\Serie A\\2017/team_statistics.json": {
+      "mtime": 1756474207.8923614,
+      "size": 1327506,
+      "hash": "eac0dfbd3cc6435c810b523518b1ddee",
+      "processed": "2025-08-31T20:55:22.479693"
+    }
+  },
+  "Italy\\Serie A\\2018": {
+    "Italy\\Serie A\\2018/fixture_events.json": {
+      "mtime": 1753463525.1546946,
+      "size": 658552,
+      "hash": "c7a106fb933bbe5dcab432457d609760",
+      "processed": "2025-08-31T20:55:22.531705"
+    },
+    "Italy\\Serie A\\2018/lineups.json": {
+      "mtime": 1753463902.9947095,
+      "size": 4070658,
+      "hash": "b5645ee89e1dced44dcd6730d63b19f1",
+      "processed": "2025-08-31T20:55:23.402903"
+    },
+    "Italy\\Serie A\\2018/player_statistics.json": {
+      "mtime": 1753463902.6296227,
+      "size": 20084951,
+      "hash": "6201b410ea3b7c215a41666eb4284181",
+      "processed": "2025-08-31T20:55:24.892709"
+    },
+    "Italy\\Serie A\\2018/team_standings.json": {
+      "mtime": 1753463903.219088,
+      "size": 26751,
+      "hash": "8fee9552bc13a1dc2eb853a483200369",
+      "processed": "2025-08-31T20:55:24.955724"
+    },
+    "Italy\\Serie A\\2018/team_statistics.json": {
+      "mtime": 1753463900.9402804,
+      "size": 1329125,
+      "hash": "e14bf3d04f42d496b167b9ef0498785d",
+      "processed": "2025-08-31T20:55:25.627875"
+    }
+  },
+  "Italy\\Serie A\\2019": {
+    "Italy\\Serie A\\2019/fixture_events.json": {
+      "mtime": 1753463951.4879744,
+      "size": 441087,
+      "hash": "55237f31c81cfbfcb7c352ca4a30f99f",
+      "processed": "2025-08-31T20:55:25.670885"
+    },
+    "Italy\\Serie A\\2019/lineups.json": {
+      "mtime": 1753464206.0492604,
+      "size": 2768969,
+      "hash": "1ed80cfbe905c94b32067a4f9ee53ab5",
+      "processed": "2025-08-31T20:55:26.354040"
+    },
+    "Italy\\Serie A\\2019/player_statistics.json": {
+      "mtime": 1753464205.7921996,
+      "size": 13603316,
+      "hash": "34c39580fbfeae63f7f37724714abc78",
+      "processed": "2025-08-31T20:55:27.365271"
+    },
+    "Italy\\Serie A\\2019/team_standings.json": {
+      "mtime": 1753464206.30908,
+      "size": 26748,
+      "hash": "de6ed520ad8ceb8a8e6a7c08a5bed36e",
+      "processed": "2025-08-31T20:55:27.398278"
+    },
+    "Italy\\Serie A\\2019/team_statistics.json": {
+      "mtime": 1753464204.6589446,
+      "size": 896046,
+      "hash": "7fa1edab65d17f183804ff90a61647f8",
+      "processed": "2025-08-31T20:55:27.710349"
+    }
+  },
+  "Italy\\Serie A\\2020": {
+    "Italy\\Serie A\\2020/fixture_events.json": {
+      "mtime": 1753464226.3529394,
+      "size": 655294,
+      "hash": "3a27742a584ca3e2f4a48d5ee2f536ca",
+      "processed": "2025-08-31T20:55:27.760359"
+    },
+    "Italy\\Serie A\\2020/injuries.json": {
+      "mtime": 1753464608.1077597,
+      "size": 592943,
+      "hash": "1053c378a7f6a75f3795673147546c74",
+      "processed": "2025-08-31T20:55:28.009417"
+    },
+    "Italy\\Serie A\\2020/lineups.json": {
+      "mtime": 1753464608.5328538,
+      "size": 4242508,
+      "hash": "4e56686c5132bb0fe5010426ba4d7467",
+      "processed": "2025-08-31T20:55:28.770589"
+    },
+    "Italy\\Serie A\\2020/player_statistics.json": {
+      "mtime": 1753464608.0627491,
+      "size": 32675067,
+      "hash": "e52bb0f5268efc277bd6755fb2f9df30",
+      "processed": "2025-08-31T20:55:30.842061"
+    },
+    "Italy\\Serie A\\2020/team_standings.json": {
+      "mtime": 1753464608.7729082,
+      "size": 26773,
+      "hash": "53f88af83441b1b4bf103774cd092fea",
+      "processed": "2025-08-31T20:55:30.952085"
+    },
+    "Italy\\Serie A\\2020/team_statistics.json": {
+      "mtime": 1753464605.4107828,
+      "size": 1330213,
+      "hash": "cef22c84c2165859011fc51d0b5427db",
+      "processed": "2025-08-31T20:55:31.402187"
+    }
+  },
+  "Italy\\Serie A\\2021": {
+    "Italy\\Serie A\\2021/fixture_events.json": {
+      "mtime": 1752688638.9629216,
+      "size": 655208,
+      "hash": "29d1c320bf0c7b8cf887fbd317ca40d7",
+      "processed": "2025-08-31T20:55:31.449198"
+    },
+    "Italy\\Serie A\\2021/injuries.json": {
+      "mtime": 1752689061.1744683,
+      "size": 2435784,
+      "hash": "6fa773f231910152b27d79e851e6e634",
+      "processed": "2025-08-31T20:55:31.807280"
+    },
+    "Italy\\Serie A\\2021/lineups.json": {
+      "mtime": 1752689061.5664432,
+      "size": 4346822,
+      "hash": "98b346866fb2408c60b384366a5424ac",
+      "processed": "2025-08-31T20:55:32.560451"
+    },
+    "Italy\\Serie A\\2021/player_statistics.json": {
+      "mtime": 1752689061.0024297,
+      "size": 32407494,
+      "hash": "f7051f864622610b3e2e211aa1c2fdcc",
+      "processed": "2025-08-31T20:55:34.885979"
+    },
+    "Italy\\Serie A\\2021/team_standings.json": {
+      "mtime": 1752689061.792439,
+      "size": 26811,
+      "hash": "83802bd5cca2651e9975ce0c48c45cd2",
+      "processed": "2025-08-31T20:55:34.946993"
+    },
+    "Italy\\Serie A\\2021/team_statistics.json": {
+      "mtime": 1752689058.283026,
+      "size": 1330287,
+      "hash": "816c9f92d301111e626cadb7c6ce8119",
+      "processed": "2025-08-31T20:55:35.402096"
+    }
+  },
+  "Italy\\Serie A\\2022": {
+    "Italy\\Serie A\\2022/fixture_events.json": {
+      "mtime": 1752689161.3729045,
+      "size": 637932,
+      "hash": "a929fb873959b7e23c7e15e3219e4669",
+      "processed": "2025-08-31T20:55:35.463109"
+    },
+    "Italy\\Serie A\\2022/injuries.json": {
+      "mtime": 1752689580.9923112,
+      "size": 2202090,
+      "hash": "05b4372c8bc458262eb70a0a1feaa9c7",
+      "processed": "2025-08-31T20:55:35.962223"
+    },
+    "Italy\\Serie A\\2022/lineups.json": {
+      "mtime": 1752689581.4884229,
+      "size": 4426192,
+      "hash": "9edc6980281b51257f90f82a8318df24",
+      "processed": "2025-08-31T20:55:36.713394"
+    },
+    "Italy\\Serie A\\2022/player_statistics.json": {
+      "mtime": 1752689580.7642612,
+      "size": 33251177,
+      "hash": "b98ac5b43fe74b379d685f9ae0b44f26",
+      "processed": "2025-08-31T20:55:39.080932"
+    },
+    "Italy\\Serie A\\2022/team_standings.json": {
+      "mtime": 1752689581.9499133,
+      "size": 26856,
+      "hash": "d31363380c2c26889b6e144e33a4e1d0",
+      "processed": "2025-08-31T20:55:39.141947"
+    },
+    "Italy\\Serie A\\2022/team_statistics.json": {
+      "mtime": 1752689577.592548,
+      "size": 1331504,
+      "hash": "0d07bf28f9113f7762b0d8b42b8f9adb",
+      "processed": "2025-08-31T20:55:39.610052"
+    }
+  },
+  "Italy\\Serie A\\2023": {
+    "Italy\\Serie A\\2023/fixture_events.json": {
+      "mtime": 1752689620.1779919,
+      "size": 654596,
+      "hash": "5054db8b85913990623a0f0742659646",
+      "processed": "2025-08-31T20:55:39.669065"
+    },
+    "Italy\\Serie A\\2023/injuries.json": {
+      "mtime": 1752690039.75469,
+      "size": 2381634,
+      "hash": "da30979922399487aeb2794141b8cd43",
+      "processed": "2025-08-31T20:55:40.164178"
+    },
+    "Italy\\Serie A\\2023/lineups.json": {
+      "mtime": 1752690040.1857867,
+      "size": 4509216,
+      "hash": "ed9c51bf3469115fcf184df446f72bff",
+      "processed": "2025-08-31T20:55:40.980363"
+    },
+    "Italy\\Serie A\\2023/player_statistics.json": {
+      "mtime": 1752690039.564647,
+      "size": 33811821,
+      "hash": "2b3d96944867d5b74c3990a25c507801",
+      "processed": "2025-08-31T20:55:43.095843"
+    },
+    "Italy\\Serie A\\2023/team_standings.json": {
+      "mtime": 1752690040.4908557,
+      "size": 26856,
+      "hash": "aa3ca68c9488300ddaf2755376705e7f",
+      "processed": "2025-08-31T20:55:43.146855"
+    },
+    "Italy\\Serie A\\2023/team_statistics.json": {
+      "mtime": 1752690036.5939784,
+      "size": 1402863,
+      "hash": "810b9281efcb00dafbc758bb8319e69d",
+      "processed": "2025-08-31T20:55:43.588956"
+    }
+  },
+  "Italy\\Serie A\\2024": {
+    "Italy\\Serie A\\2024/fixture_events.json": {
+      "mtime": 1752690262.1169696,
+      "size": 654601,
+      "hash": "5338a826616295eff2f15083e9008d98",
+      "processed": "2025-08-31T20:55:43.636968"
+    },
+    "Italy\\Serie A\\2024/injuries.json": {
+      "mtime": 1752690672.1385095,
+      "size": 2708624,
+      "hash": "be8135edb71737894bcf96d1b37518a8",
+      "processed": "2025-08-31T20:55:44.071065"
+    },
+    "Italy\\Serie A\\2024/lineups.json": {
+      "mtime": 1752690672.5359485,
+      "size": 4524434,
+      "hash": "11eaa9a1229b05ce51a7b5ab1b2a8a14",
+      "processed": "2025-08-31T20:55:44.862245"
+    },
+    "Italy\\Serie A\\2024/player_statistics.json": {
+      "mtime": 1752690671.947467,
+      "size": 33891093,
+      "hash": "4df5a3412ea787311eb135afcb4d16ba",
+      "processed": "2025-08-31T20:55:47.288796"
+    },
+    "Italy\\Serie A\\2024/team_standings.json": {
+      "mtime": 1752690672.7979703,
+      "size": 26803,
+      "hash": "b3bd681e45ceab77da5bc3fb82713923",
+      "processed": "2025-08-31T20:55:47.337808"
+    },
+    "Italy\\Serie A\\2024/team_statistics.json": {
+      "mtime": 1752690669.091846,
+      "size": 1467866,
+      "hash": "37c406c3b8905c1038bce121eef2635e",
+      "processed": "2025-08-31T20:55:47.757903"
+    }
+  },
+  "Italy\\Serie A\\2025": {
+    "Italy\\Serie A\\2025/fixture_events.json": {
+      "mtime": 1756480656.626167,
+      "size": 28614,
+      "hash": "cdfd73e75042286bd84ce427928c4028",
+      "processed": "2025-08-31T20:55:47.782909"
+    },
+    "Italy\\Serie A\\2025/injuries.json": {
+      "mtime": 1756311040.6380358,
+      "size": 50355,
+      "hash": "4cdca402ed524d407e6f9e408aba75ca",
+      "processed": "2025-08-31T20:55:47.809915"
+    },
+    "Italy\\Serie A\\2025/lineups.json": {
+      "mtime": 1756311040.632034,
+      "size": 121096,
+      "hash": "2967efa274f795e69d405a808ca9e521",
+      "processed": "2025-08-31T20:55:47.841922"
+    },
+    "Italy\\Serie A\\2025/odds.json": {
+      "mtime": 1756478992.9708154,
+      "size": 3688407,
+      "hash": "6e0b2dd8a8c717a41b82fd707b09166e",
+      "processed": "2025-08-31T20:55:47.912938"
+    },
+    "Italy\\Serie A\\2025/player_statistics.json": {
+      "mtime": 1756311040.6140306,
+      "size": 998573,
+      "hash": "b5204f4cfb95b6d8c134cfe489e59799",
+      "processed": "2025-08-31T20:55:47.977952"
+    },
+    "Italy\\Serie A\\2025/team_standings.json": {
+      "mtime": 1756311041.1487656,
+      "size": 26405,
+      "hash": "42f22d5f2b3340ae5282b75824c1a239",
+      "processed": "2025-08-31T20:55:47.995957"
+    },
+    "Italy\\Serie A\\2025/team_statistics.json": {
+      "mtime": 1756311040.4920025,
+      "size": 38742,
+      "hash": "9e4a61133d94bc991811c1ccb4d9cb45",
+      "processed": "2025-08-31T20:55:48.021962"
+    }
+  },
+  "Italy\\Serie B\\2018": {
+    "Italy\\Serie B\\2018/lineups.json": {
+      "mtime": 1756495213.0034747,
+      "size": 3691626,
+      "hash": "4952051b0ff039c8dfd2ba0b2ee7904a",
+      "processed": "2025-08-31T20:55:48.780136"
+    },
+    "Italy\\Serie B\\2018/team_standings.json": {
+      "mtime": 1756495213.42257,
+      "size": 25646,
+      "hash": "91a2f8bda7474c38aa94d69adb58f1b7",
+      "processed": "2025-08-31T20:55:48.877158"
+    },
+    "Italy\\Serie B\\2018/team_statistics.json": {
+      "mtime": 1756495212.4253435,
+      "size": 1154315,
+      "hash": "5250c2620de52fa80b49a52218909f3f",
+      "processed": "2025-08-31T20:55:49.380272"
+    }
+  },
+  "Italy\\Serie B\\2019": {
+    "Italy\\Serie B\\2019/fixture_events.json": {
+      "mtime": 1756475449.890085,
+      "size": 443528,
+      "hash": "bc2cf7394cf066dc6850de466e70a21a",
+      "processed": "2025-08-31T20:55:49.424282"
+    },
+    "Italy\\Serie B\\2019/lineups.json": {
+      "mtime": 1756475738.113467,
+      "size": 3007905,
+      "hash": "73a5068302ed5234e2a5a55e260d7744",
+      "processed": "2025-08-31T20:55:50.019418"
+    },
+    "Italy\\Serie B\\2019/player_statistics.json": {
+      "mtime": 1756475737.6443605,
+      "size": 14839885,
+      "hash": "abf40e03b5ee8b3bf151ecc108c12f18",
+      "processed": "2025-08-31T20:55:51.202686"
+    },
+    "Italy\\Serie B\\2019/team_standings.json": {
+      "mtime": 1756475738.394756,
+      "size": 27022,
+      "hash": "ac65f9b363d46c4d9c477aab156e7542",
+      "processed": "2025-08-31T20:55:51.233694"
+    },
+    "Italy\\Serie B\\2019/team_statistics.json": {
+      "mtime": 1756475735.6525066,
+      "size": 977265,
+      "hash": "cccf436a811debc20507a1d546501015",
+      "processed": "2025-08-31T20:55:51.504754"
+    }
+  },
+  "Italy\\Serie B\\2020": {
+    "Italy\\Serie B\\2020/fixture_events.json": {
+      "mtime": 1756474888.37126,
+      "size": 617548,
+      "hash": "e6482943f203058134af0d5a94b27082",
+      "processed": "2025-08-31T20:55:51.565769"
+    },
+    "Italy\\Serie B\\2020/lineups.json": {
+      "mtime": 1756475313.722597,
+      "size": 4291178,
+      "hash": "7ace9fb53a0154b6accf85a6e9121750",
+      "processed": "2025-08-31T20:55:52.425963"
+    },
+    "Italy\\Serie B\\2020/player_statistics.json": {
+      "mtime": 1756475313.129462,
+      "size": 33048852,
+      "hash": "2002f6aec286c51b9f205f0922c47011",
+      "processed": "2025-08-31T20:55:54.385408"
+    },
+    "Italy\\Serie B\\2020/team_standings.json": {
+      "mtime": 1756475314.0878255,
+      "size": 27032,
+      "hash": "a4891d5b421330508b19a9daa215fcbc",
+      "processed": "2025-08-31T20:55:54.434420"
+    },
+    "Italy\\Serie B\\2020/team_statistics.json": {
+      "mtime": 1756475308.8074803,
+      "size": 1356058,
+      "hash": "22f06bd23bf82fc09282b7b6b6fd4497",
+      "processed": "2025-08-31T20:55:54.869518"
+    }
+  },
+  "Italy\\Serie B\\2021": {
+    "Italy\\Serie B\\2021/fixture_events.json": {
+      "mtime": 1756390740.1305265,
+      "size": 619557,
+      "hash": "3d518a566a9704724d5d6c17eca8cd8e",
+      "processed": "2025-08-31T20:55:54.921530"
+    },
+    "Italy\\Serie B\\2021/lineups.json": {
+      "mtime": 1756391200.2934577,
+      "size": 4527194,
+      "hash": "c33ef7fef29a06dba92323afad03a4b5",
+      "processed": "2025-08-31T20:55:55.818734"
+    },
+    "Italy\\Serie B\\2021/player_statistics.json": {
+      "mtime": 1756391199.662314,
+      "size": 33843864,
+      "hash": "cdc0741faeb433e13e3c6272d7f1ee38",
+      "processed": "2025-08-31T20:55:57.836192"
+    },
+    "Italy\\Serie B\\2021/team_standings.json": {
+      "mtime": 1756391200.5995286,
+      "size": 26999,
+      "hash": "a5d7b2b8abb501794522323c56be9f2e",
+      "processed": "2025-08-31T20:55:57.892206"
+    },
+    "Italy\\Serie B\\2021/team_statistics.json": {
+      "mtime": 1756391194.7576578,
+      "size": 1365974,
+      "hash": "ddbb4c7f682081233abac86db620e271",
+      "processed": "2025-08-31T20:55:58.295296"
+    }
+  },
+  "Italy\\Serie B\\2022": {
+    "Italy\\Serie B\\2022/fixture_events.json": {
+      "mtime": 1756389995.0302155,
+      "size": 610703,
+      "hash": "721402ecaafb262519f04e70ed15b5a0",
+      "processed": "2025-08-31T20:55:58.346308"
+    },
+    "Italy\\Serie B\\2022/lineups.json": {
+      "mtime": 1756390539.030946,
+      "size": 4445659,
+      "hash": "bde66903536fbdda59bd8ba121a207bf",
+      "processed": "2025-08-31T20:55:59.243512"
+    },
+    "Italy\\Serie B\\2022/player_statistics.json": {
+      "mtime": 1756390538.3627937,
+      "size": 33215236,
+      "hash": "ccc24585aaecd03cbe5dbf6720166f45",
+      "processed": "2025-08-31T20:56:01.227963"
+    },
+    "Italy\\Serie B\\2022/team_standings.json": {
+      "mtime": 1756390539.4790614,
+      "size": 26985,
+      "hash": "5e774c1196b7ffe2d1847b7fc111f8ae",
+      "processed": "2025-08-31T20:56:01.276974"
+    },
+    "Italy\\Serie B\\2022/team_statistics.json": {
+      "mtime": 1756390533.9211862,
+      "size": 1382093,
+      "hash": "24f2298e364a73476c88d0a9b68b553c",
+      "processed": "2025-08-31T20:56:01.815096"
+    }
+  },
+  "Italy\\Serie B\\2023": {
+    "Italy\\Serie B\\2023/fixture_events.json": {
+      "mtime": 1756388507.7163692,
+      "size": 618260,
+      "hash": "8429c35b9a2e481ba60565675d50e242",
+      "processed": "2025-08-31T20:56:01.872109"
+    },
+    "Italy\\Serie B\\2023/lineups.json": {
+      "mtime": 1756388999.112736,
+      "size": 4515958,
+      "hash": "e4fb483d8f520cee81aaa2d800cf565a",
+      "processed": "2025-08-31T20:56:02.722347"
+    },
+    "Italy\\Serie B\\2023/player_statistics.json": {
+      "mtime": 1756388998.3795698,
+      "size": 33740336,
+      "hash": "c113071ec353449e2270fa36ea2351d7",
+      "processed": "2025-08-31T20:56:04.669788"
+    },
+    "Italy\\Serie B\\2023/team_standings.json": {
+      "mtime": 1756388999.3787982,
+      "size": 26995,
+      "hash": "b866509182c42824ead7f5a2b74711bc",
+      "processed": "2025-08-31T20:56:04.718801"
+    },
+    "Italy\\Serie B\\2023/team_statistics.json": {
+      "mtime": 1756388993.9750998,
+      "size": 1436488,
+      "hash": "6758576b9b043eb48f24594e541723c5",
+      "processed": "2025-08-31T20:56:05.187906"
+    }
+  },
+  "Italy\\Serie B\\2024": {
+    "Italy\\Serie B\\2024/fixture_events.json": {
+      "mtime": 1756387994.5928936,
+      "size": 615457,
+      "hash": "f82f8e6560c702ed58cb53f0e67d237b",
+      "processed": "2025-08-31T20:56:05.233918"
+    },
+    "Italy\\Serie B\\2024/lineups.json": {
+      "mtime": 1756388445.4672544,
+      "size": 4494737,
+      "hash": "d8dc7d9b123a7de46a4621ee3f8fa5f8",
+      "processed": "2025-08-31T20:56:06.065105"
+    },
+    "Italy\\Serie B\\2024/player_statistics.json": {
+      "mtime": 1756388444.83011,
+      "size": 33566454,
+      "hash": "c576ef560664c0e9f930d0ec4352edcd",
+      "processed": "2025-08-31T20:56:07.998784"
+    },
+    "Italy\\Serie B\\2024/team_standings.json": {
+      "mtime": 1756388445.7243142,
+      "size": 27028,
+      "hash": "10f9783b437386d1bddc1d321bd63811",
+      "processed": "2025-08-31T20:56:08.051796"
+    },
+    "Italy\\Serie B\\2024/team_statistics.json": {
+      "mtime": 1756388440.4996884,
+      "size": 1500857,
+      "hash": "738c5474e3d54fc73b1a04d3f2c0a8bb",
+      "processed": "2025-08-31T20:56:08.502899"
+    }
+  },
+  "Italy\\Serie B\\2025": {},
+  "Spain\\Copa del Rey\\2018": {
+    "Spain\\Copa del Rey\\2018/fixture_events.json": {
+      "mtime": 1756662186.030941,
+      "size": 114000,
+      "hash": "426b12161f7f989f7b7950ce9127bede",
+      "processed": "2025-08-31T20:56:08.519903"
+    },
+    "Spain\\Copa del Rey\\2018/team_statistics.json": {
+      "mtime": 1756662203.0079842,
+      "size": 228864,
+      "hash": "9195c254e831a0a1f9c364537c784748",
+      "processed": "2025-08-31T20:56:08.582918"
+    }
+  },
+  "Spain\\Copa del Rey\\2019": {
+    "Spain\\Copa del Rey\\2019/fixture_events.json": {
+      "mtime": 1756661268.6079586,
+      "size": 203511,
+      "hash": "e722dbd7aed1d28899c53d30979cc148",
+      "processed": "2025-08-31T20:56:08.598920"
+    },
+    "Spain\\Copa del Rey\\2019/team_statistics.json": {
+      "mtime": 1756661300.1614246,
+      "size": 235376,
+      "hash": "8817753e8f188f6a7c128cb4748cdcc2",
+      "processed": "2025-08-31T20:56:08.677938"
+    }
+  },
+  "Spain\\Copa del Rey\\2020": {
+    "Spain\\Copa del Rey\\2020/fixture_events.json": {
+      "mtime": 1756660731.532684,
+      "size": 204031,
+      "hash": "ef629b8ce819870ddb0ee85419ee62b7",
+      "processed": "2025-08-31T20:56:08.704944"
+    },
+    "Spain\\Copa del Rey\\2020/team_statistics.json": {
+      "mtime": 1756660762.7056196,
+      "size": 251642,
+      "hash": "7592fdac062052fe18dd2e6c3cfb32b2",
+      "processed": "2025-08-31T20:56:08.803967"
+    }
+  },
+  "Spain\\Copa del Rey\\2021": {
+    "Spain\\Copa del Rey\\2021/fixture_events.json": {
+      "mtime": 1756660575.269221,
+      "size": 203919,
+      "hash": "39b8877fe118efb45440a11c604ff695",
+      "processed": "2025-08-31T20:56:08.835976"
+    },
+    "Spain\\Copa del Rey\\2021/team_statistics.json": {
+      "mtime": 1756660607.6469257,
+      "size": 281345,
+      "hash": "2d7b8bd7b3696890ba808269add11944",
+      "processed": "2025-08-31T20:56:08.939998"
+    }
+  },
+  "Spain\\Copa del Rey\\2022": {
+    "Spain\\Copa del Rey\\2022/fixture_events.json": {
+      "mtime": 1756660436.4847586,
+      "size": 200220,
+      "hash": "3c05edcbc13177849a25170853834f0e",
+      "processed": "2025-08-31T20:56:08.972005"
+    },
+    "Spain\\Copa del Rey\\2022/team_statistics.json": {
+      "mtime": 1756660467.429319,
+      "size": 184961,
+      "hash": "23de9b19554325ff6720c2f27b3403be",
+      "processed": "2025-08-31T20:56:09.062025"
+    }
+  },
+  "Spain\\Copa del Rey\\2023": {
+    "Spain\\Copa del Rey\\2023/fixture_events.json": {
+      "mtime": 1756660331.21526,
+      "size": 202243,
+      "hash": "96fd51ca885a071deaa8e3066905adaa",
+      "processed": "2025-08-31T20:56:09.091032"
+    },
+    "Spain\\Copa del Rey\\2023/team_statistics.json": {
+      "mtime": 1756660360.868506,
+      "size": 223108,
+      "hash": "6738da78876b04d95733b3acdb15b4c8",
+      "processed": "2025-08-31T20:56:09.254069"
+    }
+  },
+  "Spain\\Copa del Rey\\2024": {
+    "Spain\\Copa del Rey\\2024/fixture_events.json": {
+      "mtime": 1756660169.4967363,
+      "size": 202171,
+      "hash": "c1a0eabda4a08903d3397e018cde6609",
+      "processed": "2025-08-31T20:56:09.292078"
+    },
+    "Spain\\Copa del Rey\\2024/team_statistics.json": {
+      "mtime": 1756660198.9353235,
+      "size": 255197,
+      "hash": "87df99e52414e90525f3d919e7bc0b7f",
+      "processed": "2025-08-31T20:56:09.392102"
+    }
+  },
+  "Spain\\La Liga\\2020": {
+    "Spain\\La Liga\\2020/fixture_events.json": {
+      "mtime": 1756219958.2565756,
+      "size": 608112,
+      "hash": "8ee801797a61c432d7d4795a88d0c99a",
+      "processed": "2025-08-31T20:56:09.436110"
+    },
+    "Spain\\La Liga\\2020/lineups.json": {
+      "mtime": 1756220338.857321,
+      "size": 4148570,
+      "hash": "d19648f482a2e9817c904cf2d9fdaca2",
+      "processed": "2025-08-31T20:56:10.166277"
+    },
+    "Spain\\La Liga\\2020/player_statistics.json": {
+      "mtime": 1756220343.2073078,
+      "size": 31725729,
+      "hash": "f36dc6c45e727f664ad2979304406de9",
+      "processed": "2025-08-31T20:56:12.056289"
+    },
+    "Spain\\La Liga\\2020/team_standings.json": {
+      "mtime": 1756220343.477369,
+      "size": 27118,
+      "hash": "edc479e324c66e71dea3f489fb3ae725",
+      "processed": "2025-08-31T20:56:12.101300"
+    },
+    "Spain\\La Liga\\2020/team_statistics.json": {
+      "mtime": 1756220338.0231311,
+      "size": 1331160,
+      "hash": "1581a6313770f7cbd99fe3ac0e347700",
+      "processed": "2025-08-31T20:56:12.549401"
+    }
+  },
+  "Spain\\La Liga\\2021": {
+    "Spain\\La Liga\\2021/fixture_events.json": {
+      "mtime": 1756219438.612108,
+      "size": 608091,
+      "hash": "970babab9238db60f2be48f36bf5f8a6",
+      "processed": "2025-08-31T20:56:12.605414"
+    },
+    "Spain\\La Liga\\2021/lineups.json": {
+      "mtime": 1756219816.1079853,
+      "size": 4330135,
+      "hash": "12e9c4acb78b5e7846a6a94b83716cb5",
+      "processed": "2025-08-31T20:56:13.328578"
+    },
+    "Spain\\La Liga\\2021/player_statistics.json": {
+      "mtime": 1756219820.1858368,
+      "size": 32091794,
+      "hash": "7e9943567adadc552aa86bd5048308c0",
+      "processed": "2025-08-31T20:56:15.296069"
+    },
+    "Spain\\La Liga\\2021/team_standings.json": {
+      "mtime": 1756219820.5109112,
+      "size": 27123,
+      "hash": "f77ebc4aa9ec1d340598ec299dc0ea73",
+      "processed": "2025-08-31T20:56:15.342081"
+    },
+    "Spain\\La Liga\\2021/team_statistics.json": {
+      "mtime": 1756219815.4968467,
+      "size": 1331535,
+      "hash": "9fbe0b06f803b6bc43964bee900b4659",
+      "processed": "2025-08-31T20:56:15.712164"
+    }
+  },
+  "Spain\\La Liga\\2022": {
+    "Spain\\La Liga\\2022/fixture_events.json": {
+      "mtime": 1756218578.8611095,
+      "size": 593303,
+      "hash": "41fc524ea7e54b8b33b426ba17cb5e7d",
+      "processed": "2025-08-31T20:56:15.764176"
+    },
+    "Spain\\La Liga\\2022/lineups.json": {
+      "mtime": 1756218947.198458,
+      "size": 4218457,
+      "hash": "d51c44420145951942a18b2125f28dde",
+      "processed": "2025-08-31T20:56:16.443330"
+    },
+    "Spain\\La Liga\\2022/player_statistics.json": {
+      "mtime": 1756218951.2033002,
+      "size": 31180139,
+      "hash": "330a04eb4146a18b9a9512020b866797",
+      "processed": "2025-08-31T20:56:18.266899"
+    },
+    "Spain\\La Liga\\2022/team_standings.json": {
+      "mtime": 1756218951.4963665,
+      "size": 27181,
+      "hash": "ffebaa30f20d5b5b7f8da623c8134a92",
+      "processed": "2025-08-31T20:56:18.315485"
+    },
+    "Spain\\La Liga\\2022/team_statistics.json": {
+      "mtime": 1756218946.5964794,
+      "size": 1334580,
+      "hash": "8316db6829b1c663383d6ed3bbf5b659",
+      "processed": "2025-08-31T20:56:18.753585"
+    }
+  },
+  "Spain\\La Liga\\2023": {
+    "Spain\\La Liga\\2023/fixture_events.json": {
+      "mtime": 1756140735.9185114,
+      "size": 614562,
+      "hash": "aa7db6786cb9c2bf5a21f8b3639c5ae5",
+      "processed": "2025-08-31T20:56:18.802596"
+    },
+    "Spain\\La Liga\\2023/injuries.json": {
+      "mtime": 1756141868.0727453,
+      "size": 2545048,
+      "hash": "6b779edb853d26cf6b42b03b8fe3410e",
+      "processed": "2025-08-31T20:56:19.147675"
+    },
+    "Spain\\La Liga\\2023/lineups.json": {
+      "mtime": 1756141867.7936811,
+      "size": 4376553,
+      "hash": "03c4d73d58af7750badd107d17862bc2",
+      "processed": "2025-08-31T20:56:19.841833"
+    },
+    "Spain\\La Liga\\2023/player_statistics.json": {
+      "mtime": 1756139080.9995785,
+      "size": 31802848,
+      "hash": "8ef92c11d29fbc4b80c9871665cf1b35",
+      "processed": "2025-08-31T20:56:21.643241"
+    },
+    "Spain\\La Liga\\2023/team_standings.json": {
+      "mtime": 1756139089.3002944,
+      "size": 27141,
+      "hash": "b35b586cd9028d733a3c30dd14fac85d",
+      "processed": "2025-08-31T20:56:21.689329"
+    },
+    "Spain\\La Liga\\2023/team_statistics.json": {
+      "mtime": 1756139075.7506785,
+      "size": 1408483,
+      "hash": "1437b3d725ba1c99bec81eef08964578",
+      "processed": "2025-08-31T20:56:22.181666"
+    }
+  },
+  "Spain\\La Liga\\2024": {
+    "Spain\\La Liga\\2024/fixture_events.json": {
+      "mtime": 1756135584.2897477,
+      "size": 609005,
+      "hash": "d2882e01395559a56a6ddcac7a7dde35",
+      "processed": "2025-08-31T20:56:22.225677"
+    },
+    "Spain\\La Liga\\2024/injuries.json": {
+      "mtime": 1756136118.9302535,
+      "size": 2189117,
+      "hash": "0227fd2b8f5a195dc7ab15217dad17a1",
+      "processed": "2025-08-31T20:56:22.570753"
+    },
+    "Spain\\La Liga\\2024/lineups.json": {
+      "mtime": 1756136118.6861973,
+      "size": 4398285,
+      "hash": "215b6834b4b4aa094ea5e513af6d0d4b",
+      "processed": "2025-08-31T20:56:23.273914"
+    },
+    "Spain\\La Liga\\2024/player_statistics.json": {
+      "mtime": 1756136118.059055,
+      "size": 32399512,
+      "hash": "b6b61e27ec72727bf4050e11bfcf9456",
+      "processed": "2025-08-31T20:56:25.108748"
+    },
+    "Spain\\La Liga\\2024/team_standings.json": {
+      "mtime": 1756136119.238323,
+      "size": 26651,
+      "hash": "dc501686d4d650d8d514b37674a6e079",
+      "processed": "2025-08-31T20:56:25.156759"
+    },
+    "Spain\\La Liga\\2024/team_statistics.json": {
+      "mtime": 1756136113.2709696,
+      "size": 1473688,
+      "hash": "fc760bdc0f673898f7177171da94a1f1",
+      "processed": "2025-08-31T20:56:25.605862"
+    }
+  },
+  "Spain\\La Liga\\2025": {
+    "Spain\\La Liga\\2025/fixture_events.json": {
+      "mtime": 1756480656.169719,
+      "size": 44955,
+      "hash": "1d77ff5b170c110725d47e6567ee4a41",
+      "processed": "2025-08-31T20:56:25.629867"
+    },
+    "Spain\\La Liga\\2025/injuries.json": {
+      "mtime": 1756308419.2458286,
+      "size": 99242,
+      "hash": "cbca3cd63ef41dea964a73e98acfff2d",
+      "processed": "2025-08-31T20:56:25.663875"
+    },
+    "Spain\\La Liga\\2025/lineups.json": {
+      "mtime": 1756308415.4984539,
+      "size": 232266,
+      "hash": "6fdea9014f41c3288043c89ebf7e39c0",
+      "processed": "2025-08-31T20:56:25.712885"
+    },
+    "Spain\\La Liga\\2025/odds.json": {
+      "mtime": 1756478985.4352584,
+      "size": 4950251,
+      "hash": "95a9d1b8cb6ecb44006cc5db3626717a",
+      "processed": "2025-08-31T20:56:25.803906"
+    },
+    "Spain\\La Liga\\2025/player_statistics.json": {
+      "mtime": 1756308408.324073,
+      "size": 1705875,
+      "hash": "c91a74ec356cd12195c542bb417542a4",
+      "processed": "2025-08-31T20:56:25.911931"
+    },
+    "Spain\\La Liga\\2025/team_statistics.json": {
+      "mtime": 1756308404.2659416,
+      "size": 77539,
+      "hash": "e291010b9809d7b05a8e45a32ac7ecb3",
+      "processed": "2025-08-31T20:56:25.948939"
+    }
+  },
+  "Spain\\Segunda Division\\2018": {
+    "Spain\\Segunda Division\\2018/fixture_events.json": {
+      "mtime": 1756659093.2765062,
+      "size": 754204,
+      "hash": "bb6f8885f455444541643200360eefe7",
+      "processed": "2025-08-31T20:56:25.995950"
+    },
+    "Spain\\Segunda Division\\2018/team_statistics.json": {
+      "mtime": 1756659211.5464237,
+      "size": 1558565,
+      "hash": "45ab58f5e1b5594079ad3bcf141d4379",
+      "processed": "2025-08-31T20:56:26.491130"
+    }
+  },
+  "Spain\\Segunda Division\\2019": {
+    "Spain\\Segunda Division\\2019/fixture_events.json": {
+      "mtime": 1756658615.426174,
+      "size": 643478,
+      "hash": "6abab21f15660969c29fc3cd498ec102",
+      "processed": "2025-08-31T20:56:26.535140"
+    },
+    "Spain\\Segunda Division\\2019/team_statistics.json": {
+      "mtime": 1756658714.9138074,
+      "size": 1394600,
+      "hash": "462b3aa6b61fd69f84091cea2f96be40",
+      "processed": "2025-08-31T20:56:26.973240"
+    }
+  },
+  "Spain\\Segunda Division\\2020": {
+    "Spain\\Segunda Division\\2020/fixture_events.json": {
+      "mtime": 1756541000.0561664,
+      "size": 757739,
+      "hash": "a8ca3e76c9207f158bad8f41a1ef0b74",
+      "processed": "2025-08-31T20:56:27.021927"
+    },
+    "Spain\\Segunda Division\\2020/team_statistics.json": {
+      "mtime": 1756541123.175891,
+      "size": 1640317,
+      "hash": "fcb991679d4dc06566b4aa443db8be1b",
+      "processed": "2025-08-31T20:56:27.507037"
+    }
+  },
+  "Spain\\Segunda Division\\2021": {
+    "Spain\\Segunda Division\\2021/fixture_events.json": {
+      "mtime": 1756312532.3194973,
+      "size": 757810,
+      "hash": "88b746082c92895e02c9b30436dea54f",
+      "processed": "2025-08-31T20:56:27.555049"
+    },
+    "Spain\\Segunda Division\\2021/lineups.json": {
+      "mtime": 1756313125.0067062,
+      "size": 5327117,
+      "hash": "2a5e05dd2b865a141b58bb67073b28ce",
+      "processed": "2025-08-31T20:56:28.523268"
+    },
+    "Spain\\Segunda Division\\2021/player_statistics.json": {
+      "mtime": 1756313124.1295033,
+      "size": 39074420,
+      "hash": "979426885d761151c1fdf2dfa91d1e53",
+      "processed": "2025-08-31T20:56:30.737192"
+    },
+    "Spain\\Segunda Division\\2021/team_standings.json": {
+      "mtime": 1756313125.3817878,
+      "size": 29940,
+      "hash": "012c2711743723b30addb9cf0ab68b5e",
+      "processed": "2025-08-31T20:56:30.791700"
+    },
+    "Spain\\Segunda Division\\2021/team_statistics.json": {
+      "mtime": 1756313118.885313,
+      "size": 1639955,
+      "hash": "3b5efe3887117ac701345deb6aa07552",
+      "processed": "2025-08-31T20:56:31.236316"
+    }
+  },
+  "Spain\\Segunda Division\\2022": {
+    "Spain\\Segunda Division\\2022/fixture_events.json": {
+      "mtime": 1756311822.921618,
+      "size": 757781,
+      "hash": "e567bbf53038082629917007123ac74e",
+      "processed": "2025-08-31T20:56:31.286328"
+    },
+    "Spain\\Segunda Division\\2022/lineups.json": {
+      "mtime": 1756312489.4859295,
+      "size": 5334825,
+      "hash": "117b5519c90f99fa7c157c3eceb3df94",
+      "processed": "2025-08-31T20:56:32.282554"
+    },
+    "Spain\\Segunda Division\\2022/player_statistics.json": {
+      "mtime": 1756312488.700752,
+      "size": 39143186,
+      "hash": "4bd52d5b825b0094f4c9b780261f81a7",
+      "processed": "2025-08-31T20:56:34.655240"
+    },
+    "Spain\\Segunda Division\\2022/team_standings.json": {
+      "mtime": 1756312489.8345828,
+      "size": 29939,
+      "hash": "04cdd1cb9848193bcc64d1f1247f1e67",
+      "processed": "2025-08-31T20:56:34.710252"
+    },
+    "Spain\\Segunda Division\\2022/team_statistics.json": {
+      "mtime": 1756312483.7726068,
+      "size": 1679598,
+      "hash": "07baf180c81fd9b6971d7e9c38f07f8f",
+      "processed": "2025-08-31T20:56:35.212366"
+    }
+  },
+  "Spain\\Segunda Division\\2023": {
+    "Spain\\Segunda Division\\2023/fixture_events.json": {
+      "mtime": 1756300803.4087887,
+      "size": 758513,
+      "hash": "939af237b9afedc07b31a88c608ee61d",
+      "processed": "2025-08-31T20:56:35.264378"
+    },
+    "Spain\\Segunda Division\\2023/lineups.json": {
+      "mtime": 1756301323.8179858,
+      "size": 5327184,
+      "hash": "f47dce0e953d3ff8b0e7c939d2b4913c",
+      "processed": "2025-08-31T20:56:36.358628"
+    },
+    "Spain\\Segunda Division\\2023/player_statistics.json": {
+      "mtime": 1756301323.04381,
+      "size": 39020655,
+      "hash": "55999a68c39a127a9c09652baae29812",
+      "processed": "2025-08-31T20:56:38.801183"
+    },
+    "Spain\\Segunda Division\\2023/team_standings.json": {
+      "mtime": 1756301324.1343203,
+      "size": 30042,
+      "hash": "8976e01b05cd3b85b88e972a7fead82e",
+      "processed": "2025-08-31T20:56:38.854655"
+    },
+    "Spain\\Segunda Division\\2023/team_statistics.json": {
+      "mtime": 1756301317.881639,
+      "size": 1731809,
+      "hash": "8802e590061609c0a8fc22738b0459b2",
+      "processed": "2025-08-31T20:56:39.374775"
+    }
+  },
+  "Spain\\Segunda Division\\2024": {
+    "Spain\\Segunda Division\\2024/fixture_events.json": {
+      "mtime": 1756221872.0735104,
+      "size": 756727,
+      "hash": "39266f7918bc32f2a6ea41aa7dc7cffa",
+      "processed": "2025-08-31T20:56:39.431787"
+    },
+    "Spain\\Segunda Division\\2024/lineups.json": {
+      "mtime": 1756222386.9572322,
+      "size": 5216863,
+      "hash": "cd95f7b621a917b8a639298e45d670f2",
+      "processed": "2025-08-31T20:56:40.334991"
+    },
+    "Spain\\Segunda Division\\2024/player_statistics.json": {
+      "mtime": 1756222392.5284975,
+      "size": 38229235,
+      "hash": "a2b35c4b0676bdc09cd0b9dd1425b3dc",
+      "processed": "2025-08-31T20:56:42.846562"
+    },
+    "Spain\\Segunda Division\\2024/team_standings.json": {
+      "mtime": 1756222392.8785765,
+      "size": 29269,
+      "hash": "c6d811942a129a48b0ea04860f90eb03",
+      "processed": "2025-08-31T20:56:42.902574"
+    },
+    "Spain\\Segunda Division\\2024/team_statistics.json": {
+      "mtime": 1756222386.15905,
+      "size": 1761499,
+      "hash": "2293d20c07c76c7c1104cacd0b50c1d3",
+      "processed": "2025-08-31T20:56:43.430695"
+    }
+  },
+  "Spain\\Segunda Division\\2025": {
+    "Spain\\Segunda Division\\2025/fixture_events.json": {
+      "mtime": 1755833271.5722833,
+      "size": 17926,
+      "hash": "d93e13f845a27d8417dbef5028f2359f",
+      "processed": "2025-08-31T20:56:43.454701"
+    },
+    "Spain\\Segunda Division\\2025/injuries.json": {
+      "mtime": 1755833286.6474705,
+      "size": 7755,
+      "hash": "cc882dda4b0e4fa87dba439ff4f7e2be",
+      "processed": "2025-08-31T20:56:43.478707"
+    },
+    "Spain\\Segunda Division\\2025/lineups.json": {
+      "mtime": 1755833286.6454704,
+      "size": 127745,
+      "hash": "0b78e5c4a142194a6e9f3e1b3799a971",
+      "processed": "2025-08-31T20:56:43.516714"
+    },
+    "Spain\\Segunda Division\\2025/odds.json": {
+      "mtime": 1755833286.844516,
+      "size": 1757576,
+      "hash": "5611ef6701b9d415b36cce23bcfec1ce",
+      "processed": "2025-08-31T20:56:43.557726"
+    },
+    "Spain\\Segunda Division\\2025/player_statistics.json": {
+      "mtime": 1755833286.6214645,
+      "size": 934433,
+      "hash": "af16c8ec0ba50dfd476f8e7b4a77c01f",
+      "processed": "2025-08-31T20:56:43.621739"
+    },
+    "Spain\\Segunda Division\\2025/team_standings.json": {
+      "mtime": 1755833287.0555634,
+      "size": 28907,
+      "hash": "21d807802132c6d65e33340b319fdd2e",
+      "processed": "2025-08-31T20:56:43.643743"
+    },
+    "Spain\\Segunda Division\\2025/team_statistics.json": {
+      "mtime": 1755833286.4994378,
+      "size": 42688,
+      "hash": "fb2db1e6ca09f17c35b7ddd1d79c4467",
+      "processed": "2025-08-31T20:56:43.672750"
+    }
+  },
+  "England\\Championship\\2017": {
+    "England\\Championship\\2017/fixture_events.json": {
+      "mtime": 1756664705.6977882,
+      "size": 890574,
+      "hash": "703ba9499006dbe108a777f1597b1ee9",
+      "processed": "2025-08-31T21:29:04.814231"
+    },
+    "England\\Championship\\2017/team_statistics.json": {
+      "mtime": 1756664838.660019,
+      "size": 1930492,
+      "hash": "4ea3c4c943c2af14f7df34ff55b2a4f2",
+      "processed": "2025-08-31T21:29:05.417369"
+    }
+  },
+  "Germany\\2. Bundesliga\\2017": {},
+  "Italy\\Serie B\\2017": {
+    "Italy\\Serie B\\2017/fixture_events.json": {
+      "mtime": 1756664839.4226353,
+      "size": 739078,
+      "hash": "ec546b23f847d7c3f9f7b47373ae174b",
+      "processed": "2025-08-31T21:29:12.248775"
+    },
+    "Italy\\Serie B\\2017/team_statistics.json": {
+      "mtime": 1756664906.6444094,
+      "size": 945755,
+      "hash": "2ba83b27797b2d1c90b2cb20575717f7",
+      "processed": "2025-08-31T21:29:12.538841"
+    }
+  },
+  "Spain\\Segunda Division\\2017": {
+    "Spain\\Segunda Division\\2017/fixture_events.json": {
+      "mtime": 1756664586.2113104,
+      "size": 757432,
+      "hash": "fe3f1bdde7daf50a2af34b463416e13e",
+      "processed": "2025-08-31T21:29:15.174558"
+    },
+    "Spain\\Segunda Division\\2017/team_statistics.json": {
+      "mtime": 1756664704.696603,
+      "size": 1617318,
+      "hash": "a5f7b7a2f04b201b386ae9f3a0d2ff45",
+      "processed": "2025-08-31T21:29:15.659668"
+    }
+  }
+}

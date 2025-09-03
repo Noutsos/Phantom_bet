@@ -1,0 +1,1293 @@
+{
+  "get": "standings",
+  "parameters": {
+    "league": "197",
+    "season": "2021"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "league": {
+        "id": 197,
+        "name": "Super League 1",
+        "country": "Greece",
+        "logo": "https://media.api-sports.io/football/leagues/197.png",
+        "flag": "https://media.api-sports.io/flags/gr.svg",
+        "season": 2021,
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 7513,
+                "name": "Ionikos",
+                "logo": "https://media.api-sports.io/football/teams/7513.png"
+              },
+              "points": 45,
+              "goalsDiff": 2,
+              "group": "Super League 1: Relegation Round",
+              "form": "WWWWW",
+              "status": "up",
+              "description": null,
+              "all": {
+                "played": 33,
+                "win": 12,
+                "draw": 9,
+                "lose": 12,
+                "goals": {
+                  "for": 44,
+                  "against": 42
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 10,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 4,
+                "win": 4,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 8,
+                  "against": 4
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 1124,
+                "name": "OFI",
+                "logo": "https://media.api-sports.io/football/teams/1124.png"
+              },
+              "points": 44,
+              "goalsDiff": -5,
+              "group": "Super League 1: Relegation Round",
+              "form": "LWLDL",
+              "status": "down",
+              "description": null,
+              "all": {
+                "played": 33,
+                "win": 11,
+                "draw": 11,
+                "lose": 11,
+                "goals": {
+                  "for": 40,
+                  "against": 45
+                }
+              },
+              "home": {
+                "played": 4,
+                "win": 1,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 4,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 3,
+                  "against": 7
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 955,
+                "name": "Asteras Tripolis",
+                "logo": "https://media.api-sports.io/football/teams/955.png"
+              },
+              "points": 41,
+              "goalsDiff": -4,
+              "group": "Super League 1: Relegation Round",
+              "form": "DLLDL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 33,
+                "win": 11,
+                "draw": 8,
+                "lose": 14,
+                "goals": {
+                  "for": 33,
+                  "against": 37
+                }
+              },
+              "home": {
+                "played": 4,
+                "win": 0,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 4,
+                  "against": 7
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 1
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 2110,
+                "name": "Volos NFC",
+                "logo": "https://media.api-sports.io/football/teams/2110.png"
+              },
+              "points": 40,
+              "goalsDiff": -1,
+              "group": "Super League 1: Relegation Round",
+              "form": "WDDDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 33,
+                "win": 10,
+                "draw": 10,
+                "lose": 13,
+                "goals": {
+                  "for": 47,
+                  "against": 48
+                }
+              },
+              "home": {
+                "played": 4,
+                "win": 2,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 9,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 3,
+                "lose": 0,
+                "goals": {
+                  "for": 3,
+                  "against": 3
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 5,
+              "team": {
+                "id": 949,
+                "name": "Panetolikos",
+                "logo": "https://media.api-sports.io/football/teams/949.png"
+              },
+              "points": 37,
+              "goalsDiff": -16,
+              "group": "Super League 1: Relegation Round",
+              "form": "LDWDL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 33,
+                "win": 10,
+                "draw": 7,
+                "lose": 16,
+                "goals": {
+                  "for": 32,
+                  "against": 48
+                }
+              },
+              "home": {
+                "played": 4,
+                "win": 0,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 4
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 6,
+              "team": {
+                "id": 12260,
+                "name": "Atromitos",
+                "logo": "https://media.api-sports.io/football/teams/12260.png"
+              },
+              "points": 33,
+              "goalsDiff": -19,
+              "group": "Super League 1: Relegation Round",
+              "form": "DLDDW",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 33,
+                "win": 8,
+                "draw": 9,
+                "lose": 16,
+                "goals": {
+                  "for": 33,
+                  "against": 52
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 4,
+                "win": 1,
+                "draw": 3,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 3
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 7,
+              "team": {
+                "id": 956,
+                "name": "Lamia",
+                "logo": "https://media.api-sports.io/football/teams/956.png"
+              },
+              "points": 26,
+              "goalsDiff": -20,
+              "group": "Super League 1: Relegation Round",
+              "form": "DDWLL",
+              "status": "same",
+              "description": "Relegation Play-off",
+              "all": {
+                "played": 33,
+                "win": 6,
+                "draw": 8,
+                "lose": 19,
+                "goals": {
+                  "for": 24,
+                  "against": 44
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 1,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 4,
+                "win": 2,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 4
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 8,
+              "team": {
+                "id": 951,
+                "name": "Apollon Smirnis",
+                "logo": "https://media.api-sports.io/football/teams/951.png"
+              },
+              "points": 22,
+              "goalsDiff": -41,
+              "group": "Super League 1: Relegation Round",
+              "form": "DDLDW",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 33,
+                "win": 4,
+                "draw": 10,
+                "lose": 19,
+                "goals": {
+                  "for": 16,
+                  "against": 57
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 2,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 4,
+                "win": 1,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 5,
+                  "against": 9
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 553,
+                "name": "Olympiakos Piraeus",
+                "logo": "https://media.api-sports.io/football/teams/553.png"
+              },
+              "points": 83,
+              "goalsDiff": 36,
+              "group": "Super League 1: Championship Round",
+              "form": "WDLWW",
+              "status": "same",
+              "description": "Promotion - Champions League (Qualification)",
+              "all": {
+                "played": 36,
+                "win": 25,
+                "draw": 8,
+                "lose": 3,
+                "goals": {
+                  "for": 62,
+                  "against": 26
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 2,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 8,
+                  "against": 7
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 3,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 7,
+                  "against": 5
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 619,
+                "name": "PAOK",
+                "logo": "https://media.api-sports.io/football/teams/619.png"
+              },
+              "points": 64,
+              "goalsDiff": 25,
+              "group": "Super League 1: Championship Round",
+              "form": "WDLLL",
+              "status": "same",
+              "description": "Promotion - Europa Conference League (Qualification)",
+              "all": {
+                "played": 36,
+                "win": 19,
+                "draw": 7,
+                "lose": 10,
+                "goals": {
+                  "for": 58,
+                  "against": 33
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 2,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 5,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 1,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 3,
+                  "against": 5
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 1123,
+                "name": "Aris Thessalonikis",
+                "logo": "https://media.api-sports.io/football/teams/1123.png"
+              },
+              "points": 62,
+              "goalsDiff": 11,
+              "group": "Super League 1: Championship Round",
+              "form": "WWWLL",
+              "status": "up",
+              "description": "Promotion - Europa Conference League (Qualification)",
+              "all": {
+                "played": 36,
+                "win": 18,
+                "draw": 8,
+                "lose": 10,
+                "goals": {
+                  "for": 39,
+                  "against": 28
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 2,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 3,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 7,
+                  "against": 4
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 617,
+                "name": "Panathinaikos",
+                "logo": "https://media.api-sports.io/football/teams/617.png"
+              },
+              "points": 61,
+              "goalsDiff": 26,
+              "group": "Super League 1: Championship Round",
+              "form": "LWWDW",
+              "status": "down",
+              "description": null,
+              "all": {
+                "played": 36,
+                "win": 18,
+                "draw": 7,
+                "lose": 11,
+                "goals": {
+                  "for": 52,
+                  "against": 26
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 4,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 9,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 1,
+                "draw": 3,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 3
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 5,
+              "team": {
+                "id": 575,
+                "name": "AEK Athens FC",
+                "logo": "https://media.api-sports.io/football/teams/575.png"
+              },
+              "points": 56,
+              "goalsDiff": 14,
+              "group": "Super League 1: Championship Round",
+              "form": "LLWDD",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 36,
+                "win": 16,
+                "draw": 8,
+                "lose": 12,
+                "goals": {
+                  "for": 56,
+                  "against": 42
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 1,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 6,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 1,
+                "draw": 3,
+                "lose": 1,
+                "goals": {
+                  "for": 8,
+                  "against": 8
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 6,
+              "team": {
+                "id": 950,
+                "name": "PAS Giannina",
+                "logo": "https://media.api-sports.io/football/teams/950.png"
+              },
+              "points": 46,
+              "goalsDiff": -8,
+              "group": "Super League 1: Championship Round",
+              "form": "LLLWL",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 36,
+                "win": 12,
+                "draw": 10,
+                "lose": 14,
+                "goals": {
+                  "for": 34,
+                  "against": 42
+                }
+              },
+              "home": {
+                "played": 5,
+                "win": 1,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 4,
+                  "against": 7
+                }
+              },
+              "away": {
+                "played": 5,
+                "win": 0,
+                "draw": 1,
+                "lose": 4,
+                "goals": {
+                  "for": 2,
+                  "against": 11
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 553,
+                "name": "Olympiakos Piraeus",
+                "logo": "https://media.api-sports.io/football/teams/553.png"
+              },
+              "points": 65,
+              "goalsDiff": 33,
+              "group": "Super League 1: Regular Season",
+              "form": "LWWWW",
+              "status": "same",
+              "description": "Championship Round",
+              "all": {
+                "played": 26,
+                "win": 20,
+                "draw": 5,
+                "lose": 1,
+                "goals": {
+                  "for": 47,
+                  "against": 14
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 11,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 24,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 9,
+                "draw": 3,
+                "lose": 1,
+                "goals": {
+                  "for": 23,
+                  "against": 9
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 619,
+                "name": "PAOK",
+                "logo": "https://media.api-sports.io/football/teams/619.png"
+              },
+              "points": 53,
+              "goalsDiff": 26,
+              "group": "Super League 1: Regular Season",
+              "form": "WDDDW",
+              "status": "same",
+              "description": "Championship Round",
+              "all": {
+                "played": 26,
+                "win": 16,
+                "draw": 5,
+                "lose": 5,
+                "goals": {
+                  "for": 50,
+                  "against": 24
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 8,
+                "draw": 3,
+                "lose": 2,
+                "goals": {
+                  "for": 25,
+                  "against": 13
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 8,
+                "draw": 2,
+                "lose": 3,
+                "goals": {
+                  "for": 25,
+                  "against": 11
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 575,
+                "name": "AEK Athens FC",
+                "logo": "https://media.api-sports.io/football/teams/575.png"
+              },
+              "points": 46,
+              "goalsDiff": 14,
+              "group": "Super League 1: Regular Season",
+              "form": "WDLWL",
+              "status": "up",
+              "description": "Championship Round",
+              "all": {
+                "played": 26,
+                "win": 14,
+                "draw": 4,
+                "lose": 8,
+                "goals": {
+                  "for": 42,
+                  "against": 28
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 8,
+                "draw": 1,
+                "lose": 4,
+                "goals": {
+                  "for": 23,
+                  "against": 12
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 6,
+                "draw": 3,
+                "lose": 4,
+                "goals": {
+                  "for": 19,
+                  "against": 16
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 1123,
+                "name": "Aris Thessalonikis",
+                "logo": "https://media.api-sports.io/football/teams/1123.png"
+              },
+              "points": 45,
+              "goalsDiff": 7,
+              "group": "Super League 1: Regular Season",
+              "form": "WWWDL",
+              "status": "same",
+              "description": "Championship Round",
+              "all": {
+                "played": 26,
+                "win": 13,
+                "draw": 6,
+                "lose": 7,
+                "goals": {
+                  "for": 28,
+                  "against": 21
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 7,
+                "draw": 4,
+                "lose": 2,
+                "goals": {
+                  "for": 15,
+                  "against": 10
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 6,
+                "draw": 2,
+                "lose": 5,
+                "goals": {
+                  "for": 13,
+                  "against": 11
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 5,
+              "team": {
+                "id": 617,
+                "name": "Panathinaikos",
+                "logo": "https://media.api-sports.io/football/teams/617.png"
+              },
+              "points": 42,
+              "goalsDiff": 20,
+              "group": "Super League 1: Regular Season",
+              "form": "WWLWW",
+              "status": "down",
+              "description": "Championship Round",
+              "all": {
+                "played": 26,
+                "win": 13,
+                "draw": 3,
+                "lose": 10,
+                "goals": {
+                  "for": 41,
+                  "against": 21
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 9,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 27,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 4,
+                "draw": 1,
+                "lose": 8,
+                "goals": {
+                  "for": 14,
+                  "against": 15
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 6,
+              "team": {
+                "id": 950,
+                "name": "PAS Giannina",
+                "logo": "https://media.api-sports.io/football/teams/950.png"
+              },
+              "points": 40,
+              "goalsDiff": 4,
+              "group": "Super League 1: Regular Season",
+              "form": "DWLWW",
+              "status": "same",
+              "description": "Championship Round",
+              "all": {
+                "played": 26,
+                "win": 11,
+                "draw": 7,
+                "lose": 8,
+                "goals": {
+                  "for": 28,
+                  "against": 24
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 7,
+                "draw": 3,
+                "lose": 3,
+                "goals": {
+                  "for": 18,
+                  "against": 13
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 4,
+                "draw": 4,
+                "lose": 5,
+                "goals": {
+                  "for": 10,
+                  "against": 11
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 7,
+              "team": {
+                "id": 1124,
+                "name": "OFI",
+                "logo": "https://media.api-sports.io/football/teams/1124.png"
+              },
+              "points": 37,
+              "goalsDiff": 1,
+              "group": "Super League 1: Regular Season",
+              "form": "WLDDW",
+              "status": "down",
+              "description": "Relegation Round",
+              "all": {
+                "played": 26,
+                "win": 9,
+                "draw": 10,
+                "lose": 7,
+                "goals": {
+                  "for": 33,
+                  "against": 32
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 5,
+                "draw": 5,
+                "lose": 3,
+                "goals": {
+                  "for": 20,
+                  "against": 19
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 4,
+                "draw": 5,
+                "lose": 4,
+                "goals": {
+                  "for": 13,
+                  "against": 13
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 8,
+              "team": {
+                "id": 955,
+                "name": "Asteras Tripolis",
+                "logo": "https://media.api-sports.io/football/teams/955.png"
+              },
+              "points": 35,
+              "goalsDiff": -2,
+              "group": "Super League 1: Regular Season",
+              "form": "LLLWL",
+              "status": "down",
+              "description": "Relegation Round",
+              "all": {
+                "played": 26,
+                "win": 10,
+                "draw": 5,
+                "lose": 11,
+                "goals": {
+                  "for": 27,
+                  "against": 29
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 7,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 16,
+                  "against": 12
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 3,
+                "draw": 4,
+                "lose": 6,
+                "goals": {
+                  "for": 11,
+                  "against": 17
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
+              "team": {
+                "id": 949,
+                "name": "Panetolikos",
+                "logo": "https://media.api-sports.io/football/teams/949.png"
+              },
+              "points": 32,
+              "goalsDiff": -12,
+              "group": "Super League 1: Regular Season",
+              "form": "WDWWD",
+              "status": "down",
+              "description": "Relegation Round",
+              "all": {
+                "played": 26,
+                "win": 9,
+                "draw": 5,
+                "lose": 12,
+                "goals": {
+                  "for": 27,
+                  "against": 39
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 4,
+                "draw": 3,
+                "lose": 6,
+                "goals": {
+                  "for": 11,
+                  "against": 15
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 5,
+                "draw": 2,
+                "lose": 6,
+                "goals": {
+                  "for": 16,
+                  "against": 24
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 10,
+              "team": {
+                "id": 2110,
+                "name": "Volos NFC",
+                "logo": "https://media.api-sports.io/football/teams/2110.png"
+              },
+              "points": 30,
+              "goalsDiff": -7,
+              "group": "Super League 1: Regular Season",
+              "form": "DLDLL",
+              "status": "down",
+              "description": "Relegation Round",
+              "all": {
+                "played": 26,
+                "win": 8,
+                "draw": 6,
+                "lose": 12,
+                "goals": {
+                  "for": 35,
+                  "against": 42
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 5,
+                "draw": 2,
+                "lose": 6,
+                "goals": {
+                  "for": 15,
+                  "against": 18
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 3,
+                "draw": 4,
+                "lose": 6,
+                "goals": {
+                  "for": 20,
+                  "against": 24
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 11,
+              "team": {
+                "id": 7513,
+                "name": "Ionikos",
+                "logo": "https://media.api-sports.io/football/teams/7513.png"
+              },
+              "points": 26,
+              "goalsDiff": -8,
+              "group": "Super League 1: Regular Season",
+              "form": "LDWDW",
+              "status": "down",
+              "description": "Relegation Round",
+              "all": {
+                "played": 26,
+                "win": 6,
+                "draw": 8,
+                "lose": 12,
+                "goals": {
+                  "for": 26,
+                  "against": 34
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 4,
+                "draw": 4,
+                "lose": 5,
+                "goals": {
+                  "for": 14,
+                  "against": 14
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 2,
+                "draw": 4,
+                "lose": 7,
+                "goals": {
+                  "for": 12,
+                  "against": 20
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 12260,
+                "name": "Atromitos",
+                "logo": "https://media.api-sports.io/football/teams/12260.png"
+              },
+              "points": 23,
+              "goalsDiff": -20,
+              "group": "Super League 1: Regular Season",
+              "form": "LWWLW",
+              "status": "down",
+              "description": "Relegation Round",
+              "all": {
+                "played": 26,
+                "win": 6,
+                "draw": 5,
+                "lose": 15,
+                "goals": {
+                  "for": 27,
+                  "against": 47
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 5,
+                "draw": 2,
+                "lose": 6,
+                "goals": {
+                  "for": 18,
+                  "against": 20
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 1,
+                "draw": 3,
+                "lose": 9,
+                "goals": {
+                  "for": 9,
+                  "against": 27
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 13,
+              "team": {
+                "id": 956,
+                "name": "Lamia",
+                "logo": "https://media.api-sports.io/football/teams/956.png"
+              },
+              "points": 18,
+              "goalsDiff": -18,
+              "group": "Super League 1: Regular Season",
+              "form": "LLLLL",
+              "status": "down",
+              "description": "Relegation Round",
+              "all": {
+                "played": 26,
+                "win": 4,
+                "draw": 6,
+                "lose": 16,
+                "goals": {
+                  "for": 19,
+                  "against": 37
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 2,
+                "draw": 3,
+                "lose": 8,
+                "goals": {
+                  "for": 13,
+                  "against": 23
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 2,
+                "draw": 3,
+                "lose": 8,
+                "goals": {
+                  "for": 6,
+                  "against": 14
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            },
+            {
+              "rank": 14,
+              "team": {
+                "id": 951,
+                "name": "Apollon Smirnis",
+                "logo": "https://media.api-sports.io/football/teams/951.png"
+              },
+              "points": 13,
+              "goalsDiff": -38,
+              "group": "Super League 1: Regular Season",
+              "form": "LLLWL",
+              "status": "down",
+              "description": "Relegation Round",
+              "all": {
+                "played": 26,
+                "win": 2,
+                "draw": 7,
+                "lose": 17,
+                "goals": {
+                  "for": 9,
+                  "against": 47
+                }
+              },
+              "home": {
+                "played": 13,
+                "win": 1,
+                "draw": 6,
+                "lose": 6,
+                "goals": {
+                  "for": 4,
+                  "against": 16
+                }
+              },
+              "away": {
+                "played": 13,
+                "win": 1,
+                "draw": 1,
+                "lose": 11,
+                "goals": {
+                  "for": 5,
+                  "against": 31
+                }
+              },
+              "update": "2022-06-18T00:00:00+00:00"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

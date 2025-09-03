@@ -1,0 +1,2 @@
+model_type,feature_selection_method,draw_model_type,win_model_type,draw_threshold,holdout_accuracy,holdout_precision_macro,holdout_recall_macro,holdout_f1_macro,train_samples,holdout_samples,holdout_ratio,draw_recall,draw_precision
+random_forest_hierarchical,importance,logistic_regression,xgboost,0.2,0.29428647710586037,0.7041313348717755,0.37192636300242626,0.21578175174373712,22473,14982,0.4,0.9895273899033298,0.2594704971130827

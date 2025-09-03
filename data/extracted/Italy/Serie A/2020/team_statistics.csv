@@ -1,0 +1,761 @@
+﻿fixture_id,team_id,team_name,team_logo,Shots on Goal,Shots off Goal,Total Shots,Blocked Shots,Shots insidebox,Shots outsidebox,Fouls,Corner Kicks,Offsides,Ball Possession,Yellow Cards,Red Cards,Goalkeeper Saves,Total passes,Passes accurate,Passes %
+608481,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,5,5,15,5,8,7,17,4,6,49%,3,,3,423,361,85%
+608481,503,Torino,https://media.api-sports.io/football/teams/503.png,3,1,6,2,2,4,20,1,1,51%,1,,5,445,369,83%
+608489,504,Verona,https://media.api-sports.io/football/teams/504.png,3,3,8,2,6,2,19,0,3,39%,2,,4,351,237,68%
+608489,497,AS Roma,https://media.api-sports.io/football/teams/497.png,4,10,21,7,9,12,20,6,2,61%,0,,3,520,400,77%
+608486,523,Parma,https://media.api-sports.io/football/teams/523.png,2,2,6,2,1,5,16,4,2,39%,4,,4,404,344,85%
+608486,492,Napoli,https://media.api-sports.io/football/teams/492.png,6,6,17,5,8,9,12,2,1,61%,1,,2,645,574,89%
+608482,495,Genoa,https://media.api-sports.io/football/teams/495.png,6,3,14,5,10,4,13,6,7,48%,4,,2,473,408,86%
+608482,501,Crotone,https://media.api-sports.io/football/teams/501.png,3,9,13,1,6,7,14,4,0,52%,2,,2,502,430,86%
+608487,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,9,13,33,11,14,19,9,7,2,67%,1,,3,659,602,91%
+608487,490,Cagliari,https://media.api-sports.io/football/teams/490.png,4,4,8,0,5,3,18,3,2,33%,3,,8,313,257,82%
+608483,496,Juventus,https://media.api-sports.io/football/teams/496.png,8,6,20,6,13,7,15,6,3,66%,1,,2,728,657,90%
+608483,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,1,10,15,4,8,7,9,4,2,34%,1,,5,355,274,77%
+608485,489,AC Milan,https://media.api-sports.io/football/teams/489.png,5,7,17,5,11,6,13,7,5,58%,3,0,4,507,438,86%
+608485,500,Bologna,https://media.api-sports.io/football/teams/500.png,4,1,13,8,9,4,20,4,1,42%,5,1,3,366,309,84%
+608498,503,Torino,https://media.api-sports.io/football/teams/503.png,4,1,7,2,4,3,11,2,2,44%,1,,3,443,350,79%
+608498,499,Atalanta,https://media.api-sports.io/football/teams/499.png,7,7,18,4,12,6,12,6,2,56%,2,,2,537,456,85%
+608491,490,Cagliari,https://media.api-sports.io/football/teams/490.png,2,6,9,1,4,5,8,3,2,44%,1,,4,412,340,83%
+608491,487,Lazio,https://media.api-sports.io/football/teams/487.png,6,4,16,6,10,6,13,6,2,56%,1,,2,514,435,85%
+608496,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,3,4,9,2,7,2,17,6,4,40%,3,,2,326,229,70%
+608496,506,Benevento,https://media.api-sports.io/football/teams/506.png,5,6,14,3,8,6,12,4,1,60%,1,,1,493,403,82%
+608493,505,Inter,https://media.api-sports.io/football/teams/505.png,8,7,21,6,11,10,14,5,2,66%,1,,1,654,588,90%
+608493,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,4,5,10,1,8,2,11,1,0,34%,1,,5,328,253,77%
+608497,515,Spezia,https://media.api-sports.io/football/teams/515.png,5,5,12,2,7,5,13,3,0,34%,2,,2,325,258,79%
+608497,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,6,4,17,7,12,5,8,5,4,66%,1,,4,645,580,90%
+608499,504,Verona,https://media.api-sports.io/football/teams/504.png,2,11,14,1,8,6,13,1,1,46%,1,,5,388,267,69%
+608499,494,Udinese,https://media.api-sports.io/football/teams/494.png,5,11,22,6,14,8,12,9,0,54%,0,,1,423,312,74%
+608494,492,Napoli,https://media.api-sports.io/football/teams/492.png,9,9,18,0,14,4,6,4,0,57%,1,,0,637,590,93%
+608494,495,Genoa,https://media.api-sports.io/football/teams/495.png,0,2,6,4,4,2,13,2,2,43%,2,,3,476,420,88%
+608492,501,Crotone,https://media.api-sports.io/football/teams/501.png,0,5,5,0,4,1,14,2,3,47%,1,,4,424,343,81%
+608492,489,AC Milan,https://media.api-sports.io/football/teams/489.png,6,6,16,4,11,5,15,5,3,53%,3,,0,486,397,82%
+608495,497,AS Roma,https://media.api-sports.io/football/teams/497.png,5,3,11,3,8,3,19,5,0,40%,2,0,1,405,344,85%
+608495,496,Juventus,https://media.api-sports.io/football/teams/496.png,3,4,8,1,6,2,9,7,4,60%,3,1,3,601,531,88%
+608490,500,Bologna,https://media.api-sports.io/football/teams/500.png,8,3,12,1,9,3,12,8,2,58%,1,0,2,516,448,87%
+608490,523,Parma,https://media.api-sports.io/football/teams/523.png,3,5,9,1,6,3,9,9,0,42%,2,1,4,363,286,79%
+608488,494,Udinese,https://media.api-sports.io/football/teams/494.png,3,6,13,4,10,3,13,2,6,48%,0,0,0,447,371,83%
+608488,515,Spezia,https://media.api-sports.io/football/teams/515.png,2,2,4,0,4,0,17,2,3,52%,5,1,3,489,408,83%
+608480,506,Benevento,https://media.api-sports.io/football/teams/506.png,5,6,11,0,9,2,10,5,1,33%,1,,3,330,262,79%
+608480,505,Inter,https://media.api-sports.io/football/teams/505.png,8,8,18,2,13,5,15,1,3,67%,0,,3,676,614,91%
+608484,487,Lazio,https://media.api-sports.io/football/teams/487.png,6,5,14,3,10,4,16,7,,60%,6,,2,644,529,82%
+608484,499,Atalanta,https://media.api-sports.io/football/teams/499.png,6,1,10,3,9,1,11,3,,40%,3,,4,418,315,75%
+608502,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,5,13,22,4,15,7,11,8,0,64%,0,,6,537,450,84%
+608502,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,8,5,18,5,12,6,16,4,1,36%,3,,4,298,210,70%
+608508,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,4,2,7,1,6,1,15,3,2,54%,2,,5,481,397,83%
+608508,501,Crotone,https://media.api-sports.io/football/teams/501.png,6,5,15,4,10,5,15,4,3,46%,3,,0,387,308,80%
+608509,494,Udinese,https://media.api-sports.io/football/teams/494.png,4,5,10,1,6,4,15,4,3,44%,1,,2,420,336,80%
+608509,497,AS Roma,https://media.api-sports.io/football/teams/497.png,3,3,13,7,4,9,9,1,1,56%,0,,4,542,462,85%
+608500,499,Atalanta,https://media.api-sports.io/football/teams/499.png,12,5,21,4,12,9,11,3,2,58%,,,1,609,521,86%
+608500,490,Cagliari,https://media.api-sports.io/football/teams/490.png,3,4,12,5,8,4,9,9,0,42%,,,7,413,328,79%
+608505,487,Lazio,https://media.api-sports.io/football/teams/487.png,4,6,12,2,10,2,14,7,,40%,3,1,2,401,330,82%
+608505,505,Inter,https://media.api-sports.io/football/teams/505.png,3,6,12,3,7,5,13,8,,60%,4,1,3,597,522,87%
+608501,506,Benevento,https://media.api-sports.io/football/teams/506.png,2,3,7,2,5,2,13,4,0,40%,2,,7,289,205,71%
+608501,500,Bologna,https://media.api-sports.io/football/teams/500.png,7,6,17,4,9,8,15,10,5,60%,1,,1,425,360,85%
+608507,523,Parma,https://media.api-sports.io/football/teams/523.png,4,3,11,4,7,4,11,7,2,39%,1,,2,338,254,75%
+608507,504,Verona,https://media.api-sports.io/football/teams/504.png,2,2,8,4,7,1,19,6,5,61%,1,,3,504,430,85%
+608506,489,AC Milan,https://media.api-sports.io/football/teams/489.png,5,6,17,6,12,5,14,4,1,61%,1,,3,574,490,85%
+608506,515,Spezia,https://media.api-sports.io/football/teams/515.png,2,1,4,1,2,2,19,6,0,39%,2,,2,348,268,77%
+608513,492,Napoli,https://media.api-sports.io/football/teams/492.png,11,4,19,4,14,5,12,6,1,49%,1,,3,481,396,82%
+608513,499,Atalanta,https://media.api-sports.io/football/teams/499.png,4,8,13,1,7,6,23,2,1,51%,3,,7,495,429,87%
+608515,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,7,4,12,1,7,5,12,4,0,52%,2,,0,534,435,81%
+608515,487,Lazio,https://media.api-sports.io/football/teams/487.png,0,7,10,3,4,6,10,3,2,48%,2,,4,493,413,84%
+608512,505,Inter,https://media.api-sports.io/football/teams/505.png,6,6,18,6,15,3,18,3,2,55%,3,,2,446,365,82%
+608512,489,AC Milan,https://media.api-sports.io/football/teams/489.png,4,6,11,1,8,3,11,5,2,45%,3,,4,363,277,76%
+608511,501,Crotone,https://media.api-sports.io/football/teams/501.png,3,5,10,2,5,5,17,3,0,46%,3,0,1,448,376,84%
+608511,496,Juventus,https://media.api-sports.io/football/teams/496.png,2,7,11,2,7,4,14,4,2,54%,3,1,2,518,451,87%
+608510,500,Bologna,https://media.api-sports.io/football/teams/500.png,6,4,14,4,8,6,20,7,,47%,2,,9,345,252,73%
+608510,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,12,9,25,4,19,6,11,11,,53%,1,,3,396,310,78%
+608517,503,Torino,https://media.api-sports.io/football/teams/503.png,6,5,13,2,9,4,14,2,1,59%,2,1,2,519,467,90%
+608517,490,Cagliari,https://media.api-sports.io/football/teams/490.png,5,5,12,2,8,4,16,4,4,41%,3,0,4,356,295,83%
+608516,515,Spezia,https://media.api-sports.io/football/teams/515.png,2,5,12,5,4,8,15,5,1,52%,2,,1,483,404,84%
+608516,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,3,2,9,4,9,0,18,5,3,48%,2,,0,438,371,85%
+608518,494,Udinese,https://media.api-sports.io/football/teams/494.png,4,7,16,5,9,7,12,11,2,41%,3,,1,352,300,85%
+608518,523,Parma,https://media.api-sports.io/football/teams/523.png,3,4,9,2,5,4,11,2,1,59%,2,,2,535,455,85%
+608514,497,AS Roma,https://media.api-sports.io/football/teams/497.png,7,8,20,5,16,4,17,6,6,52%,3,,2,444,385,87%
+608514,506,Benevento,https://media.api-sports.io/football/teams/506.png,4,4,10,2,7,3,7,4,4,48%,2,,2,419,349,83%
+608519,504,Verona,https://media.api-sports.io/football/teams/504.png,10,7,18,1,13,5,14,14,1,58%,1,,2,506,416,82%
+608519,495,Genoa,https://media.api-sports.io/football/teams/495.png,2,3,6,1,4,2,13,2,1,42%,4,,10,373,259,69%
+608529,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,6,4,17,7,10,7,10,6,1,72%,2,,7,701,636,91%
+608529,503,Torino,https://media.api-sports.io/football/teams/503.png,10,3,17,4,13,4,12,8,0,28%,2,,3,254,201,79%
+608520,499,Atalanta,https://media.api-sports.io/football/teams/499.png,5,7,20,8,11,9,12,3,1,66%,3,,1,657,575,88%
+608520,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,4,1,7,2,6,1,19,1,0,34%,4,,4,336,243,72%
+608524,495,Genoa,https://media.api-sports.io/football/teams/495.png,0,1,1,0,0,1,11,1,2,39%,1,,2,438,335,76%
+608524,505,Inter,https://media.api-sports.io/football/teams/505.png,4,4,14,6,9,5,17,9,2,61%,1,,0,653,566,87%
+608526,487,Lazio,https://media.api-sports.io/football/teams/487.png,3,4,10,3,7,3,14,8,3,48%,3,,4,449,369,82%
+608526,500,Bologna,https://media.api-sports.io/football/teams/500.png,5,12,21,4,11,10,16,9,2,52%,3,,1,472,403,85%
+608522,490,Cagliari,https://media.api-sports.io/football/teams/490.png,8,9,19,2,10,9,13,5,2,43%,2,0,4,394,333,85%
+608522,501,Crotone,https://media.api-sports.io/football/teams/501.png,6,5,12,1,9,3,13,1,1,57%,4,1,4,514,450,88%
+608521,506,Benevento,https://media.api-sports.io/football/teams/506.png,3,4,9,2,4,5,16,3,1,34%,3,,3,295,204,69%
+608521,492,Napoli,https://media.api-sports.io/football/teams/492.png,5,12,19,2,12,7,13,15,3,66%,1,,2,570,500,88%
+608528,523,Parma,https://media.api-sports.io/football/teams/523.png,6,9,17,2,13,4,11,12,4,48%,3,,4,409,326,80%
+608528,515,Spezia,https://media.api-sports.io/football/teams/515.png,6,6,14,2,11,3,21,3,1,52%,2,,4,448,366,82%
+608523,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,3,2,5,0,4,1,16,2,1,44%,1,,4,351,283,81%
+608523,494,Udinese,https://media.api-sports.io/football/teams/494.png,6,6,16,4,8,8,14,7,7,56%,3,,0,417,354,85%
+608525,496,Juventus,https://media.api-sports.io/football/teams/496.png,6,8,22,8,13,9,14,6,4,61%,1,,1,587,512,87%
+608525,504,Verona,https://media.api-sports.io/football/teams/504.png,2,3,6,1,4,2,19,3,3,39%,4,,5,358,278,78%
+608527,489,AC Milan,https://media.api-sports.io/football/teams/489.png,8,2,13,3,11,2,14,7,7,53%,3,,4,500,434,87%
+608527,497,AS Roma,https://media.api-sports.io/football/teams/497.png,7,2,12,3,8,4,15,7,1,47%,2,,5,433,370,85%
+608531,501,Crotone,https://media.api-sports.io/football/teams/501.png,1,3,6,2,2,4,11,1,2,41%,1,,4,446,350,78%
+608531,499,Atalanta,https://media.api-sports.io/football/teams/499.png,6,11,19,2,17,2,22,3,1,59%,3,,0,621,534,86%
+608532,505,Inter,https://media.api-sports.io/football/teams/505.png,9,10,25,6,13,12,13,15,3,69%,1,,1,594,524,88%
+608532,523,Parma,https://media.api-sports.io/football/teams/523.png,3,1,5,1,3,2,7,2,2,31%,1,,7,278,188,68%
+608530,500,Bologna,https://media.api-sports.io/football/teams/500.png,9,6,22,7,10,12,11,7,2,52%,3,,1,447,353,79%
+608530,490,Cagliari,https://media.api-sports.io/football/teams/490.png,3,2,7,2,5,2,18,3,2,48%,3,,6,397,295,74%
+608538,494,Udinese,https://media.api-sports.io/football/teams/494.png,2,4,9,3,3,6,14,2,2,40%,2,,2,392,315,80%
+608538,489,AC Milan,https://media.api-sports.io/football/teams/489.png,4,4,12,4,6,6,12,4,3,60%,2,,1,596,522,88%
+608537,503,Torino,https://media.api-sports.io/football/teams/503.png,4,3,11,4,7,4,11,7,2,45%,2,,0,445,383,86%
+608537,487,Lazio,https://media.api-sports.io/football/teams/487.png,5,4,12,3,9,3,11,1,3,55%,4,,1,540,473,88%
+608536,515,Spezia,https://media.api-sports.io/football/teams/515.png,3,8,16,5,8,8,14,4,3,44%,3,,0,430,367,85%
+608536,496,Juventus,https://media.api-sports.io/football/teams/496.png,4,2,7,1,7,0,7,3,5,56%,1,,2,560,494,88%
+608533,492,Napoli,https://media.api-sports.io/football/teams/492.png,6,10,22,6,15,7,7,12,3,43%,2,,2,458,389,85%
+608533,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,4,3,8,1,5,3,9,3,0,57%,2,,6,625,561,90%
+608534,497,AS Roma,https://media.api-sports.io/football/teams/497.png,6,4,17,7,15,2,17,7,2,41%,3,0,1,389,308,79%
+608534,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,1,3,8,4,5,3,16,4,1,59%,2,1,4,559,469,84%
+608535,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,3,6,9,0,5,4,19,7,1,55%,5,,3,504,412,82%
+608535,495,Genoa,https://media.api-sports.io/football/teams/495.png,4,3,11,4,5,6,11,4,5,45%,1,,2,417,328,79%
+608539,504,Verona,https://media.api-sports.io/football/teams/504.png,6,4,14,4,10,4,20,4,,43%,5,0,4,362,271,75%
+608539,506,Benevento,https://media.api-sports.io/football/teams/506.png,5,5,15,5,11,4,14,5,,57%,4,1,3,469,370,79%
+608503,495,Genoa,https://media.api-sports.io/football/teams/495.png,2,7,17,8,10,7,10,5,0,51%,2,,0,500,417,83%
+608503,503,Torino,https://media.api-sports.io/football/teams/503.png,1,4,7,2,3,4,18,2,2,49%,4,,1,486,400,82%
+608603,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,1,2,4,1,1,3,15,3,1,62%,2,,0,576,514,89%
+608603,494,Udinese,https://media.api-sports.io/football/teams/494.png,0,0,2,2,2,0,13,6,5,38%,2,,1,330,269,82%
+608598,490,Cagliari,https://media.api-sports.io/football/teams/490.png,5,5,13,3,9,4,12,2,4,55%,0,0,1,562,469,83%
+608598,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,1,2,5,2,1,4,16,6,5,45%,2,1,3,429,347,81%
+608596,506,Benevento,https://media.api-sports.io/football/teams/506.png,1,2,3,0,3,0,13,2,6,37%,3,,3,334,259,78%
+608596,515,Spezia,https://media.api-sports.io/football/teams/515.png,6,4,12,2,9,3,19,4,3,63%,3,,1,560,473,84%
+608602,523,Parma,https://media.api-sports.io/football/teams/523.png,0,3,5,2,0,5,17,2,3,36%,1,,4,395,334,85%
+608602,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,4,1,6,1,4,2,17,3,0,64%,2,,0,705,637,90%
+608600,487,Lazio,https://media.api-sports.io/football/teams/487.png,4,5,14,5,8,6,12,4,0,54%,2,,4,584,509,87%
+608600,496,Juventus,https://media.api-sports.io/football/teams/496.png,5,5,11,1,6,5,11,2,2,46%,2,,3,500,440,88%
+608599,495,Genoa,https://media.api-sports.io/football/teams/495.png,5,1,7,1,5,2,10,1,2,50%,1,,6,522,436,84%
+608599,497,AS Roma,https://media.api-sports.io/football/teams/497.png,9,6,18,3,14,4,11,8,2,50%,0,,4,496,411,83%
+608595,499,Atalanta,https://media.api-sports.io/football/teams/499.png,2,4,9,3,4,5,15,2,1,52%,1,,2,544,483,89%
+608595,505,Inter,https://media.api-sports.io/football/teams/505.png,3,5,10,2,7,3,13,5,0,48%,3,,1,490,422,86%
+608604,503,Torino,https://media.api-sports.io/football/teams/503.png,0,1,4,3,4,0,15,6,2,48%,3,0,2,426,360,85%
+608604,501,Crotone,https://media.api-sports.io/football/teams/501.png,2,4,8,2,3,5,16,3,2,52%,4,1,0,460,382,83%
+608597,500,Bologna,https://media.api-sports.io/football/teams/500.png,3,2,9,4,5,4,12,4,6,47%,3,,3,448,366,82%
+608597,492,Napoli,https://media.api-sports.io/football/teams/492.png,4,6,19,9,10,9,11,7,0,53%,0,,3,495,412,83%
+608601,489,AC Milan,https://media.api-sports.io/football/teams/489.png,8,18,34,8,22,12,16,14,3,66%,1,,1,522,418,80%
+608601,504,Verona,https://media.api-sports.io/football/teams/504.png,2,4,7,1,6,1,20,1,2,34%,3,,7,283,182,64%
+608605,501,Crotone,https://media.api-sports.io/football/teams/501.png,4,8,13,1,5,8,11,2,2,51%,3,,7,471,328,70%
+608605,487,Lazio,https://media.api-sports.io/football/teams/487.png,9,6,15,0,10,5,10,6,2,49%,4,,4,459,302,66%
+608612,515,Spezia,https://media.api-sports.io/football/teams/515.png,2,3,9,4,5,4,19,1,2,55%,3,,4,570,438,77%
+608612,499,Atalanta,https://media.api-sports.io/football/teams/499.png,4,4,11,3,8,3,18,2,5,45%,3,,2,459,347,76%
+608608,496,Juventus,https://media.api-sports.io/football/teams/496.png,6,10,24,8,19,5,11,9,2,66%,3,,0,744,682,92%
+608608,490,Cagliari,https://media.api-sports.io/football/teams/490.png,0,3,4,1,0,4,7,1,1,34%,2,,5,379,318,84%
+608606,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,2,3,7,2,7,0,14,4,3,62%,2,,3,538,450,84%
+608606,506,Benevento,https://media.api-sports.io/football/teams/506.png,4,7,13,2,6,7,17,4,1,38%,3,,2,320,236,74%
+608610,497,AS Roma,https://media.api-sports.io/football/teams/497.png,7,7,21,7,13,8,5,4,1,58%,,,1,706,645,91%
+608610,523,Parma,https://media.api-sports.io/football/teams/523.png,1,0,1,0,1,0,4,1,4,42%,,,4,507,444,88%
+608611,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,4,5,11,2,7,4,12,9,2,44%,2,,2,410,299,73%
+608611,500,Bologna,https://media.api-sports.io/football/teams/500.png,3,4,11,4,7,4,9,10,5,56%,2,,3,505,412,82%
+608614,504,Verona,https://media.api-sports.io/football/teams/504.png,3,10,19,6,13,6,13,6,6,51%,1,,2,406,312,77%
+608614,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,4,4,11,3,2,9,20,1,0,49%,3,,3,404,310,77%
+608607,505,Inter,https://media.api-sports.io/football/teams/505.png,4,7,13,2,10,3,20,1,4,55%,3,,4,516,455,88%
+608607,503,Torino,https://media.api-sports.io/football/teams/503.png,6,5,13,2,8,5,14,1,0,45%,2,,0,425,360,85%
+608613,494,Udinese,https://media.api-sports.io/football/teams/494.png,2,4,8,2,2,6,16,4,0,45%,2,0,1,423,354,84%
+608613,495,Genoa,https://media.api-sports.io/football/teams/495.png,1,4,11,6,8,3,15,8,2,55%,3,1,1,494,408,83%
+608609,492,Napoli,https://media.api-sports.io/football/teams/492.png,7,8,19,4,11,8,8,8,2,62%,3,1,4,603,527,87%
+608609,489,AC Milan,https://media.api-sports.io/football/teams/489.png,7,5,15,3,9,6,16,5,3,38%,4,0,6,355,288,81%
+608623,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,3,5,13,5,9,4,13,6,1,65%,3,,2,707,648,92%
+608623,505,Inter,https://media.api-sports.io/football/teams/505.png,4,5,11,2,7,4,16,2,2,35%,1,,3,368,301,82%
+608616,506,Benevento,https://media.api-sports.io/football/teams/506.png,3,4,8,1,7,1,13,5,2,36%,6,0,4,357,270,76%
+608616,496,Juventus,https://media.api-sports.io/football/teams/496.png,5,7,16,4,11,5,13,8,5,64%,1,1,2,641,568,89%
+608615,499,Atalanta,https://media.api-sports.io/football/teams/499.png,5,11,20,4,14,6,12,4,2,57%,2,,0,568,462,81%
+608615,504,Verona,https://media.api-sports.io/football/teams/504.png,2,5,7,0,3,4,15,1,1,43%,3,,5,419,313,75%
+608620,487,Lazio,https://media.api-sports.io/football/teams/487.png,6,2,11,3,4,7,16,4,3,55%,3,,1,544,461,85%
+608620,494,Udinese,https://media.api-sports.io/football/teams/494.png,4,2,9,3,6,3,10,4,0,45%,4,,5,441,363,82%
+608621,489,AC Milan,https://media.api-sports.io/football/teams/489.png,4,9,17,4,12,5,15,3,1,44%,2,,3,400,315,79%
+608621,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,3,2,5,0,4,1,15,6,2,56%,4,,2,501,408,81%
+608617,500,Bologna,https://media.api-sports.io/football/teams/500.png,7,4,14,3,13,1,15,10,4,49%,2,,1,391,302,77%
+608617,501,Crotone,https://media.api-sports.io/football/teams/501.png,1,4,8,3,4,4,18,3,2,51%,4,,6,403,312,77%
+608618,490,Cagliari,https://media.api-sports.io/football/teams/490.png,5,5,12,2,9,3,16,4,1,38%,0,,3,330,238,72%
+608618,515,Spezia,https://media.api-sports.io/football/teams/515.png,5,10,15,0,11,4,18,5,6,62%,4,,3,530,426,80%
+608622,492,Napoli,https://media.api-sports.io/football/teams/492.png,8,3,14,3,7,7,3,11,4,54%,1,,1,541,471,87%
+608622,497,AS Roma,https://media.api-sports.io/football/teams/497.png,1,5,8,2,5,3,11,4,3,46%,2,,4,453,389,86%
+608624,503,Torino,https://media.api-sports.io/football/teams/503.png,7,4,14,3,13,1,17,6,5,53%,1,,0,510,440,86%
+608624,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,2,7,11,2,8,3,17,2,3,47%,2,,5,458,377,82%
+608619,495,Genoa,https://media.api-sports.io/football/teams/495.png,5,8,14,1,5,9,12,2,4,52%,2,,1,469,376,80%
+608619,523,Parma,https://media.api-sports.io/football/teams/523.png,3,4,9,2,9,0,16,2,6,48%,2,,4,444,345,78%
+608632,515,Spezia,https://media.api-sports.io/football/teams/515.png,4,8,15,3,10,5,15,7,1,65%,3,,0,644,563,87%
+608632,487,Lazio,https://media.api-sports.io/football/teams/487.png,2,1,4,1,3,1,12,0,4,35%,1,,3,343,261,76%
+608628,496,Juventus,https://media.api-sports.io/football/teams/496.png,4,8,17,5,11,6,17,13,3,65%,3,1,1,600,519,87%
+608628,503,Torino,https://media.api-sports.io/football/teams/503.png,2,3,7,2,5,2,10,1,0,35%,3,0,2,327,250,76%
+608627,505,Inter,https://media.api-sports.io/football/teams/505.png,7,2,14,5,11,3,12,7,2,45%,1,,6,463,391,84%
+608627,500,Bologna,https://media.api-sports.io/football/teams/500.png,7,4,14,3,6,8,13,3,0,55%,2,,4,569,499,88%
+608634,504,Verona,https://media.api-sports.io/football/teams/504.png,3,11,18,4,15,3,11,7,3,51%,2,,2,421,343,81%
+608634,490,Cagliari,https://media.api-sports.io/football/teams/490.png,3,6,13,4,11,2,14,5,0,49%,0,,2,390,295,76%
+608630,497,AS Roma,https://media.api-sports.io/football/teams/497.png,1,8,16,7,12,4,10,12,1,43%,5,1,1,392,325,83%
+608630,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,1,3,5,1,1,4,11,5,3,57%,3,0,1,537,472,88%
+608629,523,Parma,https://media.api-sports.io/football/teams/523.png,0,7,10,3,6,4,13,6,0,57%,4,,2,537,471,88%
+608629,506,Benevento,https://media.api-sports.io/football/teams/506.png,2,5,8,1,5,3,11,3,2,43%,4,,0,396,328,83%
+608625,501,Crotone,https://media.api-sports.io/football/teams/501.png,1,3,6,2,4,2,14,4,0,39%,3,1,2,440,377,86%
+608625,492,Napoli,https://media.api-sports.io/football/teams/492.png,6,5,13,2,8,5,9,1,1,61%,3,0,1,707,651,92%
+608631,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,3,3,9,3,7,2,10,9,1,37%,2,,3,299,202,68%
+608631,489,AC Milan,https://media.api-sports.io/football/teams/489.png,6,4,13,3,9,4,17,6,2,63%,1,,2,541,449,83%
+608626,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,7,8,19,4,14,5,7,5,1,61%,2,,2,576,483,84%
+608626,495,Genoa,https://media.api-sports.io/football/teams/495.png,3,0,5,2,4,1,20,1,2,39%,2,,5,368,282,77%
+608643,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,2,2,6,2,4,2,12,1,0,48%,2,1,4,431,366,85%
+608643,506,Benevento,https://media.api-sports.io/football/teams/506.png,4,13,30,13,25,5,14,10,2,52%,4,0,1,434,373,86%
+608638,501,Crotone,https://media.api-sports.io/football/teams/501.png,7,1,9,1,7,2,14,1,4,40%,3,,4,330,238,72%
+608638,515,Spezia,https://media.api-sports.io/football/teams/515.png,5,4,10,1,7,3,14,4,5,60%,3,,3,478,396,83%
+608644,503,Torino,https://media.api-sports.io/football/teams/503.png,3,2,8,3,4,4,9,2,1,61%,3,,0,579,490,85%
+608644,494,Udinese,https://media.api-sports.io/football/teams/494.png,3,3,10,4,8,2,17,2,3,39%,3,,1,366,300,82%
+608640,487,Lazio,https://media.api-sports.io/football/teams/487.png,4,3,12,5,11,1,13,5,0,60%,5,,3,555,437,79%
+608640,504,Verona,https://media.api-sports.io/football/teams/504.png,4,2,7,1,6,1,15,3,4,40%,3,,4,380,282,74%
+608637,490,Cagliari,https://media.api-sports.io/football/teams/490.png,3,5,11,3,9,2,11,3,0,42%,2,,8,416,339,81%
+608637,505,Inter,https://media.api-sports.io/football/teams/505.png,11,5,21,5,17,4,17,9,1,58%,1,,2,564,498,88%
+608642,492,Napoli,https://media.api-sports.io/football/teams/492.png,7,6,18,5,8,10,7,7,1,67%,3,,2,762,680,89%
+608642,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,3,2,7,2,6,1,13,5,5,33%,4,,5,369,288,78%
+608635,499,Atalanta,https://media.api-sports.io/football/teams/499.png,7,3,21,11,16,5,17,11,3,53%,1,,2,502,429,85%
+608635,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,2,2,4,0,2,2,13,2,0,47%,2,,4,432,346,80%
+608636,500,Bologna,https://media.api-sports.io/football/teams/500.png,1,4,7,2,5,2,14,1,7,53%,4,,3,476,402,84%
+608636,497,AS Roma,https://media.api-sports.io/football/teams/497.png,7,8,15,0,13,2,9,5,3,47%,2,,1,411,328,80%
+608639,495,Genoa,https://media.api-sports.io/football/teams/495.png,2,0,3,1,1,2,14,0,1,29%,3,,7,276,188,68%
+608639,496,Juventus,https://media.api-sports.io/football/teams/496.png,10,6,18,2,14,4,14,10,3,71%,3,,1,626,549,88%
+608641,489,AC Milan,https://media.api-sports.io/football/teams/489.png,6,11,26,9,15,11,12,13,2,65%,3,,0,594,523,88%
+608641,523,Parma,https://media.api-sports.io/football/teams/523.png,2,2,4,0,3,1,14,1,2,35%,3,,4,327,238,73%
+608653,494,Udinese,https://media.api-sports.io/football/teams/494.png,6,4,15,5,7,8,13,9,5,53%,1,,2,426,366,86%
+608653,501,Crotone,https://media.api-sports.io/football/teams/501.png,2,2,4,0,1,3,17,1,1,47%,4,,6,377,294,78%
+608645,506,Benevento,https://media.api-sports.io/football/teams/506.png,6,5,15,4,10,5,14,4,1,36%,2,1,1,354,282,80%
+608645,487,Lazio,https://media.api-sports.io/football/teams/487.png,2,6,13,5,5,8,15,8,1,64%,2,0,5,630,569,90%
+608649,496,Juventus,https://media.api-sports.io/football/teams/496.png,7,4,12,1,10,2,14,2,2,54%,3,,5,519,447,86%
+608649,499,Atalanta,https://media.api-sports.io/football/teams/499.png,6,5,15,4,7,8,18,6,0,46%,2,,6,435,359,83%
+608647,495,Genoa,https://media.api-sports.io/football/teams/495.png,4,3,9,2,8,1,18,4,1,42%,2,,2,385,294,76%
+608647,489,AC Milan,https://media.api-sports.io/football/teams/489.png,4,6,13,3,6,7,13,10,0,58%,3,,2,517,405,78%
+608646,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,4,8,16,4,11,5,19,4,5,33%,4,,4,306,232,76%
+608646,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,5,6,13,2,6,7,12,1,3,67%,4,,3,639,579,91%
+608654,504,Verona,https://media.api-sports.io/football/teams/504.png,3,1,8,4,3,5,20,6,1,55%,2,1,1,518,386,75%
+608654,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,3,4,10,3,4,6,17,3,0,45%,4,0,2,409,291,71%
+608648,505,Inter,https://media.api-sports.io/football/teams/505.png,2,1,5,2,5,0,17,4,1,41%,5,0,3,431,380,88%
+608648,492,Napoli,https://media.api-sports.io/football/teams/492.png,3,7,17,7,13,4,9,3,4,59%,3,1,1,628,573,91%
+608652,515,Spezia,https://media.api-sports.io/football/teams/515.png,4,6,10,0,9,1,19,3,4,44%,6,,4,356,238,67%
+608652,500,Bologna,https://media.api-sports.io/football/teams/500.png,6,3,10,1,7,3,11,4,4,56%,1,,2,445,342,77%
+608650,523,Parma,https://media.api-sports.io/football/teams/523.png,2,8,13,3,7,6,13,8,7,56%,1,,4,499,428,86%
+608650,490,Cagliari,https://media.api-sports.io/football/teams/490.png,4,2,8,2,5,3,11,5,0,44%,1,,2,383,317,83%
+608651,497,AS Roma,https://media.api-sports.io/football/teams/497.png,5,3,13,5,11,2,22,4,0,62%,4,0,5,642,572,89%
+608651,503,Torino,https://media.api-sports.io/football/teams/503.png,6,6,17,5,9,8,16,2,1,38%,3,1,2,379,326,86%
+608658,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,1,5,10,4,5,5,11,4,2,59%,2,,2,437,312,71%
+608658,504,Verona,https://media.api-sports.io/football/teams/504.png,3,2,6,1,3,3,16,1,2,41%,2,,0,295,173,59%
+608662,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,4,4,12,4,8,4,14,3,3,41%,2,,1,383,285,74%
+608662,501,Crotone,https://media.api-sports.io/football/teams/501.png,2,2,6,2,3,3,14,1,0,59%,2,,1,560,450,80%
+608661,523,Parma,https://media.api-sports.io/football/teams/523.png,4,4,11,3,5,6,8,4,4,37%,0,,3,396,343,87%
+608661,496,Juventus,https://media.api-sports.io/football/teams/496.png,7,9,19,3,14,5,10,9,3,63%,1,,4,669,618,92%
+608664,503,Torino,https://media.api-sports.io/football/teams/503.png,4,4,14,6,8,6,14,4,3,51%,1,,5,425,340,80%
+608664,500,Bologna,https://media.api-sports.io/football/teams/500.png,6,6,16,4,10,6,17,8,2,49%,3,,3,393,317,81%
+608663,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,5,6,15,4,7,8,11,6,0,68%,1,,3,607,543,89%
+608663,489,AC Milan,https://media.api-sports.io/football/teams/489.png,5,4,11,2,5,6,12,4,4,32%,3,,4,286,221,77%
+608657,490,Cagliari,https://media.api-sports.io/football/teams/490.png,3,4,12,5,6,6,13,5,0,52%,2,,3,491,404,82%
+608657,494,Udinese,https://media.api-sports.io/football/teams/494.png,4,7,13,2,8,5,13,7,1,48%,1,,2,430,361,84%
+608659,505,Inter,https://media.api-sports.io/football/teams/505.png,4,2,9,3,7,2,10,3,1,41%,1,,0,449,386,86%
+608659,515,Spezia,https://media.api-sports.io/football/teams/515.png,1,6,7,0,3,4,9,2,2,59%,2,,2,633,547,86%
+608656,506,Benevento,https://media.api-sports.io/football/teams/506.png,3,5,11,3,7,4,9,6,2,41%,1,,2,324,242,75%
+608656,495,Genoa,https://media.api-sports.io/football/teams/495.png,2,4,8,2,2,6,23,5,2,59%,3,,1,458,370,81%
+608655,499,Atalanta,https://media.api-sports.io/football/teams/499.png,8,1,14,5,8,6,15,2,1,55%,2,,2,563,476,85%
+608655,497,AS Roma,https://media.api-sports.io/football/teams/497.png,3,2,5,0,1,4,14,2,1,45%,3,,3,452,364,81%
+608660,487,Lazio,https://media.api-sports.io/football/teams/487.png,2,8,10,0,7,3,12,4,2,39%,4,,6,374,310,83%
+608660,492,Napoli,https://media.api-sports.io/football/teams/492.png,6,2,14,6,10,4,8,9,1,61%,3,,0,570,498,87%
+608666,501,Crotone,https://media.api-sports.io/football/teams/501.png,6,3,11,2,5,6,16,3,2,49%,4,,6,384,294,77%
+608666,523,Parma,https://media.api-sports.io/football/teams/523.png,7,4,14,3,8,6,22,6,3,51%,6,,4,386,302,78%
+608667,496,Juventus,https://media.api-sports.io/football/teams/496.png,3,3,13,7,5,8,9,5,3,53%,1,1,3,474,420,89%
+608667,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,5,2,9,2,6,3,17,5,1,47%,4,0,3,393,337,86%
+608674,504,Verona,https://media.api-sports.io/football/teams/504.png,2,3,6,1,4,2,16,2,,40%,4,,3,359,252,70%
+608674,505,Inter,https://media.api-sports.io/football/teams/505.png,5,7,18,6,14,4,20,8,,60%,2,,1,512,419,82%
+608668,489,AC Milan,https://media.api-sports.io/football/teams/489.png,5,4,13,4,10,3,9,4,2,38%,2,,5,332,258,78%
+608668,487,Lazio,https://media.api-sports.io/football/teams/487.png,7,4,13,2,8,5,14,6,0,62%,4,,2,519,443,85%
+608669,492,Napoli,https://media.api-sports.io/football/teams/492.png,6,6,15,3,8,7,20,4,2,65%,3,,2,633,569,90%
+608669,503,Torino,https://media.api-sports.io/football/teams/503.png,3,3,10,4,7,3,16,3,1,35%,3,,5,344,274,80%
+608673,494,Udinese,https://media.api-sports.io/football/teams/494.png,3,8,15,4,7,8,20,7,1,61%,1,,2,508,445,88%
+608673,506,Benevento,https://media.api-sports.io/football/teams/506.png,4,1,9,4,2,7,12,1,1,39%,2,,3,330,244,74%
+608670,497,AS Roma,https://media.api-sports.io/football/teams/497.png,8,5,15,2,9,6,18,6,1,62%,3,,0,535,451,84%
+608670,490,Cagliari,https://media.api-sports.io/football/teams/490.png,2,5,10,3,8,2,20,0,3,38%,2,,5,325,245,75%
+608671,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,6,11,26,9,17,9,10,14,1,46%,2,1,5,375,288,77%
+608671,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,8,3,14,3,9,5,12,6,2,54%,4,0,4,465,373,80%
+608665,500,Bologna,https://media.api-sports.io/football/teams/500.png,3,2,9,4,5,4,12,1,0,46%,2,,4,499,399,80%
+608665,499,Atalanta,https://media.api-sports.io/football/teams/499.png,6,3,12,3,10,2,14,5,2,54%,2,,1,564,480,85%
+608672,515,Spezia,https://media.api-sports.io/football/teams/515.png,4,3,8,1,4,4,19,4,1,67%,3,,3,643,532,83%
+608672,495,Genoa,https://media.api-sports.io/football/teams/495.png,5,1,7,1,4,3,20,2,4,33%,4,,3,303,204,67%
+608680,505,Inter,https://media.api-sports.io/football/teams/505.png,8,6,16,2,11,5,9,3,3,47%,0,,1,470,406,86%
+608680,501,Crotone,https://media.api-sports.io/football/teams/501.png,3,3,9,3,6,3,7,3,0,53%,3,,3,518,452,87%
+608677,490,Cagliari,https://media.api-sports.io/football/teams/490.png,1,5,8,2,7,1,11,3,,37%,4,1,7,361,302,84%
+608677,492,Napoli,https://media.api-sports.io/football/teams/492.png,11,13,34,10,19,15,6,8,,63%,1,0,0,602,560,93%
+608679,495,Genoa,https://media.api-sports.io/football/teams/495.png,3,2,10,5,8,2,11,4,2,39%,2,,2,356,262,74%
+608679,487,Lazio,https://media.api-sports.io/football/teams/487.png,3,6,12,3,7,5,18,9,2,61%,4,,2,536,451,84%
+608683,497,AS Roma,https://media.api-sports.io/football/teams/497.png,6,8,21,7,18,3,18,8,2,65%,3,,2,595,508,85%
+608683,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,2,1,5,2,1,4,14,2,7,35%,5,,5,323,222,69%
+608675,499,Atalanta,https://media.api-sports.io/football/teams/499.png,7,14,23,2,18,5,13,8,1,45%,3,,3,423,329,78%
+608675,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,4,3,10,3,8,2,9,3,1,55%,1,,3,516,421,82%
+608678,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,0,9,9,0,5,4,8,8,2,46%,4,,3,423,364,86%
+608678,500,Bologna,https://media.api-sports.io/football/teams/500.png,3,4,7,0,4,3,11,5,1,54%,3,,0,499,433,87%
+608684,515,Spezia,https://media.api-sports.io/football/teams/515.png,1,5,7,1,6,1,22,3,1,53%,6,1,2,437,313,72%
+608684,504,Verona,https://media.api-sports.io/football/teams/504.png,3,6,12,3,8,4,10,5,9,47%,0,0,1,377,266,71%
+608682,523,Parma,https://media.api-sports.io/football/teams/523.png,4,11,16,1,13,3,20,9,1,57%,2,,2,509,414,81%
+608682,503,Torino,https://media.api-sports.io/football/teams/503.png,5,6,12,1,7,5,16,3,0,43%,2,,4,393,303,77%
+608676,506,Benevento,https://media.api-sports.io/football/teams/506.png,5,9,25,11,14,11,9,12,1,60%,1,0,0,498,437,88%
+608676,489,AC Milan,https://media.api-sports.io/football/teams/489.png,2,6,10,2,4,6,14,4,2,40%,3,1,5,333,275,83%
+608681,496,Juventus,https://media.api-sports.io/football/teams/496.png,10,3,20,7,11,9,14,7,1,63%,3,,2,672,613,91%
+608681,494,Udinese,https://media.api-sports.io/football/teams/494.png,3,4,10,3,6,4,8,1,0,37%,0,,6,388,321,83%
+608687,490,Cagliari,https://media.api-sports.io/football/teams/490.png,5,6,12,1,5,7,18,7,1,61%,4,1,2,505,440,87%
+608687,506,Benevento,https://media.api-sports.io/football/teams/506.png,4,3,10,3,9,1,12,6,2,39%,3,0,4,322,250,78%
+608689,487,Lazio,https://media.api-sports.io/football/teams/487.png,3,4,13,6,8,5,11,2,3,45%,3,,4,409,346,85%
+608689,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,5,2,12,5,11,1,11,9,0,55%,1,,1,478,414,87%
+608693,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,3,7,17,7,10,7,14,8,0,63%,3,,1,648,568,88%
+608693,495,Genoa,https://media.api-sports.io/football/teams/495.png,2,3,7,2,7,0,10,2,1,37%,3,,2,363,272,75%
+608692,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,3,1,10,6,5,5,13,4,1,38%,3,,6,322,236,73%
+608692,505,Inter,https://media.api-sports.io/football/teams/505.png,7,14,24,3,18,6,18,10,3,62%,4,,1,509,421,83%
+608685,499,Atalanta,https://media.api-sports.io/football/teams/499.png,6,9,17,2,12,5,10,12,3,51%,1,,0,531,463,87%
+608685,523,Parma,https://media.api-sports.io/football/teams/523.png,0,1,2,1,0,2,6,3,1,49%,1,,3,517,446,86%
+608686,500,Bologna,https://media.api-sports.io/football/teams/500.png,6,3,10,1,5,5,16,4,1,37%,4,1,4,318,250,79%
+608686,494,Udinese,https://media.api-sports.io/football/teams/494.png,6,4,17,7,10,7,13,6,2,63%,3,0,4,514,445,87%
+608688,501,Crotone,https://media.api-sports.io/football/teams/501.png,5,6,13,2,11,2,15,3,0,52%,2,,1,523,432,83%
+608688,497,AS Roma,https://media.api-sports.io/football/teams/497.png,4,3,12,5,6,6,17,4,1,48%,3,,3,478,397,83%
+608694,503,Torino,https://media.api-sports.io/football/teams/503.png,2,5,17,10,11,6,12,9,1,45%,1,,1,369,266,72%
+608694,504,Verona,https://media.api-sports.io/football/teams/504.png,2,4,8,2,5,3,18,3,2,55%,3,,1,453,346,76%
+608691,492,Napoli,https://media.api-sports.io/football/teams/492.png,10,8,29,11,20,9,9,10,4,62%,2,0,1,593,510,86%
+608691,515,Spezia,https://media.api-sports.io/football/teams/515.png,3,5,9,1,5,4,16,2,2,38%,5,1,8,365,288,79%
+608690,489,AC Milan,https://media.api-sports.io/football/teams/489.png,8,8,20,4,10,10,17,7,,42%,1,,3,380,328,86%
+608690,496,Juventus,https://media.api-sports.io/football/teams/496.png,6,4,14,4,11,3,11,4,,58%,2,,8,525,455,87%
+608695,506,Benevento,https://media.api-sports.io/football/teams/506.png,2,2,5,1,3,2,13,1,0,41%,3,,8,370,269,73%
+608695,499,Atalanta,https://media.api-sports.io/football/teams/499.png,12,7,27,8,23,4,21,11,4,59%,2,,1,518,442,85%
+608697,495,Genoa,https://media.api-sports.io/football/teams/495.png,7,2,10,1,9,1,11,1,2,35%,2,,3,337,220,65%
+608697,500,Bologna,https://media.api-sports.io/football/teams/500.png,3,7,14,4,2,12,9,4,1,65%,0,,5,599,498,83%
+608699,489,AC Milan,https://media.api-sports.io/football/teams/489.png,4,2,8,2,3,5,22,7,1,46%,6,,2,403,336,83%
+608699,503,Torino,https://media.api-sports.io/football/teams/503.png,1,4,9,4,5,4,15,5,1,54%,2,,2,464,392,84%
+608701,497,AS Roma,https://media.api-sports.io/football/teams/497.png,8,2,14,4,8,6,18,3,1,50%,3,,4,544,482,89%
+608701,505,Inter,https://media.api-sports.io/football/teams/505.png,6,7,17,4,16,1,11,7,2,50%,3,,6,526,448,85%
+608703,494,Udinese,https://media.api-sports.io/football/teams/494.png,8,8,17,1,12,5,19,2,0,37%,3,,4,394,318,81%
+608703,492,Napoli,https://media.api-sports.io/football/teams/492.png,6,7,17,4,11,6,6,7,1,63%,1,,7,665,594,89%
+608704,504,Verona,https://media.api-sports.io/football/teams/504.png,6,5,13,2,9,4,16,6,1,43%,3,,1,329,225,68%
+608704,501,Crotone,https://media.api-sports.io/football/teams/501.png,2,3,9,4,3,6,16,4,0,57%,3,,4,450,343,76%
+608700,523,Parma,https://media.api-sports.io/football/teams/523.png,3,2,10,5,3,7,11,5,0,46%,4,,3,466,386,83%
+608700,487,Lazio,https://media.api-sports.io/football/teams/487.png,5,10,21,6,18,3,7,6,5,54%,1,,3,522,443,85%
+608696,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,4,7,14,3,8,6,15,9,4,51%,1,,2,433,358,83%
+608696,490,Cagliari,https://media.api-sports.io/football/teams/490.png,2,4,9,3,5,4,14,5,1,49%,3,,3,419,335,80%
+608698,496,Juventus,https://media.api-sports.io/football/teams/496.png,8,9,23,6,17,6,11,6,0,55%,4,0,1,623,573,92%
+608698,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,2,6,10,2,5,5,3,3,1,45%,1,1,5,509,449,88%
+608702,515,Spezia,https://media.api-sports.io/football/teams/515.png,4,2,9,3,8,1,16,4,4,56%,4,,2,516,404,78%
+608702,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,3,2,6,1,6,0,16,2,0,44%,3,,2,390,272,70%
+608710,487,Lazio,https://media.api-sports.io/football/teams/487.png,8,0,8,0,5,3,12,1,4,39%,5,,2,395,321,81%
+608710,497,AS Roma,https://media.api-sports.io/football/teams/497.png,1,4,6,1,5,1,19,7,2,61%,4,,5,583,492,84%
+608706,500,Bologna,https://media.api-sports.io/football/teams/500.png,5,8,20,7,16,4,15,7,1,48%,2,,1,433,321,74%
+608706,504,Verona,https://media.api-sports.io/football/teams/504.png,1,6,8,1,4,4,10,3,1,52%,1,,4,473,364,77%
+608714,503,Torino,https://media.api-sports.io/football/teams/503.png,1,6,10,3,10,0,12,6,6,66%,3,0,3,611,538,88%
+608714,515,Spezia,https://media.api-sports.io/football/teams/515.png,3,2,6,1,5,1,14,2,0,34%,4,1,1,307,229,75%
+608712,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,6,2,15,7,9,6,8,11,3,54%,1,,4,456,386,85%
+608712,494,Udinese,https://media.api-sports.io/football/teams/494.png,4,5,15,6,11,4,11,5,4,46%,1,,4,390,311,80%
+608711,492,Napoli,https://media.api-sports.io/football/teams/492.png,7,3,10,0,6,4,11,1,4,48%,1,,1,481,419,87%
+608711,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,2,6,11,3,8,3,15,4,3,52%,0,,1,496,425,86%
+608713,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,4,9,16,3,11,5,18,5,3,61%,3,,1,524,463,88%
+608713,523,Parma,https://media.api-sports.io/football/teams/523.png,2,6,11,3,6,5,11,2,3,39%,2,,3,324,251,77%
+608708,501,Crotone,https://media.api-sports.io/football/teams/501.png,3,3,9,3,5,4,14,4,0,40%,1,0,4,321,238,74%
+608708,506,Benevento,https://media.api-sports.io/football/teams/506.png,5,12,22,5,17,5,14,13,2,60%,3,1,0,459,374,81%
+608705,499,Atalanta,https://media.api-sports.io/football/teams/499.png,2,10,18,6,15,3,14,9,,64%,1,,3,675,549,81%
+608705,495,Genoa,https://media.api-sports.io/football/teams/495.png,3,2,7,2,5,2,13,1,,36%,2,,3,390,273,70%
+608709,505,Inter,https://media.api-sports.io/football/teams/505.png,5,8,17,4,7,10,8,3,0,48%,2,,4,520,458,88%
+608709,496,Juventus,https://media.api-sports.io/football/teams/496.png,4,2,9,3,5,4,14,4,3,52%,2,,3,525,475,90%
+608707,490,Cagliari,https://media.api-sports.io/football/teams/490.png,2,8,17,7,12,5,9,7,0,44%,2,0,4,412,345,84%
+608707,489,AC Milan,https://media.api-sports.io/football/teams/489.png,6,2,10,2,7,3,13,4,4,56%,3,1,2,542,473,87%
+608633,494,Udinese,https://media.api-sports.io/football/teams/494.png,1,4,6,1,2,4,20,2,,34%,3,,3,288,209,73%
+608633,499,Atalanta,https://media.api-sports.io/football/teams/499.png,4,8,17,5,12,5,26,7,,66%,2,,0,559,469,84%
+608715,506,Benevento,https://media.api-sports.io/football/teams/506.png,3,7,10,0,7,3,18,6,0,38%,1,,3,280,196,70%
+608715,503,Torino,https://media.api-sports.io/football/teams/503.png,5,7,16,4,11,5,22,4,3,62%,3,,1,459,376,82%
+608722,497,AS Roma,https://media.api-sports.io/football/teams/497.png,7,5,14,2,11,3,12,3,2,47%,3,,0,456,374,82%
+608722,515,Spezia,https://media.api-sports.io/football/teams/515.png,3,3,6,0,6,0,13,1,4,53%,1,,3,503,410,82%
+608720,489,AC Milan,https://media.api-sports.io/football/teams/489.png,2,4,14,8,9,5,11,5,3,50%,2,,4,425,358,84%
+608720,499,Atalanta,https://media.api-sports.io/football/teams/499.png,7,7,18,4,10,8,14,7,1,50%,1,,2,414,344,83%
+608723,494,Udinese,https://media.api-sports.io/football/teams/494.png,1,4,6,1,3,3,11,3,0,39%,3,,4,417,344,82%
+608723,505,Inter,https://media.api-sports.io/football/teams/505.png,4,3,10,3,4,6,16,4,1,61%,2,,1,644,563,87%
+608716,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,6,5,13,2,6,7,12,5,3,45%,2,,2,375,315,84%
+608716,501,Crotone,https://media.api-sports.io/football/teams/501.png,3,2,10,5,6,4,17,3,2,55%,2,,4,457,372,81%
+608718,496,Juventus,https://media.api-sports.io/football/teams/496.png,11,7,23,5,14,9,11,7,2,52%,3,,3,479,414,86%
+608718,500,Bologna,https://media.api-sports.io/football/teams/500.png,2,6,11,3,7,4,17,6,0,48%,2,,9,427,370,87%
+608717,495,Genoa,https://media.api-sports.io/football/teams/495.png,5,4,11,2,9,2,11,4,3,41%,1,,4,424,323,76%
+608717,490,Cagliari,https://media.api-sports.io/football/teams/490.png,4,7,14,3,9,5,6,7,0,59%,2,,4,592,496,84%
+608724,504,Verona,https://media.api-sports.io/football/teams/504.png,7,3,14,4,8,6,13,3,2,48%,2,,1,430,336,78%
+608724,492,Napoli,https://media.api-sports.io/football/teams/492.png,2,6,12,4,8,4,7,3,1,52%,3,,4,460,361,78%
+608719,487,Lazio,https://media.api-sports.io/football/teams/487.png,6,8,20,6,12,8,16,9,1,49%,2,,0,460,403,88%
+608719,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,1,3,5,1,4,1,15,6,0,51%,3,,4,492,420,85%
+608721,523,Parma,https://media.api-sports.io/football/teams/523.png,6,4,11,1,5,6,14,5,1,51%,1,,1,479,402,84%
+608721,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,3,5,11,3,7,4,14,5,0,49%,1,,5,453,378,83%
+608726,503,Torino,https://media.api-sports.io/football/teams/503.png,3,8,15,4,11,4,20,7,1,51%,2,0,0,396,322,81%
+608726,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,1,4,8,3,5,3,15,2,5,49%,2,2,2,384,304,79%
+608730,500,Bologna,https://media.api-sports.io/football/teams/500.png,5,4,11,2,5,6,13,6,2,48%,2,,8,423,337,80%
+608730,489,AC Milan,https://media.api-sports.io/football/teams/489.png,10,2,15,3,12,3,12,4,4,52%,1,,4,469,379,81%
+608728,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,1,2,6,3,3,3,11,5,2,38%,4,,1,397,330,83%
+608728,496,Juventus,https://media.api-sports.io/football/teams/496.png,3,3,9,3,4,5,10,8,4,62%,2,,1,669,608,91%
+608725,505,Inter,https://media.api-sports.io/football/teams/505.png,6,5,12,1,8,4,9,7,3,61%,0,,0,624,567,91%
+608725,506,Benevento,https://media.api-sports.io/football/teams/506.png,0,0,0,0,0,0,14,3,1,39%,2,,3,401,329,82%
+608733,515,Spezia,https://media.api-sports.io/football/teams/515.png,5,3,10,2,8,2,18,2,1,64%,6,1,2,549,475,87%
+608733,494,Udinese,https://media.api-sports.io/football/teams/494.png,3,2,6,1,5,1,19,2,4,36%,4,1,5,316,244,77%
+608732,490,Cagliari,https://media.api-sports.io/football/teams/490.png,5,1,10,4,5,5,10,3,5,29%,2,,3,249,194,78%
+608732,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,4,6,15,5,12,3,11,14,2,71%,3,,3,597,525,88%
+608729,499,Atalanta,https://media.api-sports.io/football/teams/499.png,3,5,8,0,8,0,12,2,1,57%,0,,4,545,432,79%
+608729,487,Lazio,https://media.api-sports.io/football/teams/487.png,7,3,14,4,7,7,20,2,3,43%,2,,2,424,299,71%
+608727,501,Crotone,https://media.api-sports.io/football/teams/501.png,4,6,13,3,6,7,15,3,1,55%,3,,1,478,379,79%
+608727,495,Genoa,https://media.api-sports.io/football/teams/495.png,4,5,11,2,9,2,22,11,9,45%,1,,4,370,277,75%
+608731,492,Napoli,https://media.api-sports.io/football/teams/492.png,3,4,10,3,4,6,15,7,0,47%,2,,1,466,381,82%
+608731,523,Parma,https://media.api-sports.io/football/teams/523.png,1,3,5,1,4,1,17,6,3,53%,4,,1,511,433,85%
+608734,497,AS Roma,https://media.api-sports.io/football/teams/497.png,6,5,15,4,12,3,15,4,2,48%,2,,0,471,368,78%
+608734,504,Verona,https://media.api-sports.io/football/teams/504.png,1,2,8,5,5,3,11,5,6,52%,1,,3,492,391,79%
+608738,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,3,9,15,3,9,6,9,7,0,45%,3,,4,461,402,87%
+608738,505,Inter,https://media.api-sports.io/football/teams/505.png,6,5,14,3,10,4,10,7,1,55%,1,,3,582,509,87%
+608742,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,4,2,8,2,4,4,20,5,4,53%,2,,3,434,343,79%
+608742,515,Spezia,https://media.api-sports.io/football/teams/515.png,6,3,13,4,10,3,15,5,3,47%,3,,3,365,271,74%
+608743,499,Atalanta,https://media.api-sports.io/football/teams/499.png,3,5,11,3,10,1,23,4,3,57%,3,,2,519,411,79%
+608743,503,Torino,https://media.api-sports.io/football/teams/503.png,6,10,21,5,15,6,17,3,1,43%,2,,1,378,275,73%
+608740,496,Juventus,https://media.api-sports.io/football/teams/496.png,2,0,3,1,2,1,9,2,6,48%,2,,3,516,444,86%
+608740,497,AS Roma,https://media.api-sports.io/football/teams/497.png,3,7,14,4,5,9,13,9,1,52%,2,,1,530,458,86%
+608739,495,Genoa,https://media.api-sports.io/football/teams/495.png,2,1,4,1,4,0,13,1,2,33%,2,,8,343,251,73%
+608739,492,Napoli,https://media.api-sports.io/football/teams/492.png,9,10,26,7,12,14,11,6,0,67%,3,,0,664,581,88%
+608741,506,Benevento,https://media.api-sports.io/football/teams/506.png,3,4,12,5,8,4,17,2,1,36%,4,,4,269,172,64%
+608741,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,5,2,13,6,11,2,15,10,3,64%,2,,2,465,381,82%
+608737,489,AC Milan,https://media.api-sports.io/football/teams/489.png,11,5,21,5,12,9,17,8,5,49%,3,,2,430,374,87%
+608737,501,Crotone,https://media.api-sports.io/football/teams/501.png,2,6,10,2,7,3,9,6,0,51%,1,,6,444,364,82%
+608744,494,Udinese,https://media.api-sports.io/football/teams/494.png,8,5,16,3,13,3,9,10,1,46%,2,,0,381,285,75%
+608744,504,Verona,https://media.api-sports.io/football/teams/504.png,0,3,6,3,4,2,15,8,0,54%,4,,6,449,348,78%
+608735,523,Parma,https://media.api-sports.io/football/teams/523.png,5,4,15,6,6,9,13,5,0,57%,2,,2,548,448,82%
+608735,500,Bologna,https://media.api-sports.io/football/teams/500.png,5,6,15,4,8,7,13,1,2,43%,1,,5,416,330,79%
+608736,487,Lazio,https://media.api-sports.io/football/teams/487.png,6,3,14,5,11,3,16,12,2,62%,2,,2,530,452,85%
+608736,490,Cagliari,https://media.api-sports.io/football/teams/490.png,2,4,7,1,6,1,14,2,2,38%,2,,5,322,237,74%
+608746,500,Bologna,https://media.api-sports.io/football/teams/500.png,2,5,12,5,7,5,17,8,2,58%,3,,5,491,410,84%
+608746,506,Benevento,https://media.api-sports.io/football/teams/506.png,6,3,14,5,9,5,10,3,1,42%,2,,1,352,247,70%
+608748,503,Torino,https://media.api-sports.io/football/teams/503.png,2,6,10,2,5,5,13,3,1,45%,2,,2,400,292,73%
+608748,495,Genoa,https://media.api-sports.io/football/teams/495.png,2,2,6,2,3,3,15,5,1,55%,4,,2,502,396,79%
+608749,492,Napoli,https://media.api-sports.io/football/teams/492.png,2,2,8,4,5,3,9,3,1,37%,2,,6,368,285,77%
+608749,496,Juventus,https://media.api-sports.io/football/teams/496.png,6,13,24,5,15,9,18,9,6,63%,3,,1,599,531,89%
+608751,515,Spezia,https://media.api-sports.io/football/teams/515.png,4,5,17,8,12,5,18,5,1,46%,3,,0,372,291,78%
+608751,489,AC Milan,https://media.api-sports.io/football/teams/489.png,0,4,7,3,3,4,14,2,5,54%,1,,2,442,350,79%
+608754,497,AS Roma,https://media.api-sports.io/football/teams/497.png,5,3,13,5,10,3,17,7,0,52%,2,,1,516,444,86%
+608754,494,Udinese,https://media.api-sports.io/football/teams/494.png,1,3,6,2,3,3,7,2,6,48%,0,,2,462,403,87%
+608745,490,Cagliari,https://media.api-sports.io/football/teams/490.png,1,1,4,2,2,2,17,6,0,36%,3,,1,365,240,66%
+608745,499,Atalanta,https://media.api-sports.io/football/teams/499.png,2,5,10,3,7,3,14,6,2,64%,3,,1,645,522,81%
+608747,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,3,3,8,2,5,3,14,6,1,49%,1,,5,425,316,74%
+608747,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,6,5,16,5,10,6,12,7,2,51%,3,,1,422,300,71%
+608753,501,Crotone,https://media.api-sports.io/football/teams/501.png,4,1,6,1,3,3,15,7,1,36%,1,,2,332,253,76%
+608753,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,4,8,23,11,11,12,17,8,5,64%,1,,3,586,506,86%
+608750,505,Inter,https://media.api-sports.io/football/teams/505.png,7,1,12,4,8,4,7,4,1,35%,2,,5,382,286,75%
+608750,487,Lazio,https://media.api-sports.io/football/teams/487.png,6,5,14,3,6,8,4,0,0,65%,1,,4,692,602,87%
+608752,504,Verona,https://media.api-sports.io/football/teams/504.png,4,4,12,4,9,3,16,4,3,50%,4,,2,395,290,73%
+608752,523,Parma,https://media.api-sports.io/football/teams/523.png,2,4,13,7,8,5,15,4,1,50%,2,,3,401,281,70%
+608761,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,5,3,10,2,10,0,20,0,3,37%,4,,2,333,245,74%
+608761,515,Spezia,https://media.api-sports.io/football/teams/515.png,2,4,10,4,6,4,11,6,1,63%,0,,2,547,461,84%
+608762,490,Cagliari,https://media.api-sports.io/football/teams/490.png,1,10,18,7,10,8,20,8,0,46%,3,,4,347,230,66%
+608762,503,Torino,https://media.api-sports.io/football/teams/503.png,5,5,10,0,7,3,19,3,3,54%,2,,1,407,287,71%
+608760,487,Lazio,https://media.api-sports.io/football/teams/487.png,6,3,12,3,8,4,14,4,4,56%,4,,0,520,437,84%
+608760,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,0,4,10,6,9,1,17,5,0,44%,3,,5,368,282,77%
+608764,495,Genoa,https://media.api-sports.io/football/teams/495.png,3,6,14,5,10,4,11,5,0,50%,1,,1,481,355,74%
+608764,504,Verona,https://media.api-sports.io/football/teams/504.png,3,5,9,1,6,3,17,1,2,50%,1,,1,475,355,75%
+608755,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,8,11,30,11,12,18,14,10,1,74%,1,0,1,646,561,87%
+608755,500,Bologna,https://media.api-sports.io/football/teams/500.png,2,2,5,1,2,3,8,6,1,26%,0,1,7,221,147,67%
+608763,523,Parma,https://media.api-sports.io/football/teams/523.png,5,6,16,5,11,5,18,3,1,46%,7,,1,397,335,84%
+608763,494,Udinese,https://media.api-sports.io/football/teams/494.png,3,9,14,2,10,4,15,2,0,54%,4,,3,443,389,88%
+608757,489,AC Milan,https://media.api-sports.io/football/teams/489.png,8,4,14,2,8,6,9,7,3,60%,2,,3,568,502,88%
+608757,505,Inter,https://media.api-sports.io/football/teams/505.png,6,7,16,3,12,4,10,7,1,40%,1,,8,383,315,82%
+608758,499,Atalanta,https://media.api-sports.io/football/teams/499.png,5,8,18,5,17,1,19,6,,47%,2,,1,491,408,83%
+608758,492,Napoli,https://media.api-sports.io/football/teams/492.png,2,1,4,1,3,1,11,2,,53%,1,,1,551,460,83%
+608759,506,Benevento,https://media.api-sports.io/football/teams/506.png,3,1,6,2,4,2,11,1,3,29%,4,1,3,250,177,71%
+608759,497,AS Roma,https://media.api-sports.io/football/teams/497.png,4,3,11,4,6,5,18,9,4,71%,1,0,3,593,506,85%
+608756,496,Juventus,https://media.api-sports.io/football/teams/496.png,8,13,27,6,21,6,18,7,4,59%,3,,2,522,465,89%
+608756,501,Crotone,https://media.api-sports.io/football/teams/501.png,2,11,15,2,8,7,9,3,1,41%,1,,5,356,310,87%
+608773,515,Spezia,https://media.api-sports.io/football/teams/515.png,4,4,11,3,6,5,18,8,2,53%,3,,3,402,323,80%
+608773,523,Parma,https://media.api-sports.io/football/teams/523.png,5,3,11,3,9,2,19,2,2,47%,4,,2,364,264,73%
+608771,500,Bologna,https://media.api-sports.io/football/teams/500.png,6,4,11,1,5,6,9,4,0,40%,1,,8,363,272,75%
+608771,487,Lazio,https://media.api-sports.io/football/teams/487.png,7,6,20,7,14,6,18,7,3,60%,2,,4,521,423,81%
+608770,504,Verona,https://media.api-sports.io/football/teams/504.png,4,5,13,4,7,6,18,8,1,45%,2,,4,373,291,78%
+608770,496,Juventus,https://media.api-sports.io/football/teams/496.png,5,3,15,7,8,7,14,5,3,55%,2,,3,461,362,79%
+608765,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,3,5,8,0,4,4,7,5,1,44%,1,,6,478,358,75%
+608765,499,Atalanta,https://media.api-sports.io/football/teams/499.png,8,7,20,5,15,5,17,6,2,56%,3,,2,593,477,80%
+608768,494,Udinese,https://media.api-sports.io/football/teams/494.png,3,4,9,2,3,6,12,3,2,45%,1,,2,383,298,78%
+608768,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,2,3,8,3,4,4,20,9,1,55%,2,,2,455,371,82%
+608767,501,Crotone,https://media.api-sports.io/football/teams/501.png,3,8,14,3,8,6,17,7,2,55%,2,0,2,432,361,84%
+608767,490,Cagliari,https://media.api-sports.io/football/teams/490.png,4,3,9,2,6,3,14,4,0,45%,4,1,2,348,256,74%
+608769,505,Inter,https://media.api-sports.io/football/teams/505.png,12,7,24,5,17,7,12,9,,50%,0,,2,543,475,87%
+608769,495,Genoa,https://media.api-sports.io/football/teams/495.png,2,1,3,0,1,2,8,1,,50%,2,,10,535,478,89%
+608766,492,Napoli,https://media.api-sports.io/football/teams/492.png,5,8,18,5,9,9,13,8,3,60%,3,1,3,534,468,88%
+608766,506,Benevento,https://media.api-sports.io/football/teams/506.png,3,0,4,1,3,1,15,2,4,40%,2,0,3,345,275,80%
+608772,497,AS Roma,https://media.api-sports.io/football/teams/497.png,8,4,18,6,15,3,14,5,1,53%,3,,7,469,394,84%
+608772,489,AC Milan,https://media.api-sports.io/football/teams/489.png,9,5,17,3,14,3,9,8,4,47%,3,,7,409,340,83%
+608781,496,Juventus,https://media.api-sports.io/football/teams/496.png,7,3,18,8,14,4,14,5,4,46%,2,,1,449,375,84%
+608781,515,Spezia,https://media.api-sports.io/football/teams/515.png,1,4,12,7,6,6,13,10,2,54%,0,,4,503,436,87%
+608778,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,5,3,14,6,9,5,17,6,1,56%,2,,2,548,484,88%
+608778,492,Napoli,https://media.api-sports.io/football/teams/492.png,5,4,16,7,10,6,14,4,4,44%,2,,3,420,351,84%
+608783,489,AC Milan,https://media.api-sports.io/football/teams/489.png,7,2,12,3,8,4,23,7,2,61%,4,,0,541,471,87%
+608783,494,Udinese,https://media.api-sports.io/football/teams/494.png,2,3,5,0,4,1,13,2,2,39%,1,,6,348,263,76%
+608775,490,Cagliari,https://media.api-sports.io/football/teams/490.png,5,1,11,5,7,4,16,10,2,35%,2,,5,281,183,65%
+608775,500,Bologna,https://media.api-sports.io/football/teams/500.png,5,6,13,2,10,3,18,4,1,65%,2,,2,529,446,84%
+608780,495,Genoa,https://media.api-sports.io/football/teams/495.png,1,3,6,2,4,2,15,2,4,50%,1,,3,523,427,82%
+608780,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,4,3,11,4,4,7,16,4,1,50%,0,,0,507,412,81%
+608776,499,Atalanta,https://media.api-sports.io/football/teams/499.png,11,8,21,2,14,7,7,4,1,65%,0,,1,647,546,84%
+608776,501,Crotone,https://media.api-sports.io/football/teams/501.png,2,1,4,1,3,1,13,3,0,35%,2,,6,339,227,67%
+608779,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,2,3,7,2,5,2,9,2,1,41%,1,,4,365,271,74%
+608779,497,AS Roma,https://media.api-sports.io/football/teams/497.png,6,4,12,2,6,6,15,3,4,59%,2,,2,517,426,82%
+608784,506,Benevento,https://media.api-sports.io/football/teams/506.png,1,0,5,4,3,2,8,2,0,50%,0,,2,446,338,76%
+608784,504,Verona,https://media.api-sports.io/football/teams/504.png,4,2,9,3,8,1,20,7,6,50%,1,,1,430,334,78%
+608777,523,Parma,https://media.api-sports.io/football/teams/523.png,2,6,12,4,8,4,8,2,1,52%,0,,4,553,482,87%
+608777,505,Inter,https://media.api-sports.io/football/teams/505.png,6,4,11,1,11,0,11,2,3,48%,1,,1,504,445,88%
+608786,515,Spezia,https://media.api-sports.io/football/teams/515.png,3,6,11,2,8,3,13,3,2,73%,2,,1,651,556,85%
+608786,506,Benevento,https://media.api-sports.io/football/teams/506.png,2,3,5,0,3,2,16,1,2,27%,4,,2,239,143,60%
+608793,494,Udinese,https://media.api-sports.io/football/teams/494.png,7,3,13,3,10,3,10,5,9,28%,1,,2,275,209,76%
+608793,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,2,2,10,6,5,5,11,6,0,72%,0,,5,709,632,89%
+608790,496,Juventus,https://media.api-sports.io/football/teams/496.png,5,2,7,0,5,2,10,4,1,52%,0,,3,527,458,87%
+608790,487,Lazio,https://media.api-sports.io/football/teams/487.png,4,9,15,2,7,8,13,4,1,48%,1,,2,491,425,87%
+608789,497,AS Roma,https://media.api-sports.io/football/teams/497.png,2,8,17,7,8,9,15,7,2,53%,1,,2,563,484,86%
+608789,495,Genoa,https://media.api-sports.io/football/teams/495.png,2,3,6,1,3,3,15,1,3,47%,4,,1,488,414,85%
+608794,501,Crotone,https://media.api-sports.io/football/teams/501.png,7,6,18,5,13,5,19,8,0,43%,4,0,2,312,237,76%
+608794,503,Torino,https://media.api-sports.io/football/teams/503.png,4,10,18,4,10,8,22,8,1,57%,3,1,3,412,339,82%
+608792,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,2,2,5,1,5,0,19,3,0,41%,0,,2,344,259,75%
+608792,523,Parma,https://media.api-sports.io/football/teams/523.png,5,3,8,0,7,1,16,3,1,59%,3,,0,480,403,84%
+608791,504,Verona,https://media.api-sports.io/football/teams/504.png,1,6,11,4,9,2,14,8,2,54%,2,,1,470,351,75%
+608791,489,AC Milan,https://media.api-sports.io/football/teams/489.png,3,6,11,2,5,6,12,1,0,46%,0,,0,409,301,74%
+608788,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,5,6,12,1,5,7,15,3,3,51%,4,,2,478,400,84%
+608788,490,Cagliari,https://media.api-sports.io/football/teams/490.png,4,1,9,4,6,3,14,5,5,49%,3,,3,459,377,82%
+608787,492,Napoli,https://media.api-sports.io/football/teams/492.png,7,4,14,3,5,9,12,6,1,43%,2,,3,412,319,77%
+608787,500,Bologna,https://media.api-sports.io/football/teams/500.png,4,8,16,4,6,10,14,3,1,57%,0,,4,522,417,80%
+608785,505,Inter,https://media.api-sports.io/football/teams/505.png,1,0,5,4,3,2,11,7,2,44%,0,,2,488,399,82%
+608785,499,Atalanta,https://media.api-sports.io/football/teams/499.png,3,8,13,2,11,2,17,7,0,56%,1,,0,594,507,85%
+608795,487,Lazio,https://media.api-sports.io/football/teams/487.png,6,12,25,7,18,7,9,5,5,63%,0,,1,612,530,87%
+608795,501,Crotone,https://media.api-sports.io/football/teams/501.png,3,3,6,0,4,2,11,1,1,37%,3,,3,349,265,76%
+608802,499,Atalanta,https://media.api-sports.io/football/teams/499.png,7,4,14,3,11,3,17,3,2,47%,2,,2,509,410,81%
+608802,515,Spezia,https://media.api-sports.io/football/teams/515.png,3,2,7,2,5,2,6,5,3,53%,0,,4,570,457,80%
+608804,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,8,3,17,6,10,7,15,6,0,41%,3,,3,360,284,79%
+608804,504,Verona,https://media.api-sports.io/football/teams/504.png,6,2,13,5,8,5,17,5,8,59%,2,,4,504,423,84%
+608796,506,Benevento,https://media.api-sports.io/football/teams/506.png,4,7,17,6,12,5,15,8,2,60%,3,,1,522,450,86%
+608796,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,5,3,11,3,9,2,18,3,1,40%,1,,3,356,277,78%
+608803,495,Genoa,https://media.api-sports.io/football/teams/495.png,2,6,11,3,9,2,14,6,0,57%,3,,2,535,465,87%
+608803,494,Udinese,https://media.api-sports.io/football/teams/494.png,3,3,9,3,7,2,6,3,1,43%,1,,1,404,328,81%
+608801,500,Bologna,https://media.api-sports.io/football/teams/500.png,7,0,10,3,8,2,16,2,3,43%,2,,3,386,299,77%
+608801,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,4,9,18,5,13,5,11,6,3,57%,2,,3,479,394,82%
+608797,503,Torino,https://media.api-sports.io/football/teams/503.png,3,3,7,1,6,1,11,1,1,31%,0,,1,317,235,74%
+608797,505,Inter,https://media.api-sports.io/football/teams/505.png,3,6,13,4,9,4,12,8,2,69%,1,,2,688,611,89%
+608800,523,Parma,https://media.api-sports.io/football/teams/523.png,4,2,7,1,5,2,18,0,2,41%,3,,6,365,300,82%
+608800,497,AS Roma,https://media.api-sports.io/football/teams/497.png,6,8,21,7,12,9,16,12,0,59%,3,,2,484,417,86%
+608798,490,Cagliari,https://media.api-sports.io/football/teams/490.png,4,5,12,3,5,7,12,8,1,50%,0,,3,484,415,86%
+608798,496,Juventus,https://media.api-sports.io/football/teams/496.png,6,1,10,3,10,0,16,5,0,50%,2,,3,496,428,86%
+608799,489,AC Milan,https://media.api-sports.io/football/teams/489.png,5,7,13,1,7,6,12,5,3,55%,1,1,3,517,447,86%
+608799,492,Napoli,https://media.api-sports.io/football/teams/492.png,4,8,15,3,11,4,9,4,1,45%,2,0,5,427,363,85%
+608774,503,Torino,https://media.api-sports.io/football/teams/503.png,11,8,22,3,14,8,10,6,2,49%,1,,1,440,358,81%
+608774,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,4,7,14,3,8,6,16,3,1,51%,2,,8,468,394,84%
+608809,523,Parma,https://media.api-sports.io/football/teams/523.png,8,4,12,0,12,0,22,1,0,56%,5,,0,563,477,85%
+608809,495,Genoa,https://media.api-sports.io/football/teams/495.png,2,5,9,2,6,3,8,3,1,44%,2,,7,414,327,79%
+608807,501,Crotone,https://media.api-sports.io/football/teams/501.png,4,7,17,6,10,7,11,10,2,47%,4,,6,351,268,76%
+608807,500,Bologna,https://media.api-sports.io/football/teams/500.png,9,7,21,5,13,8,16,3,0,53%,7,,2,390,298,76%
+608808,515,Spezia,https://media.api-sports.io/football/teams/515.png,5,4,12,3,8,4,12,4,0,54%,1,,6,465,358,77%
+608808,490,Cagliari,https://media.api-sports.io/football/teams/490.png,6,5,13,2,10,3,16,4,4,46%,2,,3,382,285,75%
+608805,504,Verona,https://media.api-sports.io/football/teams/504.png,1,1,3,1,2,1,23,4,3,51%,3,,4,445,303,68%
+608805,499,Atalanta,https://media.api-sports.io/football/teams/499.png,6,5,16,5,11,5,20,7,3,49%,2,,1,406,271,67%
+608810,494,Udinese,https://media.api-sports.io/football/teams/494.png,3,8,12,1,7,5,9,6,0,50%,1,,5,446,373,84%
+608810,487,Lazio,https://media.api-sports.io/football/teams/487.png,6,5,16,5,12,4,13,11,3,50%,3,,3,445,379,85%
+608806,496,Juventus,https://media.api-sports.io/football/teams/496.png,7,9,21,5,15,6,12,9,5,73%,2,,0,624,537,86%
+608806,506,Benevento,https://media.api-sports.io/football/teams/506.png,1,4,7,2,3,4,13,1,3,27%,4,,8,232,147,63%
+608814,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,2,3,6,1,5,1,15,1,1,35%,0,,0,293,198,68%
+608814,503,Torino,https://media.api-sports.io/football/teams/503.png,0,5,11,6,5,6,18,7,3,65%,1,,1,518,425,82%
+608811,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,2,5,7,0,3,4,6,8,1,39%,1,,,325,257,79%
+608811,489,AC Milan,https://media.api-sports.io/football/teams/489.png,3,7,13,3,5,8,11,8,1,61%,3,,,504,433,86%
+608812,497,AS Roma,https://media.api-sports.io/football/teams/497.png,3,5,8,0,6,2,17,6,1,52%,5,,3,542,479,88%
+608812,492,Napoli,https://media.api-sports.io/football/teams/492.png,5,3,11,3,7,4,13,4,2,48%,3,,3,496,429,86%
+608821,489,AC Milan,https://media.api-sports.io/football/teams/489.png,3,3,14,8,7,7,15,5,9,63%,2,0,3,592,501,85%
+608821,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,4,2,6,0,4,2,15,5,2,37%,5,1,1,340,247,73%
+608822,487,Lazio,https://media.api-sports.io/football/teams/487.png,5,5,11,1,8,3,18,3,7,50%,3,2,2,483,389,81%
+608822,515,Spezia,https://media.api-sports.io/football/teams/515.png,3,3,7,1,5,2,20,4,3,50%,3,0,3,460,358,78%
+608820,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,6,3,13,4,10,3,15,3,3,69%,4,,6,781,730,93%
+608820,497,AS Roma,https://media.api-sports.io/football/teams/497.png,8,2,11,1,7,4,15,4,2,31%,3,,4,342,285,83%
+608824,490,Cagliari,https://media.api-sports.io/football/teams/490.png,5,14,24,5,17,7,16,6,1,48%,1,,3,374,265,71%
+608824,504,Verona,https://media.api-sports.io/football/teams/504.png,5,3,10,2,6,4,18,5,3,52%,3,,5,414,295,71%
+608815,492,Napoli,https://media.api-sports.io/football/teams/492.png,8,13,26,5,17,9,5,4,2,63%,0,,1,651,585,90%
+608815,501,Crotone,https://media.api-sports.io/football/teams/501.png,4,1,8,3,6,2,17,6,2,37%,4,,4,366,290,79%
+608816,495,Genoa,https://media.api-sports.io/football/teams/495.png,1,5,8,2,6,2,17,4,4,56%,2,0,2,510,434,85%
+608816,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,3,5,10,2,5,5,10,2,0,44%,1,1,0,402,332,83%
+608823,499,Atalanta,https://media.api-sports.io/football/teams/499.png,8,9,23,6,14,9,15,4,1,57%,0,,1,587,501,85%
+608823,494,Udinese,https://media.api-sports.io/football/teams/494.png,3,3,9,3,4,5,9,1,1,43%,2,,5,416,320,77%
+608819,506,Benevento,https://media.api-sports.io/football/teams/506.png,4,1,6,1,5,1,20,3,1,29%,2,,4,255,164,64%
+608819,523,Parma,https://media.api-sports.io/football/teams/523.png,6,10,17,1,10,7,19,3,4,71%,1,,2,606,515,85%
+608818,503,Torino,https://media.api-sports.io/football/teams/503.png,6,2,10,2,5,5,16,5,0,29%,3,,6,242,183,76%
+608818,496,Juventus,https://media.api-sports.io/football/teams/496.png,8,11,22,3,16,6,15,6,1,71%,2,,4,593,536,90%
+608817,500,Bologna,https://media.api-sports.io/football/teams/500.png,2,7,12,3,7,5,17,4,0,56%,4,,2,550,466,85%
+608817,505,Inter,https://media.api-sports.io/football/teams/505.png,3,6,14,5,7,7,15,4,2,44%,4,,2,432,343,79%
+608504,496,Juventus,https://media.api-sports.io/football/teams/496.png,3,5,12,4,10,2,17,2,2,46%,1,,3,515,453,88%
+608504,492,Napoli,https://media.api-sports.io/football/teams/492.png,4,5,14,5,6,8,12,6,0,54%,2,,1,579,512,88%
+608813,505,Inter,https://media.api-sports.io/football/teams/505.png,2,3,7,2,5,2,8,1,1,29%,2,,2,361,316,88%
+608813,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,3,6,15,6,6,9,13,8,1,71%,3,,0,848,802,95%
+608828,515,Spezia,https://media.api-sports.io/football/teams/515.png,3,2,7,2,6,1,12,3,3,60%,1,,3,568,479,84%
+608828,501,Crotone,https://media.api-sports.io/football/teams/501.png,5,1,9,3,7,2,15,4,3,40%,1,,0,377,293,78%
+608831,523,Parma,https://media.api-sports.io/football/teams/523.png,5,8,16,3,11,5,13,7,1,58%,4,0,2,555,487,88%
+608831,489,AC Milan,https://media.api-sports.io/football/teams/489.png,5,3,10,2,8,2,11,3,0,42%,4,1,4,404,340,84%
+608834,494,Udinese,https://media.api-sports.io/football/teams/494.png,4,9,16,3,6,10,20,5,2,64%,0,,0,564,496,88%
+608834,503,Torino,https://media.api-sports.io/football/teams/503.png,1,8,10,1,5,5,20,4,1,36%,3,,4,310,237,76%
+608827,505,Inter,https://media.api-sports.io/football/teams/505.png,7,5,15,3,8,7,10,5,2,53%,1,,1,611,552,90%
+608827,490,Cagliari,https://media.api-sports.io/football/teams/490.png,1,1,7,5,3,4,12,0,1,47%,1,,6,542,463,85%
+608829,496,Juventus,https://media.api-sports.io/football/teams/496.png,12,8,25,5,19,6,15,8,,57%,3,,2,671,620,92%
+608829,495,Genoa,https://media.api-sports.io/football/teams/495.png,3,5,10,2,6,4,11,6,,43%,3,,9,484,429,89%
+608832,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,4,2,13,7,8,5,14,8,2,43%,0,,6,351,256,73%
+608832,492,Napoli,https://media.api-sports.io/football/teams/492.png,8,8,20,4,11,9,10,7,5,57%,3,,4,484,388,80%
+608830,504,Verona,https://media.api-sports.io/football/teams/504.png,0,2,5,3,2,3,15,5,0,44%,0,,,410,301,73%
+608830,487,Lazio,https://media.api-sports.io/football/teams/487.png,1,8,12,3,7,5,13,4,1,56%,2,,,525,420,80%
+608826,497,AS Roma,https://media.api-sports.io/football/teams/497.png,6,4,14,4,8,6,14,4,0,43%,3,,4,434,343,79%
+608826,500,Bologna,https://media.api-sports.io/football/teams/500.png,4,6,12,2,7,5,14,6,2,57%,1,,5,560,471,84%
+608825,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,2,5,10,3,7,3,15,0,2,39%,3,,5,392,297,76%
+608825,499,Atalanta,https://media.api-sports.io/football/teams/499.png,8,5,15,2,11,4,13,6,2,61%,1,,0,594,501,84%
+608833,506,Benevento,https://media.api-sports.io/football/teams/506.png,3,3,9,3,7,2,12,3,2,30%,3,,5,284,198,70%
+608833,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,5,7,15,3,9,6,14,8,1,70%,2,,3,672,599,89%
+608844,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,5,4,12,3,10,2,16,5,1,49%,3,,4,388,295,76%
+608844,504,Verona,https://media.api-sports.io/football/teams/504.png,5,7,19,7,14,5,14,7,4,51%,3,,2,394,297,75%
+608843,501,Crotone,https://media.api-sports.io/football/teams/501.png,2,4,6,0,4,2,12,5,2,55%,0,0,3,500,420,84%
+608843,494,Udinese,https://media.api-sports.io/football/teams/494.png,5,3,11,3,8,3,19,7,3,45%,2,1,1,404,332,82%
+608836,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,5,5,11,1,6,5,8,3,4,72%,3,,4,694,612,88%
+608836,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,5,2,7,0,4,3,16,4,2,28%,5,,2,251,178,71%
+608840,490,Cagliari,https://media.api-sports.io/football/teams/490.png,5,9,20,6,10,10,14,0,1,64%,4,,2,536,452,84%
+608840,523,Parma,https://media.api-sports.io/football/teams/523.png,5,3,11,3,8,3,12,4,2,36%,2,,1,305,225,74%
+608837,489,AC Milan,https://media.api-sports.io/football/teams/489.png,4,6,17,7,8,9,10,5,0,53%,0,,1,516,431,84%
+608837,495,Genoa,https://media.api-sports.io/football/teams/495.png,4,6,12,2,9,3,13,4,1,47%,1,,3,443,359,81%
+608835,487,Lazio,https://media.api-sports.io/football/teams/487.png,7,4,13,2,11,2,14,5,1,57%,2,,3,533,465,87%
+608835,506,Benevento,https://media.api-sports.io/football/teams/506.png,6,7,16,3,10,6,10,4,1,43%,3,,4,381,308,81%
+608839,499,Atalanta,https://media.api-sports.io/football/teams/499.png,2,5,14,7,7,7,18,3,,45%,3,,1,464,408,88%
+608839,496,Juventus,https://media.api-sports.io/football/teams/496.png,1,5,11,5,9,2,16,8,,55%,2,,1,555,476,86%
+608842,500,Bologna,https://media.api-sports.io/football/teams/500.png,5,3,11,3,9,2,15,4,6,40%,1,,3,351,269,77%
+608842,515,Spezia,https://media.api-sports.io/football/teams/515.png,4,1,8,3,6,2,12,8,4,60%,1,,1,520,438,84%
+608841,503,Torino,https://media.api-sports.io/football/teams/503.png,11,11,27,5,20,7,13,11,1,49%,2,0,3,390,308,79%
+608841,497,AS Roma,https://media.api-sports.io/football/teams/497.png,4,3,9,2,8,1,13,3,1,51%,2,1,8,428,351,82%
+608838,492,Napoli,https://media.api-sports.io/football/teams/492.png,1,6,12,5,6,6,12,3,0,56%,5,,1,597,554,93%
+608838,505,Inter,https://media.api-sports.io/football/teams/505.png,2,6,10,2,7,3,12,3,1,44%,2,,1,457,404,88%
+608848,504,Verona,https://media.api-sports.io/football/teams/504.png,5,2,9,2,8,1,16,5,7,64%,2,,2,589,489,83%
+608848,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,4,2,6,0,5,1,19,3,2,36%,3,,3,313,229,73%
+608853,489,AC Milan,https://media.api-sports.io/football/teams/489.png,6,4,18,8,11,7,18,3,1,46%,0,,4,434,374,86%
+608853,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,5,5,16,6,10,6,13,7,0,54%,1,,5,492,422,86%
+608847,494,Udinese,https://media.api-sports.io/football/teams/494.png,2,5,12,5,7,5,11,2,1,57%,0,,3,540,461,85%
+608847,490,Cagliari,https://media.api-sports.io/football/teams/490.png,4,8,15,3,9,6,15,5,0,43%,2,,2,403,335,83%
+608846,495,Genoa,https://media.api-sports.io/football/teams/495.png,4,2,13,7,8,5,14,3,2,63%,2,,0,619,517,84%
+608846,506,Benevento,https://media.api-sports.io/football/teams/506.png,2,6,8,0,4,4,18,0,1,37%,0,,2,366,260,71%
+608851,496,Juventus,https://media.api-sports.io/football/teams/496.png,6,6,16,4,10,6,12,6,2,64%,2,,1,685,614,90%
+608851,523,Parma,https://media.api-sports.io/football/teams/523.png,3,5,9,1,7,2,18,6,0,36%,2,,3,377,320,85%
+608854,500,Bologna,https://media.api-sports.io/football/teams/500.png,1,4,8,3,2,6,26,3,0,48%,4,,2,354,256,72%
+608854,503,Torino,https://media.api-sports.io/football/teams/503.png,3,10,18,5,11,7,15,7,3,52%,2,,0,369,273,74%
+608852,501,Crotone,https://media.api-sports.io/football/teams/501.png,4,3,7,0,3,4,13,2,2,41%,1,,4,436,339,78%
+608852,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,5,7,14,2,14,0,7,6,0,59%,1,,4,606,512,84%
+608849,515,Spezia,https://media.api-sports.io/football/teams/515.png,1,0,1,0,0,1,8,0,0,36%,2,,4,370,290,78%
+608849,505,Inter,https://media.api-sports.io/football/teams/505.png,5,12,20,3,16,4,7,8,6,64%,0,,0,632,563,89%
+608845,497,AS Roma,https://media.api-sports.io/football/teams/497.png,3,8,14,3,7,7,16,4,0,59%,4,1,7,566,465,82%
+608845,499,Atalanta,https://media.api-sports.io/football/teams/499.png,8,12,22,2,17,5,7,8,1,41%,2,1,2,376,297,79%
+608850,492,Napoli,https://media.api-sports.io/football/teams/492.png,8,0,10,2,6,4,7,2,4,48%,4,,1,474,417,88%
+608850,487,Lazio,https://media.api-sports.io/football/teams/487.png,3,9,16,4,12,4,18,3,0,52%,4,,3,488,428,88%
+608862,495,Genoa,https://media.api-sports.io/football/teams/495.png,6,3,10,1,6,4,18,0,1,34%,2,,1,311,226,73%
+608862,515,Spezia,https://media.api-sports.io/football/teams/515.png,1,5,9,3,3,6,14,3,1,66%,2,,4,585,500,85%
+608856,523,Parma,https://media.api-sports.io/football/teams/523.png,3,3,14,8,8,6,15,7,4,57%,3,,,478,412,86%
+608856,501,Crotone,https://media.api-sports.io/football/teams/501.png,4,3,13,6,9,4,11,5,2,43%,2,,,367,288,78%
+608861,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,7,3,16,6,9,7,15,8,3,66%,,,2,712,648,91%
+608861,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,2,5,11,4,5,6,10,3,0,34%,,,6,360,289,80%
+608863,506,Benevento,https://media.api-sports.io/football/teams/506.png,7,5,21,9,17,4,18,11,0,57%,2,,1,441,364,83%
+608863,494,Udinese,https://media.api-sports.io/football/teams/494.png,5,3,9,1,7,2,20,2,2,43%,2,,5,339,265,78%
+608857,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,4,4,12,4,6,6,13,7,1,32%,3,,0,247,179,72%
+608857,496,Juventus,https://media.api-sports.io/football/teams/496.png,1,5,9,3,9,0,16,2,4,68%,1,,3,532,468,88%
+608864,505,Inter,https://media.api-sports.io/football/teams/505.png,3,8,12,1,6,6,7,3,1,49%,0,,1,526,450,86%
+608864,504,Verona,https://media.api-sports.io/football/teams/504.png,1,8,12,3,11,1,13,8,0,51%,3,,2,535,461,86%
+608860,490,Cagliari,https://media.api-sports.io/football/teams/490.png,6,4,11,1,6,5,14,4,4,28%,3,,5,238,171,72%
+608860,497,AS Roma,https://media.api-sports.io/football/teams/497.png,7,5,17,5,12,5,17,10,1,72%,1,,3,597,520,87%
+608855,499,Atalanta,https://media.api-sports.io/football/teams/499.png,10,7,25,8,19,6,12,8,1,56%,0,0,3,502,419,83%
+608855,500,Bologna,https://media.api-sports.io/football/teams/500.png,3,3,8,2,3,5,8,3,1,44%,1,1,4,387,306,79%
+608859,503,Torino,https://media.api-sports.io/football/teams/503.png,5,7,15,3,10,5,15,8,0,47%,3,1,5,404,343,85%
+608859,492,Napoli,https://media.api-sports.io/football/teams/492.png,7,11,25,7,19,6,15,11,4,53%,1,0,5,459,398,87%
+608858,487,Lazio,https://media.api-sports.io/football/teams/487.png,5,6,14,3,12,2,9,1,3,40%,2,,5,388,296,76%
+608858,489,AC Milan,https://media.api-sports.io/football/teams/489.png,5,7,16,4,8,8,11,9,0,60%,0,,2,565,484,86%
+608874,504,Verona,https://media.api-sports.io/football/teams/504.png,5,1,8,2,4,4,27,5,5,46%,6,,1,343,248,72%
+608874,515,Spezia,https://media.api-sports.io/football/teams/515.png,2,6,13,5,7,6,16,5,1,54%,2,,4,401,316,79%
+608870,501,Crotone,https://media.api-sports.io/football/teams/501.png,1,1,6,4,3,3,10,4,2,38%,1,,3,388,346,89%
+608870,505,Inter,https://media.api-sports.io/football/teams/505.png,5,8,23,10,15,8,9,11,3,62%,2,,1,609,561,92%
+608866,489,AC Milan,https://media.api-sports.io/football/teams/489.png,11,6,20,3,17,3,16,6,1,56%,2,,1,572,520,91%
+608866,506,Benevento,https://media.api-sports.io/football/teams/506.png,1,7,13,5,8,5,8,7,1,44%,0,,9,421,361,86%
+608869,487,Lazio,https://media.api-sports.io/football/teams/487.png,11,4,20,5,17,3,13,7,1,51%,3,,3,505,429,85%
+608869,495,Genoa,https://media.api-sports.io/football/teams/495.png,5,2,9,2,5,4,12,4,2,49%,4,,7,459,385,84%
+608865,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,4,4,11,3,4,7,18,4,2,63%,6,1,6,601,524,87%
+608865,499,Atalanta,https://media.api-sports.io/football/teams/499.png,8,1,10,1,6,4,12,4,1,37%,1,1,3,344,271,79%
+608867,492,Napoli,https://media.api-sports.io/football/teams/492.png,5,11,19,3,14,5,8,3,4,56%,1,,3,540,479,89%
+608867,490,Cagliari,https://media.api-sports.io/football/teams/490.png,4,5,14,5,9,5,14,1,1,44%,3,,4,409,330,81%
+608868,500,Bologna,https://media.api-sports.io/football/teams/500.png,6,1,12,5,7,5,16,3,2,63%,2,,0,486,427,88%
+608868,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,3,4,9,2,5,4,12,5,1,37%,2,,3,276,211,76%
+608871,494,Udinese,https://media.api-sports.io/football/teams/494.png,2,4,8,2,4,4,14,2,2,41%,3,,2,432,355,82%
+608871,496,Juventus,https://media.api-sports.io/football/teams/496.png,4,3,14,7,9,5,18,6,0,59%,0,,1,583,526,90%
+608873,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,7,2,13,4,10,3,14,8,0,53%,0,,3,462,362,78%
+608873,497,AS Roma,https://media.api-sports.io/football/teams/497.png,3,3,10,4,8,2,13,8,4,47%,3,,5,398,308,77%
+608872,503,Torino,https://media.api-sports.io/football/teams/503.png,3,9,13,1,12,1,10,5,2,50%,0,,1,411,317,77%
+608872,523,Parma,https://media.api-sports.io/football/teams/523.png,1,6,10,3,7,3,17,2,3,50%,3,,2,401,309,77%
+608876,494,Udinese,https://media.api-sports.io/football/teams/494.png,3,4,9,2,4,5,12,5,0,47%,1,,3,419,343,82%
+608876,500,Bologna,https://media.api-sports.io/football/teams/500.png,4,9,16,3,10,6,18,10,2,53%,1,,2,452,386,85%
+608881,515,Spezia,https://media.api-sports.io/football/teams/515.png,2,1,8,5,5,3,15,1,1,49%,3,,2,464,386,83%
+608881,492,Napoli,https://media.api-sports.io/football/teams/492.png,6,4,12,2,10,2,17,2,4,51%,2,,1,488,411,84%
+608882,505,Inter,https://media.api-sports.io/football/teams/505.png,7,3,14,4,8,6,10,2,2,55%,0,,2,604,536,89%
+608882,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,3,3,14,8,10,4,14,8,1,45%,2,,2,477,410,86%
+608879,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,4,3,9,2,7,2,12,5,0,29%,4,0,3,231,166,72%
+608879,487,Lazio,https://media.api-sports.io/football/teams/487.png,3,7,11,1,10,1,14,7,4,71%,8,1,3,566,502,89%
+608883,495,Genoa,https://media.api-sports.io/football/teams/495.png,4,6,14,4,10,4,18,8,2,39%,2,,5,349,262,75%
+608883,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,6,4,14,4,8,6,15,2,1,61%,0,,3,574,489,85%
+608884,504,Verona,https://media.api-sports.io/football/teams/504.png,6,11,24,7,17,7,16,9,2,57%,3,,2,430,336,78%
+608884,503,Torino,https://media.api-sports.io/football/teams/503.png,3,4,7,0,5,2,22,3,1,43%,3,,5,321,216,67%
+608877,506,Benevento,https://media.api-sports.io/football/teams/506.png,7,0,7,0,6,1,17,4,3,56%,2,,0,319,247,77%
+608877,490,Cagliari,https://media.api-sports.io/football/teams/490.png,3,3,9,3,6,3,19,5,2,44%,2,,6,251,173,69%
+608875,523,Parma,https://media.api-sports.io/football/teams/523.png,2,3,7,2,5,2,12,1,2,44%,1,,7,463,382,83%
+608875,499,Atalanta,https://media.api-sports.io/football/teams/499.png,12,5,18,1,15,3,15,3,4,56%,1,,0,581,505,87%
+608878,497,AS Roma,https://media.api-sports.io/football/teams/497.png,10,9,22,3,12,10,10,8,2,61%,2,,2,561,495,88%
+608878,501,Crotone,https://media.api-sports.io/football/teams/501.png,2,5,7,0,4,3,11,4,5,39%,0,,5,342,282,82%
+608880,496,Juventus,https://media.api-sports.io/football/teams/496.png,1,8,16,7,9,7,17,8,1,56%,2,,2,574,508,89%
+608880,489,AC Milan,https://media.api-sports.io/football/teams/489.png,5,1,10,4,5,5,12,2,3,44%,2,,1,456,388,85%
+608893,492,Napoli,https://media.api-sports.io/football/teams/492.png,9,8,22,5,13,9,7,8,1,51%,0,,0,534,478,90%
+608893,494,Udinese,https://media.api-sports.io/football/teams/494.png,1,3,4,0,3,1,14,3,1,49%,1,,4,494,428,87%
+608886,490,Cagliari,https://media.api-sports.io/football/teams/490.png,0,5,8,3,7,1,18,3,5,56%,1,,,465,395,85%
+608886,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,0,2,2,0,1,1,10,1,0,44%,2,,,367,301,82%
+608890,487,Lazio,https://media.api-sports.io/football/teams/487.png,5,10,17,2,12,5,13,7,,51%,1,,4,498,429,86%
+608890,523,Parma,https://media.api-sports.io/football/teams/523.png,4,6,12,2,1,11,14,2,,49%,3,,4,478,406,85%
+608888,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,3,11,19,5,13,6,10,3,0,65%,1,,4,706,652,92%
+608888,496,Juventus,https://media.api-sports.io/football/teams/496.png,7,5,15,3,9,6,13,5,2,35%,2,,2,365,303,83%
+608892,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,5,6,16,5,12,4,9,5,1,61%,2,,4,596,508,85%
+608892,515,Spezia,https://media.api-sports.io/football/teams/515.png,6,7,15,2,14,1,17,5,2,39%,2,,3,364,283,78%
+608885,499,Atalanta,https://media.api-sports.io/football/teams/499.png,4,5,15,6,11,4,19,7,0,71%,2,0,0,710,635,89%
+608885,506,Benevento,https://media.api-sports.io/football/teams/506.png,0,1,4,3,4,0,11,5,3,29%,5,1,2,272,192,71%
+608887,500,Bologna,https://media.api-sports.io/football/teams/500.png,6,7,22,9,11,11,9,12,0,66%,1,,5,536,447,83%
+608887,495,Genoa,https://media.api-sports.io/football/teams/495.png,7,3,11,1,8,3,11,4,2,34%,2,,6,276,185,67%
+608889,503,Torino,https://media.api-sports.io/football/teams/503.png,1,9,14,4,7,7,15,2,1,41%,2,,1,377,325,86%
+608889,489,AC Milan,https://media.api-sports.io/football/teams/489.png,8,3,12,1,9,3,16,3,2,59%,1,,1,539,471,87%
+608891,505,Inter,https://media.api-sports.io/football/teams/505.png,5,6,14,3,9,5,4,5,2,51%,0,,4,533,483,91%
+608891,497,AS Roma,https://media.api-sports.io/football/teams/497.png,5,9,20,6,9,11,12,8,0,49%,4,,2,499,447,90%
+608894,501,Crotone,https://media.api-sports.io/football/teams/501.png,4,3,9,2,4,5,20,0,1,36%,3,,3,339,250,74%
+608894,504,Verona,https://media.api-sports.io/football/teams/504.png,3,5,11,3,8,3,11,9,0,64%,1,,2,563,459,82%
+608895,495,Genoa,https://media.api-sports.io/football/teams/495.png,6,3,10,1,6,4,13,2,0,40%,1,,2,455,382,84%
+608895,499,Atalanta,https://media.api-sports.io/football/teams/499.png,6,3,12,3,8,4,8,4,1,60%,2,,3,673,587,87%
+608904,515,Spezia,https://media.api-sports.io/football/teams/515.png,8,4,14,2,13,1,25,3,4,40%,3,,2,282,191,68%
+608904,503,Torino,https://media.api-sports.io/football/teams/503.png,3,2,6,1,3,3,17,6,2,60%,5,,4,429,330,77%
+608899,496,Juventus,https://media.api-sports.io/football/teams/496.png,6,3,13,4,10,3,10,4,,41%,5,1,2,409,364,89%
+608899,505,Inter,https://media.api-sports.io/football/teams/505.png,3,3,8,2,6,2,18,3,,59%,5,1,3,580,528,91%
+608900,497,AS Roma,https://media.api-sports.io/football/teams/497.png,2,7,13,4,7,6,8,4,2,48%,2,0,4,432,361,84%
+608900,487,Lazio,https://media.api-sports.io/football/teams/487.png,4,4,9,1,6,3,8,4,5,52%,2,1,0,476,404,85%
+608901,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,3,3,7,1,5,2,15,3,1,40%,5,1,5,324,266,82%
+608901,492,Napoli,https://media.api-sports.io/football/teams/492.png,6,8,21,7,10,11,9,6,2,60%,2,0,3,476,416,87%
+608902,494,Udinese,https://media.api-sports.io/football/teams/494.png,2,5,9,2,3,6,12,6,3,52%,3,,5,517,448,87%
+608902,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,6,5,16,5,6,10,13,3,1,48%,1,,2,479,416,87%
+608898,506,Benevento,https://media.api-sports.io/football/teams/506.png,8,7,21,6,12,9,12,8,3,54%,2,0,1,452,386,85%
+608898,501,Crotone,https://media.api-sports.io/football/teams/501.png,2,2,5,1,3,2,19,4,3,46%,2,1,7,376,316,84%
+608903,523,Parma,https://media.api-sports.io/football/teams/523.png,8,6,16,2,11,5,13,2,2,33%,1,,7,340,280,82%
+608903,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,9,3,13,1,10,3,13,12,2,67%,0,,7,683,623,91%
+608897,489,AC Milan,https://media.api-sports.io/football/teams/489.png,2,13,21,6,7,14,8,9,1,61%,2,,2,583,505,87%
+608897,490,Cagliari,https://media.api-sports.io/football/teams/490.png,2,4,7,1,3,4,8,7,0,39%,2,,2,358,283,79%
+608896,504,Verona,https://media.api-sports.io/football/teams/504.png,2,8,13,3,8,5,19,4,3,50%,3,,3,430,342,80%
+608896,500,Bologna,https://media.api-sports.io/football/teams/500.png,5,5,12,2,6,6,17,4,1,50%,3,,0,414,329,79%
+608782,487,Lazio,https://media.api-sports.io/football/teams/487.png,7,12,24,5,16,8,10,4,4,71%,4,,3,631,537,85%
+608782,503,Torino,https://media.api-sports.io/football/teams/503.png,3,3,6,0,4,2,12,0,0,29%,0,,7,264,152,58%
+608907,490,Cagliari,https://media.api-sports.io/football/teams/490.png,5,7,16,4,12,4,9,8,0,51%,1,0,4,519,447,86%
+608907,495,Genoa,https://media.api-sports.io/football/teams/495.png,5,4,11,2,6,5,13,4,2,49%,4,1,4,497,439,88%
+608911,498,Sampdoria,https://media.api-sports.io/football/teams/498.png,4,2,12,6,6,6,10,2,0,45%,1,,1,472,405,86%
+608911,523,Parma,https://media.api-sports.io/football/teams/523.png,1,5,12,6,3,9,12,4,3,55%,1,,1,562,503,90%
+608906,501,Crotone,https://media.api-sports.io/football/teams/501.png,3,8,13,2,9,4,11,6,3,54%,2,,1,532,470,88%
+608906,502,Fiorentina,https://media.api-sports.io/football/teams/502.png,2,4,9,3,3,6,10,5,1,46%,2,,3,448,380,85%
+608913,505,Inter,https://media.api-sports.io/football/teams/505.png,7,5,15,3,11,4,13,3,0,47%,1,,1,415,363,87%
+608913,494,Udinese,https://media.api-sports.io/football/teams/494.png,2,5,8,1,4,4,16,2,1,53%,0,,2,450,404,90%
+608909,488,Sassuolo,https://media.api-sports.io/football/teams/488.png,4,3,9,2,5,4,12,3,2,56%,2,1,2,590,510,86%
+608909,487,Lazio,https://media.api-sports.io/football/teams/487.png,2,6,9,1,7,2,15,3,3,44%,1,0,2,440,388,88%
+608914,492,Napoli,https://media.api-sports.io/football/teams/492.png,2,8,16,6,10,6,13,5,1,55%,3,,2,477,391,82%
+608914,504,Verona,https://media.api-sports.io/football/teams/504.png,3,3,8,2,5,3,25,3,6,45%,4,,1,390,324,83%
+608910,499,Atalanta,https://media.api-sports.io/football/teams/499.png,1,9,13,3,5,8,17,3,1,70%,3,1,0,629,553,88%
+608910,489,AC Milan,https://media.api-sports.io/football/teams/489.png,2,2,6,2,4,2,11,0,0,30%,2,0,1,273,194,71%
+608908,500,Bologna,https://media.api-sports.io/football/teams/500.png,5,10,20,5,5,15,7,3,3,49%,1,,5,482,416,86%
+608908,496,Juventus,https://media.api-sports.io/football/teams/496.png,9,7,21,5,17,4,16,0,1,51%,2,,4,495,432,87%
+608905,503,Torino,https://media.api-sports.io/football/teams/503.png,5,3,11,3,6,5,17,7,3,52%,0,,2,485,431,89%
+608905,506,Benevento,https://media.api-sports.io/football/teams/506.png,3,3,8,2,7,1,10,3,0,48%,2,,4,442,394,89%
+608912,515,Spezia,https://media.api-sports.io/football/teams/515.png,8,7,17,2,13,4,13,5,5,42%,0,,8,447,365,82%
+608912,497,AS Roma,https://media.api-sports.io/football/teams/497.png,10,2,14,2,11,3,14,2,2,58%,1,,6,595,510,86%

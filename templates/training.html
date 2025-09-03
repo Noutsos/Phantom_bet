@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>Model Training</h2>
+    <p>Configure and run model training</p>
+    
+    <form method="POST" class="config-form">
+        <div class="form-group">
+            <label for="target_col">Target Column:</label>
+            <input type="text" id="target_col" name="target_col" value="outcome">
+        </div>
+        
+        <div class="form-group">
+            <label for="model_type">Model Type:</label>
+            <select id="model_type" name="model_type">
+                <option value="xgboost">XGBoost</option>
+                <option value="random_forest">Random Forest</option>
+                <option value="logistic_regression">Logistic Regression</option>
+                <option value="svm">SVM</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="feature_selection_method">Feature Selection Method:</label>
+            <select id="feature_selection_method" name="feature_selection_method">
+                <option value="rfe">RFE</option>
+                <option value="selectkbest">SelectKBest</option>
+                <option value="none">None</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="top_n_features">Top N Features:</label>
+            <input type="number" id="top_n_features" name="top_n_features" value="60">
+        </div>
+        
+        <div class="form-group">
+            <label for="holdout_ratio">Holdout Ratio:</label>
+            <input type="number" id="holdout_ratio" name="holdout_ratio" step="0.01" min="0" max="1" value="0.2">
+        </div>
+        
+        <div class="form-group">
+            <label><input type="checkbox" name="use_bayesian"> Use Bayesian Optimization</label>
+        </div>
+        
+        <div class="form-group">
+            <label for="bayesian_iter">Bayesian Iterations:</label>
+            <input type="number" id="bayesian_iter" name="bayesian_iter" value="50">
+        </div>
+        
+        <div class="form-group">
+            <label><input type="checkbox" name="use_grid_search"> Use Grid Search</label>
+        </div>
+        
+        <div class="form-group">
+            <label><input type="checkbox" name="use_random_search"> Use Random Search</label>
+        </div>
+        
+        <div class="form-group">
+            <label for="random_search_iter">Random Search Iterations:</label>
+            <input type="number" id="random_search_iter" name="random_search_iter" value="50">
+        </div>
+        
+        <div class="form-group">
+            <label><input type="checkbox" name="load_params" checked> Load Parameters</label>
+        </div>
+        
+        <div class="form-group">
+            <label><input type="checkbox" name="handle_class_imbalance" checked> Handle Class Imbalance</label>
+        </div>
+        
+        <div class="form-group">
+            <label for="class_weights_dict">Class Weights (JSON):</label>
+            <input type="text" id="class_weights_dict" name="class_weights_dict" placeholder='{"0":1, "1":2, "2":1}'>
+        </div>
+        
+        <div class="form-group">
+            <label><input type="checkbox" name="use_smote" checked> Use SMOTE</label>
+        </div>
+        
+        <div class="form-group">
+            <label for="smote_strategy">SMOTE Strategy (JSON):</label>
+            <input type="text" id="smote_strategy" name="smote_strategy" placeholder='{"1": 1500}'>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Run Training</button>
+    </form>
+</div>
+{% endblock %}

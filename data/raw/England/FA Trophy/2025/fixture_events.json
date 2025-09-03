@@ -1,0 +1,5252 @@
+[
+  {
+    "fixture": {
+      "id": 1449297,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-05T18:45:00+00:00",
+      "timestamp": 1757097900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11689,
+        "name": "Ascot Racecourse",
+        "city": "Ascot, Berkshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8685,
+        "name": "Ascot United",
+        "logo": "https://media.api-sports.io/football/teams/8685.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7676,
+        "name": "Three Bridges",
+        "logo": "https://media.api-sports.io/football/teams/7676.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402704,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-05T18:45:00+00:00",
+      "timestamp": 1757097900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5497,
+        "name": "Berry Street Garage Stadium",
+        "city": "Bootle, Merseyside"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8712,
+        "name": "Bootle",
+        "logo": "https://media.api-sports.io/football/teams/8712.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7760,
+        "name": "Witton Albion",
+        "logo": "https://media.api-sports.io/football/teams/7760.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1449299,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-05T18:45:00+00:00",
+      "timestamp": 1757097900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5515,
+        "name": "Hertingfordbury Park",
+        "city": "Hertford, Hertfordshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8775,
+        "name": "Enfield 1893",
+        "logo": "https://media.api-sports.io/football/teams/8775.png",
+        "winner": null
+      },
+      "away": {
+        "id": 9011,
+        "name": "Wroxham",
+        "logo": "https://media.api-sports.io/football/teams/9011.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402672,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-05T18:45:00+00:00",
+      "timestamp": 1757097900,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 18974,
+        "name": "Grounsell Park",
+        "city": "Newcastle upon Tyne"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 11986,
+        "name": "Heaton Stannington",
+        "logo": "https://media.api-sports.io/football/teams/11986.png",
+        "winner": null
+      },
+      "away": {
+        "id": 11936,
+        "name": "AFC Emley",
+        "logo": "https://media.api-sports.io/football/teams/11936.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402686,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 514,
+        "name": "Gigg Lane",
+        "city": "Bury, Lancashire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 1344,
+        "name": "Bury",
+        "logo": "https://media.api-sports.io/football/teams/1344.png",
+        "winner": null
+      },
+      "away": {
+        "id": 16998,
+        "name": "Wythenshawe Town",
+        "logo": "https://media.api-sports.io/football/teams/16998.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402669,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 3545,
+        "name": "Fetcham Grove",
+        "city": "Leatherhead, Surrey"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4696,
+        "name": "Leatherhead",
+        "logo": "https://media.api-sports.io/football/teams/4696.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8906,
+        "name": "Raynes Park Vale",
+        "logo": "https://media.api-sports.io/football/teams/8906.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402688,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 3554,
+        "name": "Earlsmead Stadium",
+        "city": "South Harrow, Middlesex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 4705,
+        "name": "Harrow Borough",
+        "logo": "https://media.api-sports.io/football/teams/4705.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8769,
+        "name": "Eastbourne Town",
+        "logo": "https://media.api-sports.io/football/teams/8769.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402668,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5215,
+        "name": "Bedfont Sports Recreation Ground",
+        "city": "Bedfont, Greater London"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7212,
+        "name": "Bedfont Sports",
+        "logo": "https://media.api-sports.io/football/teams/7212.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8831,
+        "name": "Horndean",
+        "logo": "https://media.api-sports.io/football/teams/8831.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402682,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5216,
+        "name": "The Oval",
+        "city": "Bedworth, Warwickshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7213,
+        "name": "Bedworth United",
+        "logo": "https://media.api-sports.io/football/teams/7213.png",
+        "winner": null
+      },
+      "away": {
+        "id": 19551,
+        "name": "Darlaston Town",
+        "logo": "https://media.api-sports.io/football/teams/19551.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402714,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5218,
+        "name": "The Sports Ground",
+        "city": "Bideford, Devon"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7215,
+        "name": "Bideford",
+        "logo": "https://media.api-sports.io/football/teams/7215.png",
+        "winner": null
+      },
+      "away": {
+        "id": 16991,
+        "name": "Mousehole",
+        "logo": "https://media.api-sports.io/football/teams/16991.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402678,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21966,
+        "name": "The Vistavis Community Stadium",
+        "city": "East Grinstead, West Sussex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7224,
+        "name": "East Grinstead Town",
+        "logo": "https://media.api-sports.io/football/teams/7224.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8707,
+        "name": "Binfield",
+        "logo": "https://media.api-sports.io/football/teams/8707.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1449289,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "The EMR Stadium",
+        "city": "Tilbury, Essex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7228,
+        "name": "Grays Athletic",
+        "logo": "https://media.api-sports.io/football/teams/7228.png",
+        "winner": null
+      },
+      "away": {
+        "id": 16990,
+        "name": "Milton Keynes Irish",
+        "logo": "https://media.api-sports.io/football/teams/16990.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402701,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 10613,
+        "name": "Winch's Field",
+        "city": "Herne Bay, Kent"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7232,
+        "name": "Herne Bay",
+        "logo": "https://media.api-sports.io/football/teams/7232.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7206,
+        "name": "Ashford United",
+        "logo": "https://media.api-sports.io/football/teams/7206.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1449290,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": null,
+        "city": null
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7243,
+        "name": "Northwood",
+        "logo": "https://media.api-sports.io/football/teams/7243.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8702,
+        "name": "Beckenham Town",
+        "logo": "https://media.api-sports.io/football/teams/8702.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402664,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "The Staxson Stadium",
+        "city": "Sittingbourne, Kent"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7250,
+        "name": "Sittingbourne",
+        "logo": "https://media.api-sports.io/football/teams/7250.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7641,
+        "name": "Faversham Town",
+        "logo": "https://media.api-sports.io/football/teams/7641.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402680,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5251,
+        "name": "King George's Field",
+        "city": "Reigate, Surrey"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7251,
+        "name": "South Park",
+        "logo": "https://media.api-sports.io/football/teams/7251.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8724,
+        "name": "Broadbridge Heath",
+        "logo": "https://media.api-sports.io/football/teams/8724.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1449301,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5253,
+        "name": "Central Ground",
+        "city": "Sutton Coldfield, West Midlands"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7253,
+        "name": "Sutton Coldfield Town",
+        "logo": "https://media.api-sports.io/football/teams/7253.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7651,
+        "name": "Kidsgrove Athletic",
+        "logo": "https://media.api-sports.io/football/teams/7651.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402696,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5258,
+        "name": "The Oakwood",
+        "city": "Crayford, Kent"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7258,
+        "name": "VCD Athletic",
+        "logo": "https://media.api-sports.io/football/teams/7258.png",
+        "winner": null
+      },
+      "away": {
+        "id": 17078,
+        "name": "Rayners Lane",
+        "logo": "https://media.api-sports.io/football/teams/17078.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1446947,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5261,
+        "name": "Woking Park",
+        "city": "Woking, Surrey"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7261,
+        "name": "Westfield (Surrey)",
+        "logo": "https://media.api-sports.io/football/teams/7261.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7730,
+        "name": "Margate",
+        "logo": "https://media.api-sports.io/football/teams/7730.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402689,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5263,
+        "name": "The Stan Robinson Stadium",
+        "city": "Willand, Devon"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7263,
+        "name": "Willand Rovers",
+        "logo": "https://media.api-sports.io/football/teams/7263.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8709,
+        "name": "Bishop's Cleeve",
+        "logo": "https://media.api-sports.io/football/teams/8709.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402684,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5264,
+        "name": "Simarco Stadium",
+        "city": "Witham, Essex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7264,
+        "name": "Witham Town",
+        "logo": "https://media.api-sports.io/football/teams/7264.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8878,
+        "name": "Newmarket Town",
+        "logo": "https://media.api-sports.io/football/teams/8878.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402719,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21322,
+        "name": "Raygar Stadium",
+        "city": "Belper, Derbyshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7617,
+        "name": "Belper Town",
+        "logo": "https://media.api-sports.io/football/teams/7617.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7242,
+        "name": "Newcastle Town",
+        "logo": "https://media.api-sports.io/football/teams/7242.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402706,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5488,
+        "name": "The Creek",
+        "city": "Bristol"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7621,
+        "name": "Bristol Manor Farm",
+        "logo": "https://media.api-sports.io/football/teams/7621.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8926,
+        "name": "Shaftesbury Town",
+        "logo": "https://media.api-sports.io/football/teams/8926.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1449300,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5501,
+        "name": "Pack Meadow",
+        "city": "Coleshill, Warwickshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7634,
+        "name": "Coleshill Town",
+        "logo": "https://media.api-sports.io/football/teams/7634.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8945,
+        "name": "Sporting Khalsa",
+        "logo": "https://media.api-sports.io/football/teams/8945.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402720,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5506,
+        "name": "UTS Stadium",
+        "city": "Gateshead, Tyne and Wear"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7639,
+        "name": "Dunston UTS",
+        "logo": "https://media.api-sports.io/football/teams/7639.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7620,
+        "name": "Brighouse Town",
+        "logo": "https://media.api-sports.io/football/teams/7620.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402718,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5515,
+        "name": "Hertingfordbury Park",
+        "city": "Hertford, Hertfordshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7648,
+        "name": "Hertford Town",
+        "logo": "https://media.api-sports.io/football/teams/7648.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7642,
+        "name": "Felixstowe & Walton Utd",
+        "logo": "https://media.api-sports.io/football/teams/7642.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402715,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21972,
+        "name": "Drewitt-Barlow Stadium",
+        "city": "Maldon, Essex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7654,
+        "name": "Maldon & Tiptree",
+        "logo": "https://media.api-sports.io/football/teams/7654.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7610,
+        "name": "AFC Dunstable",
+        "logo": "https://media.api-sports.io/football/teams/7610.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402716,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 542,
+        "name": "Westleigh Park",
+        "city": "Havant, Hampshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7659,
+        "name": "Moneyfields",
+        "logo": "https://media.api-sports.io/football/teams/7659.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7675,
+        "name": "Thame United",
+        "logo": "https://media.api-sports.io/football/teams/7675.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402671,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 10627,
+        "name": "Ingfield Stadium",
+        "city": "Ossett, West Yorkshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7662,
+        "name": "Ossett United",
+        "logo": "https://media.api-sports.io/football/teams/7662.png",
+        "winner": null
+      },
+      "away": {
+        "id": 4697,
+        "name": "Nantwich Town",
+        "logo": "https://media.api-sports.io/football/teams/4697.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1449295,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20345,
+        "name": "Runcorn Linnets' APEC Taxi's Stadium",
+        "city": "Runcorn, Cheshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7666,
+        "name": "Runcorn Linnets",
+        "logo": "https://media.api-sports.io/football/teams/7666.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8789,
+        "name": "Garforth Town",
+        "logo": "https://media.api-sports.io/football/teams/8789.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1449292,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19956,
+        "name": "Charters Community Stadium",
+        "city": "Winchester, Hampshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7682,
+        "name": "Winchester City",
+        "logo": "https://media.api-sports.io/football/teams/7682.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7226,
+        "name": "Frome Town",
+        "logo": "https://media.api-sports.io/football/teams/7226.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402687,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5485,
+        "name": "The Carlsberg Stadium",
+        "city": "Biggleswade, Bedfordshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7700,
+        "name": "Biggleswade Town",
+        "logo": "https://media.api-sports.io/football/teams/7700.png",
+        "winner": null
+      },
+      "away": {
+        "id": 4682,
+        "name": "Hitchin Town",
+        "logo": "https://media.api-sports.io/football/teams/4682.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1449298,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5565,
+        "name": "North Road",
+        "city": "Brightlingsea, Essex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7704,
+        "name": "Brightlingsea Regent",
+        "logo": "https://media.api-sports.io/football/teams/7704.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8846,
+        "name": "Leighton Town",
+        "logo": "https://media.api-sports.io/football/teams/8846.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1449293,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5579,
+        "name": "The SKYex Community Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7720,
+        "name": "Hayes & Yeading United",
+        "logo": "https://media.api-sports.io/football/teams/7720.png",
+        "winner": null
+      },
+      "away": {
+        "id": 4683,
+        "name": "Metropolitan Police",
+        "logo": "https://media.api-sports.io/football/teams/4683.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402666,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5587,
+        "name": "Crown Meadow",
+        "city": "Lowestoft, Suffolk"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7729,
+        "name": "Lowestoft Town",
+        "logo": "https://media.api-sports.io/football/teams/7729.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8847,
+        "name": "Leverstock Green",
+        "logo": "https://media.api-sports.io/football/teams/8847.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402697,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5589,
+        "name": "The Proctor Cars Stadium",
+        "city": "Matlock, Derbyshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7731,
+        "name": "Matlock Town",
+        "logo": "https://media.api-sports.io/football/teams/7731.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8797,
+        "name": "Grimsby Borough",
+        "logo": "https://media.api-sports.io/football/teams/8797.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402679,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5591,
+        "name": "Don Amott Leisure Group Arena",
+        "city": "Derby, Derbyshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7733,
+        "name": "Mickleover Sports",
+        "logo": "https://media.api-sports.io/football/teams/7733.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7698,
+        "name": "Basford United",
+        "logo": "https://media.api-sports.io/football/teams/7698.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402708,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21977,
+        "name": "The Stan Robinson Stadium",
+        "city": "Stafford, Staffordshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7748,
+        "name": "Stafford Rangers",
+        "logo": "https://media.api-sports.io/football/teams/7748.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8711,
+        "name": "Boldmere St. Michaels",
+        "logo": "https://media.api-sports.io/football/teams/8711.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402699,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 5607,
+        "name": "Bower Fold",
+        "city": "Stalybridge, Greater Manchester"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7749,
+        "name": "Stalybridge Celtic",
+        "logo": "https://media.api-sports.io/football/teams/7749.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7677,
+        "name": "Trafford",
+        "logo": "https://media.api-sports.io/football/teams/7677.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402711,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12199,
+        "name": "Len Salmon Stadium",
+        "city": "Basildon, Essex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7764,
+        "name": "Bowers & Pitsea",
+        "logo": "https://media.api-sports.io/football/teams/7764.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7218,
+        "name": "Cambridge City",
+        "logo": "https://media.api-sports.io/football/teams/7218.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402721,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 6182,
+        "name": "Horsfall Stadium",
+        "city": "Bradford, West Yorkshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8651,
+        "name": "Bradford (Park Avenue)",
+        "logo": "https://media.api-sports.io/football/teams/8651.png",
+        "winner": null
+      },
+      "away": {
+        "id": 16994,
+        "name": "Redcar Athletic",
+        "logo": "https://media.api-sports.io/football/teams/16994.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402683,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11965,
+        "name": "The Aspect Arena",
+        "city": "Canvey Island, Essex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8658,
+        "name": "Concord Rangers",
+        "logo": "https://media.api-sports.io/football/teams/8658.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7618,
+        "name": "Biggleswade",
+        "logo": "https://media.api-sports.io/football/teams/7618.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402667,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 18814,
+        "name": "The OnSite Group Stadium",
+        "city": "Portchester, Hampshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8671,
+        "name": "AFC Portchester",
+        "logo": "https://media.api-sports.io/football/teams/8671.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8785,
+        "name": "Flackwell Heath",
+        "logo": "https://media.api-sports.io/football/teams/8785.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402677,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 6203,
+        "name": "Vestacare Stadium",
+        "city": "Oldham, Greater Manchester"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8690,
+        "name": "Avro",
+        "logo": "https://media.api-sports.io/football/teams/8690.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7632,
+        "name": "Clitheroe",
+        "logo": "https://media.api-sports.io/football/teams/7632.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402703,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12168,
+        "name": "The Neil Hudgell Law Stadium",
+        "city": "Bridlington, East Yorkshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8719,
+        "name": "Bridlington Town",
+        "logo": "https://media.api-sports.io/football/teams/8719.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7660,
+        "name": "Mossley",
+        "logo": "https://media.api-sports.io/football/teams/7660.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402705,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19850,
+        "name": "The Cleric Stadium",
+        "city": "Congleton, Cheshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8751,
+        "name": "Congleton Town",
+        "logo": "https://media.api-sports.io/football/teams/8751.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8981,
+        "name": "Vauxhall Motors",
+        "logo": "https://media.api-sports.io/football/teams/8981.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1449296,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11724,
+        "name": "Belle Vue Park",
+        "city": "Consett, County Durham"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8752,
+        "name": "Consett",
+        "logo": "https://media.api-sports.io/football/teams/8752.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8804,
+        "name": "Hallam",
+        "logo": "https://media.api-sports.io/football/teams/8804.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402676,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 6216,
+        "name": "Sphinx Drive",
+        "city": "Coventry, West Midlands"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8754,
+        "name": "Coventry Sphinx",
+        "logo": "https://media.api-sports.io/football/teams/8754.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7652,
+        "name": "Lincoln United",
+        "logo": "https://media.api-sports.io/football/teams/7652.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402674,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20432,
+        "name": "The Artic Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8777,
+        "name": "Erith Town",
+        "logo": "https://media.api-sports.io/football/teams/8777.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8762,
+        "name": "Deal Town",
+        "logo": "https://media.api-sports.io/football/teams/8762.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402698,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Complete Infrastructure Stadium",
+        "city": "Exmouth, Devonshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8778,
+        "name": "Exmouth",
+        "logo": "https://media.api-sports.io/football/teams/8778.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7751,
+        "name": "Swindon Supermarine",
+        "logo": "https://media.api-sports.io/football/teams/7751.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402695,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11741,
+        "name": "Cams Alders Stadium",
+        "city": "Fareham, Hampshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8782,
+        "name": "Fareham Town",
+        "logo": "https://media.api-sports.io/football/teams/8782.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7699,
+        "name": "Beaconsfield Town",
+        "logo": "https://media.api-sports.io/football/teams/7699.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1449294,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11760,
+        "name": "The Beacon Ground",
+        "city": "Hassocks, West Sussex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8817,
+        "name": "Hassocks",
+        "logo": "https://media.api-sports.io/football/teams/8817.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8760,
+        "name": "Crowborough Athletic",
+        "logo": "https://media.api-sports.io/football/teams/8760.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402722,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 18820,
+        "name": "Trade Tyre Community Stadium",
+        "city": "Lichfield"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8849,
+        "name": "Lichfield City",
+        "logo": "https://media.api-sports.io/football/teams/8849.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7221,
+        "name": "Corby Town",
+        "logo": "https://media.api-sports.io/football/teams/7221.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402681,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12174,
+        "name": "HD Anywhere Stadium",
+        "city": "Malvern, Worcestershire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8870,
+        "name": "Malvern Town",
+        "logo": "https://media.api-sports.io/football/teams/8870.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8861,
+        "name": "Loughborough University",
+        "logo": "https://media.api-sports.io/football/teams/8861.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402694,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 6241,
+        "name": "Oakside Stadium",
+        "city": "Ilford, Essex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8908,
+        "name": "Redbridge",
+        "logo": "https://media.api-sports.io/football/teams/8908.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7259,
+        "name": "Waltham Abbey",
+        "logo": "https://media.api-sports.io/football/teams/7259.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402670,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 6243,
+        "name": "Butlin Road",
+        "city": "Rugby, Warwikshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8915,
+        "name": "Rugby Town",
+        "logo": "https://media.api-sports.io/football/teams/8915.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8904,
+        "name": "Racing Club Warwick",
+        "logo": "https://media.api-sports.io/football/teams/8904.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402693,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11829,
+        "name": "The Asda Foundation Stadium",
+        "city": "Silsden, Keighley, West Yorkshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8936,
+        "name": "Silsden",
+        "logo": "https://media.api-sports.io/football/teams/8936.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7694,
+        "name": "Atherton Collieries",
+        "logo": "https://media.api-sports.io/football/teams/7694.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402675,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11837,
+        "name": "The Hawthorns",
+        "city": "Colchester, Essex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8950,
+        "name": "Stanway Rovers",
+        "logo": "https://media.api-sports.io/football/teams/8950.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7208,
+        "name": "Aylesbury United",
+        "logo": "https://media.api-sports.io/football/teams/7208.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402690,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 18865,
+        "name": "The JSJ Stadium",
+        "city": "Stotfold"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8955,
+        "name": "Stotfold",
+        "logo": "https://media.api-sports.io/football/teams/8955.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8873,
+        "name": "Mildenhall Town",
+        "logo": "https://media.api-sports.io/football/teams/8873.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402663,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22000,
+        "name": "Full Vision Stadium",
+        "city": "Takeley, Essex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8965,
+        "name": "Takeley",
+        "logo": "https://media.api-sports.io/football/teams/8965.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7679,
+        "name": "Welwyn Garden City",
+        "logo": "https://media.api-sports.io/football/teams/7679.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402710,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11846,
+        "name": "Langsford Park",
+        "city": "Tavistock, Devon"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8966,
+        "name": "Tavistock",
+        "logo": "https://media.api-sports.io/football/teams/8966.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7238,
+        "name": "Larkhall Athletic",
+        "logo": "https://media.api-sports.io/football/teams/7238.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402707,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 11857,
+        "name": "Wadham Lodge Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8985,
+        "name": "Walthamstow",
+        "logo": "https://media.api-sports.io/football/teams/8985.png",
+        "winner": null
+      },
+      "away": {
+        "id": 21703,
+        "name": "Downham Town",
+        "logo": "https://media.api-sports.io/football/teams/21703.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402709,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 18979,
+        "name": "Rowley Lane",
+        "city": "London"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 12104,
+        "name": "London Lions",
+        "logo": "https://media.api-sports.io/football/teams/12104.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7255,
+        "name": "Tilbury",
+        "logo": "https://media.api-sports.io/football/teams/7255.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402673,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20895,
+        "name": "The Acoustafoam Stadium",
+        "city": "Shifnal, Shropshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 12149,
+        "name": "Shifnal Town FC",
+        "logo": "https://media.api-sports.io/football/teams/12149.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7626,
+        "name": "Chasetown",
+        "logo": "https://media.api-sports.io/football/teams/7626.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1449291,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22015,
+        "name": "MoreSeaFood Ground",
+        "city": "Brixham, Devonshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 16984,
+        "name": "Brixham",
+        "logo": "https://media.api-sports.io/football/teams/16984.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8995,
+        "name": "Westbury United",
+        "logo": "https://media.api-sports.io/football/teams/8995.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402702,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12205,
+        "name": "Springfield Stadium",
+        "city": "St. Helier (Jersey, Channel Islands)"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 16987,
+        "name": "Jersey Bulls",
+        "logo": "https://media.api-sports.io/football/teams/16987.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7231,
+        "name": "Hastings United",
+        "logo": "https://media.api-sports.io/football/teams/7231.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402692,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 18981,
+        "name": "The Dransfield Stadium",
+        "city": "North Ferriby, East Yorkshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 16992,
+        "name": "North Ferriby",
+        "logo": "https://media.api-sports.io/football/teams/16992.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8650,
+        "name": "Blyth Spartans",
+        "logo": "https://media.api-sports.io/football/teams/8650.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402700,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21355,
+        "name": "Hartpury College & University",
+        "city": "Gloucester, Gloucestershire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 21706,
+        "name": "Hartpury University",
+        "logo": "https://media.api-sports.io/football/teams/21706.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7222,
+        "name": "Didcot Town",
+        "logo": "https://media.api-sports.io/football/teams/7222.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402713,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21361,
+        "name": "Abbey Lawn",
+        "city": "Bourne, Lincolnshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 24335,
+        "name": "Bourne Town",
+        "logo": "https://media.api-sports.io/football/teams/24335.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7691,
+        "name": "AFC Rushden & Diamonds",
+        "logo": "https://media.api-sports.io/football/teams/7691.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402685,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21371,
+        "name": "Bristol Road",
+        "city": "Bristol"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 24346,
+        "name": "Portishead Town",
+        "logo": "https://media.api-sports.io/football/teams/24346.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7241,
+        "name": "Melksham Town",
+        "logo": "https://media.api-sports.io/football/teams/7241.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402717,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 22027,
+        "name": "The Inkberrow Recreation Ground",
+        "city": "Inkberrow, Worcestershire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 24348,
+        "name": "Sporting Club Inkberrow",
+        "logo": "https://media.api-sports.io/football/teams/24348.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7672,
+        "name": "St Neots Town",
+        "logo": "https://media.api-sports.io/football/teams/7672.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402665,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-07T14:00:00+00:00",
+      "timestamp": 1757253600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 21969,
+        "name": "The Hunters Stadium",
+        "city": "Pontefract, West Yorkshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7247,
+        "name": "Pontefract Collieries",
+        "logo": "https://media.api-sports.io/football/teams/7247.png",
+        "winner": null
+      },
+      "away": {
+        "id": 8862,
+        "name": "Lower Breck",
+        "logo": "https://media.api-sports.io/football/teams/8862.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402712,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-07T14:00:00+00:00",
+      "timestamp": 1757253600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 20433,
+        "name": "MKM Arena",
+        "city": "Bognor Regis, West Sussex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 7703,
+        "name": "Bognor Regis Town",
+        "logo": "https://media.api-sports.io/football/teams/7703.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7249,
+        "name": "Sevenoaks Town",
+        "logo": "https://media.api-sports.io/football/teams/7249.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1449302,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-07T14:00:00+00:00",
+      "timestamp": 1757253600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19849,
+        "name": "The 1878 Stadium",
+        "city": "Burnham, Buckinghamshie"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 8941,
+        "name": "Southall",
+        "logo": "https://media.api-sports.io/football/teams/8941.png",
+        "winner": null
+      },
+      "away": {
+        "id": 24354,
+        "name": "AFC Whyteleafe",
+        "logo": "https://media.api-sports.io/football/teams/24354.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1402691,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-07T14:00:00+00:00",
+      "timestamp": 1757253600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 12190,
+        "name": "The Sportsfield",
+        "city": "Littlehampton, West Sussex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 47,
+      "name": "FA Trophy",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/47.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "1st Round Qualifying",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 11998,
+        "name": "Littlehampton Town",
+        "logo": "https://media.api-sports.io/football/teams/11998.png",
+        "winner": null
+      },
+      "away": {
+        "id": 7722,
+        "name": "Hendon",
+        "logo": "https://media.api-sports.io/football/teams/7722.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

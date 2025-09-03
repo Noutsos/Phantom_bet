@@ -1,0 +1,257 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>Data Collection</h2>
+    <p>Configure and run data collection from soccer APIs</p>
+    
+    {% if error %}
+    <div class="alert alert-danger">{{ error }}</div>
+    {% endif %}
+    
+    <form method="POST" class="config-form">
+        <!-- Basic configuration fields (season, data types, etc.) -->
+        <div class="form-section">
+            <h3>Basic Configuration</h3>
+            
+            <div class="form-group">
+                <label for="season">Season:</label>
+                <input type="number" id="season" name="season" value="2024" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Data Types:</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="data_types" value="fixture_events" checked> Fixture Events</label>
+                    <label><input type="checkbox" name="data_types" value="team_statistics" checked> Team Statistics</label>
+                    <label><input type="checkbox" name="data_types" value="team_standings"> Team Standings</label>
+                    <label><input type="checkbox" name="data_types" value="player_statistics"> Player Statistics</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="collection_phase">Collection Phase:</label>
+                <select id="collection_phase" name="collection_phase">
+                    <option value="1">Phase 1 (Historical)</option>
+                    <option value="2">Phase 2 (Current)</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- League Selection by Country -->
+        <div class="form-section">
+            <h3>Select Leagues by Country</h3>
+            
+            <!-- Search box -->
+            <div class="form-group">
+                <input type="text" id="leagueSearch" placeholder="Search leagues..." class="form-control">
+            </div>
+            
+            <!-- Quick selection buttons -->
+            <div class="form-group">
+                <div class="btn-group mb-3">
+                    <button type="button" class="btn btn-sm btn-outline-primary" onclick="selectAllLeagues()">Select All</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" onclick="deselectAllLeagues()">Deselect All</button>
+                    <button type="button" class="btn btn-sm btn-outline-info" onclick="selectTopTier()">Top Tier Only</button>
+                    <button type="button" class="btn btn-sm btn-outline-warning" onclick="selectDomesticCups()">Domestic Cups</button>
+                </div>
+            </div>
+            
+            <!-- Leagues grouped by country -->
+            <div class="leagues-container">
+                {% for country, leagues in leagues_by_country.items() %}
+                <div class="country-group card mb-3">
+                    <div class="card-header">
+                        <h4 class="mb-0">
+                            <input type="checkbox" class="country-selector" data-country="{{ country }}">
+                            {{ country }}
+                            <span class="badge bg-secondary">{{ leagues|length }} leagues</span>
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="leagues-list">
+                            {% for league in leagues %}
+                            <div class="league-item">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="selected_leagues" value="{{ league.id }}" 
+                                           data-country="{{ country }}" data-category="{{ league.category }}">
+                                    {{ league.name }} 
+                                    <small class="text-muted">(ID: {{ league.id }}) - {{ league.category }}</small>
+                                </label>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Advanced options (collapsible) -->
+        <div class="form-section">
+            <h3>
+                <a href="#advancedOptions" data-bs-toggle="collapse" role="button">
+                    Advanced Options <i class="bi bi-chevron-down"></i>
+                </a>
+            </h3>
+            <div class="collapse" id="advancedOptions">
+                <div class="form-group">
+                    <label for="batch_size">Batch Size:</label>
+                    <input type="number" id="batch_size" name="batch_size" value="50">
+                </div>
+                
+                <div class="form-group">
+                    <label for="start_date">Start Date (optional):</label>
+                    <input type="date" id="start_date" name="start_date">
+                </div>
+                
+                <div class="form-group">
+                    <label for="end_date">End Date (optional):</label>
+                    <input type="date" id="end_date" name="end_date">
+                </div>
+                
+                <div class="form-group">
+                    <label><input type="checkbox" name="keep_progress"> Keep Progress</label>
+                </div>
+            </div>
+        </div>
+        
+        <button type="submit" class="btn btn-primary btn-lg">Run Collection</button>
+    </form>
+</div>
+
+<style>
+.leagues-container {
+    max-height: 600px;
+    overflow-y: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    padding: 1rem;
+}
+
+.country-group {
+    margin-bottom: 1rem;
+}
+
+.country-group .card-header {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.country-group .card-header h4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.country-selector {
+    margin-right: 10px;
+}
+
+.leagues-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0.5rem;
+}
+
+.league-item {
+    padding: 0.25rem 0;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s;
+}
+
+.checkbox-label:hover {
+    background-color: #f8f9fa;
+}
+
+.form-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+</style>
+
+<script>
+// Search functionality
+document.getElementById('leagueSearch').addEventListener('input', function(e) {
+    const searchTerm = e.target.value.toLowerCase();
+    const leagueItems = document.querySelectorAll('.league-item');
+    
+    leagueItems.forEach(item => {
+        const text = item.textContent.toLowerCase();
+        item.style.display = text.includes(searchTerm) ? 'block' : 'none';
+    });
+    
+    // Show/hide country groups based on whether they have visible leagues
+    document.querySelectorAll('.country-group').forEach(group => {
+        const visibleLeagues = group.querySelectorAll('.league-item[style="display: block"]');
+        group.style.display = visibleLeagues.length > 0 ? 'block' : 'none';
+    });
+});
+
+// Country selection
+document.querySelectorAll('.country-selector').forEach(checkbox => {
+    checkbox.addEventListener('change', function() {
+        const country = this.getAttribute('data-country');
+        const leagueCheckboxes = document.querySelectorAll(`input[name="selected_leagues"][data-country="${country}"]`);
+        
+        leagueCheckboxes.forEach(leagueCheckbox => {
+            leagueCheckbox.checked = this.checked;
+        });
+    });
+});
+
+// Select all leagues
+function selectAllLeagues() {
+    document.querySelectorAll('input[name="selected_leagues"]').forEach(checkbox => {
+        checkbox.checked = true;
+    });
+}
+
+// Deselect all leagues
+function deselectAllLeagues() {
+    document.querySelectorAll('input[name="selected_leagues"]').forEach(checkbox => {
+        checkbox.checked = false;
+    });
+}
+
+// Select only top tier leagues
+function selectTopTier() {
+    document.querySelectorAll('input[name="selected_leagues"]').forEach(checkbox => {
+        const category = checkbox.getAttribute('data-category');
+        checkbox.checked = category === 'top_tier';
+    });
+}
+
+// Select only domestic cups
+function selectDomesticCups() {
+    document.querySelectorAll('input[name="selected_leagues"]').forEach(checkbox => {
+        const category = checkbox.getAttribute('data-category');
+        checkbox.checked = category === 'domestic_cup';
+    });
+}
+
+// Auto-check country selector when all leagues in that country are selected
+document.querySelectorAll('input[name="selected_leagues"]').forEach(checkbox => {
+    checkbox.addEventListener('change', function() {
+        const country = this.getAttribute('data-country');
+        const countryCheckbox = document.querySelector(`.country-selector[data-country="${country}"]`);
+        const leagueCheckboxes = document.querySelectorAll(`input[name="selected_leagues"][data-country="${country}"]`);
+        
+        const allChecked = Array.from(leagueCheckboxes).every(cb => cb.checked);
+        const someChecked = Array.from(leagueCheckboxes).some(cb => cb.checked);
+        
+        countryCheckbox.checked = allChecked;
+        countryCheckbox.indeterminate = someChecked && !allChecked;
+    });
+});
+</script>
+{% endblock %}

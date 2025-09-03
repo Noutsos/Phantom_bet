@@ -1,0 +1,702 @@
+[
+  {
+    "fixture": {
+      "id": 1438999,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T13:00:00+00:00",
+      "timestamp": 1757163600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19209,
+        "name": "AlbinoLeffe Stadium",
+        "city": "Zanica"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2025,
+      "round": "Girone A - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 879,
+        "name": "Albinoleffe",
+        "logo": "https://media.api-sports.io/football/teams/879.png",
+        "winner": null
+      },
+      "away": {
+        "id": 875,
+        "name": "Renate",
+        "logo": "https://media.api-sports.io/football/teams/875.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1438998,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T13:00:00+00:00",
+      "timestamp": 1757163600,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 6550,
+        "name": "Stadio Ernesto Breda",
+        "city": "Sesto San Giovanni"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2025,
+      "round": "Girone A - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 17824,
+        "name": "Alcione",
+        "logo": "https://media.api-sports.io/football/teams/17824.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1689,
+        "name": "Lumezzane",
+        "logo": "https://media.api-sports.io/football/teams/1689.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1439001,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T18:30:00+00:00",
+      "timestamp": 1757183400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 947,
+        "name": "Stadio Comunale Gavagnin-Nocini",
+        "city": "Verona"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2025,
+      "round": "Girone A - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1707,
+        "name": "Virtus Verona",
+        "logo": "https://media.api-sports.io/football/teams/1707.png",
+        "winner": null
+      },
+      "away": {
+        "id": 26355,
+        "name": "Inter U23",
+        "logo": "https://media.api-sports.io/football/teams/26355.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1439000,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T18:30:00+00:00",
+      "timestamp": 1757183400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 4706,
+        "name": "Stadio Giuseppe Voltini",
+        "city": "Crema"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2025,
+      "round": "Girone A - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6380,
+        "name": "Pergolettese",
+        "logo": "https://media.api-sports.io/football/teams/6380.png",
+        "winner": null
+      },
+      "away": {
+        "id": 510,
+        "name": "Cittadella",
+        "logo": "https://media.api-sports.io/football/teams/510.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1439002,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T18:30:00+00:00",
+      "timestamp": 1757183400,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 882,
+        "name": "Stadio Mario Rigamonti",
+        "city": "Brescia"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2025,
+      "round": "Girone A - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 26356,
+        "name": "Union Brescia",
+        "logo": "https://media.api-sports.io/football/teams/26356.png",
+        "winner": null
+      },
+      "away": {
+        "id": 526,
+        "name": "PRO Vercelli",
+        "logo": "https://media.api-sports.io/football/teams/526.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1439004,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-07T13:00:00+00:00",
+      "timestamp": 1757250000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 917,
+        "name": "Stadio Comunale Silvio Piola",
+        "city": "Novara"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2025,
+      "round": "Girone A - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 513,
+        "name": "Novara",
+        "logo": "https://media.api-sports.io/football/teams/513.png",
+        "winner": null
+      },
+      "away": {
+        "id": 17147,
+        "name": "Trento",
+        "logo": "https://media.api-sports.io/football/teams/17147.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1439005,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-07T13:00:00+00:00",
+      "timestamp": 1757250000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 944,
+        "name": "Stadio Nereo Rocco",
+        "city": "Trieste"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2025,
+      "round": "Girone A - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 877,
+        "name": "Triestina",
+        "logo": "https://media.api-sports.io/football/teams/877.png",
+        "winner": null
+      },
+      "away": {
+        "id": 24696,
+        "name": "Ospitaletto",
+        "logo": "https://media.api-sports.io/football/teams/24696.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1439003,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-07T13:00:00+00:00",
+      "timestamp": 1757250000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 4705,
+        "name": "Stadio Rigamonti Ceppi",
+        "city": "Lecco"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2025,
+      "round": "Girone A - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 6379,
+        "name": "Lecco",
+        "logo": "https://media.api-sports.io/football/teams/6379.png",
+        "winner": null
+      },
+      "away": {
+        "id": 17820,
+        "name": "Dolomiti Bellunesi",
+        "logo": "https://media.api-sports.io/football/teams/17820.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1439007,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-07T15:30:00+00:00",
+      "timestamp": 1757259000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 873,
+        "name": "Stadio Comunale",
+        "city": "Gorgonzola"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2025,
+      "round": "Girone A - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 865,
+        "name": "Giana Erminio",
+        "logo": "https://media.api-sports.io/football/teams/865.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1706,
+        "name": "Pro Patria",
+        "logo": "https://media.api-sports.io/football/teams/1706.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1439006,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-07T15:30:00+00:00",
+      "timestamp": 1757259000,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 2767,
+        "name": "Stadio Romeo Menti",
+        "city": "Vicenza"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 138,
+      "name": "Serie C - Girone A",
+      "country": "Italy",
+      "logo": "https://media.api-sports.io/football/leagues/138.png",
+      "flag": "https://media.api-sports.io/flags/it.svg",
+      "season": 2025,
+      "round": "Girone A - 3",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1584,
+        "name": "Vicenza Virtus",
+        "logo": "https://media.api-sports.io/football/teams/1584.png",
+        "winner": null
+      },
+      "away": {
+        "id": 6378,
+        "name": "Arzignano Valchiampo",
+        "logo": "https://media.api-sports.io/football/teams/6378.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

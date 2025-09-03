@@ -1,0 +1,308 @@
+2025-09-01 20:11:11,738 - src.process_pipeline - INFO - Logging initialized. Log file: logs/process\process_20250901_201111.log
+2025-09-01 20:11:12,595 - src.process_pipeline - INFO - Loaded H2H data with 10532 team pairs
+2025-09-01 20:11:12,602 - src.process_pipeline - INFO - Loaded standings data for 7622 teams
+2025-09-01 20:11:13,472 - src.process_pipeline - INFO - Processing England/Championship/2017
+2025-09-01 20:11:13,473 - src.process_pipeline - ERROR - Error processing England/Championship/2017: 'odds'
+2025-09-01 20:11:13,474 - src.process_pipeline - INFO - Processing England/Championship/2018
+2025-09-01 20:11:13,475 - src.process_pipeline - ERROR - Error processing England/Championship/2018: 'odds'
+2025-09-01 20:11:13,475 - src.process_pipeline - INFO - Processing England/Championship/2019
+2025-09-01 20:11:13,475 - src.process_pipeline - ERROR - Error processing England/Championship/2019: 'odds'
+2025-09-01 20:11:13,476 - src.process_pipeline - INFO - Processing England/Championship/2020
+2025-09-01 20:11:13,476 - src.process_pipeline - ERROR - Error processing England/Championship/2020: 'odds'
+2025-09-01 20:11:13,476 - src.process_pipeline - INFO - Processing England/Championship/2021
+2025-09-01 20:11:13,476 - src.process_pipeline - ERROR - Error processing England/Championship/2021: 'odds'
+2025-09-01 20:11:13,477 - src.process_pipeline - INFO - Processing England/Championship/2022
+2025-09-01 20:11:13,477 - src.process_pipeline - ERROR - Error processing England/Championship/2022: 'odds'
+2025-09-01 20:11:13,477 - src.process_pipeline - INFO - Processing England/Championship/2023
+2025-09-01 20:11:13,477 - src.process_pipeline - ERROR - Error processing England/Championship/2023: 'odds'
+2025-09-01 20:11:13,478 - src.process_pipeline - INFO - Processing England/Championship/2024
+2025-09-01 20:11:13,478 - src.process_pipeline - ERROR - Error processing England/Championship/2024: 'odds'
+2025-09-01 20:11:13,478 - src.process_pipeline - INFO - Processing England/Championship/2025
+2025-09-01 20:11:13,478 - src.process_pipeline - ERROR - Error processing England/Championship/2025: 'odds'
+2025-09-01 20:11:13,479 - src.process_pipeline - INFO - Processing England/EFL Trophy/2021
+2025-09-01 20:11:13,479 - src.process_pipeline - ERROR - Error processing England/EFL Trophy/2021: 'odds'
+2025-09-01 20:11:13,479 - src.process_pipeline - INFO - Processing England/EFL Trophy/2022
+2025-09-01 20:11:13,479 - src.process_pipeline - ERROR - Error processing England/EFL Trophy/2022: 'odds'
+2025-09-01 20:11:13,480 - src.process_pipeline - INFO - Processing England/EFL Trophy/2023
+2025-09-01 20:11:13,480 - src.process_pipeline - ERROR - Error processing England/EFL Trophy/2023: 'odds'
+2025-09-01 20:11:13,480 - src.process_pipeline - INFO - Processing England/EFL Trophy/2024
+2025-09-01 20:11:13,480 - src.process_pipeline - ERROR - Error processing England/EFL Trophy/2024: 'odds'
+2025-09-01 20:11:13,481 - src.process_pipeline - INFO - Processing England/FA Cup/2018
+2025-09-01 20:11:13,481 - src.process_pipeline - ERROR - Error processing England/FA Cup/2018: 'odds'
+2025-09-01 20:11:13,481 - src.process_pipeline - INFO - Processing England/FA Cup/2019
+2025-09-01 20:11:13,481 - src.process_pipeline - ERROR - Error processing England/FA Cup/2019: 'odds'
+2025-09-01 20:11:13,482 - src.process_pipeline - INFO - Processing England/FA Cup/2020
+2025-09-01 20:11:13,482 - src.process_pipeline - ERROR - Error processing England/FA Cup/2020: 'odds'
+2025-09-01 20:11:13,482 - src.process_pipeline - INFO - Processing England/FA Cup/2021
+2025-09-01 20:11:13,482 - src.process_pipeline - ERROR - Error processing England/FA Cup/2021: 'odds'
+2025-09-01 20:11:13,483 - src.process_pipeline - INFO - Processing England/FA Cup/2022
+2025-09-01 20:11:13,483 - src.process_pipeline - ERROR - Error processing England/FA Cup/2022: 'odds'
+2025-09-01 20:11:13,483 - src.process_pipeline - INFO - Processing England/FA Cup/2023
+2025-09-01 20:11:13,483 - src.process_pipeline - ERROR - Error processing England/FA Cup/2023: 'odds'
+2025-09-01 20:11:13,484 - src.process_pipeline - INFO - Processing England/FA Cup/2024
+2025-09-01 20:11:13,484 - src.process_pipeline - ERROR - Error processing England/FA Cup/2024: 'odds'
+2025-09-01 20:11:13,484 - src.process_pipeline - INFO - Processing England/FA Trophy/2023
+2025-09-01 20:11:13,484 - src.process_pipeline - ERROR - Error processing England/FA Trophy/2023: 'odds'
+2025-09-01 20:11:13,485 - src.process_pipeline - INFO - Processing England/FA Trophy/2024
+2025-09-01 20:11:13,485 - src.process_pipeline - ERROR - Error processing England/FA Trophy/2024: 'odds'
+2025-09-01 20:11:13,485 - src.process_pipeline - INFO - Processing England/Premier League/2018
+2025-09-01 20:11:13,485 - src.process_pipeline - ERROR - Error processing England/Premier League/2018: 'odds'
+2025-09-01 20:11:13,486 - src.process_pipeline - INFO - Processing England/Premier League/2019
+2025-09-01 20:11:13,486 - src.process_pipeline - ERROR - Error processing England/Premier League/2019: 'odds'
+2025-09-01 20:11:13,486 - src.process_pipeline - INFO - Processing England/Premier League/2020
+2025-09-01 20:11:13,486 - src.process_pipeline - ERROR - Error processing England/Premier League/2020: 'odds'
+2025-09-01 20:11:13,487 - src.process_pipeline - INFO - Processing England/Premier League/2021
+2025-09-01 20:11:13,487 - src.process_pipeline - ERROR - Error processing England/Premier League/2021: 'odds'
+2025-09-01 20:11:13,487 - src.process_pipeline - INFO - Processing England/Premier League/2022
+2025-09-01 20:11:13,487 - src.process_pipeline - ERROR - Error processing England/Premier League/2022: 'odds'
+2025-09-01 20:11:13,487 - src.process_pipeline - INFO - Processing England/Premier League/2023
+2025-09-01 20:11:13,488 - src.process_pipeline - ERROR - Error processing England/Premier League/2023: 'odds'
+2025-09-01 20:11:13,488 - src.process_pipeline - INFO - Processing England/Premier League/2024
+2025-09-01 20:11:13,488 - src.process_pipeline - ERROR - Error processing England/Premier League/2024: 'odds'
+2025-09-01 20:11:13,488 - src.process_pipeline - INFO - Processing England/Premier League/2025
+2025-09-01 20:11:13,488 - src.process_pipeline - ERROR - Error processing England/Premier League/2025: 'odds'
+2025-09-01 20:11:13,489 - src.process_pipeline - INFO - Processing Europe/Champions League/2018
+2025-09-01 20:11:13,489 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2018: 'odds'
+2025-09-01 20:11:13,489 - src.process_pipeline - INFO - Processing Europe/Champions League/2019
+2025-09-01 20:11:13,489 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2019: 'odds'
+2025-09-01 20:11:13,490 - src.process_pipeline - INFO - Processing Europe/Champions League/2020
+2025-09-01 20:11:13,490 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2020: 'odds'
+2025-09-01 20:11:13,490 - src.process_pipeline - INFO - Processing Europe/Champions League/2021
+2025-09-01 20:11:13,491 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2021: 'odds'
+2025-09-01 20:11:13,491 - src.process_pipeline - INFO - Processing Europe/Champions League/2022
+2025-09-01 20:11:13,491 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2022: 'odds'
+2025-09-01 20:11:13,492 - src.process_pipeline - INFO - Processing Europe/Champions League/2023
+2025-09-01 20:11:13,492 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2023: 'odds'
+2025-09-01 20:11:13,492 - src.process_pipeline - INFO - Processing Europe/Champions League/2024
+2025-09-01 20:11:13,492 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2024: 'odds'
+2025-09-01 20:11:13,493 - src.process_pipeline - INFO - Processing Europe/Champions League/2025
+2025-09-01 20:11:13,493 - src.process_pipeline - ERROR - Error processing Europe/Champions League/2025: 'odds'
+2025-09-01 20:11:13,493 - src.process_pipeline - INFO - Processing Europe/Conference League/2021
+2025-09-01 20:11:13,493 - src.process_pipeline - ERROR - Error processing Europe/Conference League/2021: 'odds'
+2025-09-01 20:11:13,494 - src.process_pipeline - INFO - Processing Europe/Conference League/2022
+2025-09-01 20:11:13,494 - src.process_pipeline - ERROR - Error processing Europe/Conference League/2022: 'odds'
+2025-09-01 20:11:13,494 - src.process_pipeline - INFO - Processing Europe/Conference League/2023
+2025-09-01 20:11:13,494 - src.process_pipeline - ERROR - Error processing Europe/Conference League/2023: 'odds'
+2025-09-01 20:11:13,495 - src.process_pipeline - INFO - Processing Europe/Conference League/2024
+2025-09-01 20:11:13,495 - src.process_pipeline - ERROR - Error processing Europe/Conference League/2024: 'odds'
+2025-09-01 20:11:13,495 - src.process_pipeline - INFO - Processing Europe/Conference League/2025
+2025-09-01 20:11:13,495 - src.process_pipeline - ERROR - Error processing Europe/Conference League/2025: 'odds'
+2025-09-01 20:11:13,496 - src.process_pipeline - INFO - Processing Europe/Europa League/2018
+2025-09-01 20:11:13,496 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2018: 'odds'
+2025-09-01 20:11:13,496 - src.process_pipeline - INFO - Processing Europe/Europa League/2019
+2025-09-01 20:11:13,496 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2019: 'odds'
+2025-09-01 20:11:13,496 - src.process_pipeline - INFO - Processing Europe/Europa League/2020
+2025-09-01 20:11:13,497 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2020: 'odds'
+2025-09-01 20:11:13,497 - src.process_pipeline - INFO - Processing Europe/Europa League/2021
+2025-09-01 20:11:13,497 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2021: 'odds'
+2025-09-01 20:11:13,497 - src.process_pipeline - INFO - Processing Europe/Europa League/2022
+2025-09-01 20:11:13,498 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2022: 'odds'
+2025-09-01 20:11:13,498 - src.process_pipeline - INFO - Processing Europe/Europa League/2023
+2025-09-01 20:11:13,498 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2023: 'odds'
+2025-09-01 20:11:13,498 - src.process_pipeline - INFO - Processing Europe/Europa League/2024
+2025-09-01 20:11:13,498 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2024: 'odds'
+2025-09-01 20:11:13,499 - src.process_pipeline - INFO - Processing Europe/Europa League/2025
+2025-09-01 20:11:13,499 - src.process_pipeline - ERROR - Error processing Europe/Europa League/2025: 'odds'
+2025-09-01 20:11:13,499 - src.process_pipeline - INFO - Processing France/Coupe de France/2018
+2025-09-01 20:11:13,500 - src.process_pipeline - ERROR - Error processing France/Coupe de France/2018: 'odds'
+2025-09-01 20:11:13,500 - src.process_pipeline - INFO - Processing France/Coupe de France/2019
+2025-09-01 20:11:13,500 - src.process_pipeline - ERROR - Error processing France/Coupe de France/2019: 'odds'
+2025-09-01 20:11:13,500 - src.process_pipeline - INFO - Processing France/Coupe de France/2020
+2025-09-01 20:11:13,501 - src.process_pipeline - ERROR - Error processing France/Coupe de France/2020: 'odds'
+2025-09-01 20:11:13,501 - src.process_pipeline - INFO - Processing France/Coupe de France/2021
+2025-09-01 20:11:13,501 - src.process_pipeline - ERROR - Error processing France/Coupe de France/2021: 'odds'
+2025-09-01 20:11:13,501 - src.process_pipeline - INFO - Processing France/Coupe de France/2022
+2025-09-01 20:11:13,502 - src.process_pipeline - ERROR - Error processing France/Coupe de France/2022: 'odds'
+2025-09-01 20:11:13,502 - src.process_pipeline - INFO - Processing France/Coupe de France/2023
+2025-09-01 20:11:13,502 - src.process_pipeline - ERROR - Error processing France/Coupe de France/2023: 'odds'
+2025-09-01 20:11:13,502 - src.process_pipeline - INFO - Processing France/Coupe de France/2024
+2025-09-01 20:11:13,503 - src.process_pipeline - ERROR - Error processing France/Coupe de France/2024: 'odds'
+2025-09-01 20:11:13,503 - src.process_pipeline - INFO - Processing France/Ligue 1/2018
+2025-09-01 20:11:13,503 - src.process_pipeline - ERROR - Error processing France/Ligue 1/2018: 'odds'
+2025-09-01 20:11:13,503 - src.process_pipeline - INFO - Processing France/Ligue 1/2019
+2025-09-01 20:11:13,504 - src.process_pipeline - ERROR - Error processing France/Ligue 1/2019: 'odds'
+2025-09-01 20:11:13,504 - src.process_pipeline - INFO - Processing France/Ligue 1/2020
+2025-09-01 20:11:13,504 - src.process_pipeline - ERROR - Error processing France/Ligue 1/2020: 'odds'
+2025-09-01 20:11:13,504 - src.process_pipeline - INFO - Processing France/Ligue 1/2021
+2025-09-01 20:11:13,505 - src.process_pipeline - ERROR - Error processing France/Ligue 1/2021: 'odds'
+2025-09-01 20:11:13,505 - src.process_pipeline - INFO - Processing France/Ligue 1/2022
+2025-09-01 20:11:13,505 - src.process_pipeline - ERROR - Error processing France/Ligue 1/2022: 'odds'
+2025-09-01 20:11:13,505 - src.process_pipeline - INFO - Processing France/Ligue 1/2023
+2025-09-01 20:11:13,505 - src.process_pipeline - ERROR - Error processing France/Ligue 1/2023: 'odds'
+2025-09-01 20:11:13,506 - src.process_pipeline - INFO - Processing France/Ligue 1/2024
+2025-09-01 20:11:13,506 - src.process_pipeline - ERROR - Error processing France/Ligue 1/2024: 'odds'
+2025-09-01 20:11:13,506 - src.process_pipeline - INFO - Processing France/Ligue 1/2025
+2025-09-01 20:11:13,506 - src.process_pipeline - ERROR - Error processing France/Ligue 1/2025: 'odds'
+2025-09-01 20:11:13,507 - src.process_pipeline - INFO - Processing France/Ligue 2/2018
+2025-09-01 20:11:13,507 - src.process_pipeline - ERROR - Error processing France/Ligue 2/2018: 'odds'
+2025-09-01 20:11:13,507 - src.process_pipeline - INFO - Processing France/Ligue 2/2019
+2025-09-01 20:11:13,507 - src.process_pipeline - ERROR - Error processing France/Ligue 2/2019: 'odds'
+2025-09-01 20:11:13,508 - src.process_pipeline - INFO - Processing France/Ligue 2/2020
+2025-09-01 20:11:13,508 - src.process_pipeline - ERROR - Error processing France/Ligue 2/2020: 'odds'
+2025-09-01 20:11:13,508 - src.process_pipeline - INFO - Processing France/Ligue 2/2021
+2025-09-01 20:11:13,508 - src.process_pipeline - ERROR - Error processing France/Ligue 2/2021: 'odds'
+2025-09-01 20:11:13,509 - src.process_pipeline - INFO - Processing France/Ligue 2/2022
+2025-09-01 20:11:13,509 - src.process_pipeline - ERROR - Error processing France/Ligue 2/2022: 'odds'
+2025-09-01 20:11:13,509 - src.process_pipeline - INFO - Processing France/Ligue 2/2023
+2025-09-01 20:11:13,509 - src.process_pipeline - ERROR - Error processing France/Ligue 2/2023: 'odds'
+2025-09-01 20:11:13,510 - src.process_pipeline - INFO - Processing France/Ligue 2/2024
+2025-09-01 20:11:13,510 - src.process_pipeline - ERROR - Error processing France/Ligue 2/2024: 'odds'
+2025-09-01 20:11:13,510 - src.process_pipeline - INFO - Processing France/Ligue 2/2025
+2025-09-01 20:11:13,510 - src.process_pipeline - ERROR - Error processing France/Ligue 2/2025: 'odds'
+2025-09-01 20:11:13,511 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2017
+2025-09-01 20:11:13,511 - src.process_pipeline - ERROR - Error processing Germany/2. Bundesliga/2017: 'odds'
+2025-09-01 20:11:13,511 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2018
+2025-09-01 20:11:13,511 - src.process_pipeline - ERROR - Error processing Germany/2. Bundesliga/2018: 'odds'
+2025-09-01 20:11:13,512 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2019
+2025-09-01 20:11:13,512 - src.process_pipeline - ERROR - Error processing Germany/2. Bundesliga/2019: 'odds'
+2025-09-01 20:11:13,512 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2020
+2025-09-01 20:11:13,512 - src.process_pipeline - ERROR - Error processing Germany/2. Bundesliga/2020: 'odds'
+2025-09-01 20:11:13,513 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2021
+2025-09-01 20:11:13,513 - src.process_pipeline - ERROR - Error processing Germany/2. Bundesliga/2021: 'odds'
+2025-09-01 20:11:13,513 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2022
+2025-09-01 20:11:13,513 - src.process_pipeline - ERROR - Error processing Germany/2. Bundesliga/2022: 'odds'
+2025-09-01 20:11:13,514 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2023
+2025-09-01 20:11:13,514 - src.process_pipeline - ERROR - Error processing Germany/2. Bundesliga/2023: 'odds'
+2025-09-01 20:11:13,514 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2024
+2025-09-01 20:11:13,514 - src.process_pipeline - ERROR - Error processing Germany/2. Bundesliga/2024: 'odds'
+2025-09-01 20:11:13,515 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2025
+2025-09-01 20:11:13,515 - src.process_pipeline - ERROR - Error processing Germany/2. Bundesliga/2025: 'odds'
+2025-09-01 20:11:13,515 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2018
+2025-09-01 20:11:13,515 - src.process_pipeline - ERROR - Error processing Germany/Bundesliga/2018: 'odds'
+2025-09-01 20:11:13,515 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2019
+2025-09-01 20:11:13,516 - src.process_pipeline - ERROR - Error processing Germany/Bundesliga/2019: 'odds'
+2025-09-01 20:11:13,516 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2020
+2025-09-01 20:11:13,516 - src.process_pipeline - ERROR - Error processing Germany/Bundesliga/2020: 'odds'
+2025-09-01 20:11:13,516 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2021
+2025-09-01 20:11:13,516 - src.process_pipeline - ERROR - Error processing Germany/Bundesliga/2021: 'odds'
+2025-09-01 20:11:13,517 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2022
+2025-09-01 20:11:13,517 - src.process_pipeline - ERROR - Error processing Germany/Bundesliga/2022: 'odds'
+2025-09-01 20:11:13,517 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2023
+2025-09-01 20:11:13,517 - src.process_pipeline - ERROR - Error processing Germany/Bundesliga/2023: 'odds'
+2025-09-01 20:11:13,518 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2024
+2025-09-01 20:11:13,518 - src.process_pipeline - ERROR - Error processing Germany/Bundesliga/2024: 'odds'
+2025-09-01 20:11:13,518 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2025
+2025-09-01 20:11:13,518 - src.process_pipeline - ERROR - Error processing Germany/Bundesliga/2025: 'odds'
+2025-09-01 20:11:13,519 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2018
+2025-09-01 20:11:13,519 - src.process_pipeline - ERROR - Error processing Germany/DFB Pokal/2018: 'odds'
+2025-09-01 20:11:13,519 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2019
+2025-09-01 20:11:13,519 - src.process_pipeline - ERROR - Error processing Germany/DFB Pokal/2019: 'odds'
+2025-09-01 20:11:13,520 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2020
+2025-09-01 20:11:13,520 - src.process_pipeline - ERROR - Error processing Germany/DFB Pokal/2020: 'odds'
+2025-09-01 20:11:13,520 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2021
+2025-09-01 20:11:13,520 - src.process_pipeline - ERROR - Error processing Germany/DFB Pokal/2021: 'odds'
+2025-09-01 20:11:13,520 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2022
+2025-09-01 20:11:13,521 - src.process_pipeline - ERROR - Error processing Germany/DFB Pokal/2022: 'odds'
+2025-09-01 20:11:13,521 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2023
+2025-09-01 20:11:13,521 - src.process_pipeline - ERROR - Error processing Germany/DFB Pokal/2023: 'odds'
+2025-09-01 20:11:13,521 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2024
+2025-09-01 20:11:13,521 - src.process_pipeline - ERROR - Error processing Germany/DFB Pokal/2024: 'odds'
+2025-09-01 20:11:13,522 - src.process_pipeline - INFO - Processing Greece/Super League/2021
+2025-09-01 20:11:13,522 - src.process_pipeline - ERROR - Error processing Greece/Super League/2021: 'odds'
+2025-09-01 20:11:13,522 - src.process_pipeline - INFO - Processing Greece/Super League/2022
+2025-09-01 20:11:13,522 - src.process_pipeline - ERROR - Error processing Greece/Super League/2022: 'odds'
+2025-09-01 20:11:13,523 - src.process_pipeline - INFO - Processing Greece/Super League/2023
+2025-09-01 20:11:13,523 - src.process_pipeline - ERROR - Error processing Greece/Super League/2023: 'odds'
+2025-09-01 20:11:13,523 - src.process_pipeline - INFO - Processing Greece/Super League/2024
+2025-09-01 20:11:13,523 - src.process_pipeline - ERROR - Error processing Greece/Super League/2024: 'odds'
+2025-09-01 20:11:13,524 - src.process_pipeline - INFO - Processing Greece/Super League/2025
+2025-09-01 20:11:13,524 - src.process_pipeline - ERROR - Error processing Greece/Super League/2025: 'odds'
+2025-09-01 20:11:13,524 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2018
+2025-09-01 20:11:13,524 - src.process_pipeline - ERROR - Error processing Italy/Coppa Italia/2018: 'odds'
+2025-09-01 20:11:13,525 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2019
+2025-09-01 20:11:13,525 - src.process_pipeline - ERROR - Error processing Italy/Coppa Italia/2019: 'odds'
+2025-09-01 20:11:13,525 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2020
+2025-09-01 20:11:13,525 - src.process_pipeline - ERROR - Error processing Italy/Coppa Italia/2020: 'odds'
+2025-09-01 20:11:13,526 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2021
+2025-09-01 20:11:13,526 - src.process_pipeline - ERROR - Error processing Italy/Coppa Italia/2021: 'odds'
+2025-09-01 20:11:13,526 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2022
+2025-09-01 20:11:13,526 - src.process_pipeline - ERROR - Error processing Italy/Coppa Italia/2022: 'odds'
+2025-09-01 20:11:13,527 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2023
+2025-09-01 20:11:13,527 - src.process_pipeline - ERROR - Error processing Italy/Coppa Italia/2023: 'odds'
+2025-09-01 20:11:13,527 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2024
+2025-09-01 20:11:13,527 - src.process_pipeline - ERROR - Error processing Italy/Coppa Italia/2024: 'odds'
+2025-09-01 20:11:13,527 - src.process_pipeline - INFO - Processing Italy/Serie A/2016
+2025-09-01 20:11:13,528 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2016: 'odds'
+2025-09-01 20:11:13,528 - src.process_pipeline - INFO - Processing Italy/Serie A/2017
+2025-09-01 20:11:13,528 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2017: 'odds'
+2025-09-01 20:11:13,528 - src.process_pipeline - INFO - Processing Italy/Serie A/2018
+2025-09-01 20:11:13,528 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2018: 'odds'
+2025-09-01 20:11:13,529 - src.process_pipeline - INFO - Processing Italy/Serie A/2019
+2025-09-01 20:11:13,529 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2019: 'odds'
+2025-09-01 20:11:13,529 - src.process_pipeline - INFO - Processing Italy/Serie A/2020
+2025-09-01 20:11:13,529 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2020: 'odds'
+2025-09-01 20:11:13,530 - src.process_pipeline - INFO - Processing Italy/Serie A/2021
+2025-09-01 20:11:13,530 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2021: 'odds'
+2025-09-01 20:11:13,530 - src.process_pipeline - INFO - Processing Italy/Serie A/2022
+2025-09-01 20:11:13,530 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2022: 'odds'
+2025-09-01 20:11:13,531 - src.process_pipeline - INFO - Processing Italy/Serie A/2023
+2025-09-01 20:11:13,531 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2023: 'odds'
+2025-09-01 20:11:13,531 - src.process_pipeline - INFO - Processing Italy/Serie A/2024
+2025-09-01 20:11:13,531 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2024: 'odds'
+2025-09-01 20:11:13,532 - src.process_pipeline - INFO - Processing Italy/Serie A/2025
+2025-09-01 20:11:13,532 - src.process_pipeline - ERROR - Error processing Italy/Serie A/2025: 'odds'
+2025-09-01 20:11:13,532 - src.process_pipeline - INFO - Processing Italy/Serie B/2017
+2025-09-01 20:11:13,532 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2017: 'odds'
+2025-09-01 20:11:13,533 - src.process_pipeline - INFO - Processing Italy/Serie B/2018
+2025-09-01 20:11:13,533 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2018: 'odds'
+2025-09-01 20:11:13,533 - src.process_pipeline - INFO - Processing Italy/Serie B/2019
+2025-09-01 20:11:13,533 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2019: 'odds'
+2025-09-01 20:11:13,534 - src.process_pipeline - INFO - Processing Italy/Serie B/2020
+2025-09-01 20:11:13,534 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2020: 'odds'
+2025-09-01 20:11:13,534 - src.process_pipeline - INFO - Processing Italy/Serie B/2021
+2025-09-01 20:11:13,534 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2021: 'odds'
+2025-09-01 20:11:13,535 - src.process_pipeline - INFO - Processing Italy/Serie B/2022
+2025-09-01 20:11:13,535 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2022: 'odds'
+2025-09-01 20:11:13,535 - src.process_pipeline - INFO - Processing Italy/Serie B/2023
+2025-09-01 20:11:13,535 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2023: 'odds'
+2025-09-01 20:11:13,535 - src.process_pipeline - INFO - Processing Italy/Serie B/2024
+2025-09-01 20:11:13,536 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2024: 'odds'
+2025-09-01 20:11:13,536 - src.process_pipeline - INFO - Processing Italy/Serie B/2025
+2025-09-01 20:11:13,536 - src.process_pipeline - ERROR - Error processing Italy/Serie B/2025: 'odds'
+2025-09-01 20:11:13,536 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2018
+2025-09-01 20:11:13,536 - src.process_pipeline - ERROR - Error processing Spain/Copa del Rey/2018: 'odds'
+2025-09-01 20:11:13,537 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2019
+2025-09-01 20:11:13,537 - src.process_pipeline - ERROR - Error processing Spain/Copa del Rey/2019: 'odds'
+2025-09-01 20:11:13,537 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2020
+2025-09-01 20:11:13,537 - src.process_pipeline - ERROR - Error processing Spain/Copa del Rey/2020: 'odds'
+2025-09-01 20:11:13,538 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2021
+2025-09-01 20:11:13,538 - src.process_pipeline - ERROR - Error processing Spain/Copa del Rey/2021: 'odds'
+2025-09-01 20:11:13,538 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2022
+2025-09-01 20:11:13,538 - src.process_pipeline - ERROR - Error processing Spain/Copa del Rey/2022: 'odds'
+2025-09-01 20:11:13,539 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2023
+2025-09-01 20:11:13,539 - src.process_pipeline - ERROR - Error processing Spain/Copa del Rey/2023: 'odds'
+2025-09-01 20:11:13,539 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2024
+2025-09-01 20:11:13,539 - src.process_pipeline - ERROR - Error processing Spain/Copa del Rey/2024: 'odds'
+2025-09-01 20:11:13,540 - src.process_pipeline - INFO - Processing Spain/La Liga/2020
+2025-09-01 20:11:13,540 - src.process_pipeline - ERROR - Error processing Spain/La Liga/2020: 'odds'
+2025-09-01 20:11:13,540 - src.process_pipeline - INFO - Processing Spain/La Liga/2021
+2025-09-01 20:11:13,540 - src.process_pipeline - ERROR - Error processing Spain/La Liga/2021: 'odds'
+2025-09-01 20:11:13,541 - src.process_pipeline - INFO - Processing Spain/La Liga/2022
+2025-09-01 20:11:13,541 - src.process_pipeline - ERROR - Error processing Spain/La Liga/2022: 'odds'
+2025-09-01 20:11:13,541 - src.process_pipeline - INFO - Processing Spain/La Liga/2023
+2025-09-01 20:11:13,541 - src.process_pipeline - ERROR - Error processing Spain/La Liga/2023: 'odds'
+2025-09-01 20:11:13,542 - src.process_pipeline - INFO - Processing Spain/La Liga/2024
+2025-09-01 20:11:13,542 - src.process_pipeline - ERROR - Error processing Spain/La Liga/2024: 'odds'
+2025-09-01 20:11:13,542 - src.process_pipeline - INFO - Processing Spain/La Liga/2025
+2025-09-01 20:11:13,542 - src.process_pipeline - ERROR - Error processing Spain/La Liga/2025: 'odds'
+2025-09-01 20:11:13,543 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2017
+2025-09-01 20:11:13,543 - src.process_pipeline - ERROR - Error processing Spain/Segunda Division/2017: 'odds'
+2025-09-01 20:11:13,543 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2018
+2025-09-01 20:11:13,543 - src.process_pipeline - ERROR - Error processing Spain/Segunda Division/2018: 'odds'
+2025-09-01 20:11:13,544 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2019
+2025-09-01 20:11:13,544 - src.process_pipeline - ERROR - Error processing Spain/Segunda Division/2019: 'odds'
+2025-09-01 20:11:13,544 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2020
+2025-09-01 20:11:13,544 - src.process_pipeline - ERROR - Error processing Spain/Segunda Division/2020: 'odds'
+2025-09-01 20:11:13,545 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2021
+2025-09-01 20:11:13,545 - src.process_pipeline - ERROR - Error processing Spain/Segunda Division/2021: 'odds'
+2025-09-01 20:11:13,545 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2022
+2025-09-01 20:11:13,545 - src.process_pipeline - ERROR - Error processing Spain/Segunda Division/2022: 'odds'
+2025-09-01 20:11:13,546 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2023
+2025-09-01 20:11:13,546 - src.process_pipeline - ERROR - Error processing Spain/Segunda Division/2023: 'odds'
+2025-09-01 20:11:13,546 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2024
+2025-09-01 20:11:13,546 - src.process_pipeline - ERROR - Error processing Spain/Segunda Division/2024: 'odds'
+2025-09-01 20:11:13,547 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2025
+2025-09-01 20:11:13,547 - src.process_pipeline - ERROR - Error processing Spain/Segunda Division/2025: 'odds'
+2025-09-01 20:11:13,547 - src.process_pipeline - INFO - Starting preprocessing and feature engineering
+2025-09-01 20:11:13,547 - src.process_pipeline - INFO - Initial data shape: (0, 0)
+2025-09-01 20:11:13,547 - src.process_pipeline - INFO - Cleaning data

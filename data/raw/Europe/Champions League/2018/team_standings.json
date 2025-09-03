@@ -1,0 +1,1483 @@
+{
+  "get": "standings",
+  "parameters": {
+    "league": "2",
+    "season": "2018"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/2.png",
+        "flag": null,
+        "season": 2018,
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 165,
+                "name": "Borussia Dortmund",
+                "logo": "https://media.api-sports.io/football/teams/165.png"
+              },
+              "points": 13,
+              "goalsDiff": 8,
+              "group": "UEFA Champions League: Group A",
+              "form": "WDLWW",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 10,
+                  "against": 2
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 3,
+                  "against": 2
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 530,
+                "name": "Atletico Madrid",
+                "logo": "https://media.api-sports.io/football/teams/530.png"
+              },
+              "points": 13,
+              "goalsDiff": 3,
+              "group": "UEFA Champions League: Group A",
+              "form": "DWWLW",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 9,
+                  "against": 6
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 5
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 569,
+                "name": "Club Brugge KV",
+                "logo": "https://media.api-sports.io/football/teams/569.png"
+              },
+              "points": 6,
+              "goalsDiff": 1,
+              "group": "UEFA Champions League: Group A",
+              "form": "DDWDL",
+              "status": null,
+              "description": "Promotion - Europa League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 3,
+                "lose": 2,
+                "goals": {
+                  "for": 6,
+                  "against": 5
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 1,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 3
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 91,
+                "name": "Monaco",
+                "logo": "https://media.api-sports.io/football/teams/91.png"
+              },
+              "points": 1,
+              "goalsDiff": -12,
+              "group": "UEFA Champions League: Group A",
+              "form": "LLLDL",
+              "status": null,
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 1,
+                "lose": 5,
+                "goals": {
+                  "for": 2,
+                  "against": 14
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 1,
+                  "against": 8
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 1,
+                  "against": 6
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 529,
+                "name": "Barcelona",
+                "logo": "https://media.api-sports.io/football/teams/529.png"
+              },
+              "points": 14,
+              "goalsDiff": 9,
+              "group": "UEFA Champions League: Group B",
+              "form": "DWDWW",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 14,
+                  "against": 5
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 4
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 47,
+                "name": "Tottenham",
+                "logo": "https://media.api-sports.io/football/teams/47.png"
+              },
+              "points": 8,
+              "goalsDiff": -1,
+              "group": "UEFA Champions League: Group B",
+              "form": "DWWDL",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 9,
+                  "against": 10
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 5
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 505,
+                "name": "Inter",
+                "logo": "https://media.api-sports.io/football/teams/505.png"
+              },
+              "points": 8,
+              "goalsDiff": -1,
+              "group": "UEFA Champions League: Group B",
+              "form": "DLDLW",
+              "status": null,
+              "description": "Promotion - Europa League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 6,
+                  "against": 7
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 4
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 197,
+                "name": "PSV Eindhoven",
+                "logo": "https://media.api-sports.io/football/teams/197.png"
+              },
+              "points": 2,
+              "goalsDiff": -7,
+              "group": "UEFA Champions League: Group B",
+              "form": "DLLDL",
+              "status": null,
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 2,
+                "lose": 4,
+                "goals": {
+                  "for": 6,
+                  "against": 13
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 4,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 2,
+                  "against": 7
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 85,
+                "name": "Paris Saint Germain",
+                "logo": "https://media.api-sports.io/football/teams/85.png"
+              },
+              "points": 11,
+              "goalsDiff": 8,
+              "group": "UEFA Champions League: Group C",
+              "form": "WWDDW",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 17,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 10,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 7,
+                  "against": 5
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 40,
+                "name": "Liverpool",
+                "logo": "https://media.api-sports.io/football/teams/40.png"
+              },
+              "points": 9,
+              "goalsDiff": 2,
+              "group": "UEFA Champions League: Group C",
+              "form": "WLLWL",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 9,
+                  "against": 7
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 8,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 1,
+                  "against": 5
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 492,
+                "name": "Napoli",
+                "logo": "https://media.api-sports.io/football/teams/492.png"
+              },
+              "points": 9,
+              "goalsDiff": 2,
+              "group": "UEFA Champions League: Group C",
+              "form": "LWDDW",
+              "status": null,
+              "description": "Promotion - Europa League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 3,
+                "lose": 1,
+                "goals": {
+                  "for": 7,
+                  "against": 5
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 5,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 3
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 598,
+                "name": "FK Crvena Zvezda",
+                "logo": "https://media.api-sports.io/football/teams/598.png"
+              },
+              "points": 4,
+              "goalsDiff": -12,
+              "group": "UEFA Champions League: Group C",
+              "form": "LLWLL",
+              "status": null,
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 1,
+                "lose": 4,
+                "goals": {
+                  "for": 5,
+                  "against": 17
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 3,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 2,
+                  "against": 13
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 212,
+                "name": "FC Porto",
+                "logo": "https://media.api-sports.io/football/teams/212.png"
+              },
+              "points": 16,
+              "goalsDiff": 9,
+              "group": "UEFA Champions League: Group D",
+              "form": "WWWWW",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 5,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 15,
+                  "against": 6
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 3,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 8,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 4
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 174,
+                "name": "FC Schalke 04",
+                "logo": "https://media.api-sports.io/football/teams/174.png"
+              },
+              "points": 11,
+              "goalsDiff": 2,
+              "group": "UEFA Champions League: Group D",
+              "form": "WLWDW",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 6,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 3
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 645,
+                "name": "Galatasaray",
+                "logo": "https://media.api-sports.io/football/teams/645.png"
+              },
+              "points": 4,
+              "goalsDiff": -3,
+              "group": "UEFA Champions League: Group D",
+              "form": "LLLDL",
+              "status": null,
+              "description": "Promotion - Europa League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 1,
+                "lose": 4,
+                "goals": {
+                  "for": 5,
+                  "against": 8
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 0,
+                  "against": 5
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 597,
+                "name": "Lokomotiv Moscow",
+                "logo": "https://media.api-sports.io/football/teams/597.png"
+              },
+              "points": 3,
+              "goalsDiff": -8,
+              "group": "UEFA Champions League: Group D",
+              "form": "LWLLL",
+              "status": null,
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 0,
+                "lose": 5,
+                "goals": {
+                  "for": 4,
+                  "against": 12
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 1,
+                  "against": 8
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 157,
+                "name": "Bayern Munich",
+                "logo": "https://media.api-sports.io/football/teams/157.png"
+              },
+              "points": 14,
+              "goalsDiff": 10,
+              "group": "UEFA Champions League: Group E",
+              "form": "DWWWD",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 15,
+                  "against": 5
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 8,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 3
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 194,
+                "name": "Ajax",
+                "logo": "https://media.api-sports.io/football/teams/194.png"
+              },
+              "points": 12,
+              "goalsDiff": 6,
+              "group": "UEFA Champions League: Group E",
+              "form": "DWDWD",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 3,
+                "lose": 0,
+                "goals": {
+                  "for": 11,
+                  "against": 5
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 2
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 211,
+                "name": "Benfica",
+                "logo": "https://media.api-sports.io/football/teams/211.png"
+              },
+              "points": 7,
+              "goalsDiff": -5,
+              "group": "UEFA Champions League: Group E",
+              "form": "WLDLW",
+              "status": null,
+              "description": "Promotion - Europa League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 6,
+                  "against": 11
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 2,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 4,
+                  "against": 8
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 575,
+                "name": "AEK Athens FC",
+                "logo": "https://media.api-sports.io/football/teams/575.png"
+              },
+              "points": 0,
+              "goalsDiff": -11,
+              "group": "UEFA Champions League: Group E",
+              "form": "LLLLL",
+              "status": null,
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 0,
+                "lose": 6,
+                "goals": {
+                  "for": 2,
+                  "against": 13
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 2,
+                  "against": 7
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 0,
+                  "against": 6
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 50,
+                "name": "Manchester City",
+                "logo": "https://media.api-sports.io/football/teams/50.png"
+              },
+              "points": 13,
+              "goalsDiff": 10,
+              "group": "UEFA Champions League: Group F",
+              "form": "WDWWW",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 16,
+                  "against": 6
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 9,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 7,
+                  "against": 3
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 80,
+                "name": "Lyon",
+                "logo": "https://media.api-sports.io/football/teams/80.png"
+              },
+              "points": 8,
+              "goalsDiff": 1,
+              "group": "UEFA Champions League: Group F",
+              "form": "DDDDD",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 5,
+                "lose": 0,
+                "goals": {
+                  "for": 12,
+                  "against": 11
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 3,
+                "lose": 0,
+                "goals": {
+                  "for": 6,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 2,
+                "lose": 0,
+                "goals": {
+                  "for": 6,
+                  "against": 5
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 550,
+                "name": "Shakhtar Donetsk",
+                "logo": "https://media.api-sports.io/football/teams/550.png"
+              },
+              "points": 6,
+              "goalsDiff": -8,
+              "group": "UEFA Champions League: Group F",
+              "form": "DWLLD",
+              "status": null,
+              "description": "Promotion - Europa League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 3,
+                "lose": 2,
+                "goals": {
+                  "for": 8,
+                  "against": 16
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 3,
+                  "against": 6
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 10
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 167,
+                "name": "1899 Hoffenheim",
+                "logo": "https://media.api-sports.io/football/teams/167.png"
+              },
+              "points": 3,
+              "goalsDiff": -3,
+              "group": "UEFA Champions League: Group F",
+              "form": "LLDDL",
+              "status": null,
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 0,
+                "draw": 3,
+                "lose": 3,
+                "goals": {
+                  "for": 11,
+                  "against": 14
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 0,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 6,
+                  "against": 8
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 6
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 541,
+                "name": "Real Madrid",
+                "logo": "https://media.api-sports.io/football/teams/541.png"
+              },
+              "points": 12,
+              "goalsDiff": 7,
+              "group": "UEFA Champions League: Group G",
+              "form": "LWWWL",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 12,
+                  "against": 5
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 7,
+                  "against": 1
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 497,
+                "name": "AS Roma",
+                "logo": "https://media.api-sports.io/football/teams/497.png"
+              },
+              "points": 9,
+              "goalsDiff": 3,
+              "group": "UEFA Champions League: Group G",
+              "form": "LLWWW",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 11,
+                  "against": 8
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 8,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 6
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 567,
+                "name": "Plzen",
+                "logo": "https://media.api-sports.io/football/teams/567.png"
+              },
+              "points": 7,
+              "goalsDiff": -9,
+              "group": "UEFA Champions League: Group G",
+              "form": "WWLLL",
+              "status": null,
+              "description": "Promotion - Europa League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 7,
+                  "against": 16
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 8
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 8
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 555,
+                "name": "CSKA Moscow",
+                "logo": "https://media.api-sports.io/football/teams/555.png"
+              },
+              "points": 7,
+              "goalsDiff": -1,
+              "group": "UEFA Champions League: Group G",
+              "form": "WLLLW",
+              "status": null,
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 1,
+                "lose": 3,
+                "goals": {
+                  "for": 8,
+                  "against": 9
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 3,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 5
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            }
+          ],
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 496,
+                "name": "Juventus",
+                "logo": "https://media.api-sports.io/football/teams/496.png"
+              },
+              "points": 12,
+              "goalsDiff": 5,
+              "group": "UEFA Champions League: Group H",
+              "form": "LWLWW",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 4,
+                "draw": 0,
+                "lose": 2,
+                "goals": {
+                  "for": 9,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 2
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 4,
+                  "against": 2
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 33,
+                "name": "Manchester United",
+                "logo": "https://media.api-sports.io/football/teams/33.png"
+              },
+              "points": 10,
+              "goalsDiff": 3,
+              "group": "UEFA Champions League: Group H",
+              "form": "LWWLD",
+              "status": null,
+              "description": "Promotion - Champions League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 3,
+                "draw": 1,
+                "lose": 2,
+                "goals": {
+                  "for": 7,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 6,
+                  "against": 3
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 532,
+                "name": "Valencia",
+                "logo": "https://media.api-sports.io/football/teams/532.png"
+              },
+              "points": 8,
+              "goalsDiff": 0,
+              "group": "UEFA Champions League: Group H",
+              "form": "WLWDD",
+              "status": null,
+              "description": "Promotion - Europa League (Play Offs)",
+              "all": {
+                "played": 6,
+                "win": 2,
+                "draw": 2,
+                "lose": 2,
+                "goals": {
+                  "for": 6,
+                  "against": 6
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 2,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 5,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 2,
+                "lose": 1,
+                "goals": {
+                  "for": 1,
+                  "against": 2
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 565,
+                "name": "BSC Young Boys",
+                "logo": "https://media.api-sports.io/football/teams/565.png"
+              },
+              "points": 4,
+              "goalsDiff": -8,
+              "group": "UEFA Champions League: Group H",
+              "form": "WLLDL",
+              "status": null,
+              "description": null,
+              "all": {
+                "played": 6,
+                "win": 1,
+                "draw": 1,
+                "lose": 4,
+                "goals": {
+                  "for": 4,
+                  "against": 12
+                }
+              },
+              "home": {
+                "played": 3,
+                "win": 1,
+                "draw": 1,
+                "lose": 1,
+                "goals": {
+                  "for": 3,
+                  "against": 5
+                }
+              },
+              "away": {
+                "played": 3,
+                "win": 0,
+                "draw": 0,
+                "lose": 3,
+                "goals": {
+                  "for": 1,
+                  "against": 7
+                }
+              },
+              "update": "2019-01-19T00:00:00+00:00"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

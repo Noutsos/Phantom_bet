@@ -1,0 +1,22 @@
+2025-09-01 17:52:42,605 - src.train_pipeline - INFO - Starting hierarchical training with model: xgboost
+2025-09-01 17:52:42,606 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-01 17:52:42,639 - src.train_pipeline - INFO - Filtered to 37455 completed matches
+2025-09-01 17:52:42,684 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-01 17:52:42,693 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-01 17:52:42,693 - src.train_pipeline - INFO - Preparing features...
+2025-09-01 17:52:42,735 - src.train_pipeline - INFO - Removed 33 potential leakage columns
+2025-09-01 17:52:42,905 - src.train_pipeline - INFO - Feature preparation complete. Final features: 132
+2025-09-01 17:52:42,906 - src.train_pipeline - INFO - Data preparation complete. Features: 132, Samples: 37455
+2025-09-01 17:52:42,912 - src.train_pipeline - INFO - Time Series Split - Training: 22473, Holdout: 14982
+2025-09-01 17:52:42,913 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-01 17:52:42,978 - src.train_pipeline - INFO - Numerical features: 132, Categorical features: 0
+2025-09-01 17:52:42,978 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-01 17:52:42,978 - src.train_pipeline - INFO - Using feature selection method: rfe with top 75 features
+2025-09-01 17:52:42,978 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-01 17:52:42,978 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-01 17:52:42,978 - src.train_pipeline - INFO - Starting hierarchical cross-validation...
+2025-09-01 17:52:42,979 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-01 17:52:52,634 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-01 17:53:13,591 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-01 17:53:45,497 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-01 17:54:31,761 - src.train_pipeline - INFO - Processing fold 5/5

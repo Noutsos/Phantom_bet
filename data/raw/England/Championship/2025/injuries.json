@@ -1,0 +1,5686 @@
+[
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386551"
+    },
+    "errors": [],
+    "results": 10,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 25464,
+          "name": "Marvin Ducksch",
+          "photo": "https://media.api-sports.io/football/players/25464.png",
+          "type": "Missing Fixture",
+          "reason": "Calf Injury"
+        },
+        "team": {
+          "id": 54,
+          "name": "Birmingham",
+          "logo": "https://media.api-sports.io/football/teams/54.png"
+        },
+        "fixture": {
+          "id": 1386551,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:00:00+00:00",
+          "timestamp": 1754679600
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19152,
+          "name": "Conor Townsend",
+          "photo": "https://media.api-sports.io/football/players/19152.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 57,
+          "name": "Ipswich",
+          "logo": "https://media.api-sports.io/football/teams/57.png"
+        },
+        "fixture": {
+          "id": 1386551,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:00:00+00:00",
+          "timestamp": 1754679600
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20089,
+          "name": "Wes Burns",
+          "photo": "https://media.api-sports.io/football/players/20089.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 57,
+          "name": "Ipswich",
+          "logo": "https://media.api-sports.io/football/teams/57.png"
+        },
+        "fixture": {
+          "id": 1386551,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:00:00+00:00",
+          "timestamp": 1754679600
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 17579,
+          "name": "Sammie Szmodics",
+          "photo": "https://media.api-sports.io/football/players/17579.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 57,
+          "name": "Ipswich",
+          "logo": "https://media.api-sports.io/football/teams/57.png"
+        },
+        "fixture": {
+          "id": 1386551,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:00:00+00:00",
+          "timestamp": 1754679600
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19139,
+          "name": "Tyler Roberts",
+          "photo": "https://media.api-sports.io/football/players/19139.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 54,
+          "name": "Birmingham",
+          "logo": "https://media.api-sports.io/football/teams/54.png"
+        },
+        "fixture": {
+          "id": 1386551,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:00:00+00:00",
+          "timestamp": 1754679600
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 616,
+          "name": "Arijanet Muric",
+          "photo": "https://media.api-sports.io/football/players/616.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 57,
+          "name": "Ipswich",
+          "logo": "https://media.api-sports.io/football/teams/57.png"
+        },
+        "fixture": {
+          "id": 1386551,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:00:00+00:00",
+          "timestamp": 1754679600
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 33794,
+          "name": "Kanya Fujimoto",
+          "photo": "https://media.api-sports.io/football/players/33794.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 54,
+          "name": "Birmingham",
+          "logo": "https://media.api-sports.io/football/teams/54.png"
+        },
+        "fixture": {
+          "id": 1386551,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:00:00+00:00",
+          "timestamp": 1754679600
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19119,
+          "name": "Leif Davis",
+          "photo": "https://media.api-sports.io/football/players/19119.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 57,
+          "name": "Ipswich",
+          "logo": "https://media.api-sports.io/football/teams/57.png"
+        },
+        "fixture": {
+          "id": 1386551,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:00:00+00:00",
+          "timestamp": 1754679600
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 138836,
+          "name": "Harry Clarke",
+          "photo": "https://media.api-sports.io/football/players/138836.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 57,
+          "name": "Ipswich",
+          "logo": "https://media.api-sports.io/football/teams/57.png"
+        },
+        "fixture": {
+          "id": 1386551,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:00:00+00:00",
+          "timestamp": 1754679600
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 138931,
+          "name": "Jaden Philogene-Bidace",
+          "photo": "https://media.api-sports.io/football/players/138931.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 57,
+          "name": "Ipswich",
+          "logo": "https://media.api-sports.io/football/teams/57.png"
+        },
+        "fixture": {
+          "id": 1386551,
+          "timezone": "UTC",
+          "date": "2025-08-08T19:00:00+00:00",
+          "timestamp": 1754679600
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386553"
+    },
+    "errors": [],
+    "results": 11,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19169,
+          "name": "Jay Rodriguez",
+          "photo": "https://media.api-sports.io/football/players/19169.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 1837,
+          "name": "Wrexham",
+          "logo": "https://media.api-sports.io/football/teams/1837.png"
+        },
+        "fixture": {
+          "id": 1386553,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 18918,
+          "name": "Charlie Taylor",
+          "photo": "https://media.api-sports.io/football/players/18918.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 41,
+          "name": "Southampton",
+          "logo": "https://media.api-sports.io/football/teams/41.png"
+        },
+        "fixture": {
+          "id": 1386553,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19859,
+          "name": "Andy Cannon",
+          "photo": "https://media.api-sports.io/football/players/19859.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 1837,
+          "name": "Wrexham",
+          "logo": "https://media.api-sports.io/football/teams/1837.png"
+        },
+        "fixture": {
+          "id": 1386553,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20248,
+          "name": "Oliver Rathbone",
+          "photo": "https://media.api-sports.io/football/players/20248.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 1837,
+          "name": "Wrexham",
+          "logo": "https://media.api-sports.io/football/teams/1837.png"
+        },
+        "fixture": {
+          "id": 1386553,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19485,
+          "name": "Ben Brereton",
+          "photo": "https://media.api-sports.io/football/players/19485.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 41,
+          "name": "Southampton",
+          "logo": "https://media.api-sports.io/football/teams/41.png"
+        },
+        "fixture": {
+          "id": 1386553,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19733,
+          "name": "Flynn Downes",
+          "photo": "https://media.api-sports.io/football/players/19733.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 41,
+          "name": "Southampton",
+          "logo": "https://media.api-sports.io/football/teams/41.png"
+        },
+        "fixture": {
+          "id": 1386553,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 144729,
+          "name": "Taylor Harwood-Bellis",
+          "photo": "https://media.api-sports.io/football/players/144729.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 41,
+          "name": "Southampton",
+          "logo": "https://media.api-sports.io/football/teams/41.png"
+        },
+        "fixture": {
+          "id": 1386553,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 194461,
+          "name": "George Thomason",
+          "photo": "https://media.api-sports.io/football/players/194461.png",
+          "type": "Missing Fixture",
+          "reason": "Thigh problems"
+        },
+        "team": {
+          "id": 1837,
+          "name": "Wrexham",
+          "logo": "https://media.api-sports.io/football/teams/1837.png"
+        },
+        "fixture": {
+          "id": 1386553,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 105971,
+          "name": "Gavin Bazunu",
+          "photo": "https://media.api-sports.io/football/players/105971.png",
+          "type": "Missing Fixture",
+          "reason": "Meniscus injur"
+        },
+        "team": {
+          "id": 41,
+          "name": "Southampton",
+          "logo": "https://media.api-sports.io/football/teams/41.png"
+        },
+        "fixture": {
+          "id": 1386553,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 278085,
+          "name": "Samuel Ikechukwu Edozie",
+          "photo": "https://media.api-sports.io/football/players/278085.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 41,
+          "name": "Southampton",
+          "logo": "https://media.api-sports.io/football/teams/41.png"
+        },
+        "fixture": {
+          "id": 1386553,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 336585,
+          "name": "Mateus Fernandes",
+          "photo": "https://media.api-sports.io/football/players/336585.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 41,
+          "name": "Southampton",
+          "logo": "https://media.api-sports.io/football/teams/41.png"
+        },
+        "fixture": {
+          "id": 1386553,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386554"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 8481,
+          "name": "Giorgi Chakvetadze",
+          "photo": "https://media.api-sports.io/football/players/8481.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 38,
+          "name": "Watford",
+          "logo": "https://media.api-sports.io/football/teams/38.png"
+        },
+        "fixture": {
+          "id": 1386554,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 17832,
+          "name": "Matthew Pollock",
+          "photo": "https://media.api-sports.io/football/players/17832.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 38,
+          "name": "Watford",
+          "logo": "https://media.api-sports.io/football/teams/38.png"
+        },
+        "fixture": {
+          "id": 1386554,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 265733,
+          "name": "Caleb Wiley",
+          "photo": "https://media.api-sports.io/football/players/265733.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 38,
+          "name": "Watford",
+          "logo": "https://media.api-sports.io/football/teams/38.png"
+        },
+        "fixture": {
+          "id": 1386554,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386552"
+    },
+    "errors": [],
+    "results": 8,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 16046,
+          "name": "Victor Torp",
+          "photo": "https://media.api-sports.io/football/players/16046.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 1346,
+          "name": "Coventry",
+          "logo": "https://media.api-sports.io/football/teams/1346.png"
+        },
+        "fixture": {
+          "id": 1386552,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 427,
+          "name": "Haji Wright",
+          "photo": "https://media.api-sports.io/football/players/427.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon problems"
+        },
+        "team": {
+          "id": 1346,
+          "name": "Coventry",
+          "logo": "https://media.api-sports.io/football/teams/1346.png"
+        },
+        "fixture": {
+          "id": 1386552,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 44798,
+          "name": "Liam Millar",
+          "photo": "https://media.api-sports.io/football/players/44798.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 64,
+          "name": "Hull City",
+          "logo": "https://media.api-sports.io/football/teams/64.png"
+        },
+        "fixture": {
+          "id": 1386552,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20372,
+          "name": "Jack Rudoni",
+          "photo": "https://media.api-sports.io/football/players/20372.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 1346,
+          "name": "Coventry",
+          "logo": "https://media.api-sports.io/football/teams/1346.png"
+        },
+        "fixture": {
+          "id": 1386552,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19984,
+          "name": "Josh Eccles",
+          "photo": "https://media.api-sports.io/football/players/19984.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 1346,
+          "name": "Coventry",
+          "logo": "https://media.api-sports.io/football/teams/1346.png"
+        },
+        "fixture": {
+          "id": 1386552,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 264437,
+          "name": "Bobby Thomas",
+          "photo": "https://media.api-sports.io/football/players/264437.png",
+          "type": "Missing Fixture",
+          "reason": "Calf strain"
+        },
+        "team": {
+          "id": 1346,
+          "name": "Coventry",
+          "logo": "https://media.api-sports.io/football/teams/1346.png"
+        },
+        "fixture": {
+          "id": 1386552,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 162991,
+          "name": "Eliot Matazo",
+          "photo": "https://media.api-sports.io/football/players/162991.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 64,
+          "name": "Hull City",
+          "logo": "https://media.api-sports.io/football/teams/64.png"
+        },
+        "fixture": {
+          "id": 1386552,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 299923,
+          "name": "Belloumi",
+          "photo": "https://media.api-sports.io/football/players/299923.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 64,
+          "name": "Hull City",
+          "logo": "https://media.api-sports.io/football/teams/64.png"
+        },
+        "fixture": {
+          "id": 1386552,
+          "timezone": "UTC",
+          "date": "2025-08-09T11:30:00+00:00",
+          "timestamp": 1754739000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386555"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19127,
+          "name": "Adam Forshaw",
+          "photo": "https://media.api-sports.io/football/players/19127.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 67,
+          "name": "Blackburn",
+          "logo": "https://media.api-sports.io/football/teams/67.png"
+        },
+        "fixture": {
+          "id": 1386555,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 1279,
+          "name": "Josh Maja",
+          "photo": "https://media.api-sports.io/football/players/1279.png",
+          "type": "Missing Fixture",
+          "reason": "Calf Injury"
+        },
+        "team": {
+          "id": 60,
+          "name": "West Brom",
+          "logo": "https://media.api-sports.io/football/teams/60.png"
+        },
+        "fixture": {
+          "id": 1386555,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 18273,
+          "name": "Aynsley Pears",
+          "photo": "https://media.api-sports.io/football/players/18273.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 67,
+          "name": "Blackburn",
+          "logo": "https://media.api-sports.io/football/teams/67.png"
+        },
+        "fixture": {
+          "id": 1386555,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 199692,
+          "name": "Hayden Carter",
+          "photo": "https://media.api-sports.io/football/players/199692.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 67,
+          "name": "Blackburn",
+          "logo": "https://media.api-sports.io/football/teams/67.png"
+        },
+        "fixture": {
+          "id": 1386555,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 201709,
+          "name": "Daryl Dike",
+          "photo": "https://media.api-sports.io/football/players/201709.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 60,
+          "name": "West Brom",
+          "logo": "https://media.api-sports.io/football/teams/60.png"
+        },
+        "fixture": {
+          "id": 1386555,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 231081,
+          "name": "Sidnei Tavares",
+          "photo": "https://media.api-sports.io/football/players/231081.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 67,
+          "name": "Blackburn",
+          "logo": "https://media.api-sports.io/football/teams/67.png"
+        },
+        "fixture": {
+          "id": 1386555,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386557"
+    },
+    "errors": [],
+    "results": 9,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19467,
+          "name": "Darragh Lenihan",
+          "photo": "https://media.api-sports.io/football/players/19467.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle surgery"
+        },
+        "team": {
+          "id": 70,
+          "name": "Middlesbrough",
+          "logo": "https://media.api-sports.io/football/teams/70.png"
+        },
+        "fixture": {
+          "id": 1386557,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 18382,
+          "name": "Ricardo Santos",
+          "photo": "https://media.api-sports.io/football/players/18382.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 76,
+          "name": "Swansea",
+          "logo": "https://media.api-sports.io/football/teams/76.png"
+        },
+        "fixture": {
+          "id": 1386557,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 17739,
+          "name": "George Edmundson",
+          "photo": "https://media.api-sports.io/football/players/17739.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 70,
+          "name": "Middlesbrough",
+          "logo": "https://media.api-sports.io/football/teams/70.png"
+        },
+        "fixture": {
+          "id": 1386557,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 6913,
+          "name": "Riley Mcgree",
+          "photo": "https://media.api-sports.io/football/players/6913.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 70,
+          "name": "Middlesbrough",
+          "logo": "https://media.api-sports.io/football/teams/70.png"
+        },
+        "fixture": {
+          "id": 1386557,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 45021,
+          "name": "Seny Timothy Dieng",
+          "photo": "https://media.api-sports.io/football/players/45021.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 70,
+          "name": "Middlesbrough",
+          "logo": "https://media.api-sports.io/football/teams/70.png"
+        },
+        "fixture": {
+          "id": 1386557,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 231039,
+          "name": "Finn Azaz",
+          "photo": "https://media.api-sports.io/football/players/231039.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 70,
+          "name": "Middlesbrough",
+          "logo": "https://media.api-sports.io/football/teams/70.png"
+        },
+        "fixture": {
+          "id": 1386557,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 37049,
+          "name": "Alex Bangura",
+          "photo": "https://media.api-sports.io/football/players/37049.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 70,
+          "name": "Middlesbrough",
+          "logo": "https://media.api-sports.io/football/teams/70.png"
+        },
+        "fixture": {
+          "id": 1386557,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 104041,
+          "name": "Benjamin Cabango",
+          "photo": "https://media.api-sports.io/football/players/104041.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 76,
+          "name": "Swansea",
+          "logo": "https://media.api-sports.io/football/teams/76.png"
+        },
+        "fixture": {
+          "id": 1386557,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 162839,
+          "name": "Zan Vipotnik",
+          "photo": "https://media.api-sports.io/football/players/162839.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 76,
+          "name": "Swansea",
+          "logo": "https://media.api-sports.io/football/teams/76.png"
+        },
+        "fixture": {
+          "id": 1386557,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386560"
+    },
+    "errors": [],
+    "results": 8,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19077,
+          "name": "Kenny Mclean",
+          "photo": "https://media.api-sports.io/football/players/19077.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 71,
+          "name": "Norwich",
+          "logo": "https://media.api-sports.io/football/teams/71.png"
+        },
+        "fixture": {
+          "id": 1386560,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19015,
+          "name": "Joe Bryan",
+          "photo": "https://media.api-sports.io/football/players/19015.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 58,
+          "name": "Millwall",
+          "logo": "https://media.api-sports.io/football/teams/58.png"
+        },
+        "fixture": {
+          "id": 1386560,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 190595,
+          "name": "Lukas Jensen",
+          "photo": "https://media.api-sports.io/football/players/190595.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon rupture"
+        },
+        "team": {
+          "id": 58,
+          "name": "Millwall",
+          "logo": "https://media.api-sports.io/football/teams/58.png"
+        },
+        "fixture": {
+          "id": 1386560,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19641,
+          "name": "Dan McNamara",
+          "photo": "https://media.api-sports.io/football/players/19641.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 58,
+          "name": "Millwall",
+          "logo": "https://media.api-sports.io/football/teams/58.png"
+        },
+        "fixture": {
+          "id": 1386560,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 171034,
+          "name": "Liam Gibbs",
+          "photo": "https://media.api-sports.io/football/players/171034.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 71,
+          "name": "Norwich",
+          "logo": "https://media.api-sports.io/football/teams/71.png"
+        },
+        "fixture": {
+          "id": 1386560,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 278064,
+          "name": "Tony Springett",
+          "photo": "https://media.api-sports.io/football/players/278064.png",
+          "type": "Missing Fixture",
+          "reason": "Back Injury"
+        },
+        "team": {
+          "id": 71,
+          "name": "Norwich",
+          "logo": "https://media.api-sports.io/football/teams/71.png"
+        },
+        "fixture": {
+          "id": 1386560,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 383773,
+          "name": "Lucien Mahovo",
+          "photo": "https://media.api-sports.io/football/players/383773.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 71,
+          "name": "Norwich",
+          "logo": "https://media.api-sports.io/football/teams/71.png"
+        },
+        "fixture": {
+          "id": 1386560,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 382340,
+          "name": "Gabriel Forsyth",
+          "photo": "https://media.api-sports.io/football/players/382340.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 71,
+          "name": "Norwich",
+          "logo": "https://media.api-sports.io/football/teams/71.png"
+        },
+        "fixture": {
+          "id": 1386560,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386558"
+    },
+    "errors": [],
+    "results": 9,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 18863,
+          "name": "Steve Cook",
+          "photo": "https://media.api-sports.io/football/players/18863.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 72,
+          "name": "QPR",
+          "logo": "https://media.api-sports.io/football/teams/72.png"
+        },
+        "fixture": {
+          "id": 1386558,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19745,
+          "name": "William Keane",
+          "photo": "https://media.api-sports.io/football/players/19745.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "fixture": {
+          "id": 1386558,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19455,
+          "name": "Brad Potts",
+          "photo": "https://media.api-sports.io/football/players/19455.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "fixture": {
+          "id": 1386558,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 1372,
+          "name": "Michael Frey",
+          "photo": "https://media.api-sports.io/football/players/1372.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 72,
+          "name": "QPR",
+          "logo": "https://media.api-sports.io/football/teams/72.png"
+        },
+        "fixture": {
+          "id": 1386558,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 37116,
+          "name": "Jake Clarke-Salter",
+          "photo": "https://media.api-sports.io/football/players/37116.png",
+          "type": "Missing Fixture",
+          "reason": "Hip injury"
+        },
+        "team": {
+          "id": 72,
+          "name": "QPR",
+          "logo": "https://media.api-sports.io/football/teams/72.png"
+        },
+        "fixture": {
+          "id": 1386558,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20061,
+          "name": "Jordan Thompson",
+          "photo": "https://media.api-sports.io/football/players/20061.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "fixture": {
+          "id": 1386558,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19886,
+          "name": "Jimmy Dunne",
+          "photo": "https://media.api-sports.io/football/players/19886.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 72,
+          "name": "QPR",
+          "logo": "https://media.api-sports.io/football/teams/72.png"
+        },
+        "fixture": {
+          "id": 1386558,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 788,
+          "name": "Zan Celar",
+          "photo": "https://media.api-sports.io/football/players/788.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 72,
+          "name": "QPR",
+          "logo": "https://media.api-sports.io/football/teams/72.png"
+        },
+        "fixture": {
+          "id": 1386558,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 325756,
+          "name": "Josh Seary",
+          "photo": "https://media.api-sports.io/football/players/325756.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "fixture": {
+          "id": 1386558,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386556"
+    },
+    "errors": [],
+    "results": 8,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19860,
+          "name": "Matthew Clarke",
+          "photo": "https://media.api-sports.io/football/players/19860.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386556,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20109,
+          "name": "Curtis Nelson",
+          "photo": "https://media.api-sports.io/football/players/20109.png",
+          "type": "Missing Fixture",
+          "reason": "Torn knee ligament"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386556,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 2031,
+          "name": "Lars-Jorgen Salvesen",
+          "photo": "https://media.api-sports.io/football/players/2031.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386556,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19724,
+          "name": "Callum Elder",
+          "photo": "https://media.api-sports.io/football/players/19724.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386556,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 17599,
+          "name": "Kane Wilson",
+          "photo": "https://media.api-sports.io/football/players/17599.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386556,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 265444,
+          "name": "Sondre Klingen Langas",
+          "photo": "https://media.api-sports.io/football/players/265444.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386556,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 158693,
+          "name": "Owen Beck",
+          "photo": "https://media.api-sports.io/football/players/158693.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386556,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 407652,
+          "name": "Patrick Agyemang",
+          "photo": "https://media.api-sports.io/football/players/407652.png",
+          "type": "Missing Fixture",
+          "reason": "Inguinal Hernia"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386556,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386559"
+    },
+    "errors": [],
+    "results": 11,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 122094,
+          "name": "Colby Bishop",
+          "photo": "https://media.api-sports.io/football/players/122094.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 1355,
+          "name": "Portsmouth",
+          "logo": "https://media.api-sports.io/football/teams/1355.png"
+        },
+        "fixture": {
+          "id": 1386559,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 44875,
+          "name": "Conor Shaughnessy",
+          "photo": "https://media.api-sports.io/football/players/44875.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 1355,
+          "name": "Portsmouth",
+          "logo": "https://media.api-sports.io/football/teams/1355.png"
+        },
+        "fixture": {
+          "id": 1386559,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 40774,
+          "name": "Przemyslaw Placheta",
+          "photo": "https://media.api-sports.io/football/players/40774.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 1338,
+          "name": "Oxford United",
+          "logo": "https://media.api-sports.io/football/teams/1338.png"
+        },
+        "fixture": {
+          "id": 1386559,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 37383,
+          "name": "Ole ter Haar Romeny",
+          "photo": "https://media.api-sports.io/football/players/37383.png",
+          "type": "Missing Fixture",
+          "reason": "Broken foot"
+        },
+        "team": {
+          "id": 1338,
+          "name": "Oxford United",
+          "logo": "https://media.api-sports.io/football/teams/1338.png"
+        },
+        "fixture": {
+          "id": 1386559,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19605,
+          "name": "Thomas Peter McIntyre",
+          "photo": "https://media.api-sports.io/football/players/19605.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 1355,
+          "name": "Portsmouth",
+          "logo": "https://media.api-sports.io/football/teams/1355.png"
+        },
+        "fixture": {
+          "id": 1386559,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 44939,
+          "name": "Ciaron Brown",
+          "photo": "https://media.api-sports.io/football/players/44939.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 1338,
+          "name": "Oxford United",
+          "logo": "https://media.api-sports.io/football/teams/1338.png"
+        },
+        "fixture": {
+          "id": 1386559,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 204054,
+          "name": "Nik Prelec",
+          "photo": "https://media.api-sports.io/football/players/204054.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 1338,
+          "name": "Oxford United",
+          "logo": "https://media.api-sports.io/football/teams/1338.png"
+        },
+        "fixture": {
+          "id": 1386559,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 284475,
+          "name": "Luke Harris",
+          "photo": "https://media.api-sports.io/football/players/284475.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 1338,
+          "name": "Oxford United",
+          "logo": "https://media.api-sports.io/football/teams/1338.png"
+        },
+        "fixture": {
+          "id": 1386559,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 343894,
+          "name": "Jacob Farrell",
+          "photo": "https://media.api-sports.io/football/players/343894.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 1355,
+          "name": "Portsmouth",
+          "logo": "https://media.api-sports.io/football/teams/1355.png"
+        },
+        "fixture": {
+          "id": 1386559,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 200116,
+          "name": "Brodie Spencer",
+          "photo": "https://media.api-sports.io/football/players/200116.png",
+          "type": "Missing Fixture",
+          "reason": "Thigh problems"
+        },
+        "team": {
+          "id": 1338,
+          "name": "Oxford United",
+          "logo": "https://media.api-sports.io/football/teams/1338.png"
+        },
+        "fixture": {
+          "id": 1386559,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 284473,
+          "name": "Ibane Bowat",
+          "photo": "https://media.api-sports.io/football/players/284473.png",
+          "type": "Missing Fixture",
+          "reason": "Patellar tendon rupture"
+        },
+        "team": {
+          "id": 1355,
+          "name": "Portsmouth",
+          "logo": "https://media.api-sports.io/football/teams/1355.png"
+        },
+        "fixture": {
+          "id": 1386559,
+          "timezone": "UTC",
+          "date": "2025-08-09T14:00:00+00:00",
+          "timestamp": 1754748000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386561"
+    },
+    "errors": [],
+    "results": 8,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19258,
+          "name": "Max OLeary",
+          "photo": "https://media.api-sports.io/football/players/19258.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 56,
+          "name": "Bristol City",
+          "logo": "https://media.api-sports.io/football/teams/56.png"
+        },
+        "fixture": {
+          "id": 1386561,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:30:00+00:00",
+          "timestamp": 1754757000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19712,
+          "name": "Joe Williams",
+          "photo": "https://media.api-sports.io/football/players/19712.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 56,
+          "name": "Bristol City",
+          "logo": "https://media.api-sports.io/football/teams/56.png"
+        },
+        "fixture": {
+          "id": 1386561,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:30:00+00:00",
+          "timestamp": 1754757000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20103,
+          "name": "Robert Dickie",
+          "photo": "https://media.api-sports.io/football/players/20103.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 56,
+          "name": "Bristol City",
+          "logo": "https://media.api-sports.io/football/teams/56.png"
+        },
+        "fixture": {
+          "id": 1386561,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:30:00+00:00",
+          "timestamp": 1754757000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19131,
+          "name": "Jamie Shackleton",
+          "photo": "https://media.api-sports.io/football/players/19131.png",
+          "type": "Missing Fixture",
+          "reason": "Foot injury"
+        },
+        "team": {
+          "id": 62,
+          "name": "Sheffield Utd",
+          "logo": "https://media.api-sports.io/football/teams/62.png"
+        },
+        "fixture": {
+          "id": 1386561,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:30:00+00:00",
+          "timestamp": 1754757000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19211,
+          "name": "Max Bird",
+          "photo": "https://media.api-sports.io/football/players/19211.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 56,
+          "name": "Bristol City",
+          "logo": "https://media.api-sports.io/football/teams/56.png"
+        },
+        "fixture": {
+          "id": 1386561,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:30:00+00:00",
+          "timestamp": 1754757000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 17805,
+          "name": "Cameron Pring",
+          "photo": "https://media.api-sports.io/football/players/17805.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 56,
+          "name": "Bristol City",
+          "logo": "https://media.api-sports.io/football/teams/56.png"
+        },
+        "fixture": {
+          "id": 1386561,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:30:00+00:00",
+          "timestamp": 1754757000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 69539,
+          "name": "Luke McNally",
+          "photo": "https://media.api-sports.io/football/players/69539.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate ligament injury"
+        },
+        "team": {
+          "id": 56,
+          "name": "Bristol City",
+          "logo": "https://media.api-sports.io/football/teams/56.png"
+        },
+        "fixture": {
+          "id": 1386561,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:30:00+00:00",
+          "timestamp": 1754757000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 342660,
+          "name": "Oliver Arblaster",
+          "photo": "https://media.api-sports.io/football/players/342660.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 62,
+          "name": "Sheffield Utd",
+          "logo": "https://media.api-sports.io/football/teams/62.png"
+        },
+        "fixture": {
+          "id": 1386561,
+          "timezone": "UTC",
+          "date": "2025-08-09T16:30:00+00:00",
+          "timestamp": 1754757000
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386562"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 18771,
+          "name": "Ricardo Domingos Barbosa Perei",
+          "photo": "https://media.api-sports.io/football/players/18771.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png"
+        },
+        "fixture": {
+          "id": 1386562,
+          "timezone": "UTC",
+          "date": "2025-08-10T15:30:00+00:00",
+          "timestamp": 1754839800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20079,
+          "name": "Harry Souttar",
+          "photo": "https://media.api-sports.io/football/players/20079.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon rupture"
+        },
+        "team": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png"
+        },
+        "fixture": {
+          "id": 1386562,
+          "timezone": "UTC",
+          "date": "2025-08-10T15:30:00+00:00",
+          "timestamp": 1754839800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19760,
+          "name": "James Justin",
+          "photo": "https://media.api-sports.io/football/players/19760.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png"
+        },
+        "fixture": {
+          "id": 1386562,
+          "timezone": "UTC",
+          "date": "2025-08-10T15:30:00+00:00",
+          "timestamp": 1754839800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 278118,
+          "name": "Nelson Benjamin",
+          "photo": "https://media.api-sports.io/football/players/278118.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png"
+        },
+        "fixture": {
+          "id": 1386562,
+          "timezone": "UTC",
+          "date": "2025-08-10T15:30:00+00:00",
+          "timestamp": 1754839800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386568"
+    },
+    "errors": [],
+    "results": 12,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 20109,
+          "name": "Curtis Nelson",
+          "photo": "https://media.api-sports.io/football/players/20109.png",
+          "type": "Missing Fixture",
+          "reason": "Torn knee ligament"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386568,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 2031,
+          "name": "Lars-Jorgen Salvesen",
+          "photo": "https://media.api-sports.io/football/players/2031.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386568,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19724,
+          "name": "Callum Elder",
+          "photo": "https://media.api-sports.io/football/players/19724.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386568,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 88457,
+          "name": "Ben Sheaf",
+          "photo": "https://media.api-sports.io/football/players/88457.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 1346,
+          "name": "Coventry",
+          "logo": "https://media.api-sports.io/football/teams/1346.png"
+        },
+        "fixture": {
+          "id": 1386568,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 17599,
+          "name": "Kane Wilson",
+          "photo": "https://media.api-sports.io/football/players/17599.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386568,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20450,
+          "name": "Corey Josiah Paul Blackett-Tay",
+          "photo": "https://media.api-sports.io/football/players/20450.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386568,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 145538,
+          "name": "Joel Latibeaudiere",
+          "photo": "https://media.api-sports.io/football/players/145538.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 1346,
+          "name": "Coventry",
+          "logo": "https://media.api-sports.io/football/teams/1346.png"
+        },
+        "fixture": {
+          "id": 1386568,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 47899,
+          "name": "Oliver Dovin",
+          "photo": "https://media.api-sports.io/football/players/47899.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 1346,
+          "name": "Coventry",
+          "logo": "https://media.api-sports.io/football/teams/1346.png"
+        },
+        "fixture": {
+          "id": 1386568,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19984,
+          "name": "Josh Eccles",
+          "photo": "https://media.api-sports.io/football/players/19984.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 1346,
+          "name": "Coventry",
+          "logo": "https://media.api-sports.io/football/teams/1346.png"
+        },
+        "fixture": {
+          "id": 1386568,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 265444,
+          "name": "Sondre Klingen Langas",
+          "photo": "https://media.api-sports.io/football/players/265444.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386568,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 158693,
+          "name": "Owen Beck",
+          "photo": "https://media.api-sports.io/football/players/158693.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386568,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 407652,
+          "name": "Patrick Agyemang",
+          "photo": "https://media.api-sports.io/football/players/407652.png",
+          "type": "Missing Fixture",
+          "reason": "Inguinal Hernia"
+        },
+        "team": {
+          "id": 69,
+          "name": "Derby",
+          "logo": "https://media.api-sports.io/football/teams/69.png"
+        },
+        "fixture": {
+          "id": 1386568,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386565"
+    },
+    "errors": [],
+    "results": 10,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19077,
+          "name": "Kenny Mclean",
+          "photo": "https://media.api-sports.io/football/players/19077.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 71,
+          "name": "Norwich",
+          "logo": "https://media.api-sports.io/football/teams/71.png"
+        },
+        "fixture": {
+          "id": 1386565,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19273,
+          "name": "Marlon Pack",
+          "photo": "https://media.api-sports.io/football/players/19273.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 1355,
+          "name": "Portsmouth",
+          "logo": "https://media.api-sports.io/football/teams/1355.png"
+        },
+        "fixture": {
+          "id": 1386565,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19002,
+          "name": "Josh Murphy",
+          "photo": "https://media.api-sports.io/football/players/19002.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 1355,
+          "name": "Portsmouth",
+          "logo": "https://media.api-sports.io/football/teams/1355.png"
+        },
+        "fixture": {
+          "id": 1386565,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19605,
+          "name": "Thomas Peter McIntyre",
+          "photo": "https://media.api-sports.io/football/players/19605.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 1355,
+          "name": "Portsmouth",
+          "logo": "https://media.api-sports.io/football/teams/1355.png"
+        },
+        "fixture": {
+          "id": 1386565,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 171034,
+          "name": "Liam Gibbs",
+          "photo": "https://media.api-sports.io/football/players/171034.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 71,
+          "name": "Norwich",
+          "logo": "https://media.api-sports.io/football/teams/71.png"
+        },
+        "fixture": {
+          "id": 1386565,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 304026,
+          "name": "Forson Amankwah",
+          "photo": "https://media.api-sports.io/football/players/304026.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 71,
+          "name": "Norwich",
+          "logo": "https://media.api-sports.io/football/teams/71.png"
+        },
+        "fixture": {
+          "id": 1386565,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 284247,
+          "name": "Harvey Blair",
+          "photo": "https://media.api-sports.io/football/players/284247.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 1355,
+          "name": "Portsmouth",
+          "logo": "https://media.api-sports.io/football/teams/1355.png"
+        },
+        "fixture": {
+          "id": 1386565,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 278064,
+          "name": "Tony Springett",
+          "photo": "https://media.api-sports.io/football/players/278064.png",
+          "type": "Missing Fixture",
+          "reason": "Back Injury"
+        },
+        "team": {
+          "id": 71,
+          "name": "Norwich",
+          "logo": "https://media.api-sports.io/football/teams/71.png"
+        },
+        "fixture": {
+          "id": 1386565,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 383773,
+          "name": "Lucien Mahovo",
+          "photo": "https://media.api-sports.io/football/players/383773.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 71,
+          "name": "Norwich",
+          "logo": "https://media.api-sports.io/football/teams/71.png"
+        },
+        "fixture": {
+          "id": 1386565,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 382340,
+          "name": "Gabriel Forsyth",
+          "photo": "https://media.api-sports.io/football/players/382340.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 71,
+          "name": "Norwich",
+          "logo": "https://media.api-sports.io/football/teams/71.png"
+        },
+        "fixture": {
+          "id": 1386565,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386564"
+    },
+    "errors": [],
+    "results": 9,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19169,
+          "name": "Jay Rodriguez",
+          "photo": "https://media.api-sports.io/football/players/19169.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 1837,
+          "name": "Wrexham",
+          "logo": "https://media.api-sports.io/football/teams/1837.png"
+        },
+        "fixture": {
+          "id": 1386564,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19804,
+          "name": "Kieffer Moore",
+          "photo": "https://media.api-sports.io/football/players/19804.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 1837,
+          "name": "Wrexham",
+          "logo": "https://media.api-sports.io/football/teams/1837.png"
+        },
+        "fixture": {
+          "id": 1386564,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19859,
+          "name": "Andy Cannon",
+          "photo": "https://media.api-sports.io/football/players/19859.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 1837,
+          "name": "Wrexham",
+          "logo": "https://media.api-sports.io/football/teams/1837.png"
+        },
+        "fixture": {
+          "id": 1386564,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19577,
+          "name": "Darnell Furlong",
+          "photo": "https://media.api-sports.io/football/players/19577.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 60,
+          "name": "West Brom",
+          "logo": "https://media.api-sports.io/football/teams/60.png"
+        },
+        "fixture": {
+          "id": 1386564,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20248,
+          "name": "Oliver Rathbone",
+          "photo": "https://media.api-sports.io/football/players/20248.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle Injury"
+        },
+        "team": {
+          "id": 1837,
+          "name": "Wrexham",
+          "logo": "https://media.api-sports.io/football/teams/1837.png"
+        },
+        "fixture": {
+          "id": 1386564,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 1279,
+          "name": "Josh Maja",
+          "photo": "https://media.api-sports.io/football/players/1279.png",
+          "type": "Missing Fixture",
+          "reason": "Calf Injury"
+        },
+        "team": {
+          "id": 60,
+          "name": "West Brom",
+          "logo": "https://media.api-sports.io/football/teams/60.png"
+        },
+        "fixture": {
+          "id": 1386564,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 194461,
+          "name": "George Thomason",
+          "photo": "https://media.api-sports.io/football/players/194461.png",
+          "type": "Missing Fixture",
+          "reason": "Thigh problems"
+        },
+        "team": {
+          "id": 1837,
+          "name": "Wrexham",
+          "logo": "https://media.api-sports.io/football/teams/1837.png"
+        },
+        "fixture": {
+          "id": 1386564,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 201709,
+          "name": "Daryl Dike",
+          "photo": "https://media.api-sports.io/football/players/201709.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 60,
+          "name": "West Brom",
+          "logo": "https://media.api-sports.io/football/teams/60.png"
+        },
+        "fixture": {
+          "id": 1386564,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 294978,
+          "name": "Tammer Bany",
+          "photo": "https://media.api-sports.io/football/players/294978.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 60,
+          "name": "West Brom",
+          "logo": "https://media.api-sports.io/football/teams/60.png"
+        },
+        "fixture": {
+          "id": 1386564,
+          "timezone": "UTC",
+          "date": "2025-08-16T11:30:00+00:00",
+          "timestamp": 1755343800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386571"
+    },
+    "errors": [],
+    "results": 8,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 1372,
+          "name": "Michael Frey",
+          "photo": "https://media.api-sports.io/football/players/1372.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 72,
+          "name": "QPR",
+          "logo": "https://media.api-sports.io/football/teams/72.png"
+        },
+        "fixture": {
+          "id": 1386571,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 37116,
+          "name": "Jake Clarke-Salter",
+          "photo": "https://media.api-sports.io/football/players/37116.png",
+          "type": "Missing Fixture",
+          "reason": "Hip injury"
+        },
+        "team": {
+          "id": 72,
+          "name": "QPR",
+          "logo": "https://media.api-sports.io/football/teams/72.png"
+        },
+        "fixture": {
+          "id": 1386571,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19886,
+          "name": "Jimmy Dunne",
+          "photo": "https://media.api-sports.io/football/players/19886.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 72,
+          "name": "QPR",
+          "logo": "https://media.api-sports.io/football/teams/72.png"
+        },
+        "fixture": {
+          "id": 1386571,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 8481,
+          "name": "Giorgi Chakvetadze",
+          "photo": "https://media.api-sports.io/football/players/8481.png",
+          "type": "Missing Fixture",
+          "reason": "Finger Injury"
+        },
+        "team": {
+          "id": 38,
+          "name": "Watford",
+          "logo": "https://media.api-sports.io/football/teams/38.png"
+        },
+        "fixture": {
+          "id": 1386571,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 17832,
+          "name": "Matthew Pollock",
+          "photo": "https://media.api-sports.io/football/players/17832.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 38,
+          "name": "Watford",
+          "logo": "https://media.api-sports.io/football/teams/38.png"
+        },
+        "fixture": {
+          "id": 1386571,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 639,
+          "name": "Taylor Richards",
+          "photo": "https://media.api-sports.io/football/players/639.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 72,
+          "name": "QPR",
+          "logo": "https://media.api-sports.io/football/teams/72.png"
+        },
+        "fixture": {
+          "id": 1386571,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 162158,
+          "name": "Pierre Dwomoh",
+          "photo": "https://media.api-sports.io/football/players/162158.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 38,
+          "name": "Watford",
+          "logo": "https://media.api-sports.io/football/teams/38.png"
+        },
+        "fixture": {
+          "id": 1386571,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 265733,
+          "name": "Caleb Wiley",
+          "photo": "https://media.api-sports.io/football/players/265733.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 38,
+          "name": "Watford",
+          "logo": "https://media.api-sports.io/football/teams/38.png"
+        },
+        "fixture": {
+          "id": 1386571,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386566"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19970,
+          "name": "Matt Godden",
+          "photo": "https://media.api-sports.io/football/players/19970.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 1335,
+          "name": "Charlton",
+          "logo": "https://media.api-sports.io/football/teams/1335.png"
+        },
+        "fixture": {
+          "id": 1386566,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19258,
+          "name": "Max OLeary",
+          "photo": "https://media.api-sports.io/football/players/19258.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 56,
+          "name": "Bristol City",
+          "logo": "https://media.api-sports.io/football/teams/56.png"
+        },
+        "fixture": {
+          "id": 1386566,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19712,
+          "name": "Joe Williams",
+          "photo": "https://media.api-sports.io/football/players/19712.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 56,
+          "name": "Bristol City",
+          "logo": "https://media.api-sports.io/football/teams/56.png"
+        },
+        "fixture": {
+          "id": 1386566,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19211,
+          "name": "Max Bird",
+          "photo": "https://media.api-sports.io/football/players/19211.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 56,
+          "name": "Bristol City",
+          "logo": "https://media.api-sports.io/football/teams/56.png"
+        },
+        "fixture": {
+          "id": 1386566,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 17805,
+          "name": "Cameron Pring",
+          "photo": "https://media.api-sports.io/football/players/17805.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 56,
+          "name": "Bristol City",
+          "logo": "https://media.api-sports.io/football/teams/56.png"
+        },
+        "fixture": {
+          "id": 1386566,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 69539,
+          "name": "Luke McNally",
+          "photo": "https://media.api-sports.io/football/players/69539.png",
+          "type": "Missing Fixture",
+          "reason": "Cruciate ligament injury"
+        },
+        "team": {
+          "id": 56,
+          "name": "Bristol City",
+          "logo": "https://media.api-sports.io/football/teams/56.png"
+        },
+        "fixture": {
+          "id": 1386566,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386563"
+    },
+    "errors": [],
+    "results": 9,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19015,
+          "name": "Joe Bryan",
+          "photo": "https://media.api-sports.io/football/players/19015.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 58,
+          "name": "Millwall",
+          "logo": "https://media.api-sports.io/football/teams/58.png"
+        },
+        "fixture": {
+          "id": 1386563,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19467,
+          "name": "Darragh Lenihan",
+          "photo": "https://media.api-sports.io/football/players/19467.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle surgery"
+        },
+        "team": {
+          "id": 70,
+          "name": "Middlesbrough",
+          "logo": "https://media.api-sports.io/football/teams/70.png"
+        },
+        "fixture": {
+          "id": 1386563,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 17739,
+          "name": "George Edmundson",
+          "photo": "https://media.api-sports.io/football/players/17739.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 70,
+          "name": "Middlesbrough",
+          "logo": "https://media.api-sports.io/football/teams/70.png"
+        },
+        "fixture": {
+          "id": 1386563,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 6913,
+          "name": "Riley Mcgree",
+          "photo": "https://media.api-sports.io/football/players/6913.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 70,
+          "name": "Middlesbrough",
+          "logo": "https://media.api-sports.io/football/teams/70.png"
+        },
+        "fixture": {
+          "id": 1386563,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 45021,
+          "name": "Seny Timothy Dieng",
+          "photo": "https://media.api-sports.io/football/players/45021.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 70,
+          "name": "Middlesbrough",
+          "logo": "https://media.api-sports.io/football/teams/70.png"
+        },
+        "fixture": {
+          "id": 1386563,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 190595,
+          "name": "Lukas Jensen",
+          "photo": "https://media.api-sports.io/football/players/190595.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon rupture"
+        },
+        "team": {
+          "id": 58,
+          "name": "Millwall",
+          "logo": "https://media.api-sports.io/football/teams/58.png"
+        },
+        "fixture": {
+          "id": 1386563,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 231039,
+          "name": "Finn Azaz",
+          "photo": "https://media.api-sports.io/football/players/231039.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 70,
+          "name": "Middlesbrough",
+          "logo": "https://media.api-sports.io/football/teams/70.png"
+        },
+        "fixture": {
+          "id": 1386563,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19641,
+          "name": "Dan McNamara",
+          "photo": "https://media.api-sports.io/football/players/19641.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 58,
+          "name": "Millwall",
+          "logo": "https://media.api-sports.io/football/teams/58.png"
+        },
+        "fixture": {
+          "id": 1386563,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 37049,
+          "name": "Alex Bangura",
+          "photo": "https://media.api-sports.io/football/players/37049.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 70,
+          "name": "Middlesbrough",
+          "logo": "https://media.api-sports.io/football/teams/70.png"
+        },
+        "fixture": {
+          "id": 1386563,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386567"
+    },
+    "errors": [],
+    "results": 9,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19745,
+          "name": "William Keane",
+          "photo": "https://media.api-sports.io/football/players/19745.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "fixture": {
+          "id": 1386567,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 18771,
+          "name": "Ricardo Domingos Barbosa Perei",
+          "photo": "https://media.api-sports.io/football/players/18771.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png"
+        },
+        "fixture": {
+          "id": 1386567,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19455,
+          "name": "Brad Potts",
+          "photo": "https://media.api-sports.io/football/players/19455.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "fixture": {
+          "id": 1386567,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19787,
+          "name": "Liam Lindsay",
+          "photo": "https://media.api-sports.io/football/players/19787.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "fixture": {
+          "id": 1386567,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20079,
+          "name": "Harry Souttar",
+          "photo": "https://media.api-sports.io/football/players/20079.png",
+          "type": "Missing Fixture",
+          "reason": "Achilles tendon rupture"
+        },
+        "team": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png"
+        },
+        "fixture": {
+          "id": 1386567,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20061,
+          "name": "Jordan Thompson",
+          "photo": "https://media.api-sports.io/football/players/20061.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "fixture": {
+          "id": 1386567,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 278118,
+          "name": "Nelson Benjamin",
+          "photo": "https://media.api-sports.io/football/players/278118.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 46,
+          "name": "Leicester",
+          "logo": "https://media.api-sports.io/football/teams/46.png"
+        },
+        "fixture": {
+          "id": 1386567,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 296458,
+          "name": "Daniel Jebbison",
+          "photo": "https://media.api-sports.io/football/players/296458.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "fixture": {
+          "id": 1386567,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 325756,
+          "name": "Josh Seary",
+          "photo": "https://media.api-sports.io/football/players/325756.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 59,
+          "name": "Preston",
+          "logo": "https://media.api-sports.io/football/teams/59.png"
+        },
+        "fixture": {
+          "id": 1386567,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386569"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19127,
+          "name": "Adam Forshaw",
+          "photo": "https://media.api-sports.io/football/players/19127.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 67,
+          "name": "Blackburn",
+          "logo": "https://media.api-sports.io/football/teams/67.png"
+        },
+        "fixture": {
+          "id": 1386569,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 25464,
+          "name": "Marvin Ducksch",
+          "photo": "https://media.api-sports.io/football/players/25464.png",
+          "type": "Missing Fixture",
+          "reason": "Calf Injury"
+        },
+        "team": {
+          "id": 54,
+          "name": "Birmingham",
+          "logo": "https://media.api-sports.io/football/teams/54.png"
+        },
+        "fixture": {
+          "id": 1386569,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 33794,
+          "name": "Kanya Fujimoto",
+          "photo": "https://media.api-sports.io/football/players/33794.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 54,
+          "name": "Birmingham",
+          "logo": "https://media.api-sports.io/football/teams/54.png"
+        },
+        "fixture": {
+          "id": 1386569,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 18273,
+          "name": "Aynsley Pears",
+          "photo": "https://media.api-sports.io/football/players/18273.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 67,
+          "name": "Blackburn",
+          "logo": "https://media.api-sports.io/football/teams/67.png"
+        },
+        "fixture": {
+          "id": 1386569,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 199692,
+          "name": "Hayden Carter",
+          "photo": "https://media.api-sports.io/football/players/199692.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 67,
+          "name": "Blackburn",
+          "logo": "https://media.api-sports.io/football/teams/67.png"
+        },
+        "fixture": {
+          "id": 1386569,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386573"
+    },
+    "errors": [],
+    "results": 7,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19387,
+          "name": "Barry Bannan",
+          "photo": "https://media.api-sports.io/football/players/19387.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 74,
+          "name": "Sheffield Wednesday",
+          "logo": "https://media.api-sports.io/football/teams/74.png"
+        },
+        "fixture": {
+          "id": 1386573,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 780,
+          "name": "Steven Nzonzi",
+          "photo": "https://media.api-sports.io/football/players/780.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 75,
+          "name": "Stoke City",
+          "logo": "https://media.api-sports.io/football/teams/75.png"
+        },
+        "fixture": {
+          "id": 1386573,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 18803,
+          "name": "Nathaniel Chalobah",
+          "photo": "https://media.api-sports.io/football/players/18803.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 74,
+          "name": "Sheffield Wednesday",
+          "logo": "https://media.api-sports.io/football/teams/74.png"
+        },
+        "fixture": {
+          "id": 1386573,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 18954,
+          "name": "Sam Gallagher",
+          "photo": "https://media.api-sports.io/football/players/18954.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 75,
+          "name": "Stoke City",
+          "logo": "https://media.api-sports.io/football/teams/75.png"
+        },
+        "fixture": {
+          "id": 1386573,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 126630,
+          "name": "Maksym Talovierov",
+          "photo": "https://media.api-sports.io/football/players/126630.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 75,
+          "name": "Stoke City",
+          "logo": "https://media.api-sports.io/football/teams/75.png"
+        },
+        "fixture": {
+          "id": 1386573,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 138807,
+          "name": "D Shon Bernard",
+          "photo": "https://media.api-sports.io/football/players/138807.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 74,
+          "name": "Sheffield Wednesday",
+          "logo": "https://media.api-sports.io/football/teams/74.png"
+        },
+        "fixture": {
+          "id": 1386573,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 459407,
+          "name": "Bruno Fernandes",
+          "photo": "https://media.api-sports.io/football/players/459407.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 74,
+          "name": "Sheffield Wednesday",
+          "logo": "https://media.api-sports.io/football/teams/74.png"
+        },
+        "fixture": {
+          "id": 1386573,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386574"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 18382,
+          "name": "Ricardo Santos",
+          "photo": "https://media.api-sports.io/football/players/18382.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 76,
+          "name": "Swansea",
+          "logo": "https://media.api-sports.io/football/teams/76.png"
+        },
+        "fixture": {
+          "id": 1386574,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 18762,
+          "name": "Thomas Davies",
+          "photo": "https://media.api-sports.io/football/players/18762.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 62,
+          "name": "Sheffield Utd",
+          "logo": "https://media.api-sports.io/football/teams/62.png"
+        },
+        "fixture": {
+          "id": 1386574,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19131,
+          "name": "Jamie Shackleton",
+          "photo": "https://media.api-sports.io/football/players/19131.png",
+          "type": "Missing Fixture",
+          "reason": "Foot injury"
+        },
+        "team": {
+          "id": 62,
+          "name": "Sheffield Utd",
+          "logo": "https://media.api-sports.io/football/teams/62.png"
+        },
+        "fixture": {
+          "id": 1386574,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 342660,
+          "name": "Oliver Arblaster",
+          "photo": "https://media.api-sports.io/football/players/342660.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 62,
+          "name": "Sheffield Utd",
+          "logo": "https://media.api-sports.io/football/teams/62.png"
+        },
+        "fixture": {
+          "id": 1386574,
+          "timezone": "UTC",
+          "date": "2025-08-16T14:00:00+00:00",
+          "timestamp": 1755352800
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386572"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 19152,
+          "name": "Conor Townsend",
+          "photo": "https://media.api-sports.io/football/players/19152.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 57,
+          "name": "Ipswich",
+          "logo": "https://media.api-sports.io/football/teams/57.png"
+        },
+        "fixture": {
+          "id": 1386572,
+          "timezone": "UTC",
+          "date": "2025-08-17T11:00:00+00:00",
+          "timestamp": 1755428400
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20089,
+          "name": "Wes Burns",
+          "photo": "https://media.api-sports.io/football/players/20089.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 57,
+          "name": "Ipswich",
+          "logo": "https://media.api-sports.io/football/teams/57.png"
+        },
+        "fixture": {
+          "id": 1386572,
+          "timezone": "UTC",
+          "date": "2025-08-17T11:00:00+00:00",
+          "timestamp": 1755428400
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 19719,
+          "name": "James Bree",
+          "photo": "https://media.api-sports.io/football/players/19719.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 41,
+          "name": "Southampton",
+          "logo": "https://media.api-sports.io/football/teams/41.png"
+        },
+        "fixture": {
+          "id": 1386572,
+          "timezone": "UTC",
+          "date": "2025-08-17T11:00:00+00:00",
+          "timestamp": 1755428400
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 130421,
+          "name": "Will Smallbone",
+          "photo": "https://media.api-sports.io/football/players/130421.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 41,
+          "name": "Southampton",
+          "logo": "https://media.api-sports.io/football/teams/41.png"
+        },
+        "fixture": {
+          "id": 1386572,
+          "timezone": "UTC",
+          "date": "2025-08-17T11:00:00+00:00",
+          "timestamp": 1755428400
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 138836,
+          "name": "Harry Clarke",
+          "photo": "https://media.api-sports.io/football/players/138836.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 57,
+          "name": "Ipswich",
+          "logo": "https://media.api-sports.io/football/teams/57.png"
+        },
+        "fixture": {
+          "id": 1386572,
+          "timezone": "UTC",
+          "date": "2025-08-17T11:00:00+00:00",
+          "timestamp": 1755428400
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 138931,
+          "name": "Jaden Philogene-Bidace",
+          "photo": "https://media.api-sports.io/football/players/138931.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 57,
+          "name": "Ipswich",
+          "logo": "https://media.api-sports.io/football/teams/57.png"
+        },
+        "fixture": {
+          "id": 1386572,
+          "timezone": "UTC",
+          "date": "2025-08-17T11:00:00+00:00",
+          "timestamp": 1755428400
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1386570"
+    },
+    "errors": [],
+    "results": 11,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 2769,
+          "name": "Semi Ajayi",
+          "photo": "https://media.api-sports.io/football/players/2769.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 64,
+          "name": "Hull City",
+          "logo": "https://media.api-sports.io/football/teams/64.png"
+        },
+        "fixture": {
+          "id": 1386570,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:00:00+00:00",
+          "timestamp": 1755439200
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 20073,
+          "name": "Lewie Coyle",
+          "photo": "https://media.api-sports.io/football/players/20073.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 64,
+          "name": "Hull City",
+          "logo": "https://media.api-sports.io/football/teams/64.png"
+        },
+        "fixture": {
+          "id": 1386570,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:00:00+00:00",
+          "timestamp": 1755439200
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 40774,
+          "name": "Przemyslaw Placheta",
+          "photo": "https://media.api-sports.io/football/players/40774.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 1338,
+          "name": "Oxford United",
+          "logo": "https://media.api-sports.io/football/teams/1338.png"
+        },
+        "fixture": {
+          "id": 1386570,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:00:00+00:00",
+          "timestamp": 1755439200
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 37383,
+          "name": "Ole ter Haar Romeny",
+          "photo": "https://media.api-sports.io/football/players/37383.png",
+          "type": "Missing Fixture",
+          "reason": "Broken foot"
+        },
+        "team": {
+          "id": 1338,
+          "name": "Oxford United",
+          "logo": "https://media.api-sports.io/football/teams/1338.png"
+        },
+        "fixture": {
+          "id": 1386570,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:00:00+00:00",
+          "timestamp": 1755439200
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 44939,
+          "name": "Ciaron Brown",
+          "photo": "https://media.api-sports.io/football/players/44939.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 1338,
+          "name": "Oxford United",
+          "logo": "https://media.api-sports.io/football/teams/1338.png"
+        },
+        "fixture": {
+          "id": 1386570,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:00:00+00:00",
+          "timestamp": 1755439200
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 44798,
+          "name": "Liam Millar",
+          "photo": "https://media.api-sports.io/football/players/44798.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 64,
+          "name": "Hull City",
+          "logo": "https://media.api-sports.io/football/teams/64.png"
+        },
+        "fixture": {
+          "id": 1386570,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:00:00+00:00",
+          "timestamp": 1755439200
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 8902,
+          "name": "Brian De Keersmaecker",
+          "photo": "https://media.api-sports.io/football/players/8902.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 1338,
+          "name": "Oxford United",
+          "logo": "https://media.api-sports.io/football/teams/1338.png"
+        },
+        "fixture": {
+          "id": 1386570,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:00:00+00:00",
+          "timestamp": 1755439200
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 162991,
+          "name": "Eliot Matazo",
+          "photo": "https://media.api-sports.io/football/players/162991.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 64,
+          "name": "Hull City",
+          "logo": "https://media.api-sports.io/football/teams/64.png"
+        },
+        "fixture": {
+          "id": 1386570,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:00:00+00:00",
+          "timestamp": 1755439200
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 204054,
+          "name": "Nik Prelec",
+          "photo": "https://media.api-sports.io/football/players/204054.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 1338,
+          "name": "Oxford United",
+          "logo": "https://media.api-sports.io/football/teams/1338.png"
+        },
+        "fixture": {
+          "id": 1386570,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:00:00+00:00",
+          "timestamp": 1755439200
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 284475,
+          "name": "Luke Harris",
+          "photo": "https://media.api-sports.io/football/players/284475.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 1338,
+          "name": "Oxford United",
+          "logo": "https://media.api-sports.io/football/teams/1338.png"
+        },
+        "fixture": {
+          "id": 1386570,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:00:00+00:00",
+          "timestamp": 1755439200
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 299923,
+          "name": "Belloumi",
+          "photo": "https://media.api-sports.io/football/players/299923.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 64,
+          "name": "Hull City",
+          "logo": "https://media.api-sports.io/football/teams/64.png"
+        },
+        "fixture": {
+          "id": 1386570,
+          "timezone": "UTC",
+          "date": "2025-08-17T14:00:00+00:00",
+          "timestamp": 1755439200
+        },
+        "league": {
+          "id": 40,
+          "season": 2025,
+          "name": "Championship",
+          "country": "England",
+          "logo": "https://media.api-sports.io/football/leagues/40.png",
+          "flag": "https://media.api-sports.io/flags/gb-eng.svg"
+        }
+      }
+    ]
+  }
+]

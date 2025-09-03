@@ -1,0 +1,585 @@
+country_league,year,file_type,column,null_count,null_percentage
+Europe_Conference League,2021,fixture_events,fixture_id,0,0.0
+Europe_Conference League,2021,fixture_events,date,0,0.0
+Europe_Conference League,2021,fixture_events,timestamp,0,0.0
+Europe_Conference League,2021,fixture_events,status,0,0.0
+Europe_Conference League,2021,fixture_events,maintime,0,0.0
+Europe_Conference League,2021,fixture_events,first_half,0,0.0
+Europe_Conference League,2021,fixture_events,second_half,0,0.0
+Europe_Conference League,2021,fixture_events,extratime,423,100.0
+Europe_Conference League,2021,fixture_events,country,0,0.0
+Europe_Conference League,2021,fixture_events,league_id,0,0.0
+Europe_Conference League,2021,fixture_events,league_name,0,0.0
+Europe_Conference League,2021,fixture_events,league_flag,423,100.0
+Europe_Conference League,2021,fixture_events,league_logo,0,0.0
+Europe_Conference League,2021,fixture_events,season,0,0.0
+Europe_Conference League,2021,fixture_events,round,0,0.0
+Europe_Conference League,2021,fixture_events,venue_name,0,0.0
+Europe_Conference League,2021,fixture_events,venue_city,0,0.0
+Europe_Conference League,2021,fixture_events,venue_id,82,19.38534278959811
+Europe_Conference League,2021,fixture_events,referee,0,0.0
+Europe_Conference League,2021,fixture_events,home_team,0,0.0
+Europe_Conference League,2021,fixture_events,home_team_id,0,0.0
+Europe_Conference League,2021,fixture_events,home_team_flag,0,0.0
+Europe_Conference League,2021,fixture_events,home_winner,90,21.27659574468085
+Europe_Conference League,2021,fixture_events,away_team,0,0.0
+Europe_Conference League,2021,fixture_events,away_team_id,0,0.0
+Europe_Conference League,2021,fixture_events,away_team_flag,0,0.0
+Europe_Conference League,2021,fixture_events,away_winner,90,21.27659574468085
+Europe_Conference League,2021,fixture_events,home_goals,0,0.0
+Europe_Conference League,2021,fixture_events,away_goals,0,0.0
+Europe_Conference League,2021,fixture_events,halftime_home,1,0.2364066193853428
+Europe_Conference League,2021,fixture_events,halftime_away,1,0.2364066193853428
+Europe_Conference League,2021,fixture_events,fulltime_home,0,0.0
+Europe_Conference League,2021,fixture_events,fulltime_away,0,0.0
+Europe_Conference League,2021,fixture_events,penalty_home,409,96.6903073286052
+Europe_Conference League,2021,fixture_events,penalty_away,409,96.6903073286052
+Europe_Conference League,2021,lineups,fixture_id,0,0.0
+Europe_Conference League,2021,lineups,team_id,0,0.0
+Europe_Conference League,2021,lineups,team_name,0,0.0
+Europe_Conference League,2021,lineups,team_logo,0,0.0
+Europe_Conference League,2021,lineups,team_colors_player_primary,1372,7.669088876467301
+Europe_Conference League,2021,lineups,team_colors_player_number,1372,7.669088876467301
+Europe_Conference League,2021,lineups,team_colors_player_border,1372,7.669088876467301
+Europe_Conference League,2021,lineups,team_colors_goalkeeper_primary,1372,7.669088876467301
+Europe_Conference League,2021,lineups,team_colors_goalkeeper_number,1372,7.669088876467301
+Europe_Conference League,2021,lineups,team_colors_goalkeeper_border,1372,7.669088876467301
+Europe_Conference League,2021,lineups,coach_id,20,0.11179429849077697
+Europe_Conference League,2021,lineups,coach_name,20,0.11179429849077697
+Europe_Conference League,2021,lineups,coach_photo,20,0.11179429849077697
+Europe_Conference League,2021,lineups,formation,1392,7.780883174958077
+Europe_Conference League,2021,lineups,player_id,0,0.0
+Europe_Conference League,2021,lineups,player_name,0,0.0
+Europe_Conference League,2021,lineups,player_number,0,0.0
+Europe_Conference League,2021,lineups,player_pos,1498,8.373392956959195
+Europe_Conference League,2021,lineups,player_grid,9343,52.22470653996646
+Europe_Conference League,2021,lineups,is_substitute,0,0.0
+Europe_Conference League,2021,player_statistics,fixture_id,0,0.0
+Europe_Conference League,2021,player_statistics,team_name,0,0.0
+Europe_Conference League,2021,player_statistics,team_id,0,0.0
+Europe_Conference League,2021,player_statistics,player_id,0,0.0
+Europe_Conference League,2021,player_statistics,player_name,0,0.0
+Europe_Conference League,2021,player_statistics,player_photo,0,0.0
+Europe_Conference League,2021,player_statistics,games_minutes,1767,29.33753943217666
+Europe_Conference League,2021,player_statistics,games_number,0,0.0
+Europe_Conference League,2021,player_statistics,games_position,0,0.0
+Europe_Conference League,2021,player_statistics,games_rating,1875,31.130665781172173
+Europe_Conference League,2021,player_statistics,games_captain,0,0.0
+Europe_Conference League,2021,player_statistics,games_substitute,0,0.0
+Europe_Conference League,2021,player_statistics,goals_conceded,0,0.0
+Europe_Conference League,2021,player_statistics,goals_saves,5762,95.66661132326082
+Europe_Conference League,2021,player_statistics,passes_total,1839,30.532956998173667
+Europe_Conference League,2021,player_statistics,passes_accuracy,1888,31.346505063921633
+Europe_Conference League,2021,player_statistics,cards_yellow,0,0.0
+Europe_Conference League,2021,player_statistics,cards_red,0,0.0
+Europe_Conference League,2021,player_statistics,penalty_scored,0,0.0
+Europe_Conference League,2021,player_statistics,penalty_missed,0,0.0
+Europe_Conference League,2021,player_statistics,penalty_saved,5740,95.30134484476174
+Europe_Conference League,2021,player_statistics,passes_key,4459,74.03287398306492
+Europe_Conference League,2021,player_statistics,tackles_blocks,5403,89.70612651502573
+Europe_Conference League,2021,player_statistics,tackles_interceptions,4282,71.09413913332226
+Europe_Conference League,2021,player_statistics,duels_total,2127,35.314627262161714
+Europe_Conference League,2021,player_statistics,duels_won,2476,41.109081852897226
+Europe_Conference League,2021,player_statistics,fouls_drawn,4035,66.99319276108253
+Europe_Conference League,2021,player_statistics,shots_total,4431,73.56798937406607
+Europe_Conference League,2021,player_statistics,tackles_total,3787,62.87564336709281
+Europe_Conference League,2021,player_statistics,dribbles_attempts,3874,64.3201062593392
+Europe_Conference League,2021,player_statistics,dribbles_success,4510,74.8796280923128
+Europe_Conference League,2021,player_statistics,fouls_committed,3919,65.06724223808733
+Europe_Conference League,2021,player_statistics,dribbles_past,4366,72.48879296031878
+Europe_Conference League,2021,player_statistics,penalty_won,6004,99.6845425867508
+Europe_Conference League,2021,player_statistics,shots_on,5115,84.9244562510377
+Europe_Conference League,2021,player_statistics,goals_total,5669,94.1225303005147
+Europe_Conference League,2021,player_statistics,goals_assists,5758,95.60019923626099
+Europe_Conference League,2021,player_statistics,offsides,5573,92.52864021251868
+Europe_Conference League,2021,player_statistics,penalty_commited,5998,99.58492445625103
+Europe_Conference League,2021,team_standings,rank,0,0.0
+Europe_Conference League,2021,team_standings,team_id,0,0.0
+Europe_Conference League,2021,team_standings,team_name,0,0.0
+Europe_Conference League,2021,team_standings,team_logo,0,0.0
+Europe_Conference League,2021,team_standings,points,0,0.0
+Europe_Conference League,2021,team_standings,goals_diff,0,0.0
+Europe_Conference League,2021,team_standings,group,0,0.0
+Europe_Conference League,2021,team_standings,form,0,0.0
+Europe_Conference League,2021,team_standings,status,0,0.0
+Europe_Conference League,2021,team_standings,description,16,50.0
+Europe_Conference League,2021,team_standings,played,0,0.0
+Europe_Conference League,2021,team_standings,wins,0,0.0
+Europe_Conference League,2021,team_standings,draws,0,0.0
+Europe_Conference League,2021,team_standings,losses,0,0.0
+Europe_Conference League,2021,team_standings,goals_for,0,0.0
+Europe_Conference League,2021,team_standings,goals_against,0,0.0
+Europe_Conference League,2021,team_standings,home_played,0,0.0
+Europe_Conference League,2021,team_standings,home_wins,0,0.0
+Europe_Conference League,2021,team_standings,home_draws,0,0.0
+Europe_Conference League,2021,team_standings,home_losses,0,0.0
+Europe_Conference League,2021,team_standings,home_goals_for,0,0.0
+Europe_Conference League,2021,team_standings,home_goals_against,0,0.0
+Europe_Conference League,2021,team_standings,away_played,0,0.0
+Europe_Conference League,2021,team_standings,away_wins,0,0.0
+Europe_Conference League,2021,team_standings,away_draws,0,0.0
+Europe_Conference League,2021,team_standings,away_losses,0,0.0
+Europe_Conference League,2021,team_standings,away_goals_for,0,0.0
+Europe_Conference League,2021,team_standings,away_goals_against,0,0.0
+Europe_Conference League,2021,team_statistics,fixture_id,0,0.0
+Europe_Conference League,2021,team_statistics,team_id,0,0.0
+Europe_Conference League,2021,team_statistics,team_name,0,0.0
+Europe_Conference League,2021,team_statistics,team_logo,0,0.0
+Europe_Conference League,2021,team_statistics,Shots on Goal,0,0.0
+Europe_Conference League,2021,team_statistics,Shots off Goal,0,0.0
+Europe_Conference League,2021,team_statistics,Total Shots,0,0.0
+Europe_Conference League,2021,team_statistics,Blocked Shots,8,2.7777777777777777
+Europe_Conference League,2021,team_statistics,Shots insidebox,8,2.7777777777777777
+Europe_Conference League,2021,team_statistics,Shots outsidebox,8,2.7777777777777777
+Europe_Conference League,2021,team_statistics,Fouls,0,0.0
+Europe_Conference League,2021,team_statistics,Corner Kicks,0,0.0
+Europe_Conference League,2021,team_statistics,Offsides,10,3.4722222222222223
+Europe_Conference League,2021,team_statistics,Ball Possession,0,0.0
+Europe_Conference League,2021,team_statistics,Yellow Cards,8,2.7777777777777777
+Europe_Conference League,2021,team_statistics,Red Cards,238,82.63888888888889
+Europe_Conference League,2021,team_statistics,Goalkeeper Saves,0,0.0
+Europe_Conference League,2021,team_statistics,Total passes,8,2.7777777777777777
+Europe_Conference League,2021,team_statistics,Passes accurate,8,2.7777777777777777
+Europe_Conference League,2021,team_statistics,Passes %,8,2.7777777777777777
+Europe_Conference League,2022,fixture_events,fixture_id,0,0.0
+Europe_Conference League,2022,fixture_events,date,0,0.0
+Europe_Conference League,2022,fixture_events,timestamp,0,0.0
+Europe_Conference League,2022,fixture_events,status,0,0.0
+Europe_Conference League,2022,fixture_events,maintime,0,0.0
+Europe_Conference League,2022,fixture_events,first_half,0,0.0
+Europe_Conference League,2022,fixture_events,second_half,0,0.0
+Europe_Conference League,2022,fixture_events,extratime,414,100.0
+Europe_Conference League,2022,fixture_events,country,0,0.0
+Europe_Conference League,2022,fixture_events,league_id,0,0.0
+Europe_Conference League,2022,fixture_events,league_name,0,0.0
+Europe_Conference League,2022,fixture_events,league_flag,414,100.0
+Europe_Conference League,2022,fixture_events,league_logo,0,0.0
+Europe_Conference League,2022,fixture_events,season,0,0.0
+Europe_Conference League,2022,fixture_events,round,0,0.0
+Europe_Conference League,2022,fixture_events,venue_name,0,0.0
+Europe_Conference League,2022,fixture_events,venue_city,0,0.0
+Europe_Conference League,2022,fixture_events,venue_id,71,17.14975845410628
+Europe_Conference League,2022,fixture_events,referee,0,0.0
+Europe_Conference League,2022,fixture_events,home_team,0,0.0
+Europe_Conference League,2022,fixture_events,home_team_id,0,0.0
+Europe_Conference League,2022,fixture_events,home_team_flag,0,0.0
+Europe_Conference League,2022,fixture_events,home_winner,85,20.531400966183575
+Europe_Conference League,2022,fixture_events,away_team,0,0.0
+Europe_Conference League,2022,fixture_events,away_team_id,0,0.0
+Europe_Conference League,2022,fixture_events,away_team_flag,0,0.0
+Europe_Conference League,2022,fixture_events,away_winner,85,20.531400966183575
+Europe_Conference League,2022,fixture_events,home_goals,0,0.0
+Europe_Conference League,2022,fixture_events,away_goals,0,0.0
+Europe_Conference League,2022,fixture_events,halftime_home,0,0.0
+Europe_Conference League,2022,fixture_events,halftime_away,0,0.0
+Europe_Conference League,2022,fixture_events,fulltime_home,0,0.0
+Europe_Conference League,2022,fixture_events,fulltime_away,0,0.0
+Europe_Conference League,2022,fixture_events,penalty_home,393,94.92753623188406
+Europe_Conference League,2022,fixture_events,penalty_away,393,94.92753623188406
+Europe_Conference League,2022,lineups,fixture_id,0,0.0
+Europe_Conference League,2022,lineups,team_id,0,0.0
+Europe_Conference League,2022,lineups,team_name,0,0.0
+Europe_Conference League,2022,lineups,team_logo,0,0.0
+Europe_Conference League,2022,lineups,team_colors_player_primary,0,0.0
+Europe_Conference League,2022,lineups,team_colors_player_number,0,0.0
+Europe_Conference League,2022,lineups,team_colors_player_border,0,0.0
+Europe_Conference League,2022,lineups,team_colors_goalkeeper_primary,0,0.0
+Europe_Conference League,2022,lineups,team_colors_goalkeeper_number,0,0.0
+Europe_Conference League,2022,lineups,team_colors_goalkeeper_border,0,0.0
+Europe_Conference League,2022,lineups,coach_id,123,0.6893459620019056
+Europe_Conference League,2022,lineups,coach_name,123,0.6893459620019056
+Europe_Conference League,2022,lineups,coach_photo,123,0.6893459620019056
+Europe_Conference League,2022,lineups,formation,123,0.6893459620019056
+Europe_Conference League,2022,lineups,player_id,0,0.0
+Europe_Conference League,2022,lineups,player_name,0,0.0
+Europe_Conference League,2022,lineups,player_number,0,0.0
+Europe_Conference League,2022,lineups,player_pos,132,0.7397859104410693
+Europe_Conference League,2022,lineups,player_grid,8801,49.32466513478675
+Europe_Conference League,2022,lineups,is_substitute,0,0.0
+Europe_Conference League,2022,player_statistics,fixture_id,0,0.0
+Europe_Conference League,2022,player_statistics,team_name,0,0.0
+Europe_Conference League,2022,player_statistics,team_id,0,0.0
+Europe_Conference League,2022,player_statistics,player_id,0,0.0
+Europe_Conference League,2022,player_statistics,player_name,0,0.0
+Europe_Conference League,2022,player_statistics,player_photo,1,0.012423903590508137
+Europe_Conference League,2022,player_statistics,games_minutes,2372,29.469499316685305
+Europe_Conference League,2022,player_statistics,games_number,0,0.0
+Europe_Conference League,2022,player_statistics,games_position,0,0.0
+Europe_Conference League,2022,player_statistics,games_rating,2491,30.947943843955773
+Europe_Conference League,2022,player_statistics,games_captain,0,0.0
+Europe_Conference League,2022,player_statistics,games_substitute,0,0.0
+Europe_Conference League,2022,player_statistics,goals_conceded,0,0.0
+Europe_Conference League,2022,player_statistics,goals_saves,7712,95.81314448999876
+Europe_Conference League,2022,player_statistics,passes_total,2453,30.475835507516464
+Europe_Conference League,2022,player_statistics,passes_accuracy,2513,31.22126972294695
+Europe_Conference League,2022,player_statistics,tackles_total,5018,62.34314821716983
+Europe_Conference League,2022,player_statistics,duels_total,2886,35.85538576220649
+Europe_Conference League,2022,player_statistics,duels_won,3363,41.781587774878865
+Europe_Conference League,2022,player_statistics,cards_yellow,0,0.0
+Europe_Conference League,2022,player_statistics,cards_red,0,0.0
+Europe_Conference League,2022,player_statistics,penalty_scored,0,0.0
+Europe_Conference League,2022,player_statistics,penalty_missed,0,0.0
+Europe_Conference League,2022,player_statistics,penalty_saved,7677,95.37830786433096
+Europe_Conference League,2022,player_statistics,tackles_blocks,7189,89.31544291216301
+Europe_Conference League,2022,player_statistics,tackles_interceptions,5710,70.94048950180147
+Europe_Conference League,2022,player_statistics,dribbles_past,6136,76.23307243135793
+Europe_Conference League,2022,player_statistics,offsides,7492,93.07988570008698
+Europe_Conference League,2022,player_statistics,dribbles_attempts,5377,66.80332960616225
+Europe_Conference League,2022,player_statistics,dribbles_success,6296,78.22089700583923
+Europe_Conference League,2022,player_statistics,fouls_drawn,5537,68.79115418064356
+Europe_Conference League,2022,player_statistics,shots_total,5893,73.21406385886445
+Europe_Conference League,2022,player_statistics,passes_key,5922,73.5743570629892
+Europe_Conference League,2022,player_statistics,fouls_committed,5367,66.67909057025717
+Europe_Conference League,2022,player_statistics,shots_on,6860,85.22797863088583
+Europe_Conference League,2022,player_statistics,goals_total,7612,94.57075413094795
+Europe_Conference League,2022,player_statistics,goals_assists,7733,96.07404646539943
+Europe_Conference League,2022,player_statistics,penalty_won,8011,99.52789166356068
+Europe_Conference League,2022,player_statistics,penalty_commited,8000,99.3912287240651
+Europe_Conference League,2022,team_standings,rank,0,0.0
+Europe_Conference League,2022,team_standings,team_id,0,0.0
+Europe_Conference League,2022,team_standings,team_name,0,0.0
+Europe_Conference League,2022,team_standings,team_logo,0,0.0
+Europe_Conference League,2022,team_standings,points,0,0.0
+Europe_Conference League,2022,team_standings,goals_diff,0,0.0
+Europe_Conference League,2022,team_standings,group,0,0.0
+Europe_Conference League,2022,team_standings,form,0,0.0
+Europe_Conference League,2022,team_standings,status,0,0.0
+Europe_Conference League,2022,team_standings,description,16,50.0
+Europe_Conference League,2022,team_standings,played,0,0.0
+Europe_Conference League,2022,team_standings,wins,0,0.0
+Europe_Conference League,2022,team_standings,draws,0,0.0
+Europe_Conference League,2022,team_standings,losses,0,0.0
+Europe_Conference League,2022,team_standings,goals_for,0,0.0
+Europe_Conference League,2022,team_standings,goals_against,0,0.0
+Europe_Conference League,2022,team_standings,home_played,0,0.0
+Europe_Conference League,2022,team_standings,home_wins,0,0.0
+Europe_Conference League,2022,team_standings,home_draws,0,0.0
+Europe_Conference League,2022,team_standings,home_losses,0,0.0
+Europe_Conference League,2022,team_standings,home_goals_for,0,0.0
+Europe_Conference League,2022,team_standings,home_goals_against,0,0.0
+Europe_Conference League,2022,team_standings,away_played,0,0.0
+Europe_Conference League,2022,team_standings,away_wins,0,0.0
+Europe_Conference League,2022,team_standings,away_draws,0,0.0
+Europe_Conference League,2022,team_standings,away_losses,0,0.0
+Europe_Conference League,2022,team_standings,away_goals_for,0,0.0
+Europe_Conference League,2022,team_standings,away_goals_against,0,0.0
+Europe_Conference League,2022,team_statistics,fixture_id,0,0.0
+Europe_Conference League,2022,team_statistics,team_id,0,0.0
+Europe_Conference League,2022,team_statistics,team_name,0,0.0
+Europe_Conference League,2022,team_statistics,team_logo,0,0.0
+Europe_Conference League,2022,team_statistics,Shots on Goal,356,47.340425531914896
+Europe_Conference League,2022,team_statistics,Shots off Goal,354,47.07446808510639
+Europe_Conference League,2022,team_statistics,Total Shots,350,46.54255319148936
+Europe_Conference League,2022,team_statistics,Blocked Shots,366,48.67021276595745
+Europe_Conference League,2022,team_statistics,Shots insidebox,382,50.797872340425535
+Europe_Conference League,2022,team_statistics,Shots outsidebox,382,50.797872340425535
+Europe_Conference League,2022,team_statistics,Fouls,350,46.54255319148936
+Europe_Conference League,2022,team_statistics,Corner Kicks,18,2.393617021276596
+Europe_Conference League,2022,team_statistics,Offsides,392,52.12765957446809
+Europe_Conference League,2022,team_statistics,Ball Possession,366,48.67021276595745
+Europe_Conference League,2022,team_statistics,Yellow Cards,74,9.840425531914894
+Europe_Conference League,2022,team_statistics,Red Cards,690,91.75531914893617
+Europe_Conference League,2022,team_statistics,Goalkeeper Saves,366,48.67021276595745
+Europe_Conference League,2022,team_statistics,Total passes,382,50.797872340425535
+Europe_Conference League,2022,team_statistics,Passes accurate,382,50.797872340425535
+Europe_Conference League,2022,team_statistics,Passes %,382,50.797872340425535
+Europe_Conference League,2022,team_statistics,expected_goals,664,88.29787234042553
+Europe_Conference League,2023,fixture_events,fixture_id,0,0.0
+Europe_Conference League,2023,fixture_events,date,0,0.0
+Europe_Conference League,2023,fixture_events,timestamp,0,0.0
+Europe_Conference League,2023,fixture_events,status,0,0.0
+Europe_Conference League,2023,fixture_events,maintime,0,0.0
+Europe_Conference League,2023,fixture_events,first_half,0,0.0
+Europe_Conference League,2023,fixture_events,second_half,0,0.0
+Europe_Conference League,2023,fixture_events,extratime,417,100.0
+Europe_Conference League,2023,fixture_events,country,0,0.0
+Europe_Conference League,2023,fixture_events,league_id,0,0.0
+Europe_Conference League,2023,fixture_events,league_name,0,0.0
+Europe_Conference League,2023,fixture_events,league_flag,417,100.0
+Europe_Conference League,2023,fixture_events,league_logo,0,0.0
+Europe_Conference League,2023,fixture_events,season,0,0.0
+Europe_Conference League,2023,fixture_events,round,0,0.0
+Europe_Conference League,2023,fixture_events,venue_name,0,0.0
+Europe_Conference League,2023,fixture_events,venue_city,0,0.0
+Europe_Conference League,2023,fixture_events,venue_id,80,19.18465227817746
+Europe_Conference League,2023,fixture_events,referee,0,0.0
+Europe_Conference League,2023,fixture_events,home_team,0,0.0
+Europe_Conference League,2023,fixture_events,home_team_id,0,0.0
+Europe_Conference League,2023,fixture_events,home_team_flag,0,0.0
+Europe_Conference League,2023,fixture_events,home_winner,81,19.424460431654676
+Europe_Conference League,2023,fixture_events,away_team,0,0.0
+Europe_Conference League,2023,fixture_events,away_team_id,0,0.0
+Europe_Conference League,2023,fixture_events,away_team_flag,0,0.0
+Europe_Conference League,2023,fixture_events,away_winner,81,19.424460431654676
+Europe_Conference League,2023,fixture_events,home_goals,0,0.0
+Europe_Conference League,2023,fixture_events,away_goals,0,0.0
+Europe_Conference League,2023,fixture_events,halftime_home,0,0.0
+Europe_Conference League,2023,fixture_events,halftime_away,0,0.0
+Europe_Conference League,2023,fixture_events,fulltime_home,0,0.0
+Europe_Conference League,2023,fixture_events,fulltime_away,0,0.0
+Europe_Conference League,2023,fixture_events,penalty_home,402,96.40287769784173
+Europe_Conference League,2023,fixture_events,penalty_away,402,96.40287769784173
+Europe_Conference League,2023,lineups,fixture_id,0,0.0
+Europe_Conference League,2023,lineups,team_id,0,0.0
+Europe_Conference League,2023,lineups,team_name,0,0.0
+Europe_Conference League,2023,lineups,team_logo,0,0.0
+Europe_Conference League,2023,lineups,team_colors_player_primary,0,0.0
+Europe_Conference League,2023,lineups,team_colors_player_number,0,0.0
+Europe_Conference League,2023,lineups,team_colors_player_border,0,0.0
+Europe_Conference League,2023,lineups,team_colors_goalkeeper_primary,0,0.0
+Europe_Conference League,2023,lineups,team_colors_goalkeeper_number,0,0.0
+Europe_Conference League,2023,lineups,team_colors_goalkeeper_border,0,0.0
+Europe_Conference League,2023,lineups,coach_id,79,0.43981739227257544
+Europe_Conference League,2023,lineups,coach_name,79,0.43981739227257544
+Europe_Conference League,2023,lineups,coach_photo,79,0.43981739227257544
+Europe_Conference League,2023,lineups,formation,79,0.43981739227257544
+Europe_Conference League,2023,lineups,player_id,0,0.0
+Europe_Conference League,2023,lineups,player_name,0,0.0
+Europe_Conference League,2023,lineups,player_number,0,0.0
+Europe_Conference League,2023,lineups,player_pos,139,0.7738559180492149
+Europe_Conference League,2023,lineups,player_grid,8832,49.17047099432135
+Europe_Conference League,2023,lineups,is_substitute,0,0.0
+Europe_Conference League,2023,player_statistics,fixture_id,0,0.0
+Europe_Conference League,2023,player_statistics,team_name,0,0.0
+Europe_Conference League,2023,player_statistics,team_id,0,0.0
+Europe_Conference League,2023,player_statistics,player_id,0,0.0
+Europe_Conference League,2023,player_statistics,player_name,0,0.0
+Europe_Conference League,2023,player_statistics,player_photo,0,0.0
+Europe_Conference League,2023,player_statistics,games_minutes,2641,29.2566744211809
+Europe_Conference League,2023,player_statistics,games_number,0,0.0
+Europe_Conference League,2023,player_statistics,games_position,0,0.0
+Europe_Conference League,2023,player_statistics,games_rating,2804,31.062368450204943
+Europe_Conference League,2023,player_statistics,games_captain,0,0.0
+Europe_Conference League,2023,player_statistics,games_substitute,0,0.0
+Europe_Conference League,2023,player_statistics,goals_conceded,0,0.0
+Europe_Conference League,2023,player_statistics,goals_saves,8640,95.71286141575274
+Europe_Conference League,2023,player_statistics,passes_total,2767,30.652486983493965
+Europe_Conference League,2023,player_statistics,passes_accuracy,2837,31.42793840700122
+Europe_Conference League,2023,player_statistics,cards_yellow,0,0.0
+Europe_Conference League,2023,player_statistics,cards_red,0,0.0
+Europe_Conference League,2023,player_statistics,penalty_scored,0,0.0
+Europe_Conference League,2023,player_statistics,penalty_missed,0,0.0
+Europe_Conference League,2023,player_statistics,penalty_saved,8601,95.28082419408442
+Europe_Conference League,2023,player_statistics,offsides,8411,93.17602747313614
+Europe_Conference League,2023,player_statistics,passes_key,6617,73.30231527639305
+Europe_Conference League,2023,player_statistics,tackles_total,5717,63.332225545585466
+Europe_Conference League,2023,player_statistics,tackles_interceptions,6650,73.66788523318932
+Europe_Conference League,2023,player_statistics,duels_total,3254,36.04741331560873
+Europe_Conference League,2023,player_statistics,duels_won,3787,41.951922011742546
+Europe_Conference League,2023,player_statistics,dribbles_attempts,5981,66.25678519995569
+Europe_Conference League,2023,player_statistics,dribbles_success,6933,76.80292455965437
+Europe_Conference League,2023,player_statistics,dribbles_past,6734,74.59842694139803
+Europe_Conference League,2023,player_statistics,fouls_committed,5909,65.45917802149108
+Europe_Conference League,2023,player_statistics,tackles_blocks,8029,88.94427827628226
+Europe_Conference League,2023,player_statistics,shots_total,6605,73.16938074664894
+Europe_Conference League,2023,player_statistics,shots_on,7613,84.33588124515343
+Europe_Conference League,2023,player_statistics,goals_total,8476,93.89608950925002
+Europe_Conference League,2023,player_statistics,goals_assists,8601,95.28082419408442
+Europe_Conference League,2023,player_statistics,fouls_drawn,6125,67.8519995568849
+Europe_Conference League,2023,player_statistics,penalty_won,8972,99.39071673867286
+Europe_Conference League,2023,player_statistics,penalty_commited,8956,99.21347069901407
+Europe_Conference League,2023,team_standings,rank,0,0.0
+Europe_Conference League,2023,team_standings,team_id,0,0.0
+Europe_Conference League,2023,team_standings,team_name,0,0.0
+Europe_Conference League,2023,team_standings,team_logo,0,0.0
+Europe_Conference League,2023,team_standings,points,0,0.0
+Europe_Conference League,2023,team_standings,goals_diff,0,0.0
+Europe_Conference League,2023,team_standings,group,0,0.0
+Europe_Conference League,2023,team_standings,form,0,0.0
+Europe_Conference League,2023,team_standings,status,0,0.0
+Europe_Conference League,2023,team_standings,description,16,50.0
+Europe_Conference League,2023,team_standings,played,0,0.0
+Europe_Conference League,2023,team_standings,wins,0,0.0
+Europe_Conference League,2023,team_standings,draws,0,0.0
+Europe_Conference League,2023,team_standings,losses,0,0.0
+Europe_Conference League,2023,team_standings,goals_for,0,0.0
+Europe_Conference League,2023,team_standings,goals_against,0,0.0
+Europe_Conference League,2023,team_standings,home_played,0,0.0
+Europe_Conference League,2023,team_standings,home_wins,0,0.0
+Europe_Conference League,2023,team_standings,home_draws,0,0.0
+Europe_Conference League,2023,team_standings,home_losses,0,0.0
+Europe_Conference League,2023,team_standings,home_goals_for,0,0.0
+Europe_Conference League,2023,team_standings,home_goals_against,0,0.0
+Europe_Conference League,2023,team_standings,away_played,0,0.0
+Europe_Conference League,2023,team_standings,away_wins,0,0.0
+Europe_Conference League,2023,team_standings,away_draws,0,0.0
+Europe_Conference League,2023,team_standings,away_losses,0,0.0
+Europe_Conference League,2023,team_standings,away_goals_for,0,0.0
+Europe_Conference League,2023,team_standings,away_goals_against,0,0.0
+Europe_Conference League,2023,team_statistics,fixture_id,0,0.0
+Europe_Conference League,2023,team_statistics,team_id,0,0.0
+Europe_Conference League,2023,team_statistics,team_name,0,0.0
+Europe_Conference League,2023,team_statistics,team_logo,0,0.0
+Europe_Conference League,2023,team_statistics,Shots on Goal,186,22.62773722627737
+Europe_Conference League,2023,team_statistics,Shots off Goal,190,23.114355231143552
+Europe_Conference League,2023,team_statistics,Total Shots,168,20.437956204379564
+Europe_Conference League,2023,team_statistics,Blocked Shots,238,28.953771289537713
+Europe_Conference League,2023,team_statistics,Shots insidebox,408,49.63503649635037
+Europe_Conference League,2023,team_statistics,Shots outsidebox,412,50.121654501216554
+Europe_Conference League,2023,team_statistics,Fouls,168,20.437956204379564
+Europe_Conference League,2023,team_statistics,Corner Kicks,32,3.8929440389294405
+Europe_Conference League,2023,team_statistics,Offsides,288,35.03649635036496
+Europe_Conference League,2023,team_statistics,Ball Possession,362,44.038929440389296
+Europe_Conference League,2023,team_statistics,Yellow Cards,76,9.245742092457421
+Europe_Conference League,2023,team_statistics,Red Cards,740,90.02433090024331
+Europe_Conference League,2023,team_statistics,Goalkeeper Saves,220,26.763990267639905
+Europe_Conference League,2023,team_statistics,Total passes,410,49.87834549878345
+Europe_Conference League,2023,team_statistics,Passes accurate,410,49.87834549878345
+Europe_Conference League,2023,team_statistics,Passes %,410,49.87834549878345
+Europe_Conference League,2023,team_statistics,expected_goals,542,65.93673965936739
+Europe_Conference League,2023,team_statistics,goals_prevented,820,99.7566909975669
+Europe_Conference League,2024,fixture_events,fixture_id,0,0.0
+Europe_Conference League,2024,fixture_events,date,0,0.0
+Europe_Conference League,2024,fixture_events,timestamp,0,0.0
+Europe_Conference League,2024,fixture_events,status,0,0.0
+Europe_Conference League,2024,fixture_events,maintime,0,0.0
+Europe_Conference League,2024,fixture_events,first_half,0,0.0
+Europe_Conference League,2024,fixture_events,second_half,0,0.0
+Europe_Conference League,2024,fixture_events,extratime,264,64.54767726161369
+Europe_Conference League,2024,fixture_events,country,0,0.0
+Europe_Conference League,2024,fixture_events,league_id,0,0.0
+Europe_Conference League,2024,fixture_events,league_name,0,0.0
+Europe_Conference League,2024,fixture_events,league_flag,409,100.0
+Europe_Conference League,2024,fixture_events,league_logo,0,0.0
+Europe_Conference League,2024,fixture_events,season,0,0.0
+Europe_Conference League,2024,fixture_events,round,0,0.0
+Europe_Conference League,2024,fixture_events,venue_name,0,0.0
+Europe_Conference League,2024,fixture_events,venue_city,0,0.0
+Europe_Conference League,2024,fixture_events,venue_id,74,18.09290953545232
+Europe_Conference League,2024,fixture_events,referee,1,0.24449877750611246
+Europe_Conference League,2024,fixture_events,home_team,0,0.0
+Europe_Conference League,2024,fixture_events,home_team_id,0,0.0
+Europe_Conference League,2024,fixture_events,home_team_flag,0,0.0
+Europe_Conference League,2024,fixture_events,home_winner,80,19.559902200489
+Europe_Conference League,2024,fixture_events,away_team,0,0.0
+Europe_Conference League,2024,fixture_events,away_team_id,0,0.0
+Europe_Conference League,2024,fixture_events,away_team_flag,0,0.0
+Europe_Conference League,2024,fixture_events,away_winner,80,19.559902200489
+Europe_Conference League,2024,fixture_events,home_goals,0,0.0
+Europe_Conference League,2024,fixture_events,away_goals,0,0.0
+Europe_Conference League,2024,fixture_events,halftime_home,2,0.4889975550122249
+Europe_Conference League,2024,fixture_events,halftime_away,2,0.4889975550122249
+Europe_Conference League,2024,fixture_events,fulltime_home,0,0.0
+Europe_Conference League,2024,fixture_events,fulltime_away,0,0.0
+Europe_Conference League,2024,fixture_events,penalty_home,392,95.84352078239608
+Europe_Conference League,2024,fixture_events,penalty_away,392,95.84352078239608
+Europe_Conference League,2025,fixture_events,fixture_id,0,0.0
+Europe_Conference League,2025,fixture_events,date,0,0.0
+Europe_Conference League,2025,fixture_events,timestamp,0,0.0
+Europe_Conference League,2025,fixture_events,status,0,0.0
+Europe_Conference League,2025,fixture_events,maintime,0,0.0
+Europe_Conference League,2025,fixture_events,first_half,0,0.0
+Europe_Conference League,2025,fixture_events,second_half,0,0.0
+Europe_Conference League,2025,fixture_events,extratime,10,11.904761904761903
+Europe_Conference League,2025,fixture_events,country,0,0.0
+Europe_Conference League,2025,fixture_events,league_id,0,0.0
+Europe_Conference League,2025,fixture_events,league_name,0,0.0
+Europe_Conference League,2025,fixture_events,league_flag,84,100.0
+Europe_Conference League,2025,fixture_events,league_logo,0,0.0
+Europe_Conference League,2025,fixture_events,season,0,0.0
+Europe_Conference League,2025,fixture_events,round,0,0.0
+Europe_Conference League,2025,fixture_events,venue_name,0,0.0
+Europe_Conference League,2025,fixture_events,venue_city,0,0.0
+Europe_Conference League,2025,fixture_events,venue_id,14,16.666666666666664
+Europe_Conference League,2025,fixture_events,referee,1,1.1904761904761905
+Europe_Conference League,2025,fixture_events,home_team,0,0.0
+Europe_Conference League,2025,fixture_events,home_team_id,0,0.0
+Europe_Conference League,2025,fixture_events,home_team_flag,0,0.0
+Europe_Conference League,2025,fixture_events,home_winner,13,15.476190476190476
+Europe_Conference League,2025,fixture_events,away_team,0,0.0
+Europe_Conference League,2025,fixture_events,away_team_id,0,0.0
+Europe_Conference League,2025,fixture_events,away_team_flag,0,0.0
+Europe_Conference League,2025,fixture_events,away_winner,13,15.476190476190476
+Europe_Conference League,2025,fixture_events,home_goals,0,0.0
+Europe_Conference League,2025,fixture_events,away_goals,0,0.0
+Europe_Conference League,2025,fixture_events,halftime_home,0,0.0
+Europe_Conference League,2025,fixture_events,halftime_away,0,0.0
+Europe_Conference League,2025,fixture_events,fulltime_home,0,0.0
+Europe_Conference League,2025,fixture_events,fulltime_away,0,0.0
+Europe_Conference League,2025,fixture_events,penalty_home,82,97.61904761904762
+Europe_Conference League,2025,fixture_events,penalty_away,82,97.61904761904762
+Europe_Conference League,2025,lineups,fixture_id,0,0.0
+Europe_Conference League,2025,lineups,team_id,0,0.0
+Europe_Conference League,2025,lineups,team_name,0,0.0
+Europe_Conference League,2025,lineups,team_logo,0,0.0
+Europe_Conference League,2025,lineups,team_colors_player_primary,263,7.305555555555555
+Europe_Conference League,2025,lineups,team_colors_player_number,263,7.305555555555555
+Europe_Conference League,2025,lineups,team_colors_player_border,263,7.305555555555555
+Europe_Conference League,2025,lineups,team_colors_goalkeeper_primary,263,7.305555555555555
+Europe_Conference League,2025,lineups,team_colors_goalkeeper_number,263,7.305555555555555
+Europe_Conference League,2025,lineups,team_colors_goalkeeper_border,263,7.305555555555555
+Europe_Conference League,2025,lineups,coach_id,0,0.0
+Europe_Conference League,2025,lineups,coach_name,22,0.6111111111111112
+Europe_Conference League,2025,lineups,coach_photo,22,0.6111111111111112
+Europe_Conference League,2025,lineups,formation,308,8.555555555555555
+Europe_Conference League,2025,lineups,player_id,6,0.16666666666666669
+Europe_Conference League,2025,lineups,player_name,0,0.0
+Europe_Conference League,2025,lineups,player_number,0,0.0
+Europe_Conference League,2025,lineups,player_pos,293,8.13888888888889
+Europe_Conference League,2025,lineups,player_grid,1950,54.166666666666664
+Europe_Conference League,2025,lineups,is_substitute,0,0.0
+Europe_Conference League,2025,odds,fixture_id,0,0.0
+Europe_Conference League,2025,odds,bet_name,0,0.0
+Europe_Conference League,2025,odds,bet_value,0,0.0
+Europe_Conference League,2025,odds,bet_odd,0,0.0
+Europe_Conference League,2025,player_statistics,fixture_id,0,0.0
+Europe_Conference League,2025,player_statistics,team_name,0,0.0
+Europe_Conference League,2025,player_statistics,team_id,0,0.0
+Europe_Conference League,2025,player_statistics,player_id,0,0.0
+Europe_Conference League,2025,player_statistics,player_name,0,0.0
+Europe_Conference League,2025,player_statistics,player_photo,1,0.05767012687427912
+Europe_Conference League,2025,player_statistics,games_minutes,530,30.565167243367934
+Europe_Conference League,2025,player_statistics,games_number,0,0.0
+Europe_Conference League,2025,player_statistics,games_position,0,0.0
+Europe_Conference League,2025,player_statistics,games_rating,556,32.06459054209919
+Europe_Conference League,2025,player_statistics,games_captain,0,0.0
+Europe_Conference League,2025,player_statistics,games_substitute,0,0.0
+Europe_Conference League,2025,player_statistics,goals_conceded,0,0.0
+Europe_Conference League,2025,player_statistics,goals_saves,1663,95.90542099192618
+Europe_Conference League,2025,player_statistics,passes_total,556,32.06459054209919
+Europe_Conference League,2025,player_statistics,passes_accuracy,570,32.8719723183391
+Europe_Conference League,2025,player_statistics,tackles_total,1122,64.70588235294117
+Europe_Conference League,2025,player_statistics,duels_total,620,35.75547866205306
+Europe_Conference League,2025,player_statistics,duels_won,735,42.38754325259516
+Europe_Conference League,2025,player_statistics,fouls_drawn,1195,68.91580161476355
+Europe_Conference League,2025,player_statistics,cards_yellow,0,0.0
+Europe_Conference League,2025,player_statistics,cards_red,0,0.0
+Europe_Conference League,2025,player_statistics,penalty_scored,0,0.0
+Europe_Conference League,2025,player_statistics,penalty_missed,0,0.0
+Europe_Conference League,2025,player_statistics,penalty_saved,1655,95.44405997693195
+Europe_Conference League,2025,player_statistics,shots_total,1253,72.26066897347174
+Europe_Conference League,2025,player_statistics,tackles_blocks,1549,89.33102652825836
+Europe_Conference League,2025,player_statistics,tackles_interceptions,1315,75.83621683967705
+Europe_Conference League,2025,player_statistics,dribbles_past,1351,77.9123414071511
+Europe_Conference League,2025,player_statistics,fouls_committed,1159,66.8396770472895
+Europe_Conference League,2025,player_statistics,shots_on,1444,83.27566320645904
+Europe_Conference League,2025,player_statistics,dribbles_attempts,1187,68.45444059976931
+Europe_Conference League,2025,player_statistics,dribbles_success,1371,79.06574394463668
+Europe_Conference League,2025,player_statistics,goals_total,1625,93.71395617070357
+Europe_Conference League,2025,player_statistics,goals_assists,698,40.253748558246826
+Europe_Conference League,2025,player_statistics,passes_key,1248,71.97231833910035
+Europe_Conference League,2025,player_statistics,offsides,1631,94.05997693194925
+Europe_Conference League,2025,player_statistics,penalty_commited,1722,99.30795847750865
+Europe_Conference League,2025,player_statistics,penalty_won,1724,99.4232987312572
+Europe_Conference League,2025,team_statistics,fixture_id,0,0.0
+Europe_Conference League,2025,team_statistics,team_id,0,0.0
+Europe_Conference League,2025,team_statistics,team_name,0,0.0
+Europe_Conference League,2025,team_statistics,team_logo,0,0.0
+Europe_Conference League,2025,team_statistics,Shots on Goal,0,0.0
+Europe_Conference League,2025,team_statistics,Shots off Goal,0,0.0
+Europe_Conference League,2025,team_statistics,Total Shots,0,0.0
+Europe_Conference League,2025,team_statistics,Blocked Shots,0,0.0
+Europe_Conference League,2025,team_statistics,Shots insidebox,0,0.0
+Europe_Conference League,2025,team_statistics,Shots outsidebox,0,0.0
+Europe_Conference League,2025,team_statistics,Fouls,0,0.0
+Europe_Conference League,2025,team_statistics,Corner Kicks,0,0.0
+Europe_Conference League,2025,team_statistics,Offsides,4,5.128205128205128
+Europe_Conference League,2025,team_statistics,Ball Possession,0,0.0
+Europe_Conference League,2025,team_statistics,Yellow Cards,2,2.564102564102564
+Europe_Conference League,2025,team_statistics,Red Cards,62,79.48717948717949
+Europe_Conference League,2025,team_statistics,Goalkeeper Saves,0,0.0
+Europe_Conference League,2025,team_statistics,Total passes,0,0.0
+Europe_Conference League,2025,team_statistics,Passes accurate,0,0.0
+Europe_Conference League,2025,team_statistics,Passes %,0,0.0
+Europe_Conference League,2025,team_statistics,expected_goals,78,100.0
+Europe_Conference League,2025,team_statistics,goals_prevented,78,100.0

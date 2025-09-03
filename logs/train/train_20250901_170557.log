@@ -1,0 +1,34 @@
+2025-09-01 17:05:57,696 - src.train_pipeline - INFO - Starting training with model: xgboost, feature selection: rfe with 70 features
+2025-09-01 17:05:57,696 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-01 17:05:57,735 - src.train_pipeline - INFO - Filtered to 37455 completed matches
+2025-09-01 17:05:57,792 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-01 17:05:57,793 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-01 17:05:57,803 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-01 17:05:57,803 - src.train_pipeline - INFO - Preparing features...
+2025-09-01 17:05:57,847 - src.train_pipeline - INFO - Removed 33 potential leakage columns
+2025-09-01 17:05:58,015 - src.train_pipeline - INFO - Feature preparation complete. Final features: 132
+2025-09-01 17:05:58,015 - src.train_pipeline - INFO - Data preparation complete. Features: 132, Samples: 37455
+2025-09-01 17:05:58,022 - src.train_pipeline - INFO - Time Series Split - Training: 22473, Holdout: 14982
+2025-09-01 17:05:58,022 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-01 17:05:58,089 - src.train_pipeline - INFO - Numerical features: 132, Categorical features: 0
+2025-09-01 17:05:58,089 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-01 17:05:58,089 - src.train_pipeline - INFO - Using feature selection method: rfe with top 70 features
+2025-09-01 17:05:58,089 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-01 17:05:58,089 - src.train_pipeline - INFO - Removed class_weight parameter due to SMOTE usage
+2025-09-01 17:05:58,089 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-01 17:05:58,090 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-01 17:05:58,090 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-01 17:05:58,105 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-01 17:05:58,105 - src.train_pipeline - WARNING - SMOTE oversampling failed: The 'sampling_strategy' parameter of SMOTE must be a float in the range (0.0, 1.0], a str among {'auto', 'not majority', 'not minority', 'minority', 'all'}, an instance of 'collections.abc.Mapping' or a callable. Got '{"1": 1500}' instead.
+2025-09-01 17:06:07,565 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-01 17:06:07,587 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-01 17:06:07,587 - src.train_pipeline - WARNING - SMOTE oversampling failed: The 'sampling_strategy' parameter of SMOTE must be a float in the range (0.0, 1.0], a str among {'auto', 'not majority', 'not minority', 'minority', 'all'}, an instance of 'collections.abc.Mapping' or a callable. Got '{"1": 1500}' instead.
+2025-09-01 17:06:25,316 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-01 17:06:25,342 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-01 17:06:25,342 - src.train_pipeline - WARNING - SMOTE oversampling failed: The 'sampling_strategy' parameter of SMOTE must be a float in the range (0.0, 1.0], a str among {'auto', 'not majority', 'not minority', 'minority', 'all'}, an instance of 'collections.abc.Mapping' or a callable. Got '{"1": 1500}' instead.
+2025-09-01 17:06:51,236 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-01 17:06:51,267 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-01 17:06:51,267 - src.train_pipeline - WARNING - SMOTE oversampling failed: The 'sampling_strategy' parameter of SMOTE must be a float in the range (0.0, 1.0], a str among {'auto', 'not majority', 'not minority', 'minority', 'all'}, an instance of 'collections.abc.Mapping' or a callable. Got '{"1": 1500}' instead.
+2025-09-01 17:07:29,170 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-01 17:07:29,220 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-01 17:07:29,221 - src.train_pipeline - WARNING - SMOTE oversampling failed: The 'sampling_strategy' parameter of SMOTE must be a float in the range (0.0, 1.0], a str among {'auto', 'not majority', 'not minority', 'minority', 'all'}, an instance of 'collections.abc.Mapping' or a callable. Got '{"1": 1500}' instead.

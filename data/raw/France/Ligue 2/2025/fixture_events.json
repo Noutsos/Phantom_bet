@@ -1,0 +1,1192 @@
+[
+  {
+    "fixture": {
+      "id": 1389131,
+      "referee": "Aurelien Petit, France",
+      "timezone": "UTC",
+      "date": "2025-08-09T12:00:00+00:00",
+      "timestamp": 1754740800,
+      "periods": {
+        "first": 1754740800,
+        "second": 1754744400
+      },
+      "venue": {
+        "id": 650,
+        "name": "Stade du Roudourou",
+        "city": "Guingamp"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 13
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 90,
+        "name": "Guingamp",
+        "logo": "https://media.api-sports.io/football/teams/90.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1298,
+        "name": "Le Mans",
+        "logo": "https://media.api-sports.io/football/teams/1298.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389126,
+      "referee": "Pierre Gaillouste, France",
+      "timezone": "UTC",
+      "date": "2025-08-09T18:00:00+00:00",
+      "timestamp": 1754762400,
+      "periods": {
+        "first": 1754762400,
+        "second": 1754766000
+      },
+      "venue": {
+        "id": 20107,
+        "name": "Stade de la Mosson",
+        "city": "Montpellier"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 82,
+        "name": "Montpellier",
+        "logo": "https://media.api-sports.io/football/teams/82.png",
+        "winner": null
+      },
+      "away": {
+        "id": 104,
+        "name": "RED Star FC 93",
+        "logo": "https://media.api-sports.io/football/teams/104.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389125,
+      "referee": "Brendan Roffet, France",
+      "timezone": "UTC",
+      "date": "2025-08-09T18:00:00+00:00",
+      "timestamp": 1754762400,
+      "periods": {
+        "first": 1754762400,
+        "second": 1754766000
+      },
+      "venue": {
+        "id": 684,
+        "name": "Stade de lAube",
+        "city": "Troyes"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png",
+        "winner": true
+      },
+      "away": {
+        "id": 101,
+        "name": "Grenoble",
+        "logo": "https://media.api-sports.io/football/teams/101.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389127,
+      "referee": "Antoine Valnet, France",
+      "timezone": "UTC",
+      "date": "2025-08-09T18:00:00+00:00",
+      "timestamp": 1754762400,
+      "periods": {
+        "first": 1754762400,
+        "second": 1754766000
+      },
+      "venue": {
+        "id": 651,
+        "name": "Estadio Urbano Caldeira",
+        "city": "Laval"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 433,
+        "name": "Laval",
+        "logo": "https://media.api-sports.io/football/teams/433.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1063,
+        "name": "Saint Etienne",
+        "logo": "https://media.api-sports.io/football/teams/1063.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389124,
+      "referee": "Tifenn Leprodhomme, France",
+      "timezone": "UTC",
+      "date": "2025-08-09T18:00:00+00:00",
+      "timestamp": 1754762400,
+      "periods": {
+        "first": 1754762400,
+        "second": 1754766000
+      },
+      "venue": {
+        "id": 11898,
+        "name": "Stade Nouste Camp",
+        "city": "Bizanos"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1297,
+        "name": "PAU",
+        "logo": "https://media.api-sports.io/football/teams/1297.png",
+        "winner": true
+      },
+      "away": {
+        "id": 3012,
+        "name": "Annecy",
+        "logo": "https://media.api-sports.io/football/teams/3012.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389130,
+      "referee": "Karim Abed, France",
+      "timezone": "UTC",
+      "date": "2025-08-09T18:00:00+00:00",
+      "timestamp": 1754762400,
+      "periods": {
+        "first": 1754762400,
+        "second": 1754766000
+      },
+      "venue": {
+        "id": 675,
+        "name": "Poly Nong Stadium",
+        "city": "Rodez"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1301,
+        "name": "Rodez",
+        "logo": "https://media.api-sports.io/football/teams/1301.png",
+        "winner": null
+      },
+      "away": {
+        "id": 102,
+        "name": "Nancy",
+        "logo": "https://media.api-sports.io/football/teams/102.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389128,
+      "referee": "Eddy Rosier, France",
+      "timezone": "UTC",
+      "date": "2025-08-09T18:00:00+00:00",
+      "timestamp": 1754762400,
+      "periods": {
+        "first": 1754762400,
+        "second": 1754766000
+      },
+      "venue": {
+        "id": 646,
+        "name": "Stade Marcel-Tribut",
+        "city": "Dunkerque"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1304,
+        "name": "Dunkerque",
+        "logo": "https://media.api-sports.io/football/teams/1304.png",
+        "winner": null
+      },
+      "away": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389129,
+      "referee": "Gael Angoula, France",
+      "timezone": "UTC",
+      "date": "2025-08-11T18:45:00+00:00",
+      "timestamp": 1754937900,
+      "periods": {
+        "first": 1754937900,
+        "second": 1754941500
+      },
+      "venue": {
+        "id": 633,
+        "name": "Stade de la Licorne",
+        "city": "Amiens"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 87,
+        "name": "Amiens",
+        "logo": "https://media.api-sports.io/football/teams/87.png",
+        "winner": null
+      },
+      "away": {
+        "id": 93,
+        "name": "Reims",
+        "logo": "https://media.api-sports.io/football/teams/93.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389137,
+      "referee": "Alexandre Perreau Niel, France",
+      "timezone": "UTC",
+      "date": "2025-08-15T18:00:00+00:00",
+      "timestamp": 1755280800,
+      "periods": {
+        "first": 1755280800,
+        "second": 1755284400
+      },
+      "venue": {
+        "id": 21429,
+        "name": "Gabriel Montpied Stadium",
+        "city": "Clermont-Ferrand"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 99,
+        "name": "Clermont Foot",
+        "logo": "https://media.api-sports.io/football/teams/99.png",
+        "winner": null
+      },
+      "away": {
+        "id": 110,
+        "name": "Estac Troyes",
+        "logo": "https://media.api-sports.io/football/teams/110.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389136,
+      "referee": "Florent Batta, France",
+      "timezone": "UTC",
+      "date": "2025-08-15T18:00:00+00:00",
+      "timestamp": 1755280800,
+      "periods": {
+        "first": 1755280800,
+        "second": 1755284400
+      },
+      "venue": {
+        "id": 649,
+        "name": "Stade des Alpes",
+        "city": "Grenoble"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 101,
+        "name": "Grenoble",
+        "logo": "https://media.api-sports.io/football/teams/101.png",
+        "winner": null
+      },
+      "away": {
+        "id": 433,
+        "name": "Laval",
+        "logo": "https://media.api-sports.io/football/teams/433.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389133,
+      "referee": "Azzedine Souifi, France",
+      "timezone": "UTC",
+      "date": "2025-08-15T18:00:00+00:00",
+      "timestamp": 1755280800,
+      "periods": {
+        "first": 1755280800,
+        "second": 1755284400
+      },
+      "venue": {
+        "id": 661,
+        "name": "Marcel Picot Stade",
+        "city": "Tomblaine"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 102,
+        "name": "Nancy",
+        "logo": "https://media.api-sports.io/football/teams/102.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1299,
+        "name": "Boulogne",
+        "logo": "https://media.api-sports.io/football/teams/1299.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389134,
+      "referee": "Mickael Leleu, France",
+      "timezone": "UTC",
+      "date": "2025-08-15T18:00:00+00:00",
+      "timestamp": 1755280800,
+      "periods": {
+        "first": 1755280800,
+        "second": 1755284400
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade Pierre Brisson",
+        "city": "Saint-Ouen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 104,
+        "name": "RED Star FC 93",
+        "logo": "https://media.api-sports.io/football/teams/104.png",
+        "winner": false
+      },
+      "away": {
+        "id": 87,
+        "name": "Amiens",
+        "logo": "https://media.api-sports.io/football/teams/87.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 3
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 3
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389132,
+      "referee": "Mikael Lesage, France",
+      "timezone": "UTC",
+      "date": "2025-08-15T18:00:00+00:00",
+      "timestamp": 1755280800,
+      "periods": {
+        "first": 1755280800,
+        "second": 1755284400
+      },
+      "venue": {
+        "id": 1977,
+        "name": "Stade Armand Cesari",
+        "city": "Furiani"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1305,
+        "name": "Bastia",
+        "logo": "https://media.api-sports.io/football/teams/1305.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1297,
+        "name": "PAU",
+        "logo": "https://media.api-sports.io/football/teams/1297.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389138,
+      "referee": "Willy Delajod, France",
+      "timezone": "UTC",
+      "date": "2025-08-16T12:00:00+00:00",
+      "timestamp": 1755345600,
+      "periods": {
+        "first": 1755345600,
+        "second": 1755349200
+      },
+      "venue": {
+        "id": null,
+        "name": "Stade Auguste Delaune",
+        "city": "Reims"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 93,
+        "name": "Reims",
+        "logo": "https://media.api-sports.io/football/teams/93.png",
+        "winner": true
+      },
+      "away": {
+        "id": 90,
+        "name": "Guingamp",
+        "logo": "https://media.api-sports.io/football/teams/90.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1396826,
+      "referee": "Faouzi Benchabane, France",
+      "timezone": "UTC",
+      "date": "2025-08-16T12:00:00+00:00",
+      "timestamp": 1755345600,
+      "periods": {
+        "first": 1755345600,
+        "second": 1755349200
+      },
+      "venue": {
+        "id": 645,
+        "name": "Stade Gaston-G\u00e9rard",
+        "city": "Dijon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 3012,
+        "name": "Annecy",
+        "logo": "https://media.api-sports.io/football/teams/3012.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1304,
+        "name": "Dunkerque",
+        "logo": "https://media.api-sports.io/football/teams/1304.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1396827,
+      "referee": "Guillaume Paradis, France",
+      "timezone": "UTC",
+      "date": "2025-08-16T18:00:00+00:00",
+      "timestamp": 1755367200,
+      "periods": {
+        "first": 1755367200,
+        "second": 1755370800
+      },
+      "venue": {
+        "id": 676,
+        "name": "Geoffroy-Guichard Stade",
+        "city": "Saint-\u00c8tienne"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1063,
+        "name": "Saint Etienne",
+        "logo": "https://media.api-sports.io/football/teams/1063.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1301,
+        "name": "Rodez",
+        "logo": "https://media.api-sports.io/football/teams/1301.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1389135,
+      "referee": "Remi Landry, France",
+      "timezone": "UTC",
+      "date": "2025-08-18T18:45:00+00:00",
+      "timestamp": 1755542700,
+      "periods": {
+        "first": 1755542700,
+        "second": 1755546300
+      },
+      "venue": {
+        "id": 19206,
+        "name": "Leon-Bollee Stade",
+        "city": "Le Mans"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 12
+      }
+    },
+    "league": {
+      "id": 62,
+      "name": "Ligue 2",
+      "country": "France",
+      "logo": "https://media.api-sports.io/football/leagues/62.png",
+      "flag": "https://media.api-sports.io/flags/fr.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1298,
+        "name": "Le Mans",
+        "logo": "https://media.api-sports.io/football/teams/1298.png",
+        "winner": false
+      },
+      "away": {
+        "id": 82,
+        "name": "Montpellier",
+        "logo": "https://media.api-sports.io/football/teams/82.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

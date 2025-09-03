@@ -1,0 +1,35 @@
+2025-08-29 20:09:21,274 - src.train_pipeline - INFO - Starting training with model: xgboost, feature selection: rfe with 70 features
+2025-08-29 20:09:21,275 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-08-29 20:09:21,292 - src.train_pipeline - INFO - Filtered to 22853 completed matches
+2025-08-29 20:09:21,318 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-08-29 20:09:21,319 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-08-29 20:09:21,323 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-08-29 20:09:21,323 - src.train_pipeline - INFO - Preparing features...
+2025-08-29 20:09:21,350 - src.train_pipeline - INFO - Removed 33 potential leakage columns
+2025-08-29 20:09:21,475 - src.train_pipeline - INFO - Feature preparation complete. Final features: 132
+2025-08-29 20:09:21,476 - src.train_pipeline - INFO - Data preparation complete. Features: 132, Samples: 22853
+2025-08-29 20:09:21,480 - src.train_pipeline - INFO - Time Series Split - Training: 18283, Holdout: 4570
+2025-08-29 20:09:21,480 - src.train_pipeline - INFO - Using custom class weights: {0: 1.0, 1: 2.5, 2: 1.0}
+2025-08-29 20:09:21,483 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-08-29 20:09:21,527 - src.train_pipeline - INFO - Numerical features: 132, Categorical features: 0
+2025-08-29 20:09:21,527 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-08-29 20:09:21,527 - src.train_pipeline - INFO - Using feature selection method: rfe with top 70 features
+2025-08-29 20:09:21,527 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-08-29 20:09:21,527 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-08-29 20:09:21,527 - src.train_pipeline - INFO - Starting cross-validation...
+2025-08-29 20:09:21,527 - src.train_pipeline - INFO - Processing fold 1/5
+2025-08-29 20:09:29,355 - src.train_pipeline - INFO - Fold 1 - Test Accuracy: 0.6613 - F1 Macro: 0.6552
+2025-08-29 20:09:29,356 - src.train_pipeline - INFO - Processing fold 2/5
+2025-08-29 20:09:41,397 - src.train_pipeline - INFO - Fold 2 - Test Accuracy: 0.6879 - F1 Macro: 0.6851
+2025-08-29 20:09:41,400 - src.train_pipeline - INFO - Processing fold 3/5
+2025-08-29 20:09:54,761 - src.train_pipeline - INFO - Fold 3 - Test Accuracy: 0.6731 - F1 Macro: 0.6665
+2025-08-29 20:09:54,764 - src.train_pipeline - INFO - Processing fold 4/5
+2025-08-29 20:10:07,132 - src.train_pipeline - INFO - Fold 4 - Test Accuracy: 0.6367 - F1 Macro: 0.6367
+2025-08-29 20:10:07,135 - src.train_pipeline - INFO - Processing fold 5/5
+2025-08-29 20:10:21,789 - src.train_pipeline - INFO - Fold 5 - Test Accuracy: 0.6843 - F1 Macro: 0.6796
+2025-08-29 20:10:21,795 - src.train_pipeline - INFO - Training final model on full training period...
+2025-08-29 20:10:37,484 - src.train_pipeline - INFO - Evaluating on holdout period...
+2025-08-29 20:10:37,532 - src.train_pipeline - INFO - Holdout Accuracy: 0.6665
+2025-08-29 20:10:37,532 - src.train_pipeline - INFO - Saving model artifacts...
+2025-08-29 20:10:37,572 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-08-29 20:10:37,573 - src.train_pipeline - INFO - Training completed successfully!

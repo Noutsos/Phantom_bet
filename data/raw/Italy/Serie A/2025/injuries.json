@@ -1,0 +1,1682 @@
+[
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1377872"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 907,
+          "name": "Romelu Lukaku",
+          "photo": "https://media.api-sports.io/football/players/907.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "fixture": {
+          "id": 1377872,
+          "timezone": "UTC",
+          "date": "2025-08-23T16:30:00+00:00",
+          "timestamp": 1755966600
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 39143,
+          "name": "Kristian Thorstvedt",
+          "photo": "https://media.api-sports.io/football/players/39143.png",
+          "type": "Missing Fixture",
+          "reason": "Injury"
+        },
+        "team": {
+          "id": 488,
+          "name": "Sassuolo",
+          "logo": "https://media.api-sports.io/football/teams/488.png"
+        },
+        "fixture": {
+          "id": 1377872,
+          "timezone": "UTC",
+          "date": "2025-08-23T16:30:00+00:00",
+          "timestamp": 1755966600
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 162032,
+          "name": "Miguel Ortega Gutierrez",
+          "photo": "https://media.api-sports.io/football/players/162032.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle surgery"
+        },
+        "team": {
+          "id": 492,
+          "name": "Napoli",
+          "logo": "https://media.api-sports.io/football/teams/492.png"
+        },
+        "fixture": {
+          "id": 1377872,
+          "timezone": "UTC",
+          "date": "2025-08-23T16:30:00+00:00",
+          "timestamp": 1755966600
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 264739,
+          "name": "Laurs Skjellerup",
+          "photo": "https://media.api-sports.io/football/players/264739.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 488,
+          "name": "Sassuolo",
+          "logo": "https://media.api-sports.io/football/teams/488.png"
+        },
+        "fixture": {
+          "id": 1377872,
+          "timezone": "UTC",
+          "date": "2025-08-23T16:30:00+00:00",
+          "timestamp": 1755966600
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1377867"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 3430,
+          "name": "Caleb Ekuban",
+          "photo": "https://media.api-sports.io/football/players/3430.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 495,
+          "name": "Genoa",
+          "logo": "https://media.api-sports.io/football/teams/495.png"
+        },
+        "fixture": {
+          "id": 1377867,
+          "timezone": "UTC",
+          "date": "2025-08-23T16:30:00+00:00",
+          "timestamp": 1755966600
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 40563,
+          "name": "Filip Marchwinski",
+          "photo": "https://media.api-sports.io/football/players/40563.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 867,
+          "name": "Lecce",
+          "logo": "https://media.api-sports.io/football/teams/867.png"
+        },
+        "fixture": {
+          "id": 1377867,
+          "timezone": "UTC",
+          "date": "2025-08-23T16:30:00+00:00",
+          "timestamp": 1755966600
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 118956,
+          "name": "Lameck Banda",
+          "photo": "https://media.api-sports.io/football/players/118956.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 867,
+          "name": "Lecce",
+          "logo": "https://media.api-sports.io/football/teams/867.png"
+        },
+        "fixture": {
+          "id": 1377867,
+          "timezone": "UTC",
+          "date": "2025-08-23T16:30:00+00:00",
+          "timestamp": 1755966600
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 23253,
+          "name": "Gaby Jean",
+          "photo": "https://media.api-sports.io/football/players/23253.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 867,
+          "name": "Lecce",
+          "logo": "https://media.api-sports.io/football/teams/867.png"
+        },
+        "fixture": {
+          "id": 1377867,
+          "timezone": "UTC",
+          "date": "2025-08-23T16:30:00+00:00",
+          "timestamp": 1755966600
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 387128,
+          "name": "Sebastian Otoa",
+          "photo": "https://media.api-sports.io/football/players/387128.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 495,
+          "name": "Genoa",
+          "logo": "https://media.api-sports.io/football/teams/495.png"
+        },
+        "fixture": {
+          "id": 1377867,
+          "timezone": "UTC",
+          "date": "2025-08-23T16:30:00+00:00",
+          "timestamp": 1755966600
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1377870"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 2057,
+          "name": "Franco Vazquez",
+          "photo": "https://media.api-sports.io/football/players/2057.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 520,
+          "name": "Cremonese",
+          "logo": "https://media.api-sports.io/football/teams/520.png"
+        },
+        "fixture": {
+          "id": 1377870,
+          "timezone": "UTC",
+          "date": "2025-08-23T18:45:00+00:00",
+          "timestamp": 1755974700
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 30875,
+          "name": "Mattia Valoti",
+          "photo": "https://media.api-sports.io/football/players/30875.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 520,
+          "name": "Cremonese",
+          "logo": "https://media.api-sports.io/football/teams/520.png"
+        },
+        "fixture": {
+          "id": 1377870,
+          "timezone": "UTC",
+          "date": "2025-08-23T18:45:00+00:00",
+          "timestamp": 1755974700
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 36986,
+          "name": "Dennis Johnsen",
+          "photo": "https://media.api-sports.io/football/players/36986.png",
+          "type": "Missing Fixture",
+          "reason": "Sprain"
+        },
+        "team": {
+          "id": 520,
+          "name": "Cremonese",
+          "logo": "https://media.api-sports.io/football/teams/520.png"
+        },
+        "fixture": {
+          "id": 1377870,
+          "timezone": "UTC",
+          "date": "2025-08-23T18:45:00+00:00",
+          "timestamp": 1755974700
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 22236,
+          "name": "Rafael Leao",
+          "photo": "https://media.api-sports.io/football/players/22236.png",
+          "type": "Missing Fixture",
+          "reason": "Calf Injury"
+        },
+        "team": {
+          "id": 489,
+          "name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png"
+        },
+        "fixture": {
+          "id": 1377870,
+          "timezone": "UTC",
+          "date": "2025-08-23T18:45:00+00:00",
+          "timestamp": 1755974700
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 31038,
+          "name": "Gianluca Saro",
+          "photo": "https://media.api-sports.io/football/players/31038.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 520,
+          "name": "Cremonese",
+          "logo": "https://media.api-sports.io/football/teams/520.png"
+        },
+        "fixture": {
+          "id": 1377870,
+          "timezone": "UTC",
+          "date": "2025-08-23T18:45:00+00:00",
+          "timestamp": 1755974700
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 126980,
+          "name": "Tommaso Barbieri",
+          "photo": "https://media.api-sports.io/football/players/126980.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 520,
+          "name": "Cremonese",
+          "logo": "https://media.api-sports.io/football/teams/520.png"
+        },
+        "fixture": {
+          "id": 1377870,
+          "timezone": "UTC",
+          "date": "2025-08-23T18:45:00+00:00",
+          "timestamp": 1755974700
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1377871"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 1863,
+          "name": "Ciro Immobile",
+          "photo": "https://media.api-sports.io/football/players/1863.png",
+          "type": "Missing Fixture",
+          "reason": "Injured Doubtful"
+        },
+        "team": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png"
+        },
+        "fixture": {
+          "id": 1377871,
+          "timezone": "UTC",
+          "date": "2025-08-23T18:45:00+00:00",
+          "timestamp": 1755974700
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 782,
+          "name": "Lorenzo Pellegrini",
+          "photo": "https://media.api-sports.io/football/players/782.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 497,
+          "name": "AS Roma",
+          "logo": "https://media.api-sports.io/football/teams/497.png"
+        },
+        "fixture": {
+          "id": 1377871,
+          "timezone": "UTC",
+          "date": "2025-08-23T18:45:00+00:00",
+          "timestamp": 1755974700
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 983,
+          "name": "Leon Bailey",
+          "photo": "https://media.api-sports.io/football/players/983.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 497,
+          "name": "AS Roma",
+          "logo": "https://media.api-sports.io/football/teams/497.png"
+        },
+        "fixture": {
+          "id": 1377871,
+          "timezone": "UTC",
+          "date": "2025-08-23T18:45:00+00:00",
+          "timestamp": 1755974700
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 134,
+          "name": "Juan Miranda",
+          "photo": "https://media.api-sports.io/football/players/134.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png"
+        },
+        "fixture": {
+          "id": 1377871,
+          "timezone": "UTC",
+          "date": "2025-08-23T18:45:00+00:00",
+          "timestamp": 1755974700
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 47985,
+          "name": "Emil Holm",
+          "photo": "https://media.api-sports.io/football/players/47985.png",
+          "type": "Missing Fixture",
+          "reason": "hamstring muscle injury"
+        },
+        "team": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png"
+        },
+        "fixture": {
+          "id": 1377871,
+          "timezone": "UTC",
+          "date": "2025-08-23T18:45:00+00:00",
+          "timestamp": 1755974700
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 286475,
+          "name": "Edoardo Bove",
+          "photo": "https://media.api-sports.io/football/players/286475.png",
+          "type": "Missing Fixture",
+          "reason": "Heart Condition"
+        },
+        "team": {
+          "id": 497,
+          "name": "AS Roma",
+          "logo": "https://media.api-sports.io/football/teams/497.png"
+        },
+        "fixture": {
+          "id": 1377871,
+          "timezone": "UTC",
+          "date": "2025-08-23T18:45:00+00:00",
+          "timestamp": 1755974700
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1377865"
+    },
+    "errors": [],
+    "results": 4,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 30573,
+          "name": "Leonardo Pavoletti",
+          "photo": "https://media.api-sports.io/football/players/30573.png",
+          "type": "Missing Fixture",
+          "reason": "Knee injury"
+        },
+        "team": {
+          "id": 490,
+          "name": "Cagliari",
+          "logo": "https://media.api-sports.io/football/teams/490.png"
+        },
+        "fixture": {
+          "id": 1377865,
+          "timezone": "UTC",
+          "date": "2025-08-24T16:30:00+00:00",
+          "timestamp": 1756053000
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 30810,
+          "name": "Rolando Mandragora",
+          "photo": "https://media.api-sports.io/football/players/30810.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 502,
+          "name": "Fiorentina",
+          "logo": "https://media.api-sports.io/football/teams/502.png"
+        },
+        "fixture": {
+          "id": 1377865,
+          "timezone": "UTC",
+          "date": "2025-08-24T16:30:00+00:00",
+          "timestamp": 1756053000
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 30789,
+          "name": "Cristian Kouame",
+          "photo": "https://media.api-sports.io/football/players/30789.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 502,
+          "name": "Fiorentina",
+          "logo": "https://media.api-sports.io/football/teams/502.png"
+        },
+        "fixture": {
+          "id": 1377865,
+          "timezone": "UTC",
+          "date": "2025-08-24T16:30:00+00:00",
+          "timestamp": 1756053000
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 877,
+          "name": "Moise Keane",
+          "photo": "https://media.api-sports.io/football/players/877.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 502,
+          "name": "Fiorentina",
+          "logo": "https://media.api-sports.io/football/teams/502.png"
+        },
+        "fixture": {
+          "id": 1377865,
+          "timezone": "UTC",
+          "date": "2025-08-24T16:30:00+00:00",
+          "timestamp": 1756053000
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1377866"
+    },
+    "errors": [],
+    "results": 3,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 211,
+          "name": "Matias Vecino",
+          "photo": "https://media.api-sports.io/football/players/211.png",
+          "type": "Missing Fixture",
+          "reason": "Thigh problems"
+        },
+        "team": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png"
+        },
+        "fixture": {
+          "id": 1377866,
+          "timezone": "UTC",
+          "date": "2025-08-24T16:30:00+00:00",
+          "timestamp": 1756053000
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 1632,
+          "name": "Alessio Romagnoli",
+          "photo": "https://media.api-sports.io/football/players/1632.png",
+          "type": "Missing Fixture",
+          "reason": "unfit"
+        },
+        "team": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png"
+        },
+        "fixture": {
+          "id": 1377866,
+          "timezone": "UTC",
+          "date": "2025-08-24T16:30:00+00:00",
+          "timestamp": 1756053000
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 32034,
+          "name": "Alberto Dossena",
+          "photo": "https://media.api-sports.io/football/players/32034.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 895,
+          "name": "Como",
+          "logo": "https://media.api-sports.io/football/teams/895.png"
+        },
+        "fixture": {
+          "id": 1377866,
+          "timezone": "UTC",
+          "date": "2025-08-24T16:30:00+00:00",
+          "timestamp": 1756053000
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1377869"
+    },
+    "errors": [],
+    "results": 8,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 849,
+          "name": "Mattia Perin",
+          "photo": "https://media.api-sports.io/football/players/849.png",
+          "type": "Missing Fixture",
+          "reason": "Injury"
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "fixture": {
+          "id": 1377869,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 333,
+          "name": "Arkadiusz Milik",
+          "photo": "https://media.api-sports.io/football/players/333.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "fixture": {
+          "id": 1377869,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 1208,
+          "name": "Hernani Azevedo Junior",
+          "photo": "https://media.api-sports.io/football/players/1208.png",
+          "type": "Missing Fixture",
+          "reason": "Injury to the ankle"
+        },
+        "team": {
+          "id": 523,
+          "name": "Parma",
+          "logo": "https://media.api-sports.io/football/teams/523.png"
+        },
+        "fixture": {
+          "id": 1377869,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 125674,
+          "name": "Juan David Cabal Murillo",
+          "photo": "https://media.api-sports.io/football/players/125674.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "fixture": {
+          "id": 1377869,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 191979,
+          "name": "Jacob Ondrejka",
+          "photo": "https://media.api-sports.io/football/players/191979.png",
+          "type": "Missing Fixture",
+          "reason": "Fracture of the fibula"
+        },
+        "team": {
+          "id": 523,
+          "name": "Parma",
+          "logo": "https://media.api-sports.io/football/teams/523.png"
+        },
+        "fixture": {
+          "id": 1377869,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 292543,
+          "name": "Matija Frigan",
+          "photo": "https://media.api-sports.io/football/players/292543.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 523,
+          "name": "Parma",
+          "logo": "https://media.api-sports.io/football/teams/523.png"
+        },
+        "fixture": {
+          "id": 1377869,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 181808,
+          "name": "Fabio Miretti",
+          "photo": "https://media.api-sports.io/football/players/181808.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "fixture": {
+          "id": 1377869,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 181806,
+          "name": "Nicolo Savona",
+          "photo": "https://media.api-sports.io/football/players/181806.png",
+          "type": "Missing Fixture",
+          "reason": "Injury to the ankle"
+        },
+        "team": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        },
+        "fixture": {
+          "id": 1377869,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1377864"
+    },
+    "errors": [],
+    "results": 8,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 1442,
+          "name": "Sead Kolasinac",
+          "photo": "https://media.api-sports.io/football/players/1442.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png"
+        },
+        "fixture": {
+          "id": 1377864,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 18767,
+          "name": "Ademola Lookman",
+          "photo": "https://media.api-sports.io/football/players/18767.png",
+          "type": "Missing Fixture",
+          "reason": "ineligible"
+        },
+        "team": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png"
+        },
+        "fixture": {
+          "id": 1377864,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 530,
+          "name": "Mitchel Bakker",
+          "photo": "https://media.api-sports.io/football/players/530.png",
+          "type": "Missing Fixture",
+          "reason": "Ruptured cruciate ligament"
+        },
+        "team": {
+          "id": 499,
+          "name": "Atalanta",
+          "logo": "https://media.api-sports.io/football/teams/499.png"
+        },
+        "fixture": {
+          "id": 1377864,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 129790,
+          "name": "Tomas Esteves",
+          "photo": "https://media.api-sports.io/football/players/129790.png",
+          "type": "Missing Fixture",
+          "reason": "fitness"
+        },
+        "team": {
+          "id": 801,
+          "name": "Pisa",
+          "logo": "https://media.api-sports.io/football/teams/801.png"
+        },
+        "fixture": {
+          "id": 1377864,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 331678,
+          "name": "Henrik Meister",
+          "photo": "https://media.api-sports.io/football/players/331678.png",
+          "type": "Missing Fixture",
+          "reason": "Unknown Injury"
+        },
+        "team": {
+          "id": 801,
+          "name": "Pisa",
+          "logo": "https://media.api-sports.io/football/teams/801.png"
+        },
+        "fixture": {
+          "id": 1377864,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 364600,
+          "name": "Isak Vural",
+          "photo": "https://media.api-sports.io/football/players/364600.png",
+          "type": "Missing Fixture",
+          "reason": "Inflammation"
+        },
+        "team": {
+          "id": 801,
+          "name": "Pisa",
+          "logo": "https://media.api-sports.io/football/teams/801.png"
+        },
+        "fixture": {
+          "id": 1377864,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 435548,
+          "name": "Mateus Lusuardi",
+          "photo": "https://media.api-sports.io/football/players/435548.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 801,
+          "name": "Pisa",
+          "logo": "https://media.api-sports.io/football/teams/801.png"
+        },
+        "fixture": {
+          "id": 1377864,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 419603,
+          "name": "Francesco Coppola",
+          "photo": "https://media.api-sports.io/football/players/419603.png",
+          "type": "Missing Fixture",
+          "reason": "Ankle surgery"
+        },
+        "team": {
+          "id": 801,
+          "name": "Pisa",
+          "logo": "https://media.api-sports.io/football/teams/801.png"
+        },
+        "fixture": {
+          "id": 1377864,
+          "timezone": "UTC",
+          "date": "2025-08-24T18:45:00+00:00",
+          "timestamp": 1756061100
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1377873"
+    },
+    "errors": [],
+    "results": 5,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 541,
+          "name": "Jurgen Ekkelenkamp",
+          "photo": "https://media.api-sports.io/football/players/541.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle Injury"
+        },
+        "team": {
+          "id": 494,
+          "name": "Udinese",
+          "logo": "https://media.api-sports.io/football/teams/494.png"
+        },
+        "fixture": {
+          "id": 1377873,
+          "timezone": "UTC",
+          "date": "2025-08-25T16:30:00+00:00",
+          "timestamp": 1756139400
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 194837,
+          "name": "Tomas Suslov",
+          "photo": "https://media.api-sports.io/football/players/194837.png",
+          "type": "Missing Fixture",
+          "reason": "Torn knee ligament"
+        },
+        "team": {
+          "id": 504,
+          "name": "Verona",
+          "logo": "https://media.api-sports.io/football/teams/504.png"
+        },
+        "fixture": {
+          "id": 1377873,
+          "timezone": "UTC",
+          "date": "2025-08-25T16:30:00+00:00",
+          "timestamp": 1756139400
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 143648,
+          "name": "Maduka Okoye",
+          "photo": "https://media.api-sports.io/football/players/143648.png",
+          "type": "Missing Fixture",
+          "reason": "Suspension"
+        },
+        "team": {
+          "id": 494,
+          "name": "Udinese",
+          "logo": "https://media.api-sports.io/football/teams/494.png"
+        },
+        "fixture": {
+          "id": 1377873,
+          "timezone": "UTC",
+          "date": "2025-08-25T16:30:00+00:00",
+          "timestamp": 1756139400
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 311071,
+          "name": "Nicolas Valentini",
+          "photo": "https://media.api-sports.io/football/players/311071.png",
+          "type": "Missing Fixture",
+          "reason": "hamstring muscle injury"
+        },
+        "team": {
+          "id": 504,
+          "name": "Verona",
+          "logo": "https://media.api-sports.io/football/teams/504.png"
+        },
+        "fixture": {
+          "id": 1377873,
+          "timezone": "UTC",
+          "date": "2025-08-25T16:30:00+00:00",
+          "timestamp": 1756139400
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 364415,
+          "name": "Yellu Santiago",
+          "photo": "https://media.api-sports.io/football/players/364415.png",
+          "type": "Missing Fixture",
+          "reason": "Muscle fatigue"
+        },
+        "team": {
+          "id": 504,
+          "name": "Verona",
+          "logo": "https://media.api-sports.io/football/teams/504.png"
+        },
+        "fixture": {
+          "id": 1377873,
+          "timezone": "UTC",
+          "date": "2025-08-25T16:30:00+00:00",
+          "timestamp": 1756139400
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      }
+    ]
+  },
+  {
+    "get": "injuries",
+    "parameters": {
+      "fixture": "1377868"
+    },
+    "errors": [],
+    "results": 6,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "player": {
+          "id": 1640,
+          "name": "Hakan Calhanoglu",
+          "photo": "https://media.api-sports.io/football/players/1640.png",
+          "type": "Missing Fixture",
+          "reason": "Red card Suspended"
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "fixture": {
+          "id": 1377868,
+          "timezone": "UTC",
+          "date": "2025-08-25T18:45:00+00:00",
+          "timestamp": 1756147500
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 31010,
+          "name": "Federico Dimarco",
+          "photo": "https://media.api-sports.io/football/players/31010.png",
+          "type": "Missing Fixture",
+          "reason": "injured"
+        },
+        "team": {
+          "id": 505,
+          "name": "Inter",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        },
+        "fixture": {
+          "id": 1377868,
+          "timezone": "UTC",
+          "date": "2025-08-25T18:45:00+00:00",
+          "timestamp": 1756147500
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 535,
+          "name": "Perr Schuurs",
+          "photo": "https://media.api-sports.io/football/players/535.png",
+          "type": "Missing Fixture",
+          "reason": "Knee Surgery"
+        },
+        "team": {
+          "id": 503,
+          "name": "Torino",
+          "logo": "https://media.api-sports.io/football/teams/503.png"
+        },
+        "fixture": {
+          "id": 1377868,
+          "timezone": "UTC",
+          "date": "2025-08-25T18:45:00+00:00",
+          "timestamp": 1756147500
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 14329,
+          "name": "Ardian Ismajli",
+          "photo": "https://media.api-sports.io/football/players/14329.png",
+          "type": "Missing Fixture",
+          "reason": "Hamstring Injury"
+        },
+        "team": {
+          "id": 503,
+          "name": "Torino",
+          "logo": "https://media.api-sports.io/football/teams/503.png"
+        },
+        "fixture": {
+          "id": 1377868,
+          "timezone": "UTC",
+          "date": "2025-08-25T18:45:00+00:00",
+          "timestamp": 1756147500
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 343538,
+          "name": "Aaron Ciammaglichella",
+          "photo": "https://media.api-sports.io/football/players/343538.png",
+          "type": "Missing Fixture",
+          "reason": "Bruised Knee"
+        },
+        "team": {
+          "id": 503,
+          "name": "Torino",
+          "logo": "https://media.api-sports.io/football/teams/503.png"
+        },
+        "fixture": {
+          "id": 1377868,
+          "timezone": "UTC",
+          "date": "2025-08-25T18:45:00+00:00",
+          "timestamp": 1756147500
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      },
+      {
+        "player": {
+          "id": 343332,
+          "name": "Zannetos Savva",
+          "photo": "https://media.api-sports.io/football/players/343332.png",
+          "type": "Missing Fixture",
+          "reason": "Partial patellar tendon tear"
+        },
+        "team": {
+          "id": 503,
+          "name": "Torino",
+          "logo": "https://media.api-sports.io/football/teams/503.png"
+        },
+        "fixture": {
+          "id": 1377868,
+          "timezone": "UTC",
+          "date": "2025-08-25T18:45:00+00:00",
+          "timestamp": 1756147500
+        },
+        "league": {
+          "id": 135,
+          "season": 2025,
+          "name": "Serie A",
+          "country": "Italy",
+          "logo": "https://media.api-sports.io/football/leagues/135.png",
+          "flag": "https://media.api-sports.io/flags/it.svg"
+        }
+      }
+    ]
+  }
+]

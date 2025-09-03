@@ -1,0 +1,492 @@
+[
+  {
+    "fixture": {
+      "id": 649347,
+      "referee": "Tiago Martins",
+      "timezone": "UTC",
+      "date": "2020-12-15T20:15:00+00:00",
+      "timestamp": 1608063300,
+      "periods": {
+        "first": 1608063300,
+        "second": 1608066900
+      },
+      "venue": {
+        "id": 1293,
+        "name": "Est\u00e1dio Jos\u00e9 Alvalade",
+        "city": "Lisboa"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2020,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 228,
+        "name": "Sporting CP",
+        "logo": "https://media.api-sports.io/football/teams/228.png",
+        "winner": true
+      },
+      "away": {
+        "id": 245,
+        "name": "Mafra",
+        "logo": "https://media.api-sports.io/football/teams/245.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 649350,
+      "referee": "Ant\u00f3nio Nobre",
+      "timezone": "UTC",
+      "date": "2020-12-16T18:45:00+00:00",
+      "timestamp": 1608144300,
+      "periods": {
+        "first": 1608144300,
+        "second": 1608147900
+      },
+      "venue": {
+        "id": 1286,
+        "name": "Est\u00e1dio Do Drag\u00e3o",
+        "city": "Porto"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2020,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 212,
+        "name": "FC Porto",
+        "logo": "https://media.api-sports.io/football/teams/212.png",
+        "winner": true
+      },
+      "away": {
+        "id": 234,
+        "name": "Pacos Ferreira",
+        "logo": "https://media.api-sports.io/football/teams/234.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 649349,
+      "referee": "F\u00e1bio Ver\u00edssimo",
+      "timezone": "UTC",
+      "date": "2020-12-16T21:00:00+00:00",
+      "timestamp": 1608152400,
+      "periods": {
+        "first": 1608152400,
+        "second": 1608156000
+      },
+      "venue": {
+        "id": null,
+        "name": "Estadio do Sport Lisboa e Benfica",
+        "city": "Lisbon"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "PEN",
+        "elapsed": 120,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2020,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png",
+        "winner": true
+      },
+      "away": {
+        "id": 224,
+        "name": "Guimaraes",
+        "logo": "https://media.api-sports.io/football/teams/224.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": 0,
+        "away": 0
+      },
+      "penalty": {
+        "home": 4,
+        "away": 1
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 649348,
+      "referee": "Luis Godinho",
+      "timezone": "UTC",
+      "date": "2020-12-17T20:15:00+00:00",
+      "timestamp": 1608236100,
+      "periods": {
+        "first": 1608236100,
+        "second": 1608239700
+      },
+      "venue": {
+        "id": 1291,
+        "name": "Est\u00e1dio Municipal de Braga",
+        "city": "Braga"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2020,
+      "round": "Quarter-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 217,
+        "name": "SC Braga",
+        "logo": "https://media.api-sports.io/football/teams/217.png",
+        "winner": true
+      },
+      "away": {
+        "id": 230,
+        "name": "Estoril",
+        "logo": "https://media.api-sports.io/football/teams/230.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 653676,
+      "referee": "Joao Pedro Pinheiro, Portugal",
+      "timezone": "UTC",
+      "date": "2021-01-19T19:45:00+00:00",
+      "timestamp": 1611085500,
+      "periods": {
+        "first": 1611085500,
+        "second": 1611089100
+      },
+      "venue": {
+        "id": 3514,
+        "name": "Est\u00e1dio Dr. Magalh\u00e3es Pessoa",
+        "city": "Leiria"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2020,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 228,
+        "name": "Sporting CP",
+        "logo": "https://media.api-sports.io/football/teams/228.png",
+        "winner": true
+      },
+      "away": {
+        "id": 212,
+        "name": "FC Porto",
+        "logo": "https://media.api-sports.io/football/teams/212.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 653677,
+      "referee": "Fabio Jose Costa Verissimo, Portugal",
+      "timezone": "UTC",
+      "date": "2021-01-20T19:45:00+00:00",
+      "timestamp": 1611171900,
+      "periods": {
+        "first": 1611171900,
+        "second": 1611175500
+      },
+      "venue": {
+        "id": 3514,
+        "name": "Est\u00e1dio Dr. Magalh\u00e3es Pessoa",
+        "city": "Leiria"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2020,
+      "round": "Semi-finals",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 217,
+        "name": "SC Braga",
+        "logo": "https://media.api-sports.io/football/teams/217.png",
+        "winner": true
+      },
+      "away": {
+        "id": 211,
+        "name": "Benfica",
+        "logo": "https://media.api-sports.io/football/teams/211.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 658589,
+      "referee": "Tiago Martins, Portugal",
+      "timezone": "UTC",
+      "date": "2021-01-23T19:45:00+00:00",
+      "timestamp": 1611431100,
+      "periods": {
+        "first": 1611431100,
+        "second": 1611434700
+      },
+      "venue": {
+        "id": 3514,
+        "name": "Est\u00e1dio Dr. Magalh\u00e3es Pessoa",
+        "city": "Leiria"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 97,
+      "name": "Ta\u00e7a da Liga",
+      "country": "Portugal",
+      "logo": "https://media.api-sports.io/football/leagues/97.png",
+      "flag": "https://media.api-sports.io/flags/pt.svg",
+      "season": 2020,
+      "round": "Final",
+      "standings": false
+    },
+    "teams": {
+      "home": {
+        "id": 228,
+        "name": "Sporting CP",
+        "logo": "https://media.api-sports.io/football/teams/228.png",
+        "winner": true
+      },
+      "away": {
+        "id": 217,
+        "name": "SC Braga",
+        "logo": "https://media.api-sports.io/football/teams/217.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

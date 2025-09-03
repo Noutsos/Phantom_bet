@@ -1,0 +1,1019 @@
+{
+  "get": "standings",
+  "parameters": {
+    "league": "141",
+    "season": "2025"
+  },
+  "errors": [],
+  "results": 1,
+  "paging": {
+    "current": 1,
+    "total": 1
+  },
+  "response": [
+    {
+      "league": {
+        "id": 141,
+        "name": "Segunda Divisi\u00f3n",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/141.png",
+        "flag": "https://media.api-sports.io/flags/es.svg",
+        "season": 2025,
+        "standings": [
+          [
+            {
+              "rank": 1,
+              "team": {
+                "id": 9580,
+                "name": "Burgos",
+                "logo": "https://media.api-sports.io/football/teams/9580.png"
+              },
+              "points": 3,
+              "goalsDiff": 4,
+              "group": "LaLiga 2 ",
+              "form": "W",
+              "status": "same",
+              "description": "Promotion",
+              "all": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 5,
+                  "against": 1
+                }
+              },
+              "home": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 5,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 720,
+                "name": "Valladolid",
+                "logo": "https://media.api-sports.io/football/teams/720.png"
+              },
+              "points": 3,
+              "goalsDiff": 3,
+              "group": "LaLiga 2 ",
+              "form": "W",
+              "status": "same",
+              "description": "Promotion",
+              "all": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 3,
+                  "against": 0
+                }
+              },
+              "home": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 3,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 3,
+              "team": {
+                "id": 4665,
+                "name": "Racing Santander",
+                "logo": "https://media.api-sports.io/football/teams/4665.png"
+              },
+              "points": 3,
+              "goalsDiff": 2,
+              "group": "LaLiga 2 ",
+              "form": "W",
+              "status": "same",
+              "description": "Promotion Playoffs",
+              "all": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 3,
+                  "against": 1
+                }
+              },
+              "home": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 3,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 4,
+              "team": {
+                "id": 544,
+                "name": "Deportivo La Coruna",
+                "logo": "https://media.api-sports.io/football/teams/544.png"
+              },
+              "points": 3,
+              "goalsDiff": 2,
+              "group": "LaLiga 2 ",
+              "form": "W",
+              "status": "same",
+              "description": "Promotion Playoffs",
+              "all": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 3,
+                  "against": 1
+                }
+              },
+              "home": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 3,
+                  "against": 1
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 5,
+              "team": {
+                "id": 731,
+                "name": "Sporting Gijon",
+                "logo": "https://media.api-sports.io/football/teams/731.png"
+              },
+              "points": 3,
+              "goalsDiff": 1,
+              "group": "LaLiga 2 ",
+              "form": "W",
+              "status": "same",
+              "description": "Promotion Playoffs",
+              "all": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 2,
+                  "against": 1
+                }
+              },
+              "home": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 2,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 6,
+              "team": {
+                "id": 724,
+                "name": "Cadiz",
+                "logo": "https://media.api-sports.io/football/teams/724.png"
+              },
+              "points": 3,
+              "goalsDiff": 1,
+              "group": "LaLiga 2 ",
+              "form": "W",
+              "status": "same",
+              "description": "Promotion Playoffs",
+              "all": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 0
+                }
+              },
+              "home": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 7,
+              "team": {
+                "id": 9585,
+                "name": "Real Sociedad II",
+                "logo": "https://media.api-sports.io/football/teams/9585.png"
+              },
+              "points": 3,
+              "goalsDiff": 1,
+              "group": "LaLiga 2 ",
+              "form": "W",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 0
+                }
+              },
+              "home": {
+                "played": 1,
+                "win": 1,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 8,
+              "team": {
+                "id": 722,
+                "name": "Albacete",
+                "logo": "https://media.api-sports.io/football/teams/722.png"
+              },
+              "points": 1,
+              "goalsDiff": 0,
+              "group": "LaLiga 2 ",
+              "form": "D",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 4
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 9,
+              "team": {
+                "id": 723,
+                "name": "Almeria",
+                "logo": "https://media.api-sports.io/football/teams/723.png"
+              },
+              "points": 1,
+              "goalsDiff": 0,
+              "group": "LaLiga 2 ",
+              "form": "D",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 4
+                }
+              },
+              "home": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 4,
+                  "against": 4
+                }
+              },
+              "away": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 10,
+              "team": {
+                "id": 537,
+                "name": "Leganes",
+                "logo": "https://media.api-sports.io/football/teams/537.png"
+              },
+              "points": 1,
+              "goalsDiff": 0,
+              "group": "LaLiga 2 ",
+              "form": "D",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "home": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 11,
+              "team": {
+                "id": 8157,
+                "name": "FC Andorra",
+                "logo": "https://media.api-sports.io/football/teams/8157.png"
+              },
+              "points": 1,
+              "goalsDiff": 0,
+              "group": "LaLiga 2 ",
+              "form": "D",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "home": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 535,
+                "name": "Malaga",
+                "logo": "https://media.api-sports.io/football/teams/535.png"
+              },
+              "points": 1,
+              "goalsDiff": 0,
+              "group": "LaLiga 2 ",
+              "form": "D",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "home": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 13,
+              "team": {
+                "id": 545,
+                "name": "Eibar",
+                "logo": "https://media.api-sports.io/football/teams/545.png"
+              },
+              "points": 1,
+              "goalsDiff": 0,
+              "group": "LaLiga 2 ",
+              "form": "D",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "home": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 14,
+              "team": {
+                "id": 726,
+                "name": "Huesca",
+                "logo": "https://media.api-sports.io/football/teams/726.png"
+              },
+              "points": 1,
+              "goalsDiff": 0,
+              "group": "LaLiga 2 ",
+              "form": "D",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "home": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 15,
+              "team": {
+                "id": 534,
+                "name": "Las Palmas",
+                "logo": "https://media.api-sports.io/football/teams/534.png"
+              },
+              "points": 1,
+              "goalsDiff": 0,
+              "group": "LaLiga 2 ",
+              "form": "D",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "home": {
+                "played": 1,
+                "win": 0,
+                "draw": 1,
+                "lose": 0,
+                "goals": {
+                  "for": 1,
+                  "against": 1
+                }
+              },
+              "away": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 16,
+              "team": {
+                "id": 713,
+                "name": "Cordoba",
+                "logo": "https://media.api-sports.io/football/teams/713.png"
+              },
+              "points": 0,
+              "goalsDiff": -1,
+              "group": "LaLiga 2 ",
+              "form": "L",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 1,
+                  "against": 2
+                }
+              },
+              "home": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 1,
+                  "against": 2
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 17,
+              "team": {
+                "id": 799,
+                "name": "Mirandes",
+                "logo": "https://media.api-sports.io/football/teams/799.png"
+              },
+              "points": 0,
+              "goalsDiff": -1,
+              "group": "LaLiga 2 ",
+              "form": "L",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 0,
+                  "against": 1
+                }
+              },
+              "home": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 0,
+                  "against": 1
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 18,
+              "team": {
+                "id": 732,
+                "name": "Zaragoza",
+                "logo": "https://media.api-sports.io/football/teams/732.png"
+              },
+              "points": 0,
+              "goalsDiff": -1,
+              "group": "LaLiga 2 ",
+              "form": "L",
+              "status": "same",
+              "description": null,
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 0,
+                  "against": 1
+                }
+              },
+              "home": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 0,
+                  "against": 1
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 19,
+              "team": {
+                "id": 5254,
+                "name": "Castell\u00f3n",
+                "logo": "https://media.api-sports.io/football/teams/5254.png"
+              },
+              "points": 0,
+              "goalsDiff": -2,
+              "group": "LaLiga 2 ",
+              "form": "L",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 1,
+                  "against": 3
+                }
+              },
+              "home": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 1,
+                  "against": 3
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 20,
+              "team": {
+                "id": 715,
+                "name": "Granada CF",
+                "logo": "https://media.api-sports.io/football/teams/715.png"
+              },
+              "points": 0,
+              "goalsDiff": -2,
+              "group": "LaLiga 2 ",
+              "form": "L",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 1,
+                  "against": 3
+                }
+              },
+              "home": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 1,
+                  "against": 3
+                }
+              },
+              "away": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 21,
+              "team": {
+                "id": 10139,
+                "name": "AD Ceuta FC",
+                "logo": "https://media.api-sports.io/football/teams/10139.png"
+              },
+              "points": 0,
+              "goalsDiff": -3,
+              "group": "LaLiga 2 ",
+              "form": "L",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 0,
+                  "against": 3
+                }
+              },
+              "home": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 0,
+                  "against": 3
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            },
+            {
+              "rank": 22,
+              "team": {
+                "id": 725,
+                "name": "Cultural Leonesa",
+                "logo": "https://media.api-sports.io/football/teams/725.png"
+              },
+              "points": 0,
+              "goalsDiff": -4,
+              "group": "LaLiga 2 ",
+              "form": "L",
+              "status": "same",
+              "description": "Relegation",
+              "all": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 1,
+                  "against": 5
+                }
+              },
+              "home": {
+                "played": 0,
+                "win": 0,
+                "draw": 0,
+                "lose": 0,
+                "goals": {
+                  "for": 0,
+                  "against": 0
+                }
+              },
+              "away": {
+                "played": 1,
+                "win": 0,
+                "draw": 0,
+                "lose": 1,
+                "goals": {
+                  "for": 1,
+                  "against": 5
+                }
+              },
+              "update": "2025-08-22T00:00:00+00:00"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

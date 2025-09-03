@@ -1,0 +1,6690 @@
+[
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421215"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 4626,
+          "name": "Hamrun Spartans",
+          "logo": "https://media.api-sports.io/football/teams/4626.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421213"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 4160,
+          "name": "R\u012bgas FS",
+          "logo": "https://media.api-sports.io/football/teams/4160.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 1165,
+          "name": "KuPS",
+          "logo": "https://media.api-sports.io/football/teams/1165.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 0
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421212"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 7
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 6
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 4
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 7
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 6
+          },
+          {
+            "type": "Offsides",
+            "value": 0
+          },
+          {
+            "type": "Ball Possession",
+            "value": "68%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 0
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 3854,
+          "name": "Shelbourne",
+          "logo": "https://media.api-sports.io/football/teams/3854.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 2
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 1
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 7
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 1
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "32%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 0
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421219"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 667,
+          "name": "Lincoln Red Imps FC",
+          "logo": "https://media.api-sports.io/football/teams/667.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 3684,
+          "name": "FC Noah",
+          "logo": "https://media.api-sports.io/football/teams/3684.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 7
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421210"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 2149,
+          "name": "Fredrikstad",
+          "logo": "https://media.api-sports.io/football/teams/2149.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 0
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 397,
+          "name": "FC Midtjylland",
+          "logo": "https://media.api-sports.io/football/teams/397.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421214"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 614,
+          "name": "AEK Larnaca",
+          "logo": "https://media.api-sports.io/football/teams/614.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 339,
+          "name": "Legia Warszawa",
+          "logo": "https://media.api-sports.io/football/teams/339.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 4
+          },
+          {
+            "type": "Red Cards",
+            "value": 1
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421209"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 2246,
+          "name": "CFR 1907 Cluj",
+          "logo": "https://media.api-sports.io/football/teams/2246.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 0
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421211"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 367,
+          "name": "BK Hacken",
+          "logo": "https://media.api-sports.io/football/teams/367.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 319,
+          "name": "Brann",
+          "logo": "https://media.api-sports.io/football/teams/319.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1413127"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 619,
+          "name": "PAOK",
+          "logo": "https://media.api-sports.io/football/teams/619.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 4
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 1025,
+          "name": "Wolfsberger AC",
+          "logo": "https://media.api-sports.io/football/teams/1025.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421220"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 588,
+          "name": "Zrinjski",
+          "logo": "https://media.api-sports.io/football/teams/588.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 276,
+          "name": "Breidablik",
+          "logo": "https://media.api-sports.io/football/teams/276.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 0
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421218"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 617,
+          "name": "Panathinaikos",
+          "logo": "https://media.api-sports.io/football/teams/617.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421217"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 14281,
+          "name": "Drita",
+          "logo": "https://media.api-sports.io/football/teams/14281.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421216"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 2184,
+          "name": "Servette FC",
+          "logo": "https://media.api-sports.io/football/teams/2184.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421222"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 3854,
+          "name": "Shelbourne",
+          "logo": "https://media.api-sports.io/football/teams/3854.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 0
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421228"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 1165,
+          "name": "KuPS",
+          "logo": "https://media.api-sports.io/football/teams/1165.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 4160,
+          "name": "R\u012bgas FS",
+          "logo": "https://media.api-sports.io/football/teams/4160.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1423465"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 397,
+          "name": "FC Midtjylland",
+          "logo": "https://media.api-sports.io/football/teams/397.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 2149,
+          "name": "Fredrikstad",
+          "logo": "https://media.api-sports.io/football/teams/2149.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421225"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 319,
+          "name": "Brann",
+          "logo": "https://media.api-sports.io/football/teams/319.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 367,
+          "name": "BK Hacken",
+          "logo": "https://media.api-sports.io/football/teams/367.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 5
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1413128"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 1025,
+          "name": "Wolfsberger AC",
+          "logo": "https://media.api-sports.io/football/teams/1025.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 5
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 619,
+          "name": "PAOK",
+          "logo": "https://media.api-sports.io/football/teams/619.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421224"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 3684,
+          "name": "FC Noah",
+          "logo": "https://media.api-sports.io/football/teams/3684.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 667,
+          "name": "Lincoln Red Imps FC",
+          "logo": "https://media.api-sports.io/football/teams/667.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421229"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 276,
+          "name": "Breidablik",
+          "logo": "https://media.api-sports.io/football/teams/276.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 4
+          },
+          {
+            "type": "Red Cards",
+            "value": 1
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 588,
+          "name": "Zrinjski",
+          "logo": "https://media.api-sports.io/football/teams/588.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421230"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 4
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 2184,
+          "name": "Servette FC",
+          "logo": "https://media.api-sports.io/football/teams/2184.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 4
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421227"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 550,
+          "name": "Shakhtar Donetsk",
+          "logo": "https://media.api-sports.io/football/teams/550.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 4
+          },
+          {
+            "type": "Red Cards",
+            "value": 1
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 617,
+          "name": "Panathinaikos",
+          "logo": "https://media.api-sports.io/football/teams/617.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 6
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421226"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 4626,
+          "name": "Hamrun Spartans",
+          "logo": "https://media.api-sports.io/football/teams/4626.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421221"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 14281,
+          "name": "Drita",
+          "logo": "https://media.api-sports.io/football/teams/14281.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 1
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421223"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 0
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 2246,
+          "name": "CFR 1907 Cluj",
+          "logo": "https://media.api-sports.io/football/teams/2246.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1421231"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 339,
+          "name": "Legia Warszawa",
+          "logo": "https://media.api-sports.io/football/teams/339.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 4
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 614,
+          "name": "AEK Larnaca",
+          "logo": "https://media.api-sports.io/football/teams/614.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": null
+          },
+          {
+            "type": "Shots off Goal",
+            "value": null
+          },
+          {
+            "type": "Total Shots",
+            "value": null
+          },
+          {
+            "type": "Blocked Shots",
+            "value": null
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": null
+          },
+          {
+            "type": "Corner Kicks",
+            "value": null
+          },
+          {
+            "type": "Offsides",
+            "value": null
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 6
+          },
+          {
+            "type": "Red Cards",
+            "value": 1
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": null
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1437226"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 397,
+          "name": "FC Midtjylland",
+          "logo": "https://media.api-sports.io/football/teams/397.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 9
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 2
+          },
+          {
+            "type": "Total Shots",
+            "value": 13
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 2
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 11
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 4
+          },
+          {
+            "type": "Offsides",
+            "value": 0
+          },
+          {
+            "type": "Ball Possession",
+            "value": "48%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 1165,
+          "name": "KuPS",
+          "logo": "https://media.api-sports.io/football/teams/1165.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 2
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 1
+          },
+          {
+            "type": "Total Shots",
+            "value": 4
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 10
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 5
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "52%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 4
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1437228"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 319,
+          "name": "Brann",
+          "logo": "https://media.api-sports.io/football/teams/319.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 10
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 3
+          },
+          {
+            "type": "Total Shots",
+            "value": 15
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 2
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 16
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 6
+          },
+          {
+            "type": "Offsides",
+            "value": 0
+          },
+          {
+            "type": "Ball Possession",
+            "value": "60%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 614,
+          "name": "AEK Larnaca",
+          "logo": "https://media.api-sports.io/football/teams/614.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 3
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 4
+          },
+          {
+            "type": "Total Shots",
+            "value": 8
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 11
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 5
+          },
+          {
+            "type": "Offsides",
+            "value": 0
+          },
+          {
+            "type": "Ball Possession",
+            "value": "40%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 8
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1437227"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 375,
+          "name": "Malmo FF",
+          "logo": "https://media.api-sports.io/football/teams/375.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 4
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 3
+          },
+          {
+            "type": "Total Shots",
+            "value": 12
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 5
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 11
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 9
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "50%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 2250,
+          "name": "Sigma Olomouc",
+          "logo": "https://media.api-sports.io/football/teams/2250.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 2
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 3
+          },
+          {
+            "type": "Total Shots",
+            "value": 8
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 3
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 10
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 3
+          },
+          {
+            "type": "Offsides",
+            "value": 4
+          },
+          {
+            "type": "Ball Possession",
+            "value": "50%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 1
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1437229"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 588,
+          "name": "Zrinjski",
+          "logo": "https://media.api-sports.io/football/teams/588.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 3
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 3
+          },
+          {
+            "type": "Total Shots",
+            "value": 12
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 6
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 10
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 6
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "52%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 5
+          },
+          {
+            "type": "Red Cards",
+            "value": 1
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 5
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 7
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 3
+          },
+          {
+            "type": "Total Shots",
+            "value": 12
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 2
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 9
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 2
+          },
+          {
+            "type": "Offsides",
+            "value": 0
+          },
+          {
+            "type": "Ball Possession",
+            "value": "48%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 3
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1436778"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 609,
+          "name": "Shkendija",
+          "logo": "https://media.api-sports.io/football/teams/609.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 4
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 7
+          },
+          {
+            "type": "Total Shots",
+            "value": 14
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 3
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 8
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 4
+          },
+          {
+            "type": "Offsides",
+            "value": 4
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 3
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 566,
+          "name": "Ludogorets",
+          "logo": "https://media.api-sports.io/football/teams/566.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 4
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 8
+          },
+          {
+            "type": "Total Shots",
+            "value": 14
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 2
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 17
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 2
+          },
+          {
+            "type": "Offsides",
+            "value": 2
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1436779"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 617,
+          "name": "Panathinaikos",
+          "logo": "https://media.api-sports.io/football/teams/617.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 5
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 3
+          },
+          {
+            "type": "Total Shots",
+            "value": 10
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 2
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 10
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 8
+          },
+          {
+            "type": "Offsides",
+            "value": 0
+          },
+          {
+            "type": "Ball Possession",
+            "value": "49%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 3
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 3
+          },
+          {
+            "type": "Total Shots",
+            "value": 7
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 9
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 4
+          },
+          {
+            "type": "Offsides",
+            "value": 4
+          },
+          {
+            "type": "Ball Possession",
+            "value": "51%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 3
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1436776"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 604,
+          "name": "Maccabi Tel Aviv",
+          "logo": "https://media.api-sports.io/football/teams/604.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 11
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 5
+          },
+          {
+            "type": "Total Shots",
+            "value": 21
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 5
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 12
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 6
+          },
+          {
+            "type": "Offsides",
+            "value": 2
+          },
+          {
+            "type": "Ball Possession",
+            "value": "63%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 572,
+          "name": "Dynamo Kyiv",
+          "logo": "https://media.api-sports.io/football/teams/572.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 3
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 4
+          },
+          {
+            "type": "Total Shots",
+            "value": 11
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 4
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 11
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 5
+          },
+          {
+            "type": "Offsides",
+            "value": 2
+          },
+          {
+            "type": "Ball Possession",
+            "value": "37%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 4
+          },
+          {
+            "type": "Red Cards",
+            "value": 1
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 8
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1436777"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 656,
+          "name": "Slovan Bratislava",
+          "logo": "https://media.api-sports.io/football/teams/656.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 0
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 6
+          },
+          {
+            "type": "Total Shots",
+            "value": 6
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 0
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 14
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 9
+          },
+          {
+            "type": "Offsides",
+            "value": 3
+          },
+          {
+            "type": "Ball Possession",
+            "value": "48%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 1
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 565,
+          "name": "BSC Young Boys",
+          "logo": "https://media.api-sports.io/football/teams/565.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 2
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 2
+          },
+          {
+            "type": "Total Shots",
+            "value": 4
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 0
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 23
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 5
+          },
+          {
+            "type": "Offsides",
+            "value": 2
+          },
+          {
+            "type": "Ball Possession",
+            "value": "52%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 0
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1436775"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 347,
+          "name": "Lech Poznan",
+          "logo": "https://media.api-sports.io/football/teams/347.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 7
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 4
+          },
+          {
+            "type": "Total Shots",
+            "value": 14
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 3
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 5
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 3
+          },
+          {
+            "type": "Offsides",
+            "value": 0
+          },
+          {
+            "type": "Ball Possession",
+            "value": "40%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 7
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 742,
+          "name": "Genk",
+          "logo": "https://media.api-sports.io/football/teams/742.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 11
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 4
+          },
+          {
+            "type": "Total Shots",
+            "value": 19
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 4
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 5
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 5
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "60%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 3
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 6
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1436774"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 9
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 7
+          },
+          {
+            "type": "Total Shots",
+            "value": 29
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 13
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 14
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 4
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "49%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 4
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 559,
+          "name": "FCSB",
+          "logo": "https://media.api-sports.io/football/teams/559.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 6
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 2
+          },
+          {
+            "type": "Total Shots",
+            "value": 11
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 3
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 9
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 3
+          },
+          {
+            "type": "Offsides",
+            "value": 0
+          },
+          {
+            "type": "Ball Possession",
+            "value": "51%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 1
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 5
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1436773"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 561,
+          "name": "HNK Rijeka",
+          "logo": "https://media.api-sports.io/football/teams/561.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 7
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 5
+          },
+          {
+            "type": "Total Shots",
+            "value": 15
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 3
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 13
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 4
+          },
+          {
+            "type": "Offsides",
+            "value": 3
+          },
+          {
+            "type": "Ball Possession",
+            "value": "60%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 3
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 619,
+          "name": "PAOK",
+          "logo": "https://media.api-sports.io/football/teams/619.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 3
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 6
+          },
+          {
+            "type": "Total Shots",
+            "value": 11
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 2
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 16
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 2
+          },
+          {
+            "type": "Offsides",
+            "value": 1
+          },
+          {
+            "type": "Ball Possession",
+            "value": "40%"
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 5
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 6
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "get": "fixtures/statistics",
+    "parameters": {
+      "fixture": "1437230"
+    },
+    "errors": [],
+    "results": 2,
+    "paging": {
+      "current": 1,
+      "total": 1
+    },
+    "response": [
+      {
+        "team": {
+          "id": 667,
+          "name": "Lincoln Red Imps FC",
+          "logo": "https://media.api-sports.io/football/teams/667.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 1
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 1
+          },
+          {
+            "type": "Total Shots",
+            "value": 2
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 0
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 12
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 0
+          },
+          {
+            "type": "Offsides",
+            "value": 3
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 2
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 0
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      },
+      {
+        "team": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "statistics": [
+          {
+            "type": "Shots on Goal",
+            "value": 4
+          },
+          {
+            "type": "Shots off Goal",
+            "value": 6
+          },
+          {
+            "type": "Total Shots",
+            "value": 11
+          },
+          {
+            "type": "Blocked Shots",
+            "value": 1
+          },
+          {
+            "type": "Shots insidebox",
+            "value": null
+          },
+          {
+            "type": "Shots outsidebox",
+            "value": null
+          },
+          {
+            "type": "Fouls",
+            "value": 12
+          },
+          {
+            "type": "Corner Kicks",
+            "value": 4
+          },
+          {
+            "type": "Offsides",
+            "value": 2
+          },
+          {
+            "type": "Ball Possession",
+            "value": null
+          },
+          {
+            "type": "Yellow Cards",
+            "value": 1
+          },
+          {
+            "type": "Red Cards",
+            "value": 0
+          },
+          {
+            "type": "Goalkeeper Saves",
+            "value": 2
+          },
+          {
+            "type": "Total passes",
+            "value": null
+          },
+          {
+            "type": "Passes accurate",
+            "value": null
+          },
+          {
+            "type": "Passes %",
+            "value": null
+          },
+          {
+            "type": "expected_goals",
+            "value": null
+          },
+          {
+            "type": "goals_prevented",
+            "value": null
+          }
+        ]
+      }
+    ]
+  }
+]

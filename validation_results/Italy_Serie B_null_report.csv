@@ -1,0 +1,980 @@
+country_league,year,file_type,column,null_count,null_percentage
+Italy_Serie B,2017,fixture_events,fixture_id,0,0.0
+Italy_Serie B,2017,fixture_events,date,0,0.0
+Italy_Serie B,2017,fixture_events,timestamp,0,0.0
+Italy_Serie B,2017,fixture_events,status,0,0.0
+Italy_Serie B,2017,fixture_events,maintime,0,0.0
+Italy_Serie B,2017,fixture_events,first_half,0,0.0
+Italy_Serie B,2017,fixture_events,second_half,0,0.0
+Italy_Serie B,2017,fixture_events,extratime,464,100.0
+Italy_Serie B,2017,fixture_events,country,0,0.0
+Italy_Serie B,2017,fixture_events,league_id,0,0.0
+Italy_Serie B,2017,fixture_events,league_name,0,0.0
+Italy_Serie B,2017,fixture_events,league_flag,0,0.0
+Italy_Serie B,2017,fixture_events,league_logo,0,0.0
+Italy_Serie B,2017,fixture_events,season,0,0.0
+Italy_Serie B,2017,fixture_events,round,0,0.0
+Italy_Serie B,2017,fixture_events,venue_name,0,0.0
+Italy_Serie B,2017,fixture_events,venue_city,4,0.8620689655172413
+Italy_Serie B,2017,fixture_events,venue_id,278,59.91379310344828
+Italy_Serie B,2017,fixture_events,referee,1,0.21551724137931033
+Italy_Serie B,2017,fixture_events,home_team,0,0.0
+Italy_Serie B,2017,fixture_events,home_team_id,0,0.0
+Italy_Serie B,2017,fixture_events,home_team_flag,0,0.0
+Italy_Serie B,2017,fixture_events,home_winner,161,34.69827586206897
+Italy_Serie B,2017,fixture_events,away_team,0,0.0
+Italy_Serie B,2017,fixture_events,away_team_id,0,0.0
+Italy_Serie B,2017,fixture_events,away_team_flag,0,0.0
+Italy_Serie B,2017,fixture_events,away_winner,161,34.69827586206897
+Italy_Serie B,2017,fixture_events,home_goals,0,0.0
+Italy_Serie B,2017,fixture_events,away_goals,0,0.0
+Italy_Serie B,2017,fixture_events,halftime_home,0,0.0
+Italy_Serie B,2017,fixture_events,halftime_away,0,0.0
+Italy_Serie B,2017,fixture_events,fulltime_home,0,0.0
+Italy_Serie B,2017,fixture_events,fulltime_away,0,0.0
+Italy_Serie B,2017,fixture_events,penalty_home,464,100.0
+Italy_Serie B,2017,fixture_events,penalty_away,464,100.0
+Italy_Serie B,2017,team_statistics,fixture_id,0,0.0
+Italy_Serie B,2017,team_statistics,team_id,0,0.0
+Italy_Serie B,2017,team_statistics,team_name,0,0.0
+Italy_Serie B,2017,team_statistics,team_logo,0,0.0
+Italy_Serie B,2017,team_statistics,Shots on Goal,0,0.0
+Italy_Serie B,2017,team_statistics,Shots off Goal,0,0.0
+Italy_Serie B,2017,team_statistics,Total Shots,0,0.0
+Italy_Serie B,2017,team_statistics,Blocked Shots,538,100.0
+Italy_Serie B,2017,team_statistics,Shots insidebox,538,100.0
+Italy_Serie B,2017,team_statistics,Shots outsidebox,538,100.0
+Italy_Serie B,2017,team_statistics,Fouls,0,0.0
+Italy_Serie B,2017,team_statistics,Corner Kicks,0,0.0
+Italy_Serie B,2017,team_statistics,Offsides,18,3.3457249070631967
+Italy_Serie B,2017,team_statistics,Ball Possession,4,0.7434944237918215
+Italy_Serie B,2017,team_statistics,Yellow Cards,8,1.486988847583643
+Italy_Serie B,2017,team_statistics,Red Cards,0,0.0
+Italy_Serie B,2017,team_statistics,Goalkeeper Saves,6,1.1152416356877324
+Italy_Serie B,2017,team_statistics,Total passes,538,100.0
+Italy_Serie B,2017,team_statistics,Passes accurate,538,100.0
+Italy_Serie B,2017,team_statistics,Passes %,538,100.0
+Italy_Serie B,2018,lineups,fixture_id,0,0.0
+Italy_Serie B,2018,lineups,team_id,0,0.0
+Italy_Serie B,2018,lineups,team_name,0,0.0
+Italy_Serie B,2018,lineups,team_logo,0,0.0
+Italy_Serie B,2018,lineups,team_colors_player_primary,15189,100.0
+Italy_Serie B,2018,lineups,team_colors_player_number,15189,100.0
+Italy_Serie B,2018,lineups,team_colors_player_border,15189,100.0
+Italy_Serie B,2018,lineups,team_colors_goalkeeper_primary,15189,100.0
+Italy_Serie B,2018,lineups,team_colors_goalkeeper_number,15189,100.0
+Italy_Serie B,2018,lineups,team_colors_goalkeeper_border,15189,100.0
+Italy_Serie B,2018,lineups,coach_id,23,0.15142537362565014
+Italy_Serie B,2018,lineups,coach_name,23,0.15142537362565014
+Italy_Serie B,2018,lineups,coach_photo,23,0.15142537362565014
+Italy_Serie B,2018,lineups,formation,807,5.31305550069129
+Italy_Serie B,2018,lineups,player_id,0,0.0
+Italy_Serie B,2018,lineups,player_name,0,0.0
+Italy_Serie B,2018,lineups,player_number,0,0.0
+Italy_Serie B,2018,lineups,player_pos,2580,16.985976693659886
+Italy_Serie B,2018,lineups,player_grid,8072,53.14372243070643
+Italy_Serie B,2018,lineups,is_substitute,0,0.0
+Italy_Serie B,2018,team_standings,rank,0,0.0
+Italy_Serie B,2018,team_standings,team_id,0,0.0
+Italy_Serie B,2018,team_standings,team_name,0,0.0
+Italy_Serie B,2018,team_standings,team_logo,0,0.0
+Italy_Serie B,2018,team_standings,points,0,0.0
+Italy_Serie B,2018,team_standings,goals_diff,0,0.0
+Italy_Serie B,2018,team_standings,group,0,0.0
+Italy_Serie B,2018,team_standings,form,0,0.0
+Italy_Serie B,2018,team_standings,status,19,100.0
+Italy_Serie B,2018,team_standings,description,6,31.57894736842105
+Italy_Serie B,2018,team_standings,played,0,0.0
+Italy_Serie B,2018,team_standings,wins,0,0.0
+Italy_Serie B,2018,team_standings,draws,0,0.0
+Italy_Serie B,2018,team_standings,losses,0,0.0
+Italy_Serie B,2018,team_standings,goals_for,0,0.0
+Italy_Serie B,2018,team_standings,goals_against,0,0.0
+Italy_Serie B,2018,team_standings,home_played,0,0.0
+Italy_Serie B,2018,team_standings,home_wins,0,0.0
+Italy_Serie B,2018,team_standings,home_draws,0,0.0
+Italy_Serie B,2018,team_standings,home_losses,0,0.0
+Italy_Serie B,2018,team_standings,home_goals_for,0,0.0
+Italy_Serie B,2018,team_standings,home_goals_against,0,0.0
+Italy_Serie B,2018,team_standings,away_played,0,0.0
+Italy_Serie B,2018,team_standings,away_wins,0,0.0
+Italy_Serie B,2018,team_standings,away_draws,0,0.0
+Italy_Serie B,2018,team_standings,away_losses,0,0.0
+Italy_Serie B,2018,team_standings,away_goals_for,0,0.0
+Italy_Serie B,2018,team_standings,away_goals_against,0,0.0
+Italy_Serie B,2018,team_statistics,fixture_id,0,0.0
+Italy_Serie B,2018,team_statistics,team_id,0,0.0
+Italy_Serie B,2018,team_statistics,team_name,0,0.0
+Italy_Serie B,2018,team_statistics,team_logo,0,0.0
+Italy_Serie B,2018,team_statistics,Shots on Goal,0,0.0
+Italy_Serie B,2018,team_statistics,Shots off Goal,2,0.3021148036253776
+Italy_Serie B,2018,team_statistics,Total Shots,18,2.719033232628399
+Italy_Serie B,2018,team_statistics,Blocked Shots,662,100.0
+Italy_Serie B,2018,team_statistics,Shots insidebox,662,100.0
+Italy_Serie B,2018,team_statistics,Shots outsidebox,662,100.0
+Italy_Serie B,2018,team_statistics,Fouls,2,0.3021148036253776
+Italy_Serie B,2018,team_statistics,Corner Kicks,0,0.0
+Italy_Serie B,2018,team_statistics,Offsides,30,4.531722054380665
+Italy_Serie B,2018,team_statistics,Ball Possession,6,0.906344410876133
+Italy_Serie B,2018,team_statistics,Yellow Cards,8,1.2084592145015105
+Italy_Serie B,2018,team_statistics,Red Cards,153,23.11178247734139
+Italy_Serie B,2018,team_statistics,Goalkeeper Saves,22,3.3232628398791544
+Italy_Serie B,2018,team_statistics,Total passes,662,100.0
+Italy_Serie B,2018,team_statistics,Passes accurate,662,100.0
+Italy_Serie B,2018,team_statistics,Passes %,662,100.0
+Italy_Serie B,2018,team_statistics,Substitutions,644,97.2809667673716
+Italy_Serie B,2019,fixture_events,fixture_id,0,0.0
+Italy_Serie B,2019,fixture_events,date,0,0.0
+Italy_Serie B,2019,fixture_events,timestamp,0,0.0
+Italy_Serie B,2019,fixture_events,status,0,0.0
+Italy_Serie B,2019,fixture_events,maintime,0,0.0
+Italy_Serie B,2019,fixture_events,first_half,0,0.0
+Italy_Serie B,2019,fixture_events,second_half,0,0.0
+Italy_Serie B,2019,fixture_events,extratime,279,100.0
+Italy_Serie B,2019,fixture_events,country,0,0.0
+Italy_Serie B,2019,fixture_events,league_id,0,0.0
+Italy_Serie B,2019,fixture_events,league_name,0,0.0
+Italy_Serie B,2019,fixture_events,league_flag,0,0.0
+Italy_Serie B,2019,fixture_events,league_logo,0,0.0
+Italy_Serie B,2019,fixture_events,season,0,0.0
+Italy_Serie B,2019,fixture_events,round,0,0.0
+Italy_Serie B,2019,fixture_events,venue_name,0,0.0
+Italy_Serie B,2019,fixture_events,venue_city,0,0.0
+Italy_Serie B,2019,fixture_events,venue_id,0,0.0
+Italy_Serie B,2019,fixture_events,referee,0,0.0
+Italy_Serie B,2019,fixture_events,home_team,0,0.0
+Italy_Serie B,2019,fixture_events,home_team_id,0,0.0
+Italy_Serie B,2019,fixture_events,home_team_flag,0,0.0
+Italy_Serie B,2019,fixture_events,home_winner,75,26.881720430107524
+Italy_Serie B,2019,fixture_events,away_team,0,0.0
+Italy_Serie B,2019,fixture_events,away_team_id,0,0.0
+Italy_Serie B,2019,fixture_events,away_team_flag,0,0.0
+Italy_Serie B,2019,fixture_events,away_winner,75,26.881720430107524
+Italy_Serie B,2019,fixture_events,home_goals,0,0.0
+Italy_Serie B,2019,fixture_events,away_goals,0,0.0
+Italy_Serie B,2019,fixture_events,halftime_home,0,0.0
+Italy_Serie B,2019,fixture_events,halftime_away,0,0.0
+Italy_Serie B,2019,fixture_events,fulltime_home,0,0.0
+Italy_Serie B,2019,fixture_events,fulltime_away,0,0.0
+Italy_Serie B,2019,fixture_events,penalty_home,279,100.0
+Italy_Serie B,2019,fixture_events,penalty_away,279,100.0
+Italy_Serie B,2019,lineups,fixture_id,0,0.0
+Italy_Serie B,2019,lineups,team_id,0,0.0
+Italy_Serie B,2019,lineups,team_name,0,0.0
+Italy_Serie B,2019,lineups,team_logo,0,0.0
+Italy_Serie B,2019,lineups,team_colors_player_primary,12388,100.0
+Italy_Serie B,2019,lineups,team_colors_player_number,12388,100.0
+Italy_Serie B,2019,lineups,team_colors_player_border,12388,100.0
+Italy_Serie B,2019,lineups,team_colors_goalkeeper_primary,12388,100.0
+Italy_Serie B,2019,lineups,team_colors_goalkeeper_number,12388,100.0
+Italy_Serie B,2019,lineups,team_colors_goalkeeper_border,12388,100.0
+Italy_Serie B,2019,lineups,coach_id,0,0.0
+Italy_Serie B,2019,lineups,coach_name,0,0.0
+Italy_Serie B,2019,lineups,coach_photo,0,0.0
+Italy_Serie B,2019,lineups,formation,89,0.7184371972876978
+Italy_Serie B,2019,lineups,player_id,0,0.0
+Italy_Serie B,2019,lineups,player_name,0,0.0
+Italy_Serie B,2019,lineups,player_number,0,0.0
+Italy_Serie B,2019,lineups,player_pos,276,2.2279625443978044
+Italy_Serie B,2019,lineups,player_grid,6294,50.80723280594124
+Italy_Serie B,2019,lineups,is_substitute,0,0.0
+Italy_Serie B,2019,player_statistics,fixture_id,0,0.0
+Italy_Serie B,2019,player_statistics,team_name,0,0.0
+Italy_Serie B,2019,player_statistics,team_id,0,0.0
+Italy_Serie B,2019,player_statistics,player_id,0,0.0
+Italy_Serie B,2019,player_statistics,player_name,0,0.0
+Italy_Serie B,2019,player_statistics,player_photo,27,0.3472668810289389
+Italy_Serie B,2019,player_statistics,games_minutes,0,0.0
+Italy_Serie B,2019,player_statistics,games_number,0,0.0
+Italy_Serie B,2019,player_statistics,games_position,0,0.0
+Italy_Serie B,2019,player_statistics,games_rating,0,0.0
+Italy_Serie B,2019,player_statistics,games_captain,0,0.0
+Italy_Serie B,2019,player_statistics,games_substitute,0,0.0
+Italy_Serie B,2019,player_statistics,shots_total,0,0.0
+Italy_Serie B,2019,player_statistics,shots_on,0,0.0
+Italy_Serie B,2019,player_statistics,goals_conceded,0,0.0
+Italy_Serie B,2019,player_statistics,goals_saves,7209,92.72025723472669
+Italy_Serie B,2019,player_statistics,passes_total,0,0.0
+Italy_Serie B,2019,player_statistics,passes_key,0,0.0
+Italy_Serie B,2019,player_statistics,passes_accuracy,0,0.0
+Italy_Serie B,2019,player_statistics,tackles_blocks,558,7.176848874598071
+Italy_Serie B,2019,player_statistics,tackles_interceptions,0,0.0
+Italy_Serie B,2019,player_statistics,dribbles_attempts,0,0.0
+Italy_Serie B,2019,player_statistics,dribbles_success,0,0.0
+Italy_Serie B,2019,player_statistics,fouls_drawn,0,0.0
+Italy_Serie B,2019,player_statistics,fouls_committed,0,0.0
+Italy_Serie B,2019,player_statistics,cards_yellow,0,0.0
+Italy_Serie B,2019,player_statistics,cards_red,0,0.0
+Italy_Serie B,2019,player_statistics,penalty_scored,0,0.0
+Italy_Serie B,2019,player_statistics,penalty_missed,0,0.0
+Italy_Serie B,2019,player_statistics,penalty_saved,7209,92.72025723472669
+Italy_Serie B,2019,player_statistics,tackles_total,4071,52.360128617363344
+Italy_Serie B,2019,player_statistics,dribbles_past,5091,65.47909967845659
+Italy_Serie B,2019,player_statistics,penalty_commited,7686,98.85530546623794
+Italy_Serie B,2019,player_statistics,goals_assists,7348,94.508038585209
+Italy_Serie B,2019,player_statistics,goals_total,7151,91.97427652733118
+Italy_Serie B,2019,player_statistics,penalty_won,7694,98.95819935691318
+Italy_Serie B,2019,player_statistics,offsides,7350,94.53376205787781
+Italy_Serie B,2019,team_standings,rank,0,0.0
+Italy_Serie B,2019,team_standings,team_id,0,0.0
+Italy_Serie B,2019,team_standings,team_name,0,0.0
+Italy_Serie B,2019,team_standings,team_logo,0,0.0
+Italy_Serie B,2019,team_standings,points,0,0.0
+Italy_Serie B,2019,team_standings,goals_diff,0,0.0
+Italy_Serie B,2019,team_standings,group,0,0.0
+Italy_Serie B,2019,team_standings,form,0,0.0
+Italy_Serie B,2019,team_standings,status,0,0.0
+Italy_Serie B,2019,team_standings,description,7,35.0
+Italy_Serie B,2019,team_standings,played,0,0.0
+Italy_Serie B,2019,team_standings,wins,0,0.0
+Italy_Serie B,2019,team_standings,draws,0,0.0
+Italy_Serie B,2019,team_standings,losses,0,0.0
+Italy_Serie B,2019,team_standings,goals_for,0,0.0
+Italy_Serie B,2019,team_standings,goals_against,0,0.0
+Italy_Serie B,2019,team_standings,home_played,0,0.0
+Italy_Serie B,2019,team_standings,home_wins,0,0.0
+Italy_Serie B,2019,team_standings,home_draws,0,0.0
+Italy_Serie B,2019,team_standings,home_losses,0,0.0
+Italy_Serie B,2019,team_standings,home_goals_for,0,0.0
+Italy_Serie B,2019,team_standings,home_goals_against,0,0.0
+Italy_Serie B,2019,team_standings,away_played,0,0.0
+Italy_Serie B,2019,team_standings,away_wins,0,0.0
+Italy_Serie B,2019,team_standings,away_draws,0,0.0
+Italy_Serie B,2019,team_standings,away_losses,0,0.0
+Italy_Serie B,2019,team_standings,away_goals_for,0,0.0
+Italy_Serie B,2019,team_standings,away_goals_against,0,0.0
+Italy_Serie B,2019,team_statistics,fixture_id,0,0.0
+Italy_Serie B,2019,team_statistics,team_id,0,0.0
+Italy_Serie B,2019,team_statistics,team_name,0,0.0
+Italy_Serie B,2019,team_statistics,team_logo,0,0.0
+Italy_Serie B,2019,team_statistics,Shots on Goal,0,0.0
+Italy_Serie B,2019,team_statistics,Shots off Goal,0,0.0
+Italy_Serie B,2019,team_statistics,Total Shots,0,0.0
+Italy_Serie B,2019,team_statistics,Blocked Shots,0,0.0
+Italy_Serie B,2019,team_statistics,Shots insidebox,0,0.0
+Italy_Serie B,2019,team_statistics,Shots outsidebox,0,0.0
+Italy_Serie B,2019,team_statistics,Fouls,0,0.0
+Italy_Serie B,2019,team_statistics,Corner Kicks,0,0.0
+Italy_Serie B,2019,team_statistics,Offsides,10,1.7921146953405016
+Italy_Serie B,2019,team_statistics,Ball Possession,0,0.0
+Italy_Serie B,2019,team_statistics,Yellow Cards,2,0.35842293906810035
+Italy_Serie B,2019,team_statistics,Red Cards,394,70.60931899641577
+Italy_Serie B,2019,team_statistics,Goalkeeper Saves,6,1.0752688172043012
+Italy_Serie B,2019,team_statistics,Total passes,0,0.0
+Italy_Serie B,2019,team_statistics,Passes accurate,0,0.0
+Italy_Serie B,2019,team_statistics,Passes %,0,0.0
+Italy_Serie B,2020,fixture_events,fixture_id,0,0.0
+Italy_Serie B,2020,fixture_events,date,0,0.0
+Italy_Serie B,2020,fixture_events,timestamp,0,0.0
+Italy_Serie B,2020,fixture_events,status,0,0.0
+Italy_Serie B,2020,fixture_events,maintime,0,0.0
+Italy_Serie B,2020,fixture_events,first_half,0,0.0
+Italy_Serie B,2020,fixture_events,second_half,0,0.0
+Italy_Serie B,2020,fixture_events,extratime,388,100.0
+Italy_Serie B,2020,fixture_events,country,0,0.0
+Italy_Serie B,2020,fixture_events,league_id,0,0.0
+Italy_Serie B,2020,fixture_events,league_name,0,0.0
+Italy_Serie B,2020,fixture_events,league_flag,0,0.0
+Italy_Serie B,2020,fixture_events,league_logo,0,0.0
+Italy_Serie B,2020,fixture_events,season,0,0.0
+Italy_Serie B,2020,fixture_events,round,0,0.0
+Italy_Serie B,2020,fixture_events,venue_name,0,0.0
+Italy_Serie B,2020,fixture_events,venue_city,0,0.0
+Italy_Serie B,2020,fixture_events,venue_id,0,0.0
+Italy_Serie B,2020,fixture_events,referee,0,0.0
+Italy_Serie B,2020,fixture_events,home_team,0,0.0
+Italy_Serie B,2020,fixture_events,home_team_id,0,0.0
+Italy_Serie B,2020,fixture_events,home_team_flag,0,0.0
+Italy_Serie B,2020,fixture_events,home_winner,133,34.27835051546392
+Italy_Serie B,2020,fixture_events,away_team,0,0.0
+Italy_Serie B,2020,fixture_events,away_team_id,0,0.0
+Italy_Serie B,2020,fixture_events,away_team_flag,0,0.0
+Italy_Serie B,2020,fixture_events,away_winner,133,34.27835051546392
+Italy_Serie B,2020,fixture_events,home_goals,0,0.0
+Italy_Serie B,2020,fixture_events,away_goals,0,0.0
+Italy_Serie B,2020,fixture_events,halftime_home,2,0.5154639175257731
+Italy_Serie B,2020,fixture_events,halftime_away,2,0.5154639175257731
+Italy_Serie B,2020,fixture_events,fulltime_home,0,0.0
+Italy_Serie B,2020,fixture_events,fulltime_away,0,0.0
+Italy_Serie B,2020,fixture_events,penalty_home,388,100.0
+Italy_Serie B,2020,fixture_events,penalty_away,388,100.0
+Italy_Serie B,2020,lineups,fixture_id,0,0.0
+Italy_Serie B,2020,lineups,team_id,0,0.0
+Italy_Serie B,2020,lineups,team_name,0,0.0
+Italy_Serie B,2020,lineups,team_logo,0,0.0
+Italy_Serie B,2020,lineups,team_colors_player_primary,10193,59.09328076989971
+Italy_Serie B,2020,lineups,team_colors_player_number,10193,59.09328076989971
+Italy_Serie B,2020,lineups,team_colors_player_border,10193,59.09328076989971
+Italy_Serie B,2020,lineups,team_colors_goalkeeper_primary,10193,59.09328076989971
+Italy_Serie B,2020,lineups,team_colors_goalkeeper_number,10193,59.09328076989971
+Italy_Serie B,2020,lineups,team_colors_goalkeeper_border,10193,59.09328076989971
+Italy_Serie B,2020,lineups,coach_id,46,0.26668212650008694
+Italy_Serie B,2020,lineups,coach_name,46,0.26668212650008694
+Italy_Serie B,2020,lineups,coach_photo,46,0.26668212650008694
+Italy_Serie B,2020,lineups,formation,0,0.0
+Italy_Serie B,2020,lineups,player_id,0,0.0
+Italy_Serie B,2020,lineups,player_name,0,0.0
+Italy_Serie B,2020,lineups,player_number,0,0.0
+Italy_Serie B,2020,lineups,player_pos,54,0.31306162676097166
+Italy_Serie B,2020,lineups,player_grid,8735,50.64061684735347
+Italy_Serie B,2020,lineups,is_substitute,0,0.0
+Italy_Serie B,2020,player_statistics,fixture_id,0,0.0
+Italy_Serie B,2020,player_statistics,team_name,0,0.0
+Italy_Serie B,2020,player_statistics,team_id,0,0.0
+Italy_Serie B,2020,player_statistics,player_id,0,0.0
+Italy_Serie B,2020,player_statistics,player_name,0,0.0
+Italy_Serie B,2020,player_statistics,player_photo,0,0.0
+Italy_Serie B,2020,player_statistics,games_minutes,5238,30.366977795814247
+Italy_Serie B,2020,player_statistics,games_number,0,0.0
+Italy_Serie B,2020,player_statistics,games_position,0,0.0
+Italy_Serie B,2020,player_statistics,games_rating,5465,31.682996115716854
+Italy_Serie B,2020,player_statistics,games_captain,0,0.0
+Italy_Serie B,2020,player_statistics,games_substitute,0,0.0
+Italy_Serie B,2020,player_statistics,goals_conceded,0,0.0
+Italy_Serie B,2020,player_statistics,passes_total,5392,31.25978317583628
+Italy_Serie B,2020,player_statistics,passes_accuracy,5514,31.967070554814768
+Italy_Serie B,2020,player_statistics,cards_yellow,0,0.0
+Italy_Serie B,2020,player_statistics,cards_red,0,0.0
+Italy_Serie B,2020,player_statistics,penalty_scored,0,0.0
+Italy_Serie B,2020,player_statistics,penalty_missed,0,0.0
+Italy_Serie B,2020,player_statistics,penalty_saved,16381,94.967824221694
+Italy_Serie B,2020,player_statistics,passes_key,12604,73.07090266102382
+Italy_Serie B,2020,player_statistics,tackles_total,11301,65.51684155603223
+Italy_Serie B,2020,player_statistics,tackles_interceptions,12201,70.73453533538176
+Italy_Serie B,2020,player_statistics,duels_total,6200,35.944112702185635
+Italy_Serie B,2020,player_statistics,duels_won,7131,41.34152704504609
+Italy_Serie B,2020,player_statistics,dribbles_attempts,12151,70.44466345875124
+Italy_Serie B,2020,player_statistics,fouls_drawn,10874,63.04133572960752
+Italy_Serie B,2020,player_statistics,fouls_committed,10414,60.37451446460664
+Italy_Serie B,2020,player_statistics,shots_total,12492,72.42158965737144
+Italy_Serie B,2020,player_statistics,shots_on,14672,85.06000347846252
+Italy_Serie B,2020,player_statistics,tackles_blocks,16311,94.56200359441127
+Italy_Serie B,2020,player_statistics,dribbles_success,13708,79.47127369702591
+Italy_Serie B,2020,player_statistics,penalty_won,17159,99.47823062206504
+Italy_Serie B,2020,player_statistics,goals_saves,16524,95.79685778885732
+Italy_Serie B,2020,player_statistics,penalty_commited,17135,99.33909212128239
+Italy_Serie B,2020,player_statistics,goals_assists,16648,96.51574004290103
+Italy_Serie B,2020,player_statistics,goals_total,16406,95.11276016000927
+Italy_Serie B,2020,player_statistics,dribbles_past,13588,78.77558119311264
+Italy_Serie B,2020,player_statistics,offsides,16523,95.79106035132472
+Italy_Serie B,2020,team_standings,rank,0,0.0
+Italy_Serie B,2020,team_standings,team_id,0,0.0
+Italy_Serie B,2020,team_standings,team_name,0,0.0
+Italy_Serie B,2020,team_standings,team_logo,0,0.0
+Italy_Serie B,2020,team_standings,points,0,0.0
+Italy_Serie B,2020,team_standings,goals_diff,0,0.0
+Italy_Serie B,2020,team_standings,group,0,0.0
+Italy_Serie B,2020,team_standings,form,0,0.0
+Italy_Serie B,2020,team_standings,status,0,0.0
+Italy_Serie B,2020,team_standings,description,7,35.0
+Italy_Serie B,2020,team_standings,played,0,0.0
+Italy_Serie B,2020,team_standings,wins,0,0.0
+Italy_Serie B,2020,team_standings,draws,0,0.0
+Italy_Serie B,2020,team_standings,losses,0,0.0
+Italy_Serie B,2020,team_standings,goals_for,0,0.0
+Italy_Serie B,2020,team_standings,goals_against,0,0.0
+Italy_Serie B,2020,team_standings,home_played,0,0.0
+Italy_Serie B,2020,team_standings,home_wins,0,0.0
+Italy_Serie B,2020,team_standings,home_draws,0,0.0
+Italy_Serie B,2020,team_standings,home_losses,0,0.0
+Italy_Serie B,2020,team_standings,home_goals_for,0,0.0
+Italy_Serie B,2020,team_standings,home_goals_against,0,0.0
+Italy_Serie B,2020,team_standings,away_played,0,0.0
+Italy_Serie B,2020,team_standings,away_wins,0,0.0
+Italy_Serie B,2020,team_standings,away_draws,0,0.0
+Italy_Serie B,2020,team_standings,away_losses,0,0.0
+Italy_Serie B,2020,team_standings,away_goals_for,0,0.0
+Italy_Serie B,2020,team_standings,away_goals_against,0,0.0
+Italy_Serie B,2020,team_statistics,fixture_id,0,0.0
+Italy_Serie B,2020,team_statistics,team_id,0,0.0
+Italy_Serie B,2020,team_statistics,team_name,0,0.0
+Italy_Serie B,2020,team_statistics,team_logo,0,0.0
+Italy_Serie B,2020,team_statistics,Shots on Goal,0,0.0
+Italy_Serie B,2020,team_statistics,Shots off Goal,0,0.0
+Italy_Serie B,2020,team_statistics,Total Shots,0,0.0
+Italy_Serie B,2020,team_statistics,Blocked Shots,0,0.0
+Italy_Serie B,2020,team_statistics,Shots insidebox,0,0.0
+Italy_Serie B,2020,team_statistics,Shots outsidebox,0,0.0
+Italy_Serie B,2020,team_statistics,Fouls,0,0.0
+Italy_Serie B,2020,team_statistics,Corner Kicks,0,0.0
+Italy_Serie B,2020,team_statistics,Offsides,20,2.5839793281653747
+Italy_Serie B,2020,team_statistics,Ball Possession,0,0.0
+Italy_Serie B,2020,team_statistics,Yellow Cards,8,1.03359173126615
+Italy_Serie B,2020,team_statistics,Red Cards,600,77.51937984496125
+Italy_Serie B,2020,team_statistics,Goalkeeper Saves,2,0.2583979328165375
+Italy_Serie B,2020,team_statistics,Total passes,0,0.0
+Italy_Serie B,2020,team_statistics,Passes accurate,0,0.0
+Italy_Serie B,2020,team_statistics,Passes %,0,0.0
+Italy_Serie B,2021,fixture_events,fixture_id,0,0.0
+Italy_Serie B,2021,fixture_events,date,0,0.0
+Italy_Serie B,2021,fixture_events,timestamp,0,0.0
+Italy_Serie B,2021,fixture_events,status,0,0.0
+Italy_Serie B,2021,fixture_events,maintime,0,0.0
+Italy_Serie B,2021,fixture_events,first_half,0,0.0
+Italy_Serie B,2021,fixture_events,second_half,0,0.0
+Italy_Serie B,2021,fixture_events,extratime,390,100.0
+Italy_Serie B,2021,fixture_events,country,0,0.0
+Italy_Serie B,2021,fixture_events,league_id,0,0.0
+Italy_Serie B,2021,fixture_events,league_name,0,0.0
+Italy_Serie B,2021,fixture_events,league_flag,0,0.0
+Italy_Serie B,2021,fixture_events,league_logo,0,0.0
+Italy_Serie B,2021,fixture_events,season,0,0.0
+Italy_Serie B,2021,fixture_events,round,0,0.0
+Italy_Serie B,2021,fixture_events,venue_name,0,0.0
+Italy_Serie B,2021,fixture_events,venue_city,0,0.0
+Italy_Serie B,2021,fixture_events,venue_id,0,0.0
+Italy_Serie B,2021,fixture_events,referee,0,0.0
+Italy_Serie B,2021,fixture_events,home_team,0,0.0
+Italy_Serie B,2021,fixture_events,home_team_id,0,0.0
+Italy_Serie B,2021,fixture_events,home_team_flag,0,0.0
+Italy_Serie B,2021,fixture_events,home_winner,117,30.0
+Italy_Serie B,2021,fixture_events,away_team,0,0.0
+Italy_Serie B,2021,fixture_events,away_team_id,0,0.0
+Italy_Serie B,2021,fixture_events,away_team_flag,0,0.0
+Italy_Serie B,2021,fixture_events,away_winner,117,30.0
+Italy_Serie B,2021,fixture_events,home_goals,0,0.0
+Italy_Serie B,2021,fixture_events,away_goals,0,0.0
+Italy_Serie B,2021,fixture_events,halftime_home,0,0.0
+Italy_Serie B,2021,fixture_events,halftime_away,0,0.0
+Italy_Serie B,2021,fixture_events,fulltime_home,0,0.0
+Italy_Serie B,2021,fixture_events,fulltime_away,0,0.0
+Italy_Serie B,2021,fixture_events,penalty_home,390,100.0
+Italy_Serie B,2021,fixture_events,penalty_away,390,100.0
+Italy_Serie B,2021,lineups,fixture_id,0,0.0
+Italy_Serie B,2021,lineups,team_id,0,0.0
+Italy_Serie B,2021,lineups,team_name,0,0.0
+Italy_Serie B,2021,lineups,team_logo,0,0.0
+Italy_Serie B,2021,lineups,team_colors_player_primary,0,0.0
+Italy_Serie B,2021,lineups,team_colors_player_number,0,0.0
+Italy_Serie B,2021,lineups,team_colors_player_border,0,0.0
+Italy_Serie B,2021,lineups,team_colors_goalkeeper_primary,0,0.0
+Italy_Serie B,2021,lineups,team_colors_goalkeeper_number,0,0.0
+Italy_Serie B,2021,lineups,team_colors_goalkeeper_border,0,0.0
+Italy_Serie B,2021,lineups,coach_id,0,0.0
+Italy_Serie B,2021,lineups,coach_name,0,0.0
+Italy_Serie B,2021,lineups,coach_photo,0,0.0
+Italy_Serie B,2021,lineups,formation,0,0.0
+Italy_Serie B,2021,lineups,player_id,0,0.0
+Italy_Serie B,2021,lineups,player_name,0,0.0
+Italy_Serie B,2021,lineups,player_number,0,0.0
+Italy_Serie B,2021,lineups,player_pos,14,0.07921240239900419
+Italy_Serie B,2021,lineups,player_grid,9094,51.454113386896005
+Italy_Serie B,2021,lineups,is_substitute,0,0.0
+Italy_Serie B,2021,player_statistics,fixture_id,0,0.0
+Italy_Serie B,2021,player_statistics,team_name,0,0.0
+Italy_Serie B,2021,player_statistics,team_id,0,0.0
+Italy_Serie B,2021,player_statistics,player_id,0,0.0
+Italy_Serie B,2021,player_statistics,player_name,0,0.0
+Italy_Serie B,2021,player_statistics,player_photo,2,0.011320541121865625
+Italy_Serie B,2021,player_statistics,games_minutes,5460,30.90507726269316
+Italy_Serie B,2021,player_statistics,games_number,0,0.0
+Italy_Serie B,2021,player_statistics,games_position,0,0.0
+Italy_Serie B,2021,player_statistics,games_rating,5637,31.906945151978267
+Italy_Serie B,2021,player_statistics,games_captain,0,0.0
+Italy_Serie B,2021,player_statistics,games_substitute,0,0.0
+Italy_Serie B,2021,player_statistics,goals_conceded,0,0.0
+Italy_Serie B,2021,player_statistics,goals_saves,16939,95.87932303164092
+Italy_Serie B,2021,player_statistics,passes_total,5588,31.62959189449256
+Italy_Serie B,2021,player_statistics,passes_accuracy,5715,32.34844625573102
+Italy_Serie B,2021,player_statistics,cards_yellow,0,0.0
+Italy_Serie B,2021,player_statistics,cards_red,0,0.0
+Italy_Serie B,2021,player_statistics,penalty_scored,0,0.0
+Italy_Serie B,2021,player_statistics,penalty_missed,0,0.0
+Italy_Serie B,2021,player_statistics,penalty_saved,16869,95.48310409237561
+Italy_Serie B,2021,player_statistics,shots_total,12906,73.05145185939888
+Italy_Serie B,2021,player_statistics,passes_key,12959,73.35144619912832
+Italy_Serie B,2021,player_statistics,tackles_total,11359,64.29501330163582
+Italy_Serie B,2021,player_statistics,tackles_interceptions,12904,73.04013131827702
+Italy_Serie B,2021,player_statistics,duels_total,6363,36.01630157921549
+Italy_Serie B,2021,player_statistics,duels_won,7214,40.83319182656931
+Italy_Serie B,2021,player_statistics,dribbles_attempts,12311,69.68359087564386
+Italy_Serie B,2021,player_statistics,dribbles_success,14048,79.51548083998415
+Italy_Serie B,2021,player_statistics,dribbles_past,13708,77.59098884926699
+Italy_Serie B,2021,player_statistics,fouls_committed,10826,61.278089092658625
+Italy_Serie B,2021,player_statistics,fouls_drawn,11299,63.955397067979845
+Italy_Serie B,2021,player_statistics,shots_on,15129,85.63423331635252
+Italy_Serie B,2021,player_statistics,offsides,16496,93.37182317314767
+Italy_Serie B,2021,player_statistics,goals_total,16803,95.10952623535405
+Italy_Serie B,2021,player_statistics,goals_assists,17080,96.67742118073244
+Italy_Serie B,2021,player_statistics,tackles_blocks,15747,89.132280523009
+Italy_Serie B,2021,player_statistics,penalty_commited,17534,99.24718401539594
+Italy_Serie B,2021,player_statistics,penalty_won,17572,99.46227429671139
+Italy_Serie B,2021,team_standings,rank,0,0.0
+Italy_Serie B,2021,team_standings,team_id,0,0.0
+Italy_Serie B,2021,team_standings,team_name,0,0.0
+Italy_Serie B,2021,team_standings,team_logo,0,0.0
+Italy_Serie B,2021,team_standings,points,0,0.0
+Italy_Serie B,2021,team_standings,goals_diff,0,0.0
+Italy_Serie B,2021,team_standings,group,0,0.0
+Italy_Serie B,2021,team_standings,form,0,0.0
+Italy_Serie B,2021,team_standings,status,0,0.0
+Italy_Serie B,2021,team_standings,description,7,35.0
+Italy_Serie B,2021,team_standings,played,0,0.0
+Italy_Serie B,2021,team_standings,wins,0,0.0
+Italy_Serie B,2021,team_standings,draws,0,0.0
+Italy_Serie B,2021,team_standings,losses,0,0.0
+Italy_Serie B,2021,team_standings,goals_for,0,0.0
+Italy_Serie B,2021,team_standings,goals_against,0,0.0
+Italy_Serie B,2021,team_standings,home_played,0,0.0
+Italy_Serie B,2021,team_standings,home_wins,0,0.0
+Italy_Serie B,2021,team_standings,home_draws,0,0.0
+Italy_Serie B,2021,team_standings,home_losses,0,0.0
+Italy_Serie B,2021,team_standings,home_goals_for,0,0.0
+Italy_Serie B,2021,team_standings,home_goals_against,0,0.0
+Italy_Serie B,2021,team_standings,away_played,0,0.0
+Italy_Serie B,2021,team_standings,away_wins,0,0.0
+Italy_Serie B,2021,team_standings,away_draws,0,0.0
+Italy_Serie B,2021,team_standings,away_losses,0,0.0
+Italy_Serie B,2021,team_standings,away_goals_for,0,0.0
+Italy_Serie B,2021,team_standings,away_goals_against,0,0.0
+Italy_Serie B,2021,team_statistics,fixture_id,0,0.0
+Italy_Serie B,2021,team_statistics,team_id,0,0.0
+Italy_Serie B,2021,team_statistics,team_name,0,0.0
+Italy_Serie B,2021,team_statistics,team_logo,0,0.0
+Italy_Serie B,2021,team_statistics,Shots on Goal,0,0.0
+Italy_Serie B,2021,team_statistics,Shots off Goal,0,0.0
+Italy_Serie B,2021,team_statistics,Total Shots,0,0.0
+Italy_Serie B,2021,team_statistics,Blocked Shots,0,0.0
+Italy_Serie B,2021,team_statistics,Shots insidebox,0,0.0
+Italy_Serie B,2021,team_statistics,Shots outsidebox,0,0.0
+Italy_Serie B,2021,team_statistics,Fouls,0,0.0
+Italy_Serie B,2021,team_statistics,Corner Kicks,0,0.0
+Italy_Serie B,2021,team_statistics,Offsides,26,3.3333333333333335
+Italy_Serie B,2021,team_statistics,Ball Possession,0,0.0
+Italy_Serie B,2021,team_statistics,Yellow Cards,4,0.5128205128205128
+Italy_Serie B,2021,team_statistics,Red Cards,606,77.6923076923077
+Italy_Serie B,2021,team_statistics,Goalkeeper Saves,2,0.2564102564102564
+Italy_Serie B,2021,team_statistics,Total passes,0,0.0
+Italy_Serie B,2021,team_statistics,Passes accurate,0,0.0
+Italy_Serie B,2021,team_statistics,Passes %,0,0.0
+Italy_Serie B,2022,fixture_events,fixture_id,0,0.0
+Italy_Serie B,2022,fixture_events,date,0,0.0
+Italy_Serie B,2022,fixture_events,timestamp,0,0.0
+Italy_Serie B,2022,fixture_events,status,0,0.0
+Italy_Serie B,2022,fixture_events,maintime,0,0.0
+Italy_Serie B,2022,fixture_events,first_half,0,0.0
+Italy_Serie B,2022,fixture_events,second_half,0,0.0
+Italy_Serie B,2022,fixture_events,extratime,385,100.0
+Italy_Serie B,2022,fixture_events,country,0,0.0
+Italy_Serie B,2022,fixture_events,league_id,0,0.0
+Italy_Serie B,2022,fixture_events,league_name,0,0.0
+Italy_Serie B,2022,fixture_events,league_flag,0,0.0
+Italy_Serie B,2022,fixture_events,league_logo,0,0.0
+Italy_Serie B,2022,fixture_events,season,0,0.0
+Italy_Serie B,2022,fixture_events,round,0,0.0
+Italy_Serie B,2022,fixture_events,venue_name,0,0.0
+Italy_Serie B,2022,fixture_events,venue_city,0,0.0
+Italy_Serie B,2022,fixture_events,venue_id,0,0.0
+Italy_Serie B,2022,fixture_events,referee,0,0.0
+Italy_Serie B,2022,fixture_events,home_team,0,0.0
+Italy_Serie B,2022,fixture_events,home_team_id,0,0.0
+Italy_Serie B,2022,fixture_events,home_team_flag,0,0.0
+Italy_Serie B,2022,fixture_events,home_winner,122,31.68831168831169
+Italy_Serie B,2022,fixture_events,away_team,0,0.0
+Italy_Serie B,2022,fixture_events,away_team_id,0,0.0
+Italy_Serie B,2022,fixture_events,away_team_flag,0,0.0
+Italy_Serie B,2022,fixture_events,away_winner,122,31.68831168831169
+Italy_Serie B,2022,fixture_events,home_goals,0,0.0
+Italy_Serie B,2022,fixture_events,away_goals,0,0.0
+Italy_Serie B,2022,fixture_events,halftime_home,0,0.0
+Italy_Serie B,2022,fixture_events,halftime_away,0,0.0
+Italy_Serie B,2022,fixture_events,fulltime_home,0,0.0
+Italy_Serie B,2022,fixture_events,fulltime_away,0,0.0
+Italy_Serie B,2022,fixture_events,penalty_home,385,100.0
+Italy_Serie B,2022,fixture_events,penalty_away,385,100.0
+Italy_Serie B,2022,lineups,fixture_id,0,0.0
+Italy_Serie B,2022,lineups,team_id,0,0.0
+Italy_Serie B,2022,lineups,team_name,0,0.0
+Italy_Serie B,2022,lineups,team_logo,0,0.0
+Italy_Serie B,2022,lineups,team_colors_player_primary,0,0.0
+Italy_Serie B,2022,lineups,team_colors_player_number,0,0.0
+Italy_Serie B,2022,lineups,team_colors_player_border,0,0.0
+Italy_Serie B,2022,lineups,team_colors_goalkeeper_primary,0,0.0
+Italy_Serie B,2022,lineups,team_colors_goalkeeper_number,0,0.0
+Italy_Serie B,2022,lineups,team_colors_goalkeeper_border,0,0.0
+Italy_Serie B,2022,lineups,coach_id,67,0.38650129795212
+Italy_Serie B,2022,lineups,coach_name,67,0.38650129795212
+Italy_Serie B,2022,lineups,coach_photo,67,0.38650129795212
+Italy_Serie B,2022,lineups,formation,67,0.38650129795212
+Italy_Serie B,2022,lineups,player_id,0,0.0
+Italy_Serie B,2022,lineups,player_name,0,0.0
+Italy_Serie B,2022,lineups,player_number,0,0.0
+Italy_Serie B,2022,lineups,player_pos,6,0.034612056533025674
+Italy_Serie B,2022,lineups,player_grid,8898,51.32967983847707
+Italy_Serie B,2022,lineups,is_substitute,0,0.0
+Italy_Serie B,2022,player_statistics,fixture_id,0,0.0
+Italy_Serie B,2022,player_statistics,team_name,0,0.0
+Italy_Serie B,2022,player_statistics,team_id,0,0.0
+Italy_Serie B,2022,player_statistics,player_id,0,0.0
+Italy_Serie B,2022,player_statistics,player_name,0,0.0
+Italy_Serie B,2022,player_statistics,player_photo,0,0.0
+Italy_Serie B,2022,player_statistics,games_minutes,5264,30.366310931641188
+Italy_Serie B,2022,player_statistics,games_number,0,0.0
+Italy_Serie B,2022,player_statistics,games_position,0,0.0
+Italy_Serie B,2022,player_statistics,games_rating,5399,31.145082203634267
+Italy_Serie B,2022,player_statistics,games_captain,0,0.0
+Italy_Serie B,2022,player_statistics,games_substitute,0,0.0
+Italy_Serie B,2022,player_statistics,goals_conceded,0,0.0
+Italy_Serie B,2022,player_statistics,goals_saves,16612,95.8292471877704
+Italy_Serie B,2022,player_statistics,passes_total,5394,31.11623882319008
+Italy_Serie B,2022,player_statistics,passes_accuracy,5532,31.91231612344967
+Italy_Serie B,2022,player_statistics,duels_total,6162,35.54658205941736
+Italy_Serie B,2022,player_statistics,duels_won,7084,40.865301413325646
+Italy_Serie B,2022,player_statistics,cards_yellow,0,0.0
+Italy_Serie B,2022,player_statistics,cards_red,0,0.0
+Italy_Serie B,2022,player_statistics,penalty_scored,0,0.0
+Italy_Serie B,2022,player_statistics,penalty_missed,0,0.0
+Italy_Serie B,2022,player_statistics,penalty_saved,16550,95.47158927026248
+Italy_Serie B,2022,player_statistics,passes_key,12813,73.91404672627631
+Italy_Serie B,2022,player_statistics,tackles_interceptions,12899,74.41015286991636
+Italy_Serie B,2022,player_statistics,fouls_committed,10736,61.9325064897606
+Italy_Serie B,2022,player_statistics,tackles_total,11097,64.01499855783098
+Italy_Serie B,2022,player_statistics,tackles_blocks,15402,88.84914912027689
+Italy_Serie B,2022,player_statistics,dribbles_past,13731,79.20969137582925
+Italy_Serie B,2022,player_statistics,fouls_drawn,11345,65.44563022786271
+Italy_Serie B,2022,player_statistics,penalty_commited,17205,99.25007210845112
+Italy_Serie B,2022,player_statistics,shots_total,12673,73.10643207383906
+Italy_Serie B,2022,player_statistics,shots_on,14872,85.79175079319296
+Italy_Serie B,2022,player_statistics,dribbles_attempts,11999,69.21834438996251
+Italy_Serie B,2022,player_statistics,dribbles_success,13992,80.71531583501587
+Italy_Serie B,2022,player_statistics,goals_total,16506,95.21776752235363
+Italy_Serie B,2022,player_statistics,goals_assists,16790,96.8560715315835
+Italy_Serie B,2022,player_statistics,offsides,16262,93.81021055667725
+Italy_Serie B,2022,player_statistics,penalty_won,17249,99.50389385635997
+Italy_Serie B,2022,team_standings,rank,0,0.0
+Italy_Serie B,2022,team_standings,team_id,0,0.0
+Italy_Serie B,2022,team_standings,team_name,0,0.0
+Italy_Serie B,2022,team_standings,team_logo,0,0.0
+Italy_Serie B,2022,team_standings,points,0,0.0
+Italy_Serie B,2022,team_standings,goals_diff,0,0.0
+Italy_Serie B,2022,team_standings,group,0,0.0
+Italy_Serie B,2022,team_standings,form,0,0.0
+Italy_Serie B,2022,team_standings,status,0,0.0
+Italy_Serie B,2022,team_standings,description,7,35.0
+Italy_Serie B,2022,team_standings,played,0,0.0
+Italy_Serie B,2022,team_standings,wins,0,0.0
+Italy_Serie B,2022,team_standings,draws,0,0.0
+Italy_Serie B,2022,team_standings,losses,0,0.0
+Italy_Serie B,2022,team_standings,goals_for,0,0.0
+Italy_Serie B,2022,team_standings,goals_against,0,0.0
+Italy_Serie B,2022,team_standings,home_played,0,0.0
+Italy_Serie B,2022,team_standings,home_wins,0,0.0
+Italy_Serie B,2022,team_standings,home_draws,0,0.0
+Italy_Serie B,2022,team_standings,home_losses,0,0.0
+Italy_Serie B,2022,team_standings,home_goals_for,0,0.0
+Italy_Serie B,2022,team_standings,home_goals_against,0,0.0
+Italy_Serie B,2022,team_standings,away_played,0,0.0
+Italy_Serie B,2022,team_standings,away_wins,0,0.0
+Italy_Serie B,2022,team_standings,away_draws,0,0.0
+Italy_Serie B,2022,team_standings,away_losses,0,0.0
+Italy_Serie B,2022,team_standings,away_goals_for,0,0.0
+Italy_Serie B,2022,team_standings,away_goals_against,0,0.0
+Italy_Serie B,2022,team_statistics,fixture_id,0,0.0
+Italy_Serie B,2022,team_statistics,team_id,0,0.0
+Italy_Serie B,2022,team_statistics,team_name,0,0.0
+Italy_Serie B,2022,team_statistics,team_logo,0,0.0
+Italy_Serie B,2022,team_statistics,Shots on Goal,0,0.0
+Italy_Serie B,2022,team_statistics,Shots off Goal,0,0.0
+Italy_Serie B,2022,team_statistics,Total Shots,0,0.0
+Italy_Serie B,2022,team_statistics,Blocked Shots,0,0.0
+Italy_Serie B,2022,team_statistics,Shots insidebox,0,0.0
+Italy_Serie B,2022,team_statistics,Shots outsidebox,0,0.0
+Italy_Serie B,2022,team_statistics,Fouls,0,0.0
+Italy_Serie B,2022,team_statistics,Corner Kicks,0,0.0
+Italy_Serie B,2022,team_statistics,Offsides,42,5.454545454545454
+Italy_Serie B,2022,team_statistics,Ball Possession,0,0.0
+Italy_Serie B,2022,team_statistics,Yellow Cards,2,0.2597402597402597
+Italy_Serie B,2022,team_statistics,Red Cards,570,74.02597402597402
+Italy_Serie B,2022,team_statistics,Goalkeeper Saves,2,0.2597402597402597
+Italy_Serie B,2022,team_statistics,Total passes,0,0.0
+Italy_Serie B,2022,team_statistics,Passes accurate,0,0.0
+Italy_Serie B,2022,team_statistics,Passes %,0,0.0
+Italy_Serie B,2022,team_statistics,expected_goals,770,100.0
+Italy_Serie B,2023,fixture_events,fixture_id,0,0.0
+Italy_Serie B,2023,fixture_events,date,0,0.0
+Italy_Serie B,2023,fixture_events,timestamp,0,0.0
+Italy_Serie B,2023,fixture_events,status,0,0.0
+Italy_Serie B,2023,fixture_events,maintime,0,0.0
+Italy_Serie B,2023,fixture_events,first_half,0,0.0
+Italy_Serie B,2023,fixture_events,second_half,0,0.0
+Italy_Serie B,2023,fixture_events,extratime,389,100.0
+Italy_Serie B,2023,fixture_events,country,0,0.0
+Italy_Serie B,2023,fixture_events,league_id,0,0.0
+Italy_Serie B,2023,fixture_events,league_name,0,0.0
+Italy_Serie B,2023,fixture_events,league_flag,0,0.0
+Italy_Serie B,2023,fixture_events,league_logo,0,0.0
+Italy_Serie B,2023,fixture_events,season,0,0.0
+Italy_Serie B,2023,fixture_events,round,0,0.0
+Italy_Serie B,2023,fixture_events,venue_name,0,0.0
+Italy_Serie B,2023,fixture_events,venue_city,0,0.0
+Italy_Serie B,2023,fixture_events,venue_id,0,0.0
+Italy_Serie B,2023,fixture_events,referee,0,0.0
+Italy_Serie B,2023,fixture_events,home_team,0,0.0
+Italy_Serie B,2023,fixture_events,home_team_id,0,0.0
+Italy_Serie B,2023,fixture_events,home_team_flag,0,0.0
+Italy_Serie B,2023,fixture_events,home_winner,125,32.13367609254499
+Italy_Serie B,2023,fixture_events,away_team,0,0.0
+Italy_Serie B,2023,fixture_events,away_team_id,0,0.0
+Italy_Serie B,2023,fixture_events,away_team_flag,0,0.0
+Italy_Serie B,2023,fixture_events,away_winner,125,32.13367609254499
+Italy_Serie B,2023,fixture_events,home_goals,0,0.0
+Italy_Serie B,2023,fixture_events,away_goals,0,0.0
+Italy_Serie B,2023,fixture_events,halftime_home,0,0.0
+Italy_Serie B,2023,fixture_events,halftime_away,0,0.0
+Italy_Serie B,2023,fixture_events,fulltime_home,0,0.0
+Italy_Serie B,2023,fixture_events,fulltime_away,0,0.0
+Italy_Serie B,2023,fixture_events,penalty_home,389,100.0
+Italy_Serie B,2023,fixture_events,penalty_away,389,100.0
+Italy_Serie B,2023,lineups,fixture_id,0,0.0
+Italy_Serie B,2023,lineups,team_id,0,0.0
+Italy_Serie B,2023,lineups,team_name,0,0.0
+Italy_Serie B,2023,lineups,team_logo,0,0.0
+Italy_Serie B,2023,lineups,team_colors_player_primary,0,0.0
+Italy_Serie B,2023,lineups,team_colors_player_number,0,0.0
+Italy_Serie B,2023,lineups,team_colors_player_border,0,0.0
+Italy_Serie B,2023,lineups,team_colors_goalkeeper_primary,0,0.0
+Italy_Serie B,2023,lineups,team_colors_goalkeeper_number,0,0.0
+Italy_Serie B,2023,lineups,team_colors_goalkeeper_border,0,0.0
+Italy_Serie B,2023,lineups,coach_id,0,0.0
+Italy_Serie B,2023,lineups,coach_name,0,0.0
+Italy_Serie B,2023,lineups,coach_photo,0,0.0
+Italy_Serie B,2023,lineups,formation,0,0.0
+Italy_Serie B,2023,lineups,player_id,0,0.0
+Italy_Serie B,2023,lineups,player_name,0,0.0
+Italy_Serie B,2023,lineups,player_number,0,0.0
+Italy_Serie B,2023,lineups,player_pos,18,0.10221465076660989
+Italy_Serie B,2023,lineups,player_grid,9052,51.40261215218626
+Italy_Serie B,2023,lineups,is_substitute,0,0.0
+Italy_Serie B,2023,player_statistics,fixture_id,0,0.0
+Italy_Serie B,2023,player_statistics,team_name,0,0.0
+Italy_Serie B,2023,player_statistics,team_id,0,0.0
+Italy_Serie B,2023,player_statistics,player_id,0,0.0
+Italy_Serie B,2023,player_statistics,player_name,0,0.0
+Italy_Serie B,2023,player_statistics,player_photo,2,0.011358473421172193
+Italy_Serie B,2023,player_statistics,games_minutes,5377,30.537255792821444
+Italy_Serie B,2023,player_statistics,games_number,0,0.0
+Italy_Serie B,2023,player_statistics,games_position,0,0.0
+Italy_Serie B,2023,player_statistics,games_rating,5523,31.366424352567012
+Italy_Serie B,2023,player_statistics,games_captain,0,0.0
+Italy_Serie B,2023,player_statistics,games_substitute,0,0.0
+Italy_Serie B,2023,player_statistics,goals_conceded,0,0.0
+Italy_Serie B,2023,player_statistics,goals_saves,16883,95.88255338482507
+Italy_Serie B,2023,player_statistics,passes_total,5509,31.28691503861881
+Italy_Serie B,2023,player_statistics,passes_accuracy,5633,31.991140390731488
+Italy_Serie B,2023,player_statistics,duels_total,6308,35.824625170377104
+Italy_Serie B,2023,player_statistics,duels_won,7262,41.24261699227624
+Italy_Serie B,2023,player_statistics,cards_yellow,0,0.0
+Italy_Serie B,2023,player_statistics,cards_red,0,0.0
+Italy_Serie B,2023,player_statistics,penalty_scored,0,0.0
+Italy_Serie B,2023,player_statistics,penalty_missed,0,0.0
+Italy_Serie B,2023,player_statistics,penalty_saved,16818,95.51340299863699
+Italy_Serie B,2023,player_statistics,tackles_total,11366,64.55020445252157
+Italy_Serie B,2023,player_statistics,tackles_blocks,15542,88.26669695592912
+Italy_Serie B,2023,player_statistics,dribbles_attempts,12191,69.23557473875512
+Italy_Serie B,2023,player_statistics,dribbles_success,14198,80.63380281690141
+Italy_Serie B,2023,player_statistics,fouls_drawn,11475,65.16924125397546
+Italy_Serie B,2023,player_statistics,fouls_committed,10948,62.176283507496585
+Italy_Serie B,2023,player_statistics,tackles_interceptions,13319,75.64175374829622
+Italy_Serie B,2023,player_statistics,penalty_commited,17486,99.3071331213085
+Italy_Serie B,2023,player_statistics,shots_total,12869,73.08609722853248
+Italy_Serie B,2023,player_statistics,shots_on,15080,85.64288959563835
+Italy_Serie B,2023,player_statistics,dribbles_past,13957,79.26510676965016
+Italy_Serie B,2023,player_statistics,passes_key,12974,73.68241708314403
+Italy_Serie B,2023,player_statistics,offsides,16651,94.5649704679691
+Italy_Serie B,2023,player_statistics,penalty_won,17524,99.52294411631077
+Italy_Serie B,2023,player_statistics,goals_total,16720,94.95683780099955
+Italy_Serie B,2023,player_statistics,goals_assists,16727,94.99659245797365
+Italy_Serie B,2023,team_standings,rank,0,0.0
+Italy_Serie B,2023,team_standings,team_id,0,0.0
+Italy_Serie B,2023,team_standings,team_name,0,0.0
+Italy_Serie B,2023,team_standings,team_logo,0,0.0
+Italy_Serie B,2023,team_standings,points,0,0.0
+Italy_Serie B,2023,team_standings,goals_diff,0,0.0
+Italy_Serie B,2023,team_standings,group,0,0.0
+Italy_Serie B,2023,team_standings,form,0,0.0
+Italy_Serie B,2023,team_standings,status,0,0.0
+Italy_Serie B,2023,team_standings,description,7,35.0
+Italy_Serie B,2023,team_standings,played,0,0.0
+Italy_Serie B,2023,team_standings,wins,0,0.0
+Italy_Serie B,2023,team_standings,draws,0,0.0
+Italy_Serie B,2023,team_standings,losses,0,0.0
+Italy_Serie B,2023,team_standings,goals_for,0,0.0
+Italy_Serie B,2023,team_standings,goals_against,0,0.0
+Italy_Serie B,2023,team_standings,home_played,0,0.0
+Italy_Serie B,2023,team_standings,home_wins,0,0.0
+Italy_Serie B,2023,team_standings,home_draws,0,0.0
+Italy_Serie B,2023,team_standings,home_losses,0,0.0
+Italy_Serie B,2023,team_standings,home_goals_for,0,0.0
+Italy_Serie B,2023,team_standings,home_goals_against,0,0.0
+Italy_Serie B,2023,team_standings,away_played,0,0.0
+Italy_Serie B,2023,team_standings,away_wins,0,0.0
+Italy_Serie B,2023,team_standings,away_draws,0,0.0
+Italy_Serie B,2023,team_standings,away_losses,0,0.0
+Italy_Serie B,2023,team_standings,away_goals_for,0,0.0
+Italy_Serie B,2023,team_standings,away_goals_against,0,0.0
+Italy_Serie B,2023,team_statistics,fixture_id,0,0.0
+Italy_Serie B,2023,team_statistics,team_id,0,0.0
+Italy_Serie B,2023,team_statistics,team_name,0,0.0
+Italy_Serie B,2023,team_statistics,team_logo,0,0.0
+Italy_Serie B,2023,team_statistics,Shots on Goal,0,0.0
+Italy_Serie B,2023,team_statistics,Shots off Goal,0,0.0
+Italy_Serie B,2023,team_statistics,Total Shots,0,0.0
+Italy_Serie B,2023,team_statistics,Blocked Shots,0,0.0
+Italy_Serie B,2023,team_statistics,Shots insidebox,0,0.0
+Italy_Serie B,2023,team_statistics,Shots outsidebox,2,0.2570694087403599
+Italy_Serie B,2023,team_statistics,Fouls,0,0.0
+Italy_Serie B,2023,team_statistics,Corner Kicks,0,0.0
+Italy_Serie B,2023,team_statistics,Offsides,66,8.483290488431876
+Italy_Serie B,2023,team_statistics,Ball Possession,0,0.0
+Italy_Serie B,2023,team_statistics,Yellow Cards,6,0.7712082262210797
+Italy_Serie B,2023,team_statistics,Red Cards,606,77.89203084832906
+Italy_Serie B,2023,team_statistics,Goalkeeper Saves,2,0.2570694087403599
+Italy_Serie B,2023,team_statistics,Total passes,0,0.0
+Italy_Serie B,2023,team_statistics,Passes accurate,0,0.0
+Italy_Serie B,2023,team_statistics,Passes %,0,0.0
+Italy_Serie B,2023,team_statistics,expected_goals,778,100.0
+Italy_Serie B,2023,team_statistics,goals_prevented,778,100.0
+Italy_Serie B,2024,fixture_events,fixture_id,0,0.0
+Italy_Serie B,2024,fixture_events,date,0,0.0
+Italy_Serie B,2024,fixture_events,timestamp,0,0.0
+Italy_Serie B,2024,fixture_events,status,0,0.0
+Italy_Serie B,2024,fixture_events,maintime,0,0.0
+Italy_Serie B,2024,fixture_events,first_half,0,0.0
+Italy_Serie B,2024,fixture_events,second_half,0,0.0
+Italy_Serie B,2024,fixture_events,extratime,63,16.27906976744186
+Italy_Serie B,2024,fixture_events,country,0,0.0
+Italy_Serie B,2024,fixture_events,league_id,0,0.0
+Italy_Serie B,2024,fixture_events,league_name,0,0.0
+Italy_Serie B,2024,fixture_events,league_flag,0,0.0
+Italy_Serie B,2024,fixture_events,league_logo,0,0.0
+Italy_Serie B,2024,fixture_events,season,0,0.0
+Italy_Serie B,2024,fixture_events,round,0,0.0
+Italy_Serie B,2024,fixture_events,venue_name,0,0.0
+Italy_Serie B,2024,fixture_events,venue_city,0,0.0
+Italy_Serie B,2024,fixture_events,venue_id,0,0.0
+Italy_Serie B,2024,fixture_events,referee,0,0.0
+Italy_Serie B,2024,fixture_events,home_team,0,0.0
+Italy_Serie B,2024,fixture_events,home_team_id,0,0.0
+Italy_Serie B,2024,fixture_events,home_team_flag,0,0.0
+Italy_Serie B,2024,fixture_events,home_winner,130,33.59173126614987
+Italy_Serie B,2024,fixture_events,away_team,0,0.0
+Italy_Serie B,2024,fixture_events,away_team_id,0,0.0
+Italy_Serie B,2024,fixture_events,away_team_flag,0,0.0
+Italy_Serie B,2024,fixture_events,away_winner,130,33.59173126614987
+Italy_Serie B,2024,fixture_events,home_goals,0,0.0
+Italy_Serie B,2024,fixture_events,away_goals,0,0.0
+Italy_Serie B,2024,fixture_events,halftime_home,0,0.0
+Italy_Serie B,2024,fixture_events,halftime_away,0,0.0
+Italy_Serie B,2024,fixture_events,fulltime_home,0,0.0
+Italy_Serie B,2024,fixture_events,fulltime_away,0,0.0
+Italy_Serie B,2024,fixture_events,penalty_home,387,100.0
+Italy_Serie B,2024,fixture_events,penalty_away,387,100.0
+Italy_Serie B,2024,lineups,fixture_id,0,0.0
+Italy_Serie B,2024,lineups,team_id,0,0.0
+Italy_Serie B,2024,lineups,team_name,0,0.0
+Italy_Serie B,2024,lineups,team_logo,0,0.0
+Italy_Serie B,2024,lineups,team_colors_player_primary,0,0.0
+Italy_Serie B,2024,lineups,team_colors_player_number,0,0.0
+Italy_Serie B,2024,lineups,team_colors_player_border,0,0.0
+Italy_Serie B,2024,lineups,team_colors_goalkeeper_primary,0,0.0
+Italy_Serie B,2024,lineups,team_colors_goalkeeper_number,0,0.0
+Italy_Serie B,2024,lineups,team_colors_goalkeeper_border,0,0.0
+Italy_Serie B,2024,lineups,coach_id,0,0.0
+Italy_Serie B,2024,lineups,coach_name,0,0.0
+Italy_Serie B,2024,lineups,coach_photo,0,0.0
+Italy_Serie B,2024,lineups,formation,0,0.0
+Italy_Serie B,2024,lineups,player_id,0,0.0
+Italy_Serie B,2024,lineups,player_name,0,0.0
+Italy_Serie B,2024,lineups,player_number,0,0.0
+Italy_Serie B,2024,lineups,player_pos,37,0.21103062795870647
+Italy_Serie B,2024,lineups,player_grid,9019,51.440141447556044
+Italy_Serie B,2024,lineups,is_substitute,0,0.0
+Italy_Serie B,2024,player_statistics,fixture_id,0,0.0
+Italy_Serie B,2024,player_statistics,team_name,0,0.0
+Italy_Serie B,2024,player_statistics,team_id,0,0.0
+Italy_Serie B,2024,player_statistics,player_id,0,0.0
+Italy_Serie B,2024,player_statistics,player_name,0,0.0
+Italy_Serie B,2024,player_statistics,player_photo,0,0.0
+Italy_Serie B,2024,player_statistics,games_minutes,5320,30.34451289071412
+Italy_Serie B,2024,player_statistics,games_number,0,0.0
+Italy_Serie B,2024,player_statistics,games_position,0,0.0
+Italy_Serie B,2024,player_statistics,games_rating,5489,31.308464522016884
+Italy_Serie B,2024,player_statistics,games_captain,0,0.0
+Italy_Serie B,2024,player_statistics,games_substitute,0,0.0
+Italy_Serie B,2024,player_statistics,goals_conceded,0,0.0
+Italy_Serie B,2024,player_statistics,goals_assists,5380,30.686744239105636
+Italy_Serie B,2024,player_statistics,goals_saves,16798,95.8133698380105
+Italy_Serie B,2024,player_statistics,passes_total,5481,31.262833675564682
+Italy_Serie B,2024,player_statistics,passes_accuracy,5632,32.124115902349985
+Italy_Serie B,2024,player_statistics,duels_total,6224,35.50079853981291
+Italy_Serie B,2024,player_statistics,duels_won,7126,40.64567647729865
+Italy_Serie B,2024,player_statistics,fouls_drawn,11142,63.5523613963039
+Italy_Serie B,2024,player_statistics,cards_yellow,0,0.0
+Italy_Serie B,2024,player_statistics,cards_red,0,0.0
+Italy_Serie B,2024,player_statistics,penalty_scored,0,0.0
+Italy_Serie B,2024,player_statistics,penalty_missed,0,0.0
+Italy_Serie B,2024,player_statistics,penalty_saved,16746,95.51676933607118
+Italy_Serie B,2024,player_statistics,passes_key,12952,73.87634040611454
+Italy_Serie B,2024,player_statistics,tackles_total,11386,64.94410221309606
+Italy_Serie B,2024,player_statistics,tackles_interceptions,13726,78.29112480036504
+Italy_Serie B,2024,player_statistics,dribbles_attempts,12143,69.26192105863564
+Italy_Serie B,2024,player_statistics,dribbles_success,14174,80.84645220168835
+Italy_Serie B,2024,player_statistics,dribbles_past,13953,79.58590006844626
+Italy_Serie B,2024,player_statistics,fouls_committed,10686,60.95140314852841
+Italy_Serie B,2024,player_statistics,shots_total,12858,73.34017796030116
+Italy_Serie B,2024,player_statistics,shots_on,15009,85.60917180013689
+Italy_Serie B,2024,player_statistics,goals_total,16656,95.00342231348392
+Italy_Serie B,2024,player_statistics,tackles_blocks,15448,88.11316449920146
+Italy_Serie B,2024,player_statistics,offsides,16577,94.55281770476842
+Italy_Serie B,2024,player_statistics,penalty_won,17467,99.62924937257586
+Italy_Serie B,2024,player_statistics,penalty_commited,17439,99.46954140999316
+Italy_Serie B,2024,team_standings,rank,0,0.0
+Italy_Serie B,2024,team_standings,team_id,0,0.0
+Italy_Serie B,2024,team_standings,team_name,0,0.0
+Italy_Serie B,2024,team_standings,team_logo,0,0.0
+Italy_Serie B,2024,team_standings,points,0,0.0
+Italy_Serie B,2024,team_standings,goals_diff,0,0.0
+Italy_Serie B,2024,team_standings,group,0,0.0
+Italy_Serie B,2024,team_standings,form,0,0.0
+Italy_Serie B,2024,team_standings,status,0,0.0
+Italy_Serie B,2024,team_standings,description,7,35.0
+Italy_Serie B,2024,team_standings,played,0,0.0
+Italy_Serie B,2024,team_standings,wins,0,0.0
+Italy_Serie B,2024,team_standings,draws,0,0.0
+Italy_Serie B,2024,team_standings,losses,0,0.0
+Italy_Serie B,2024,team_standings,goals_for,0,0.0
+Italy_Serie B,2024,team_standings,goals_against,0,0.0
+Italy_Serie B,2024,team_standings,home_played,0,0.0
+Italy_Serie B,2024,team_standings,home_wins,0,0.0
+Italy_Serie B,2024,team_standings,home_draws,0,0.0
+Italy_Serie B,2024,team_standings,home_losses,0,0.0
+Italy_Serie B,2024,team_standings,home_goals_for,0,0.0
+Italy_Serie B,2024,team_standings,home_goals_against,0,0.0
+Italy_Serie B,2024,team_standings,away_played,0,0.0
+Italy_Serie B,2024,team_standings,away_wins,0,0.0
+Italy_Serie B,2024,team_standings,away_draws,0,0.0
+Italy_Serie B,2024,team_standings,away_losses,0,0.0
+Italy_Serie B,2024,team_standings,away_goals_for,0,0.0
+Italy_Serie B,2024,team_standings,away_goals_against,0,0.0
+Italy_Serie B,2024,team_statistics,fixture_id,0,0.0
+Italy_Serie B,2024,team_statistics,team_id,0,0.0
+Italy_Serie B,2024,team_statistics,team_name,0,0.0
+Italy_Serie B,2024,team_statistics,team_logo,0,0.0
+Italy_Serie B,2024,team_statistics,Shots on Goal,0,0.0
+Italy_Serie B,2024,team_statistics,Shots off Goal,0,0.0
+Italy_Serie B,2024,team_statistics,Total Shots,0,0.0
+Italy_Serie B,2024,team_statistics,Blocked Shots,0,0.0
+Italy_Serie B,2024,team_statistics,Shots insidebox,0,0.0
+Italy_Serie B,2024,team_statistics,Shots outsidebox,0,0.0
+Italy_Serie B,2024,team_statistics,Fouls,0,0.0
+Italy_Serie B,2024,team_statistics,Corner Kicks,2,0.2583979328165375
+Italy_Serie B,2024,team_statistics,Offsides,44,5.684754521963824
+Italy_Serie B,2024,team_statistics,Ball Possession,0,0.0
+Italy_Serie B,2024,team_statistics,Yellow Cards,2,0.2583979328165375
+Italy_Serie B,2024,team_statistics,Red Cards,616,79.58656330749353
+Italy_Serie B,2024,team_statistics,Goalkeeper Saves,2,0.2583979328165375
+Italy_Serie B,2024,team_statistics,Total passes,0,0.0
+Italy_Serie B,2024,team_statistics,Passes accurate,0,0.0
+Italy_Serie B,2024,team_statistics,Passes %,0,0.0
+Italy_Serie B,2024,team_statistics,expected_goals,774,100.0
+Italy_Serie B,2024,team_statistics,goals_prevented,774,100.0

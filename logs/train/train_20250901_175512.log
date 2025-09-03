@@ -1,0 +1,34 @@
+2025-09-01 17:55:12,010 - src.train_pipeline - INFO - Starting hierarchical training with model: xgboost
+2025-09-01 17:55:12,010 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-01 17:55:12,032 - src.train_pipeline - INFO - Filtered to 37455 completed matches
+2025-09-01 17:55:12,070 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-01 17:55:12,079 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-01 17:55:12,079 - src.train_pipeline - INFO - Preparing features...
+2025-09-01 17:55:12,112 - src.train_pipeline - INFO - Removed 33 potential leakage columns
+2025-09-01 17:55:12,279 - src.train_pipeline - INFO - Feature preparation complete. Final features: 132
+2025-09-01 17:55:12,279 - src.train_pipeline - INFO - Data preparation complete. Features: 132, Samples: 37455
+2025-09-01 17:55:12,286 - src.train_pipeline - INFO - Time Series Split - Training: 22473, Holdout: 14982
+2025-09-01 17:55:12,286 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-01 17:55:12,353 - src.train_pipeline - INFO - Numerical features: 132, Categorical features: 0
+2025-09-01 17:55:12,353 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-01 17:55:12,353 - src.train_pipeline - INFO - Using feature selection method: rfe with top 75 features
+2025-09-01 17:55:12,353 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-01 17:55:12,353 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-01 17:55:12,354 - src.train_pipeline - INFO - Starting hierarchical cross-validation...
+2025-09-01 17:55:12,354 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-01 17:55:24,352 - src.train_pipeline - INFO - Fold 1 - Test Accuracy: 0.6569 - F1 Macro: 0.5778
+2025-09-01 17:55:24,354 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-01 17:55:46,479 - src.train_pipeline - INFO - Fold 2 - Test Accuracy: 0.6988 - F1 Macro: 0.6164
+2025-09-01 17:55:46,481 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-01 17:56:15,726 - src.train_pipeline - INFO - Fold 3 - Test Accuracy: 0.6566 - F1 Macro: 0.5500
+2025-09-01 17:56:15,729 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-01 17:56:52,610 - src.train_pipeline - INFO - Fold 4 - Test Accuracy: 0.7239 - F1 Macro: 0.6523
+2025-09-01 17:56:52,614 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-01 17:57:42,660 - src.train_pipeline - INFO - Fold 5 - Test Accuracy: 0.7041 - F1 Macro: 0.6257
+2025-09-01 17:57:42,665 - src.train_pipeline - INFO - Training final hierarchical model on full training period...
+2025-09-01 17:58:38,384 - src.train_pipeline - INFO - Evaluating hierarchical model on holdout period...
+2025-09-01 17:58:38,531 - src.train_pipeline - INFO - Hierarchical Holdout Accuracy: 0.6929
+2025-09-01 17:58:38,532 - src.train_pipeline - INFO - Hierarchical Draw Recall: 0.1617
+2025-09-01 17:58:38,532 - src.train_pipeline - INFO - Saving model artifacts...
+2025-09-01 17:58:38,577 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-09-01 17:58:38,577 - src.train_pipeline - INFO - Hierarchical training completed successfully!

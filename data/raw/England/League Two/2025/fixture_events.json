@@ -1,0 +1,842 @@
+[
+  {
+    "fixture": {
+      "id": 1386078,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T11:30:00+00:00",
+      "timestamp": 1757158200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Rodney Parade",
+        "city": "Newport (Casnewydd)"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1367,
+        "name": "Newport County",
+        "logo": "https://media.api-sports.io/football/teams/1367.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1334,
+        "name": "Bristol Rovers",
+        "logo": "https://media.api-sports.io/football/teams/1334.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1386077,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Pallet-Track Bescot Stadium",
+        "city": "Walsall, West Midlands"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1342,
+        "name": "Walsall",
+        "logo": "https://media.api-sports.io/football/teams/1342.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1345,
+        "name": "Chesterfield",
+        "logo": "https://media.api-sports.io/football/teams/1345.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1386074,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 560,
+        "name": "Stadium MK",
+        "city": "Milton Keynes, Buckinghamshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1348,
+        "name": "Milton Keynes Dons",
+        "logo": "https://media.api-sports.io/football/teams/1348.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1365,
+        "name": "Grimsby",
+        "logo": "https://media.api-sports.io/football/teams/1365.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1386072,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 522,
+        "name": "JobServe Community Stadium",
+        "city": "Colchester, Essex"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1361,
+        "name": "Colchester",
+        "logo": "https://media.api-sports.io/football/teams/1361.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1363,
+        "name": "Crewe",
+        "logo": "https://media.api-sports.io/football/teams/1363.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1386079,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 496,
+        "name": "The Hive Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1369,
+        "name": "Barnet",
+        "logo": "https://media.api-sports.io/football/teams/1369.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1352,
+        "name": "Shrewsbury",
+        "logo": "https://media.api-sports.io/football/teams/1352.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1386070,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Cledara Abbey Stadium",
+        "city": "Cambridge, Cambridgeshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1370,
+        "name": "Cambridge United",
+        "logo": "https://media.api-sports.io/football/teams/1370.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1349,
+        "name": "Oldham",
+        "logo": "https://media.api-sports.io/football/teams/1349.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1386071,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "EV Charger Points Stadium",
+        "city": "Cheltenham, Gloucestershire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1372,
+        "name": "Cheltenham",
+        "logo": "https://media.api-sports.io/football/teams/1372.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1360,
+        "name": "Accrington ST",
+        "logo": "https://media.api-sports.io/football/teams/1360.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1386075,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 567,
+        "name": "Meadow Lane",
+        "city": "Nottingham, Nottinghamshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1376,
+        "name": "Notts County",
+        "logo": "https://media.api-sports.io/football/teams/1376.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1336,
+        "name": "Fleetwood Town",
+        "logo": "https://media.api-sports.io/football/teams/1336.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1386068,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 19197,
+        "name": "SO Legal Stadium",
+        "city": "Barrow-in-Furness, Cumbria"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1819,
+        "name": "Barrow",
+        "logo": "https://media.api-sports.io/football/teams/1819.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1353,
+        "name": "Swindon Town",
+        "logo": "https://media.api-sports.io/football/teams/1353.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1386073,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Exercise Stadium",
+        "city": "Harrogate, North Yorkshire"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1842,
+        "name": "Harrogate Town",
+        "logo": "https://media.api-sports.io/football/teams/1842.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1362,
+        "name": "Crawley Town",
+        "logo": "https://media.api-sports.io/football/teams/1362.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1386076,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T14:00:00+00:00",
+      "timestamp": 1757167200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": 579,
+        "name": "The Peninsula Stadium",
+        "city": "Salford, Greater Manchester"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1844,
+        "name": "Salford City",
+        "logo": "https://media.api-sports.io/football/teams/1844.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1381,
+        "name": "Tranmere",
+        "logo": "https://media.api-sports.io/football/teams/1381.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1386069,
+      "referee": null,
+      "timezone": "UTC",
+      "date": "2025-09-06T16:30:00+00:00",
+      "timestamp": 1757176200,
+      "periods": {
+        "first": null,
+        "second": null
+      },
+      "venue": {
+        "id": null,
+        "name": "Copperjax Community Stadium",
+        "city": "London"
+      },
+      "status": {
+        "long": "Not Started",
+        "short": "NS",
+        "elapsed": null,
+        "extra": null
+      }
+    },
+    "league": {
+      "id": 42,
+      "name": "League Two",
+      "country": "England",
+      "logo": "https://media.api-sports.io/football/leagues/42.png",
+      "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+      "season": 2025,
+      "round": "Regular Season - 7",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1832,
+        "name": "Bromley",
+        "logo": "https://media.api-sports.io/football/teams/1832.png",
+        "winner": null
+      },
+      "away": {
+        "id": 1347,
+        "name": "Gillingham",
+        "logo": "https://media.api-sports.io/football/teams/1347.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": null,
+      "away": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]

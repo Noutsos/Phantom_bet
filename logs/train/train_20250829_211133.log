@@ -1,0 +1,21 @@
+2025-08-29 21:11:33,438 - src.train_pipeline - INFO - Starting training with model: xgboost, feature selection: rfe with 70 features
+2025-08-29 21:11:33,438 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-08-29 21:11:33,455 - src.train_pipeline - INFO - Filtered to 22853 completed matches
+2025-08-29 21:11:33,481 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-08-29 21:11:33,482 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-08-29 21:11:33,486 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-08-29 21:11:33,487 - src.train_pipeline - INFO - Preparing features...
+2025-08-29 21:11:33,513 - src.train_pipeline - INFO - Removed 33 potential leakage columns
+2025-08-29 21:11:33,639 - src.train_pipeline - INFO - Feature preparation complete. Final features: 132
+2025-08-29 21:11:33,639 - src.train_pipeline - INFO - Data preparation complete. Features: 132, Samples: 22853
+2025-08-29 21:11:33,643 - src.train_pipeline - INFO - Time Series Split - Training: 18283, Holdout: 4570
+2025-08-29 21:11:33,643 - src.train_pipeline - INFO - Using custom class weights: {0: 1.0, 1: 1.2, 2: 1.0}
+2025-08-29 21:11:33,647 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-08-29 21:11:33,690 - src.train_pipeline - INFO - Numerical features: 132, Categorical features: 0
+2025-08-29 21:11:33,690 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-08-29 21:11:33,691 - src.train_pipeline - INFO - Using feature selection method: rfe with top 70 features
+2025-08-29 21:11:33,691 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-08-29 21:11:33,691 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-08-29 21:11:33,691 - src.train_pipeline - INFO - Starting cross-validation...
+2025-08-29 21:11:33,691 - src.train_pipeline - INFO - Processing fold 1/5
+2025-08-29 21:11:33,736 - src.train_pipeline - INFO - RandomOverSampler applied: 3821 samples

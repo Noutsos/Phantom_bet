@@ -1,0 +1,642 @@
+2025-08-31 21:59:14,449 - src.process_pipeline - INFO - Logging initialized. Log file: logs/process\process_20250831_215914.log
+2025-08-31 21:59:15,203 - src.process_pipeline - INFO - Loaded H2H data with 6740 team pairs
+2025-08-31 21:59:15,209 - src.process_pipeline - INFO - Loaded standings data for 4512 teams
+2025-08-31 21:59:15,985 - src.process_pipeline - INFO - Processing England/Championship/2017
+2025-08-31 21:59:16,012 - src.process_pipeline - INFO - Successfully merged 557 records with team statistics
+2025-08-31 21:59:16,035 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2017\merged_2017.csv
+2025-08-31 21:59:16,035 - src.process_pipeline - INFO - Successfully merged 557 records
+2025-08-31 21:59:16,036 - src.process_pipeline - INFO - Processing England/Championship/2018
+2025-08-31 21:59:16,067 - src.process_pipeline - INFO - Successfully merged 557 records with team statistics
+2025-08-31 21:59:16,095 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2018\merged_2018.csv
+2025-08-31 21:59:16,095 - src.process_pipeline - INFO - Successfully merged 557 records
+2025-08-31 21:59:16,098 - src.process_pipeline - INFO - Processing England/Championship/2019
+2025-08-31 21:59:16,119 - src.process_pipeline - INFO - Successfully merged 444 records with team statistics
+2025-08-31 21:59:16,133 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2019\merged_2019.csv
+2025-08-31 21:59:16,133 - src.process_pipeline - INFO - Successfully merged 444 records
+2025-08-31 21:59:16,135 - src.process_pipeline - INFO - Processing England/Championship/2020
+2025-08-31 21:59:16,156 - src.process_pipeline - INFO - Successfully merged 557 records with team statistics
+2025-08-31 21:59:16,176 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2020\merged_2020.csv
+2025-08-31 21:59:16,176 - src.process_pipeline - INFO - Successfully merged 557 records
+2025-08-31 21:59:16,178 - src.process_pipeline - INFO - Processing England/Championship/2021
+2025-08-31 21:59:16,201 - src.process_pipeline - INFO - Successfully merged 557 records with team statistics
+2025-08-31 21:59:16,218 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2021\merged_2021.csv
+2025-08-31 21:59:16,218 - src.process_pipeline - INFO - Successfully merged 557 records
+2025-08-31 21:59:16,220 - src.process_pipeline - INFO - Processing England/Championship/2022
+2025-08-31 21:59:16,243 - src.process_pipeline - INFO - Successfully merged 546 records with team statistics
+2025-08-31 21:59:16,259 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2022\merged_2022.csv
+2025-08-31 21:59:16,259 - src.process_pipeline - INFO - Successfully merged 546 records
+2025-08-31 21:59:16,262 - src.process_pipeline - INFO - Processing England/Championship/2023
+2025-08-31 21:59:16,285 - src.process_pipeline - INFO - Successfully merged 557 records with team statistics
+2025-08-31 21:59:16,307 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2023\merged_2023.csv
+2025-08-31 21:59:16,308 - src.process_pipeline - INFO - Successfully merged 557 records
+2025-08-31 21:59:16,311 - src.process_pipeline - INFO - Processing England/Championship/2024
+2025-08-31 21:59:16,340 - src.process_pipeline - INFO - Successfully merged 557 records with team statistics
+2025-08-31 21:59:16,356 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2024\merged_2024.csv
+2025-08-31 21:59:16,356 - src.process_pipeline - INFO - Successfully merged 557 records
+2025-08-31 21:59:16,360 - src.process_pipeline - INFO - Processing England/Championship/2025
+2025-08-31 21:59:16,371 - src.process_pipeline - INFO - Successfully merged 24 records with team statistics
+2025-08-31 21:59:16,374 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Championship\2025\merged_2025.csv
+2025-08-31 21:59:16,374 - src.process_pipeline - INFO - Successfully merged 24 records
+2025-08-31 21:59:16,378 - src.process_pipeline - INFO - Processing England/EFL Trophy/2021
+2025-08-31 21:59:16,394 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-08-31 21:59:16,401 - src.process_pipeline - INFO - Saved merged data to data\processed\England\EFL Trophy\2021\merged_2021.csv
+2025-08-31 21:59:16,401 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-08-31 21:59:16,406 - src.process_pipeline - INFO - Processing England/EFL Trophy/2022
+2025-08-31 21:59:16,421 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-08-31 21:59:16,427 - src.process_pipeline - INFO - Saved merged data to data\processed\England\EFL Trophy\2022\merged_2022.csv
+2025-08-31 21:59:16,427 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-08-31 21:59:16,431 - src.process_pipeline - INFO - Processing England/EFL Trophy/2023
+2025-08-31 21:59:16,445 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-08-31 21:59:16,451 - src.process_pipeline - INFO - Saved merged data to data\processed\England\EFL Trophy\2023\merged_2023.csv
+2025-08-31 21:59:16,451 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-08-31 21:59:16,454 - src.process_pipeline - INFO - Processing England/EFL Trophy/2024
+2025-08-31 21:59:16,469 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-08-31 21:59:16,477 - src.process_pipeline - INFO - Saved merged data to data\processed\England\EFL Trophy\2024\merged_2024.csv
+2025-08-31 21:59:16,477 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-08-31 21:59:16,481 - src.process_pipeline - INFO - Processing England/FA Cup/2018
+2025-08-31 21:59:16,497 - src.process_pipeline - INFO - Successfully merged 150 records with team statistics
+2025-08-31 21:59:16,505 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2018\merged_2018.csv
+2025-08-31 21:59:16,505 - src.process_pipeline - INFO - Successfully merged 150 records
+2025-08-31 21:59:16,511 - src.process_pipeline - INFO - Processing England/FA Cup/2019
+2025-08-31 21:59:16,527 - src.process_pipeline - INFO - Successfully merged 149 records with team statistics
+2025-08-31 21:59:16,537 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2019\merged_2019.csv
+2025-08-31 21:59:16,537 - src.process_pipeline - INFO - Successfully merged 149 records
+2025-08-31 21:59:16,544 - src.process_pipeline - INFO - Processing England/FA Cup/2020
+2025-08-31 21:59:16,560 - src.process_pipeline - INFO - Successfully merged 124 records with team statistics
+2025-08-31 21:59:16,565 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2020\merged_2020.csv
+2025-08-31 21:59:16,566 - src.process_pipeline - INFO - Successfully merged 124 records
+2025-08-31 21:59:16,570 - src.process_pipeline - INFO - Processing England/FA Cup/2021
+2025-08-31 21:59:16,584 - src.process_pipeline - INFO - Successfully merged 136 records with team statistics
+2025-08-31 21:59:16,590 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2021\merged_2021.csv
+2025-08-31 21:59:16,590 - src.process_pipeline - INFO - Successfully merged 136 records
+2025-08-31 21:59:16,596 - src.process_pipeline - INFO - Processing England/FA Cup/2022
+2025-08-31 21:59:16,620 - src.process_pipeline - INFO - Successfully merged 143 records with team statistics
+2025-08-31 21:59:16,629 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2022\merged_2022.csv
+2025-08-31 21:59:16,629 - src.process_pipeline - INFO - Successfully merged 143 records
+2025-08-31 21:59:16,634 - src.process_pipeline - INFO - Processing England/FA Cup/2023
+2025-08-31 21:59:16,649 - src.process_pipeline - INFO - Successfully merged 149 records with team statistics
+2025-08-31 21:59:16,655 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2023\merged_2023.csv
+2025-08-31 21:59:16,655 - src.process_pipeline - INFO - Successfully merged 149 records
+2025-08-31 21:59:16,661 - src.process_pipeline - INFO - Processing England/FA Cup/2024
+2025-08-31 21:59:16,679 - src.process_pipeline - INFO - Successfully merged 123 records with team statistics
+2025-08-31 21:59:16,685 - src.process_pipeline - INFO - Saved merged data to data\processed\England\FA Cup\2024\merged_2024.csv
+2025-08-31 21:59:16,685 - src.process_pipeline - INFO - Successfully merged 123 records
+2025-08-31 21:59:16,690 - src.process_pipeline - INFO - Processing England/FA Trophy/2023
+2025-08-31 21:59:16,691 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\England\FA Trophy\2023\team_statistics.csv
+2025-08-31 21:59:16,691 - src.process_pipeline - INFO - Processing England/FA Trophy/2024
+2025-08-31 21:59:16,691 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\England\FA Trophy\2024\fixture_events.csv
+2025-08-31 21:59:16,692 - src.process_pipeline - INFO - Processing England/Premier League/2018
+2025-08-31 21:59:16,716 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:16,729 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2018\merged_2018.csv
+2025-08-31 21:59:16,729 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:16,735 - src.process_pipeline - INFO - Processing England/Premier League/2019
+2025-08-31 21:59:16,753 - src.process_pipeline - INFO - Successfully merged 288 records with team statistics
+2025-08-31 21:59:16,764 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2019\merged_2019.csv
+2025-08-31 21:59:16,765 - src.process_pipeline - INFO - Successfully merged 288 records
+2025-08-31 21:59:16,770 - src.process_pipeline - INFO - Processing England/Premier League/2020
+2025-08-31 21:59:16,789 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:16,804 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2020\merged_2020.csv
+2025-08-31 21:59:16,805 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:16,810 - src.process_pipeline - INFO - Processing England/Premier League/2021
+2025-08-31 21:59:16,830 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:16,842 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2021\merged_2021.csv
+2025-08-31 21:59:16,842 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:16,848 - src.process_pipeline - INFO - Processing England/Premier League/2022
+2025-08-31 21:59:16,866 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:16,878 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2022\merged_2022.csv
+2025-08-31 21:59:16,878 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:16,883 - src.process_pipeline - INFO - Processing England/Premier League/2023
+2025-08-31 21:59:16,905 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:16,920 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2023\merged_2023.csv
+2025-08-31 21:59:16,920 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:16,926 - src.process_pipeline - INFO - Processing England/Premier League/2024
+2025-08-31 21:59:16,946 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:16,959 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2024\merged_2024.csv
+2025-08-31 21:59:16,959 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:16,964 - src.process_pipeline - INFO - Processing England/Premier League/2025
+2025-08-31 21:59:16,978 - src.process_pipeline - INFO - Successfully merged 30 records with team statistics
+2025-08-31 21:59:16,982 - src.process_pipeline - INFO - Saved merged data to data\processed\England\Premier League\2025\merged_2025.csv
+2025-08-31 21:59:16,982 - src.process_pipeline - INFO - Successfully merged 30 records
+2025-08-31 21:59:16,988 - src.process_pipeline - INFO - Processing Europe/Champions League/2018
+2025-08-31 21:59:17,004 - src.process_pipeline - INFO - Successfully merged 166 records with team statistics
+2025-08-31 21:59:17,011 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2018\merged_2018.csv
+2025-08-31 21:59:17,011 - src.process_pipeline - INFO - Successfully merged 166 records
+2025-08-31 21:59:17,017 - src.process_pipeline - INFO - Processing Europe/Champions League/2019
+2025-08-31 21:59:17,035 - src.process_pipeline - INFO - Successfully merged 140 records with team statistics
+2025-08-31 21:59:17,045 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2019\merged_2019.csv
+2025-08-31 21:59:17,045 - src.process_pipeline - INFO - Successfully merged 140 records
+2025-08-31 21:59:17,054 - src.process_pipeline - INFO - Processing Europe/Champions League/2020
+2025-08-31 21:59:17,069 - src.process_pipeline - INFO - Successfully merged 178 records with team statistics
+2025-08-31 21:59:17,079 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2020\merged_2020.csv
+2025-08-31 21:59:17,079 - src.process_pipeline - INFO - Successfully merged 178 records
+2025-08-31 21:59:17,089 - src.process_pipeline - INFO - Processing Europe/Champions League/2021
+2025-08-31 21:59:17,110 - src.process_pipeline - INFO - Successfully merged 157 records with team statistics
+2025-08-31 21:59:17,118 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2021\merged_2021.csv
+2025-08-31 21:59:17,119 - src.process_pipeline - INFO - Successfully merged 157 records
+2025-08-31 21:59:17,127 - src.process_pipeline - INFO - Processing Europe/Champions League/2022
+2025-08-31 21:59:17,145 - src.process_pipeline - INFO - Successfully merged 210 records with team statistics
+2025-08-31 21:59:17,154 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2022\merged_2022.csv
+2025-08-31 21:59:17,155 - src.process_pipeline - INFO - Successfully merged 210 records
+2025-08-31 21:59:17,161 - src.process_pipeline - INFO - Processing Europe/Champions League/2023
+2025-08-31 21:59:17,179 - src.process_pipeline - INFO - Successfully merged 211 records with team statistics
+2025-08-31 21:59:17,190 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2023\merged_2023.csv
+2025-08-31 21:59:17,191 - src.process_pipeline - INFO - Successfully merged 211 records
+2025-08-31 21:59:17,200 - src.process_pipeline - INFO - Processing Europe/Champions League/2024
+2025-08-31 21:59:17,217 - src.process_pipeline - INFO - Successfully merged 279 records with team statistics
+2025-08-31 21:59:17,228 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2024\merged_2024.csv
+2025-08-31 21:59:17,228 - src.process_pipeline - INFO - Successfully merged 279 records
+2025-08-31 21:59:17,234 - src.process_pipeline - INFO - Processing Europe/Champions League/2025
+2025-08-31 21:59:17,247 - src.process_pipeline - INFO - Successfully merged 30 records with team statistics
+2025-08-31 21:59:17,250 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Champions League\2025\merged_2025.csv
+2025-08-31 21:59:17,250 - src.process_pipeline - INFO - Successfully merged 30 records
+2025-08-31 21:59:17,256 - src.process_pipeline - INFO - Processing Europe/Conference League/2021
+2025-08-31 21:59:17,276 - src.process_pipeline - INFO - Successfully merged 423 records with team statistics
+2025-08-31 21:59:17,291 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Conference League\2021\merged_2021.csv
+2025-08-31 21:59:17,291 - src.process_pipeline - INFO - Successfully merged 423 records
+2025-08-31 21:59:17,298 - src.process_pipeline - INFO - Processing Europe/Conference League/2022
+2025-08-31 21:59:17,319 - src.process_pipeline - INFO - Successfully merged 414 records with team statistics
+2025-08-31 21:59:17,336 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Conference League\2022\merged_2022.csv
+2025-08-31 21:59:17,336 - src.process_pipeline - INFO - Successfully merged 414 records
+2025-08-31 21:59:17,345 - src.process_pipeline - INFO - Processing Europe/Conference League/2023
+2025-08-31 21:59:17,367 - src.process_pipeline - INFO - Successfully merged 417 records with team statistics
+2025-08-31 21:59:17,382 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Conference League\2023\merged_2023.csv
+2025-08-31 21:59:17,382 - src.process_pipeline - INFO - Successfully merged 417 records
+2025-08-31 21:59:17,390 - src.process_pipeline - INFO - Processing Europe/Conference League/2024
+2025-08-31 21:59:17,391 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\Europe\Conference League\2024\team_statistics.csv
+2025-08-31 21:59:17,391 - src.process_pipeline - INFO - Processing Europe/Conference League/2025
+2025-08-31 21:59:17,405 - src.process_pipeline - INFO - Successfully merged 84 records with team statistics
+2025-08-31 21:59:17,411 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Conference League\2025\merged_2025.csv
+2025-08-31 21:59:17,411 - src.process_pipeline - INFO - Successfully merged 84 records
+2025-08-31 21:59:17,418 - src.process_pipeline - INFO - Processing Europe/Europa League/2018
+2025-08-31 21:59:17,437 - src.process_pipeline - INFO - Successfully merged 364 records with team statistics
+2025-08-31 21:59:17,450 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2018\merged_2018.csv
+2025-08-31 21:59:17,450 - src.process_pipeline - INFO - Successfully merged 364 records
+2025-08-31 21:59:17,456 - src.process_pipeline - INFO - Processing Europe/Europa League/2019
+2025-08-31 21:59:17,475 - src.process_pipeline - INFO - Successfully merged 337 records with team statistics
+2025-08-31 21:59:17,489 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2019\merged_2019.csv
+2025-08-31 21:59:17,489 - src.process_pipeline - INFO - Successfully merged 337 records
+2025-08-31 21:59:17,498 - src.process_pipeline - INFO - Processing Europe/Europa League/2020
+2025-08-31 21:59:17,515 - src.process_pipeline - INFO - Successfully merged 362 records with team statistics
+2025-08-31 21:59:17,528 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2020\merged_2020.csv
+2025-08-31 21:59:17,528 - src.process_pipeline - INFO - Successfully merged 362 records
+2025-08-31 21:59:17,535 - src.process_pipeline - INFO - Processing Europe/Europa League/2021
+2025-08-31 21:59:17,552 - src.process_pipeline - INFO - Successfully merged 177 records with team statistics
+2025-08-31 21:59:17,563 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2021\merged_2021.csv
+2025-08-31 21:59:17,563 - src.process_pipeline - INFO - Successfully merged 177 records
+2025-08-31 21:59:17,576 - src.process_pipeline - INFO - Processing Europe/Europa League/2022
+2025-08-31 21:59:17,593 - src.process_pipeline - INFO - Successfully merged 175 records with team statistics
+2025-08-31 21:59:17,602 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2022\merged_2022.csv
+2025-08-31 21:59:17,602 - src.process_pipeline - INFO - Successfully merged 175 records
+2025-08-31 21:59:17,610 - src.process_pipeline - INFO - Processing Europe/Europa League/2023
+2025-08-31 21:59:17,625 - src.process_pipeline - INFO - Successfully merged 175 records with team statistics
+2025-08-31 21:59:17,634 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2023\merged_2023.csv
+2025-08-31 21:59:17,634 - src.process_pipeline - INFO - Successfully merged 175 records
+2025-08-31 21:59:17,647 - src.process_pipeline - INFO - Processing Europe/Europa League/2024
+2025-08-31 21:59:17,667 - src.process_pipeline - INFO - Successfully merged 269 records with team statistics
+2025-08-31 21:59:17,681 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2024\merged_2024.csv
+2025-08-31 21:59:17,681 - src.process_pipeline - INFO - Successfully merged 269 records
+2025-08-31 21:59:17,690 - src.process_pipeline - INFO - Processing Europe/Europa League/2025
+2025-08-31 21:59:17,705 - src.process_pipeline - INFO - Successfully merged 38 records with team statistics
+2025-08-31 21:59:17,708 - src.process_pipeline - INFO - Saved merged data to data\processed\Europe\Europa League\2025\merged_2025.csv
+2025-08-31 21:59:17,709 - src.process_pipeline - INFO - Successfully merged 38 records
+2025-08-31 21:59:17,721 - src.process_pipeline - INFO - Processing France/Coupe de France/2018
+2025-08-31 21:59:17,736 - src.process_pipeline - INFO - Successfully merged 195 records with team statistics
+2025-08-31 21:59:17,743 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2018\merged_2018.csv
+2025-08-31 21:59:17,744 - src.process_pipeline - INFO - Successfully merged 195 records
+2025-08-31 21:59:17,752 - src.process_pipeline - INFO - Processing France/Coupe de France/2019
+2025-08-31 21:59:17,766 - src.process_pipeline - INFO - Successfully merged 194 records with team statistics
+2025-08-31 21:59:17,774 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2019\merged_2019.csv
+2025-08-31 21:59:17,774 - src.process_pipeline - INFO - Successfully merged 194 records
+2025-08-31 21:59:17,788 - src.process_pipeline - INFO - Processing France/Coupe de France/2020
+2025-08-31 21:59:17,811 - src.process_pipeline - INFO - Successfully merged 170 records with team statistics
+2025-08-31 21:59:17,818 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2020\merged_2020.csv
+2025-08-31 21:59:17,818 - src.process_pipeline - INFO - Successfully merged 170 records
+2025-08-31 21:59:17,831 - src.process_pipeline - INFO - Processing France/Coupe de France/2021
+2025-08-31 21:59:17,848 - src.process_pipeline - INFO - Successfully merged 193 records with team statistics
+2025-08-31 21:59:17,860 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2021\merged_2021.csv
+2025-08-31 21:59:17,861 - src.process_pipeline - INFO - Successfully merged 193 records
+2025-08-31 21:59:17,875 - src.process_pipeline - INFO - Processing France/Coupe de France/2022
+2025-08-31 21:59:17,905 - src.process_pipeline - INFO - Successfully merged 195 records with team statistics
+2025-08-31 21:59:17,917 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2022\merged_2022.csv
+2025-08-31 21:59:17,918 - src.process_pipeline - INFO - Successfully merged 195 records
+2025-08-31 21:59:17,930 - src.process_pipeline - INFO - Processing France/Coupe de France/2023
+2025-08-31 21:59:17,948 - src.process_pipeline - INFO - Successfully merged 197 records with team statistics
+2025-08-31 21:59:17,956 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2023\merged_2023.csv
+2025-08-31 21:59:17,956 - src.process_pipeline - INFO - Successfully merged 197 records
+2025-08-31 21:59:17,966 - src.process_pipeline - INFO - Processing France/Coupe de France/2024
+2025-08-31 21:59:17,983 - src.process_pipeline - INFO - Successfully merged 199 records with team statistics
+2025-08-31 21:59:17,991 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Coupe de France\2024\merged_2024.csv
+2025-08-31 21:59:17,992 - src.process_pipeline - INFO - Successfully merged 199 records
+2025-08-31 21:59:18,002 - src.process_pipeline - INFO - Processing France/Ligue 1/2018
+2025-08-31 21:59:18,022 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:18,034 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2018\merged_2018.csv
+2025-08-31 21:59:18,035 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:18,045 - src.process_pipeline - INFO - Processing France/Ligue 1/2019
+2025-08-31 21:59:18,066 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:18,087 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2019\merged_2019.csv
+2025-08-31 21:59:18,087 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:18,100 - src.process_pipeline - INFO - Processing France/Ligue 1/2020
+2025-08-31 21:59:18,122 - src.process_pipeline - INFO - Successfully merged 382 records with team statistics
+2025-08-31 21:59:18,136 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2020\merged_2020.csv
+2025-08-31 21:59:18,136 - src.process_pipeline - INFO - Successfully merged 382 records
+2025-08-31 21:59:18,149 - src.process_pipeline - INFO - Processing France/Ligue 1/2021
+2025-08-31 21:59:18,170 - src.process_pipeline - INFO - Successfully merged 382 records with team statistics
+2025-08-31 21:59:18,184 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2021\merged_2021.csv
+2025-08-31 21:59:18,184 - src.process_pipeline - INFO - Successfully merged 382 records
+2025-08-31 21:59:18,199 - src.process_pipeline - INFO - Processing France/Ligue 1/2022
+2025-08-31 21:59:18,222 - src.process_pipeline - INFO - Successfully merged 370 records with team statistics
+2025-08-31 21:59:18,234 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2022\merged_2022.csv
+2025-08-31 21:59:18,234 - src.process_pipeline - INFO - Successfully merged 370 records
+2025-08-31 21:59:18,244 - src.process_pipeline - INFO - Processing France/Ligue 1/2023
+2025-08-31 21:59:18,262 - src.process_pipeline - INFO - Successfully merged 307 records with team statistics
+2025-08-31 21:59:18,272 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2023\merged_2023.csv
+2025-08-31 21:59:18,272 - src.process_pipeline - INFO - Successfully merged 307 records
+2025-08-31 21:59:18,284 - src.process_pipeline - INFO - Processing France/Ligue 1/2024
+2025-08-31 21:59:18,303 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-08-31 21:59:18,313 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2024\merged_2024.csv
+2025-08-31 21:59:18,313 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-08-31 21:59:18,322 - src.process_pipeline - INFO - Processing France/Ligue 1/2025
+2025-08-31 21:59:18,335 - src.process_pipeline - INFO - Successfully merged 26 records with team statistics
+2025-08-31 21:59:18,338 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 1\2025\merged_2025.csv
+2025-08-31 21:59:18,338 - src.process_pipeline - INFO - Successfully merged 26 records
+2025-08-31 21:59:18,348 - src.process_pipeline - INFO - Processing France/Ligue 2/2018
+2025-08-31 21:59:18,367 - src.process_pipeline - INFO - Successfully merged 370 records with team statistics
+2025-08-31 21:59:18,379 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2018\merged_2018.csv
+2025-08-31 21:59:18,379 - src.process_pipeline - INFO - Successfully merged 370 records
+2025-08-31 21:59:18,389 - src.process_pipeline - INFO - Processing France/Ligue 2/2019
+2025-08-31 21:59:18,407 - src.process_pipeline - INFO - Successfully merged 370 records with team statistics
+2025-08-31 21:59:18,424 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2019\merged_2019.csv
+2025-08-31 21:59:18,424 - src.process_pipeline - INFO - Successfully merged 370 records
+2025-08-31 21:59:18,439 - src.process_pipeline - INFO - Processing France/Ligue 2/2020
+2025-08-31 21:59:18,459 - src.process_pipeline - INFO - Successfully merged 384 records with team statistics
+2025-08-31 21:59:18,476 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2020\merged_2020.csv
+2025-08-31 21:59:18,476 - src.process_pipeline - INFO - Successfully merged 384 records
+2025-08-31 21:59:18,486 - src.process_pipeline - INFO - Processing France/Ligue 2/2021
+2025-08-31 21:59:18,508 - src.process_pipeline - INFO - Successfully merged 366 records with team statistics
+2025-08-31 21:59:18,524 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2021\merged_2021.csv
+2025-08-31 21:59:18,524 - src.process_pipeline - INFO - Successfully merged 366 records
+2025-08-31 21:59:18,535 - src.process_pipeline - INFO - Processing France/Ligue 2/2022
+2025-08-31 21:59:18,561 - src.process_pipeline - INFO - Successfully merged 361 records with team statistics
+2025-08-31 21:59:18,579 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2022\merged_2022.csv
+2025-08-31 21:59:18,579 - src.process_pipeline - INFO - Successfully merged 361 records
+2025-08-31 21:59:18,590 - src.process_pipeline - INFO - Processing France/Ligue 2/2023
+2025-08-31 21:59:18,612 - src.process_pipeline - INFO - Successfully merged 382 records with team statistics
+2025-08-31 21:59:18,630 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2023\merged_2023.csv
+2025-08-31 21:59:18,630 - src.process_pipeline - INFO - Successfully merged 382 records
+2025-08-31 21:59:18,641 - src.process_pipeline - INFO - Processing France/Ligue 2/2024
+2025-08-31 21:59:18,665 - src.process_pipeline - INFO - Successfully merged 310 records with team statistics
+2025-08-31 21:59:18,680 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2024\merged_2024.csv
+2025-08-31 21:59:18,680 - src.process_pipeline - INFO - Successfully merged 310 records
+2025-08-31 21:59:18,694 - src.process_pipeline - INFO - Processing France/Ligue 2/2025
+2025-08-31 21:59:18,707 - src.process_pipeline - INFO - Successfully merged 17 records with team statistics
+2025-08-31 21:59:18,713 - src.process_pipeline - INFO - Saved merged data to data\processed\France\Ligue 2\2025\merged_2025.csv
+2025-08-31 21:59:18,713 - src.process_pipeline - INFO - Successfully merged 17 records
+2025-08-31 21:59:18,734 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2017
+2025-08-31 21:59:18,735 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\Germany\2. Bundesliga\2017\fixture_events.csv
+2025-08-31 21:59:18,736 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2018
+2025-08-31 21:59:18,771 - src.process_pipeline - INFO - Successfully merged 306 records with team statistics
+2025-08-31 21:59:18,811 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2018\merged_2018.csv
+2025-08-31 21:59:18,811 - src.process_pipeline - INFO - Successfully merged 306 records
+2025-08-31 21:59:18,839 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2019
+2025-08-31 21:59:18,884 - src.process_pipeline - INFO - Successfully merged 249 records with team statistics
+2025-08-31 21:59:18,899 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2019\merged_2019.csv
+2025-08-31 21:59:18,899 - src.process_pipeline - INFO - Successfully merged 249 records
+2025-08-31 21:59:18,934 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2020
+2025-08-31 21:59:18,967 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-08-31 21:59:18,983 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2020\merged_2020.csv
+2025-08-31 21:59:18,984 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-08-31 21:59:19,001 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2021
+2025-08-31 21:59:19,025 - src.process_pipeline - INFO - Successfully merged 293 records with team statistics
+2025-08-31 21:59:19,036 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2021\merged_2021.csv
+2025-08-31 21:59:19,036 - src.process_pipeline - INFO - Successfully merged 293 records
+2025-08-31 21:59:19,055 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2022
+2025-08-31 21:59:19,075 - src.process_pipeline - INFO - Successfully merged 288 records with team statistics
+2025-08-31 21:59:19,086 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2022\merged_2022.csv
+2025-08-31 21:59:19,086 - src.process_pipeline - INFO - Successfully merged 288 records
+2025-08-31 21:59:19,099 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2023
+2025-08-31 21:59:19,119 - src.process_pipeline - INFO - Successfully merged 299 records with team statistics
+2025-08-31 21:59:19,134 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2023\merged_2023.csv
+2025-08-31 21:59:19,134 - src.process_pipeline - INFO - Successfully merged 299 records
+2025-08-31 21:59:19,146 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2024
+2025-08-31 21:59:19,167 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-08-31 21:59:19,178 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2024\merged_2024.csv
+2025-08-31 21:59:19,178 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-08-31 21:59:19,195 - src.process_pipeline - INFO - Processing Germany/2. Bundesliga/2025
+2025-08-31 21:59:19,207 - src.process_pipeline - INFO - Successfully merged 18 records with team statistics
+2025-08-31 21:59:19,210 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\2. Bundesliga\2025\merged_2025.csv
+2025-08-31 21:59:19,210 - src.process_pipeline - INFO - Successfully merged 18 records
+2025-08-31 21:59:19,224 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2018
+2025-08-31 21:59:19,254 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-08-31 21:59:19,267 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2018\merged_2018.csv
+2025-08-31 21:59:19,267 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-08-31 21:59:19,281 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2019
+2025-08-31 21:59:19,302 - src.process_pipeline - INFO - Successfully merged 260 records with team statistics
+2025-08-31 21:59:19,313 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2019\merged_2019.csv
+2025-08-31 21:59:19,313 - src.process_pipeline - INFO - Successfully merged 260 records
+2025-08-31 21:59:19,328 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2020
+2025-08-31 21:59:19,344 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-08-31 21:59:19,354 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2020\merged_2020.csv
+2025-08-31 21:59:19,354 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-08-31 21:59:19,368 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2021
+2025-08-31 21:59:19,394 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-08-31 21:59:19,406 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2021\merged_2021.csv
+2025-08-31 21:59:19,406 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-08-31 21:59:19,419 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2022
+2025-08-31 21:59:19,436 - src.process_pipeline - INFO - Successfully merged 307 records with team statistics
+2025-08-31 21:59:19,446 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2022\merged_2022.csv
+2025-08-31 21:59:19,446 - src.process_pipeline - INFO - Successfully merged 307 records
+2025-08-31 21:59:19,460 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2023
+2025-08-31 21:59:19,477 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-08-31 21:59:19,487 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2023\merged_2023.csv
+2025-08-31 21:59:19,487 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-08-31 21:59:19,499 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2024
+2025-08-31 21:59:19,518 - src.process_pipeline - INFO - Successfully merged 308 records with team statistics
+2025-08-31 21:59:19,528 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2024\merged_2024.csv
+2025-08-31 21:59:19,528 - src.process_pipeline - INFO - Successfully merged 308 records
+2025-08-31 21:59:19,540 - src.process_pipeline - INFO - Processing Germany/Bundesliga/2025
+2025-08-31 21:59:19,552 - src.process_pipeline - INFO - Successfully merged 17 records with team statistics
+2025-08-31 21:59:19,555 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\Bundesliga\2025\merged_2025.csv
+2025-08-31 21:59:19,555 - src.process_pipeline - INFO - Successfully merged 17 records
+2025-08-31 21:59:19,570 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2018
+2025-08-31 21:59:19,582 - src.process_pipeline - INFO - Successfully merged 63 records with team statistics
+2025-08-31 21:59:19,586 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2018\merged_2018.csv
+2025-08-31 21:59:19,586 - src.process_pipeline - INFO - Successfully merged 63 records
+2025-08-31 21:59:19,601 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2019
+2025-08-31 21:59:19,614 - src.process_pipeline - INFO - Successfully merged 60 records with team statistics
+2025-08-31 21:59:19,618 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2019\merged_2019.csv
+2025-08-31 21:59:19,618 - src.process_pipeline - INFO - Successfully merged 60 records
+2025-08-31 21:59:19,635 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2020
+2025-08-31 21:59:19,649 - src.process_pipeline - INFO - Successfully merged 63 records with team statistics
+2025-08-31 21:59:19,654 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2020\merged_2020.csv
+2025-08-31 21:59:19,654 - src.process_pipeline - INFO - Successfully merged 63 records
+2025-08-31 21:59:19,669 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2021
+2025-08-31 21:59:19,683 - src.process_pipeline - INFO - Successfully merged 63 records with team statistics
+2025-08-31 21:59:19,686 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2021\merged_2021.csv
+2025-08-31 21:59:19,686 - src.process_pipeline - INFO - Successfully merged 63 records
+2025-08-31 21:59:19,701 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2022
+2025-08-31 21:59:19,715 - src.process_pipeline - INFO - Successfully merged 36 records with team statistics
+2025-08-31 21:59:19,718 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2022\merged_2022.csv
+2025-08-31 21:59:19,718 - src.process_pipeline - INFO - Successfully merged 36 records
+2025-08-31 21:59:19,732 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2023
+2025-08-31 21:59:19,746 - src.process_pipeline - INFO - Successfully merged 63 records with team statistics
+2025-08-31 21:59:19,750 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2023\merged_2023.csv
+2025-08-31 21:59:19,750 - src.process_pipeline - INFO - Successfully merged 63 records
+2025-08-31 21:59:19,764 - src.process_pipeline - INFO - Processing Germany/DFB Pokal/2024
+2025-08-31 21:59:19,778 - src.process_pipeline - INFO - Successfully merged 63 records with team statistics
+2025-08-31 21:59:19,782 - src.process_pipeline - INFO - Saved merged data to data\processed\Germany\DFB Pokal\2024\merged_2024.csv
+2025-08-31 21:59:19,782 - src.process_pipeline - INFO - Successfully merged 63 records
+2025-08-31 21:59:19,797 - src.process_pipeline - INFO - Processing Greece/Super League/2021
+2025-08-31 21:59:19,814 - src.process_pipeline - INFO - Successfully merged 240 records with team statistics
+2025-08-31 21:59:19,823 - src.process_pipeline - INFO - Saved merged data to data\processed\Greece\Super League\2021\merged_2021.csv
+2025-08-31 21:59:19,823 - src.process_pipeline - INFO - Successfully merged 240 records
+2025-08-31 21:59:19,837 - src.process_pipeline - INFO - Processing Greece/Super League/2022
+2025-08-31 21:59:19,857 - src.process_pipeline - INFO - Successfully merged 240 records with team statistics
+2025-08-31 21:59:19,868 - src.process_pipeline - INFO - Saved merged data to data\processed\Greece\Super League\2022\merged_2022.csv
+2025-08-31 21:59:19,868 - src.process_pipeline - INFO - Successfully merged 240 records
+2025-08-31 21:59:19,883 - src.process_pipeline - INFO - Processing Greece/Super League/2023
+2025-08-31 21:59:19,905 - src.process_pipeline - INFO - Successfully merged 240 records with team statistics
+2025-08-31 21:59:19,918 - src.process_pipeline - INFO - Saved merged data to data\processed\Greece\Super League\2023\merged_2023.csv
+2025-08-31 21:59:19,919 - src.process_pipeline - INFO - Successfully merged 240 records
+2025-08-31 21:59:19,943 - src.process_pipeline - INFO - Processing Greece/Super League/2024
+2025-08-31 21:59:19,963 - src.process_pipeline - INFO - Successfully merged 236 records with team statistics
+2025-08-31 21:59:19,973 - src.process_pipeline - INFO - Saved merged data to data\processed\Greece\Super League\2024\merged_2024.csv
+2025-08-31 21:59:19,973 - src.process_pipeline - INFO - Successfully merged 236 records
+2025-08-31 21:59:19,988 - src.process_pipeline - INFO - Processing Greece/Super League/2025
+2025-08-31 21:59:19,989 - src.process_pipeline - WARNING - Missing team stats file: data\extracted\Greece\Super League\2025\team_statistics.csv
+2025-08-31 21:59:19,989 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2018
+2025-08-31 21:59:20,004 - src.process_pipeline - INFO - Successfully merged 61 records with team statistics
+2025-08-31 21:59:20,009 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Coppa Italia\2018\merged_2018.csv
+2025-08-31 21:59:20,009 - src.process_pipeline - INFO - Successfully merged 61 records
+2025-08-31 21:59:20,026 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2019
+2025-08-31 21:59:20,027 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\Italy\Coppa Italia\2019\fixture_events.csv
+2025-08-31 21:59:20,027 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2020
+2025-08-31 21:59:20,040 - src.process_pipeline - INFO - Successfully merged 79 records with team statistics
+2025-08-31 21:59:20,046 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Coppa Italia\2020\merged_2020.csv
+2025-08-31 21:59:20,046 - src.process_pipeline - INFO - Successfully merged 79 records
+2025-08-31 21:59:20,066 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2021
+2025-08-31 21:59:20,086 - src.process_pipeline - INFO - Successfully merged 45 records with team statistics
+2025-08-31 21:59:20,090 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Coppa Italia\2021\merged_2021.csv
+2025-08-31 21:59:20,090 - src.process_pipeline - INFO - Successfully merged 45 records
+2025-08-31 21:59:20,105 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2022
+2025-08-31 21:59:20,119 - src.process_pipeline - INFO - Successfully merged 41 records with team statistics
+2025-08-31 21:59:20,123 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Coppa Italia\2022\merged_2022.csv
+2025-08-31 21:59:20,123 - src.process_pipeline - INFO - Successfully merged 41 records
+2025-08-31 21:59:20,154 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2023
+2025-08-31 21:59:20,169 - src.process_pipeline - INFO - Successfully merged 45 records with team statistics
+2025-08-31 21:59:20,174 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Coppa Italia\2023\merged_2023.csv
+2025-08-31 21:59:20,174 - src.process_pipeline - INFO - Successfully merged 45 records
+2025-08-31 21:59:20,192 - src.process_pipeline - INFO - Processing Italy/Coppa Italia/2024
+2025-08-31 21:59:20,208 - src.process_pipeline - INFO - Successfully merged 45 records with team statistics
+2025-08-31 21:59:20,212 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Coppa Italia\2024\merged_2024.csv
+2025-08-31 21:59:20,212 - src.process_pipeline - INFO - Successfully merged 45 records
+2025-08-31 21:59:20,228 - src.process_pipeline - INFO - Processing Italy/Serie A/2016
+2025-08-31 21:59:20,245 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:20,258 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2016\merged_2016.csv
+2025-08-31 21:59:20,258 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:20,270 - src.process_pipeline - INFO - Processing Italy/Serie A/2017
+2025-08-31 21:59:20,290 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:20,304 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2017\merged_2017.csv
+2025-08-31 21:59:20,304 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:20,318 - src.process_pipeline - INFO - Processing Italy/Serie A/2018
+2025-08-31 21:59:20,339 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:20,353 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2018\merged_2018.csv
+2025-08-31 21:59:20,353 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:20,370 - src.process_pipeline - INFO - Processing Italy/Serie A/2019
+2025-08-31 21:59:20,390 - src.process_pipeline - INFO - Successfully merged 256 records with team statistics
+2025-08-31 21:59:20,400 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2019\merged_2019.csv
+2025-08-31 21:59:20,400 - src.process_pipeline - INFO - Successfully merged 256 records
+2025-08-31 21:59:20,417 - src.process_pipeline - INFO - Processing Italy/Serie A/2020
+2025-08-31 21:59:20,434 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:20,446 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2020\merged_2020.csv
+2025-08-31 21:59:20,446 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:20,463 - src.process_pipeline - INFO - Processing Italy/Serie A/2021
+2025-08-31 21:59:20,480 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:20,492 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2021\merged_2021.csv
+2025-08-31 21:59:20,492 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:20,508 - src.process_pipeline - INFO - Processing Italy/Serie A/2022
+2025-08-31 21:59:20,528 - src.process_pipeline - INFO - Successfully merged 370 records with team statistics
+2025-08-31 21:59:20,539 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2022\merged_2022.csv
+2025-08-31 21:59:20,539 - src.process_pipeline - INFO - Successfully merged 370 records
+2025-08-31 21:59:20,553 - src.process_pipeline - INFO - Processing Italy/Serie A/2023
+2025-08-31 21:59:20,572 - src.process_pipeline - INFO - Successfully merged 379 records with team statistics
+2025-08-31 21:59:20,583 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2023\merged_2023.csv
+2025-08-31 21:59:20,583 - src.process_pipeline - INFO - Successfully merged 379 records
+2025-08-31 21:59:20,602 - src.process_pipeline - INFO - Processing Italy/Serie A/2024
+2025-08-31 21:59:20,622 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:20,636 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2024\merged_2024.csv
+2025-08-31 21:59:20,636 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:20,652 - src.process_pipeline - INFO - Processing Italy/Serie A/2025
+2025-08-31 21:59:20,666 - src.process_pipeline - INFO - Successfully merged 18 records with team statistics
+2025-08-31 21:59:20,669 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie A\2025\merged_2025.csv
+2025-08-31 21:59:20,669 - src.process_pipeline - INFO - Successfully merged 18 records
+2025-08-31 21:59:20,698 - src.process_pipeline - INFO - Processing Italy/Serie B/2017
+2025-08-31 21:59:20,716 - src.process_pipeline - INFO - Successfully merged 464 records with team statistics
+2025-08-31 21:59:20,732 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2017\merged_2017.csv
+2025-08-31 21:59:20,732 - src.process_pipeline - INFO - Successfully merged 464 records
+2025-08-31 21:59:20,747 - src.process_pipeline - INFO - Processing Italy/Serie B/2018
+2025-08-31 21:59:20,747 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\Italy\Serie B\2018\fixture_events.csv
+2025-08-31 21:59:20,748 - src.process_pipeline - INFO - Processing Italy/Serie B/2019
+2025-08-31 21:59:20,765 - src.process_pipeline - INFO - Successfully merged 279 records with team statistics
+2025-08-31 21:59:20,775 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2019\merged_2019.csv
+2025-08-31 21:59:20,775 - src.process_pipeline - INFO - Successfully merged 279 records
+2025-08-31 21:59:20,795 - src.process_pipeline - INFO - Processing Italy/Serie B/2020
+2025-08-31 21:59:20,817 - src.process_pipeline - INFO - Successfully merged 388 records with team statistics
+2025-08-31 21:59:20,833 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2020\merged_2020.csv
+2025-08-31 21:59:20,833 - src.process_pipeline - INFO - Successfully merged 388 records
+2025-08-31 21:59:20,856 - src.process_pipeline - INFO - Processing Italy/Serie B/2021
+2025-08-31 21:59:20,877 - src.process_pipeline - INFO - Successfully merged 390 records with team statistics
+2025-08-31 21:59:20,890 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2021\merged_2021.csv
+2025-08-31 21:59:20,890 - src.process_pipeline - INFO - Successfully merged 390 records
+2025-08-31 21:59:20,915 - src.process_pipeline - INFO - Processing Italy/Serie B/2022
+2025-08-31 21:59:20,938 - src.process_pipeline - INFO - Successfully merged 385 records with team statistics
+2025-08-31 21:59:20,961 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2022\merged_2022.csv
+2025-08-31 21:59:20,962 - src.process_pipeline - INFO - Successfully merged 385 records
+2025-08-31 21:59:20,977 - src.process_pipeline - INFO - Processing Italy/Serie B/2023
+2025-08-31 21:59:20,998 - src.process_pipeline - INFO - Successfully merged 389 records with team statistics
+2025-08-31 21:59:21,011 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2023\merged_2023.csv
+2025-08-31 21:59:21,011 - src.process_pipeline - INFO - Successfully merged 389 records
+2025-08-31 21:59:21,029 - src.process_pipeline - INFO - Processing Italy/Serie B/2024
+2025-08-31 21:59:21,049 - src.process_pipeline - INFO - Successfully merged 387 records with team statistics
+2025-08-31 21:59:21,066 - src.process_pipeline - INFO - Saved merged data to data\processed\Italy\Serie B\2024\merged_2024.csv
+2025-08-31 21:59:21,066 - src.process_pipeline - INFO - Successfully merged 387 records
+2025-08-31 21:59:21,093 - src.process_pipeline - INFO - Processing Italy/Serie B/2025
+2025-08-31 21:59:21,093 - src.process_pipeline - WARNING - Missing fixtures file: data\extracted\Italy\Serie B\2025\fixture_events.csv
+2025-08-31 21:59:21,093 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2018
+2025-08-31 21:59:21,108 - src.process_pipeline - INFO - Successfully merged 71 records with team statistics
+2025-08-31 21:59:21,113 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2018\merged_2018.csv
+2025-08-31 21:59:21,114 - src.process_pipeline - INFO - Successfully merged 71 records
+2025-08-31 21:59:21,139 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2019
+2025-08-31 21:59:21,153 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-08-31 21:59:21,162 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2019\merged_2019.csv
+2025-08-31 21:59:21,162 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-08-31 21:59:21,192 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2020
+2025-08-31 21:59:21,210 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-08-31 21:59:21,221 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2020\merged_2020.csv
+2025-08-31 21:59:21,221 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-08-31 21:59:21,246 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2021
+2025-08-31 21:59:21,264 - src.process_pipeline - INFO - Successfully merged 127 records with team statistics
+2025-08-31 21:59:21,272 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2021\merged_2021.csv
+2025-08-31 21:59:21,272 - src.process_pipeline - INFO - Successfully merged 127 records
+2025-08-31 21:59:21,299 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2022
+2025-08-31 21:59:21,316 - src.process_pipeline - INFO - Successfully merged 125 records with team statistics
+2025-08-31 21:59:21,322 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2022\merged_2022.csv
+2025-08-31 21:59:21,322 - src.process_pipeline - INFO - Successfully merged 125 records
+2025-08-31 21:59:21,344 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2023
+2025-08-31 21:59:21,359 - src.process_pipeline - INFO - Successfully merged 126 records with team statistics
+2025-08-31 21:59:21,366 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2023\merged_2023.csv
+2025-08-31 21:59:21,366 - src.process_pipeline - INFO - Successfully merged 126 records
+2025-08-31 21:59:21,496 - src.process_pipeline - INFO - Processing Spain/Copa del Rey/2024
+2025-08-31 21:59:21,511 - src.process_pipeline - INFO - Successfully merged 126 records with team statistics
+2025-08-31 21:59:21,517 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Copa del Rey\2024\merged_2024.csv
+2025-08-31 21:59:21,517 - src.process_pipeline - INFO - Successfully merged 126 records
+2025-08-31 21:59:21,537 - src.process_pipeline - INFO - Processing Spain/La Liga/2020
+2025-08-31 21:59:21,564 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:21,578 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2020\merged_2020.csv
+2025-08-31 21:59:21,578 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:21,599 - src.process_pipeline - INFO - Processing Spain/La Liga/2021
+2025-08-31 21:59:21,618 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:21,631 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2021\merged_2021.csv
+2025-08-31 21:59:21,632 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:21,656 - src.process_pipeline - INFO - Processing Spain/La Liga/2022
+2025-08-31 21:59:21,678 - src.process_pipeline - INFO - Successfully merged 370 records with team statistics
+2025-08-31 21:59:21,691 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2022\merged_2022.csv
+2025-08-31 21:59:21,691 - src.process_pipeline - INFO - Successfully merged 370 records
+2025-08-31 21:59:21,718 - src.process_pipeline - INFO - Processing Spain/La Liga/2023
+2025-08-31 21:59:21,739 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:21,755 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2023\merged_2023.csv
+2025-08-31 21:59:21,755 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:21,791 - src.process_pipeline - INFO - Processing Spain/La Liga/2024
+2025-08-31 21:59:21,817 - src.process_pipeline - INFO - Successfully merged 380 records with team statistics
+2025-08-31 21:59:21,833 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2024\merged_2024.csv
+2025-08-31 21:59:21,834 - src.process_pipeline - INFO - Successfully merged 380 records
+2025-08-31 21:59:21,856 - src.process_pipeline - INFO - Processing Spain/La Liga/2025
+2025-08-31 21:59:21,869 - src.process_pipeline - INFO - Successfully merged 28 records with team statistics
+2025-08-31 21:59:21,872 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\La Liga\2025\merged_2025.csv
+2025-08-31 21:59:21,872 - src.process_pipeline - INFO - Successfully merged 28 records
+2025-08-31 21:59:21,900 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2017
+2025-08-31 21:59:21,922 - src.process_pipeline - INFO - Successfully merged 468 records with team statistics
+2025-08-31 21:59:21,944 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2017\merged_2017.csv
+2025-08-31 21:59:21,944 - src.process_pipeline - INFO - Successfully merged 468 records
+2025-08-31 21:59:21,969 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2018
+2025-08-31 21:59:21,995 - src.process_pipeline - INFO - Successfully merged 466 records with team statistics
+2025-08-31 21:59:22,026 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2018\merged_2018.csv
+2025-08-31 21:59:22,028 - src.process_pipeline - INFO - Successfully merged 466 records
+2025-08-31 21:59:22,063 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2019
+2025-08-31 21:59:22,106 - src.process_pipeline - INFO - Successfully merged 398 records with team statistics
+2025-08-31 21:59:22,133 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2019\merged_2019.csv
+2025-08-31 21:59:22,134 - src.process_pipeline - INFO - Successfully merged 398 records
+2025-08-31 21:59:22,174 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2020
+2025-08-31 21:59:22,221 - src.process_pipeline - INFO - Successfully merged 468 records with team statistics
+2025-08-31 21:59:22,244 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2020\merged_2020.csv
+2025-08-31 21:59:22,245 - src.process_pipeline - INFO - Successfully merged 468 records
+2025-08-31 21:59:22,275 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2021
+2025-08-31 21:59:22,304 - src.process_pipeline - INFO - Successfully merged 468 records with team statistics
+2025-08-31 21:59:22,337 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2021\merged_2021.csv
+2025-08-31 21:59:22,337 - src.process_pipeline - INFO - Successfully merged 468 records
+2025-08-31 21:59:22,374 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2022
+2025-08-31 21:59:22,418 - src.process_pipeline - INFO - Successfully merged 468 records with team statistics
+2025-08-31 21:59:22,438 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2022\merged_2022.csv
+2025-08-31 21:59:22,438 - src.process_pipeline - INFO - Successfully merged 468 records
+2025-08-31 21:59:22,461 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2023
+2025-08-31 21:59:22,485 - src.process_pipeline - INFO - Successfully merged 468 records with team statistics
+2025-08-31 21:59:22,518 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2023\merged_2023.csv
+2025-08-31 21:59:22,518 - src.process_pipeline - INFO - Successfully merged 468 records
+2025-08-31 21:59:22,551 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2024
+2025-08-31 21:59:22,576 - src.process_pipeline - INFO - Successfully merged 468 records with team statistics
+2025-08-31 21:59:22,601 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2024\merged_2024.csv
+2025-08-31 21:59:22,601 - src.process_pipeline - INFO - Successfully merged 468 records
+2025-08-31 21:59:22,628 - src.process_pipeline - INFO - Processing Spain/Segunda Division/2025
+2025-08-31 21:59:22,640 - src.process_pipeline - INFO - Successfully merged 11 records with team statistics
+2025-08-31 21:59:22,643 - src.process_pipeline - INFO - Saved merged data to data\processed\Spain\Segunda Division\2025\merged_2025.csv
+2025-08-31 21:59:22,644 - src.process_pipeline - INFO - Successfully merged 11 records
+2025-08-31 21:59:29,748 - src.process_pipeline - INFO - Starting preprocessing and feature engineering
+2025-08-31 21:59:29,749 - src.process_pipeline - INFO - Initial data shape: (37771, 71)
+2025-08-31 21:59:29,749 - src.process_pipeline - INFO - Cleaning data
+2025-08-31 21:59:34,046 - src.process_pipeline - INFO - Adding competition info from league names
+2025-08-31 21:59:34,370 - src.process_pipeline - INFO - Competition Distribution:
+2025-08-31 21:59:34,370 - src.process_pipeline - INFO -   Cup matches: 4343 (11.6%)
+2025-08-31 21:59:34,370 - src.process_pipeline - INFO -   European matches: 8954 (23.9%)
+2025-08-31 21:59:34,370 - src.process_pipeline - INFO -   League matches: 24200 (64.5%)
+2025-08-31 21:59:34,380 - src.process_pipeline - INFO - Adding competition context
+2025-08-31 21:59:36,626 - src.process_pipeline - INFO - Adding competition metrics
+2025-08-31 21:59:37,939 - src.process_pipeline - INFO - Calculating proper standings for 37497 matches...
+2025-08-31 21:59:38,691 - src.process_pipeline - INFO - Standings progress: 2.7% (1000/37497)
+2025-08-31 21:59:39,349 - src.process_pipeline - INFO - Standings progress: 5.3% (2000/37497)
+2025-08-31 21:59:40,017 - src.process_pipeline - INFO - Standings progress: 8.0% (3000/37497)
+2025-08-31 21:59:40,634 - src.process_pipeline - INFO - Standings progress: 10.7% (4000/37497)
+2025-08-31 21:59:41,215 - src.process_pipeline - INFO - Standings progress: 13.3% (5000/37497)
+2025-08-31 21:59:41,884 - src.process_pipeline - INFO - Standings progress: 16.0% (6000/37497)
+2025-08-31 21:59:42,478 - src.process_pipeline - INFO - Standings progress: 18.7% (7000/37497)
+2025-08-31 21:59:43,078 - src.process_pipeline - INFO - Standings progress: 21.3% (8000/37497)
+2025-08-31 21:59:43,680 - src.process_pipeline - INFO - Standings progress: 24.0% (9000/37497)
+2025-08-31 21:59:44,282 - src.process_pipeline - INFO - Standings progress: 26.7% (10000/37497)
+2025-08-31 21:59:44,972 - src.process_pipeline - INFO - Standings progress: 29.3% (11000/37497)
+2025-08-31 21:59:45,681 - src.process_pipeline - INFO - Standings progress: 32.0% (12000/37497)
+2025-08-31 21:59:46,343 - src.process_pipeline - INFO - Standings progress: 34.7% (13000/37497)
+2025-08-31 21:59:47,011 - src.process_pipeline - INFO - Standings progress: 37.3% (14000/37497)
+2025-08-31 21:59:47,701 - src.process_pipeline - INFO - Standings progress: 40.0% (15000/37497)
+2025-08-31 21:59:48,372 - src.process_pipeline - INFO - Standings progress: 42.7% (16000/37497)
+2025-08-31 21:59:49,162 - src.process_pipeline - INFO - Standings progress: 45.3% (17000/37497)
+2025-08-31 21:59:50,138 - src.process_pipeline - INFO - Standings progress: 48.0% (18000/37497)
+2025-08-31 21:59:50,989 - src.process_pipeline - INFO - Standings progress: 50.7% (19000/37497)
+2025-08-31 21:59:51,852 - src.process_pipeline - INFO - Standings progress: 53.3% (20000/37497)
+2025-08-31 21:59:52,661 - src.process_pipeline - INFO - Standings progress: 56.0% (21000/37497)
+2025-08-31 21:59:53,498 - src.process_pipeline - INFO - Standings progress: 58.7% (22000/37497)
+2025-08-31 21:59:54,390 - src.process_pipeline - INFO - Standings progress: 61.3% (23000/37497)
+2025-08-31 21:59:55,800 - src.process_pipeline - INFO - Standings progress: 64.0% (24000/37497)
+2025-08-31 21:59:56,742 - src.process_pipeline - INFO - Standings progress: 66.7% (25000/37497)
+2025-08-31 21:59:57,591 - src.process_pipeline - INFO - Standings progress: 69.3% (26000/37497)
+2025-08-31 21:59:58,454 - src.process_pipeline - INFO - Standings progress: 72.0% (27000/37497)
+2025-08-31 21:59:59,302 - src.process_pipeline - INFO - Standings progress: 74.7% (28000/37497)
+2025-08-31 22:00:00,169 - src.process_pipeline - INFO - Standings progress: 77.3% (29000/37497)
+2025-08-31 22:00:01,076 - src.process_pipeline - INFO - Standings progress: 80.0% (30000/37497)
+2025-08-31 22:00:01,940 - src.process_pipeline - INFO - Standings progress: 82.7% (31000/37497)
+2025-08-31 22:00:02,811 - src.process_pipeline - INFO - Standings progress: 85.3% (32000/37497)
+2025-08-31 22:00:03,699 - src.process_pipeline - INFO - Standings progress: 88.0% (33000/37497)
+2025-08-31 22:00:04,604 - src.process_pipeline - INFO - Standings progress: 90.7% (34000/37497)
+2025-08-31 22:00:05,579 - src.process_pipeline - INFO - Standings progress: 93.3% (35000/37497)
+2025-08-31 22:00:06,580 - src.process_pipeline - INFO - Standings progress: 96.0% (36000/37497)
+2025-08-31 22:00:07,744 - src.process_pipeline - INFO - Standings progress: 98.7% (37000/37497)
+2025-08-31 22:00:08,357 - src.process_pipeline - INFO - Standings progress: 100.0% (37497/37497)
+2025-08-31 22:00:10,729 - src.process_pipeline - INFO - Dropped 6 non rolled standings metrics
+2025-08-31 22:00:42,439 - src.process_pipeline - INFO - Completed: Processing 37455 matches...

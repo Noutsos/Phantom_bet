@@ -1,0 +1,50 @@
+2025-08-29 21:18:28,257 - src.train_pipeline - INFO - Starting training with model: xgboost, feature selection: rfe with 70 features
+2025-08-29 21:18:28,258 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-08-29 21:18:28,277 - src.train_pipeline - INFO - Filtered to 22853 completed matches
+2025-08-29 21:18:28,311 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-08-29 21:18:28,311 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-08-29 21:18:28,318 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-08-29 21:18:28,318 - src.train_pipeline - INFO - Preparing features...
+2025-08-29 21:18:28,343 - src.train_pipeline - INFO - Removed 33 potential leakage columns
+2025-08-29 21:18:28,483 - src.train_pipeline - INFO - Feature preparation complete. Final features: 132
+2025-08-29 21:18:28,483 - src.train_pipeline - INFO - Data preparation complete. Features: 132, Samples: 22853
+2025-08-29 21:18:28,486 - src.train_pipeline - INFO - Time Series Split - Training: 18283, Holdout: 4570
+2025-08-29 21:18:28,486 - src.train_pipeline - INFO - Using custom class weights: {0: 1.0, 1: 1.2, 2: 1.0}
+2025-08-29 21:18:28,490 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-08-29 21:18:28,531 - src.train_pipeline - INFO - Numerical features: 132, Categorical features: 0
+2025-08-29 21:18:28,531 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-08-29 21:18:28,532 - src.train_pipeline - INFO - Using feature selection method: rfe with top 70 features
+2025-08-29 21:18:28,532 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-08-29 21:18:28,532 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-08-29 21:18:28,532 - src.train_pipeline - INFO - Starting cross-validation...
+2025-08-29 21:18:28,532 - src.train_pipeline - INFO - Processing fold 1/5
+2025-08-29 21:18:28,580 - src.train_pipeline - INFO - RandomOverSampler applied: 3821 samples
+2025-08-29 21:18:28,581 - src.train_pipeline - ERROR - Model fitting failed: Pipeline.fit does not accept the sample_weight parameter. You can pass parameters to specific steps of your pipeline using the stepname__parameter format, e.g. `Pipeline.fit(X, y, logisticregression__sample_weight=sample_weight)`.
+2025-08-29 21:18:28,581 - src.train_pipeline - ERROR - X_train shape: (3821, 132), y_train shape: (3821,)
+2025-08-29 21:18:28,581 - src.train_pipeline - ERROR - sample_weight shape: (3048,)
+2025-08-29 21:18:28,598 - src.train_pipeline - INFO - Processing fold 2/5
+2025-08-29 21:18:28,674 - src.train_pipeline - INFO - RandomOverSampler applied: 6129 samples
+2025-08-29 21:18:28,674 - src.train_pipeline - ERROR - Model fitting failed: Pipeline.fit does not accept the sample_weight parameter. You can pass parameters to specific steps of your pipeline using the stepname__parameter format, e.g. `Pipeline.fit(X, y, logisticregression__sample_weight=sample_weight)`.
+2025-08-29 21:18:28,674 - src.train_pipeline - ERROR - X_train shape: (6129, 132), y_train shape: (6129,)
+2025-08-29 21:18:28,674 - src.train_pipeline - ERROR - sample_weight shape: (6095,)
+2025-08-29 21:18:28,684 - src.train_pipeline - INFO - Processing fold 3/5
+2025-08-29 21:18:28,715 - src.train_pipeline - WARNING - Oversampling failed: With over-sampling methods, the number of samples in a class should be greater or equal to the original number of samples. Originally, there is 2250 samples and 1500 samples are asked.
+2025-08-29 21:18:28,715 - src.train_pipeline - ERROR - Model fitting failed: Pipeline.fit does not accept the sample_weight parameter. You can pass parameters to specific steps of your pipeline using the stepname__parameter format, e.g. `Pipeline.fit(X, y, logisticregression__sample_weight=sample_weight)`.
+2025-08-29 21:18:28,716 - src.train_pipeline - ERROR - X_train shape: (9142, 132), y_train shape: (9142,)
+2025-08-29 21:18:28,716 - src.train_pipeline - ERROR - sample_weight shape: (9142,)
+2025-08-29 21:18:28,724 - src.train_pipeline - INFO - Processing fold 4/5
+2025-08-29 21:18:28,750 - src.train_pipeline - WARNING - Oversampling failed: With over-sampling methods, the number of samples in a class should be greater or equal to the original number of samples. Originally, there is 3024 samples and 1500 samples are asked.
+2025-08-29 21:18:28,751 - src.train_pipeline - ERROR - Model fitting failed: Pipeline.fit does not accept the sample_weight parameter. You can pass parameters to specific steps of your pipeline using the stepname__parameter format, e.g. `Pipeline.fit(X, y, logisticregression__sample_weight=sample_weight)`.
+2025-08-29 21:18:28,751 - src.train_pipeline - ERROR - X_train shape: (12189, 132), y_train shape: (12189,)
+2025-08-29 21:18:28,751 - src.train_pipeline - ERROR - sample_weight shape: (12189,)
+2025-08-29 21:18:28,760 - src.train_pipeline - INFO - Processing fold 5/5
+2025-08-29 21:18:28,789 - src.train_pipeline - WARNING - Oversampling failed: With over-sampling methods, the number of samples in a class should be greater or equal to the original number of samples. Originally, there is 3830 samples and 1500 samples are asked.
+2025-08-29 21:18:28,790 - src.train_pipeline - ERROR - Model fitting failed: Pipeline.fit does not accept the sample_weight parameter. You can pass parameters to specific steps of your pipeline using the stepname__parameter format, e.g. `Pipeline.fit(X, y, logisticregression__sample_weight=sample_weight)`.
+2025-08-29 21:18:28,790 - src.train_pipeline - ERROR - X_train shape: (15236, 132), y_train shape: (15236,)
+2025-08-29 21:18:28,790 - src.train_pipeline - ERROR - sample_weight shape: (15236,)
+2025-08-29 21:18:28,799 - src.train_pipeline - INFO - Training final model on full training period...
+2025-08-29 21:19:11,807 - src.train_pipeline - INFO - Evaluating on holdout period...
+2025-08-29 21:19:11,861 - src.train_pipeline - INFO - Holdout Accuracy: 0.7271
+2025-08-29 21:19:11,861 - src.train_pipeline - INFO - Saving model artifacts...
+2025-08-29 21:19:11,908 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-08-29 21:19:11,909 - src.train_pipeline - INFO - Training completed successfully!

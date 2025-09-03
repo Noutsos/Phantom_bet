@@ -1,0 +1,1262 @@
+[
+  {
+    "fixture": {
+      "id": 1388614,
+      "referee": "Richard Hempel",
+      "timezone": "UTC",
+      "date": "2025-08-01T18:30:00+00:00",
+      "timestamp": 1754073000,
+      "periods": {
+        "first": 1754073000,
+        "second": 1754076600
+      },
+      "venue": {
+        "id": 741,
+        "name": "VELTINS-Arena",
+        "city": "Gelsenkirchen"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png",
+        "winner": true
+      },
+      "away": {
+        "id": 159,
+        "name": "Hertha BSC",
+        "logo": "https://media.api-sports.io/football/teams/159.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388617,
+      "referee": "Max Burda",
+      "timezone": "UTC",
+      "date": "2025-08-02T11:00:00+00:00",
+      "timestamp": 1754132400,
+      "periods": {
+        "first": 1754132400,
+        "second": 1754136000
+      },
+      "venue": {
+        "id": 705,
+        "name": "Merck-Stadion am B\u00f6llenfalltor",
+        "city": "Darmstadt"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 181,
+        "name": "SV Darmstadt 98",
+        "logo": "https://media.api-sports.io/football/teams/181.png",
+        "winner": true
+      },
+      "away": {
+        "id": 176,
+        "name": "VfL Bochum",
+        "logo": "https://media.api-sports.io/football/teams/176.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 4,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 4,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388615,
+      "referee": "Felix Prigan",
+      "timezone": "UTC",
+      "date": "2025-08-02T11:00:00+00:00",
+      "timestamp": 1754132400,
+      "periods": {
+        "first": 1754132400,
+        "second": 1754136000
+      },
+      "venue": {
+        "id": 18622,
+        "name": "Home Deluxe Arena",
+        "city": "Paderborn"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 11
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 185,
+        "name": "SC Paderborn 07",
+        "logo": "https://media.api-sports.io/football/teams/185.png",
+        "winner": true
+      },
+      "away": {
+        "id": 191,
+        "name": "Holstein Kiel",
+        "logo": "https://media.api-sports.io/football/teams/191.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388621,
+      "referee": "Robert Kampka",
+      "timezone": "UTC",
+      "date": "2025-08-02T11:00:00+00:00",
+      "timestamp": 1754132400,
+      "periods": {
+        "first": 1754132400,
+        "second": 1754136000
+      },
+      "venue": {
+        "id": 11900,
+        "name": "BBBank Wildpark",
+        "city": "Karlsruhe"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 785,
+        "name": "Karlsruher SC",
+        "logo": "https://media.api-sports.io/football/teams/785.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1313,
+        "name": "Preu\u00dfen M\u00fcnster",
+        "logo": "https://media.api-sports.io/football/teams/1313.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388618,
+      "referee": "Eric-Dominic Weisbach",
+      "timezone": "UTC",
+      "date": "2025-08-02T11:00:00+00:00",
+      "timestamp": 1754132400,
+      "periods": {
+        "first": 1754132400,
+        "second": 1754136000
+      },
+      "venue": {
+        "id": 710,
+        "name": "URSAPHARM-Arena an der Kaiserlinde",
+        "city": "Spiesen-Elversberg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1660,
+        "name": "SV Elversberg",
+        "logo": "https://media.api-sports.io/football/teams/1660.png",
+        "winner": true
+      },
+      "away": {
+        "id": 171,
+        "name": "1. FC N\u00fcrnberg",
+        "logo": "https://media.api-sports.io/football/teams/171.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388616,
+      "referee": "Patrick Alt",
+      "timezone": "UTC",
+      "date": "2025-08-02T18:30:00+00:00",
+      "timestamp": 1754159400,
+      "periods": {
+        "first": 1754159400,
+        "second": 1754163000
+      },
+      "venue": {
+        "id": 697,
+        "name": "Sch\u00fccoArena",
+        "city": "Bielefeld"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 10
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 188,
+        "name": "Arminia Bielefeld",
+        "logo": "https://media.api-sports.io/football/teams/188.png",
+        "winner": true
+      },
+      "away": {
+        "id": 158,
+        "name": "Fortuna D\u00fcsseldorf",
+        "logo": "https://media.api-sports.io/football/teams/158.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 5,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 5,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388620,
+      "referee": "Michael Bacher",
+      "timezone": "UTC",
+      "date": "2025-08-03T11:30:00+00:00",
+      "timestamp": 1754220600,
+      "periods": {
+        "first": 1754220600,
+        "second": 1754224200
+      },
+      "venue": {
+        "id": 18858,
+        "name": "Heinz von Heiden-Arena",
+        "city": "Hannover"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 3
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 166,
+        "name": "Hannover 96",
+        "logo": "https://media.api-sports.io/football/teams/166.png",
+        "winner": true
+      },
+      "away": {
+        "id": 745,
+        "name": "1. FC Kaiserslautern",
+        "logo": "https://media.api-sports.io/football/teams/745.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388619,
+      "referee": "Lars Erbst",
+      "timezone": "UTC",
+      "date": "2025-08-03T11:30:00+00:00",
+      "timestamp": 1754220600,
+      "periods": {
+        "first": 1754220600,
+        "second": 1754224200
+      },
+      "venue": {
+        "id": 718,
+        "name": "Sportpark Ronhof Thomas Sommer",
+        "city": "F\u00fcrth"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 178,
+        "name": "SpVgg Greuther F\u00fcrth",
+        "logo": "https://media.api-sports.io/football/teams/178.png",
+        "winner": true
+      },
+      "away": {
+        "id": 183,
+        "name": "Dynamo Dresden",
+        "logo": "https://media.api-sports.io/football/teams/183.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388622,
+      "referee": "Tom Bauer",
+      "timezone": "UTC",
+      "date": "2025-08-03T11:30:00+00:00",
+      "timestamp": 1754220600,
+      "periods": {
+        "first": 1754220600,
+        "second": 1754224200
+      },
+      "venue": {
+        "id": 733,
+        "name": "Avnet Arena",
+        "city": "Magdeburg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 1",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 179,
+        "name": "1. FC Magdeburg",
+        "logo": "https://media.api-sports.io/football/teams/179.png",
+        "winner": false
+      },
+      "away": {
+        "id": 744,
+        "name": "Eintracht Braunschweig",
+        "logo": "https://media.api-sports.io/football/teams/744.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388628,
+      "referee": "Florian Lechner",
+      "timezone": "UTC",
+      "date": "2025-08-08T16:30:00+00:00",
+      "timestamp": 1754670600,
+      "periods": {
+        "first": 1754670600,
+        "second": 1754674200
+      },
+      "venue": {
+        "id": 713,
+        "name": "Max-Morlock-Stadion",
+        "city": "N\u00fcrnberg"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 6
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 171,
+        "name": "1. FC N\u00fcrnberg",
+        "logo": "https://media.api-sports.io/football/teams/171.png",
+        "winner": false
+      },
+      "away": {
+        "id": 181,
+        "name": "SV Darmstadt 98",
+        "logo": "https://media.api-sports.io/football/teams/181.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388629,
+      "referee": "Patrick Schwengers",
+      "timezone": "UTC",
+      "date": "2025-08-08T16:30:00+00:00",
+      "timestamp": 1754670600,
+      "periods": {
+        "first": 1754670600,
+        "second": 1754674200
+      },
+      "venue": {
+        "id": null,
+        "name": "LVM-Preu\u00dfenstadion",
+        "city": "M\u00fcnster"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 1313,
+        "name": "Preu\u00dfen M\u00fcnster",
+        "logo": "https://media.api-sports.io/football/teams/1313.png",
+        "winner": null
+      },
+      "away": {
+        "id": 185,
+        "name": "SC Paderborn 07",
+        "logo": "https://media.api-sports.io/football/teams/185.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 1
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 1
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388625,
+      "referee": "Wolfgang Haslberger",
+      "timezone": "UTC",
+      "date": "2025-08-09T11:00:00+00:00",
+      "timestamp": 1754737200,
+      "periods": {
+        "first": 1754737200,
+        "second": 1754740800
+      },
+      "venue": {
+        "id": 714,
+        "name": "Merkur Spiel-Arena",
+        "city": "D\u00fcsseldorf"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 9
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 158,
+        "name": "Fortuna D\u00fcsseldorf",
+        "logo": "https://media.api-sports.io/football/teams/158.png",
+        "winner": false
+      },
+      "away": {
+        "id": 166,
+        "name": "Hannover 96",
+        "logo": "https://media.api-sports.io/football/teams/166.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388630,
+      "referee": "Timo Gansloweit",
+      "timezone": "UTC",
+      "date": "2025-08-09T11:00:00+00:00",
+      "timestamp": 1754737200,
+      "periods": {
+        "first": 1754737200,
+        "second": 1754740800
+      },
+      "venue": {
+        "id": 707,
+        "name": "Rudolf-Harbig-Stadion",
+        "city": "Dresden"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 7
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 183,
+        "name": "Dynamo Dresden",
+        "logo": "https://media.api-sports.io/football/teams/183.png",
+        "winner": false
+      },
+      "away": {
+        "id": 179,
+        "name": "1. FC Magdeburg",
+        "logo": "https://media.api-sports.io/football/teams/179.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 1,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388624,
+      "referee": "Konrad Oldhfer",
+      "timezone": "UTC",
+      "date": "2025-08-09T11:00:00+00:00",
+      "timestamp": 1754737200,
+      "periods": {
+        "first": 1754737200,
+        "second": 1754740800
+      },
+      "venue": {
+        "id": 708,
+        "name": "Eintracht-Stadion",
+        "city": "Braunschweig"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 14
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 744,
+        "name": "Eintracht Braunschweig",
+        "logo": "https://media.api-sports.io/football/teams/744.png",
+        "winner": true
+      },
+      "away": {
+        "id": 178,
+        "name": "SpVgg Greuther F\u00fcrth",
+        "logo": "https://media.api-sports.io/football/teams/178.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 3,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 2,
+        "away": 1
+      },
+      "fulltime": {
+        "home": 3,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388627,
+      "referee": "Martin Petersen",
+      "timezone": "UTC",
+      "date": "2025-08-09T18:30:00+00:00",
+      "timestamp": 1754764200,
+      "periods": {
+        "first": 1754764200,
+        "second": 1754767800
+      },
+      "venue": {
+        "id": 728,
+        "name": "Fritz-Walter-Stadion",
+        "city": "Kaiserslautern"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 13
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 745,
+        "name": "1. FC Kaiserslautern",
+        "logo": "https://media.api-sports.io/football/teams/745.png",
+        "winner": true
+      },
+      "away": {
+        "id": 174,
+        "name": "FC Schalke 04",
+        "logo": "https://media.api-sports.io/football/teams/174.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 1,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 1,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388626,
+      "referee": "S\u00f6ren Storks",
+      "timezone": "UTC",
+      "date": "2025-08-10T11:30:00+00:00",
+      "timestamp": 1754825400,
+      "periods": {
+        "first": 1754825400,
+        "second": 1754829000
+      },
+      "venue": {
+        "id": 694,
+        "name": "Olympiastadion Berlin",
+        "city": "Berlin"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 159,
+        "name": "Hertha BSC",
+        "logo": "https://media.api-sports.io/football/teams/159.png",
+        "winner": null
+      },
+      "away": {
+        "id": 785,
+        "name": "Karlsruher SC",
+        "logo": "https://media.api-sports.io/football/teams/785.png",
+        "winner": null
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388623,
+      "referee": "Lukas Benen",
+      "timezone": "UTC",
+      "date": "2025-08-10T11:30:00+00:00",
+      "timestamp": 1754825400,
+      "periods": {
+        "first": 1754825400,
+        "second": 1754829000
+      },
+      "venue": {
+        "id": 751,
+        "name": "Vonovia Ruhrstadion",
+        "city": "Bochum"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 8
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 176,
+        "name": "VfL Bochum",
+        "logo": "https://media.api-sports.io/football/teams/176.png",
+        "winner": true
+      },
+      "away": {
+        "id": 1660,
+        "name": "SV Elversberg",
+        "logo": "https://media.api-sports.io/football/teams/1660.png",
+        "winner": false
+      }
+    },
+    "goals": {
+      "home": 2,
+      "away": 0
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 0
+      },
+      "fulltime": {
+        "home": 2,
+        "away": 0
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  },
+  {
+    "fixture": {
+      "id": 1388631,
+      "referee": "Daniel Schlager",
+      "timezone": "UTC",
+      "date": "2025-08-10T11:30:00+00:00",
+      "timestamp": 1754825400,
+      "periods": {
+        "first": 1754825400,
+        "second": 1754829000
+      },
+      "venue": {
+        "id": 725,
+        "name": "Holstein-Stadion",
+        "city": "Kiel"
+      },
+      "status": {
+        "long": "Match Finished",
+        "short": "FT",
+        "elapsed": 90,
+        "extra": 5
+      }
+    },
+    "league": {
+      "id": 79,
+      "name": "2. Bundesliga",
+      "country": "Germany",
+      "logo": "https://media.api-sports.io/football/leagues/79.png",
+      "flag": "https://media.api-sports.io/flags/de.svg",
+      "season": 2025,
+      "round": "Regular Season - 2",
+      "standings": true
+    },
+    "teams": {
+      "home": {
+        "id": 191,
+        "name": "Holstein Kiel",
+        "logo": "https://media.api-sports.io/football/teams/191.png",
+        "winner": false
+      },
+      "away": {
+        "id": 188,
+        "name": "Arminia Bielefeld",
+        "logo": "https://media.api-sports.io/football/teams/188.png",
+        "winner": true
+      }
+    },
+    "goals": {
+      "home": 0,
+      "away": 2
+    },
+    "score": {
+      "halftime": {
+        "home": 0,
+        "away": 2
+      },
+      "fulltime": {
+        "home": 0,
+        "away": 2
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
+]
