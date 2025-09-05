@@ -448,6 +448,7 @@ def run_processing(force_processing=True):
 def run_training():
     # Load processed data
     df = pd.read_csv(PIPELINE_CONFIG['final_output'])
+    df = df[df['season'] >= 2022]  # Filter for recent seasons
     
     # Get training config from session
     training_config = session.get('training_config', TRAIN_CONFIG)
@@ -477,7 +478,6 @@ def run_training():
         smote_strategy=training_config['smote_strategy']
     )
 
-    trainer.generate_visualizations()
 
 def run_prediction():
     predictor = PredictPipeline()

@@ -1,2 +1,0 @@
-model_type,feature_selection_method,holdout_accuracy,holdout_precision_macro,holdout_recall_macro,holdout_f1_macro,train_samples,holdout_samples,holdout_ratio
-gradient_boosting,rfe,0.7175054704595186,0.6875512352013536,0.6803422255400046,0.6790694622603576,18283,4570,0.2

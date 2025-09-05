@@ -1,0 +1,83 @@
+2025-09-04 17:23:00,372 - src.train_pipeline - INFO - Starting training for total_goals with model: xgboost, feature selection: rfe with 60 features
+2025-09-04 17:23:00,373 - src.train_pipeline - INFO - Preparing data with target column: total_goals
+2025-09-04 17:23:00,415 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-04 17:23:00,463 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-04 17:23:00,468 - src.train_pipeline - INFO - Auto-detected task type: regression
+2025-09-04 17:23:00,468 - src.train_pipeline - INFO - Preparing features...
+2025-09-04 17:23:00,524 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-04 17:23:00,743 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-04 17:23:00,743 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-04 17:23:00,751 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-04 17:23:00,751 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-04 17:23:00,824 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-04 17:23:00,824 - src.train_pipeline - INFO - Selected model class: xgboost for regression
+2025-09-04 17:23:00,825 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-04 17:23:00,825 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-04 17:23:00,825 - src.train_pipeline - INFO - Selected model class: xgboost for regression
+2025-09-04 17:23:00,825 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-04 17:23:00,825 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-04 17:23:07,288 - src.train_pipeline - INFO - Fold 1 - Test RMSE: 1.1684 - R²: 0.5246
+2025-09-04 17:23:07,290 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-04 17:23:18,180 - src.train_pipeline - INFO - Fold 2 - Test RMSE: 1.1311 - R²: 0.5389
+2025-09-04 17:23:18,183 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-04 17:23:33,471 - src.train_pipeline - INFO - Fold 3 - Test RMSE: 1.1075 - R²: 0.5637
+2025-09-04 17:23:33,475 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-04 17:23:53,974 - src.train_pipeline - INFO - Fold 4 - Test RMSE: 1.1145 - R²: 0.5497
+2025-09-04 17:23:53,978 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-04 17:24:19,618 - src.train_pipeline - INFO - Fold 5 - Test RMSE: 1.1271 - R²: 0.5703
+2025-09-04 17:24:19,623 - src.train_pipeline - INFO - Training final model on full training period...
+2025-09-04 17:24:48,891 - src.train_pipeline - INFO - Evaluating on holdout period...
+2025-09-04 17:24:48,943 - src.train_pipeline - INFO - Holdout RMSE: 1.1441, R²: 0.5447
+2025-09-04 17:24:48,943 - src.train_pipeline - INFO - Saving model artifacts...
+2025-09-04 17:24:48,980 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-09-04 17:24:48,980 - src.train_pipeline - INFO - Generating basic visualizations...
+2025-09-04 17:24:52,697 - src.train_pipeline - INFO - Basic visualizations generated successfully!
+2025-09-04 17:24:52,697 - src.train_pipeline - INFO - Training completed successfully!
+2025-09-04 17:27:54,013 - src.train_pipeline - INFO - Initialized MLPipeline for auto task
+2025-09-04 17:27:54,016 - src.train_pipeline - INFO - Starting training for total_goals with model: xgboost, feature selection: rfe with 60 features
+2025-09-04 17:27:54,016 - src.train_pipeline - INFO - Preparing data with target column: total_goals
+2025-09-04 17:27:54,049 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-04 17:27:54,102 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-04 17:27:54,105 - src.train_pipeline - INFO - Auto-detected task type: regression
+2025-09-04 17:27:54,105 - src.train_pipeline - INFO - Preparing features...
+2025-09-04 17:27:54,156 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-04 17:27:54,341 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-04 17:27:54,341 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-04 17:27:54,347 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-04 17:27:54,347 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-04 17:27:54,428 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-04 17:27:54,428 - src.train_pipeline - INFO - Selected model class: xgboost for regression
+2025-09-04 17:27:54,428 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-04 17:27:54,429 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-04 17:27:54,429 - src.train_pipeline - INFO - Selected model class: xgboost for regression
+2025-09-04 17:27:54,429 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-04 17:27:54,429 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-04 17:28:00,263 - src.train_pipeline - INFO - Fold 1 - Test RMSE: 1.1684 - R²: 0.5246
+2025-09-04 17:28:00,266 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-04 17:28:10,686 - src.train_pipeline - INFO - Fold 2 - Test RMSE: 1.1311 - R²: 0.5389
+2025-09-04 17:28:10,689 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-04 17:28:25,878 - src.train_pipeline - INFO - Fold 3 - Test RMSE: 1.1075 - R²: 0.5637
+2025-09-04 17:28:25,881 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-04 17:28:47,159 - src.train_pipeline - INFO - Fold 4 - Test RMSE: 1.1145 - R²: 0.5497
+2025-09-04 17:28:47,163 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-04 17:29:12,682 - src.train_pipeline - INFO - Fold 5 - Test RMSE: 1.1271 - R²: 0.5703
+2025-09-04 17:29:12,688 - src.train_pipeline - INFO - Training final model on full training period...
+2025-09-04 17:29:40,953 - src.train_pipeline - INFO - Evaluating on holdout period...
+2025-09-04 17:29:40,995 - src.train_pipeline - INFO - Holdout RMSE: 1.1441, R²: 0.5447
+2025-09-04 17:29:40,995 - src.train_pipeline - INFO - Saving model artifacts...
+2025-09-04 17:29:41,020 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-09-04 17:29:41,020 - src.train_pipeline - INFO - Generating basic visualizations...
+2025-09-04 17:29:43,797 - src.train_pipeline - INFO - Basic visualizations generated successfully!
+2025-09-04 17:29:43,797 - src.train_pipeline - INFO - Training completed successfully!
+2025-09-04 17:35:08,769 - src.train_pipeline - INFO - Initialized MLPipeline for auto task
+2025-09-04 17:35:08,772 - src.train_pipeline - INFO - Starting training for total_goals with model: xgboost, feature selection: rfe with 60 features
+2025-09-04 17:35:08,773 - src.train_pipeline - INFO - Preparing data with target column: total_goals
+2025-09-04 17:35:08,812 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-04 17:35:08,869 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-04 17:35:08,877 - src.train_pipeline - INFO - Auto-detected task type: regression
+2025-09-04 17:35:08,877 - src.train_pipeline - INFO - Preparing features...
+2025-09-04 17:35:08,936 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-04 17:35:09,156 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-04 17:35:09,156 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-04 17:35:09,162 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-04 17:35:09,162 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection

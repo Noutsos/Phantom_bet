@@ -1,0 +1,63 @@
+2025-09-04 18:10:55,404 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-04 18:10:55,404 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-04 18:10:55,430 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-04 18:10:55,474 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-04 18:10:55,475 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-04 18:10:55,483 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-04 18:10:55,484 - src.train_pipeline - INFO - Preparing features...
+2025-09-04 18:10:55,515 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-04 18:10:55,688 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-04 18:10:55,688 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-04 18:10:55,694 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-04 18:10:55,694 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-04 18:10:55,752 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-04 18:10:55,752 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-04 18:10:55,753 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-04 18:10:55,753 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-04 18:10:55,753 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-04 18:10:55,753 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-04 18:10:55,754 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-04 18:11:10,581 - src.train_pipeline - INFO - Fold 1 - Test Accuracy: 0.6868 - F1 Macro: 0.6499
+2025-09-04 18:11:10,584 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-04 18:11:37,500 - src.train_pipeline - INFO - Fold 2 - Test Accuracy: 0.7003 - F1 Macro: 0.6599
+2025-09-04 18:11:37,503 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-04 18:12:16,939 - src.train_pipeline - INFO - Fold 3 - Test Accuracy: 0.7142 - F1 Macro: 0.6805
+2025-09-04 18:12:16,943 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-04 18:13:11,357 - src.train_pipeline - INFO - Fold 4 - Test Accuracy: 0.7183 - F1 Macro: 0.6823
+2025-09-04 18:13:11,362 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-04 18:14:17,285 - src.train_pipeline - INFO - Fold 5 - Test Accuracy: 0.7191 - F1 Macro: 0.6767
+2025-09-04 18:14:17,290 - src.train_pipeline - INFO - Training final model on full training period...
+2025-09-04 18:15:35,176 - src.train_pipeline - INFO - Evaluating on holdout period...
+2025-09-04 18:15:35,249 - src.train_pipeline - INFO - Holdout Accuracy: 0.6990
+2025-09-04 18:15:35,249 - src.train_pipeline - INFO - Saving model artifacts...
+2025-09-04 18:15:35,289 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-09-04 18:15:35,290 - src.train_pipeline - INFO - Generating basic visualizations...
+2025-09-04 18:15:38,836 - src.train_pipeline - WARNING - Error generating probability plots: 'Series' object has no attribute 'logger'
+2025-09-04 18:15:38,875 - src.train_pipeline - INFO - Basic visualizations generated successfully!
+2025-09-04 18:15:38,875 - src.train_pipeline - INFO - Training completed successfully!
+2025-09-04 18:46:17,717 - src.train_pipeline - INFO - Initialized MLPipeline for auto task
+2025-09-04 18:46:17,720 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-04 18:46:17,720 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-04 18:46:17,748 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-04 18:46:17,795 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-04 18:46:17,796 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-04 18:46:17,806 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-04 18:46:17,806 - src.train_pipeline - INFO - Preparing features...
+2025-09-04 18:46:17,843 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-04 18:46:18,038 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-04 18:46:18,038 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-04 18:46:18,045 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-04 18:46:18,046 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-04 18:46:18,111 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-04 18:46:18,111 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-04 18:46:18,112 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-04 18:46:18,112 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-04 18:46:18,112 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-04 18:46:18,112 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-04 18:46:18,112 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-04 18:46:33,063 - src.train_pipeline - INFO - Fold 1 - Test Accuracy: 0.6868 - F1 Macro: 0.6499
+2025-09-04 18:46:33,066 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-04 18:47:05,089 - src.train_pipeline - INFO - Fold 2 - Test Accuracy: 0.7003 - F1 Macro: 0.6599
+2025-09-04 18:47:05,094 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-04 18:47:47,593 - src.train_pipeline - INFO - Fold 3 - Test Accuracy: 0.7142 - F1 Macro: 0.6805
+2025-09-04 18:47:47,598 - src.train_pipeline - INFO - Processing fold 4/5

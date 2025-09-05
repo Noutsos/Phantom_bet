@@ -24,8 +24,8 @@ from sklearn.metrics import (
 from sklearn.utils.class_weight import compute_class_weight
 from imblearn.over_sampling import SMOTE
 from sklearn.calibration import calibration_curve
-#from sklearn.pipeline import Pipeline
-from imblearn.pipeline import Pipeline
+from sklearn.pipeline import Pipeline
+#from imblearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 from sklearn.feature_selection import SelectFromModel, RFE, RFECV, SelectKBest, SequentialFeatureSelector, f_classif, mutual_info_classif, f_regression, mutual_info_regression
 from sklearn.decomposition import PCA
@@ -371,14 +371,22 @@ class TrainPipeline:
             random_state=self.config.get('random_state', 42)
         )
     
-
-    def setup_directories(self, model_type, feature_selection_method):
-        """Create directory structure for artifacts"""
+    
+    def setup_directories(self, model_type, feature_selection_method, target_col=None):
+        """Create directory structure for artifacts with target-specific naming"""
+        # Include target column in path if provided
+        if target_col:
+            base_path = f"artifacts/{target_col}/{model_type}/{feature_selection_method}"
+            os.makedirs(base_path, exist_ok=True)
+        else:
+            base_path = f"artifacts/{model_type}/{feature_selection_method}"
+            os.makedirs(base_path, exist_ok=True)
+        
         self.paths = {
-            'base': f"artifacts/{model_type}/{feature_selection_method}",
-            'plots': f"artifacts/{model_type}/{feature_selection_method}/plots",
-            'metrics': f"artifacts/{model_type}/{feature_selection_method}/metrics",
-            'models': f"artifacts/{model_type}/{feature_selection_method}/models",
+            'base': base_path,
+            'plots': f"{base_path}/plots",
+            'metrics': f"{base_path}/metrics", 
+            'models': f"{base_path}/models",
             'logs': "logs/train"
         }
         
@@ -387,12 +395,13 @@ class TrainPipeline:
         
         # Setup file logging
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        file_handler = logging.FileHandler(f"{self.paths['logs']}/train_{timestamp}.log")
+        log_filename = f"train_{target_col}_{timestamp}.log" if target_col else f"train_{timestamp}.log"
+        file_handler = logging.FileHandler(f"{self.paths['logs']}/{log_filename}")
         file_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
         self.logger.addHandler(file_handler)
         
-        return self.paths
-    
+        return self.paths 
+ 
     def prepare_data(self, df, target_col):
         """Prepare features and target with proper validation"""
         self.logger.info(f"Preparing data with target column: {target_col}")
@@ -463,7 +472,7 @@ class TrainPipeline:
             'status', 'home_team_flag', 'away_team_flag', 'home_team_name', 'away_team_name',
             'home_coach_id', 'away_coach_id', 'home_player_id', 'away_player_id', 'timestamp',
             'maintime', 'first_half', 'second_half', 'country', 'extratime', 'matchday', 'odds_home_win', 'odds_draw', 'odds_away_win',
-            'total_yellow_cards', 'total_red_cards', 'total_corners'
+            'total_yellow_cards', 'total_red_cards', 'total_corners', 'outcome'
         } & set(X.columns)
         
         # Drop leakage columns safely
@@ -508,6 +517,7 @@ class TrainPipeline:
         self.logger.info(f"Feature preparation complete. Final features: {len(X.columns)}")
         return X
     
+ 
     def build_pipeline(self, model_type, feature_selection_method, top_n_features=30):
         """Build the complete ML pipeline"""
         self.logger.info(f"Building pipeline for {model_type} with {feature_selection_method} feature selection")
@@ -518,17 +528,32 @@ class TrainPipeline:
         
         self.logger.info(f"Numerical features: {len(numerical_features)}, Categorical features: {len(categorical_features)}")
         
+        # Create a list of transformers dynamically
+        transformers = []
+        
+        # Always add the numerical transformer
+        if numerical_features:
+            transformers.append(('num', StandardScaler(), numerical_features))
+        else:
+            self.logger.warning("No numerical features found!")
+        
+        # Only add the categorical transformer if categorical features exist
+        if categorical_features:
+            transformers.append(('cat', OneHotEncoder(handle_unknown='ignore', sparse_output=False), categorical_features))
+        else:
+            self.logger.info("No categorical features found. Skipping OneHotEncoder.")
+        
+        # Check if we have any transformers at all
+        if not transformers:
+            raise ValueError("No features found for preprocessing! Check your dataset.")
+        
         # Create preprocessing steps
         preprocessor = ColumnTransformer(
-            transformers=[
-                ('num', StandardScaler(), numerical_features),
-                ('cat', OneHotEncoder(handle_unknown='ignore', sparse_output=False), categorical_features)
-            ],
-            remainder='passthrough'
+            transformers=transformers,
+            remainder='passthrough'  # This will handle any other dtypes you might have missed
         )
         
         # Get feature selector
- 
         tscv = TimeSeriesSplit(n_splits=5)
         feature_selector = get_feature_selector(
             feature_selection_method=feature_selection_method,
@@ -546,7 +571,7 @@ class TrainPipeline:
         ])
         
         return base_pipeline
-    
+
     def initialize_search(self, model_type, base_pipeline, use_bayesian=False, 
                          use_grid_search=False, use_random_search=False, 
                          bayesian_iter=50, random_search_iter=50):
@@ -606,178 +631,8 @@ class TrainPipeline:
                 verbose=2
             )
     
+
     def train_2(self, df, target_col='outcome', model_type='random_forest',
-              feature_selection_method='importance', top_n_features=30,
-              use_bayesian=False, bayesian_iter=50, use_grid_search=False,
-              use_random_search=False, random_search_iter=50, load_params=False,
-              holdout_ratio=0.2):
-        """
-        Train the model with the specified configuration
-        
-        Returns:
-        --------
-        model : trained model
-        X_holdout : holdout features
-        y_holdout : holdout targets
-        """
-        try:
-            # Setup directories and logging
-            self.setup_directories(model_type, feature_selection_method)
-            self.logger.info(f"Starting training with model: {model_type}, feature selection: {feature_selection_method} with {top_n_features} features")
-            
-            # Prepare data
-            X, y = self.prepare_data(df, target_col)
-            
-            # CREATE PROPER TIME SERIES HOLDOUT SET
-            n_samples = len(X)
-            holdout_size = int(n_samples * holdout_ratio)
-            
-            # Split into training (early data) and holdout (most recent data)
-            X_train_full = X.iloc[:-holdout_size]
-            y_train_full = y.iloc[:-holdout_size]
-            X_holdout = X.iloc[-holdout_size:]
-            y_holdout = y.iloc[-holdout_size:]
-            
-            self.logger.info(f"Time Series Split - Training: {X_train_full.shape[0]}, Holdout: {X_holdout.shape[0]}")
-            
-            # Build pipeline
-            base_pipeline = self.build_pipeline(model_type, feature_selection_method, top_n_features)
-            
-            # Training logic
-            if use_bayesian or use_grid_search or use_random_search:
-                search = self.initialize_search(
-                    model_type=model_type,
-                    base_pipeline=base_pipeline,
-                    use_bayesian=use_bayesian,
-                    use_grid_search=use_grid_search,
-                    use_random_search=use_random_search,
-                    bayesian_iter=bayesian_iter,
-                    random_search_iter=random_search_iter
-                )
-                
-                self.logger.info("Starting parameter search...")
-                search.fit(X_train_full, y_train_full)
-                self.model = search.best_estimator_
-                
-                # Save search results
-                search_results_df = pd.DataFrame(search.cv_results_)
-                search_results_df.to_csv(f"{self.paths['metrics']}/search_results.csv", index=False)
-                pd.DataFrame([search.best_params_]).to_csv(f"{self.paths['metrics']}/best_params.csv", index=False)
-                self.logger.info(f"Best parameters: {search.best_params_}")
-            else:
-                # Use default parameters
-                _, default_params = get_model_params(model_type, self.task_type)
-                classifier_params = default_params.copy()
-                
-                if isinstance(load_params, dict):
-                    classifier_params.update(load_params)
-                
-                estimator_name = 'classifier' if self.task_type == 'classification' else 'regressor'
-                model_instance = get_model_class(model_type, self.task_type)()
-                model_instance.set_params(**classifier_params)
-                
-                self.model = Pipeline([
-                    *base_pipeline.steps,
-                    (estimator_name, model_instance)
-                ])
-        
-            
-            # Cross-validation
-            self.logger.info("Starting cross-validation...")
-            tscv = TimeSeriesSplit(n_splits=5)
-            self.cv_metrics = []
-            
-            for fold, (train_idx, test_idx) in enumerate(tscv.split(X_train_full)):
-                self.logger.info(f"Processing fold {fold + 1}/{tscv.n_splits}")
-                
-                # Clone model for each fold
-                fold_model = clone(self.model)
-                
-                # Train and evaluate
-                if self.task_type == 'classification':
-                    class_names = ['away_win', 'draw', 'home_win'] if self.le else None
-                    metrics = evaluate_classification_model(
-                        fold_model,
-                        X_train_full.iloc[train_idx], X_train_full.iloc[test_idx],
-                        y_train_full.iloc[train_idx], y_train_full.iloc[test_idx],
-                        self.logger,
-                        fold=fold,
-                        class_names=class_names
-                    )
-                else:
-                    metrics = evaluate_regression_model(
-                        fold_model,
-                        X_train_full.iloc[train_idx], X_train_full.iloc[test_idx],
-                        y_train_full.iloc[train_idx], y_train_full.iloc[test_idx],
-                        self.logger,
-                        fold=fold
-                    )
-                
-                self.cv_metrics.append(metrics)
-            
-            # Final training on full training period
-            self.logger.info("Training final model on full training period...")
-            self.model.fit(X_train_full, y_train_full)
-            
-            # Evaluate on holdout period
-            self.logger.info("Evaluating on holdout period...")
-            if self.task_type == 'classification':
-                y_pred_holdout = self.model.predict(X_holdout)
-                holdout_accuracy = accuracy_score(y_holdout, y_pred_holdout)
-                
-                # Generate comprehensive holdout metrics
-                class_names = ['away_win', 'draw', 'home_win'] if self.le else None
-                holdout_report = classification_report(
-                    y_holdout, y_pred_holdout, 
-                    target_names=class_names, 
-                    output_dict=True,
-                    zero_division=0
-                )
-                
-                self.final_metrics = {
-                    'model_type': model_type,
-                    'feature_selection_method': feature_selection_method,
-                    'holdout_accuracy': holdout_accuracy,
-                    'holdout_precision_macro': holdout_report['macro avg']['precision'],
-                    'holdout_recall_macro': holdout_report['macro avg']['recall'],
-                    'holdout_f1_macro': holdout_report['macro avg']['f1-score'],
-                    'train_samples': len(X_train_full),
-                    'holdout_samples': len(X_holdout),
-                    'holdout_ratio': holdout_ratio
-                }
-                
-                self.logger.info(f"Holdout Accuracy: {holdout_accuracy:.4f}")
-            else:
-                y_pred_holdout = self.model.predict(X_holdout)
-                holdout_rmse = np.sqrt(mean_squared_error(y_holdout, y_pred_holdout))
-                holdout_r2 = r2_score(y_holdout, y_pred_holdout)
-                
-                self.final_metrics = {
-                    'model_type': model_type,
-                    'feature_selection_method': feature_selection_method,
-                    'holdout_rmse': holdout_rmse,
-                    'holdout_r2': holdout_r2,
-                    'holdout_mae': mean_absolute_error(y_holdout, y_pred_holdout),
-                    'train_samples': len(X_train_full),
-                    'holdout_samples': len(X_holdout),
-                    'holdout_ratio': holdout_ratio
-                }
-                
-                self.logger.info(f"Holdout RMSE: {holdout_rmse:.4f}, R²: {holdout_r2:.4f}")
-            
-            # Save model and artifacts
-            self.save_artifacts(X_train_full, y_train_full, X_holdout, y_holdout)
-            
-            self.logger.info("Training completed successfully!")
-            print_classification_report(model_type=model_type, feature_selection_method=feature_selection_method)
-
-            return self.model, X_holdout, y_holdout
-            
-        except Exception as e:
-            self.logger.error(f"Training failed: {str(e)}", exc_info=True)
-            raise
-
-    def train(self, df, target_col='outcome', model_type='random_forest',
             feature_selection_method='importance', top_n_features=30,
             use_bayesian=False, bayesian_iter=50, use_grid_search=False,
             use_random_search=False, random_search_iter=50, load_params=False,
@@ -799,8 +654,8 @@ class TrainPipeline:
         """
         try:
             # Setup directories and logging
-            self.setup_directories(model_type, feature_selection_method)
-            self.logger.info(f"Starting training with model: {model_type}, feature selection: {feature_selection_method} with {top_n_features} features")
+            self.setup_directories(model_type, feature_selection_method, target_col)
+            self.logger.info(f"Starting training for {target_col} with model: {model_type}, feature selection: {feature_selection_method} with {top_n_features} features")
             
             # Prepare data
             X, y = self.prepare_data(df, target_col)
@@ -821,24 +676,7 @@ class TrainPipeline:
             sample_weights = None
             class_weights = None
 
-            # IMPORTANT: Don't use class weights if using SMOTE
-            if self.task_type == 'classification' and handle_class_imbalance:
-                if use_smote:
-                    self.logger.info("Using SMOTE - class weights will be disabled for model training")
-                    # SMOTE creates balanced data, so we don't need class weights
-                    class_weights = None
-                    sample_weights = None
-                else:
-                    # Use custom weights if provided, otherwise calculate balanced weights
-                    if class_weights_dict is not None:
-                        self.logger.info(f"Using custom class weights: {class_weights_dict}")
-                        sample_weights = compute_sample_weights(y_train_full, class_weights_dict)
-                        class_weights = class_weights_dict
-                    else:
-                        class_weights = calculate_class_weights(y_train_full)
-                        if class_weights:
-                            sample_weights = compute_sample_weights(y_train_full, class_weights)
-                            self.logger.info(f"Using balanced class weights: {class_weights}")
+
             
             # Build pipeline
             base_pipeline = self.build_pipeline(model_type, feature_selection_method, top_n_features)
@@ -1011,10 +849,278 @@ class TrainPipeline:
                 self.logger.info(f"Holdout RMSE: {holdout_rmse:.4f}, R²: {holdout_r2:.4f}")
             
             # Save model and artifacts
-            self.save_artifacts(X_train_full, y_train_full, X_holdout, y_holdout)
+            self.save_artifacts(X_train_full, y_train_full, X_holdout, y_holdout, holdout_report, target_col)
+
+            self.generate_visualizations(X_holdout, y_holdout, target_col)
             
             self.logger.info("Training completed successfully!")
-            print_classification_report(model_type=model_type, feature_selection_method=feature_selection_method)
+            self.print_model_report(model_type, feature_selection_method, target_col)
+
+            return self.model, X_holdout, y_holdout
+            
+        except Exception as e:
+            self.logger.error(f"Training failed: {str(e)}", exc_info=True)
+            raise
+
+    def train(self, df, target_col='outcome', model_type='random_forest',
+            feature_selection_method='importance', top_n_features=30,
+            use_bayesian=False, bayesian_iter=50, use_grid_search=False,
+            use_random_search=False, random_search_iter=50, load_params=False,
+            holdout_ratio=0.2, handle_class_imbalance=True, imbalance_method='auto',
+            class_weights_dict=None, use_smote=False, smote_strategy=None):
+        """
+        Train the model with the specified configuration
+        
+        Parameters:
+        -----------
+        handle_class_imbalance : bool, default=True
+            Whether to handle class imbalance for classification tasks
+            
+        Returns:
+        --------
+        model : trained model
+        X_holdout : holdout features
+        y_holdout : holdout targets
+        """
+        try:
+            # Setup directories and logging
+            self.setup_directories(model_type, feature_selection_method, target_col)
+            self.logger.info(f"Starting training for {target_col} with model: {model_type}, feature selection: {feature_selection_method} with {top_n_features} features")
+            
+            # Prepare data
+            X, y = self.prepare_data(df, target_col)
+            
+            # CREATE PROPER TIME SERIES HOLDOUT SET
+            n_samples = len(X)
+            holdout_size = int(n_samples * holdout_ratio)
+            
+            # Split into training (early data) and holdout (most recent data)
+            X_train_full = X.iloc[:-holdout_size]
+            y_train_full = y.iloc[:-holdout_size]
+            X_holdout = X.iloc[-holdout_size:]
+            y_holdout = y.iloc[-holdout_size:]
+            
+            self.logger.info(f"Time Series Split - Training: {X_train_full.shape[0]}, Holdout: {X_holdout.shape[0]}")
+            
+            # Handle class imbalance for classification tasks
+            imbalance_config = None
+            sample_weights = None
+            class_weights = None
+            smote_instance = None
+
+            if self.task_type == 'classification' and handle_class_imbalance:
+                # Validate configuration
+                is_valid, error_msg = validate_imbalance_config(
+                    imbalance_method, use_smote, class_weights_dict
+                )
+                if not is_valid:
+                    raise ValueError(f"Invalid imbalance configuration: {error_msg}")
+                
+                # Determine actual method based on parameters
+                actual_method = imbalance_method
+                if use_smote:
+                    actual_method = 'smote'
+                elif class_weights_dict is not None:
+                    actual_method = 'custom_weights'
+                
+                # Apply imbalance handling
+                imbalance_config = handle_class_imbalance(
+                    y_train=y_train_full,
+                    method=actual_method,
+                    custom_weights=class_weights_dict,
+                    smote_strategy=smote_strategy,
+                    random_state=self.random_state
+                )
+                
+                sample_weights = imbalance_config['sample_weights']
+                class_weights = imbalance_config['class_weights']
+                smote_instance = imbalance_config['smote_instance']
+                
+                self.logger.info(f"Class imbalance handling: {imbalance_config['method']}")
+                self.logger.info(f"Class distribution: {imbalance_config['class_distribution']}")
+            
+            # Build base pipeline (without the final estimator)
+            base_pipeline = self.build_pipeline(model_type, feature_selection_method, top_n_features)
+            
+            # Get model instance and parameters
+            estimator_name = 'classifier' if self.task_type == 'classification' else 'regressor'
+            model_class = get_model_class(model_type, self.task_type)
+            model_instance = model_class()
+            
+            # Set up parameters
+            if use_bayesian or use_grid_search or use_random_search:
+                # For hyperparameter search, parameters will be set by the search
+                classifier_params = {}
+            else:
+                # Use default or loaded parameters
+                _, default_params = get_model_params(model_type, self.task_type)
+                classifier_params = default_params.copy()
+                
+                if isinstance(load_params, dict):
+                    classifier_params.update(load_params)
+                
+                # Remove class weight parameter if using SMOTE
+                if smote_instance is not None and 'class_weight' in classifier_params:
+                    classifier_params.pop('class_weight', None)
+                    self.logger.info("Removed class_weight parameter due to SMOTE usage")
+                
+                model_instance.set_params(**classifier_params)
+            
+            # Build the complete pipeline with SMOTE if applicable
+            pipeline_steps = base_pipeline.steps.copy()
+            
+            if smote_instance is not None:
+                from imblearn.pipeline import Pipeline as ImbPipeline
+                pipeline_steps.append(('smote', smote_instance))
+                pipeline_steps.append((estimator_name, model_instance))
+                self.model = ImbPipeline(pipeline_steps)
+            else:
+                pipeline_steps.append((estimator_name, model_instance))
+                self.model = Pipeline(pipeline_steps)
+            
+            # Training logic
+            if use_bayesian or use_grid_search or use_random_search:
+                search = self.initialize_search(
+                    model_type=model_type,
+                    base_pipeline=self.model,  # Pass the complete pipeline
+                    use_bayesian=use_bayesian,
+                    use_grid_search=use_grid_search,
+                    use_random_search=use_random_search,
+                    bayesian_iter=bayesian_iter,
+                    random_search_iter=random_search_iter
+                )
+                
+                self.logger.info("Starting parameter search...")
+                # Don't pass sample weights if using SMOTE
+                if smote_instance is not None:
+                    search.fit(X_train_full, y_train_full)
+                else:
+                    search.fit(X_train_full, y_train_full, 
+                            classifier__sample_weight=sample_weights if sample_weights is not None else None)
+                self.model = search.best_estimator_
+                
+                # Save search results
+                search_results_df = pd.DataFrame(search.cv_results_)
+                search_results_df.to_csv(f"{self.paths['metrics']}/search_results.csv", index=False)
+                pd.DataFrame([search.best_params_]).to_csv(f"{self.paths['metrics']}/best_params.csv", index=False)
+                self.logger.info(f"Best parameters: {search.best_params_}")
+            
+            # Cross-validation with sample weights (except when using SMOTE)
+            self.logger.info("Starting cross-validation...")
+            tscv = TimeSeriesSplit(n_splits=5)
+            self.cv_metrics = []
+            
+            for fold, (train_idx, test_idx) in enumerate(tscv.split(X_train_full)):
+                self.logger.info(f"Processing fold {fold + 1}/{tscv.n_splits}")
+                
+                # Clone model for each fold
+                fold_model = clone(self.model)
+                
+                # Get sample weights for this fold (skip if using SMOTE)
+                fold_sample_weights = None
+                if smote_instance is None and sample_weights is not None:
+                    fold_sample_weights = sample_weights[train_idx]
+                
+                # Train and evaluate
+                if self.task_type == 'classification':
+                    class_names = ['away_win', 'draw', 'home_win'] if self.le else None
+                    metrics = evaluate_classification_model(
+                        fold_model,
+                        X_train_full.iloc[train_idx], X_train_full.iloc[test_idx],
+                        y_train_full.iloc[train_idx], y_train_full.iloc[test_idx],
+                        self.logger,
+                        fold=fold,
+                        class_names=class_names,
+                        sample_weight=fold_sample_weights,
+                        use_smote=(smote_instance is not None),
+                        smote_strategy=smote_strategy
+                    )
+                else:
+                    metrics = evaluate_regression_model(
+                        fold_model,
+                        X_train_full.iloc[train_idx], X_train_full.iloc[test_idx],
+                        y_train_full.iloc[train_idx], y_train_full.iloc[test_idx],
+                        self.logger,
+                        fold=fold
+                    )
+                
+                self.cv_metrics.append(metrics)
+            
+            # Final training on full training period
+            self.logger.info("Training final model on full training period...")
+            if smote_instance is None and sample_weights is not None:
+                self.model.fit(X_train_full, y_train_full, classifier__sample_weight=sample_weights)
+            else:
+                self.model.fit(X_train_full, y_train_full)
+            
+            # Evaluate on holdout period
+            self.logger.info("Evaluating on holdout period...")
+            if self.task_type == 'classification':
+                y_pred_holdout = self.model.predict(X_holdout)
+                holdout_accuracy = accuracy_score(y_holdout, y_pred_holdout)
+                
+                # Generate comprehensive holdout metrics
+                class_names = ['away_win', 'draw', 'home_win'] if self.le else None
+                holdout_report = classification_report(
+                    y_holdout, y_pred_holdout, 
+                    target_names=class_names, 
+                    output_dict=True,
+                    zero_division=0
+                )
+                
+                self.final_metrics = {
+                    'model_type': model_type,
+                    'feature_selection_method': feature_selection_method,
+                    'holdout_accuracy': holdout_accuracy,
+                    'holdout_precision_macro': holdout_report['macro avg']['precision'],
+                    'holdout_recall_macro': holdout_report['macro avg']['recall'],
+                    'holdout_f1_macro': holdout_report['macro avg']['f1-score'],
+                    'train_samples': len(X_train_full),
+                    'holdout_samples': len(X_holdout),
+                    'holdout_ratio': holdout_ratio,
+                    'handled_class_imbalance': handle_class_imbalance,
+                    'imbalance_method': imbalance_config['method'] if imbalance_config else 'none',
+                    'class_distribution': imbalance_config['class_distribution'] if imbalance_config else None,
+                    'used_sample_weights': sample_weights is not None,
+                    'used_smote': smote_instance is not None,
+                    'smote_strategy': str(smote_strategy) if smote_instance is not None else None,
+                }
+                
+                # Add class-specific metrics if available
+                if 'draw' in holdout_report:
+                    self.final_metrics['draw_recall'] = holdout_report['draw']['recall']
+                    self.final_metrics['draw_precision'] = holdout_report['draw']['precision']
+                
+                self.logger.info(f"Holdout Accuracy: {holdout_accuracy:.4f}")
+            else:
+                y_pred_holdout = self.model.predict(X_holdout)
+                holdout_rmse = np.sqrt(mean_squared_error(y_holdout, y_pred_holdout))
+                holdout_r2 = r2_score(y_holdout, y_pred_holdout)
+                
+                self.final_metrics = {
+                    'model_type': model_type,
+                    'feature_selection_method': feature_selection_method,
+                    'holdout_rmse': holdout_rmse,
+                    'holdout_r2': holdout_r2,
+                    'holdout_mae': mean_absolute_error(y_holdout, y_pred_holdout),
+                    'train_samples': len(X_train_full),
+                    'holdout_samples': len(X_holdout),
+                    'holdout_ratio': holdout_ratio,
+                    'handled_class_imbalance': handle_class_imbalance,
+                    'used_sample_weights': sample_weights is not None,
+                    'used_smote': smote_instance is not None,
+                    'smote_strategy': str(smote_strategy) if smote_instance is not None else None,
+                }
+                
+                self.logger.info(f"Holdout RMSE: {holdout_rmse:.4f}, R²: {holdout_r2:.4f}")
+            
+            # Save model and artifacts
+            self.save_artifacts(X_train_full, y_train_full, X_holdout, y_holdout, holdout_report, target_col)
+
+            self.generate_visualizations(X_holdout, y_holdout, target_col)
+            
+            self.logger.info("Training completed successfully!")
+            self.print_model_report(model_type, feature_selection_method, target_col)
 
             return self.model, X_holdout, y_holdout
             
@@ -1175,17 +1281,24 @@ class TrainPipeline:
             self.logger.error(f"Hierarchical training failed: {str(e)}", exc_info=True)
             raise
 
-    def save_artifacts(self, X_train, y_train, X_test, y_test):
-        """Save all model artifacts"""
+    
+    def save_artifacts(self, X_train, y_train, X_test, y_test, holdout_report, target_col=None):
+        """Save all model artifacts with target-specific naming"""
         self.logger.info("Saving model artifacts...")
         
-        # Save model
-        model_path = f"{self.paths['models']}/{self.final_metrics['model_type']}_model.pkl"
+        # Include target in model filename
+        if target_col:
+            model_filename = f"{target_col}_{self.final_metrics['model_type']}_model.pkl"
+        else:
+            model_filename = f"{self.final_metrics['model_type']}_model.pkl"
+        
+        model_path = f"{self.paths['models']}/{model_filename}"
         joblib.dump(self.model, model_path)
         
         # Save label encoder for classification tasks
         if self.task_type == 'classification' and self.le is not None:
-            joblib.dump(self.le, f"{self.paths['models']}/label_encoder.pkl")
+            encoder_filename = f"{target_col}_label_encoder.pkl" if target_col else "label_encoder.pkl"
+            joblib.dump(self.le, f"{self.paths['models']}/{encoder_filename}")
         
         # Save metrics
         cv_df = pd.DataFrame(self.cv_metrics)
@@ -1193,80 +1306,33 @@ class TrainPipeline:
         
         final_metrics_df = pd.DataFrame([self.final_metrics])
         final_metrics_df.to_csv(f"{self.paths['metrics']}/final_metrics.csv", index=False)
+
+        # Save holdout classification report if available
+        if holdout_report:
+            holdout_report_df = pd.DataFrame(holdout_report).transpose()
+            holdout_report_filename =("test_classification_report.csv")
+            holdout_report_df.to_csv(f"{self.paths['metrics']}/{holdout_report_filename}", index=True)
         
         # Save feature importances if available
         try:
             feature_names = get_feature_names_from_pipeline(self.model)
-            if hasattr(self.model.named_steps.get('classifier', self.model), 'feature_importances_'):
-                importances = self.model.named_steps.get('classifier', self.model).feature_importances_
+            estimator = self.model.named_steps.get('classifier', 
+                        self.model.named_steps.get('regressor', self.model))
+            
+            if hasattr(estimator, 'feature_importances_'):
+                importances = estimator.feature_importances_
                 importance_df = pd.DataFrame({
                     'feature': feature_names,
                     'importance': importances
                 }).sort_values('importance', ascending=False)
-                importance_df.to_csv(f"{self.paths['metrics']}/feature_importances.csv", index=False)
+                
+                importance_filename = ("feature_importances.csv")
+                importance_df.to_csv(f"{self.paths['metrics']}/{importance_filename}", index=False)
         except Exception as e:
             self.logger.warning(f"Could not save feature importances: {str(e)}")
         
         self.logger.info("Artifacts saved successfully!")
-    
 
-    
-    def analyze_feature_availability(self, data_folder='data'):
-        """
-        Analyze which features are available vs missing in the prediction data
-        """
-        if self.model is None:
-            self.logger.error("Model not trained yet. Call train() first.")
-            return None
-        
-        # Load the data
-        final_processed_path = os.path.join(data_folder, 'final_processed.csv')
-        try:
-            df = pd.read_csv(final_processed_path)
-        except FileNotFoundError:
-            self.logger.error(f"Data not found at {final_processed_path}")
-            return None
-        
-        # Get model expected features (use the same logic as predict_upcoming_fixtures)
-        if hasattr(self.model, 'feature_names_in_'):
-            feature_names = self.model.feature_names_in_
-        else:
-            try:
-                estimator_name = 'classifier' if self.task_type == 'classification' else 'regressor'
-                final_estimator = self.model.named_steps[estimator_name]
-                if hasattr(final_estimator, 'feature_names_in_'):
-                    feature_names = final_estimator.feature_names_in_
-                else:
-                    feature_names = get_feature_names_from_pipeline(self.model)
-            except:
-                self.logger.error("Could not determine feature names from model")
-                return None
-        
-        # Analyze availability
-        available_features = [f for f in feature_names if f in df.columns]
-        missing_features = [f for f in feature_names if f not in df.columns]
-        
-        analysis = {
-            'total_features_expected': len(feature_names),
-            'available_features_count': len(available_features),
-            'missing_features_count': len(missing_features),
-            'coverage_percentage': (len(available_features) / len(feature_names)) * 100,
-            'available_features': available_features,
-            'missing_features': missing_features
-        }
-        
-        self.logger.info(f"Feature availability analysis:")
-        self.logger.info(f"  Expected: {analysis['total_features_expected']} features")
-        self.logger.info(f"  Available: {analysis['available_features_count']} features")
-        self.logger.info(f"  Missing: {analysis['missing_features_count']} features")
-        self.logger.info(f"  Coverage: {analysis['coverage_percentage']:.1f}%")
-        
-        # Save analysis
-        analysis_path = os.path.join(self.paths['metrics'], 'feature_availability_analysis.json')
-        with open(analysis_path, 'w') as f:
-            json.dump(analysis, f, indent=2)
-        
-        return analysis
     
     def predict_proba(self, X):
         """Make probability predictions (for classification only)"""
@@ -1316,36 +1382,163 @@ class TrainPipeline:
         
         return self.model.score(X, y)
     
-    def generate_visualizations(self, X_test, y_test):
-            """
-            Generate visualizations for the trained model
-            
-            Parameters:
-            -----------
-            X_test : array-like
-                Test features
-            y_test : array-like
-                Test labels
-            """
-            if self.model is None:
-                self.logger.error("Model not trained yet. Call train() first.")
-                raise ValueError("Model not trained yet. Call train() first.")
-            
-            if self.paths is None:
-                self.logger.error("Paths not set up. Call train() first.")
-                raise ValueError("Paths not set up. Call train() first.")
-            
-            # Generate visualizations using your existing get_feature_importance() method
-            generate_basic_visualizations(
-                pipeline=self,
-                X_test=X_test,
-                y_test=y_test,
-                artifact_paths=self.paths
-            )  
-
+    def generate_visualizations(self, X_test, y_test, target_col='outcome'):
+        """
+        Generate visualizations for the trained model
+        """
+        if self.model is None:
+            self.logger.error("Model not trained yet. Call train() first.")
+            raise ValueError("Model not trained yet. Call train() first.")
         
+        if self.paths is None:
+            self.logger.error("Paths not set up. Call train() first.")
+            raise ValueError("Paths not set up. Call train() first.")
+        
+        # Create a wrapper that has access to both the model and the feature importance method
+        class PipelineWrapper:
+            def __init__(self, model, pipeline_instance):
+                self.model = model
+                self.final_metrics = pipeline_instance.final_metrics
+                self.task_type = pipeline_instance.task_type
+                self.le = getattr(pipeline_instance, 'le', None)
+                self._pipeline_instance = pipeline_instance  # Store reference to the TrainPipeline instance
+                
+            def get_feature_importance(self):
+                # Delegate to the TrainPipeline instance's method
+                return self._pipeline_instance.get_feature_importance()
+                
+            # Add predict and predict_proba methods that delegate to the model
+            def predict(self, X):
+                return self.model.predict(X)
+                
+            def predict_proba(self, X):
+                if hasattr(self.model, 'predict_proba'):
+                    return self.model.predict_proba(X)
+                raise AttributeError("Model does not have predict_proba method")
+                
+            def transform(self, X):
+                if hasattr(self.model, 'transform'):
+                    return self.model.transform(X)
+                raise AttributeError("Model does not have transform method")
+        
+        # Create the wrapper
+        wrapper = PipelineWrapper(self.model, self)
+        
+        # Generate visualizations using the wrapper
+        generate_basic_visualizations(
+            pipeline=wrapper,  # Pass the wrapper instead of just the model
+            X_test=X_test,
+            y_test=y_test,
+            artifact_paths=self.paths,
+            target_col=target_col,
+            # Pass the metadata from the TrainPipeline instance
+            model_type=self.final_metrics['model_type'],
+            feature_selection_method=self.final_metrics['feature_selection_method'],
+            task_type=self.task_type,
+            le=getattr(self, 'le', None),
+            final_metrics=self.final_metrics
+        )
+
+
+    def print_model_report(self, model_type, feature_selection_method, target_col=None):
+        """
+        Print comprehensive model report for both classification and regression
+        
+        Args:
+            model_type: Type of model
+            feature_selection_method: Feature selection method
+            target_col: Target column name
+        """
+        if target_col:
+            base_path = f"artifacts/{target_col}/{model_type}/{feature_selection_method}/metrics"
+        else:
+            base_path = f"artifacts/{model_type}/{feature_selection_method}/metrics"
+        
+        try:
+            # Load metrics
+            final_metrics = pd.read_csv(f"{base_path}/final_metrics.csv")
+            cv_results = pd.read_csv(f"{base_path}/cross_validation_results.csv")
+            test_report = pd.read_csv(f"{base_path}/test_classification_report.csv", index_col=0)
+            
+            task_type = 'classification' if 'holdout_accuracy' in final_metrics.columns else 'regression'
+            
+            print(f"\n{'='*80}")
+            print(f"MODEL PERFORMANCE REPORT: {target_col.upper() if target_col else 'MODEL'}")
+            print(f"Model: {model_type.upper()} | Features: {feature_selection_method.upper()} | Task: {task_type.upper()}")
+            print(f"{'='*80}")
+            
+            if task_type == 'classification':
+                self.print_classification_report(test_report, cv_results, base_path)
+            else:
+                self.print_regression_report(final_metrics, cv_results)
+                
+            print(f"{'='*80}")
+            
+        except FileNotFoundError as e:
+            print(f"\nError: Required files not found in {base_path}")
+            print(f"Missing file: {str(e)}")
+        except Exception as e:
+            print(f"\nError generating report: {str(e)}")
+            import traceback
+            traceback.print_exc()
+
+    def print_classification_report(self, final_metrics, cv_results, base_path):
+        """Print classification-specific report"""
+        # Cross-validation summary
+        print("\nCROSS-VALIDATION PERFORMANCE:")
+        print("-" * 60)
+        print(f"Average Accuracy: {cv_results['test_accuracy'].mean():.3f} (±{cv_results['test_accuracy'].std():.3f})")
+        print(f"Average F1 Macro: {cv_results['f1_macro'].mean():.3f} (±{cv_results['f1_macro'].std():.3f})")
+        
+        # Holdout performance
+        print("\nHOLDOUT SET EVALUATION:")
+        print("-" * 60)
+        print(f"Accuracy:    {final_metrics.iloc[0]['accuracy']:.3f}")
+        print(f"F1 Macro:    {final_metrics.iloc[0]['f1-score']:.3f}")
+        print(f"Precision:   {final_metrics.iloc[0]['precision']:.3f}")
+        print(f"Recall:      {final_metrics.iloc[0]['recall']:.3f}")
+        
+        # Try to load detailed classification report
+        try:
+            test_report = pd.read_csv(f"{base_path}/test_classification_report.csv", index_col=0)
+            print("\nDETAILED CLASSIFICATION REPORT:")
+            print("-" * 60)
+            print(f"{'Class':<15}{'Precision':>10}{'Recall':>10}{'F1-Score':>10}{'Support':>10}")
+            print("-" * 60)
+            
+            for class_name in test_report.index:
+                if class_name not in ['accuracy', 'macro avg', 'weighted avg']:
+                    row = test_report.loc[class_name]
+                    print(f"{class_name:<15}{row['precision']:>10.3f}{row['recall']:>10.3f}{row['f1-score']:>10.3f}{int(row['support']):>10}")
+        except:
+            print("\nDetailed classification report not available")
+
+    def print_regression_report(self, final_metrics, cv_results):
+        """Print regression-specific report"""
+        # Cross-validation summary
+        print("\nCROSS-VALIDATION PERFORMANCE:")
+        print("-" * 60)
+        print(f"Average RMSE: {cv_results['rmse'].mean():.3f} (±{cv_results['rmse'].std():.3f})")
+        print(f"Average R²:   {cv_results['r2'].mean():.3f} (±{cv_results['r2'].std():.3f})")
+        print(f"Average MAE:  {cv_results['mae'].mean():.3f} (±{cv_results['mae'].std():.3f})")
+        
+        # Holdout performance
+        print("\nHOLDOUT SET EVALUATION:")
+        print("-" * 60)
+        print(f"RMSE: {final_metrics.iloc[0]['holdout_rmse']:.3f}")
+        print(f"R²:   {final_metrics.iloc[0]['holdout_r2']:.3f}")
+        print(f"MAE:  {final_metrics.iloc[0]['holdout_mae']:.3f}")
+        
+        # Sample information
+        print(f"\nSAMPLES:")
+        print("-" * 60)
+        print(f"Training:  {final_metrics.iloc[0]['train_samples']}")
+        print(f"Holdout:   {final_metrics.iloc[0]['holdout_samples']}")
+        print(f"Total:     {final_metrics.iloc[0]['train_samples'] + final_metrics.iloc[0]['holdout_samples']}")        
     
     # ==================== TASK TYPE DETECTION ====================
+
+
 def detect_task_type(y):
     """
     Detect if the task is classification or regression based on target variable
@@ -1363,17 +1556,32 @@ def detect_task_type(y):
     if not pd.api.types.is_numeric_dtype(y):
         return 'classification'
     
-    # If target is numeric, check if it's classification with numeric labels
-    unique_values = len(y.unique())
-    total_values = len(y)
+    # Convert to numeric to handle string numbers
+    y_numeric = pd.to_numeric(y, errors='coerce')
     
-    # Heuristic: if relatively few unique values compared to total samples
-    # and the unique values represent a small proportion of possible values
-    if (unique_values / total_values < 0.05 and unique_values <= 20) or unique_values <= 10:
-        return 'classification'
+    # Remove NaN values for analysis
+    y_clean = y_numeric.dropna()
     
-    return 'regression'
-
+    if len(y_clean) == 0:
+        return 'classification'  # Default to classification if no valid numeric data
+    
+    # If target has many unique values (more than 20) and wide range, it's regression
+    unique_values = len(y_clean.unique())
+    total_values = len(y_clean)
+    
+    # Heuristic for regression: many unique values or wide value range
+    value_range = y_clean.max() - y_clean.min()
+    
+    # Specific case for sports scores: if range > 5 and unique values > 10, treat as regression
+    if (unique_values > 15 or value_range > 8) and unique_values / total_values > 0.1:
+        return 'regression'
+    
+    # If target represents counts (like goals, cards, corners) with reasonable range, treat as regression
+    if value_range >= 5 and unique_values >= 8:  # At least 8 different values spanning 5+ units
+        return 'regression'
+    
+    # Default to classification for limited discrete values
+    return 'classification'
 
 # ==================== FEATURE SELECTOR ====================
 def get_feature_selector(feature_selection_method, model_type, top_n_features, tscv, 
@@ -1549,140 +1757,7 @@ def get_model_params(model_type, task_type='classification'):
 
 
 # ==================== CLASSIFICATION EVALUATION ====================
-def evaluate_classification_model_2(model, X_train, X_test, y_train, y_test, logger, 
-                                fold=None, class_names=None, model_type=None, 
-                                feature_selection_method=None):
-    """
-    Evaluate classification model with comprehensive metrics
-    
-    Parameters:
-    -----------
-    model : sklearn model
-        Trained model to evaluate
-    X_train : array-like
-        Training features
-    X_test : array-like
-        Test features
-    y_train : array-like
-        Training labels
-    y_test : array-like
-        Test labels
-    logger : logging.Logger
-        Logger instance
-    fold : int, default=None
-        Fold number for cross-validation
-    class_names : list, default=None
-        Names of classes for reporting
-    model_type : str, default=None
-        Type of model used
-    feature_selection_method : str, default=None
-        Feature selection method used
-        
-    Returns:
-    --------
-    dict : Evaluation metrics
-    """
-    metrics = {
-        'fold': fold + 1 if fold is not None else None,
-        'n_train_samples': len(X_train),
-        'n_test_samples': len(X_test)
-    }
-    
-    try:
-        # Train and predict
-        model.fit(X_train, y_train)
-        y_pred = model.predict(X_test)
-        y_pred_train = model.predict(X_train)
-        
-        # Basic classification metrics
-        metrics.update({
-            'train_accuracy': accuracy_score(y_train, y_pred_train),
-            'test_accuracy': accuracy_score(y_test, y_pred),
-            'precision_macro': precision_score(y_test, y_pred, average='macro', zero_division=0),
-            'recall_macro': recall_score(y_test, y_pred, average='macro', zero_division=0),
-            'f1_macro': f1_score(y_test, y_pred, average='macro', zero_division=0),
-            'balanced_accuracy': balanced_accuracy_score(y_test, y_pred),
-        })
-        
-        # Class-specific metrics
-        if class_names:
-            class_report = classification_report(
-                y_test, y_pred, 
-                target_names=class_names, 
-                output_dict=True,
-                zero_division=0
-            )
-            metrics['class_report'] = class_report
-            
-            # Store per-class metrics
-            for i, class_name in enumerate(class_names):
-                if str(i) in class_report:  # Only if class exists in test set
-                    metrics.update({
-                        f'precision_{class_name}': class_report[str(i)]['precision'],
-                        f'recall_{class_name}': class_report[str(i)]['recall'],
-                        f'f1_{class_name}': class_report[str(i)]['f1-score'],
-                        f'support_{class_name}': class_report[str(i)]['support']
-                    })
-        
-        # Probability-based metrics
-        if hasattr(model, 'predict_proba'):
-            try:
-                y_proba = model.predict_proba(X_test)
-                n_classes = y_proba.shape[1]
-                
-                # Multi-class metrics
-                if n_classes > 2:
-                    metrics.update({
-                        'roc_auc_ovr': roc_auc_score(y_test, y_proba, multi_class='ovr', average='macro'),
-                        'roc_auc_ovo': roc_auc_score(y_test, y_proba, multi_class='ovo', average='macro'),
-                        'log_loss': log_loss(y_test, y_proba),
-                    })
-                    
-                    # Class-specific AUC
-                    for i in range(n_classes):
-                        if i in y_test.unique():  # Only if class exists
-                            auc = roc_auc_score((y_test == i).astype(int), y_proba[:, i])
-                            class_label = class_names[i] if class_names else str(i)
-                            metrics[f'roc_auc_class_{class_label}'] = auc
-                
-                # Binary classification metrics
-                elif n_classes == 2:
-                    metrics.update({
-                        'roc_auc': roc_auc_score(y_test, y_proba[:, 1]),
-                        'average_precision': average_precision_score(y_test, y_proba[:, 1]),
-                        'log_loss': log_loss(y_test, y_proba),
-                        'brier_score': brier_score_loss(y_test, y_proba[:, 1])
-                    })
-                    
-                    # Find optimal threshold
-                    precision, recall, thresholds = precision_recall_curve(y_test, y_proba[:, 1])
-                    f1_scores = 2 * (precision * recall) / (precision + recall + 1e-8)
-                    optimal_idx = np.argmax(f1_scores)
-                    metrics['optimal_threshold'] = thresholds[optimal_idx]
-                    
-            except Exception as e:
-                metrics['probability_metrics_error'] = str(e)
-                logger.warning(f"Probability metrics failed: {str(e)}")
-        
-        # Confusion matrix
-        try:
-            cm = confusion_matrix(y_test, y_pred)
-            metrics['confusion_matrix'] = cm.tolist()
-        except Exception as e:
-            metrics['confusion_matrix_error'] = str(e)
-            logger.warning(f"Confusion matrix failed: {str(e)}")
-        
-        if fold is not None:
-            logger.info(f"Fold {fold + 1} - Test Accuracy: {metrics['test_accuracy']:.4f} - F1 Macro: {metrics['f1_macro']:.4f}")
-        else:
-            logger.info(f"Test Accuracy: {metrics['test_accuracy']:.4f} - F1 Macro: {metrics['f1_macro']:.4f}")
-            
-    except Exception as e:
-        error_msg = f"Model evaluation failed: {str(e)}"
-        logger.error(error_msg, exc_info=True)
-        metrics['error'] = error_msg
-    
-    return metrics
+
 
 def evaluate_classification_model(model, X_train, X_test, y_train, y_test, logger, 
                                 fold=None, class_names=None, model_type=None, 
@@ -1979,57 +2054,86 @@ def evaluate_regression_model(model, X_train, X_test, y_train, y_test, logger,
 
     
 # ==================== VISUALIZATION FUNCTIONS ====================
-def generate_basic_visualizations(pipeline, X_test, y_test, artifact_paths):
+
+def generate_basic_visualizations(pipeline, X_test, y_test, artifact_paths, target_col=None, 
+                                 model_type=None, feature_selection_method=None, task_type=None, 
+                                 le=None, final_metrics=None):
     """
-    Generate basic visualizations for model evaluation
-    
-    Parameters:
-    -----------
-    pipeline : MLPipeline instance
-        The trained ML pipeline
-    X_test : array-like
-        Test features
-    y_test : array-like
-        Test labels
-    artifact_paths : dict
-        Paths for saving artifacts
+    Generate basic visualizations for model evaluation with target-specific naming
     """
     logger = logging.getLogger(__name__)
     logger.info("Generating basic visualizations...")
     
     try:
-        model = pipeline.model
-        model_type = pipeline.final_metrics['model_type']
-        feature_selection_method = pipeline.final_metrics['feature_selection_method']
-        task_type = pipeline.task_type
+        model = pipeline  # Now pipeline is the wrapper object
         
-        # Get class names for classification
+        # USE THE PASSED PARAMETERS INSTEAD OF TRYING TO GET THEM FROM PIPELINE
+        model_type = model_type or 'unknown'
+        feature_selection_method = feature_selection_method or 'unknown'
+        task_type = task_type or 'unknown'
+        
+        # Keep as DataFrames for pipeline compatibility
+        X_test_df = X_test
+        y_test_array = y_test.values if hasattr(y_test, 'values') else np.array(y_test)
+        
+        # Create title with target information
+        if target_col:
+            main_title = f'{target_col.upper()} - {model_type.title()} ({feature_selection_method}) Evaluation'
+            filename_prefix = f"{target_col}_"
+        else:
+            main_title = f'{model_type.title()} ({feature_selection_method}) Evaluation'
+            filename_prefix = ""
+        
+        # Get class names for classification - USE THE PASSED le PARAMETER
         class_names = None
-        if task_type == 'classification' and hasattr(pipeline, 'le') and pipeline.le is not None:
-            class_names = list(pipeline.le.classes_)
+        if task_type == 'classification' and le is not None:
+            class_names = list(le.classes_)
         
         # Create main evaluation plot
         plt.figure(figsize=(15, 10))
-        plt.suptitle(f'{model_type.title()} ({feature_selection_method}) Evaluation', 
-                    y=0.98, fontsize=16, fontweight='bold')
+        plt.suptitle(main_title, y=0.98, fontsize=16, fontweight='bold')
+        
+        # Get predictions using the model pipeline
+        try:
+            y_pred = model.predict(X_test_df)
+            y_pred_array = np.array(y_pred)
+        except Exception as e:
+            logger.error(f"Model prediction failed: {e}")
+            # Create error visualization
+            plt.text(0.5, 0.5, 'Prediction failed\nCannot generate visualizations', 
+                    ha='center', va='center', transform=plt.gca().transAxes, fontsize=12)
+            plt.tight_layout()
+            plt.savefig(f"{artifact_paths['plots']}/{filename_prefix}model_evaluation_error.png", 
+                       bbox_inches='tight', dpi=300, facecolor='white')
+            plt.close()
+            return
         
         if task_type == 'classification':
             # Classification-specific visualizations
-            y_pred = model.predict(X_test)
             
             # 1. Confusion Matrix
             plt.subplot(2, 2, 1)
-            cm = confusion_matrix(y_test, y_pred)
-            sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
-                       xticklabels=class_names, yticklabels=class_names)
-            plt.title('Confusion Matrix', fontweight='bold')
-            plt.xlabel('Predicted')
-            plt.ylabel('Actual')
+            try:
+                cm = confusion_matrix(y_test_array, y_pred_array)
+                sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
+                           xticklabels=class_names, yticklabels=class_names)
+                plt.title('Confusion Matrix', fontweight='bold')
+                plt.xlabel('Predicted')
+                plt.ylabel('Actual')
+            except Exception as e:
+                plt.text(0.5, 0.5, 'Confusion matrix\nfailed', 
+                        ha='center', va='center', transform=plt.gca().transAxes)
+                plt.title('Confusion Matrix', fontweight='bold')
             
-            # 2. Feature Importance (using your existing method)
+            # 2. Feature Importance - USE THE get_feature_importance METHOD FROM WRAPPER
             plt.subplot(2, 2, 2)
             try:
-                feature_importances = pipeline.get_feature_importance()
+                # Use the get_feature_importance method from the wrapper
+                if hasattr(pipeline, 'get_feature_importance'):
+                    feature_importances = pipeline.get_feature_importance()
+                else:
+                    feature_importances = None
+                
                 if feature_importances is not None and not feature_importances.empty:
                     top_features = feature_importances.head(10)
                     plt.barh(range(len(top_features)), top_features['importance'])
@@ -2041,25 +2145,36 @@ def generate_basic_visualizations(pipeline, X_test, y_test, artifact_paths):
                             ha='center', va='center', transform=plt.gca().transAxes)
                     plt.title('Feature Importances', fontweight='bold')
             except Exception as e:
-                plt.text(0.5, 0.5, f'Error generating\nfeature importance: {str(e)[:50]}', 
+                logger.warning(f"Error generating feature importance: {str(e)}")
+                plt.text(0.5, 0.5, f'Error generating\nfeature importance', 
                         ha='center', va='center', transform=plt.gca().transAxes)
                 plt.title('Feature Importances', fontweight='bold')
             
-            # 3. ROC Curve (if probabilities available)
+            # 3. ROC Curve (moved to position 3)
             plt.subplot(2, 2, 3)
-            if hasattr(model, 'predict_proba'):
-                try:
-                    y_proba = model.predict_proba(X_test)
-                    n_classes = y_proba.shape[1]
+            try:
+                # Get probabilities safely
+                if hasattr(model, 'predict_proba'):
+                    y_proba = model.predict_proba(X_test_df)
+                    
+                    # Handle different return types from predict_proba
+                    if isinstance(y_proba, list):
+                        y_proba = np.array(y_proba)
+                    
+                    # Ensure y_proba is 2D array for multi-class classification
+                    if len(y_proba.shape) == 1:
+                        y_proba = y_proba.reshape(-1, 1)
+                        if class_names and len(class_names) > 1:
+                            y_proba = np.column_stack([1 - y_proba, y_proba])
+                    
+                    n_classes = y_proba.shape[1] if len(y_proba.shape) > 1 else 1
                     
                     if n_classes == 2:
-                        # Binary classification
-                        fpr, tpr, _ = roc_curve(y_test, y_proba[:, 1])
+                        fpr, tpr, _ = roc_curve(y_test_array, y_proba[:, 1])
                         roc_auc = auc(fpr, tpr)
                         plt.plot(fpr, tpr, label=f'ROC curve (AUC = {roc_auc:.2f})')
                     else:
-                        # Multi-class classification
-                        y_test_bin = label_binarize(y_test, classes=np.unique(y_test))
+                        y_test_bin = label_binarize(y_test_array, classes=np.unique(y_test_array))
                         for i in range(n_classes):
                             fpr, tpr, _ = roc_curve(y_test_bin[:, i], y_proba[:, i])
                             roc_auc = auc(fpr, tpr)
@@ -2070,29 +2185,36 @@ def generate_basic_visualizations(pipeline, X_test, y_test, artifact_paths):
                     plt.ylabel('True Positive Rate')
                     plt.title('ROC Curves', fontweight='bold')
                     plt.legend(loc='lower right', fontsize='small')
-                except Exception as e:
-                    plt.text(0.5, 0.5, 'ROC curve\nnot available', 
+                else:
+                    plt.text(0.5, 0.5, 'Probability predictions\nnot available', 
                             ha='center', va='center', transform=plt.gca().transAxes)
                     plt.title('ROC Curves', fontweight='bold')
-            else:
-                plt.text(0.5, 0.5, 'Probability predictions\nnot available', 
+            except Exception as e:
+                plt.text(0.5, 0.5, 'ROC curve\nnot available', 
                         ha='center', va='center', transform=plt.gca().transAxes)
                 plt.title('ROC Curves', fontweight='bold')
             
-            # 4. Classification Report Heatmap
+            # 4. Classification Report Heatmap (NEW - replaces Error Distribution)
             plt.subplot(2, 2, 4)
             try:
-                report = classification_report(y_test, y_pred, 
+                report = classification_report(y_test_array, y_pred_array, 
                                              target_names=class_names, 
                                              output_dict=True)
-                
-                # Extract metrics for heatmap
                 metrics_df = pd.DataFrame(report).transpose()
-                metrics_to_plot = metrics_df.loc[class_names, ['precision', 'recall', 'f1-score']]
                 
-                sns.heatmap(metrics_to_plot, annot=True, fmt='.2f', cmap='YlOrRd', 
-                           cbar_kws={'label': 'Score'})
+                # Select only the classification metrics (exclude accuracy, macro avg, weighted avg)
+                if class_names:
+                    metrics_to_plot = metrics_df.loc[class_names, ['precision', 'recall', 'f1-score']]
+                else:
+                    # If no class names, use numeric indices
+                    class_indices = [str(i) for i in range(len(np.unique(y_test_array))) if str(i) in metrics_df.index]
+                    metrics_to_plot = metrics_df.loc[class_indices, ['precision', 'recall', 'f1-score']]
+                
+                # Create heatmap
+                sns.heatmap(metrics_to_plot, annot=True, fmt='.3f', cmap='YlOrRd', 
+                           cbar_kws={'label': 'Score'}, center=0.5, vmin=0, vmax=1)
                 plt.title('Classification Metrics by Class', fontweight='bold')
+                
             except Exception as e:
                 plt.text(0.5, 0.5, 'Classification report\nnot available', 
                         ha='center', va='center', transform=plt.gca().transAxes)
@@ -2100,135 +2222,366 @@ def generate_basic_visualizations(pipeline, X_test, y_test, artifact_paths):
         
         else:
             # Regression-specific visualizations
-            y_pred = model.predict(X_test)
+            # Calculate regression metrics for display
+            rmse = np.sqrt(mean_squared_error(y_test_array, y_pred_array))
+            r2 = r2_score(y_test_array, y_pred_array)
+            mae = mean_absolute_error(y_test_array, y_pred_array)
             
-            # 1. Actual vs Predicted Scatter Plot
+            # 1. Actual vs Predicted Scatter Plot with metrics
             plt.subplot(2, 2, 1)
-            plt.scatter(y_test, y_pred, alpha=0.6)
-            max_val = max(max(y_test), max(y_pred))
-            min_val = min(min(y_test), min(y_pred))
-            plt.plot([min_val, max_val], [min_val, max_val], 'r--')
+            plt.scatter(y_test_array, y_pred_array, alpha=0.6, s=30)
+            max_val = max(np.max(y_test_array), np.max(y_pred_array))
+            min_val = min(np.min(y_test_array), np.min(y_pred_array))
+            plt.plot([min_val, max_val], [min_val, max_val], 'r--', alpha=0.8)
+            
+            # Add metrics text box
+            textstr = f'RMSE: {rmse:.2f}\nR²: {r2:.3f}\nMAE: {mae:.2f}'
+            props = dict(boxstyle='round', facecolor='wheat', alpha=0.8)
+            plt.gca().text(0.05, 0.95, textstr, transform=plt.gca().transAxes, 
+                        fontsize=10, verticalalignment='top', bbox=props)
+            
             plt.xlabel('Actual Values')
             plt.ylabel('Predicted Values')
             plt.title('Actual vs Predicted', fontweight='bold')
+            plt.grid(True, alpha=0.3)
             
-            # 2. Residual Plot
+            # 2. Prediction Error Plot (NEW)
             plt.subplot(2, 2, 2)
-            residuals = y_test - y_pred
-            plt.scatter(y_pred, residuals, alpha=0.6)
-            plt.axhline(y=0, color='r', linestyle='--')
-            plt.xlabel('Predicted Values')
-            plt.ylabel('Residuals')
-            plt.title('Residual Plot', fontweight='bold')
+            errors = y_pred_array - y_test_array
+            plt.scatter(y_test_array, errors, alpha=0.6, s=30)
+            plt.axhline(y=0, color='r', linestyle='-', linewidth=2)
             
-            # 3. Feature Importance (using your existing method)
+            # Add error statistics lines
+            mean_error = np.mean(errors)
+            std_error = np.std(errors)
+            plt.axhline(y=mean_error, color='g', linestyle='--', label=f'Mean Error: {mean_error:.2f}')
+            plt.axhline(y=mean_error + std_error, color='orange', linestyle=':', label='±1 STD')
+            plt.axhline(y=mean_error - std_error, color='orange', linestyle=':')
+            
+            plt.xlabel('Actual Values')
+            plt.ylabel('Prediction Error')
+            plt.title('Prediction Error Analysis', fontweight='bold')
+            plt.legend(fontsize=8)
+            plt.grid(True, alpha=0.3)
+            
+            # 3. Feature Importance
             plt.subplot(2, 2, 3)
             try:
-                feature_importances = pipeline.get_feature_importance()
+                # Use the get_feature_importance method from the wrapper
+                if hasattr(pipeline, 'get_feature_importance'):
+                    feature_importances = pipeline.get_feature_importance()
+                else:
+                    feature_importances = None
+                
                 if feature_importances is not None and not feature_importances.empty:
                     top_features = feature_importances.head(10)
-                    plt.barh(range(len(top_features)), top_features['importance'])
-                    plt.yticks(range(len(top_features)), top_features['feature'])
+                    colors = plt.cm.viridis(np.linspace(0, 1, len(top_features)))
+                    bars = plt.barh(range(len(top_features)), top_features['importance'], color=colors)
+                    
+                    # Add value labels on bars
+                    for i, (idx, row) in enumerate(top_features.iterrows()):
+                        plt.text(row['importance'] + 0.001, i, f'{row["importance"]:.3f}', 
+                                va='center', fontsize=8)
+                    
+                    plt.yticks(range(len(top_features)), top_features['feature'], fontsize=9)
                     plt.title('Top 10 Feature Importances', fontweight='bold')
-                    plt.xlabel('Importance')
+                    plt.xlabel('Importance Score')
+                    plt.grid(True, alpha=0.3, axis='x')
                 else:
                     plt.text(0.5, 0.5, 'Feature importances\nnot available', 
                             ha='center', va='center', transform=plt.gca().transAxes)
                     plt.title('Feature Importances', fontweight='bold')
             except Exception as e:
-                plt.text(0.5, 0.5, f'Error generating\nfeature importance: {str(e)[:50]}', 
+                plt.text(0.5, 0.5, f'Error generating\nfeature importance', 
                         ha='center', va='center', transform=plt.gca().transAxes)
                 plt.title('Feature Importances', fontweight='bold')
             
-            # 4. Error Distribution
+            # 4. Residuals vs Most Important Feature (NEW)
             plt.subplot(2, 2, 4)
-            errors = y_test - y_pred
-            plt.hist(errors, bins=30, alpha=0.7, edgecolor='black')
-            plt.axvline(x=0, color='r', linestyle='--')
-            plt.xlabel('Prediction Error')
-            plt.ylabel('Frequency')
-            plt.title('Error Distribution', fontweight='bold')
+            try:
+                if feature_importances is not None and not feature_importances.empty:
+                    # Get the most important feature
+                    top_feature_name = feature_importances.iloc[0]['feature']
+                    
+                    # Try to find this feature in the test data
+                    if hasattr(X_test_df, 'columns') and top_feature_name in X_test_df.columns:
+                        top_feature_values = X_test_df[top_feature_name]
+                        residuals = y_test_array - y_pred_array
+                        
+                        plt.scatter(top_feature_values, residuals, alpha=0.6, s=30)
+                        plt.axhline(y=0, color='r', linestyle='-', linewidth=2)
+                        plt.xlabel(f'Most Important Feature: {top_feature_name}')
+                        plt.ylabel('Residuals')
+                        plt.title('Residuals vs Top Feature', fontweight='bold')
+                        plt.grid(True, alpha=0.3)
+                    else:
+                        # Fallback: show prediction distribution
+                        plt.hist(y_pred_array, bins=20, alpha=0.7, edgecolor='black')
+                        plt.axvline(x=np.mean(y_pred_array), color='r', linestyle='--', 
+                                label=f'Mean: {np.mean(y_pred_array):.2f}')
+                        plt.xlabel('Predicted Values')
+                        plt.ylabel('Frequency')
+                        plt.title('Prediction Distribution', fontweight='bold')
+                        plt.legend()
+                else:
+                    # Show prediction distribution if no feature importances
+                    plt.hist(y_pred_array, bins=20, alpha=0.7, edgecolor='black')
+                    plt.axvline(x=np.mean(y_pred_array), color='r', linestyle='--', 
+                            label=f'Mean: {np.mean(y_pred_array):.2f}')
+                    plt.xlabel('Predicted Values')
+                    plt.ylabel('Frequency')
+                    plt.title('Prediction Distribution', fontweight='bold')
+                    plt.legend()
+            except Exception as e:
+                plt.text(0.5, 0.5, 'Residual analysis\nfailed', 
+                        ha='center', va='center', transform=plt.gca().transAxes)
+                plt.title('Residual Analysis', fontweight='bold')
         
         plt.tight_layout()
-        plt.savefig(f"{artifact_paths['plots']}/model_evaluation.png", 
+        
+        # Save with target-specific filename
+        plt.savefig(f"{artifact_paths['plots']}/{filename_prefix}model_evaluation.png", 
                    bbox_inches='tight', dpi=300, facecolor='white')
         plt.close()
         
-        # Additional probability plots for classification
+        # Generate additional specialized plots
         if task_type == 'classification' and hasattr(model, 'predict_proba'):
             try:
-                generate_probability_plots(model, X_test, y_test, class_names, artifact_paths)
+                generate_probability_plots(model, X_test_df, y_test_array, class_names, artifact_paths, target_col, logger)
             except Exception as e:
                 logger.warning(f"Probability plots failed: {str(e)}")
+        elif task_type == 'regression':
+            try:
+                generate_regression_plots(model, X_test_df, y_test_array, artifact_paths, target_col, logger)
+            except Exception as e:
+                logger.warning(f"Additional regression plots failed: {str(e)}")
         
         logger.info("Basic visualizations generated successfully!")
         
     except Exception as e:
-        logger.error(f"Error generating visualizations: {str(e)}", exc_info=True)
+        logger.error(f"Error generating visualizations: {str(e)}")
+        import traceback
+        logger.error(traceback.format_exc())
+
+def generate_regression_plots(model, X_test, y_test, artifact_paths, target_col=None, logger=None):
+    """
+    Generate additional regression-specific plots
+    """
+    if logger is None:
+        logger = logging.getLogger(__name__)
+    
+    filename_prefix = f"{target_col}_" if target_col else ""
+    
+    y_pred = model.predict(X_test)
+    residuals = y_test - y_pred
+    
+    plt.figure(figsize=(12, 4))
+    
+    # 1. Residuals vs Features analysis
+    try:
+        if hasattr(model, 'feature_importances_'):
+            importances = model.feature_importances_
+            if len(importances) > 0:
+                top_feature_idx = np.argmax(importances)
+                # Use the original feature index, not column names
+                plt.subplot(1, 2, 1)
+                plt.scatter(X_test[:, top_feature_idx], residuals, alpha=0.6)
+                plt.axhline(y=0, color='r', linestyle='--')
+                plt.xlabel(f'Top Feature (Index {top_feature_idx})')
+                plt.ylabel('Residuals')
+                plt.title('Residuals vs Top Feature', fontweight='bold')
+                plt.grid(True, alpha=0.3)
+    except Exception as e:
+        logger.warning(f"Feature importance analysis failed: {str(e)}")
+        # If feature importance fails, create a simple residual plot
+        plt.subplot(1, 2, 1)
+        plt.scatter(y_pred, residuals, alpha=0.6)
+        plt.axhline(y=0, color='r', linestyle='--')
+        plt.xlabel('Predicted Values')
+        plt.ylabel('Residuals')
+        plt.title('Residuals vs Predicted', fontweight='bold')
+        plt.grid(True, alpha=0.3)
+    
+    # 2. Cumulative error distribution
+    plt.subplot(1, 2, 2)
+    sorted_errors = np.sort(np.abs(residuals))
+    cumulative = np.arange(1, len(sorted_errors) + 1) / len(sorted_errors)
+    plt.plot(sorted_errors, cumulative, marker='.', linestyle='none', alpha=0.6)
+    plt.xlabel('Absolute Error')
+    plt.ylabel('Cumulative Proportion')
+    plt.title('Cumulative Error Distribution', fontweight='bold')
+    plt.grid(True, alpha=0.3)
+    
+    plt.tight_layout()
+    plt.savefig(f"{artifact_paths['plots']}/{filename_prefix}regression_analysis.png", 
+               bbox_inches='tight', dpi=300, facecolor='white')
+    plt.close()
 
 
-def generate_probability_plots(model, X_test, y_test, class_names, artifact_paths):
+
+    
+def generate_probability_plots(model, X_test, y_test, class_names, artifact_paths, target_col=None, logger=None):
     """
     Generate probability calibration and distribution plots for classification
-    
-    Parameters:
-    -----------
-    model : trained model
-        The trained classification model
-    X_test : array-like
-        Test features
-    y_test : array-like
-        Test labels
-    class_names : list
-        Names of classes
-    artifact_paths : dict
-        Paths for saving artifacts
     """
-    logger = logging.getLogger(__name__)
+    if logger is None:
+        logger = logging.getLogger(__name__)
     
     try:
+        # Get predictions and ensure proper format
         y_proba = model.predict_proba(X_test)
-        n_classes = y_proba.shape[1]
         
-        plt.figure(figsize=(12, 5))
+        # Handle different return types from predict_proba
+        if isinstance(y_proba, list):
+            y_proba = np.array(y_proba)
+        
+        # Ensure y_proba is 2D array for multi-class classification
+        if len(y_proba.shape) == 1:
+            # Binary classification case - reshape to 2D
+            y_proba = y_proba.reshape(-1, 1)
+            if len(class_names) > 1:
+                # For binary classification, we need probabilities for both classes
+                y_proba = np.column_stack([1 - y_proba, y_proba])
+        
+        n_classes = y_proba.shape[1] if len(y_proba.shape) > 1 else 1
+        
+        # Create filename with target prefix
+        filename_prefix = f"{target_col}_" if target_col else ""
+        
+        # Create title with target information
+        if target_col:
+            main_title = f'{target_col.upper()} - Probability Calibration and Distribution'
+        else:
+            main_title = 'Probability Calibration and Distribution'
+        
+        plt.figure(figsize=(14, 6))
+        plt.suptitle(main_title, fontsize=16, fontweight='bold', y=0.98)
         
         # 1. Calibration Curve
         plt.subplot(1, 2, 1)
+        calibration_data = {}
+        
         for i, class_name in enumerate(class_names):
+            if i >= n_classes:  # Safety check
+                break
+                
             # Check if we have samples for this class
             class_mask = (y_test == i)
-            if np.sum(class_mask) > 0:
-                fraction_of_positives, mean_predicted_value = calibration_curve(
-                    class_mask.astype(int),
-                    y_proba[:, i],
-                    n_bins=10,
-                    strategy='quantile'
-                )
-                plt.plot(mean_predicted_value, fraction_of_positives, "s-", 
-                        label=f'{class_name}', alpha=0.8, markersize=4)
+            if np.sum(class_mask) > 10:  # Minimum samples for calibration curve
+                try:
+                    fraction_of_positives, mean_predicted_value = calibration_curve(
+                        class_mask.astype(int),
+                        y_proba[:, i],
+                        n_bins=10,
+                        strategy='quantile'
+                    )
+                    
+                    # Calculate calibration error
+                    calibration_error = np.mean(np.abs(fraction_of_positives - mean_predicted_value))
+                    calibration_data[class_name] = calibration_error
+                    
+                    plt.plot(mean_predicted_value, fraction_of_positives, "o-", 
+                            label=f'{class_name} (Error: {calibration_error:.3f})', 
+                            markersize=5, linewidth=2, alpha=0.8)
+                    
+                except Exception as e:
+                    logger.warning(f"Calibration curve failed for {class_name}: {str(e)}")
+                    continue
         
-        plt.plot([0, 1], [0, 1], "k--", label="Perfectly calibrated")
-        plt.xlabel('Mean Predicted Probability')
-        plt.ylabel('Fraction of Positives')
-        plt.title('Calibration Plot')
-        plt.legend(loc='best', fontsize='small')
+        plt.plot([0, 1], [0, 1], "k--", label="Perfect calibration", linewidth=2)
+        plt.xlabel('Mean Predicted Probability', fontweight='bold')
+        plt.ylabel('Fraction of Positives', fontweight='bold')
+        plt.title('Calibration Curves', fontweight='bold')
+        
+        # Only show legend if we have reasonable number of classes
+        if len(calibration_data) <= 10:
+            plt.legend(loc='best', fontsize='small', frameon=True, fancybox=True, shadow=True)
+        else:
+            # For many classes, show summary instead
+            avg_error = np.mean(list(calibration_data.values())) if calibration_data else 0
+            plt.text(0.05, 0.95, f'Avg Calibration Error: {avg_error:.3f}', 
+                    transform=plt.gca().transAxes, bbox=dict(boxstyle="round,pad=0.3", 
+                    facecolor="yellow", alpha=0.7))
+        
         plt.grid(True, alpha=0.3)
+        plt.xlim(0, 1)
+        plt.ylim(0, 1)
         
-        # 2. Probability Distribution
+        # 2. Probability Distribution with enhanced visualization
         plt.subplot(1, 2, 2)
-        for i, class_name in enumerate(class_names):
-            class_probs = y_proba[y_test == i, i]
-            if len(class_probs) > 0:
-                sns.kdeplot(class_probs, label=f'True {class_name}', fill=True, alpha=0.6)
         
-        plt.xlabel('Predicted Probability for True Class')
-        plt.ylabel('Density')
-        plt.title('Probability Distribution')
-        plt.legend(loc='best', fontsize='small')
+        # Create color palette
+        colors = plt.cm.Set3(np.linspace(0, 1, min(len(class_names), 12)))
+        
+        distribution_data = {}
+        valid_classes = 0
+        
+        for i, class_name in enumerate(class_names):
+            if i >= n_classes:  # Safety check
+                break
+                
+            # Ensure y_test is numpy array for indexing
+            y_test_array = np.array(y_test)
+            class_mask = (y_test_array == i)
+            
+            if np.sum(class_mask) > 5:  # Minimum samples for distribution
+                class_probs = y_proba[class_mask, i]
+                color = colors[valid_classes % len(colors)]
+                
+                # Ensure class_probs is numpy array
+                class_probs_array = np.array(class_probs)
+                
+                # Plot KDE
+                sns.kdeplot(class_probs_array, label=f'{class_name}', fill=True, 
+                           alpha=0.5, color=color, linewidth=2)
+                
+                # Calculate statistics
+                mean_prob = np.mean(class_probs_array)
+                median_prob = np.median(class_probs_array)
+                distribution_data[class_name] = {
+                    'mean': mean_prob,
+                    'median': median_prob,
+                    'count': len(class_probs_array)
+                }
+                
+                # Add vertical lines for mean and median
+                plt.axvline(x=mean_prob, color=color, linestyle='--', alpha=0.8, 
+                           label=f'{class_name} Mean: {mean_prob:.2f}')
+                plt.axvline(x=median_prob, color=color, linestyle=':', alpha=0.6)
+                
+                valid_classes += 1
+        
+        if valid_classes > 0:
+            plt.xlabel('Predicted Probability for True Class', fontweight='bold')
+            plt.ylabel('Density', fontweight='bold')
+            plt.title('Probability Distributions by True Class', fontweight='bold')
+            
+            # Adjust legend for many classes
+            if valid_classes <= 8:
+                plt.legend(loc='best', fontsize='small', frameon=True, 
+                          fancybox=True, shadow=True, ncol=1)
+            else:
+                # Show summary statistics instead of full legend
+                stats_text = "\n".join([f"{cls}: μ={data['mean']:.2f}, n={data['count']}" 
+                                      for cls, data in list(distribution_data.items())[:6]])
+                if len(distribution_data) > 6:
+                    stats_text += f"\n... and {len(distribution_data) - 6} more classes"
+                
+                plt.text(0.95, 0.95, stats_text, transform=plt.gca().transAxes,
+                        fontsize=8, verticalalignment='top', horizontalalignment='right',
+                        bbox=dict(boxstyle="round,pad=0.3", facecolor="white", alpha=0.8))
+        else:
+            plt.text(0.5, 0.5, 'Insufficient data for\nprobability distribution', 
+                    ha='center', va='center', transform=plt.gca().transAxes)
+            plt.title('Probability Distribution', fontweight='bold')
+        
         plt.grid(True, alpha=0.3)
+        plt.xlim(0, 1)
         
         plt.tight_layout()
-        plt.savefig(f"{artifact_paths['plots']}/probability_plots.png", 
+        
+        # Save with target-specific filename
+        plt.savefig(f"{artifact_paths['plots']}/{filename_prefix}probability_plots.png", 
                    bbox_inches='tight', dpi=300, facecolor='white')
         plt.close()
         
@@ -2236,115 +2589,193 @@ def generate_probability_plots(model, X_test, y_test, class_names, artifact_path
         
     except Exception as e:
         logger.warning(f"Error generating probability plots: {str(e)}")
-    
-def calculate_class_weights(y):
+        import traceback
+        logger.warning(traceback.format_exc())
+
+
+def handle_class_imbalance(y_train, method='auto', custom_weights=None, smote_strategy='auto', random_state=42):
     """
-    Calculate balanced class weights for imbalanced datasets
+    Handle class imbalance using various methods
     
     Parameters:
     -----------
-    y : array-like
-        Target labels
+    y_train : array-like
+        Training target labels
+    method : str, default='auto'
+        Method to handle imbalance: 'auto', 'smote', 'class_weights', 'custom_weights', 'none'
+    custom_weights : dict, optional
+        Custom class weights dictionary {class: weight}
+    smote_strategy : str or dict, default='auto'
+        SMOTE sampling strategy
+    random_state : int, default=42
+        Random state for reproducibility
         
     Returns:
     --------
-    dict or None: Class weights if classification, None for regression
+    dict: Configuration with method details and parameters
     """
-    if len(np.unique(y)) <= 1:
-        return None
     
-    class_weights = compute_class_weight('balanced', classes=np.unique(y), y=y)
-    weight_dict = {i: weight for i, weight in enumerate(class_weights)}
-    return weight_dict
+    # Check if it's a classification task with imbalance
+    unique_classes = np.unique(y_train)
+    if len(unique_classes) <= 1:
+        return {
+            'method': 'none',
+            'reason': 'Single class or regression task',
+            'sample_weights': None,
+            'class_weights': None,
+            'smote_instance': None
+        }
+    
+    # Calculate class distribution
+    class_counts = np.bincount(y_train)
+    class_distribution = {cls: count for cls, count in zip(unique_classes, class_counts)}
+    
+    # Check if imbalance exists (more than 2:1 ratio between largest and smallest class)
+    max_count = max(class_counts)
+    min_count = min(class_counts)
+    is_imbalanced = (max_count / min_count) > 2 if min_count > 0 else True
+    
+    if not is_imbalanced:
+        return {
+            'method': 'none',
+            'reason': 'Classes are balanced',
+            'class_distribution': class_distribution,
+            'sample_weights': None,
+            'class_weights': None,
+            'smote_instance': None
+        }
+    
+    # Determine method if 'auto'
+    if method == 'auto':
+        # Auto logic: Use SMOTE if minority class has enough samples, otherwise class weights
+        if min_count >= 5:  # Enough samples for SMOTE
+            method = 'smote'
+        else:
+            method = 'class_weights'
+    
+    # Apply the selected method
+    if method == 'smote':
+        return _apply_smote(y_train, smote_strategy, class_distribution, random_state)
+    
+    elif method == 'class_weights':
+        return _apply_class_weights(y_train, class_distribution, 'balanced')
+    
+    elif method == 'custom_weights':
+        return _apply_custom_weights(y_train, custom_weights, class_distribution)
+    
+    elif method == 'none':
+        return {
+            'method': 'none',
+            'reason': 'Explicitly disabled',
+            'class_distribution': class_distribution,
+            'sample_weights': None,
+            'class_weights': None,
+            'smote_instance': None
+        }
+    
+    else:
+        raise ValueError(f"Unknown imbalance handling method: {method}")
+
+def _apply_smote(y_train, smote_strategy, class_distribution, random_state):
+    """Apply SMOTE oversampling"""
+    from imblearn.over_sampling import SMOTE
+    
+    # Calculate safe k_neighbors
+    min_class_count = min(np.bincount(y_train))
+    k_neighbors = min(5, min_class_count - 1)
+    k_neighbors = max(1, k_neighbors)  # Ensure at least 1
+    
+    # Create SMOTE instance
+    smote = SMOTE(
+        sampling_strategy=smote_strategy,
+        random_state=random_state,
+        k_neighbors=k_neighbors
+    )
+    
+    return {
+        'method': 'smote',
+        'class_distribution': class_distribution,
+        'sample_weights': None,  # No sample weights when using SMOTE
+        'class_weights': None,   # No class weights when using SMOTE
+        'smote_instance': smote,
+        'k_neighbors': k_neighbors,
+        'smote_strategy': smote_strategy
+    }
+
+def _apply_class_weights(y_train, class_distribution, weight_type='balanced'):
+    """Apply automatic class weights"""
+    from sklearn.utils.class_weight import compute_class_weight
+    
+    unique_classes = np.unique(y_train)
+    
+    if weight_type == 'balanced':
+        class_weights = compute_class_weight(
+            'balanced', 
+            classes=unique_classes, 
+            y=y_train
+        )
+    else:
+        # Custom weight calculation logic could be added here
+        class_weights = np.ones(len(unique_classes))
+    
+    weight_dict = {cls: weight for cls, weight in zip(unique_classes, class_weights)}
+    sample_weights = compute_sample_weights(y_train, weight_dict)
+    
+    return {
+        'method': 'class_weights',
+        'class_distribution': class_distribution,
+        'sample_weights': sample_weights,
+        'class_weights': weight_dict,
+        'smote_instance': None
+    }
+
+def _apply_custom_weights(y_train, custom_weights, class_distribution):
+    """Apply custom class weights"""
+    if custom_weights is None:
+        raise ValueError("Custom weights method requires custom_weights parameter")
+    
+    # Validate custom weights
+    unique_classes = np.unique(y_train)
+    for cls in unique_classes:
+        if cls not in custom_weights:
+            raise ValueError(f"Class {cls} not found in custom_weights")
+    
+    sample_weights = compute_sample_weights(y_train, custom_weights)
+    
+    return {
+        'method': 'custom_weights',
+        'class_distribution': class_distribution,
+        'sample_weights': sample_weights,
+        'class_weights': custom_weights.copy(),
+        'smote_instance': None
+    }
 
 def compute_sample_weights(y, class_weights):
-    """
-    Compute sample weights for each instance
-    
-    Parameters:
-    -----------
-    y : array-like
-        Target labels
-    class_weights : dict
-        Class weight dictionary
-        
-    Returns:
-    --------
-    array: Sample weights
-    """
+    """Compute sample weights for each instance"""
     return np.array([class_weights[label] for label in y])
 
-def print_classification_report(model_type, feature_selection_method):
+def validate_imbalance_config(method, use_smote, class_weights_dict):
     """
-    Print comprehensive classification report including:
-    - Cross-validation metrics
-    - Test set performance
-    - Proper handling of train/test separation
+    Validate that imbalance handling configuration is consistent
     
-    Args:
-        model_type: Type of model ('xgboost', 'gradient_boosting', etc.)
-        feature_selection_method: Feature selection method ('rfe', etc.)
+    Returns:
+    --------
+    bool: True if configuration is valid, False otherwise
+    str: Error message if invalid, None if valid
     """
-    base_path = f"artifacts/{model_type}/{feature_selection_method}/metrics"
     
-    try:
-        # Load all relevant files
-        cv_results = pd.read_csv(f"{base_path}/cross_validation_results.csv")
-        test_report = pd.read_csv(f"{base_path}/test_classification_report.csv", index_col=0)
-        final_metrics = pd.read_csv(f"{base_path}/final_metrics.csv")
-        
-        # Print header with model info
-        print(f"\nModel Performance: {model_type.upper()} ({feature_selection_method})")
-        print("="*80)
-        
-        # Cross-validation summary
-        print("\nCross-Validation Performance:")
-        print("-"*80)
-        print(f"Average Accuracy: {cv_results['test_accuracy'].mean():.3f} (±{cv_results['test_accuracy'].std():.3f})")
-        print(f"Average F1 Score: {cv_results['f1_macro'].mean():.3f} (±{cv_results['f1_macro'].std():.3f})")
-        print(f"Average ROC AUC (OVR): {cv_results['roc_auc_ovr'].mean():.3f} (±{cv_results['roc_auc_ovr'].std():.3f})")
-        
-        # Test set performance
-        print("\nHoldout Set Evaluation:")
-        print("-"*80)
-        print(f"Accuracy: {final_metrics.iloc[0]['holdout_accuracy']:.3f}")
-        print(f"F1 Score (Macro): {final_metrics.iloc[0]['holdout_f1_macro']:.3f}")
-        print(f"Precision (Macro): {final_metrics.iloc[0]['holdout_precision_macro']:.3f}")
-        print(f"Recall (Macro): {final_metrics.iloc[0]['holdout_recall_macro']:.3f}")
-        
-        # Detailed classification report
-        print("\nTest Set Classification Report:")
-        print("-"*80)
-        print(f"{'Class':<15}{'Precision':>10}{'Recall':>10}{'F1-Score':>10}{'Support':>10}")
-        print("-"*80)
-        
-        # Print class-wise metrics
-        for class_name in test_report.index:
-            if class_name not in ['accuracy', 'macro avg', 'weighted avg']:
-                row = test_report.loc[class_name]
-                print(f"{class_name:<15}{row['precision']:>10.3f}{row['recall']:>10.3f}{row['f1-score']:>10.3f}{int(row['support']):>10}")
-        
-        # Print averages
-        print("-"*80)
-        for avg_type in ['macro avg', 'weighted avg']:
-            if avg_type in test_report.index:
-                row = test_report.loc[avg_type]
-                print(f"{avg_type:<15}{row['precision']:>10.3f}{row['recall']:>10.3f}{row['f1-score']:>10.3f}{int(row['support']):>10}")
-        
-        # Print accuracy from test report
-        if 'accuracy' in test_report.index:
-            accuracy_row = test_report.loc['accuracy']
-            print(f"{'accuracy':<15}{'':>10}{'':>10}{accuracy_row['f1-score']:>10.3f}{int(accuracy_row['support']):>10}")
-        
-        print("="*80)
-        
-    except FileNotFoundError as e:
-        print(f"\nError: Required files not found in {base_path}")
-        print(f"Missing file: {str(e)}")
-    except Exception as e:
-        print(f"\nError generating report: {str(e)}")
-        import traceback
-        traceback.print_exc()
+    if use_smote and class_weights_dict is not None:
+        return False, "Cannot use both SMOTE and custom class weights simultaneously"
+    
+    if method == 'custom_weights' and class_weights_dict is None:
+        return False, "Custom weights method requires class_weights_dict parameter"
+    
+    if method == 'smote' and not use_smote:
+        return False, "SMOTE method requires use_smote=True"
+    
+    return True, None
+
+
 
 class HierarchicalClassifier:
     """Optimized hierarchical classifier with better draw recall"""
@@ -2658,39 +3089,7 @@ def predict_multiple(self, new_data, trained_models):
     
     return predictions
 
-def generate_comprehensive_report(self, trained_models):
-    """
-    Generate a comprehensive report using your existing evaluation metrics
-    """
-    print("COMPREHENSIVE MODEL EVALUATION REPORT")
-    print("=" * 80)
-    
-    for target_name, result in trained_models.items():
-        if 'error' in result:
-            print(f"\n{target_name.upper():<20} - ERROR: {result['error']}")
-            continue
-            
-        metrics = result.get('metrics', {})
-        task_type = result.get('task_type', 'unknown')
-        
-        print(f"\n{target_name.upper():<20} - {task_type.upper()}")
-        print("-" * 40)
-        
-        if task_type == 'classification':
-            # Your classification metrics
-            print(f"Accuracy:    {metrics.get('holdout_accuracy', 'N/A'):.3f}")
-            print(f"F1 Macro:    {metrics.get('holdout_f1_macro', 'N/A'):.3f}")
-            print(f"Precision:   {metrics.get('holdout_precision_macro', 'N/A'):.3f}")
-            print(f"Recall:      {metrics.get('holdout_recall_macro', 'N/A'):.3f}")
-            
-        elif task_type == 'regression':
-            # Your regression metrics
-            print(f"RMSE:        {metrics.get('holdout_rmse', 'N/A'):.3f}")
-            print(f"R²:          {metrics.get('holdout_r2', 'N/A'):.3f}")
-            print(f"MAE:         {metrics.get('holdout_mae', 'N/A'):.3f}")
-            print(f"Samples:     {metrics.get('holdout_samples', 'N/A')}")
-            
-        print(f"Model Type:  {metrics.get('model_type', 'N/A')}")
+
 
 def quick_train_all(self, df, regression_targets=None):
     """

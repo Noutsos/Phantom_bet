@@ -3195,24 +3195,24 @@ class ProcessPipeline:
         df = self._clean_data(df)
         df = self._create_temporal_features(df)
         df = self._create_target_column(df)
-        #self.logger.info("Adding competition info from league names")
-        #df = self._add_competition_info_from_name(df)
-        #self.logger.info("Adding competition context")
-        #df= self._add_competition_context(df)
-        #self.logger.info("Adding competition metrics")
-        #df = self._add_competition_specific_features(df)
+        self.logger.info("Adding competition info from league names")
+        df = self._add_competition_info_from_name(df)
+        self.logger.info("Adding competition context")
+        df= self._add_competition_context(df)
+        self.logger.info("Adding competition metrics")
+        df = self._add_competition_specific_features(df)
         
-        #df = self._create_standings(df)  
-        #df = self._calculate_rolling_standings(df)
-        #df = self._calculate_form_strength(df)
-        #self._debug_momentum_calculation(df, team_id=504, league_id=135,season=2024)
+        df = self._create_standings(df)  
+        df = self._calculate_rolling_standings(df)
+        df = self._calculate_form_strength(df)
+        self._debug_momentum_calculation(df, team_id=504, league_id=135,season=2024)
         # Debug specific teams
         debug_teams = [492, 489, 505]  # Replace with actual team IDs
 
         # Option 1: Use debug mode in main function
-        #df = self._create_h2h_features(df, LEAGUES)
-        #df = self._add_new_metrics(df)
-        #df = self._calculate_rolling_averages(df)
+        df = self._create_h2h_features(df, LEAGUES)
+        df = self._add_new_metrics(df)
+        df = self._calculate_rolling_averages(df)
         df = df.fillna(0)
         self.logger.info(f"Final shape: {df.shape}")
         return df

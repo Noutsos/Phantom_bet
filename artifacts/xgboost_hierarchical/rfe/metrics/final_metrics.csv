@@ -1,2 +1,0 @@
-model_type,feature_selection_method,holdout_accuracy,holdout_precision_macro,holdout_recall_macro,holdout_f1_macro,train_samples,holdout_samples,holdout_ratio,draw_recall,draw_precision
-xgboost_hierarchical,rfe,0.6659324522760646,0.6692143715682867,0.6574771463476616,0.6560053015912582,22473,14982,0.4,0.6143931256713212,0.4404234841193455
