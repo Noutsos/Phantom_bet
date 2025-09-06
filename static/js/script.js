@@ -94,3 +94,18 @@ function selectDomesticCups() {
     });
 }
 
+// Toggle form fields based on selections
+function toggleImbalanceFields() {
+    const handleImbalance = document.getElementById('handle_class_imbalance').checked;
+    const classWeightType = document.getElementById('class_weight_type').value;
+    const useSmote = document.getElementById('use_smote').checked;
+    
+    // Show/hide class weight options
+    document.getElementById('class_weight_type').style.display = handleImbalance && !useSmote ? 'block' : 'none';
+    document.getElementById('custom_weights_group').style.display = (handleImbalance && !useSmote && classWeightType === 'custom') ? 'block' : 'none';
+    
+    // Show/hide SMOTE options
+    document.getElementById('smote_strategy_group').style.display = (handleImbalance && useSmote) ? 'block' : 'none';
+    document.getElementById('smote_factor_group').style.display = (handleImbalance && useSmote) ? 'block' : 'none';
+}
+

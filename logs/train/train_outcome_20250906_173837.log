@@ -1,0 +1,42 @@
+2025-09-06 17:38:37,023 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 17:38:37,023 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-06 17:38:37,056 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-06 17:38:37,100 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 17:38:37,100 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-06 17:38:37,108 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-06 17:38:37,108 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 17:38:37,174 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 17:38:37,372 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 17:38:37,372 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-06 17:38:37,378 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-06 17:38:37,383 - src.train_pipeline - INFO - Using football class weights: {0: 1.0516018060632122, 1: 3.2755156710420574, 2: 0.7777071076482748}
+2025-09-06 17:38:37,384 - src.train_pipeline - INFO - Class imbalance handling: class_weights
+2025-09-06 17:38:37,384 - src.train_pipeline - INFO - Class distribution: {0: 9302, 1: 7466, 2: 12578}
+2025-09-06 17:38:37,384 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-06 17:38:37,454 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-06 17:38:37,454 - src.train_pipeline - INFO - No categorical features found. Skipping OneHotEncoder.
+2025-09-06 17:38:37,454 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 17:38:37,454 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-06 17:38:37,454 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 17:38:37,454 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-06 17:38:37,455 - src.train_pipeline - INFO - Set class_weight parameter: {0: 1.0516018060632122, 1: 3.2755156710420574, 2: 0.7777071076482748}
+2025-09-06 17:38:37,455 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-06 17:38:37,455 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-06 17:38:37,472 - src.train_pipeline - INFO - Using sample weights for evaluation
+2025-09-06 17:38:37,486 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-06 17:38:37,513 - src.train_pipeline - INFO - Using sample weights for evaluation
+2025-09-06 17:38:37,525 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-06 17:38:37,555 - src.train_pipeline - INFO - Using sample weights for evaluation
+2025-09-06 17:38:37,566 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-06 17:38:37,603 - src.train_pipeline - INFO - Using sample weights for evaluation
+2025-09-06 17:38:37,614 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-06 17:38:37,657 - src.train_pipeline - INFO - Using sample weights for evaluation
+2025-09-06 17:38:37,672 - src.train_pipeline - INFO - Training final model on full training period...
+2025-09-06 17:40:11,317 - src.train_pipeline - INFO - Evaluating on holdout period...
+2025-09-06 17:40:11,386 - src.train_pipeline - INFO - Holdout Accuracy: 0.5981
+2025-09-06 17:40:11,386 - src.train_pipeline - INFO - Saving model artifacts...
+2025-09-06 17:40:11,435 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-09-06 17:40:11,435 - src.train_pipeline - INFO - Generating basic visualizations...
+2025-09-06 17:40:15,297 - src.train_pipeline - INFO - Probability plots generated successfully!
+2025-09-06 17:40:15,298 - src.train_pipeline - INFO - Basic visualizations generated successfully!
+2025-09-06 17:40:15,298 - src.train_pipeline - INFO - Training completed successfully!

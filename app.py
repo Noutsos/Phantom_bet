@@ -2,7 +2,8 @@ import os
 import pandas as pd
 from datetime import datetime, timedelta
 import logging
-from flask import Flask, render_template, request, jsonify, session, redirect, url_for, send_file, flash, json
+import json
+from flask import Flask, render_template, request, jsonify, session, redirect, url_for, send_file, flash
 from src.collect_pipeline import CollectPipeline
 from src.extract_pipeline import ExtractPipeline
 from src.process_pipeline import ProcessPipeline
@@ -170,13 +171,26 @@ def processing():
 def training():
     if request.method == 'POST':
         # Parse class weights and SMOTE strategy from JSON strings
-        
+        # Parse custom weights if provided
+        custom_weights_dict = None
+        custom_weights_str = request.form.get('custom_weights_dict')
+        if custom_weights_str and custom_weights_str.strip():
+            try:
+                custom_weights_dict = json.loads(custom_weights_str)
+                # Convert string keys to integers
+                custom_weights_dict = {int(k): float(v) for k, v in custom_weights_dict.items()}
+            except json.JSONDecodeError:
+                flash('Invalid JSON format for custom weights', 'error')
+                return render_template('training.html')
 
         # Validate that both SMOTE and class weights aren't enabled
         use_smote = 'use_smote' in request.form
         smote_strategy = request.form.get('smote_strategy', '{}')
         # Get SMOTE factor from form
         smote_factor = float(request.form.get('smote_factor', 1.0))
+        
+        # Get class_weight_type - REMOVE json.dumps() from here
+        class_weight_type = request.form.get('class_weight_type', 'auto')
         
         # Get form data and update training config
         training_config = {
@@ -191,6 +205,9 @@ def training():
             'random_search_iter': int(request.form.get('random_search_iter', 50)),
             'load_params': 'load_params' in request.form,
             'holdout_ratio': float(request.form.get('holdout_ratio', 0.2)),
+            'handle_class_imbalance': 'handle_class_imbalance' in request.form,
+            'class_weight_type': class_weight_type,  # Use the string directly
+            'custom_weights_dict': custom_weights_dict,
             'use_smote': use_smote,
             'smote_strategy': smote_strategy,
             'smote_factor': smote_factor
@@ -479,6 +496,9 @@ def run_training():
         random_search_iter=training_config['random_search_iter'],
         load_params=training_config['load_params'],
         holdout_ratio=training_config['holdout_ratio'],
+        handle_class_imbalance=training_config['handle_class_imbalance'],
+        class_weight_type=training_config['class_weight_type'],
+        custom_weights_dict=training_config.get('custom_weights_dict', None),
         use_smote=training_config['use_smote'],
         smote_strategy=training_config.get('smote_strategy', 'draws_only'),
         smote_factor=training_config.get('smote_factor', 1.0)

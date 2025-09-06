@@ -86,10 +86,30 @@
 
             
         <div class="form-group">
-            <label><input type="checkbox" name="use_smote"> Use SMOTE Oversampling</label>
+            <label><input type="checkbox" name="handle_class_imbalance" checked> Handle Class Imbalance</label>
         </div>
         
         <div class="form-group">
+            <label for="class_weight_type">Class Weight Method:</label>
+            <select id="class_weight_type" name="class_weight_type">
+                <option value="auto">Automatic Balanced Weights</option>
+                <option value="football">Football Weights (2.5x Draws)</option>
+                <option value="custom">Custom Weights</option>
+                <option value="none">No Weights</option>
+            </select>
+        </div>
+        
+        <div class="form-group" id="custom_weights_group">
+            <label for="custom_weights_dict">Custom Weights (JSON):</label>
+            <input type="text" id="custom_weights_dict" name="custom_weights_dict" placeholder='{"0": 1.0, "1": 2.5, "2": 1.0}'>
+            <small class="form-text">Weight values for each class</small>
+        </div>
+        
+        <div class="form-group">
+            <label><input type="checkbox" name="use_smote"> Use SMOTE Instead</label>
+        </div>
+        
+        <div class="form-group" id="smote_strategy_group">
             <label for="smote_strategy">SMOTE Strategy:</label>
             <select id="smote_strategy" name="smote_strategy">
                 <option value="draws_only">Only Oversample Draws</option>
@@ -97,7 +117,7 @@
             </select>
         </div>
         
-        <div class="form-group">
+        <div class="form-group" id="smote_factor_group">
             <label for="smote_factor">Oversampling Factor:</label>
             <select id="smote_factor" name="smote_factor">
                 <option value="0.8">80% of Majority</option>
@@ -106,7 +126,6 @@
                 <option value="1.1">110% of Majority</option>
                 <option value="1.2">120% of Majority</option>
             </select>
-            <small class="form-text">Target number of samples relative to majority class</small>
         </div>
             
             

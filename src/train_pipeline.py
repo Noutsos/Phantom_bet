@@ -862,11 +862,15 @@ class TrainPipeline:
             self.logger.error(f"Training failed: {str(e)}", exc_info=True)
             raise
 
+
+
     def train(self, df, target_col='outcome', model_type='random_forest',
             feature_selection_method='importance', top_n_features=30,
             use_bayesian=False, bayesian_iter=50, use_grid_search=False,
             use_random_search=False, random_search_iter=50, load_params=False,
-            holdout_ratio=0.2, use_smote=False, smote_strategy='draws_only', smote_factor=1.0):
+            holdout_ratio=0.2, handle_class_imbalance=True, imbalance_method='auto',
+            class_weight_type='auto', custom_weights_dict=None, 
+            use_smote=False, smote_strategy='draws_only', smote_factor=1.0):
         """
         Train the model with the specified configuration
         
@@ -903,22 +907,73 @@ class TrainPipeline:
             
             self.logger.info(f"Time Series Split - Training: {X_train_full.shape[0]}, Holdout: {X_holdout.shape[0]}")
             
-            # Handle class imbalance - SMOTE only for draws
+            # Handle class imbalance for classification tasks
+            imbalance_config = None
+            sample_weights = None
+            class_weights = None
             smote_instance = None
-            class_distribution = None
 
-            if self.task_type == 'classification' and use_smote:
+            if self.task_type == 'classification' and handle_class_imbalance:
+                # Validate configuration
+                is_valid, error_msg = validate_imbalance_config(
+                    imbalance_method, use_smote, class_weight_type, custom_weights_dict
+                )
+                if not is_valid:
+                    raise ValueError(f"Invalid imbalance configuration: {error_msg}")
+                
                 # Calculate class distribution
                 class_counts = np.bincount(y_train_full)
                 class_distribution = {0: class_counts[0], 1: class_counts[1], 2: class_counts[2]}
-                majority_count = max(class_counts)
                 
-                # Use custom draw-focused SMOTE
-                smote_instance, smote_strategy_dict = self.create_smote_strategy(y_train_full, strategy=smote_strategy, oversample_factor=smote_factor, random_state=self.random_state)
+                # Apply imbalance handling
+                if use_smote:
+                    # Use SMOTE
+                    smote_instance, smote_strategy_dict = self.create_smote_strategy(
+                        y_train_full, 
+                        strategy=smote_strategy, 
+                        oversample_factor=smote_factor, 
+                        random_state=self.random_state
+                    )
+                    
+                    imbalance_config = {
+                        'method': 'smote',
+                        'class_distribution': class_distribution,
+                        'sample_weights': None,
+                        'class_weights': None,
+                        'smote_instance': smote_instance,
+                        'smote_strategy': smote_strategy_dict,
+                    }
+                    
+                    self.logger.info(f"Using SMOTE: {smote_strategy_dict}")
+                    
+                else:
+                    # Use class weights
+                    if class_weight_type == 'auto':
+                        class_weights = calculate_auto_class_weights(y_train_full)
+                        self.logger.info(f"Using auto class weights: {class_weights}")
+                        
+                    elif class_weight_type == 'football':
+                        class_weights = calculate_football_class_weights(y_train_full, draw_weight=2.5)
+                        self.logger.info(f"Using football class weights: {class_weights}")
+                        
+                    elif class_weight_type == 'custom' and custom_weights_dict:
+                        class_weights = custom_weights_dict
+                        self.logger.info(f"Using custom class weights: {class_weights}")
+                    
+                    # Create sample weights
+                    if class_weights:
+                        sample_weights = apply_class_weights(y_train_full, class_weights)
+                    
+                    imbalance_config = {
+                        'method': 'class_weights',
+                        'class_distribution': class_distribution,
+                        'sample_weights': sample_weights,
+                        'class_weights': class_weights,
+                        'smote_instance': None,
+                    }
                 
-                self.logger.info(f"Using SMOTE strategy: {smote_strategy}")
-                self.logger.info(f"Original class distribution: {class_distribution}")
-                self.logger.info(f"Target distribution: {smote_strategy_dict}")
+                self.logger.info(f"Class imbalance handling: {imbalance_config['method']}")
+                self.logger.info(f"Class distribution: {class_distribution}")
             
             # Build base pipeline (without the final estimator)
             base_pipeline = self.build_pipeline(model_type, feature_selection_method, top_n_features)
@@ -930,24 +985,22 @@ class TrainPipeline:
             
             # Set up parameters
             if use_bayesian or use_grid_search or use_random_search:
-                # For hyperparameter search, parameters will be set by the search
                 classifier_params = {}
             else:
-                # Use default or loaded parameters
                 _, default_params = get_model_params(model_type, self.task_type)
                 classifier_params = default_params.copy()
                 
                 if isinstance(load_params, dict):
                     classifier_params.update(load_params)
                 
-                # Remove class weight parameter if using SMOTE
-                if smote_instance is not None and 'class_weight' in classifier_params:
-                    classifier_params.pop('class_weight', None)
-                    self.logger.info("Removed class_weight parameter due to SMOTE usage")
+                # Set class weights if not using SMOTE
+                if not use_smote and class_weights is not None and 'class_weight' in classifier_params:
+                    classifier_params['class_weight'] = class_weights
+                    self.logger.info(f"Set class_weight parameter: {class_weights}")
                 
                 model_instance.set_params(**classifier_params)
             
-            # Build the complete pipeline with SMOTE if applicable
+            # Build the complete pipeline
             pipeline_steps = base_pipeline.steps.copy()
             
             if smote_instance is not None:
@@ -955,13 +1008,12 @@ class TrainPipeline:
                 pipeline_steps.append(('smote', smote_instance))
                 pipeline_steps.append((estimator_name, model_instance))
                 self.model = ImbPipeline(pipeline_steps)
-                self.logger.info("Pipeline with SMOTE created")
             else:
                 pipeline_steps.append((estimator_name, model_instance))
                 self.model = Pipeline(pipeline_steps)
-                self.logger.info("Standard pipeline created")
             
             # Training logic
+            # In the train method, update the search.fit call:
             if use_bayesian or use_grid_search or use_random_search:
                 search = self.initialize_search(
                     model_type=model_type,
@@ -974,7 +1026,22 @@ class TrainPipeline:
                 )
                 
                 self.logger.info("Starting parameter search...")
-                search.fit(X_train_full, y_train_full)
+                if smote_instance is not None:
+                    search.fit(X_train_full, y_train_full)
+                else:
+                    # Find the correct step name for sample weights
+                    final_step_name = None
+                    for step_name, step_obj in self.model.named_steps.items():
+                        if hasattr(step_obj, 'predict') or hasattr(step_obj, 'predict_proba'):
+                            final_step_name = step_name
+                            break
+                    
+                    if final_step_name and sample_weights is not None:
+                        fit_params = {f'{final_step_name}__sample_weight': sample_weights}
+                        search.fit(X_train_full, y_train_full, **fit_params)
+                    else:
+                        search.fit(X_train_full, y_train_full)
+
                 self.model = search.best_estimator_
                 
                 # Save search results
@@ -994,6 +1061,11 @@ class TrainPipeline:
                 # Clone model for each fold
                 fold_model = clone(self.model)
                 
+                # Get sample weights for this fold (if using class weights)
+                fold_sample_weights = None
+                if sample_weights is not None:
+                    fold_sample_weights = sample_weights[train_idx]
+                
                 # Train and evaluate
                 if self.task_type == 'classification':
                     class_names = ['away_win', 'draw', 'home_win'] if self.le else None
@@ -1003,7 +1075,8 @@ class TrainPipeline:
                         y_train_full.iloc[train_idx], y_train_full.iloc[test_idx],
                         self.logger,
                         fold=fold,
-                        class_names=class_names
+                        class_names=class_names,
+                        sample_weight=fold_sample_weights  # Add this parameter
                     )
                 else:
                     metrics = evaluate_regression_model(
@@ -1016,9 +1089,24 @@ class TrainPipeline:
                 
                 self.cv_metrics.append(metrics)
             
-            # Final training on full training period
+
+            # Final training
             self.logger.info("Training final model on full training period...")
-            self.model.fit(X_train_full, y_train_full)
+            if smote_instance is None and sample_weights is not None:
+                # Find the correct step name for sample weights
+                final_step_name = None
+                for step_name, step_obj in self.model.named_steps.items():
+                    if hasattr(step_obj, 'predict') or hasattr(step_obj, 'predict_proba'):
+                        final_step_name = step_name
+                        break
+                
+                if final_step_name:
+                    fit_params = {f'{final_step_name}__sample_weight': sample_weights}
+                    self.model.fit(X_train_full, y_train_full, **fit_params)
+                else:
+                    self.model.fit(X_train_full, y_train_full)
+            else:
+                self.model.fit(X_train_full, y_train_full)
             
             # Evaluate on holdout period
             self.logger.info("Evaluating on holdout period...")
@@ -1782,19 +1870,79 @@ def get_model_params(model_type, task_type='classification'):
 
 
 def evaluate_classification_model(model, X_train, X_test, y_train, y_test, logger, 
-                                fold=None, class_names=None):
+                                fold=None, class_names=None, sample_weight=None):
     """
     Evaluate classification model with comprehensive metrics
+    
+    Parameters:
+    -----------
+    sample_weight : array-like, default=None
+        Sample weights for handling class imbalance
     """
     metrics = {
         'fold': fold + 1 if fold is not None else None,
         'n_train_samples': len(X_train),
         'n_test_samples': len(X_test),
+        'used_sample_weights': sample_weight is not None
     }
     
     try:
-        # Fit the model
-        model.fit(X_train, y_train)
+        # Fit the model with sample weights if provided
+        if sample_weight is not None:
+            logger.info(f"Using sample weights for evaluation")
+            
+            # Try different approaches for passing sample weights
+            try:
+                # First try: standard sample_weight parameter for non-pipeline models
+                if not hasattr(model, 'steps') and hasattr(model, 'fit'):
+                    model.fit(X_train, y_train, sample_weight=sample_weight)
+                else:
+                    # For pipelines, try to find the classifier/regressor step
+                    if hasattr(model, 'steps'):
+                        # Find the final estimator step name
+                        final_step_name = None
+                        for step_name, step_obj in model.named_steps.items():
+                            if hasattr(step_obj, 'predict') or hasattr(step_obj, 'predict_proba'):
+                                final_step_name = step_name
+                                break
+                        
+                        if final_step_name:
+                            # Pass sample weight to the final estimator
+                            fit_params = {f'{final_step_name}__sample_weight': sample_weight}
+                            model.fit(X_train, y_train, **fit_params)
+                        else:
+                            # Fallback: try standard approach
+                            model.fit(X_train, y_train, sample_weight=sample_weight)
+                    else:
+                        model.fit(X_train, y_train, sample_weight=sample_weight)
+                        
+            except (TypeError, ValueError) as e:
+                logger.warning(f"Sample_weight approach failed: {str(e)}. Trying alternative methods.")
+                try:
+                    # Second try: for scikit-learn pipelines with classifier/regressor step
+                    if hasattr(model, 'named_steps'):
+                        # Try common step names
+                        step_names_to_try = ['classifier', 'regressor', 'estimator', 'model']
+                        for step_name in step_names_to_try:
+                            if step_name in model.named_steps:
+                                fit_params = {f'{step_name}__sample_weight': sample_weight}
+                                model.fit(X_train, y_train, **fit_params)
+                                logger.info(f"Successfully used {step_name}__sample_weight")
+                                break
+                        else:
+                            # If no common step names found, try the last step
+                            last_step_name = model.steps[-1][0]
+                            fit_params = {f'{last_step_name}__sample_weight': sample_weight}
+                            model.fit(X_train, y_train, **fit_params)
+                            logger.info(f"Successfully used {last_step_name}__sample_weight")
+                except Exception as inner_e:
+                    logger.warning(f"Pipeline sample_weight also failed: {str(inner_e)}. Fitting without sample weights.")
+                    model.fit(X_train, y_train)
+                    metrics['sample_weight_error'] = str(inner_e)
+                    metrics['sample_weight_warning'] = "Could not apply sample weights, used standard fit"
+        else:
+            # Standard fitting without sample weights
+            model.fit(X_train, y_train)
         
         # Make predictions
         y_pred = model.predict(X_test)
@@ -1829,6 +1977,30 @@ def evaluate_classification_model(model, X_train, X_test, y_train, y_test, logge
                         f'f1_{class_name}': class_report[str(i)]['f1-score'],
                         f'support_{class_name}': class_report[str(i)]['support']
                     })
+                elif class_name in class_report:
+                    metrics.update({
+                        f'precision_{class_name}': class_report[class_name]['precision'],
+                        f'recall_{class_name}': class_report[class_name]['recall'],
+                        f'f1_{class_name}': class_report[class_name]['f1-score'],
+                        f'support_{class_name}': class_report[class_name]['support']
+                    })
+            
+            # Log draw-specific metrics if available
+            if 'draw' in class_names:
+                if f'recall_draw' in metrics:
+                    logger.info(f"Draw recall: {metrics['recall_draw']:.4f}")
+        
+        # Probability-based metrics (if available)
+        if hasattr(model, 'predict_proba'):
+            try:
+                y_proba = model.predict_proba(X_test)
+                metrics.update({
+                    'log_loss': log_loss(y_test, y_proba),
+                    'roc_auc_ovr': roc_auc_score(y_test, y_proba, multi_class='ovr', average='macro'),
+                })
+            except Exception as e:
+                metrics['probability_metrics_error'] = str(e)
+                logger.warning(f"Probability metrics failed: {str(e)}")
         
         # Log results
         if fold is not None:
@@ -1842,6 +2014,7 @@ def evaluate_classification_model(model, X_train, X_test, y_train, y_test, logge
         metrics['error'] = error_msg
     
     return metrics
+
 
 # ==================== REGRESSION EVALUATION ====================
 def evaluate_regression_model(model, X_train, X_test, y_train, y_test, logger, 
@@ -2468,81 +2641,98 @@ def generate_probability_plots(model, X_test, y_test, class_names, artifact_path
 
 
 
-
-
-
-def _apply_class_weights(y_train, class_distribution, weight_type='balanced'):
-    """Apply automatic class weights"""
-    from sklearn.utils.class_weight import compute_class_weight
-    
-    unique_classes = np.unique(y_train)
-    
-    if weight_type == 'balanced':
-        class_weights = compute_class_weight(
-            'balanced', 
-            classes=unique_classes, 
-            y=y_train
-        )
-    else:
-        # Custom weight calculation logic could be added here
-        class_weights = np.ones(len(unique_classes))
-    
-    weight_dict = {cls: weight for cls, weight in zip(unique_classes, class_weights)}
-    sample_weights = compute_sample_weights(y_train, weight_dict)
-    
-    return {
-        'method': 'class_weights',
-        'class_distribution': class_distribution,
-        'sample_weights': sample_weights,
-        'class_weights': weight_dict,
-        'smote_instance': None
-    }
-
-def _apply_custom_weights(y_train, custom_weights, class_distribution):
-    """Apply custom class weights"""
-    if custom_weights is None:
-        raise ValueError("Custom weights method requires custom_weights parameter")
-    
-    # Validate custom weights
-    unique_classes = np.unique(y_train)
-    for cls in unique_classes:
-        if cls not in custom_weights:
-            raise ValueError(f"Class {cls} not found in custom_weights")
-    
-    sample_weights = compute_sample_weights(y_train, custom_weights)
-    
-    return {
-        'method': 'custom_weights',
-        'class_distribution': class_distribution,
-        'sample_weights': sample_weights,
-        'class_weights': custom_weights.copy(),
-        'smote_instance': None
-    }
-
-def compute_sample_weights(y, class_weights):
-    """Compute sample weights for each instance"""
-    return np.array([class_weights[label] for label in y])
-
-def validate_imbalance_config(method, use_smote, class_weights_dict):
+def validate_imbalance_config(imbalance_method, use_smote, class_weight_type, custom_weights_dict):
     """
     Validate that imbalance handling configuration is consistent
-    
-    Returns:
-    --------
-    bool: True if configuration is valid, False otherwise
-    str: Error message if invalid, None if valid
     """
+    if use_smote and class_weight_type != 'none':
+        return False, "Cannot use both SMOTE and class weights simultaneously"
     
-    if use_smote and class_weights_dict is not None:
-        return False, "Cannot use both SMOTE and custom class weights simultaneously"
+    if class_weight_type == 'custom' and not custom_weights_dict:
+        return False, "Custom weights type requires custom_weights_dict parameter"
     
-    if method == 'custom_weights' and class_weights_dict is None:
-        return False, "Custom weights method requires class_weights_dict parameter"
-    
-    if method == 'smote' and not use_smote:
+    if imbalance_method == 'smote' and not use_smote:
         return False, "SMOTE method requires use_smote=True"
     
     return True, None
+
+
+def calculate_auto_class_weights(y):
+    """
+    Calculate automatic balanced class weights
+    
+    Parameters:
+    -----------
+    y : array-like
+        Target labels
+        
+    Returns:
+    --------
+    dict: Class weights dictionary
+    """
+    from sklearn.utils.class_weight import compute_class_weight
+    
+    unique_classes = np.unique(y)
+    if len(unique_classes) <= 1:
+        return None
+    
+    class_weights = compute_class_weight('balanced', classes=unique_classes, y=y)
+    weight_dict = {int(cls): weight for cls, weight in zip(unique_classes, class_weights)}
+    return weight_dict
+
+def calculate_football_class_weights(y, draw_weight=2.0):
+    """
+    Calculate football-specific class weights with emphasis on draws
+    
+    Parameters:
+    -----------
+    y : array-like
+        Target labels
+    draw_weight : float, default=2.0
+        Extra weight for draw class (1)
+        
+    Returns:
+    --------
+    dict: Class weights dictionary
+    """
+    unique_classes = np.unique(y)
+    if len(unique_classes) <= 1:
+        return None
+    
+    # Base weights
+    class_weights = compute_class_weight('balanced', classes=unique_classes, y=y)
+    weight_dict = {int(cls): weight for cls, weight in zip(unique_classes, class_weights)}
+    
+    # Apply extra weight to draws if present
+    if 1 in weight_dict:
+        weight_dict[1] = weight_dict[1] * draw_weight
+    
+    return weight_dict
+
+def apply_class_weights(y, class_weights_dict):
+    """
+    Apply class weights to create sample weights
+    
+    Parameters:
+    -----------
+    y : array-like
+        Target labels
+    class_weights_dict : dict
+        Class weight dictionary
+        
+    Returns:
+    --------
+    array: Sample weights
+    """
+    if class_weights_dict is None:
+        return None
+    
+    # Convert class weights to sample weights
+    sample_weights = np.ones(len(y))
+    for cls, weight in class_weights_dict.items():
+        sample_weights[y == cls] = weight
+    
+    return sample_weights
 
 
 

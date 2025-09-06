@@ -27,3 +27,13 @@
 2025-09-06 17:11:23,141 - src.train_pipeline - INFO - Processing fold 4/5
 2025-09-06 17:12:18,057 - src.train_pipeline - INFO - Fold 4 - Test Accuracy: 0.7183 - F1 Macro: 0.6823
 2025-09-06 17:12:18,062 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-06 17:13:27,228 - src.train_pipeline - INFO - Fold 5 - Test Accuracy: 0.7191 - F1 Macro: 0.6767
+2025-09-06 17:13:27,233 - src.train_pipeline - INFO - Training final model on full training period...
+2025-09-06 17:14:57,565 - src.train_pipeline - INFO - Evaluating on holdout period...
+2025-09-06 17:14:57,645 - src.train_pipeline - INFO - Holdout Accuracy: 0.6990
+2025-09-06 17:14:57,646 - src.train_pipeline - INFO - Saving model artifacts...
+2025-09-06 17:14:57,694 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-09-06 17:14:57,694 - src.train_pipeline - INFO - Generating basic visualizations...
+2025-09-06 17:15:01,427 - src.train_pipeline - INFO - Probability plots generated successfully!
+2025-09-06 17:15:01,428 - src.train_pipeline - INFO - Basic visualizations generated successfully!
+2025-09-06 17:15:01,428 - src.train_pipeline - INFO - Training completed successfully!

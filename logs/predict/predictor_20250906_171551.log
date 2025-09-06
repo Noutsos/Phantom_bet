@@ -1,0 +1,18 @@
+2025-09-06 17:15:51,290 - src.predict_pipeline - INFO - Logging initialized. Log file: logs/predict\predictor_20250906_171551.log
+2025-09-06 17:15:51,290 - src.predict_pipeline - INFO - Loading trained model from artifacts/outcome/xgboost/rfe/models/model.pkl
+2025-09-06 17:15:51,290 - src.predict_pipeline - INFO - Model file size: 1.74 MB
+2025-09-06 17:15:51,332 - src.predict_pipeline - INFO - Detected classification model (has predict_proba method)
+2025-09-06 17:15:51,334 - src.predict_pipeline - INFO - Label encoder loaded from artifacts/outcome/xgboost/rfe/models\label_encoder.pkl
+2025-09-06 17:15:51,334 - src.predict_pipeline - INFO - Trained model loaded successfully
+2025-09-06 17:15:51,334 - src.predict_pipeline - INFO - Starting prediction of upcoming fixtures...
+2025-09-06 17:15:52,199 - src.predict_pipeline - INFO - Loaded data from data\final_processed.csv
+2025-09-06 17:15:52,256 - src.predict_pipeline - INFO - Found 53 upcoming fixtures to predict
+2025-09-06 17:15:52,256 - src.predict_pipeline - INFO - Model expects 134 features (from feature_names_in_)
+2025-09-06 17:15:52,257 - src.predict_pipeline - INFO - Existing features: 134, Missing features: 0
+2025-09-06 17:15:52,257 - src.predict_pipeline - INFO - Making predictions on upcoming fixtures...
+2025-09-06 17:15:52,275 - src.predict_pipeline - INFO - Saved predictions to data\predictions\predictions.csv
+2025-09-06 17:15:52,276 - src.predict_pipeline - INFO - Prediction summary:
+2025-09-06 17:15:52,276 - src.predict_pipeline - INFO -   draw: 37 predictions
+2025-09-06 17:15:52,276 - src.predict_pipeline - INFO -   home_win: 14 predictions
+2025-09-06 17:15:52,276 - src.predict_pipeline - INFO -   away_win: 2 predictions
+2025-09-06 17:15:52,276 - src.predict_pipeline - INFO - Prediction completed successfully!
