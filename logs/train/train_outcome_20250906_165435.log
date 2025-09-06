@@ -1,0 +1,61 @@
+2025-09-06 16:54:35,211 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 16:54:35,211 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-06 16:54:35,245 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-06 16:54:35,293 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 16:54:35,294 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-06 16:54:35,302 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-06 16:54:35,303 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 16:54:35,348 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 16:54:35,526 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 16:54:35,526 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-06 16:54:35,531 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-06 16:54:35,532 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-06 16:54:35,595 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-06 16:54:35,595 - src.train_pipeline - INFO - No categorical features found. Skipping OneHotEncoder.
+2025-09-06 16:54:35,595 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 16:54:35,595 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-06 16:54:35,595 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 16:54:35,596 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-06 16:54:35,596 - src.train_pipeline - INFO - Standard pipeline created
+2025-09-06 16:54:35,596 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-06 16:54:35,596 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-06 16:54:51,452 - src.train_pipeline - INFO - Fold 1 - Test Accuracy: 0.6868 - F1 Macro: 0.6499
+2025-09-06 16:54:51,457 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-06 16:55:19,669 - src.train_pipeline - INFO - Fold 2 - Test Accuracy: 0.7003 - F1 Macro: 0.6599
+2025-09-06 16:55:19,673 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-06 16:56:07,952 - src.train_pipeline - INFO - Fold 3 - Test Accuracy: 0.7142 - F1 Macro: 0.6805
+2025-09-06 16:56:07,957 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-06 16:57:00,777 - src.train_pipeline - INFO - Fold 4 - Test Accuracy: 0.7183 - F1 Macro: 0.6823
+2025-09-06 16:57:00,780 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-06 16:58:05,791 - src.train_pipeline - INFO - Fold 5 - Test Accuracy: 0.7191 - F1 Macro: 0.6767
+2025-09-06 16:58:05,797 - src.train_pipeline - INFO - Training final model on full training period...
+2025-09-06 16:59:25,707 - src.train_pipeline - INFO - Evaluating on holdout period...
+2025-09-06 16:59:25,771 - src.train_pipeline - INFO - Holdout Accuracy: 0.6990
+2025-09-06 16:59:25,772 - src.train_pipeline - INFO - Saving model artifacts...
+2025-09-06 16:59:25,815 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-09-06 16:59:25,815 - src.train_pipeline - INFO - Generating basic visualizations...
+2025-09-06 16:59:29,434 - src.train_pipeline - INFO - Probability plots generated successfully!
+2025-09-06 16:59:29,434 - src.train_pipeline - INFO - Basic visualizations generated successfully!
+2025-09-06 16:59:29,434 - src.train_pipeline - INFO - Training completed successfully!
+2025-09-06 17:06:14,059 - src.train_pipeline - INFO - Initialized MLPipeline for auto task
+2025-09-06 17:06:14,061 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 17:06:14,062 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-06 17:06:14,097 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-06 17:06:14,142 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 17:06:14,143 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-06 17:06:14,152 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-06 17:06:14,152 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 17:06:14,199 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 17:06:14,435 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 17:06:14,436 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-06 17:06:14,444 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-06 17:06:14,445 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-06 17:06:14,554 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-06 17:06:14,554 - src.train_pipeline - INFO - No categorical features found. Skipping OneHotEncoder.
+2025-09-06 17:06:14,554 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 17:06:14,555 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-06 17:06:14,555 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 17:06:14,555 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-06 17:06:14,555 - src.train_pipeline - INFO - Standard pipeline created
+2025-09-06 17:06:14,556 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-06 17:06:14,557 - src.train_pipeline - INFO - Processing fold 1/5

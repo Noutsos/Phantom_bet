@@ -866,15 +866,16 @@ class TrainPipeline:
             feature_selection_method='importance', top_n_features=30,
             use_bayesian=False, bayesian_iter=50, use_grid_search=False,
             use_random_search=False, random_search_iter=50, load_params=False,
-            holdout_ratio=0.2, handle_class_imbalance=True, imbalance_method='auto',
-            class_weights_dict=None, use_smote=False, smote_strategy=None):
+            holdout_ratio=0.2, use_smote=False, smote_strategy='draws_only', smote_factor=1.0):
         """
         Train the model with the specified configuration
         
         Parameters:
         -----------
-        handle_class_imbalance : bool, default=True
-            Whether to handle class imbalance for classification tasks
+        use_smote : bool, default=False
+            Whether to use SMOTE for oversampling draws
+        smote_factor : float, default=1.0
+            Oversampling factor for draws (1.0 = balance to majority)
             
         Returns:
         --------
@@ -902,42 +903,22 @@ class TrainPipeline:
             
             self.logger.info(f"Time Series Split - Training: {X_train_full.shape[0]}, Holdout: {X_holdout.shape[0]}")
             
-            # Handle class imbalance for classification tasks
-            imbalance_config = None
-            sample_weights = None
-            class_weights = None
+            # Handle class imbalance - SMOTE only for draws
             smote_instance = None
+            class_distribution = None
 
-            if self.task_type == 'classification' and handle_class_imbalance:
-                # Validate configuration
-                is_valid, error_msg = validate_imbalance_config(
-                    imbalance_method, use_smote, class_weights_dict
-                )
-                if not is_valid:
-                    raise ValueError(f"Invalid imbalance configuration: {error_msg}")
+            if self.task_type == 'classification' and use_smote:
+                # Calculate class distribution
+                class_counts = np.bincount(y_train_full)
+                class_distribution = {0: class_counts[0], 1: class_counts[1], 2: class_counts[2]}
+                majority_count = max(class_counts)
                 
-                # Determine actual method based on parameters
-                actual_method = imbalance_method
-                if use_smote:
-                    actual_method = 'smote'
-                elif class_weights_dict is not None:
-                    actual_method = 'custom_weights'
+                # Use custom draw-focused SMOTE
+                smote_instance, smote_strategy_dict = self.create_smote_strategy(y_train_full, strategy=smote_strategy, oversample_factor=smote_factor, random_state=self.random_state)
                 
-                # Apply imbalance handling
-                imbalance_config = handle_class_imbalance(
-                    y_train=y_train_full,
-                    method=actual_method,
-                    custom_weights=class_weights_dict,
-                    smote_strategy=smote_strategy,
-                    random_state=self.random_state
-                )
-                
-                sample_weights = imbalance_config['sample_weights']
-                class_weights = imbalance_config['class_weights']
-                smote_instance = imbalance_config['smote_instance']
-                
-                self.logger.info(f"Class imbalance handling: {imbalance_config['method']}")
-                self.logger.info(f"Class distribution: {imbalance_config['class_distribution']}")
+                self.logger.info(f"Using SMOTE strategy: {smote_strategy}")
+                self.logger.info(f"Original class distribution: {class_distribution}")
+                self.logger.info(f"Target distribution: {smote_strategy_dict}")
             
             # Build base pipeline (without the final estimator)
             base_pipeline = self.build_pipeline(model_type, feature_selection_method, top_n_features)
@@ -974,15 +955,17 @@ class TrainPipeline:
                 pipeline_steps.append(('smote', smote_instance))
                 pipeline_steps.append((estimator_name, model_instance))
                 self.model = ImbPipeline(pipeline_steps)
+                self.logger.info("Pipeline with SMOTE created")
             else:
                 pipeline_steps.append((estimator_name, model_instance))
                 self.model = Pipeline(pipeline_steps)
+                self.logger.info("Standard pipeline created")
             
             # Training logic
             if use_bayesian or use_grid_search or use_random_search:
                 search = self.initialize_search(
                     model_type=model_type,
-                    base_pipeline=self.model,  # Pass the complete pipeline
+                    base_pipeline=self.model,
                     use_bayesian=use_bayesian,
                     use_grid_search=use_grid_search,
                     use_random_search=use_random_search,
@@ -991,12 +974,7 @@ class TrainPipeline:
                 )
                 
                 self.logger.info("Starting parameter search...")
-                # Don't pass sample weights if using SMOTE
-                if smote_instance is not None:
-                    search.fit(X_train_full, y_train_full)
-                else:
-                    search.fit(X_train_full, y_train_full, 
-                            classifier__sample_weight=sample_weights if sample_weights is not None else None)
+                search.fit(X_train_full, y_train_full)
                 self.model = search.best_estimator_
                 
                 # Save search results
@@ -1005,7 +983,7 @@ class TrainPipeline:
                 pd.DataFrame([search.best_params_]).to_csv(f"{self.paths['metrics']}/best_params.csv", index=False)
                 self.logger.info(f"Best parameters: {search.best_params_}")
             
-            # Cross-validation with sample weights (except when using SMOTE)
+            # Cross-validation
             self.logger.info("Starting cross-validation...")
             tscv = TimeSeriesSplit(n_splits=5)
             self.cv_metrics = []
@@ -1016,11 +994,6 @@ class TrainPipeline:
                 # Clone model for each fold
                 fold_model = clone(self.model)
                 
-                # Get sample weights for this fold (skip if using SMOTE)
-                fold_sample_weights = None
-                if smote_instance is None and sample_weights is not None:
-                    fold_sample_weights = sample_weights[train_idx]
-                
                 # Train and evaluate
                 if self.task_type == 'classification':
                     class_names = ['away_win', 'draw', 'home_win'] if self.le else None
@@ -1030,10 +1003,7 @@ class TrainPipeline:
                         y_train_full.iloc[train_idx], y_train_full.iloc[test_idx],
                         self.logger,
                         fold=fold,
-                        class_names=class_names,
-                        sample_weight=fold_sample_weights,
-                        use_smote=(smote_instance is not None),
-                        smote_strategy=smote_strategy
+                        class_names=class_names
                     )
                 else:
                     metrics = evaluate_regression_model(
@@ -1048,10 +1018,7 @@ class TrainPipeline:
             
             # Final training on full training period
             self.logger.info("Training final model on full training period...")
-            if smote_instance is None and sample_weights is not None:
-                self.model.fit(X_train_full, y_train_full, classifier__sample_weight=sample_weights)
-            else:
-                self.model.fit(X_train_full, y_train_full)
+            self.model.fit(X_train_full, y_train_full)
             
             # Evaluate on holdout period
             self.logger.info("Evaluating on holdout period...")
@@ -1078,12 +1045,9 @@ class TrainPipeline:
                     'train_samples': len(X_train_full),
                     'holdout_samples': len(X_holdout),
                     'holdout_ratio': holdout_ratio,
-                    'handled_class_imbalance': handle_class_imbalance,
-                    'imbalance_method': imbalance_config['method'] if imbalance_config else 'none',
-                    'class_distribution': imbalance_config['class_distribution'] if imbalance_config else None,
-                    'used_sample_weights': sample_weights is not None,
-                    'used_smote': smote_instance is not None,
-                    'smote_strategy': str(smote_strategy) if smote_instance is not None else None,
+                    'used_smote': use_smote,
+                    'smote_factor': smote_factor,
+                    'original_class_distribution': class_distribution,
                 }
                 
                 # Add class-specific metrics if available
@@ -1106,17 +1070,14 @@ class TrainPipeline:
                     'train_samples': len(X_train_full),
                     'holdout_samples': len(X_holdout),
                     'holdout_ratio': holdout_ratio,
-                    'handled_class_imbalance': handle_class_imbalance,
-                    'used_sample_weights': sample_weights is not None,
-                    'used_smote': smote_instance is not None,
-                    'smote_strategy': str(smote_strategy) if smote_instance is not None else None,
+                    'used_smote': use_smote,
+                    'smote_factor': smote_factor,
                 }
                 
                 self.logger.info(f"Holdout RMSE: {holdout_rmse:.4f}, R²: {holdout_r2:.4f}")
             
             # Save model and artifacts
             self.save_artifacts(X_train_full, y_train_full, X_holdout, y_holdout, holdout_report, target_col)
-
             self.generate_visualizations(X_holdout, y_holdout, target_col)
             
             self.logger.info("Training completed successfully!")
@@ -1127,6 +1088,70 @@ class TrainPipeline:
         except Exception as e:
             self.logger.error(f"Training failed: {str(e)}", exc_info=True)
             raise
+
+    def create_smote_strategy(self, y_train, strategy='draws_only', oversample_factor=1.0, random_state=42):
+        """
+        Create SMOTE with different strategies
+        
+        Parameters:
+        -----------
+        strategy : str
+            'draws_only' - Only oversample draws
+            'all_to_majority' - Oversample all minority classes to majority level
+        oversample_factor : float
+            Multiplier for the target number of samples
+        """
+        from imblearn.over_sampling import SMOTE
+        
+        # Ensure y_train is integer type
+        y_train = y_train.astype(int)
+        
+        # Calculate current class distribution
+        class_counts = np.bincount(y_train)
+        majority_count = max(class_counts)
+        
+        # Different strategies
+        if strategy == 'all_to_majority':
+            # Oversample ALL minority classes to majority level
+            smote_strategy = {}
+            for cls, count in enumerate(class_counts):
+                if count < majority_count:
+                    # Only oversample classes that are below majority
+                    target_count = int(majority_count * oversample_factor)
+                    smote_strategy[cls] = target_count
+                else:
+                    # Keep majority classes as is
+                    smote_strategy[cls] = count
+            
+            self.logger.info(f"SMOTE strategy: Oversample all minority classes to {int(majority_count * oversample_factor)} samples")
+            
+        else:  # 'draws_only' (default)
+            # Only oversample draws
+            smote_strategy = {
+                0: class_counts[0],      # Keep away_win as is
+                1: int(majority_count * oversample_factor),  # Oversample draws
+                2: class_counts[2]       # Keep home_win as is
+            }
+            self.logger.info(f"SMOTE strategy: Oversample only draws to {int(majority_count * oversample_factor)} samples")
+        
+        # Calculate safe k_neighbors (use minimum class count among classes being oversampled)
+        if strategy == 'all_to_majority':
+            # Use the smallest minority class count
+            minority_counts = [count for count in class_counts if count < majority_count]
+            min_count = min(minority_counts) if minority_counts else 1
+        else:
+            # Use draw count
+            min_count = class_counts[1]
+        
+        k_neighbors = min(5, min_count - 1)
+        k_neighbors = max(1, k_neighbors)
+        
+        return SMOTE(
+            sampling_strategy=smote_strategy,
+            random_state=random_state,
+            k_neighbors=k_neighbors
+        ), smote_strategy
+
 
     def train_hierarchical(self, df, target_col='outcome', model_type='random_forest',
                         feature_selection_method='importance', top_n_features=30,
@@ -1287,17 +1312,14 @@ class TrainPipeline:
         self.logger.info("Saving model artifacts...")
         
         # Include target in model filename
-        if target_col:
-            model_filename = f"{target_col}_{self.final_metrics['model_type']}_model.pkl"
-        else:
-            model_filename = f"{self.final_metrics['model_type']}_model.pkl"
+        model_filename = "model.pkl"
         
         model_path = f"{self.paths['models']}/{model_filename}"
         joblib.dump(self.model, model_path)
         
         # Save label encoder for classification tasks
         if self.task_type == 'classification' and self.le is not None:
-            encoder_filename = f"{target_col}_label_encoder.pkl" if target_col else "label_encoder.pkl"
+            encoder_filename = "label_encoder.pkl"
             joblib.dump(self.le, f"{self.paths['models']}/{encoder_filename}")
         
         # Save metrics
@@ -1493,7 +1515,7 @@ class TrainPipeline:
         # Holdout performance
         print("\nHOLDOUT SET EVALUATION:")
         print("-" * 60)
-        print(f"Accuracy:    {final_metrics.iloc[0]['accuracy']:.3f}")
+        #print(f"Accuracy:    {final_metrics.iloc[0]['accuracy']:.3f}")
         print(f"F1 Macro:    {final_metrics.iloc[0]['f1-score']:.3f}")
         print(f"Precision:   {final_metrics.iloc[0]['precision']:.3f}")
         print(f"Recall:      {final_metrics.iloc[0]['recall']:.3f}")
@@ -1760,108 +1782,21 @@ def get_model_params(model_type, task_type='classification'):
 
 
 def evaluate_classification_model(model, X_train, X_test, y_train, y_test, logger, 
-                                fold=None, class_names=None, model_type=None, 
-                                feature_selection_method=None, sample_weight=None, use_smote=False, smote_strategy=None):
+                                fold=None, class_names=None):
     """
     Evaluate classification model with comprehensive metrics
-    
-    Parameters:
-    -----------
-    model : sklearn model
-        Trained model to evaluate
-    X_train : array-like
-        Training features
-    X_test : array-like
-        Test features
-    y_train : array-like
-        Training labels
-    y_test : array-like
-        Test labels
-    logger : logging.Logger
-        Logger instance
-    fold : int, default=None
-        Fold number for cross-validation
-    class_names : list, default=None
-        Names of classes for reporting
-    model_type : str, default=None
-        Type of model used
-    feature_selection_method : str, default=None
-        Feature selection method used
-    sample_weight : array-like, default=None
-        Sample weights for handling class imbalance
-        
-    Returns:
-    --------
-    dict : Evaluation metrics
     """
     metrics = {
         'fold': fold + 1 if fold is not None else None,
         'n_train_samples': len(X_train),
         'n_test_samples': len(X_test),
-        'used_sample_weights': sample_weight is not None
     }
     
     try:
+        # Fit the model
+        model.fit(X_train, y_train)
         
-        # Apply SMOTE/oversampling
-        if use_smote and smote_strategy:
-            try:
-                # Check if we have enough samples for SMOTE
-                class_counts = np.bincount(y_train)
-                min_class_count = min(class_counts)
-                
-                if min_class_count < 2:
-                    logger.warning(f"Not enough samples in minority class ({min_class_count}) for SMOTE")
-                    metrics['smote_skipped'] = "Insufficient minority class samples"
-                else:
-                    sample_weight = None  # Disable sample weights when using SMOTE
-                    logger.info("Using SMOTE oversampling - sample weights disabled to avoid size mismatch")
-                    
-                    # Calculate safe k_neighbors value
-                    safe_k_neighbors = min(5, min_class_count - 1)
-                    
-                    smote = SMOTE(
-                        sampling_strategy=smote_strategy,
-                        random_state=42 + fold if fold else 42,
-                        k_neighbors=safe_k_neighbors
-                    )
-                    X_train, y_train = smote.fit_resample(X_train, y_train)
-                        
-                    logger.info(f"SMOTE applied: {X_train.shape[0]} samples (from {metrics['n_train_samples']})")
-                    metrics['used_smote'] = True
-                    metrics['smote_strategy'] = str(smote_strategy)
-                    metrics['n_train_samples_after_smote'] = len(X_train)
-            except Exception as e:
-                logger.warning(f"SMOTE oversampling failed: {str(e)}")
-                metrics['smote_error'] = str(e)
-
-        # Fit the model with appropriate parameters
-        if sample_weight is not None:
-            logger.info(f"Using sample weights: {sample_weight.shape if hasattr(sample_weight, 'shape') else 'custom weights'}")
-            
-            # Try different approaches for passing sample weights
-            try:
-                # First try: standard sample_weight parameter
-                if hasattr(model, 'fit'):
-                    model.fit(X_train, y_train, sample_weight=sample_weight)
-            except TypeError as e:
-                logger.warning(f"Standard sample_weight failed: {str(e)}. Trying pipeline-specific approach.")
-                try:
-                    # Second try: for pipeline with classifier step
-                    if hasattr(model, 'steps'):
-                        model.fit(X_train, y_train, classifier__sample_weight=sample_weight)
-                    else:
-                        # Final fallback: fit without sample weights
-                        model.fit(X_train, y_train)
-                        metrics['sample_weight_warning'] = "Model doesn't support sample_weight parameter"
-                except Exception as inner_e:
-                    logger.warning(f"Pipeline sample_weight also failed: {str(inner_e)}. Fitting without sample weights.")
-                    model.fit(X_train, y_train)
-                    metrics['sample_weight_error'] = str(inner_e)
-        else:
-            # Standard fitting without sample weights
-            model.fit(X_train, y_train)
-            
+        # Make predictions
         y_pred = model.predict(X_test)
         y_pred_train = model.predict(X_train)
         
@@ -1887,7 +1822,7 @@ def evaluate_classification_model(model, X_train, X_test, y_train, y_test, logge
             
             # Store per-class metrics
             for i, class_name in enumerate(class_names):
-                if str(i) in class_report:  # Only if class exists in test set
+                if str(i) in class_report:
                     metrics.update({
                         f'precision_{class_name}': class_report[str(i)]['precision'],
                         f'recall_{class_name}': class_report[str(i)]['recall'],
@@ -1895,65 +1830,7 @@ def evaluate_classification_model(model, X_train, X_test, y_train, y_test, logge
                         f'support_{class_name}': class_report[str(i)]['support']
                     })
         
-        # Probability-based metrics
-        if hasattr(model, 'predict_proba'):
-            try:
-                y_proba = model.predict_proba(X_test)
-                n_classes = y_proba.shape[1]
-                
-                # Multi-class metrics
-                if n_classes > 2:
-                    metrics.update({
-                        'roc_auc_ovr': roc_auc_score(y_test, y_proba, multi_class='ovr', average='macro'),
-                        'roc_auc_ovo': roc_auc_score(y_test, y_proba, multi_class='ovo', average='macro'),
-                        'log_loss': log_loss(y_test, y_proba),
-                    })
-                    
-                    # Class-specific AUC
-                    for i in range(n_classes):
-                        if i in y_test.unique():  # Only if class exists
-                            auc = roc_auc_score((y_test == i).astype(int), y_proba[:, i])
-                            class_label = class_names[i] if class_names else str(i)
-                            metrics[f'roc_auc_class_{class_label}'] = auc
-                
-                # Binary classification metrics
-                elif n_classes == 2:
-                    metrics.update({
-                        'roc_auc': roc_auc_score(y_test, y_proba[:, 1]),
-                        'average_precision': average_precision_score(y_test, y_proba[:, 1]),
-                        'log_loss': log_loss(y_test, y_proba),
-                        'brier_score': brier_score_loss(y_test, y_proba[:, 1])
-                    })
-                    
-                    # Find optimal threshold
-                    precision, recall, thresholds = precision_recall_curve(y_test, y_proba[:, 1])
-                    f1_scores = 2 * (precision * recall) / (precision + recall + 1e-8)
-                    optimal_idx = np.argmax(f1_scores)
-                    metrics['optimal_threshold'] = thresholds[optimal_idx]
-                    
-            except Exception as e:
-                metrics['probability_metrics_error'] = str(e)
-                logger.warning(f"Probability metrics failed: {str(e)}")
-        
-        # Confusion matrix
-        try:
-            cm = confusion_matrix(y_test, y_pred)
-            metrics['confusion_matrix'] = cm.tolist()
-            
-            # Calculate class distribution for imbalance analysis
-            class_distribution = {class_names[i]: count for i, count in enumerate(np.bincount(y_test)) if count > 0}
-            metrics['class_distribution'] = class_distribution
-            
-        except Exception as e:
-            metrics['confusion_matrix_error'] = str(e)
-            logger.warning(f"Confusion matrix failed: {str(e)}")
-        
-        # Log class imbalance metrics if sample weights were used
-        if sample_weight is not None and class_names:
-            draw_idx = class_names.index('draw') if 'draw' in class_names else None
-            if draw_idx is not None and f'recall_draw' in metrics:
-                logger.info(f"Draw recall with sample weights: {metrics['recall_draw']:.4f}")
-        
+        # Log results
         if fold is not None:
             logger.info(f"Fold {fold + 1} - Test Accuracy: {metrics['test_accuracy']:.4f} - F1 Macro: {metrics['f1_macro']:.4f}")
         else:
@@ -2077,12 +1954,9 @@ def generate_basic_visualizations(pipeline, X_test, y_test, artifact_paths, targ
         y_test_array = y_test.values if hasattr(y_test, 'values') else np.array(y_test)
         
         # Create title with target information
-        if target_col:
-            main_title = f'{target_col.upper()} - {model_type.title()} ({feature_selection_method}) Evaluation'
-            filename_prefix = f"{target_col}_"
-        else:
-            main_title = f'{model_type.title()} ({feature_selection_method}) Evaluation'
-            filename_prefix = ""
+
+        main_title = f'{model_type.title()} ({feature_selection_method}) Evaluation'
+        filename_prefix = ""
         
         # Get class names for classification - USE THE PASSED le PARAMETER
         class_names = None
@@ -2446,7 +2320,7 @@ def generate_probability_plots(model, X_test, y_test, class_names, artifact_path
         n_classes = y_proba.shape[1] if len(y_proba.shape) > 1 else 1
         
         # Create filename with target prefix
-        filename_prefix = f"{target_col}_" if target_col else ""
+        filename_prefix = ""
         
         # Create title with target information
         if target_col:
@@ -2593,114 +2467,9 @@ def generate_probability_plots(model, X_test, y_test, class_names, artifact_path
         logger.warning(traceback.format_exc())
 
 
-def handle_class_imbalance(y_train, method='auto', custom_weights=None, smote_strategy='auto', random_state=42):
-    """
-    Handle class imbalance using various methods
-    
-    Parameters:
-    -----------
-    y_train : array-like
-        Training target labels
-    method : str, default='auto'
-        Method to handle imbalance: 'auto', 'smote', 'class_weights', 'custom_weights', 'none'
-    custom_weights : dict, optional
-        Custom class weights dictionary {class: weight}
-    smote_strategy : str or dict, default='auto'
-        SMOTE sampling strategy
-    random_state : int, default=42
-        Random state for reproducibility
-        
-    Returns:
-    --------
-    dict: Configuration with method details and parameters
-    """
-    
-    # Check if it's a classification task with imbalance
-    unique_classes = np.unique(y_train)
-    if len(unique_classes) <= 1:
-        return {
-            'method': 'none',
-            'reason': 'Single class or regression task',
-            'sample_weights': None,
-            'class_weights': None,
-            'smote_instance': None
-        }
-    
-    # Calculate class distribution
-    class_counts = np.bincount(y_train)
-    class_distribution = {cls: count for cls, count in zip(unique_classes, class_counts)}
-    
-    # Check if imbalance exists (more than 2:1 ratio between largest and smallest class)
-    max_count = max(class_counts)
-    min_count = min(class_counts)
-    is_imbalanced = (max_count / min_count) > 2 if min_count > 0 else True
-    
-    if not is_imbalanced:
-        return {
-            'method': 'none',
-            'reason': 'Classes are balanced',
-            'class_distribution': class_distribution,
-            'sample_weights': None,
-            'class_weights': None,
-            'smote_instance': None
-        }
-    
-    # Determine method if 'auto'
-    if method == 'auto':
-        # Auto logic: Use SMOTE if minority class has enough samples, otherwise class weights
-        if min_count >= 5:  # Enough samples for SMOTE
-            method = 'smote'
-        else:
-            method = 'class_weights'
-    
-    # Apply the selected method
-    if method == 'smote':
-        return _apply_smote(y_train, smote_strategy, class_distribution, random_state)
-    
-    elif method == 'class_weights':
-        return _apply_class_weights(y_train, class_distribution, 'balanced')
-    
-    elif method == 'custom_weights':
-        return _apply_custom_weights(y_train, custom_weights, class_distribution)
-    
-    elif method == 'none':
-        return {
-            'method': 'none',
-            'reason': 'Explicitly disabled',
-            'class_distribution': class_distribution,
-            'sample_weights': None,
-            'class_weights': None,
-            'smote_instance': None
-        }
-    
-    else:
-        raise ValueError(f"Unknown imbalance handling method: {method}")
 
-def _apply_smote(y_train, smote_strategy, class_distribution, random_state):
-    """Apply SMOTE oversampling"""
-    from imblearn.over_sampling import SMOTE
-    
-    # Calculate safe k_neighbors
-    min_class_count = min(np.bincount(y_train))
-    k_neighbors = min(5, min_class_count - 1)
-    k_neighbors = max(1, k_neighbors)  # Ensure at least 1
-    
-    # Create SMOTE instance
-    smote = SMOTE(
-        sampling_strategy=smote_strategy,
-        random_state=random_state,
-        k_neighbors=k_neighbors
-    )
-    
-    return {
-        'method': 'smote',
-        'class_distribution': class_distribution,
-        'sample_weights': None,  # No sample weights when using SMOTE
-        'class_weights': None,   # No class weights when using SMOTE
-        'smote_instance': smote,
-        'k_neighbors': k_neighbors,
-        'smote_strategy': smote_strategy
-    }
+
+
 
 def _apply_class_weights(y_train, class_distribution, weight_type='balanced'):
     """Apply automatic class weights"""

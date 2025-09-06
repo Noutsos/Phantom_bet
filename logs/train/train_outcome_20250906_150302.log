@@ -1,0 +1,43 @@
+2025-09-06 15:03:02,220 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 15:03:02,220 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-06 15:03:02,260 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-06 15:03:02,303 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 15:03:02,303 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-06 15:03:02,312 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-06 15:03:02,312 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 15:03:02,359 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 15:03:02,538 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 15:03:02,538 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-06 15:03:02,543 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-06 15:03:02,544 - src.train_pipeline - INFO - Using default SMOTE strategy: auto
+2025-09-06 15:03:02,544 - src.train_pipeline - INFO - Using draw-focused SMOTE. Target counts: {0: 9302, 1: 12578, 2: 12578}
+2025-09-06 15:03:02,544 - src.train_pipeline - INFO - Class imbalance handling: smote_draws
+2025-09-06 15:03:02,544 - src.train_pipeline - INFO - Class distribution: {0: 9302, 1: 7466, 2: 12578}
+2025-09-06 15:03:02,544 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-06 15:03:02,618 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-06 15:03:02,618 - src.train_pipeline - INFO - No categorical features found. Skipping OneHotEncoder.
+2025-09-06 15:03:02,618 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 15:03:02,618 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-06 15:03:02,618 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 15:03:02,618 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-06 15:03:02,618 - src.train_pipeline - INFO - Removed class_weight parameter due to SMOTE usage
+2025-09-06 15:03:02,619 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-06 15:03:02,619 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-06 15:03:02,636 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-06 15:03:02,882 - src.train_pipeline - INFO - SMOTE applied: 6375 samples (from 4891)
+2025-09-06 15:03:26,586 - src.train_pipeline - INFO - Fold 1 - Test Accuracy: 0.6802 - F1 Macro: 0.6407
+2025-09-06 15:03:26,589 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-06 15:03:26,616 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-06 15:03:26,813 - src.train_pipeline - INFO - SMOTE applied: 12771 samples (from 9782)
+2025-09-06 15:04:03,767 - src.train_pipeline - INFO - Fold 2 - Test Accuracy: 0.7007 - F1 Macro: 0.6535
+2025-09-06 15:04:03,771 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-06 15:04:03,803 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-06 15:04:04,073 - src.train_pipeline - INFO - SMOTE applied: 18765 samples (from 14673)
+2025-09-06 15:05:02,048 - src.train_pipeline - INFO - Fold 3 - Test Accuracy: 0.7125 - F1 Macro: 0.6766
+2025-09-06 15:05:02,056 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-06 15:05:02,100 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-06 15:05:02,582 - src.train_pipeline - INFO - SMOTE applied: 24870 samples (from 19564)
+2025-09-06 15:06:17,400 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-06 15:06:17,453 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-06 15:06:18,035 - src.train_pipeline - INFO - SMOTE applied: 31188 samples (from 24455)
+2025-09-06 15:07:43,294 - src.train_pipeline - INFO - Training final model on full training period...

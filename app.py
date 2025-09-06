@@ -2,7 +2,7 @@ import os
 import pandas as pd
 from datetime import datetime, timedelta
 import logging
-from flask import Flask, render_template, request, jsonify, session, redirect, url_for, send_file
+from flask import Flask, render_template, request, jsonify, session, redirect, url_for, send_file, flash, json
 from src.collect_pipeline import CollectPipeline
 from src.extract_pipeline import ExtractPipeline
 from src.process_pipeline import ProcessPipeline
@@ -51,10 +51,9 @@ TRAIN_CONFIG = {
     'random_search_iter': 50,
     'load_params': True,
     'holdout_ratio': 0.2,
-    'handle_class_imbalance': True,
-    'class_weights_dict': None,
     'use_smote': True,
-    'smote_strategy': {1: 1500}
+    'smote_strategy': 'draws_only',  # Options: 'draws_only', 'all_classes', or dict
+    'smote_factor': 1.0
 }
 
 @app.route('/')
@@ -170,6 +169,15 @@ def processing():
 @app.route('/training', methods=['GET', 'POST'])
 def training():
     if request.method == 'POST':
+        # Parse class weights and SMOTE strategy from JSON strings
+        
+
+        # Validate that both SMOTE and class weights aren't enabled
+        use_smote = 'use_smote' in request.form
+        smote_strategy = request.form.get('smote_strategy', '{}')
+        # Get SMOTE factor from form
+        smote_factor = float(request.form.get('smote_factor', 1.0))
+        
         # Get form data and update training config
         training_config = {
             'target_col': request.form.get('target_col', 'outcome'),
@@ -183,10 +191,9 @@ def training():
             'random_search_iter': int(request.form.get('random_search_iter', 50)),
             'load_params': 'load_params' in request.form,
             'holdout_ratio': float(request.form.get('holdout_ratio', 0.2)),
-            'handle_class_imbalance': 'handle_class_imbalance' in request.form,
-            'class_weights_dict': request.form.get('class_weights_dict'),
-            'use_smote': 'use_smote' in request.form,
-            'smote_strategy': request.form.get('smote_strategy')
+            'use_smote': use_smote,
+            'smote_strategy': smote_strategy,
+            'smote_factor': smote_factor
         }
         
         session['training_config'] = training_config
@@ -448,7 +455,7 @@ def run_processing(force_processing=True):
 def run_training():
     # Load processed data
     df = pd.read_csv(PIPELINE_CONFIG['final_output'])
-    df = df[df['season'] >= 2022]  # Filter for recent seasons
+    #df = df[df['season'] >= 2022]  # Filter for recent seasons
     
     # Get training config from session
     training_config = session.get('training_config', TRAIN_CONFIG)
@@ -472,17 +479,15 @@ def run_training():
         random_search_iter=training_config['random_search_iter'],
         load_params=training_config['load_params'],
         holdout_ratio=training_config['holdout_ratio'],
-        handle_class_imbalance=training_config['handle_class_imbalance'],
-        class_weights_dict=training_config['class_weights_dict'],
         use_smote=training_config['use_smote'],
-        smote_strategy=training_config['smote_strategy']
+        smote_strategy=training_config.get('smote_strategy', 'draws_only'),
+        smote_factor=training_config.get('smote_factor', 1.0)
     )
-
 
 def run_prediction():
     predictor = PredictPipeline()
     training_config = session.get('training_config', TRAIN_CONFIG)
-    model_path = f"artifacts/{training_config['model_type']}/{training_config['feature_selection_method']}/models/{training_config['model_type']}_model.pkl"
+    model_path = f"artifacts/{training_config['target_col']}/{training_config['model_type']}/{training_config['feature_selection_method']}/models/model.pkl"
     
     predictor.load_trained_model(model_path=model_path)
     predictor.predict_upcoming_fixtures()

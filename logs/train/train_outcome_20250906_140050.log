@@ -1,0 +1,35 @@
+2025-09-06 14:00:50,490 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 14:00:50,490 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-06 14:00:50,510 - src.train_pipeline - INFO - Filtered to 15643 completed matches
+2025-09-06 14:00:50,537 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 14:00:50,538 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-06 14:00:50,542 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-06 14:00:50,542 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 14:00:50,573 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 14:00:50,813 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 14:00:50,813 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 15643
+2025-09-06 14:00:50,819 - src.train_pipeline - INFO - Time Series Split - Training: 12515, Holdout: 3128
+2025-09-06 14:02:32,028 - src.train_pipeline - INFO - Initialized MLPipeline for auto task
+2025-09-06 14:02:32,030 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 14:02:32,030 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-06 14:02:32,047 - src.train_pipeline - INFO - Filtered to 15643 completed matches
+2025-09-06 14:02:32,066 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 14:02:32,067 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-06 14:02:32,071 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-06 14:02:32,071 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 14:02:32,090 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 14:02:32,205 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 14:02:32,205 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 15643
+2025-09-06 14:02:32,208 - src.train_pipeline - INFO - Time Series Split - Training: 12515, Holdout: 3128
+2025-09-06 14:06:38,354 - src.train_pipeline - INFO - Initialized MLPipeline for auto task
+2025-09-06 14:06:38,357 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 14:06:38,357 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-06 14:06:38,377 - src.train_pipeline - INFO - Filtered to 15643 completed matches
+2025-09-06 14:06:38,405 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 14:06:38,405 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-06 14:06:38,409 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-06 14:06:38,409 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 14:06:38,440 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 14:06:38,591 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 14:06:38,591 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 15643
+2025-09-06 14:06:38,595 - src.train_pipeline - INFO - Time Series Split - Training: 12515, Holdout: 3128

@@ -1,0 +1,40 @@
+2025-09-06 15:19:40,195 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 15:19:40,195 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-06 15:19:40,227 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-06 15:19:40,277 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 15:19:40,278 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-06 15:19:40,285 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-06 15:19:40,286 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 15:19:40,329 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 15:19:40,530 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 15:19:40,530 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-06 15:19:40,539 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-06 15:19:40,540 - src.train_pipeline - INFO - Using default SMOTE strategy: auto
+2025-09-06 15:19:40,540 - src.train_pipeline - INFO - Using draw-focused SMOTE. Target counts: {0: 9302, 1: 12578, 2: 12578}
+2025-09-06 15:19:40,540 - src.train_pipeline - INFO - Class imbalance handling: smote_draws
+2025-09-06 15:19:40,541 - src.train_pipeline - INFO - Class distribution: {0: 9302, 1: 7466, 2: 12578}
+2025-09-06 15:19:40,541 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-06 15:19:40,627 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-06 15:19:40,627 - src.train_pipeline - INFO - No categorical features found. Skipping OneHotEncoder.
+2025-09-06 15:19:40,628 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 15:19:40,628 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-06 15:19:40,628 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 15:19:40,628 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-06 15:19:40,628 - src.train_pipeline - INFO - Removed class_weight parameter due to SMOTE usage
+2025-09-06 15:19:40,628 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-06 15:19:40,628 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-06 15:19:59,396 - src.train_pipeline - WARNING - Confusion matrix failed: 'NoneType' object is not subscriptable
+2025-09-06 15:19:59,396 - src.train_pipeline - INFO - Fold 1 - Test Accuracy: 0.6743 - F1 Macro: 0.6371
+2025-09-06 15:19:59,399 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-06 15:20:27,340 - src.train_pipeline - WARNING - Confusion matrix failed: 'NoneType' object is not subscriptable
+2025-09-06 15:20:27,340 - src.train_pipeline - INFO - Fold 2 - Test Accuracy: 0.7001 - F1 Macro: 0.6577
+2025-09-06 15:20:27,343 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-06 15:21:10,520 - src.train_pipeline - WARNING - Confusion matrix failed: 'NoneType' object is not subscriptable
+2025-09-06 15:21:10,520 - src.train_pipeline - INFO - Fold 3 - Test Accuracy: 0.7178 - F1 Macro: 0.6810
+2025-09-06 15:21:10,525 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-06 15:22:03,852 - src.train_pipeline - WARNING - Confusion matrix failed: 'NoneType' object is not subscriptable
+2025-09-06 15:22:03,852 - src.train_pipeline - INFO - Fold 4 - Test Accuracy: 0.7164 - F1 Macro: 0.6760
+2025-09-06 15:22:03,857 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-06 15:23:10,176 - src.train_pipeline - WARNING - Confusion matrix failed: 'NoneType' object is not subscriptable
+2025-09-06 15:23:10,177 - src.train_pipeline - INFO - Fold 5 - Test Accuracy: 0.7185 - F1 Macro: 0.6694
+2025-09-06 15:23:10,181 - src.train_pipeline - INFO - Training final model on full training period...

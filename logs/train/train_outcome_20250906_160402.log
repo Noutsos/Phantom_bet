@@ -1,0 +1,43 @@
+2025-09-06 16:04:02,535 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 16:04:02,535 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-06 16:04:02,583 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-06 16:04:02,643 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 16:04:02,644 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-06 16:04:02,652 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-06 16:04:02,652 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 16:04:02,703 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 16:04:02,881 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 16:04:02,881 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-06 16:04:02,887 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-06 16:04:02,888 - src.train_pipeline - INFO - Using draw-focused SMOTE with factor 0.8
+2025-09-06 16:04:02,888 - src.train_pipeline - INFO - Original class distribution: {0: 9302, 1: 7466, 2: 12578}
+2025-09-06 16:04:02,888 - src.train_pipeline - INFO - Target draws: 10062 (from 7466)
+2025-09-06 16:04:02,888 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-06 16:04:02,953 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-06 16:04:02,953 - src.train_pipeline - INFO - No categorical features found. Skipping OneHotEncoder.
+2025-09-06 16:04:02,953 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 16:04:02,953 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-06 16:04:02,953 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 16:04:02,953 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-06 16:04:02,953 - src.train_pipeline - INFO - Removed class_weight parameter due to SMOTE usage
+2025-09-06 16:04:02,953 - src.train_pipeline - INFO - Pipeline with SMOTE created
+2025-09-06 16:04:02,953 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-06 16:04:02,954 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-06 16:04:19,052 - src.train_pipeline - INFO - Fold 1 - Test Accuracy: 0.6749 - F1 Macro: 0.6508
+2025-09-06 16:04:19,054 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-06 16:04:45,871 - src.train_pipeline - INFO - Fold 2 - Test Accuracy: 0.6964 - F1 Macro: 0.6661
+2025-09-06 16:04:45,873 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-06 16:05:24,368 - src.train_pipeline - INFO - Fold 3 - Test Accuracy: 0.7144 - F1 Macro: 0.6909
+2025-09-06 16:05:24,371 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-06 16:06:18,285 - src.train_pipeline - INFO - Fold 4 - Test Accuracy: 0.7078 - F1 Macro: 0.6815
+2025-09-06 16:06:18,289 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-06 16:07:20,175 - src.train_pipeline - INFO - Fold 5 - Test Accuracy: 0.7162 - F1 Macro: 0.6842
+2025-09-06 16:07:20,179 - src.train_pipeline - INFO - Training final model on full training period...
+2025-09-06 16:08:32,512 - src.train_pipeline - INFO - Evaluating on holdout period...
+2025-09-06 16:08:32,573 - src.train_pipeline - INFO - Holdout Accuracy: 0.7001
+2025-09-06 16:08:32,573 - src.train_pipeline - INFO - Saving model artifacts...
+2025-09-06 16:08:32,622 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-09-06 16:08:32,622 - src.train_pipeline - INFO - Generating basic visualizations...
+2025-09-06 16:08:36,864 - src.train_pipeline - INFO - Probability plots generated successfully!
+2025-09-06 16:08:36,865 - src.train_pipeline - INFO - Basic visualizations generated successfully!
+2025-09-06 16:08:36,865 - src.train_pipeline - INFO - Training completed successfully!

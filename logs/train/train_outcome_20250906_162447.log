@@ -1,0 +1,89 @@
+2025-09-06 16:24:47,419 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 16:24:47,419 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-06 16:24:47,456 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-06 16:24:47,497 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 16:24:47,498 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-06 16:24:47,506 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-06 16:24:47,506 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 16:24:47,545 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 16:24:47,786 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 16:24:47,786 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-06 16:24:47,794 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-06 16:24:47,795 - src.train_pipeline - INFO - SMOTE strategy: Oversample only draws to 11320 samples
+2025-09-06 16:24:47,795 - src.train_pipeline - INFO - Using SMOTE strategy: draws_only
+2025-09-06 16:24:47,795 - src.train_pipeline - INFO - Original class distribution: {0: 9302, 1: 7466, 2: 12578}
+2025-09-06 16:24:47,795 - src.train_pipeline - INFO - Target distribution: {0: 9302, 1: 11320, 2: 12578}
+2025-09-06 16:24:47,795 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-06 16:24:47,871 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-06 16:24:47,872 - src.train_pipeline - INFO - No categorical features found. Skipping OneHotEncoder.
+2025-09-06 16:24:47,872 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 16:24:47,872 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-06 16:24:47,872 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 16:24:47,872 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-06 16:24:47,872 - src.train_pipeline - INFO - Removed class_weight parameter due to SMOTE usage
+2025-09-06 16:24:47,872 - src.train_pipeline - INFO - Pipeline with SMOTE created
+2025-09-06 16:24:47,872 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-06 16:24:47,873 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-06 16:25:03,948 - src.train_pipeline - INFO - Fold 1 - Test Accuracy: 0.6790 - F1 Macro: 0.6568
+2025-09-06 16:25:03,951 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-06 16:25:30,939 - src.train_pipeline - INFO - Fold 2 - Test Accuracy: 0.6976 - F1 Macro: 0.6718
+2025-09-06 16:25:30,941 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-06 16:26:12,138 - src.train_pipeline - INFO - Fold 3 - Test Accuracy: 0.7134 - F1 Macro: 0.6936
+2025-09-06 16:26:12,142 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-06 16:27:04,619 - src.train_pipeline - INFO - Fold 4 - Test Accuracy: 0.7037 - F1 Macro: 0.6807
+2025-09-06 16:27:04,623 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-06 16:28:08,902 - src.train_pipeline - INFO - Fold 5 - Test Accuracy: 0.7176 - F1 Macro: 0.6890
+2025-09-06 16:28:08,906 - src.train_pipeline - INFO - Training final model on full training period...
+2025-09-06 16:29:27,101 - src.train_pipeline - INFO - Evaluating on holdout period...
+2025-09-06 16:29:27,169 - src.train_pipeline - INFO - Holdout Accuracy: 0.6982
+2025-09-06 16:29:27,169 - src.train_pipeline - INFO - Saving model artifacts...
+2025-09-06 16:29:27,217 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-09-06 16:29:27,217 - src.train_pipeline - INFO - Generating basic visualizations...
+2025-09-06 16:29:30,705 - src.train_pipeline - INFO - Probability plots generated successfully!
+2025-09-06 16:29:30,705 - src.train_pipeline - INFO - Basic visualizations generated successfully!
+2025-09-06 16:29:30,706 - src.train_pipeline - INFO - Training completed successfully!
+2025-09-06 16:30:47,569 - src.train_pipeline - INFO - Initialized MLPipeline for auto task
+2025-09-06 16:30:47,572 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 16:30:47,572 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-06 16:30:47,617 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-06 16:30:47,672 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 16:30:47,673 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-06 16:30:47,682 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-06 16:30:47,683 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 16:30:47,725 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 16:30:47,968 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 16:30:47,968 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-06 16:30:47,975 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-06 16:30:47,976 - src.train_pipeline - INFO - SMOTE strategy: Oversample all minority classes to 12578 samples
+2025-09-06 16:30:47,976 - src.train_pipeline - INFO - Using SMOTE strategy: all_to_majority
+2025-09-06 16:30:47,976 - src.train_pipeline - INFO - Original class distribution: {0: 9302, 1: 7466, 2: 12578}
+2025-09-06 16:30:47,976 - src.train_pipeline - INFO - Target distribution: {0: 12578, 1: 12578, 2: 12578}
+2025-09-06 16:30:47,976 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-06 16:30:48,043 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-06 16:30:48,043 - src.train_pipeline - INFO - No categorical features found. Skipping OneHotEncoder.
+2025-09-06 16:30:48,043 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 16:30:48,043 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-06 16:30:48,043 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 16:30:48,044 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-06 16:30:48,044 - src.train_pipeline - INFO - Removed class_weight parameter due to SMOTE usage
+2025-09-06 16:30:48,044 - src.train_pipeline - INFO - Pipeline with SMOTE created
+2025-09-06 16:30:48,044 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-06 16:30:48,044 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-06 16:31:05,545 - src.train_pipeline - INFO - Fold 1 - Test Accuracy: 0.6710 - F1 Macro: 0.6505
+2025-09-06 16:31:05,548 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-06 16:31:42,256 - src.train_pipeline - INFO - Fold 2 - Test Accuracy: 0.6937 - F1 Macro: 0.6667
+2025-09-06 16:31:42,258 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-06 16:32:28,881 - src.train_pipeline - INFO - Fold 3 - Test Accuracy: 0.7099 - F1 Macro: 0.6905
+2025-09-06 16:32:28,885 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-06 16:33:24,999 - src.train_pipeline - INFO - Fold 4 - Test Accuracy: 0.7111 - F1 Macro: 0.6887
+2025-09-06 16:33:25,003 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-06 16:34:32,986 - src.train_pipeline - INFO - Fold 5 - Test Accuracy: 0.7127 - F1 Macro: 0.6840
+2025-09-06 16:34:32,991 - src.train_pipeline - INFO - Training final model on full training period...
+2025-09-06 16:35:50,505 - src.train_pipeline - INFO - Evaluating on holdout period...
+2025-09-06 16:35:50,583 - src.train_pipeline - INFO - Holdout Accuracy: 0.6987
+2025-09-06 16:35:50,584 - src.train_pipeline - INFO - Saving model artifacts...
+2025-09-06 16:35:50,654 - src.train_pipeline - INFO - Artifacts saved successfully!
+2025-09-06 16:35:50,654 - src.train_pipeline - INFO - Generating basic visualizations...
+2025-09-06 16:35:54,188 - src.train_pipeline - INFO - Probability plots generated successfully!
+2025-09-06 16:35:54,188 - src.train_pipeline - INFO - Basic visualizations generated successfully!
+2025-09-06 16:35:54,188 - src.train_pipeline - INFO - Training completed successfully!

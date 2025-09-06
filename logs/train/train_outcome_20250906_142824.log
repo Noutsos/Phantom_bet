@@ -1,0 +1,28 @@
+2025-09-06 14:28:24,605 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 14:28:24,606 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-06 14:28:24,623 - src.train_pipeline - INFO - Filtered to 15643 completed matches
+2025-09-06 14:28:24,647 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 14:28:24,648 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-06 14:28:24,654 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-06 14:28:24,654 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 14:28:24,678 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 14:28:24,809 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 14:28:24,809 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 15643
+2025-09-06 14:28:24,812 - src.train_pipeline - INFO - Time Series Split - Training: 12515, Holdout: 3128
+2025-09-06 14:28:24,813 - src.train_pipeline - INFO - Class imbalance handling: smote
+2025-09-06 14:28:24,813 - src.train_pipeline - INFO - Class distribution: {0: 3966, 1: 3150, 2: 5399}
+2025-09-06 14:28:24,813 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-06 14:28:24,838 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-06 14:28:24,838 - src.train_pipeline - INFO - No categorical features found. Skipping OneHotEncoder.
+2025-09-06 14:28:24,838 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 14:28:24,838 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-06 14:28:24,838 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 14:28:24,838 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-06 14:28:24,839 - src.train_pipeline - INFO - Removed class_weight parameter due to SMOTE usage
+2025-09-06 14:28:24,839 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-06 14:28:24,839 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-06 14:28:31,715 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-06 14:28:44,177 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-06 14:29:00,553 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-06 14:29:23,986 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-06 14:29:54,600 - src.train_pipeline - INFO - Training final model on full training period...

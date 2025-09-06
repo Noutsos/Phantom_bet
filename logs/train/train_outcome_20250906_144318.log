@@ -1,0 +1,31 @@
+2025-09-06 14:43:18,607 - src.train_pipeline - INFO - Starting training for outcome with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 14:43:18,608 - src.train_pipeline - INFO - Preparing data with target column: outcome
+2025-09-06 14:43:18,664 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-06 14:43:18,722 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 14:43:18,723 - src.train_pipeline - INFO - Auto-detected task type: classification
+2025-09-06 14:43:18,731 - src.train_pipeline - INFO - Encoded classes: {'away_win': 0, 'draw': 1, 'home_win': 2}
+2025-09-06 14:43:18,732 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 14:43:18,791 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 14:43:18,970 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 14:43:18,970 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-06 14:43:18,976 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-06 14:43:18,977 - src.train_pipeline - INFO - Class imbalance handling: smote
+2025-09-06 14:43:18,977 - src.train_pipeline - INFO - Class distribution: {0: 9302, 1: 7466, 2: 12578}
+2025-09-06 14:43:18,977 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-06 14:43:19,041 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-06 14:43:19,041 - src.train_pipeline - INFO - No categorical features found. Skipping OneHotEncoder.
+2025-09-06 14:43:19,041 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 14:43:19,042 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-06 14:43:19,042 - src.train_pipeline - INFO - Selected model class: xgboost for classification
+2025-09-06 14:43:19,042 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-06 14:43:19,042 - src.train_pipeline - INFO - Removed class_weight parameter due to SMOTE usage
+2025-09-06 14:43:19,042 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-06 14:43:19,042 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-06 14:43:19,059 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-06 14:43:19,066 - src.train_pipeline - WARNING - SMOTE oversampling failed: The {'0', '2', '1'} target class is/are not present in the data.
+2025-09-06 14:43:32,667 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-06 14:43:32,692 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-06 14:43:32,704 - src.train_pipeline - WARNING - SMOTE oversampling failed: The {'0', '2', '1'} target class is/are not present in the data.
+2025-09-06 14:43:55,260 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-06 14:43:55,289 - src.train_pipeline - INFO - Using SMOTE oversampling - sample weights disabled to avoid size mismatch
+2025-09-06 14:43:55,304 - src.train_pipeline - WARNING - SMOTE oversampling failed: The {'0', '2', '1'} target class is/are not present in the data.
