@@ -926,6 +926,17 @@ class TrainPipeline:
                 class_distribution = {0: class_counts[0], 1: class_counts[1], 2: class_counts[2]}
                 
                 # Apply imbalance handling
+                imbalance_config = {
+                    'method': 'combined' if use_smote and class_weight_type != 'none' else 
+                            'smote' if use_smote else 
+                            'class_weights' if class_weight_type != 'none' else 'none',
+                    'class_distribution': class_distribution,
+                    'sample_weights': None,
+                    'class_weights': None,
+                    'smote_instance': None,
+                    'smote_strategy': None,
+                }
+
                 if use_smote:
                     # Use SMOTE
                     smote_instance, smote_strategy_dict = self.create_smote_strategy(
@@ -935,19 +946,15 @@ class TrainPipeline:
                         random_state=self.random_state
                     )
                     
-                    imbalance_config = {
-                        'method': 'smote',
-                        'class_distribution': class_distribution,
-                        'sample_weights': None,
-                        'class_weights': None,
+                    imbalance_config.update({
                         'smote_instance': smote_instance,
                         'smote_strategy': smote_strategy_dict,
-                    }
+                    })
                     
                     self.logger.info(f"Using SMOTE: {smote_strategy_dict}")
-                    
-                else:
-                    # Use class weights
+
+                # Apply class weights (can be used with or without SMOTE)
+                if class_weight_type != 'none':
                     if class_weight_type == 'auto':
                         class_weights = calculate_auto_class_weights(y_train_full)
                         self.logger.info(f"Using auto class weights: {class_weights}")
@@ -960,18 +967,15 @@ class TrainPipeline:
                         class_weights = custom_weights_dict
                         self.logger.info(f"Using custom class weights: {class_weights}")
                     
-                    # Create sample weights
-                    if class_weights:
+                    # Create sample weights (only if not using SMOTE)
+                    if class_weights and not use_smote:
                         sample_weights = apply_class_weights(y_train_full, class_weights)
                     
-                    imbalance_config = {
-                        'method': 'class_weights',
-                        'class_distribution': class_distribution,
+                    imbalance_config.update({
                         'sample_weights': sample_weights,
                         'class_weights': class_weights,
-                        'smote_instance': None,
-                    }
-                
+                    })
+
                 self.logger.info(f"Class imbalance handling: {imbalance_config['method']}")
                 self.logger.info(f"Class distribution: {class_distribution}")
             
@@ -993,8 +997,8 @@ class TrainPipeline:
                 if isinstance(load_params, dict):
                     classifier_params.update(load_params)
                 
-                # Set class weights if not using SMOTE
-                if not use_smote and class_weights is not None and 'class_weight' in classifier_params:
+                # Set class weights parameter if using class weights (with or without SMOTE)
+                if class_weights is not None and 'class_weight' in classifier_params:
                     classifier_params['class_weight'] = class_weights
                     self.logger.info(f"Set class_weight parameter: {class_weights}")
                 
@@ -1003,17 +1007,18 @@ class TrainPipeline:
             # Build the complete pipeline
             pipeline_steps = base_pipeline.steps.copy()
             
-            if smote_instance is not None:
+            if imbalance_config and imbalance_config['smote_instance'] is not None:
                 from imblearn.pipeline import Pipeline as ImbPipeline
-                pipeline_steps.append(('smote', smote_instance))
-                pipeline_steps.append((estimator_name, model_instance))
+                pipeline_steps.append(('smote', imbalance_config['smote_instance']))
+            
+            pipeline_steps.append((estimator_name, model_instance))
+            
+            if imbalance_config and imbalance_config['smote_instance'] is not None:
                 self.model = ImbPipeline(pipeline_steps)
             else:
-                pipeline_steps.append((estimator_name, model_instance))
                 self.model = Pipeline(pipeline_steps)
             
             # Training logic
-            # In the train method, update the search.fit call:
             if use_bayesian or use_grid_search or use_random_search:
                 search = self.initialize_search(
                     model_type=model_type,
@@ -1026,9 +1031,10 @@ class TrainPipeline:
                 )
                 
                 self.logger.info("Starting parameter search...")
-                if smote_instance is not None:
-                    search.fit(X_train_full, y_train_full)
-                else:
+                
+                # Handle sample weights for search (only if not using SMOTE)
+                fit_params = {}
+                if imbalance_config and imbalance_config['sample_weights'] is not None:
                     # Find the correct step name for sample weights
                     final_step_name = None
                     for step_name, step_obj in self.model.named_steps.items():
@@ -1036,11 +1042,13 @@ class TrainPipeline:
                             final_step_name = step_name
                             break
                     
-                    if final_step_name and sample_weights is not None:
-                        fit_params = {f'{final_step_name}__sample_weight': sample_weights}
-                        search.fit(X_train_full, y_train_full, **fit_params)
-                    else:
-                        search.fit(X_train_full, y_train_full)
+                    if final_step_name:
+                        fit_params = {f'{final_step_name}__sample_weight': imbalance_config['sample_weights']}
+                
+                if fit_params:
+                    search.fit(X_train_full, y_train_full, **fit_params)
+                else:
+                    search.fit(X_train_full, y_train_full)
 
                 self.model = search.best_estimator_
                 
@@ -1061,10 +1069,10 @@ class TrainPipeline:
                 # Clone model for each fold
                 fold_model = clone(self.model)
                 
-                # Get sample weights for this fold (if using class weights)
+                # Get sample weights for this fold (if using class weights without SMOTE)
                 fold_sample_weights = None
-                if sample_weights is not None:
-                    fold_sample_weights = sample_weights[train_idx]
+                if imbalance_config and imbalance_config['sample_weights'] is not None:
+                    fold_sample_weights = imbalance_config['sample_weights'][train_idx]
                 
                 # Train and evaluate
                 if self.task_type == 'classification':
@@ -1076,7 +1084,7 @@ class TrainPipeline:
                         self.logger,
                         fold=fold,
                         class_names=class_names,
-                        sample_weight=fold_sample_weights  # Add this parameter
+                        sample_weight=fold_sample_weights
                     )
                 else:
                     metrics = evaluate_regression_model(
@@ -1089,10 +1097,12 @@ class TrainPipeline:
                 
                 self.cv_metrics.append(metrics)
             
-
             # Final training
             self.logger.info("Training final model on full training period...")
-            if smote_instance is None and sample_weights is not None:
+            
+            # Handle sample weights for final training (only if not using SMOTE)
+            fit_params = {}
+            if imbalance_config and imbalance_config['sample_weights'] is not None:
                 # Find the correct step name for sample weights
                 final_step_name = None
                 for step_name, step_obj in self.model.named_steps.items():
@@ -1101,10 +1111,10 @@ class TrainPipeline:
                         break
                 
                 if final_step_name:
-                    fit_params = {f'{final_step_name}__sample_weight': sample_weights}
-                    self.model.fit(X_train_full, y_train_full, **fit_params)
-                else:
-                    self.model.fit(X_train_full, y_train_full)
+                    fit_params = {f'{final_step_name}__sample_weight': imbalance_config['sample_weights']}
+            
+            if fit_params:
+                self.model.fit(X_train_full, y_train_full, **fit_params)
             else:
                 self.model.fit(X_train_full, y_train_full)
             
@@ -1135,6 +1145,7 @@ class TrainPipeline:
                     'holdout_ratio': holdout_ratio,
                     'used_smote': use_smote,
                     'smote_factor': smote_factor,
+                    'class_weight_type': class_weight_type,
                     'original_class_distribution': class_distribution,
                 }
                 
@@ -1160,6 +1171,7 @@ class TrainPipeline:
                     'holdout_ratio': holdout_ratio,
                     'used_smote': use_smote,
                     'smote_factor': smote_factor,
+                    'class_weight_type': class_weight_type,
                 }
                 
                 self.logger.info(f"Holdout RMSE: {holdout_rmse:.4f}, R²: {holdout_r2:.4f}")
@@ -2645,8 +2657,7 @@ def validate_imbalance_config(imbalance_method, use_smote, class_weight_type, cu
     """
     Validate that imbalance handling configuration is consistent
     """
-    if use_smote and class_weight_type != 'none':
-        return False, "Cannot use both SMOTE and class weights simultaneously"
+
     
     if class_weight_type == 'custom' and not custom_weights_dict:
         return False, "Custom weights type requires custom_weights_dict parameter"
