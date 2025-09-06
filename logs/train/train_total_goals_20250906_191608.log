@@ -1,0 +1,31 @@
+2025-09-06 19:16:08,426 - src.train_pipeline - INFO - Starting training for total_goals with model: xgboost, feature selection: rfe with 60 features
+2025-09-06 19:16:08,426 - src.train_pipeline - INFO - Preparing data with target column: total_goals
+2025-09-06 19:16:08,449 - src.train_pipeline - INFO - Filtered to 36682 completed matches
+2025-09-06 19:16:08,486 - src.train_pipeline - INFO - Sorted data chronologically by date
+2025-09-06 19:16:08,489 - src.train_pipeline - INFO - Auto-detected task type: regression
+2025-09-06 19:16:08,489 - src.train_pipeline - INFO - Preparing features...
+2025-09-06 19:16:08,519 - src.train_pipeline - INFO - Removed 40 potential leakage columns
+2025-09-06 19:16:08,696 - src.train_pipeline - INFO - Feature preparation complete. Final features: 134
+2025-09-06 19:16:08,697 - src.train_pipeline - INFO - Data preparation complete. Features: 134, Samples: 36682
+2025-09-06 19:16:08,703 - src.train_pipeline - INFO - Time Series Split - Training: 29346, Holdout: 7336
+2025-09-06 19:16:08,704 - src.train_pipeline - INFO - Building pipeline for xgboost with rfe feature selection
+2025-09-06 19:16:08,770 - src.train_pipeline - INFO - Numerical features: 134, Categorical features: 0
+2025-09-06 19:16:08,770 - src.train_pipeline - INFO - No categorical features found. Skipping OneHotEncoder.
+2025-09-06 19:16:08,770 - src.train_pipeline - INFO - Selected model class: xgboost for regression
+2025-09-06 19:16:08,770 - src.train_pipeline - INFO - Using feature selection method: rfe with top 60 features
+2025-09-06 19:16:08,770 - src.train_pipeline - INFO - Selected model class: xgboost for regression
+2025-09-06 19:16:08,771 - src.train_pipeline - INFO - Retrieved parameters for model: xgboost
+2025-09-06 19:16:08,771 - src.train_pipeline - INFO - Starting cross-validation...
+2025-09-06 19:16:08,771 - src.train_pipeline - INFO - Processing fold 1/5
+2025-09-06 19:16:15,237 - src.train_pipeline - INFO - Fold 1 - Test RMSE: 1.1684 - R²: 0.5246
+2025-09-06 19:16:15,239 - src.train_pipeline - INFO - Processing fold 2/5
+2025-09-06 19:16:26,080 - src.train_pipeline - INFO - Fold 2 - Test RMSE: 1.1311 - R²: 0.5389
+2025-09-06 19:16:26,082 - src.train_pipeline - INFO - Processing fold 3/5
+2025-09-06 19:16:42,472 - src.train_pipeline - INFO - Fold 3 - Test RMSE: 1.1075 - R²: 0.5637
+2025-09-06 19:16:42,476 - src.train_pipeline - INFO - Processing fold 4/5
+2025-09-06 19:17:03,393 - src.train_pipeline - INFO - Fold 4 - Test RMSE: 1.1145 - R²: 0.5497
+2025-09-06 19:17:03,397 - src.train_pipeline - INFO - Processing fold 5/5
+2025-09-06 19:17:28,068 - src.train_pipeline - INFO - Fold 5 - Test RMSE: 1.1271 - R²: 0.5703
+2025-09-06 19:17:28,075 - src.train_pipeline - INFO - Training final model on full training period...
+2025-09-06 19:17:55,793 - src.train_pipeline - INFO - Evaluating on holdout period...
+2025-09-06 19:17:55,836 - src.train_pipeline - INFO - Holdout RMSE: 1.1441, R²: 0.5447

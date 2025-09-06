@@ -1,2 +1,2 @@
-model_type,feature_selection_method,holdout_rmse,holdout_r2,holdout_mae,train_samples,holdout_samples,holdout_ratio,handled_class_imbalance,used_sample_weights,used_smote,smote_strategy
-xgboost,rfe,1.1489350052972642,0.517498098118058,0.9027285043172815,12515,3128,0.2,False,False,False,
+model_type,feature_selection_method,holdout_rmse,holdout_r2,holdout_mae,train_samples,holdout_samples,holdout_ratio,used_smote,smote_factor,class_weight_type
+xgboost,rfe,1.1440778228803914,0.5446917573015776,0.887760242627339,29346,7336,0.2,False,1.0,auto

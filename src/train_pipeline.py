@@ -472,7 +472,7 @@ class TrainPipeline:
             'status', 'home_team_flag', 'away_team_flag', 'home_team_name', 'away_team_name',
             'home_coach_id', 'away_coach_id', 'home_player_id', 'away_player_id', 'timestamp',
             'maintime', 'first_half', 'second_half', 'country', 'extratime', 'matchday', 'odds_home_win', 'odds_draw', 'odds_away_win',
-            'total_yellow_cards', 'total_red_cards', 'total_corners', 'outcome'
+            'total_yellow_cards', 'total_red_cards', 'total_corners'
         } & set(X.columns)
         
         # Drop leakage columns safely
@@ -1159,6 +1159,10 @@ class TrainPipeline:
                 y_pred_holdout = self.model.predict(X_holdout)
                 holdout_rmse = np.sqrt(mean_squared_error(y_holdout, y_pred_holdout))
                 holdout_r2 = r2_score(y_holdout, y_pred_holdout)
+                holdout_report = {
+                    'predictions': y_pred_holdout,
+                    'actuals': y_holdout.values
+                }
                 
                 self.final_metrics = {
                     'model_type': model_type,
@@ -1429,11 +1433,43 @@ class TrainPipeline:
         final_metrics_df = pd.DataFrame([self.final_metrics])
         final_metrics_df.to_csv(f"{self.paths['metrics']}/final_metrics.csv", index=False)
 
-        # Save holdout classification report if available
+        # Save holdout report based on task type
         if holdout_report:
-            holdout_report_df = pd.DataFrame(holdout_report).transpose()
-            holdout_report_filename =("test_classification_report.csv")
-            holdout_report_df.to_csv(f"{self.paths['metrics']}/{holdout_report_filename}", index=True)
+            if self.task_type == 'classification':
+                # For classification: save classification report
+                holdout_report_df = pd.DataFrame(holdout_report).transpose()
+                holdout_report_filename = "test_classification_report.csv"
+                holdout_report_df.to_csv(f"{self.paths['metrics']}/{holdout_report_filename}", index=True)
+            else:
+                # For regression: save prediction vs actual values
+                holdout_report_filename = "test_regression_predictions.csv"
+                
+                # Create a DataFrame with actual vs predicted values
+                y_pred = self.model.predict(X_test)
+                regression_report_df = pd.DataFrame({
+                    'actual': y_test,
+                    'predicted': y_pred,
+                    'error': y_test - y_pred,
+                    'absolute_error': np.abs(y_test - y_pred)
+                })
+                
+                # Add some regression-specific metrics to the report
+                regression_metrics = {
+                    'rmse': np.sqrt(mean_squared_error(y_test, y_pred)),
+                    'mae': mean_absolute_error(y_test, y_pred),
+                    'r2': r2_score(y_test, y_pred),
+                    'mean_actual': np.mean(y_test),
+                    'mean_predicted': np.mean(y_pred)
+                }
+                
+                # Save the predictions
+                regression_report_df.to_csv(f"{self.paths['metrics']}/{holdout_report_filename}", index=False)
+                
+                # Also save the regression metrics
+                pd.DataFrame([regression_metrics]).to_csv(
+                    f"{self.paths['metrics']}/test_regression_metrics.csv", 
+                    index=False
+                )
         
         # Save feature importances if available
         try:
@@ -1448,7 +1484,7 @@ class TrainPipeline:
                     'importance': importances
                 }).sort_values('importance', ascending=False)
                 
-                importance_filename = ("feature_importances.csv")
+                importance_filename = "feature_importances.csv"
                 importance_df.to_csv(f"{self.paths['metrics']}/{importance_filename}", index=False)
         except Exception as e:
             self.logger.warning(f"Could not save feature importances: {str(e)}")
@@ -1580,7 +1616,7 @@ class TrainPipeline:
             # Load metrics
             final_metrics = pd.read_csv(f"{base_path}/final_metrics.csv")
             cv_results = pd.read_csv(f"{base_path}/cross_validation_results.csv")
-            test_report = pd.read_csv(f"{base_path}/test_classification_report.csv", index_col=0)
+           
             
             task_type = 'classification' if 'holdout_accuracy' in final_metrics.columns else 'regression'
             
@@ -1590,6 +1626,7 @@ class TrainPipeline:
             print(f"{'='*80}")
             
             if task_type == 'classification':
+                test_report = pd.read_csv(f"{base_path}/test_classification_report.csv", index_col=0)
                 self.print_classification_report(test_report, cv_results, base_path)
             else:
                 self.print_regression_report(final_metrics, cv_results)
